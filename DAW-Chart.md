@@ -986,7 +986,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Studio One" rating="9"> </daw>
             <daw name="Pro Tools" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="6"> </daw>
+            <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
