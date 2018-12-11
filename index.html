@@ -1,0 +1,31 @@
+---
+layout: default
+---
+
+<div class="home">
+  <div class="post-list">
+    {% for i in (0..10) %}
+    {% assign post = site.posts[i] %}
+      {% if post.visible != 0 %}
+        <div class="index-post">
+          <span class="post-meta">{{ post.date | date: "%c" }}</span>
+          <h2>
+            <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          </h2>
+          {% if post.excerpt %}
+          {{ post.excerpt }}
+      {% endif %}
+          {% if post.content contains site.excerpt_separator %}
+            <a href="{{ post.url | prepend: site.baseurl }}">Read more →</a>
+          {% endif %}
+        </div>
+      {% endif %}
+    {% endfor %}
+      </div>
+
+  <div class="tags_footer">
+    <a>See more posts on the tags page!</a>
+  </div>
+
+</div>
+

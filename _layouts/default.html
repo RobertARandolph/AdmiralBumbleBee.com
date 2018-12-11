@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<body>
+
+  {% include header.html %}
+
+  <div>
+    <div class="side-bar-box">
+      <iframe src="/recentposts.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar1"></iframe>
+    </div>
+
+    <div class="side-bar-box2">
+      <iframe src="/categories.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar2"></iframe>
+    </div>
+  </div>
+  
+  <div class="page-content">
+
+    <div class="wrapper">
+      {{ content }}
+    </div>
+
+  </div>
+
+  {% include footer.html %}
+
+<script>
+  function getDocHeight(doc) {
+    doc = doc || document;
+    var body = doc.body
+    var html = doc.documentElement;
+    var height = Math.max( body.scrollHeight, body.offsetHeight, 
+        html.clientHeight, html.scrollHeight, html.offsetHeight );
+    return height;
+  }
+  function setIframeHeight(id) {
+      var iFrame = document.getElementById(id);
+      var doc = iFrame.contentDocument? iFrame.contentDocument: 
+          iFrame.contentWindow.document;
+      if (iFrame.style.visibility === 'hidden')
+        return;
+      iFrame.style.visibility = 'hidden';
+      iFrame.style.height = "10px";
+      iFrame.style.height = getDocHeight( doc ) + 4 + "px";
+      iFrame.style.visibility = 'visible';
+  }
+
+  var pre_onload = window.onload;
+
+  window.onload = function(){
+
+  if (pre_onload) {
+    pre_onload();
+  }
+
+    var bars = ["sidebar1", "sidebar2"];
+    for (i = 0; i < bars.length; i++) {
+      setIframeHeight(bars[i]);
+    } 
+}
+</script>
+</body>
+
+</html>

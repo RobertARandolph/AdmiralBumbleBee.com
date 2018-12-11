@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+
+{% include head.html %}
+
+<script type="text/javascript">
+  window.onload = func1;
+
+  function func1() {
+    for (x = 1; x < 7; x++) {
+      var h1s = document.getElementsByTagName("H" + x);
+
+      // Wrap Hx tags with the appropriate divs for an 'outline' type presentation
+      for (i = 0; i < h1s.length; i++) {
+        var w = document.createElement('div');
+        w.className = "h" + x + "-style";
+        var el = h1s[i];
+        var ns = el.nextSibling;
+
+        el.parentNode.insertBefore(w, el);
+        w.appendChild(el);
+
+        while (ns != null && (ns.tagName != "H" + x) && (ns.className != "h" + x + "-style")) {
+          ns2 = ns.nextSibling;
+          w.appendChild(ns);
+          ns = ns2;
+        }
+
+
+      }
+    }
+
+    // Autoplay videos in document because firefox/chrome won't autoplay after dom manipulation
+    var gv = document.getElementsByClassName("gifvid");
+
+    for (i = 0; i < gv.length; i++) {
+      gv[i].play();
+    }
+  }
+</script>
+
+<body>
+
+  {% include header.html %}
+  <script>
+    function getDocHeight(doc) {
+      doc = doc || document;
+      // stackoverflow.com/questions/1145850/
+      var body = doc.body, html = doc.documentElement;
+      var height = Math.max(body.scrollHeight, body.offsetHeight,
+        html.clientHeight, html.scrollHeight, html.offsetHeight);
+      return height;
+    }
+    function setIframeHeight(id) {
+      var ifrm = document.getElementById(id);
+      var doc = ifrm.contentDocument ? ifrm.contentDocument :
+        ifrm.contentWindow.document;
+      if (ifrm.style.visibility === 'hidden')
+        return;
+      ifrm.style.visibility = 'hidden';
+      ifrm.style.height = "10px"; // reset to minimal height ...
+      // IE opt. for bing/msn needs a bit added or scrollbar appears
+      ifrm.style.height = getDocHeight(doc) + 4 + "px";
+      ifrm.style.visibility = 'visible';
+    }
+
+    window.onload = function () {
+
+      var bars = ["sidebar1", "sidebar2"];
+      for (i = 0; i < bars.length; i++) {
+        setIframeHeight(bars[i]);
+      }
+    }
+  </script>
+
+  <div class="side-bar-box">
+    <iframe src="/recentposts.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar1"></iframe>
+  </div>
+
+  <div class="side-bar-box2">
+    <iframe src="/categories.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar2"></iframe>
+  </div>
+
+  <div class="page-content">
+
+    <div class="chartwrapper">
+      <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <header class="post-header">
+          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
+        </header>
+
+        <div class="post-content" itemprop="articleBody">
+          {{ content }}
+        </div>
+
+        {% if page.comments %}
+        <div id="disqus_thread"></div>
+        <script>
+            (function () { // DON'T EDIT BELOW THIS LINE
+              var d = document, s = d.createElement('script');
+
+              s.src = '//admiralbumblebee.disqus.com/embed.js';
+
+              s.setAttribute('data-timestamp', +new Date());
+              (d.head || d.body).appendChild(s);
+            })();
+        </script>
+        <noscript>Please enable JavaScript to view the
+          <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a>
+        </noscript>
+        {% endif %}
+
+      </article>
+    </div>
+
+  </div>
+
+  {% include footer.html %}
+
+</body>
+
+</html>

@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>REAPER Issue Generator</title>
+
+	<style>
+	  input:invalid {
+	      border: 1px solid red;
+	  }
+	  
+	  input:valid {
+	      border: 2px solid black;
+	  }
+
+	  textarea:invalid {
+	      border: 1px solid red;
+	  }
+
+	  textarea:valid {
+	      border: 2px solid black;
+	  }
+	  body {
+	      background: #E1E6E6;
+	      padding: 0px;
+	      margin: 0px;
+	  }
+	  #topper {
+	      height: 205px;
+	      background: black;
+	      font-size: 35px;
+	      color: white;
+	      display: block;
+	      margin-bottom: 20px;
+	  }
+	  #logo {
+	      float: left; 
+	      vertical-align: text-bottom;
+	      font-size: 8px;
+	      text-align: center;
+	  }
+	  #title { position: absolute; top: 126px; left: 155px; }
+	</style>
+        <script>
+	  function bind_form() {
+	      document.getElementById("issueform").addEventListener("submit", create_report, false);
+	  }
+	  
+	  
+function create_report(event) {
+    var main_form = document.getElementById("issueform");
+    var title = main_form.elements.namedItem("textinput").value;
+
+    var final_post = main_form.elements.namedItem("finalpost");
+    var checked_classes = 0;
+    var issue_classes = "";
+	  
+    final_post.value = "";
+
+    main_form.elements.namedItem("finaltitle").value = title;
+
+    event.preventDefault();
+
+    var spec = main_form.elements.namedItem("systemspec").value;
+    var version = main_form.elements.namedItem("REAPERversion").value;
+    var expect =  main_form.elements.namedItem("expect").value;
+    var actually = main_form.elements.namedItem("actually").value;
+    var steps =  main_form.elements.namedItem("steps").value;
+    var crashlog = main_form.elements.namedItem("crashlog").value;
+    var posts = main_form.elements.namedItem("postlink").value;
+    var media = main_form.elements.namedItem("media").value;
+    var workaround = main_form.elements.namedItem("workaround").value;
+	  
+    var inputElements = document.getElementsByName('issue_type');
+    inputElements_length = inputElements.length;
+	  
+    for(var i=0; i < inputElements_length; i++){
+        if(inputElements[i].checked){
+	     issue_classes  += "[*] " + inputElements[i].nextSibling.nodeValue.replace(/^\s+|\s+$/g, '') + "\n";
+	     checked_classes++;
+        }
+    }
+
+    final_post.value =
+
+    (checked_classes ? "[b]Type of issue:[/b]\n[list]\n" + issue_classes + "[/list]\n\n" : "")
+
+    + "[b]System Specifications[/b]\n"
+
+    + "[list]\n"
+
+    + "[*] OS Version: " + (spec ? spec : "Not Specified") + "\n"
+
+    + "[*] REAPER Version: " + (version ? version : "Assumed current or topical") + "\n"
+
+    + "\n[/list]\n"
+
+    + "[b]Description of issue:[/b]\n"
+
+    + "[list]\n"
+
+    + "[*] Expected behaviour: " + expect + "\n"
+
+    + "[*] What actually occurs: " + actually + "\n"
+
+    + "[/list]\n"
+
+    + "[b]Steps to reproduce the issue:[/b]\n\n"
+
+    + steps + "\n\n"
+
+    + (document.getElementById('radioconfirm').checked ? "[b]Link to post(s) confirming issue:[/b]\n" + document.getElementById('confirmlink').value + "\n" : "")
+		     
+    + (crashlog ? "[b]Crashlog Link[/b]:" + crashlog + "\n\n" : "")
+
+    + ((posts + media) ? "[b]Citations[/b]\n[list]\n"
+
+    + (posts ? "[*] Posts discussing issue: " + posts + "\n" : "")
+
+    + (media ? "[*] Media describing issue: " + media + "\n" : "")
+
+    + "[/list]\n"
+
+    : "")
+		     
+    + (workaround ? "[b]Workarounds:[/b]\n" + workaround + "\n\n" : "")
+		  
+    + "------------------------------\n\n[COLOR=\"Red\"]Generated with [URL=\"https://www.admiralbumblebee.com/Reaper/ReaperIssue.html\"]AdmiralBumbleBee's REAPER Issue Generator[/URL][/COLOR]";
+
+return true;
+
+}
+        </script>
+    </head>
+    <body onLoad="bind_form()">
+
+      <div id="topper">
+	<span id="title">Issue report generator</span>
+	<div id="logo"><a href="https://forum.cockos.com/forumdisplay.php?f=22"><img src="/assets/Reaper/logo_sc.jpg"></a><br>not affiliated with the above</div>
+      </div>
+        <form class="form-horizontal" ACTION="" id="issueform">
+            <fieldset>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Title</label>  
+                    <div class="col-md-4">
+                        <input id="textinput" name="title" type="text" placeholder="" class="form-control input-md" required>
+
+                    </div>
+                </div>
+
+                <br>
+                <!-- Multiple Checkboxes -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="issue_type">Type of issue</label>
+                    <div class="col-md-4">
+                        <div class="checkbox">
+                            <label for="issue_type-0">
+                                <input type="checkbox" name="issue_type" id="issue_type-0" value="0">
+                                Crashing REAPER
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-1">
+                                <input type="checkbox" name="issue_type" id="issue_type-1" value="1">
+                                Crashing other software when executing a function in REAPER
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-2">
+                                <input type="checkbox" name="issue_type" id="issue_type-2" value="">
+                                Behaviour contrary to documentation
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-3">
+                                <input type="checkbox" name="issue_type" id="issue_type-3" value="">
+                                Undocumented changes that do not work contrary to expectation or marketing.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-4">
+                                <input type="checkbox" name="issue_type" id="issue_type-4" value="">
+                                Inconsistent display of information
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-5">
+                                <input type="checkbox" name="issue_type" id="issue_type-5" value="">
+                                Display glitches
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-6">
+                                <input type="checkbox" name="issue_type" id="issue_type-6" value="">
+                                Inconsistencies with repeated identical input
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-7">
+                                <input type="checkbox" name="issue_type" id="issue_type-7" value="">
+                                Undocumented changes from previous versions
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-9">
+                                <input type="checkbox" name="issue_type" id="issue_type-9" value="">
+                                Well documented performance decrease from a previous version of REAPER
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-10">
+                                <input type="checkbox" name="issue_type" id="issue_type-10" value="">
+                                Issues with plugins when the developer explicitly states compatibility with the current version of REAPER.
+                            </label>
+                        </div>
+			<div class="checkbox">
+                            <label for="issue_type-10">
+                                <input type="checkbox" name="issue_type" id="issue_type-10" value="">
+                                Nitpick.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="systemspec">Operating System</label>  
+                    <div class="col-md-4">
+                        <input id="systemspec" name="systemspec" type="text" placeholder="" class="form-control input-md" required>
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="REAPERversion">REAPER Version</label>  
+                    <div class="col-md-4">
+                        <input id="REAPERversion" name="REAPERversion" type="text" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="expect">What do you expect to occur</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="expect" name="expect" cols="80" rows="10" required></textarea>
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="actually">What actually occurs</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="actually" name="actually" cols="80" rows="10" required></textarea>
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="steps">Steps to reproduce the issue</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="steps" name="steps" cols="80" rows="10" required></textarea>
+                    </div>
+                </div>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="crashlog">If you have a crashlog, save it to pastebin, dropbox or google drive and paste link here:</label>  
+                    <div class="col-md-4">
+                        <input id="crashlog" name="crashlog" type="text" placeholder="" class="form-control input-md" size="80">
+
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Is the issue confirmed by another party?</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                                <input type="radio" name="radios2" id="radioconfirm" value="0" onclick="document.getElementById('confirmlinkdiv').style.visibility = 'visible'">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-1">
+                                <input type="radio" name="radios2" id="radionoconfirm" value="1" checked="checked" onclick="document.getElementById('confirmlinkdiv').style.visibility = 'hidden'">
+                                No
+                            </label>
+                        </div>
+			<div id="confirmlinkdiv" style="visibility: hidden;">
+			  Link to confirmation here:<br>
+			  <input id="confirmlink" name="confirmlink" type="text" placeholder="" class="form-control input-md" size="80">
+			</div>  
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="postlink">Link to post(s) discussing issue</label>  
+                    <div class="col-md-4">
+                        <input id="postlink" name="postlink" type="text" placeholder="" class="form-control input-md" size="80">
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="media">Media showing the issue</label>  
+                    <div class="col-md-4">
+                        <input id="media" name="media" type="text" placeholder="" class="form-control input-md" size="80">
+
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="workaround">Workaround(s)</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="workaround" name="workaround" cols="80" rows="10"></textarea>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="createreport">Create bug report</label>
+                    <div class="col-md-4">
+                      <input type="submit" value="Generate Report">
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="finaltitle">Copy to Post title</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="finaltitle" name="finaltitle" cols="80" rows="1"></textarea>
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="finalpost">Copy to Post area</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="finalpost" name="finalpost" cols="80" rows="20"></textarea>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>

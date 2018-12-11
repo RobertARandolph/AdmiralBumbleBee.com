@@ -1,0 +1,367 @@
+/**
+ * Reset some basic elements
+ */
+body, h1, h2, h3, h4, h5, h6,
+p, blockquote, hr,
+dl, dd, ol, ul, figure {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+/**
+ * Basic styling
+ */
+body {
+    font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+    color: $text-color;
+    background-color: $background-color;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+}
+
+.side-bar-body {
+    background-color: $container-background !important;
+}
+
+
+
+/**
+ * Set `margin-bottom` to maintain vertical rhythm
+ */
+h1, h2, h3, h4, h5, h6,
+p, blockquote,
+ul, ol, dl, figure,
+%vertical-rhythm {
+    margin-bottom: $spacing-unit / 2;
+} 
+
+
+
+/**
+ * Images
+ */
+img {
+    max-width: 100%;
+    vertical-align: middle;
+	margin: 0 auto;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+
+    @include media-query($on-palm) {
+        max-width: 95%;
+    }
+}
+
+.image-caption {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+/** 
+ * Videos  
+ **/
+
+ video {
+    max-width: 100%;
+    vertical-align: middle;
+	margin: 0 auto;
+	display: block;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+    border-radius: 5px;
+    
+    @include media-query($on-palm) {
+        max-width: 95%;
+    }
+}
+
+.video-caption {
+	margin: 0 auto;
+	width: 80%;
+	text-align: center;
+	display: block;
+	font-weight: normal;
+    border-bottom: 1px solid grey;
+    margin-bottom: 10px;
+}
+
+/**
+ * Figures
+ */
+figure > img {
+    display: block;
+}
+
+figcaption {
+    font-size: $small-font-size;
+}
+
+
+
+/**
+ * Lists
+ */
+ul, ol {
+    margin-left: $spacing-unit;
+    @include media-query($on-palm) {
+        margin-left: $spacing-unit / 4;
+    }
+}
+
+li {
+    > ul,
+    > ol {
+         margin-bottom: 0px;
+    }
+}
+
+
+/**
+ * Headings
+ */
+h1, h2, h3, h4, h5, h6 {
+    font-weight: $base-font-weight;
+}
+
+
+
+/**
+ * Links
+ */
+a {
+    color: $brand-color;
+    text-decoration: none;
+
+    &:visited {
+        color: darken($brand-color, 15%);
+    }
+
+    &:hover {
+        color: $text-color;
+        text-decoration: underline;
+    }
+}
+
+
+
+/**
+ * Blockquotes
+ */
+blockquote {
+    color: $grey-color-dark;
+    border-left: 4px solid $grey-color-light;
+    padding-left: $spacing-unit / 2;
+    font-size: 15px;
+    font-style: lighter;
+
+    > :last-child {
+        margin-bottom: 0;
+    }
+}
+
+
+
+/**
+ * Code formatting
+ */
+pre,
+code {
+    font-size: 15px;
+    //background-color: $highlighter-background;
+    color: $highlighter-color;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+code {
+    padding: 5px 8px;
+}
+
+pre {
+    padding: 0px;
+    //overflow-x: auto;
+    border-radius: 10px;
+
+    > code {
+        border: 0;
+        padding-right: 0;
+        padding-left: 0;
+    }
+
+    .lineno {
+        border: none;
+        border-right: 1px solid $text-color;
+        border-radius: 0px;
+        color: $grey-color;
+        background: $highlighter-background;
+        padding: 0px 5px;
+    }
+
+}
+
+.rouge-gutter {
+    background: $highlighter-background;
+}
+
+.rouge-code {
+    padding-left: 5px;
+    tr:nth-child(even) {background: #CCC}
+    tr:nth-child(odd) {background: #FFF}
+    background: $highlighter-background;
+
+}
+
+.highlighter-rouge {
+    margin-bottom: 15px;
+    overflow-x: auto;
+}
+
+/**
+ * Wrapper
+ */
+.wrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+        max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+
+    @include media-query($on-palm) {
+        max-width: 100%;
+        padding-right: $spacing-unit / 4;
+        padding-left: $spacing-unit / 4;
+    }
+
+    @extend %clearfix;
+}
+
+.chartwrapper {
+    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+    max-width:         calc(#{$content-width} - (#{$spacing-unit} * 2));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit;
+    padding-left: $spacing-unit;
+}
+
+
+
+/**
+ * Clearfix
+ */
+%clearfix {
+
+    &:after {
+        content: "";
+        display: table;
+        clear: both;
+    }
+}
+
+
+/**
+ * Icons
+ */
+.icon {
+
+    > svg {
+        display: inline-block;
+        width: 16px;
+        height: 16px;
+        vertical-align: middle;
+
+        path {
+            fill: $grey-color;
+        }
+    }
+}
+
+:target:before {
+    content:"";
+    display:block;
+    height: 65px;
+    margin: -65px 0 0;
+} 
+
+.h1-style {
+  margin-left: 0em;
+}
+
+.h2-style {
+  background-color: $h2-background-color;
+  margin: 0%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 2px solid rgb(240,240,240);
+}
+
+.h3-style {
+  background-color: $h3-background-color;
+  margin: 0%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 2px solid rgb(230,230,230);
+}
+
+.h4-style {
+  background-color: $h4-background-color;
+  margin: 0%;
+  margin-bottom: 2%;
+  padding: 1%;
+  border-radius: 5px;
+  border: 2px solid rgb(230,230,230);
+}
+
+.post-header > .h1-style {
+  background-color: transparent;
+}
+
+@media screen and (min-width: 801px) {      max-width: 60vw; }
+
+iframe {
+	margin: 0 auto;
+	display: block;
+	padding-bottom: 15px;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 5px;
+    border:2px solid #000000;
+    margin-bottom: 15px;
+}
+
+th {
+    padding-left: 0.5em;
+    padding-right: 1em;
+    border:2px solid #000000;
+}
+
+td {
+    padding-left: 0.5em;
+    padding-right: 1em;
+    border:1px solid #000000;
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>title</title>
+        <script>
+function create_report() {
+    var main_form = document.getElementById("issueform");
+    var title = main_form.elements.namedItem("textinput").value;
+
+    var final_post = main_form.elements.namedItem("finalpost");
+
+    final_post.value = "";
+
+    main_form.elements.namedItem("finaltitle").value = title;
+
+
+    final_post.value  += "[b]Type of issue:[/b]\n";
+
+    final_post.value  += "[list]\n";
+    var inputElements = document.getElementsByName('issue_type');
+    var inputElements_length = inputElements.length;
+
+    for(var i=0; i < inputElements_length; i++){
+        if(inputElements[i].checked){
+            final_post.value  += "[*] " + inputElements[i].nextSibling.nodeValue.replace(/^\s+|\s+$/g, '') + "\n";
+        }
+    }
+    final_post.value  += "[/list]\n";
+
+    final_post.value  += "[b]System Specifications[/b]\n";
+
+    final_post.value += "[list]\n";
+
+    final_post.value  += "[*] OS Version: " + main_form.elements.namedItem("systemspec").value + "\n";
+
+    final_post.value  += "[*] DP Version: " + main_form.elements.namedItem("dpversion").value; 
+
+    final_post.value  += "\n[/list]\n";
+
+    final_post.value  += "[b]Description of issue:[/b]\n";
+
+    final_post.value += "[list]\n";
+
+    final_post.value  += "[*] Expected behaviour: " + main_form.elements.namedItem("expect").value + "\n";
+
+    final_post.value  += "[*] What actually occurs: " + main_form.elements.namedItem("actually").value; 
+
+    final_post.value  += "\n[/list]\n";
+
+    final_post.value  += "[b]Steps to reproduce the issue:[/b]\n";
+
+    final_post.value  += main_form.elements.namedItem("steps").value + "\n\n";
+
+    final_post.value  += "[b]Citations[/b]\n";
+
+    final_post.value += "[list]\n";
+
+    final_post.value  += "[*] Manual page describing feature:" + main_form.elements.namedItem("manual").value + "\n";
+
+    final_post.value  += "[*] Posts discussing issue: " + main_form.elements.namedItem("postlink").value + "\n";
+
+    final_post.value  += "[*] Media describing issue: " + main_form.elements.namedItem("media").value + "\n";
+
+    final_post.value  += "\n[/list]\n";
+
+    final_post.value  += "[b]Motu Communication[/b]\n";
+
+    final_post.value += "[list]\n";
+
+    final_post.value += "[*] Techlink ";
+
+    if (document.getElementById('radios-1').checked)
+        final_post.value += "not ";
+
+    final_post.value += "filed\n";
+
+    final_post.value += "[*] Issue ";
+
+    if (document.getElementById('radios-3').checked)
+        final_post.value += "not ";
+
+    final_post.value += "confirmed\n\n";
+
+
+    final_post.value += "[/list]\n";
+
+    final_post.value  += "[b]Workarounds:[/b]\n";
+
+    final_post.value  += main_form.elements.namedItem("workaround").value + "\n\n";
+
+
+    return false;
+}
+        </script>
+    </head>
+    <body>
+        <form class="form-horizontal" ACTION="" id="issueform">
+            <fieldset>
+
+                <!-- Form Name -->
+                <legend>DP issue report creator</legend>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="textinput">Title</label>  
+                    <div class="col-md-4">
+                        <input id="textinput" name="title" type="text" placeholder="" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Multiple Checkboxes -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="issue_type">Type of issue</label>
+                    <div class="col-md-4">
+                        <div class="checkbox">
+                            <label for="issue_type-0">
+                                <input type="checkbox" name="issue_type" id="issue_type-0" value="0">
+                                Crashing DP
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-1">
+                                <input type="checkbox" name="issue_type" id="issue_type-1" value="1">
+                                Crashing other software when executing a function in DP
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-2">
+                                <input type="checkbox" name="issue_type" id="issue_type-2" value="">
+                                Behaviour contrary to documentation
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-3">
+                                <input type="checkbox" name="issue_type" id="issue_type-3" value="">
+                                Undocumented changes that do not work contrary to expectation or marketing.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-4">
+                                <input type="checkbox" name="issue_type" id="issue_type-4" value="">
+                                Inconsistent display of information
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-5">
+                                <input type="checkbox" name="issue_type" id="issue_type-5" value="">
+                                Display glitches
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-6">
+                                <input type="checkbox" name="issue_type" id="issue_type-6" value="">
+                                Inconsistencies with repeated identical input
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-7">
+                                <input type="checkbox" name="issue_type" id="issue_type-7" value="">
+                                Undocumented changes from previous versions
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-8">
+                                <input type="checkbox" name="issue_type" id="issue_type-8" value="">
+                                Any behaviour that has been accepted as 'buggy' by motu. Requires proof of a techlink response.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-9">
+                                <input type="checkbox" name="issue_type" id="issue_type-9" value="">
+                                Well documented performance decrease from a previous version of DP
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-10">
+                                <input type="checkbox" name="issue_type" id="issue_type-10" value="">
+                                Issues with plugins when the developer explicitly states compatibility with the current version of DP.
+                            </label>
+                        </div>
+                        <div class="checkbox">
+                            <label for="issue_type-11">
+                                <input type="checkbox" name="issue_type" id="issue_type-11" value="">
+                                Behaviour that is neither intuitive nor described fully in the manual.
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <br>
+                <br>
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="systemspec">Operating System</label>  
+                    <div class="col-md-4">
+                        <input id="systemspec" name="systemspec" type="text" placeholder="" class="form-control input-md" required="">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="dpversion">Digital Performer Version</label>  
+                    <div class="col-md-4">
+                        <input id="dpversion" name="dpversion" type="text" placeholder="" class="form-control input-md">
+
+                    </div>
+                </div>
+                <br>
+                <br>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="expect">What do you expect to occur</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="expect" name="expect" cols="80" rows="20"></textarea>
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="actually">What actually occurs</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="actually" name="actually" cols="80" rows="20"></textarea>
+                    </div>
+                </div>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="steps">Steps to reproduce the issue</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="steps" name="steps" cols="80" rows="20">Be as concise as possible, please.</textarea>
+                    </div>
+                </div>
+
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Did you file a techlink?</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                                <input type="radio" name="radios" id="radios-0" value="0" >
+                                Yes
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-1">
+                                <input type="radio" name="radios" id="radios-1" value="1" checked="checked">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Multiple Radios -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="radios">Is the issue confirmed by Motu?</label>
+                    <div class="col-md-4">
+                        <div class="radio">
+                            <label for="radios-0">
+                                <input type="radio" name="radios2" id="radios-2" value="0">
+                                Yes
+                            </label>
+                        </div>
+                        <div class="radio">
+                            <label for="radios-1">
+                                <input type="radio" name="radios2" id="radios-3" value="1" checked="checked">
+                                No
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="manual">Manual page describing feature</label>  
+                    <div class="col-md-4">
+                        <input id="manual" name="manual" type="text" placeholder="" class="form-control input-md" size="80">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="postlink">Link to post(s) discussion issue</label>  
+                    <div class="col-md-4">
+                        <input id="postlink" name="postlink" type="text" placeholder="" class="form-control input-md" size="80">
+
+                    </div>
+                </div>
+
+                <!-- Text input-->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="media">Media showing the issue</label>  
+                    <div class="col-md-4">
+                        <input id="media" name="media" type="text" placeholder="" class="form-control input-md" size="80">
+
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="workaround">Workaround(s)</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="workaround" name="workaround" cols="80" rows="20"></textarea>
+                    </div>
+                </div>
+                <br>
+                <br>
+
+
+                <!-- Button -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="createreport">Create bug report</label>
+                    <div class="col-md-4">
+                        <button id="createreport" name="createreport" class="btn btn-primary" onClick="create_report(); return false;">Create!</button>
+                    </div>
+                </div>
+                <br>
+                <br>
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="finaltitle">Copy to Post title</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="finaltitle" name="finaltitle" cols="80" rows="1"></textarea>
+                    </div>
+                </div>
+
+                <!-- Textarea -->
+                <div class="form-group">
+                    <label class="col-md-4 control-label" for="finalpost">Copy to Post area</label>
+                    <div class="col-md-4">                     
+                        <textarea class="form-control" id="finalpost" name="finalpost" cols="80" rows="20"></textarea>
+                    </div>
+                </div>
+
+            </fieldset>
+        </form>
+
+    </body>
+</html>

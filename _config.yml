@@ -1,0 +1,46 @@
+# Welcome to Jekyll!
+#
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely need to edit after that.
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'jekyll serve'. If you change this file, please restart the server process.
+
+# Site settings
+title: AdmiralBumbleBee.com
+email:
+description: Things that you want which you can't find anywhere else
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://www.admiralbumblebee.com" # the base hostname & protocol for your site
+comments: true
+host: 0.0.0.0
+highlighter: rouge
+keep_files: ['assets', 'admc', 'admdc', 'admt']
+
+# Build settings
+markdown: kramdown
+
+kramdown:
+  input:          GFM
+  # https://github.com/jekyll/jekyll/pull/4090
+  syntax_highlighter: rouge
+
+  # Rouge Highlighter in Kramdown › http://kramdown.gettalong.org/syntax_highlighter/rouge.html
+  # span, block element options fall back to global
+  syntax_highlighter_opts:
+    # Rouge Options › https://github.com/jneen/rouge#full-options
+    css_class: 'highlight'
+    #line_numbers: true # bad idea, spans don't need linenos and would inherit this option
+    span:
+      line_numbers: false
+    block:
+      line_numbers: true
+      start_line: 1
+
+# Other shit
+excerpt_separator: <!--more-->
+
+# plugins
+plugins_dir: ./_plugins
+
+plugins: 
+  - jekyll-last-modified-at

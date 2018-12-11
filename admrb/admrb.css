@@ -1,0 +1,44 @@
+.admrb_main_box {
+    display: block;
+    background: transparent;
+    border-radius: 3px;
+    margin: 5px 0px;
+    padding: 3px 0px;
+    height: 27px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    width: 80%;
+}
+
+.admrb_main_bar {
+    width: 65%;
+    background-color: red;
+    margin: 0px 5px;
+    display: inline-table;
+    padding: 3px;
+    border-radius: 5px;
+    border: 2px solid black;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 4px grey;
+}
+
+.admrb_number {
+    width: 10%;
+    display: table-cell;
+    text-align: center;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 10px;
+    text-shadow: 1px 1px 2px lightgrey;
+    text-align: left;
+}
+
+.admrb_label {
+    display: inline-block;
+    font-family: "Arial Black", Gadget, sans-serif;
+    font-size: 16px;
+    text-shadow: 1px 1px 2px white;
+    margin: 0px 2px;
+    vertical-align: middle;
+}
