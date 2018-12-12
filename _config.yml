@@ -15,6 +15,7 @@ comments: true
 host: 0.0.0.0
 highlighter: rouge
 keep_files: ['assets', 'admc', 'admdc', 'admt']
+exclude: ['bundler_stubs']
 
 # Build settings
 markdown: kramdown

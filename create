@@ -55,4 +55,8 @@ This post took XX hours to research, photograph, write and edit. If you apprecia
 
 EOF
 
-open _posts/$_filename.md 
+if [[ "$OSTYPE" == "darwin"* ]]; then
+    open _posts/$_filename.md 
+elif [[ "$OSTYPE" == "msys" ]]; then
+    start _posts/$_filename.md 
+fi

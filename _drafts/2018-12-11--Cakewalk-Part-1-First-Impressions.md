@@ -1,23 +1,15 @@
 ---
 layout: post
-title: 30 days with Cakewalk
+title: "30 days with Cakewalk - Part 1: First Impressions"
 comments: true
-date:   2018-12-05_19:36:13 
+date:   2018-12-11_18:35:35 
 categories: music
-tags: ['DAW', 'Cakewalk']
+tags: ['Cakewalk', 'DAW']
 image:
-description: 30 days with Cakewalk
+description: First impressions
 series: Cakewalk
 ---
 
-{::nomarkdown}
-<img src="/assets/Cakewalk/Intro.png" alt="Introduction to Cakewalk">
-<div class="image-caption">Introduction to Cakewalk</div>
-{:/nomarkdown}
-
-This is a big one for me. [Cakewalk](https://cakewalk.bandlab.com) is a Windows only DAW. I **HATE** Windows (which I may explain why, in depth, later).
-
-I'll be spending 30 days working with Cakewalk as much as possible and leaving my thoughts as usual.
 
 **Other posts in this series**:
 
@@ -34,18 +26,17 @@ I'll be spending 30 days working with Cakewalk as much as possible and leaving m
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
 
-# Nothing here.
-
-This is just an announcement post. I need at least a week head-start. I spend a great deal of time ensuring my content is accurate and that my opinions are well-founded.
-
-Sorry for the lack of content, but I don't want to just throw out half-assed things to meet my self-imposed weekly deadline.
+# Contents
+{:.no_toc}
+* TOC
+{:toc}
 
 # Support Me!
 
-I spent ~25 hours working with Cakewalk this week, despite no content being produced for the site yet. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
+This post took XX hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
-
+<a href="https://www.patreon.com/bePatron?u=7465992" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
+ 
 <form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
 <input type="hidden" name="cmd" value="_s-xclick">
 <input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
