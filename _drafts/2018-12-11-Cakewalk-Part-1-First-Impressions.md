@@ -31,6 +31,44 @@ series: Cakewalk
 * TOC
 {:toc}
 
+# Love it
+
+## GUI Configurability
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/GUI.png" alt="GUI Configuration">
+<div class="image-caption">GUI Configuration</div>
+{:/nomarkdown}
+
+## Playhead
+
+{::nomarkdown}
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/Cakewalk/Playhead.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">The playhead</div>
+{:/nomarkdown}
+
+
+
+# Annoyances
+
+## No underrun alert
+
+## Notifications
+
+## Device Alert
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/NewAudio.png" alt="New Audio Device?">
+<div class="image-caption">New Audio Device?</div>
+{:/nomarkdown}
+
+## Project Settings
+
+There aren't any... apparently?
+
 # Support Me!
 
 This post took XX hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>

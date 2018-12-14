@@ -6,7 +6,7 @@ _filename=$( printf "%s-%s" "$(date +%F)")
 
 echo $_rest
 
-_filename+="-Cakewalk-Part-$_first"
+_filename+="Cakewalk-Part-$_first"
 
 for var in $_rest 
 do
