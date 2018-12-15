@@ -5,10 +5,15 @@ comments: true
 date:   2018-12-15_13:13:20 
 categories: programming
 tags: ['Rant', 'Programming', 'Cakewalk']
-image:
+image: /assets/WinRant/Update.png
 description: Why I hate Windows, and why it probably doesn't matter to you.
 series: Cakewalk
 ---
+
+{::nomarkdown}
+<img src="/assets/WinRant/Update.png" alt="Windows Update">
+<div class="image-caption">Windows Update</div>
+{:/nomarkdown}
 
 Anyone that reads this knows that I hate [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows). I get questions fairly frequently about why, and the reasons require their own post.
 
@@ -46,6 +51,11 @@ If you have suggestions to improve my Windows experience and that would be wonde
 
 # Typing
 
+{::nomarkdown}
+<img src="/assets/WinRant/Language.png" alt="Language Settings">
+<div class="image-caption">Language Settings</div>
+{:/nomarkdown}
+
 I'm a bit weird when it comes to typing. I type with a keyboard layout called [Colemak](https://colemak.com/). If you care why, [read here](http://mkweb.bcgsc.ca/carpalx/). It's one of the most efficient layouts with the fewest keys moved.
 
 I also love doing language study. I'm particularly keen on studying vietnamese and korean. So this means using [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and a hangul layout with a [korean IME](https://support.microsoft.com/en-us/help/130053/howto-how-to-use-hangeul-korean-windows-input-method-editor-ime). I also switche to japanese study occasionally, which means using a [japanese IME](https://en.wikipedia.org/wiki/Japanese_input_methods).
@@ -66,7 +76,12 @@ Some applications don't seem to respect the layout I've setup in the Region and 
 
 ## Shortcuts
 
-It's [no secret that I love emacs]({% post_url link2018-10-06-Editor-Musings %}). Even though prefer using vim bindings, I utilize a number of emacs shortcuts when I type.
+{::nomarkdown}
+<img src="/assets/WinRant/XKeymacs.png" alt="Windows shortcut... solution?">
+<div class="image-caption">Windows shortcut... solution?</div>
+{:/nomarkdown}
+
+It's [no secret that I love emacs]({% post_url 2018-10-06-Editor-Musings %}). Even though prefer using vim bindings, I utilize a number of emacs shortcuts when I type.
 
 * Control (shift to select) - f - move caret right
 * Control (shift to select) - b - move caret left
@@ -94,6 +109,11 @@ XKeymacs has a number of issues besides that, but the inability to type `c-a c-k
 
 # Setup
 
+{::nomarkdown}
+<img src="/assets/WinRant/Runtime.png" alt="Let's install a few runtimes...">
+<div class="image-caption">Let's install a few runtimes...</div>
+{:/nomarkdown}
+
 Windows comes with very few things, which can be nice, but it is also problematic when you want to get a system up and running for productivity.
 
 You will need to get drivers installed for nearly every single part of your system, and you will probably spend time figuring out which version of the drivers are correct to have a stable system. Don't forget your peripherals as well!
@@ -105,6 +125,11 @@ And of course once you get all that set up you realize that none of these applic
 Let's not forget all the different runtimes that you need to install! C++, .net, C++ different version, .net again, some weird thing that's probably a virus but the application needs anyway...
 
 # Configuration
+
+{::nomarkdown}
+<img src="/assets/WinRant/Screen.png" alt="Where's that setting to change my primary screen again?">
+<div class="image-caption">Where's that setting to change my primary screen again?</div>
+{:/nomarkdown}
 
 You have everything set up, and it probably took less work than I've said (even though for me it takes even more work), and now you want to configure your computer to work how you want it to.
 
@@ -118,9 +143,20 @@ In macOS the same equipment (same system, same peripherals) are controlled by 1 
 
 ## Keyboard shortcuts
 
+{::nomarkdown}
+<img src="/assets/WinRant/Shortcuts.png" alt="Shortcuts... Nope.">
+<div class="image-caption">Shortcuts... Nope.</div>
+{:/nomarkdown}
+
 Of course, you can't change application shortcuts unless the application specifically offers you the capability to do so. Many applications do not give you that capability, even though it may be incredibly useful.
 
 In macOS you can change the shortcuts for nearly the entire OS and any application as needed if there's a menu item for the action.
+
+### Alt-F4
+
+**WHO IN THEIR RIGHT MIND THOUGHT THAT ALT-F4 WAS A SENSIBLE SHORTCUT TO CLOSE A WINDOW????????????????????????**
+
+Have you really thought about that? It's a difficult shortcut to press with one hand, despite being a common task. What about something like say... alt-q, or command-q?
 
 ## Consistency
 
@@ -130,6 +166,11 @@ This is not an issue if you are a self builder, it can be a major issue if you a
 
 ## Backups
 
+{::nomarkdown}
+<img src="/assets/WinRant/Restore.png" alt="Restore/Backup? LOL.">
+<div class="image-caption">Restore/Backup? LOL.</div>
+{:/nomarkdown}
+
 Having a good backup solution is one the most important things to do when you first set up a system. Windows does not come with a backup solution that is even remotely decent. It requires that you purchase and install a backup solution from another party, or be technical enough to set up something like [rsync](https://rsync.samba.org/) (which isn't the best backup solution anyway).
 
 I use the [Crashplan for business](https://www.crashplan.com/en-us/), but I also like having a local backup in case anything goes wrong and I need a quick restore, or to retrieve a handful files. Windows doesn't make this easy, in effect makes it somewhat difficult since backing up a window system so that it can be restored in place onto a new computer is nearly impossible. You generally are held to restoring only programs and files.
@@ -138,11 +179,34 @@ In macOS I was able to keep a single restore running from 2008 to 2017 across mu
 
 ## Text Editing
 
+{::nomarkdown}
+<img src="/assets/WinRant/Notepad.png" alt="Windows Text Editing brilliancy">
+<div class="image-caption">Windows Text Editing brilliancy</div>
+{:/nomarkdown}
+
 I'm convinced Sublime is so popular because most of the users are Windows users. (I know a number of macOS Sublime users, and Sublime is a quite nice, snappy application. So don't misinterpret me here...)
 
 Setting up emacs/vim in Windows is a massive pain in the buttocks. This is a big deal for me, and a major part of setting up a working operating system for me.
 
+## Codecs
+
+{::nomarkdown}
+<img src="/assets/WinRant/Codec.png" alt="Codecs">
+<div class="image-caption">Codecs</div>
+{:/nomarkdown}
+
+Let me guess, you want to watch some videos. Not quite yet... you need to install some codecs first. You also need to know that's what you need, and you need to find a pack of them that hopefully doesn't come with a bunch of ad/spyware. Oh yeah, and it may not have that _one_ codec you need.
+
+Or you can install VLC of course.
+
+Wait a second there... VLC doesn't let you export certain formats, in particular h264. If you want to use one of the most common video formats in the general computing world then you need to install ffmpeg, possibly for each application you want to use. Hopefully your _paid_ application supports it, but it might not.
+
 # Design issues
+
+{::nomarkdown}
+<img src="/assets/WinRant/Tracking.png" alt="Why is this _even_ a screen?">
+<div class="image-caption">Why is this _even_ a screen?</div>
+{:/nomarkdown}
 
 User as administrator? Why is that normal?
 
@@ -162,13 +226,23 @@ Why are there ads in my start menu? How did these random games show up that I ne
 
 ## HiDPI
 
+{::nomarkdown}
+<img src="/assets/WinRant/Scaling.png" alt="Scaling at least exists in Windows 10">
+<div class="image-caption">Scaling at least exists in Windows 10</div>
+{:/nomarkdown}
+
 Have you tried to use HiDPI in Windows? It's a disaster. About 1/4 of the applications are simply broken, and the rest are ugly or run unusually slow.
 
 It's not perfect on macOS of course (nothing you can do about low res bitmaps), but at least nothing is outright broken.
 
 ## EULA
 
-[Let's take a look here](https://www.microsoft.com/en-us/servicesagreement/)
+{::nomarkdown}
+<img src="/assets/WinRant/Services.png" alt="Windows Services EULA">
+<div class="image-caption">Windows Services EULA</div>
+{:/nomarkdown}
+
+[Let's take a look here](https://www.microsoft.com/en-us/servicesagreement/), which you agree to implicitly when you install Windows 10.
 
 `To the extent necessary to provide the Services to you and others, to protect you and the Services, and to improve Microsoft products and services, you grant to Microsoft a worldwide and royalty-free intellectual property license to use Your Content, for example, to make copies of, retain, transmit, reformat, display, and distribute via communication tools Your Content on the Services.`
 
@@ -180,6 +254,11 @@ No thanks.
 
 # Windows Update
 
+{::nomarkdown}
+<img src="/assets/WinRant/Update.png" alt="Windows Update">
+<div class="image-caption">Windows Update</div>
+{:/nomarkdown}
+
 What an incredible piece of garbage this is. Microsoft wanted you to upgrade your system more, so they create a system that forces you to upgrade your system, even when you don't want to.
 
 I have been unable to turn off Windows update no matter what I do. I have tried every single possible thing that I found on the Internet, and Windows still manages to turn Windows update back online and update at the worst possible times.
@@ -190,7 +269,7 @@ I have lost a significant amount of data due to Windows update. I absolutely des
 
 I have also had to reinstall Windows twice because Windows update installed something that caused my video card drivers to not operate correctly, and of course I was unable to fix it because the settings that controlled us were in a binary format and I was unable to edit them in safe mode without the drivers running.
 
-[I'm glad I'm not one of the people that lost everything because of Windows Update](linkhttps://www.engadget.com/2018/10/05/windows-10-october-update-1809-delete-data-wipe-user-profile/). Lest you think that is someone doing it wrong, [Microsoft themselves cofirmed it](linkhttps://www.forbes.com/sites/gordonkelly/2018/10/06/microsoft-windows-10-update-lost-data-upgrade-windows-7-windows-xp-free-upgrade/#3a69d7b66fa4). You know, [Microsoft really is something :|](https://www.digitaltrends.com/computing/microsoft-more-october-2018-update-bugs/).
+[I'm glad I'm not one of the people that lost everything because of Windows Update](https://www.engadget.com/2018/10/05/windows-10-october-update-1809-delete-data-wipe-user-profile/). Lest you think that is someone doing it wrong, [Microsoft themselves cofirmed it](https://www.forbes.com/sites/gordonkelly/2018/10/06/microsoft-windows-10-update-lost-data-upgrade-windows-7-windows-xp-free-upgrade/#3a69d7b66fa4). You know, [Microsoft really is something](https://www.digitaltrends.com/computing/microsoft-more-october-2019-update-bugs/).
 
 [Plus they spy on you anyway...](https://www.ghacks.net/2018/11/23/german-federal-office-bsi-publishes-telemetry-analysis/).
 
@@ -199,6 +278,11 @@ I have also had to reinstall Windows twice because Windows update installed some
 If there was one singular reason why I can't stand Windows, this is why. I have to choose between having a _working_ system and having a working up-to-date system.
 
 # Development
+
+{::nomarkdown}
+<img src="/assets/WinRant/Install.png" alt="Installing things sucks.">
+<div class="image-caption">Installing things sucks.</div>
+{:/nomarkdown}
 
 I had to set up [Python](https://www.python.org/), then [Ruby](https://www.ruby-lang.org/en/), then [Java](https://www.java.com/en/), then [WSL](https://docs.microsoft.com/en-us/windows/wsl/install-win10), then [Git](https://git-scm.com/download/win), then... about 25 other things.
 
@@ -210,9 +294,16 @@ I can't even find a terminal that works somewhat sanely. Powershell is limited, 
 
 Even doing something as simple as downloading [Visual Studio](https://visualstudio.microsoft.com/) and attempting to compile the [VST3 SDK examples](https://www.steinberg.net/en/company/technologies/vst3.html) didn't work correctly. In fact even Microsoft's own examples for C# and C++ did not work correctly!
 
+And don't even get me started on [chocolatey](https://chocolatey.org/)... even just _installing that_ is a pain.
+
 # Sound
 
 ## Multiclient Audio
+
+{::nomarkdown}
+<img src="/assets/WinRant/MultiClient.jpg" alt="You can't see it, but Itunes stopped, and won't play, soon as I opened Reaper">
+<div class="image-caption">You can't see it, but Itunes stopped, and won't play, stopped soon as I opened Reaper</div>
+{:/nomarkdown}
 
 If you spent enough on your audio interface and you don't have to worry about this, but most people running the issue that they cannot play audio through multiple applications at once when using an ASIO application.
 
@@ -222,15 +313,27 @@ This is _never_ an issue in macOS.
 
 ## Robustness
 
+{::nomarkdown}
+<img src="/assets/WinRant/LatencyMon.png" alt="I have a MONSTER system... can't run Cakewalk at 64 samples though">
+<div class="image-caption">I have a MONSTER system... can't run Cakewalk at 64 samples though</div>
+{:/nomarkdown}
+
 There is none. Open an application to check an e-mail, slack/discord or whatever. There's a chance you may end up with a parade of crackles in your audio and need to up your buffer size.
 
 No matter where I go there seems to always be something that messes up my DAW audio.
 
 In macOS while writing articles, I'll sometimes have 30+ applications open doing graphics/video/writing/programming and still have a DAW running perfectly in the background at 64 sample-length buffer.
 
-I can't manage this in Windows on the _same machine_ with the same everything connected with just 4 applications open.
+I can't manage this in Windows on the _same machine_ with the same everything connected, a lean Windows install and nothing open except the absolute necessary processes running. If I open an e-mail app or Chrome, then it's time to bump up the buffer.
+
+Run another DAW at the same time and _everything_ goes to pot. I've had 11 DAWs open at the same time in macOS without a hiccup. I can't even manage 2 in Windows (rewire, hah! Sure, good luck.) I'm sure it is possible, but it will require some digging and testing and configuration deep dives.
 
 ## Sample Rates
+
+{::nomarkdown}
+<img src="/assets/WinRant/SampleRate.png" alt="Wait... it defaults to 16-bit too">
+<div class="image-caption">Wait... it defaults to 16-bit too</div>
+{:/nomarkdown}
 
 Changing sample rates requires reopening nearly every single application on the computer. In macOS this is completely unnecessary, when you change sample rates everything updates as you may expect, everything updates. There will be a little pop, a quiet one, but everything still works.
 
@@ -242,6 +345,11 @@ That can be _exceptionally_ annoying.
 
 ## ASIO panels
 
+{::nomarkdown}
+<img src="/assets/WinRant/ASIO.png" alt="My $1,200 interface has worse configuration than one of my $79 ones... but only in Windows.">
+<div class="image-caption">My $1,200 interface has worse configuration than one of my $79 ones... but only in Windows.</div>
+{:/nomarkdown}
+
 When needing to adjust audio interface parameters inside of a DAW, Windows applications require you to open an ASIO control panel. None of these control panels work similarly or have a similar design, or even give you access to the same types of parameters.
 
 I switch interfaces relatively often and it can be somewhat annoying to have to switch my expectations of what I can do inside a control panel.
@@ -252,6 +360,11 @@ I have also rented situations where changing buffer sizes in the ASIO panel does
 
 ## No Quicklook in Explorer
 
+{::nomarkdown}
+<img src="/assets/WinRant/QuickLook.png" alt="How do you browse these images quickly?">
+<div class="image-caption">How do you browse these images quickly?</div>
+{:/nomarkdown}
+
 [This is something that can be fixed with an application installation](https://github.com/QL-Win/QuickLook), but why?
 
 QuickLook is functionality that allows you to simply hit the when browsing files in your file Explorer and instantly see a preview of that file. When looking through images or PDFs or any other document it is incredibly helpful to see a preview instantly to make sure that some weirdly named file is actually what you think it is.
@@ -260,6 +373,11 @@ I use QuickLook **A LOT** and I'm not entirely happy with the windows alternativ
 
 ## Filesystem is wonky
 
+{::nomarkdown}
+<img src="/assets/WinRant/Settings.png" alt="Let's change some settings..">
+<div class="image-caption">Let's change some settings..</div>
+{:/nomarkdown}
+
 What happens when you want to change a setting in Windows? You just go to file open it up and change the setting right?
 
 Well no… The setting might be in the registry, or it may be in a binary file hidden somewhere or who knows where it is! There is no place in the operating system where you can be guaranteed to find settings, preferences or other application information. It's the Wild Wild West out there.
@@ -267,6 +385,11 @@ Well no… The setting might be in the registry, or it may be in a binary file h
 This is not the problem of the filesystem itself, but the culture surrounding Windows and Microsoft lack of clear documentation regarding where things should be. This has improved in recent years, but there is no incentive for developers to follow any of these guidelines, nor is there an easy way to find these guidelines.
 
 ## Program Files (x86)
+
+{::nomarkdown}
+<img src="/assets/WinRant/x86.png" alt="WHY WHY WHY WHY do I have so many places for programs to go?">
+<div class="image-caption">WHY WHY WHY WHY do I have so many places for programs to go?</div>
+{:/nomarkdown}
 
 Need I say more? Your applications are all split up. Program Files, Program Files x86 and now Users\{UserName}\AppData\Local\Programs\ is a thing too.
 
@@ -280,6 +403,11 @@ I'm not annoyed that files are being written/read, I'm annoyed at how fractured 
 
 ## Consistency
 
+{::nomarkdown}
+<img src="/assets/WinRant/Menus.jpg" alt="They're all different!">
+<div class="image-caption">They're all different!</div>
+{:/nomarkdown}
+
 If your a Windows user then you have surely noticed that nearly every application has its own menu system, its own style of checkboxes combo boxes sliders etc… How the mouse buttons interact how the window is maximized or not maximized or how anything works is not consistent from application to application.
 
 here is almost no consistency between applications and windows, and that often means that for each application you have to do a major context switching your brain in order to interact with it. Initially learning the software is also an issue too.
@@ -290,15 +418,30 @@ This drives me absolutely crazy have to spend mental energy remembering where so
 
 ## Taskbar and Notifications
 
+{::nomarkdown}
+<img src="/assets/WinRant/Taskbar.png" alt="Taskbar is a terrible design.">
+<div class="image-caption">Taskbar is a terrible design.</div>
+{:/nomarkdown}
+
 The taskbar in the notification area are in the same GUI widget, which means that as the notification area grows you get less space to show where apps are. If you use the combined option then you lose track of where specific windows are, and it makes it more difficult to select the appropriate window.
 
 ## Alt-Tab
+
+{::nomarkdown}
+<img src="/assets/WinRant/AltTab.jpg" alt="Alt Tabbing to disaster">
+<div class="image-caption">Alt Tabbing to disaster</div>
+{:/nomarkdown}
 
 Regarding the previous point someone may suggest simply using alt tab, which I do.The issue is that there is no inter-app window switching hotkey. In macOS you use `cmd-~`,which will allow you to switch between windows of the selected application.
 
 Windows does not make a distinction between application Windows and applications, so when you use alt–tab you end up switching between every single open window on the operating system. This is both inefficient and frustrating.
 
 ## Menu bar
+
+{::nomarkdown}
+<img src="/assets/WinRant/MenuBar.png" alt="Menu Bars are all over the place">
+<div class="image-caption">Menu Bars are all over the place</div>
+{:/nomarkdown}
 
 I know this is something that bothers Windows users when they moved to macOS, but I strongly feel that this is a thing that macOS got right.
 
@@ -308,7 +451,25 @@ I can go to the file menu in almost any application with my eyes closed because 
 
 In Windows menus are all over the place. They may not even be at the top of the application, and many applications implement their own menu system that is different from others. That might mean that one application has checkboxes and is menus that work one way and another application has checkboxes that work another way and yet another application shows checkboxes but they don't actually do anything they open up a window.Some applications and windows, including ones from Microsoft itself, don't even have menus you click something and it opens up a sidebar that has a bunch of options for you.
 
+## Screenshots
+
+{::nomarkdown}
+<img src="/assets/WinRant/Screenshot.jpg" alt="Screenshots of screenshots">
+<div class="image-caption">Screenshots of screenshots</div>
+{:/nomarkdown}
+
+This is something I learned while writing this post... Taking screenshots is a terrible experience. The best application I found was [ShareX](https://getsharex.com/), and it exposes one of the nastier things about Windows: windows.
+
+If I want to take a screenshot of what looks like a window, sometimes it's not even possible. Microsoft's own explore isn't just 'a window', it's a bunch of windows stacked on each other. Yes, this is due to how Windows defines programmatic "windows", but as an end-user it's frustrating.
+
+Why do I even need to install a program to take screenshots anyway? Or to take video?
+
 ## Stuff I don't want
+
+{::nomarkdown}
+<img src="/assets/WinRant/StartMenu.png" alt="Why is this here? Why should I have to turn this off?">
+<div class="image-caption">Why is this here? Why should I have to turn this off?</div>
+{:/nomarkdown}
 
 Windows manages to have both a dearth of useful applications yet still constantly push all these idiotic games and useless pop culture applications upon you with no easy way to get rid of them.
 
@@ -320,6 +481,11 @@ In macOS I just drop that to [App Cleaner](https://freemacsoft.net/appcleaner/)a
 
 ## Slow down
 
+{::nomarkdown}
+<img src="/assets/WinRant/AppUsage.png" alt="Wait... why was Xbox running at all?">
+<div class="image-caption">Wait... why was Xbox running at all?</div>
+{:/nomarkdown}
+
 I am sure that this is not necessarily something that is inherently the fault of the operating system, however after I have windows open for about four hours it begins to slow down significantly without any signs of a memory leak or a runaway process.
 
 When googling for this I find that this is a very common issue that other people have and that there is a wide variety of solutions that tend to point to Windows components themselves rather than other installed applications.
@@ -328,11 +494,21 @@ I reinstalled Windows completely from scratch and did not install any other appl
 
 ## Cortana
 
+{::nomarkdown}
+<img src="/assets/WinRant/Cortana.png" alt="Cortana">
+<div class="image-caption">Cortana</div>
+{:/nomarkdown}
+
 I greatly dislike the concept of Cortana, but it is incredibly difficult to completely turn off. It is a privacy issue and even when attempting to use it it doesn't work very well at all.
 
 As a comparison, Siri is equally as useless, but I can completely turn it off.
 
 ## Deleting files
+
+{::nomarkdown}
+<img src="/assets/WinRant/InUse.png" alt="File is in use...">
+<div class="image-caption">File is in use...</div>
+{:/nomarkdown}
 
 If an application has a file open, then it is impossible to delete it in Windows. In Linux and macOS this is not an issue in the slightest.
 
