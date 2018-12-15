@@ -376,7 +376,7 @@ When needing to adjust audio interface parameters inside of a DAW, Windows appli
 
 I switch interfaces relatively often and it can be somewhat annoying to have to switch my expectations of what I can do inside a control panel.
 
-I have also rented situations where changing buffer sizes in the ASIO panel does not actually change the buffer size in the host.
+I have also run into situations where changing buffer sizes in the ASIO panel does not actually change the buffer size in the host.
 
 ## Performance
 
