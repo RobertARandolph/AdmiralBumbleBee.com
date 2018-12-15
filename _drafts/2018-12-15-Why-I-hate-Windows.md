@@ -2,16 +2,26 @@
 layout: post
 title: Why I hate Windows
 comments: true
-date:   2018-11-29_13:13:20 
+date:   2018-12-15_13:13:20 
 categories: programming
 tags: ['Rant', 'Programming', 'Cakewalk']
 image:
 description: Why I hate Windows, and why it probably doesn't matter to you.
+series: Cakewalk
 ---
 
 Anyone that reads this knows that I hate [Microsoft Windows](https://en.wikipedia.org/wiki/Microsoft_Windows). I get questions fairly frequently about why, and the reasons require their own post.
 
 This is that post.
+
+{% assign cakes = site.posts | where: "series", "Cakewalk" | sort: 'date' %}
+<ul>
+{% for my_page in cakes %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 <!--more-->
 
@@ -22,17 +32,73 @@ This is that post.
 * TOC
 {:toc}
 
+# WARNING
 
+**I AM NOT SAYING WINDOWS IS BAD**.
+
+It is. You know it is. I know it is. We don't need to cover that.
+
+I'm explaining _why I dislike using Windows_.
+
+Many of these reasons may not apply to you, and that's okay. It is my computer and these are the things that bother me about using Windows, and _some_ reasons why this Cakewalk review will be cut short. (There's some more serious Cakewalk-related reasons though).
+
+If you have suggestions to improve my Windows experience and that would be wonderful, but there's a very high likelihood that I have already tried. Don't let that stop you from making suggestions.
 
 # Typing
 
+I'm a bit weird when it comes to typing. I type with a keyboard layout called [Colemak](https://colemak.com/). If you care why, [read here](http://mkweb.bcgsc.ca/carpalx/). It's one of the most efficient layouts with the fewest keys moved.
+
+I also love doing language study. I'm particularly keen on studying vietnamese and korean. So this means using [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and a hangul layout with a [korean IME](https://support.microsoft.com/en-us/help/130053/howto-how-to-use-hangeul-korean-windows-input-method-editor-ime). I also switche to japanese study occasionally, which means using a [japanese IME](https://en.wikipedia.org/wiki/Japanese_input_methods).
+
+I also type with [dvorak programmer](https://www.kaufmann.no/roland/dvorak/), and of course with QWERTY occasionally.
+
+To complicate this all even more, I learned a re-arranged hangul layout that matches the transformation of QWERTY->colemak in terms of key placement. Telex is a special case that _shouldn't_ care where your keys are (Windows cares though...)
+
+I also have caps lock remapped to control, pause to escape, HL (h and l typed together) to escape and I have application specific hotkeys all over the place.
+
+Setting this up in Windows is **impossible**. Not _difficult_, but **impossible**.
+
+I've managed to get Colemak working fine, that's easy. Switching to another layout on the fly is difficult (it's a simple keypress in macOS). Using multiple IMEs it's incredibly difficult. Using a hangul layout + IME with a colemak layout transformation requires writing my own keyboard layout (including all sublayers!).
+
+So when I'm in Windows I can type english in Colemak and just live with that... _almost_.
+
+Some applications don't seem to respect the layout I've setup in the Region and Language settings. I've found a few applications where I can type in textboxes fine, but keyboard shortcuts work like QWERTY. I even found an application that made control back into caps lock!
+
+## Shortcuts
+
+It's [no secret that I love emacs]({% post_url link2018-10-06-Editor-Musings %}). Even though prefer using vim bindings, I utilize a number of emacs shortcuts when I type.
+
+* Control (shift to select) - f - move caret right
+* Control (shift to select) - b - move caret left
+* Control (shift to select) - n - move caret one line down
+* Control (shift to select) - p - move caret one line up
+* Control (shift to select) - a - move caret beginning of line
+* Control (shift to select) - e - move caret end of line
+* Control- h - delete character left
+* Control- d - delete character right
+* Control- k - delete from caret to end of line
+* Control- v - scroll down
+* Control- l - recenter caret to center of page
+* Control- t - transpose characters
+* Control- o - insert line
+* Control- k - cut
+* Control- y - paste (yank)
+
+I use these commands like it's second nature. Even when doing normal typing I constantly use these commands to do light editing to text. It's much easier than reaching for the arrow keys, page up/dn keys, backspace and there's no analog to transpose.
+
+These are _native_ to macOS. Nothing needs to be installed.
+
+[There is a potential solution to this in Windows](http://www.cam.hi-ho.ne.jp/oishi/indexen.html) but it has some problems. Keys like C-a and C-v are already taken by the OS as select all and paste respectively. (This is also an issue when using a non-cmd.exe/powershell terminal where c-c and c-z are already taken, so you can't copy/paste text without using other shortcuts).
+
+XKeymacs has a number of issues besides that, but the inability to type `c-a c-k` to delete a line drives me bonkers. It's built into my brain more firmly than where the 'h' key is.
+
 # Setup
 
-Windows comes with very few things, which can be nice, but it is also problematic when you want to get a system up and running.
+Windows comes with very few things, which can be nice, but it is also problematic when you want to get a system up and running for productivity.
 
 You will need to get drivers installed for nearly every single part of your system, and you will probably spend time figuring out which version of the drivers are correct to have a stable system. Don't forget your peripherals as well!
 
-Then you probably want some sort of application to deal with images, some sort of application for browsing the Internet, an application for listening to music, some sort of antivirus/firewall (or you will need to set up Windows variations of these), etc... Once you have all that going then you're almost set.
+Then you probably want some sort of application to deal with images, some sort of application for browsing the Internet, an application for listening to music, some sort of antivirus/firewall (or you will need to set up Windows variations of these), something for mail etc... Once you have all that going then you're almost set.
 
 And of course once you get all that set up you realize that none of these applications are designed to work with each other in any way whatsoever, and nor do they respect the file system in a consistent way so if you begin to work on a workflow that utilizes the software you need to come up with your own system to follow and integrate that with a variety of other applications ideas of how you're supposed to use your computer.
 
@@ -55,6 +121,26 @@ In macOS the same equipment (same system, same peripherals) are controlled by 1 
 Of course, you can't change application shortcuts unless the application specifically offers you the capability to do so. Many applications do not give you that capability, even though it may be incredibly useful.
 
 In macOS you can change the shortcuts for nearly the entire OS and any application as needed if there's a menu item for the action.
+
+## Consistency
+
+If you buy a new computer with Windows preinstalled on, you will have no idea how work or what is installed on. There is a great deal of manufacturer splintering where every manufacturer has their own custom Windows installation set up that they provide, and it is often not consistent per brand. Some companies splinter their Windows experiences based upon model.
+
+This is not an issue if you are a self builder, it can be a major issue if you are a business owner that requires support plans for your systems (like me).
+
+## Backups
+
+Having a good backup solution is one the most important things to do when you first set up a system. Windows does not come with a backup solution that is even remotely decent. It requires that you purchase and install a backup solution from another party, or be technical enough to set up something like [rsync](https://rsync.samba.org/) (which isn't the best backup solution anyway).
+
+I use the [Crashplan for business](https://www.crashplan.com/en-us/), but I also like having a local backup in case anything goes wrong and I need a quick restore, or to retrieve a handful files. Windows doesn't make this easy, in effect makes it somewhat difficult since backing up a window system so that it can be restored in place onto a new computer is nearly impossible. You generally are held to restoring only programs and files.
+
+In macOS I was able to keep a single restore running from 2008 to 2017 across multiple machines, retaining the entire operating system setup in its entirety. It's also free with macOS. Time machine _does_ have some issues of its own when run on HFS volumes (which are uncommon now) but for a local backup solution as part a redundant data backup plan it's fantastic. Windows... not fantastic.
+
+## Text Editing
+
+I'm convinced Sublime is so popular because most of the users are Windows users. (I know a number of macOS Sublime users, and Sublime is a quite nice, snappy application. So don't misinterpret me here...)
+
+Setting up emacs/vim in Windows is a massive pain in the buttocks. This is a big deal for me, and a major part of setting up a working operating system for me.
 
 # Design issues
 
@@ -88,7 +174,7 @@ It's not perfect on macOS of course (nothing you can do about low res bitmaps), 
 
 Hmm... So they can use your content to advertise their products, for free. Neat.
 
-[You can't stop them from getting your information either](https://www.howtogeek.com/fyi/windows-10-sends-your-activity-history-to-microsoft-even-if-you-tell-it-not-to/)
+[You can't stop them from getting your information either](https://www.howtogeek.com/fyi/windows-10-sends-your-activity-history-to-microsoft-even-if-you-tell-it-not-to/) (They've said this is fixed...)
 
 No thanks.
 
@@ -109,6 +195,8 @@ I have also had to reinstall Windows twice because Windows update installed some
 [Plus they spy on you anyway...](https://www.ghacks.net/2018/11/23/german-federal-office-bsi-publishes-telemetry-analysis/).
 
 **I REALLY HATE WINDOWS UPDATE**
+
+If there was one singular reason why I can't stand Windows, this is why. I have to choose between having a _working_ system and having a working up-to-date system.
 
 # Development
 
@@ -151,6 +239,14 @@ Changing sample rates requires reopening nearly every single application on the 
 If you change sound devices, open applications won't change. They need to be closed or reset to change devices.
 
 That can be _exceptionally_ annoying.
+
+## ASIO panels
+
+When needing to adjust audio interface parameters inside of a DAW, Windows applications require you to open an ASIO control panel. None of these control panels work similarly or have a similar design, or even give you access to the same types of parameters.
+
+I switch interfaces relatively often and it can be somewhat annoying to have to switch my expectations of what I can do inside a control panel.
+
+I have also rented situations where changing buffer sizes in the ASIO panel does not actually change the buffer size in the host.
 
 # Files
 

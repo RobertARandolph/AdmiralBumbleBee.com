@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "30 days with Cakewalk - Part 1: First Impressions"
+title: "30 days with Cakewalk - Part 1: Everything."
 comments: true
 date:   2018-12-11_18:35:35 
 categories: music
