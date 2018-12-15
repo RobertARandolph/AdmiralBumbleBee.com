@@ -500,6 +500,8 @@ If I want to take a screenshot of what looks like a window, sometimes it's not e
 
 Why do I even need to install a program to take screenshots anyway? Or to take video?
 
+(Anyone that mentions the abomination "Snipping tool" should be drug out into the street and shot. It's like 10 clicks to capture a window and save it to a file. Nonsense.)
+
 ## Stuff I don't want
 
 {::nomarkdown}
