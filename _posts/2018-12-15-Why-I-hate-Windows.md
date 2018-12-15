@@ -440,7 +440,7 @@ I'm not annoyed that files are being written/read, I'm annoyed at how fractured 
 <div class="image-caption">They're all different!</div>
 {:/nomarkdown}
 
-If your a Windows user then you have surely noticed that nearly every application has its own menu system, its own style of checkboxes combo boxes sliders etc… How the mouse buttons interact how the window is maximized or not maximized or how anything works is not consistent from application to application.
+If you're a Windows user then you have surely noticed that nearly every application has its own menu system, its own style of checkboxes combo boxes sliders etc… How the mouse buttons interact how the window is maximized or not maximized or how anything works is not consistent from application to application.
 
 here is almost no consistency between applications and windows, and that often means that for each application you have to do a major context switching your brain in order to interact with it. Initially learning the software is also an issue too.
 
