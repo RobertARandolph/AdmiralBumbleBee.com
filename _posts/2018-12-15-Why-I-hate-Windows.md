@@ -49,6 +49,14 @@ Many of these reasons may not apply to you, and that's okay. It is my computer a
 
 If you have suggestions to improve my Windows experience and that would be wonderful, but there's a very high likelihood that I have already tried. Don't let that stop you from making suggestions.
 
+# Video
+
+**HAH**
+
+No video this week because I couldn't figure out a sensible screen capture and editing workflow that let me work to my normal standard of quality (which isn't even that great anyway!).
+
+I did learn about [Hitfilm](https://fxhome.com), which is a pretty decent program.
+
 # Typing
 
 {::nomarkdown}
@@ -60,7 +68,7 @@ I'm a bit weird when it comes to typing. I type with a keyboard layout called [C
 
 I also love doing language study. I'm particularly keen on studying vietnamese and korean. So this means using [Telex](https://en.wikipedia.org/wiki/Telex_(input_method)) and a hangul layout with a [korean IME](https://support.microsoft.com/en-us/help/130053/howto-how-to-use-hangeul-korean-windows-input-method-editor-ime). I also switche to japanese study occasionally, which means using a [japanese IME](https://en.wikipedia.org/wiki/Japanese_input_methods).
 
-I also type with [dvorak programmer](https://www.kaufmann.no/roland/dvorak/), and of course with QWERTY occasionally.
+I also type with [dvorak programmer](https://www.kaufmann.no/roland/dvorak/), and of course with QWERTY occasionally. When writing in German I usually switch to [Neo](https://neo-layout.org/index_en.html) as well.
 
 To complicate this all even more, I learned a re-arranged hangul layout that matches the transformation of QWERTY->colemak in terms of key placement. Telex is a special case that _shouldn't_ care where your keys are (Windows cares though...)
 
@@ -101,7 +109,7 @@ It's [no secret that I love emacs]({% post_url 2018-10-06-Editor-Musings %}). Ev
 
 I use these commands like it's second nature. Even when doing normal typing I constantly use these commands to do light editing to text. It's much easier than reaching for the arrow keys, page up/dn keys, backspace and there's no analog to transpose.
 
-These are _native_ to macOS. Nothing needs to be installed.
+These are _native_ to macOS. Nothing needs to be installed. They're also common in most shell environments thanks to [Readline](https://en.wikipedia.org/wiki/GNU_Readline).
 
 [There is a potential solution to this in Windows](http://www.cam.hi-ho.ne.jp/oishi/indexen.html) but it has some problems. Keys like C-a and C-v are already taken by the OS as select all and paste respectively. (This is also an issue when using a non-cmd.exe/powershell terminal where c-c and c-z are already taken, so you can't copy/paste text without using other shortcuts).
 
@@ -139,7 +147,7 @@ Well… No. You will need to go into multiple applications and through multiple 
 
 And if for some reason the application that controls those settings has some sort of problem, then you are really screwed.On my window system I have at least a dozen applications the control configuration for how my system operates in some manner. Video card drivers, mouse drivers, three different things to control how the screen displays, two different ways to interact with USB devices, etc... It never stops.
 
-In macOS the same equipment (same system, same peripherals) are controlled by 1 preferences app, all of the prefs are in the same directory in human-readable text files, and the GUIs are all consistent (except the mouse drivers).
+In macOS the same equipment (same system, same peripherals) are controlled by 1 preferences app, all of the prefs are in the same directory in human-readable text files, and the GUIs are all consistent (except the mouse drivers). Most Linux DE's are equally easy, but the preferences are in predictable directories if required.
 
 ## Keyboard shortcuts
 
@@ -188,6 +196,10 @@ I'm convinced Sublime is so popular because most of the users are Windows users.
 
 Setting up emacs/vim in Windows is a massive pain in the buttocks. This is a big deal for me, and a major part of setting up a working operating system for me.
 
+If you want to do something as incredibly simple as word processing or text editing, you're off to your favorite search engine to find something.
+
+Don't fret though! Windows 10 comes with Candy Crush! Blergh.
+
 ## Codecs
 
 {::nomarkdown}
@@ -195,7 +207,7 @@ Setting up emacs/vim in Windows is a massive pain in the buttocks. This is a big
 <div class="image-caption">Codecs</div>
 {:/nomarkdown}
 
-Let me guess, you want to watch some videos. Not quite yet... you need to install some codecs first. You also need to know that's what you need, and you need to find a pack of them that hopefully doesn't come with a bunch of ad/spyware. Oh yeah, and it may not have that _one_ codec you need.
+After a long day you want to just sit down and watch some videos. Not quite yet... you need to install some codecs first. You also need to know that's what you need, and you need to find a pack of them that hopefully doesn't come with a bunch of ad/spyware. Oh yeah, and it may not have that _one_ codec you need.
 
 Or you can install VLC of course.
 
@@ -222,7 +234,13 @@ Install only on primary partition... unless you're a geek that wants to use a th
 
 **NO** I do not want to switch to Edge. STOP ASKING ME.
 
-Why are there ads in my start menu? How did these random games show up that I never installed?Y is there stuff constantly showing up in there that I did not want, don't need and did not give permission to be there?
+Why are there ads in my start menu?
+
+How did these random games show up that I never installed? Why is there stuff constantly showing up in there that I did not want, don't need and did not give permission to be there?
+
+Why is Windows Defender thrashing my drive?
+
+Why do I need to give EVERY SINGLE APPLICATION PERMISSION TO DO ANYTHING????????????
 
 ## HiDPI
 
@@ -233,7 +251,9 @@ Why are there ads in my start menu? How did these random games show up that I ne
 
 Have you tried to use HiDPI in Windows? It's a disaster. About 1/4 of the applications are simply broken, and the rest are ugly or run unusually slow.
 
-It's not perfect on macOS of course (nothing you can do about low res bitmaps), but at least nothing is outright broken.
+It's not perfect on macOS of course (nothing you can do about low res bitmaps), but at least nothing is outright broken from the user's point of view. Most Linux DEs handle this alright as well.
+
+Then again, as a developer, Windows' HiDPI support is much nicer to deal with. So why is everyone screwing it up?
 
 ## EULA
 
@@ -265,7 +285,7 @@ I have been unable to turn off Windows update no matter what I do. I have tried 
 
 I have spent more time trying to get Windows not update than I've spent actively trying to keep my system in a working state.Of course I suspect many other people do this and it results in many systems being out of date because the users became so frustrated with Windows update that they turned it off somehow.
 
-I have lost a significant amount of data due to Windows update. I absolutely despise it.
+I have lost a significant amount of data due to Windows update. I absolutely despise it. It's decided to restart when I step away from my computer while a long-running process is going, causing me to lose hours of data. It's put my computer in a restart loop because an update failed.
 
 I have also had to reinstall Windows twice because Windows update installed something that caused my video card drivers to not operate correctly, and of course I was unable to fix it because the settings that controlled us were in a binary format and I was unable to edit them in safe mode without the drivers running.
 
@@ -290,7 +310,7 @@ It goes on and on, and guess what? None of these applications utilize a similar 
 
 And of course, most of them don't even work properly. It took me nearly an entire day did get Ruby working correctly in Windows, and then another day messing with Python and learning to [use it in Windows](https://docs.python.org/3/using/windows.html).
 
-I can't even find a terminal that works somewhat sanely. Powershell is limited, and the bash alternatives are all slow or strangely missing common tools.
+I can't even find a terminal that works somewhat sanely. Powershell is limited, and the bash alternatives are all slow or strangely missing common tools. Forget even trying to get my preferred shell ([fish](https://fishshell.com)) running.
 
 Even doing something as simple as downloading [Visual Studio](https://visualstudio.microsoft.com/) and attempting to compile the [VST3 SDK examples](https://www.steinberg.net/en/company/technologies/vst3.html) didn't work correctly. In fact even Microsoft's own examples for C# and C++ did not work correctly!
 
@@ -307,9 +327,11 @@ And don't even get me started on [chocolatey](https://chocolatey.org/)... even j
 
 If you spent enough on your audio interface and you don't have to worry about this, but most people running the issue that they cannot play audio through multiple applications at once when using an ASIO application.
 
-That is because many drivers are not what is called "multiclient". That means that the driver is not great in a way that allows multiple applications to access it.
+That is because many drivers are not what is called "multi-client". That means that the driver is not great in a way that allows multiple applications to access it.
 
-This is _never_ an issue in macOS.
+This is _never_ an issue in macOS. Also not an issue with Linux as long as you're using a common setup.
+
+Can you name those 4 albums or artists on the bottom that have visible covers?
 
 ## Robustness
 
@@ -322,7 +344,7 @@ There is none. Open an application to check an e-mail, slack/discord or whatever
 
 No matter where I go there seems to always be something that messes up my DAW audio.
 
-In macOS while writing articles, I'll sometimes have 30+ applications open doing graphics/video/writing/programming and still have a DAW running perfectly in the background at 64 sample-length buffer.
+In macOS while writing articles, I'll sometimes have 30+ applications open doing graphics/video/writing/programming and still have a DAW running perfectly in the background at 64 sample-length buffer. I can do the same in Linux without a hitch, and in fact Linux does this _better_.
 
 I can't manage this in Windows on the _same machine_ with the same everything connected, a lean Windows install and nothing open except the absolute necessary processes running. If I open an e-mail app or Chrome, then it's time to bump up the buffer.
 
@@ -356,6 +378,14 @@ I switch interfaces relatively often and it can be somewhat annoying to have to 
 
 I have also rented situations where changing buffer sizes in the ASIO panel does not actually change the buffer size in the host.
 
+## Performance
+
+There's at least 3 types of drivers in Windows. None of them offer low-latency performance by default. 2 of them are garbage no matter what you do, and ASIO only works if you install a driver.
+
+This is a major issue. In macOS, even the worst audio interfaces will give you usable latency (the default laptop soundcard will even!). Windows users just roll the dice and hope they can get something usable.
+
+Even Linux has this right!
+
 # Files
 
 ## No Quicklook in Explorer
@@ -381,6 +411,8 @@ I use QuickLook **A LOT** and I'm not entirely happy with the windows alternativ
 What happens when you want to change a setting in Windows? You just go to file open it up and change the setting right?
 
 Well no… The setting might be in the registry, or it may be in a binary file hidden somewhere or who knows where it is! There is no place in the operating system where you can be guaranteed to find settings, preferences or other application information. It's the Wild Wild West out there.
+
+At least all applications keep their settings in the same place right? Nope. Well... perhaps they use similar formats? Nein. _Surely_ there's clear documentation on how to find these things RIGHT? Ahahhahahahahahahahah. No.
 
 This is not the problem of the filesystem itself, but the culture surrounding Windows and Microsoft lack of clear documentation regarding where things should be. This has improved in recent years, but there is no incentive for developers to follow any of these guidelines, nor is there an easy way to find these guidelines.
 
@@ -414,7 +446,7 @@ here is almost no consistency between applications and windows, and that often m
 
 This drives me absolutely crazy have to spend mental energy remembering where some option is or how some GUI widget works when ALT tabbing to another application.
 
-(This is a major reason I prefer Safari over Chrome or Firefox on macOS. It's just easier to use when you are used to other applications (most of them) that adhere to macOS design guidlines.)
+(This is a major reason I prefer Safari over Chrome or Firefox on macOS. It's just easier to use when you are used to other applications (most of them) that adhere to macOS design guidelines.)
 
 ## Taskbar and Notifications
 
@@ -423,7 +455,7 @@ This drives me absolutely crazy have to spend mental energy remembering where so
 <div class="image-caption">Taskbar is a terrible design.</div>
 {:/nomarkdown}
 
-The taskbar in the notification area are in the same GUI widget, which means that as the notification area grows you get less space to show where apps are. If you use the combined option then you lose track of where specific windows are, and it makes it more difficult to select the appropriate window.
+The taskbar and the notification area are in the same GUI widget, which means that as the notification area grows you get less space to show where apps are. If you use the combined option then you lose track of where specific windows are, and it makes it more difficult to select the appropriate window.
 
 ## Alt-Tab
 
@@ -436,6 +468,8 @@ Regarding the previous point someone may suggest simply using alt tab, which I d
 
 Windows does not make a distinction between application Windows and applications, so when you use alt–tab you end up switching between every single open window on the operating system. This is both inefficient and frustrating.
 
+It's easy to lose an application window (how often have you had to go searching for that dialog that's locked up your whole app?), and trying to manage multiple applications that have multiple windows is nothing more than a test of the durability of your tab key.
+
 ## Menu bar
 
 {::nomarkdown}
@@ -443,13 +477,15 @@ Windows does not make a distinction between application Windows and applications
 <div class="image-caption">Menu Bars are all over the place</div>
 {:/nomarkdown}
 
-I know this is something that bothers Windows users when they moved to macOS, but I strongly feel that this is a thing that macOS got right.
+I know this is something that bothers Windows users when they moved to macOS, but I strongly feel that this is a thing that macOS got right. macOS has plenty of annoying things, but I strongly feel this is a UX choice they aced.
 
 In macOS menu bars are always at the top of the screen, the menu bar changes depending on which application is currently open. This means that there is a minimal amount of screen space dedicated to menu bars and you always know exactly where the menu bar is going to be located.
 
 I can go to the file menu in almost any application with my eyes closed because it is always in the exact same place on my screen.
 
-In Windows menus are all over the place. They may not even be at the top of the application, and many applications implement their own menu system that is different from others. That might mean that one application has checkboxes and is menus that work one way and another application has checkboxes that work another way and yet another application shows checkboxes but they don't actually do anything they open up a window.Some applications and windows, including ones from Microsoft itself, don't even have menus you click something and it opens up a sidebar that has a bunch of options for you.
+In Windows menus are all over the place. They may not even be at the top of the application, and many applications implement their own menu system that is different from others. That might mean that one application has checkboxes and has menus that work one way and another application has checkboxes that work another way and yet another application shows checkboxes but they don't actually do anything. Some applications and windows, including ones from Microsoft itself, don't even have menus, but instead you click something and it opens up a sidebar that has a bunch of options for you.
+
+Some Linux DE's copied this over the years, but it's not fully taken hold yet. It's a bit difficult when many applications draw their own menus instead of doing things right.
 
 ## Screenshots
 
@@ -460,7 +496,7 @@ In Windows menus are all over the place. They may not even be at the top of the 
 
 This is something I learned while writing this post... Taking screenshots is a terrible experience. The best application I found was [ShareX](https://getsharex.com/), and it exposes one of the nastier things about Windows: windows.
 
-If I want to take a screenshot of what looks like a window, sometimes it's not even possible. Microsoft's own explore isn't just 'a window', it's a bunch of windows stacked on each other. Yes, this is due to how Windows defines programmatic "windows", but as an end-user it's frustrating.
+If I want to take a screenshot of what looks like a window, sometimes it's not even possible. Microsoft's own explorer isn't just 'a window', it's a bunch of windows stacked on each other. Yes, this is due to how Windows defines programmatic "windows", but as an end-user it's frustrating.
 
 Why do I even need to install a program to take screenshots anyway? Or to take video?
 
@@ -475,7 +511,9 @@ Windows manages to have both a dearth of useful applications yet still constantl
 
 No, I do not want candy crush. No I do not want a news app or a stock thing, and even more so I don't want to spend a ridiculous amount of time trying to figure out how to get off my computer.
 
-In macOS I just drop that to [App Cleaner](https://freemacsoft.net/appcleaner/)and it's gone for good. I do not even need to use that application to get it visually off my system, but app cleaner does a great job of removing all the little bits that may be hidden from view.
+In macOS I just drop that to [App Cleaner](https://freemacsoft.net/appcleaner/)and it's gone for good. I do not even need to use that application to get it visually off my system, but app cleaner does a great job of removing all the little bits that may be hidden from view. "Normal" app uninstallation in macOS is as simple as drag and drop, which is still light years ahead of Windows.
+
+Linux is... let's not talk about install/uninstall in Linux environments.
 
 # Things that just don't work right
 
@@ -501,7 +539,7 @@ I reinstalled Windows completely from scratch and did not install any other appl
 
 I greatly dislike the concept of Cortana, but it is incredibly difficult to completely turn off. It is a privacy issue and even when attempting to use it it doesn't work very well at all.
 
-As a comparison, Siri is equally as useless, but I can completely turn it off.
+As a comparison, Siri is equally as useless, but I can completely turn it off. Linux doesn't have these annoying jabber-boxes thankfully.
 
 ## Deleting files
 
@@ -510,13 +548,23 @@ As a comparison, Siri is equally as useless, but I can completely turn it off.
 <div class="image-caption">File is in use...</div>
 {:/nomarkdown}
 
-If an application has a file open, then it is impossible to delete it in Windows. In Linux and macOS this is not an issue in the slightest.
+If an application has a file open, then it is impossible to delete it in Windows _sometimes_. In Linux and macOS this is not an issue in the slightest.
 
 It is even more problematic when there are hidden applications or sub processes that are using a file and you can't manage to delete it without going through task manager and "end tasking" dozens of applications… or just restarting your computer.
 
+# Conclusion... mostly.
+
+I know there's **A LOT** of people that happily use Windows day to day, and they do "fine" (for warped definitions of "fine"). When you start using other operating systems, you quickly learn how things can work and how many things in Windows are more difficult than they need to be.
+
+I use Windows every day. I'm the guy that does tech support for the family (which is Windows of course). I used to sell turn-key DAW systems from the Win XP to Win 7 eras. I'm not a Windows newbie, and more importantly I know how to use an internet search. These aren't just the frustrations of a 'switcher'.
+
+I've not listed everything that I find problematic, but the things that I find problematic in day-to-day computing life. There's other issues that pop up in long term use or when dealing with system administration.
+
+I can't stand Windows. I'm not even particularly happy with macOS or Linux... but they're immeasurably nicer to use than Windows.
+
 # Support Me!
 
-This post took XX hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
+I spent the last 36 hours doing EVERYTHING in Windows, including writing this post and publishing it. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
 
 <a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
