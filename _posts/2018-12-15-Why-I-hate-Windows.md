@@ -143,9 +143,9 @@ You have everything set up, and it probably took less work than I've said (even 
 
 Of course you would just go to one preferences pane, or a location where all of your configuration files are held, and edit things as necessary right?
 
-Well… No. You will need to go into multiple applications and through multiple configuration dialogues to find what you need to change. These things all right to different places on the disc, or the registry and if you make a mistake then good luck figuring out how to undo it if it's not changeable from the GUI.
+Well… No. You will need to go into multiple applications and through multiple configuration dialogues to find what you need to change. These things all write to different places on the disc, or the registry and if you make a mistake then good luck figuring out how to undo it if it's not changeable from the GUI.
 
-And if for some reason the application that controls those settings has some sort of problem, then you are really screwed.On my window system I have at least a dozen applications the control configuration for how my system operates in some manner. Video card drivers, mouse drivers, three different things to control how the screen displays, two different ways to interact with USB devices, etc... It never stops.
+And if for some reason the application that controls those settings has some sort of problem, then you are really screwed. On my window system I have at least a dozen applications the control configuration for how my system operates in some manner. Video card drivers, mouse drivers, three different things to control how the screen displays, two different ways to interact with USB devices, etc... It never stops.
 
 In macOS the same equipment (same system, same peripherals) are controlled by 1 preferences app, all of the prefs are in the same directory in human-readable text files, and the GUIs are all consistent (except the mouse drivers). Most Linux DE's are equally easy, but the preferences are in predictable directories if required.
 
@@ -168,7 +168,7 @@ Have you really thought about that? It's a difficult shortcut to press with one 
 
 ## Consistency
 
-If you buy a new computer with Windows preinstalled on, you will have no idea how work or what is installed on. There is a great deal of manufacturer splintering where every manufacturer has their own custom Windows installation set up that they provide, and it is often not consistent per brand. Some companies splinter their Windows experiences based upon model.
+If you buy a new computer with Windows preinstalled on it, you will have no idea how it works or what is installed on it. There is a great deal of manufacturer splintering where every manufacturer has their own custom Windows installation set up that they provide, and it is often not consistent per brand. Some companies splinter their Windows experiences based upon model.
 
 This is not an issue if you are a self builder, it can be a major issue if you are a business owner that requires support plans for your systems (like me).
 
@@ -397,7 +397,7 @@ Even Linux has this right!
 
 [This is something that can be fixed with an application installation](https://github.com/QL-Win/QuickLook), but why?
 
-QuickLook is functionality that allows you to simply hit the when browsing files in your file Explorer and instantly see a preview of that file. When looking through images or PDFs or any other document it is incredibly helpful to see a preview instantly to make sure that some weirdly named file is actually what you think it is.
+QuickLook is functionality that allows you to simply hit the spacebar when browsing files in your file Explorer and instantly see a preview of that file. When looking through images or PDFs or any other document it is incredibly helpful to see a preview instantly to make sure that some weirdly named file is actually what you think it is.
 
 I use QuickLook **A LOT** and I'm not entirely happy with the windows alternative. It's slower and it does not support all the file types that macOS does.
 
@@ -513,7 +513,7 @@ Windows manages to have both a dearth of useful applications yet still constantl
 
 No, I do not want candy crush. No I do not want a news app or a stock thing, and even more so I don't want to spend a ridiculous amount of time trying to figure out how to get off my computer.
 
-In macOS I just drop that to [App Cleaner](https://freemacsoft.net/appcleaner/)and it's gone for good. I do not even need to use that application to get it visually off my system, but app cleaner does a great job of removing all the little bits that may be hidden from view. "Normal" app uninstallation in macOS is as simple as drag and drop, which is still light years ahead of Windows.
+In macOS I just drop that to [App Cleaner](https://freemacsoft.net/appcleaner/) and it's gone for good. I do not even need to use that application to get it visually off my system, but app cleaner does a great job of removing all the little bits that may be hidden from view. "Normal" app uninstallation in macOS is as simple as drag and drop, which is still light years ahead of Windows.
 
 Linux is... let's not talk about install/uninstall in Linux environments.
 
@@ -530,7 +530,7 @@ I am sure that this is not necessarily something that is inherently the fault of
 
 When googling for this I find that this is a very common issue that other people have and that there is a wide variety of solutions that tend to point to Windows components themselves rather than other installed applications.
 
-I reinstalled Windows completely from scratch and did not install any other applications other than the necessary drivers and this was still a persistent issue for me.It seems possible that this is simply a driver application issue, but it is incredibly annoying.
+I reinstalled Windows completely from scratch and did not install any other applications other than the necessary drivers and this was still a persistent issue for me. It seems possible that this is simply a driver application issue, but it is incredibly annoying.
 
 ## Cortana
 
@@ -546,7 +546,7 @@ As a comparison, Siri is equally as useless, but I can completely turn it off. L
 ## Deleting files
 
 {::nomarkdown}
-<img src="/assets/WinRant/InUse.png" alt="File is in use...">
+<img src="/assets/WinRant/InUSe.png" alt="File is in use...">
 <div class="image-caption">File is in use...</div>
 {:/nomarkdown}
 
