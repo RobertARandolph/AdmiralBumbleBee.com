@@ -134,6 +134,8 @@ This may not be an issue for most people, since they can just re-order their inp
 
 ### Clip based grouping
 
+
+
 Ugh. [Reaper](http://reaper.fm/) does this too. Clips are grouped instead of tracks. Here's why I don't like this...
 
 When I record to a track, I implicitly am indicating that I want that track to contain a specific sound. The track will always have that sound.
