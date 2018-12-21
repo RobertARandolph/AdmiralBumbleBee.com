@@ -1,15 +1,29 @@
 ---
 layout: post
-title: "30 days with Cakewalk - Part 1: Everything."
+title: "30 days with Cakewalk - Part 1: Almost Everything."
 comments: true
 date:   2018-12-11_18:35:35 
 categories: music
 tags: ['Cakewalk', 'DAW']
 image:
-description: First impressions
+description: First impressions and more
 series: Cakewalk
 ---
 
+{::nomarkdown}
+<img src="/assets/Cakewalk/Cakewalk.png" alt="Cakewalk... in action">
+<div class="image-caption">Cakewalk... in action</div>
+{:/nomarkdown}
+
+Ok, you should know by now that I [dislike Windows]({% post_url 2018-12-15-Why-I-hate-Windows %}). As such I decided to get this all out of the way as fast as possible.
+
+So what follows is my thoughts on _nearly_ every aspect of Cakewalk. I intentionally left out some parts that I didn't think warrant mention, and I'm certain I missed a few things.
+
+This post is ___ words. I've spent countless hours (200+ now) digging into the software, reading the manual, scouring the forums, cross-referencing, etc... If I've made any glaring errors please leave a comment or contact me and I will fix it. If you disagree with my opinions then feel free to let me know and we can discuss it. I'm pliable and can be convinced by a rational well-reasoned argument.
+
+There's some things [shaking up at Bandlab](https://discuss.cakewalk.com/), so this may not be my final post in the series for now, but I intend it to be. My thoughts on Cakewalk as a whole are at the end.
+
+Without further ado let's hop into it.
 
 **Other posts in this series**:
 
@@ -157,7 +171,7 @@ What a strange and unnecessary design decision.
 
 If you want to record a stereo track where the left channel is an even-numbered track, then you're out of luck I think. I was unable to figure out how to do this if it is possible.
 
-This may not be an issue for most people, since they can just re-order their inputs. I have outboard equipment that necessitates not driving myself crazy re-plugging a dozen things just because of some goofy software limitation.
+This may not be an issue for most people, since they can just re-order their physical inputs. I have outboard equipment that necessitates not driving myself crazy re-plugging a dozen things just because of some goofy software limitation.
 
 ### Clip based grouping
 
@@ -169,7 +183,7 @@ This may not be an issue for most people, since they can just re-order their inp
     <div class="video-caption">Clip Grouping going wrong</div>
 {:/nomarkdown}
 
-Above you can see that I have 2 "Clip Selection Groups" as indicated by the `01` in the upper left. I select one... wait, just one? It's a selection group? Anyway, I cut it and now I have a weird partial group. If I restart this and click the top-bar of the clip it works as expected.
+Above you can see that I have 2 "Clip Selection Groups" as indicated by the `01` in the upper left. I select one... wait, just one? It's a selection group? Anyway, I cut it and now I have a weird partial group. If I restart this process and click the top-bar of the clip instead of the body it works as expected. Messing this up is surprisingly easy if you're trying to work quickly.
 
 Ugh. [Reaper](http://reaper.fm/) does this too. Clips are grouped instead of tracks. Here's why I don't like this...
 
@@ -177,7 +191,7 @@ When I record to a track, I implicitly am indicating that I want that track to c
 
 When I want to edit multiple "things" together, those things are parts that have some semantic association. Perhaps they were recorded together or created as part of a single larger sound.
 
-Clip grouping ignores this intention and causes the user to maintain multiple groups on a track even though the track clearly implies a single sonic entity. Clip grouping assumes that at sometime, a track will no longer be part of the same larger entity. To put it more simply, it means that the software designer thinks that the track will, at some time, no longer be part of a group even if it was at some other time. Preposterous!
+Clip grouping ignores this intention and causes the user to maintain multiple groups on a track even though the track clearly implies a single sonic entity. Clip grouping assumes that at sometime, a track will no longer be part of the same larger entity. To put it more simply, it means that the software designer thinks that the track will, at some time, no longer be making the same sound even if it was at some other time. Preposterous! Anyone that works that way should get paper cuts on the underside of their tongue.
 
 Imagine I record a drumset. I always want my kick, snare and overheads to be grouped. _Always_. I may temporarily suspend the grouping to change the timing of an _entire track_, but I want them to always be grouped regardless of what time it is. I don't magically want my snare to not be grouped with the rest of the drums at some other point in the song!
 
@@ -257,7 +271,7 @@ Why are Cakewalk Projects stored in the root of the C drive by default?
 
 They should be in C:\Users\name\Documents or C:\Users\name\Music like everything else is supposed to!
 
-### NO MIXER UNDO
+### NO MIXER UNDO - Mostly
 
 {::nomarkdown}
     <video autoplay loop muted class="gifvid">
@@ -269,9 +283,20 @@ They should be in C:\Users\name\Documents or C:\Users\name\Music like everything
 
 AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 
-Watch as I move a fader and hit `ctrl-z` multiple times. My project slowly disassembles itself, but the fader never moves.
+Watch as I move a fader and hit `ctrl-z` multiple times. My project slowly disassembles itself, but the fader never changes value.
 
 It's 2018. Most DAWs have mixer undo. It's a vital workflow tool, especially when working with certain automation tasks or working with grouped faders.
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/FaderRevert.png" alt="Fader Revert">
+<div class="image-caption">Fader Revert</div>
+{:/nomarkdown}
+
+There is one-level of "revert" for faders, and only faders. Not particularly useful for me since I'll execute a 'fader move' in multiple clicks: move, listen, adjust slightly, listen etc...
+
+Fader revert does have the benefit of being independent per fader though. So even if you change Fader 4, and then do a dozen edits and a hundred fader touches, you can easily go back and revert fader 4 without needing to wade through levels of undo and ruin your project.
+
+If the _whole_ mixer had _multiple levels_ of independent "revert", then this would be an incredible feature. As-is it's a shot that misses the mark.
 
 ### Plugin Selection
 
@@ -345,7 +370,7 @@ I can go on... there's dozens of workflows other DAWs are capable of that can gr
 
 Sonar's automation system is in great need of an overhaul. It's the absolute basics, and arguably is even missing some basic tenants of a competent automation system.
 
-Let's not forget either that it does not have any sort of implicit curves. All of the draw tools utilize a system that generations new points of automation. Should you want to change a curve, you need to re-draw it. That [transform tool](#transform-tool) doesn't exist for automation like it does in other DAWs (like DP, Cubase, Studio One and Reaper)
+Let's not forget either that it does not have any sort of implicit curves. All of the draw tools utilize a system that generations new points of automation. Should you want to change a curve, you need to re-draw it. The [transform tool](#transform-tool) doesn't exist for automation like it does in other DAWs (like DP, Cubase, Studio One and Reaper)
 
 There is "offset mode", but it comes with this silly caveat
 
@@ -364,17 +389,30 @@ When using 'offset mode' I also crashed Cakewalk multiple times.
 
 We can't discuss my dislike of the automation system without talking about VCAs. First let me help you understand why this matters:
 
-[Explanation 1]({% post_url 2018-03-08-Waveform-9-the-good-the-bad-the-weird-part-1 %}#vcas)
-[Explanation 2]({% post_url 2016-12-16-Things-I-hate-about-Digital-Performer %}#vcas)
-[Explanation 3]({% post_url 2017-09-18-Mixbus-32c-The-Mixer %}#vcas)
-[Explanation 4]({% post_url 2017-07-02--Things-that-Bitwig-could-improve %}#vca)
-[Explanation 5]({% post_url 2016-06-02-Studio-OpiniOne %}#vca-faders)
+* [Explanation 1]({% post_url 2018-03-08-Waveform-9-the-good-the-bad-the-weird-part-1 %}#vcas)
+* [Explanation 2]({% post_url 2016-12-16-Things-I-hate-about-Digital-Performer %}#vcas)
+* [Explanation 3]({% post_url 2017-09-18-Mixbus-32c-The-Mixer %}#vcas)
+* [Explanation 4]({% post_url 2017-07-02--Things-that-Bitwig-could-improve %}#vca)
+* [Explanation 5]({% post_url 2016-06-02-Studio-OpiniOne %}#vca-faders)
 
 Hopefully one of those explanations hooks you. I occasionally take a stab at explaining the 'whats' and benefits of VCAs in various ways to reach new people.
 
 Along with Cakewalk's simplistic automation system, there are no VCAs faders. VCA faders not only make mixing a joy, but are another tool in the arsenal of a automationist (I made that word up, I hope it sticks).
 
 I **LOVE** working with VCA faders. They make working with large complex arrangements a breeze. _If anything_, they allow you to easily layer automation and create 'trim automation' easily.
+
+### Crossfades
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Crossfade.png" alt="Crossfade tool... is nowhere">
+<div class="image-caption">Crossfade tool... is nowhere</div>
+{:/nomarkdown}
+
+Crossfade options are simple and down 2 layers deep in a menu. If you want asymmetrical fades or custom fades or to do anything beyond simple crossfading of 2 adjacent clips then you're out of luck. For a DAW that has [mastering like features](#cd-burning) this is a strange omission.
+
+Let's not stop there though! Crossfading two clips is quite an endeavor. [Look at the manual](https://www.cakewalk.com/Documentation?product=SONAR%20X3&language=3&help=Arranging.61.html) to see the multi-step process of crossfading two clips.
+
+I'm somewhat baffled that people put up with this, but then again, Bitwig didn't have crossfades _at all_ for years and apparently most of their users didn't even understand what a crossfade is.
 
 ### Zoom Tool
 
@@ -383,15 +421,14 @@ I **LOVE** working with VCA faders. They make working with large complex arrange
 <div class="image-caption">Zoom Tool is hidden!</div>
 {:/nomarkdown}
 
-I love the mouse-based zoom workflow. I don't like using mice for much, but for selecting areas of the screen to work on it's a great tool.
+I begrudgingly enjoy the mouse-based zoom workflow. I don’t like using mice for much, but for selecting areas of the screen to work on it’s a great tool.
 
-Cakewalk has a tool that lets you select what you want to see by just boxing that area. Press `z` to activate it.
+Cakewalk has a tool that lets you select what you want to see by just boxing that area. Press z to activate it. It’s not on the tool palette though! I bet a lot of Cakewalk users don’t know it exists.
 
-It's not on the tool palette though! I bet a lot of Cakewalk users don't know it exists.
+Try the modifier keys with it to unlock some extra features.
 
-Try the modifier keys with it too to unlock some extra features.
+There’s also a hidden scrub tool if you look for it.
 
-There's also a hidden scrub tool if you look for it.
 
 # General Audio
 
@@ -405,7 +442,7 @@ There's also a hidden scrub tool if you look for it.
     <div class="video-caption">Basic Editing</div>
 {:/nomarkdown}
 
-Basic editing is not a golden star on Cakewalk's reputation.
+Basic editing is not a golden star on Cakewalk's report card.
 
 Editing relies on utilizing multiple tools which are presented in layers, there is an edit tool with multiple sub tools, there is a draw tool with multiple sub tools, there is an array stool with multiple sub tools, there is a select tool, there is a move tool and there is a smart tool.
 
@@ -462,6 +499,8 @@ Other products also have fully featured quantization tools that allow you to wor
 
 As far as I know does not have these features.
 
+You can extract 'groove' from the clip. This takes the marker location relative to the grid and lets you apply these timing offsets to other audio tracks or MIDI. Most DAWs have this feature and it's hit or miss. Seems to work ok in Cakewalk.
+
 ## Asset Management
 
 {::nomarkdown}
@@ -487,7 +526,7 @@ As you may expect by the name, this is used to replace drums in drum recordings.
 
 It does have a neat feature that allows you to apply a filter before the detection, and it shows the audio's waveform after the processing.You can also limit how frequently samples can be triggered, which helps with lower frequency sounds that may look like multiple hits to the replacer.
 
-You can add and remove triggers manually, and I quite appreciate this feature.
+You can add and remove triggers manually. Excellent.
 
 It is also possible to output the triggers to midi so that you can utilize an external software instrument to produce the drum sounds. I find that this workflow is somewhat cumbersome though. Other products simply let you click a button to export a midi track, but drum replacer directly outputs the midi to a synth that is currently in the project. If you want to capture the midi then you need to set up a MIDI loopback and record it.
 
@@ -519,6 +558,8 @@ The idea is to analyze two pieces of audio and then shift one of them so that it
 
 I found that it works fairly well, but does not work as well as vocalign or [Align takes](/ReaperScripts.html#align-takes---thread).
 
+If you're not doing heavy post work, then VocalSync works fine. It's more than enough for musical vocals.
+
 # Mixing
 
 ## Console
@@ -530,9 +571,9 @@ I found that it works fairly well, but does not work as well as vocalign or [Ali
 
 The mixing console is what you would expect from digital audio software, it has all the basic features that you would want contained in the [mix strips](#mix-strip)
 
-A thing that I enjoy is that you can adjust the metering specification for the various types of channels. It would be nice if VU and K-System metering was available, but rms is fine enough for most uses.
+I enjoy that you can adjust the metering specification for the various types of channels. It would be nice if VU and K-System metering was available, but rms is fine enough for most uses.
 
-Another feature that I like is that you can select the range of the meter for each individual channel or for each type of channel.
+Another feature that I like is that you can select the range of the meter for each individual channel or for each type of channel. You can only change the lower bound, but wouldn't it be neat if you could change the upper bounds too?
 
 One of the more disappointing things is that there is no navigation system that allows you to quickly find or jump to a specific track, or a type of track. Other products have things like search boxes and/or tree views that make it easy to navigate a large project in the mix console.I worked on a 45 track project in Cakewalk and even that was relatively difficult to move around and without any easy way of finding tracks.
 
@@ -545,9 +586,9 @@ One of the more disappointing things is that there is no navigation system that 
 <div class="image-caption">Send Assistant</div>
 {:/nomarkdown}
 
-Creating sins is something that most DAWss are not very good at. The act of creating a send is usually ambiguous since there are multiple ways that you may want this to happen and various goals that you may have when creating a send.
+Creating sends is something that most DAWs are not very good at. The act of creating a send is usually ambiguous since there are multiple ways that you may want this to happen and various goals that you may have when creating a send.
 
-Enter the Send Assistant. It offers a dialogue that makes it easy to create a send to the destination that you want.
+Enter the Send Assistant. It offers a dialog that makes it easy to create a send to the destination that you want.
 
 It is also possible to create sends directly from the plus button next to the send. You can create new tracks or utilize existing tracks, and there is this concept of a "patch point".
 
@@ -580,6 +621,26 @@ It is a bit disappointing that you cannot change the size of the faders, so you 
 
 I am not a fan of using menus to remove sends or effects. It is not difficult to add a modifier that allows you to click in effect or a send and remove it. Two clicks and visual recognition of a menu is a poor workflow.
 
+The Mix Strip is also where you can access track options for:
+
+* Track name
+* Stretch type - Interestingly online (live) and offline (render) can be selected separately. I'm not sure I'm onboard with the idea of my render sounding different from playback, but I can imagine this being useful on low-end computers.
+* Automation mode
+* Time Base - This changes how things are moved when you adjust project tempo
+* Color
+* Description - Notes for your use
+
+You can also access clip properties, which are too numerous to list. Here's some of the notable things:
+
+* Properties
+  * Snap offset - rather than snapping to the beginning of the clip, you can offset the snap point.
+  * Automation Read - clips can have automation turned on/off for them.
+* Groove Clip - options for [Groove Clips](#loop-construction). Most options from loop construction besides specific slice points are available here.
+* Audio Snap - Here lies the various tools necessary for working with [AudioSnap](#audiosnap).
+* [Clip Effects](#clip-effects)
+
+You can also turn off most of the elements in the mix strip if you find them distracting. I originally didn't find this particularly amazing, but as I began to use it I found that I liked having less clutter when it was possible.
+
 ### ProChannel
 
 {::nomarkdown}
@@ -604,7 +665,7 @@ It appears that before BandLab purchased Cakewalk, Sonar had many more ProChanne
 
 An [1176 style compressor](https://www.uaudio.com/hardware/1176ln.html). Fast attack time and that "all buttons in"mode is available as you would expect.
 
-It does not sound exactly like an 1176. Despite that I have enjoyed utilizing it when mixing in Cakewalk and I think that it is a great compressor despite its inauthenticity.
+It does not sound exactly like an 1176. I have enjoyed utilizing it when mixing in Cakewalk and I think that it is a great compressor despite its inauthenticity.
 
 #### EQ 
 
@@ -622,6 +683,8 @@ There are four modes:
 * E-Type - [SSL4k E-type](https://en.wikipedia.org/wiki/Solid_State_Logic#4000_series). A more aggressive sound with that becomes _less_ aggressive with larger gain values. Sharp with small changes, broad with large changes. Your typical constant-q behaviour. (Also my favorite EQ style)
 * G-type - Much broader EQ response like the [SSL 4000 G-type](https://en.wikipedia.org/wiki/Solid_State_Logic#4000_series). Large boosts are similar to the E-type, but smaller boosts are broader.
 
+One of the more interesting things you can do is utilize one of the EQ times (I suggest E-Type to start), and then switch modes to see if you can get a better sound via the curve changes.
+
 I really enjoy using the ProChannel equalizer.
 
 #### Tube 
@@ -631,9 +694,9 @@ I really enjoy using the ProChannel equalizer.
   <div class="image-caption">Tube </div>
 {:/nomarkdown}
 
-I may not be very popular with this opinion, but I feel that the two module just sounds farty and unpleasant.
+I may not be very popular with this opinion, but I feel that the tube module just sounds farty and unpleasant.
 
-Turning on type II makes this even worse. It gives you a saturation sound that is devoid of any high-end sparkle but has the grid and the low-end that just causes a mix to end up sounding muddy and overly dense.
+Turning on type II makes this even worse. It gives you a saturation sound that is devoid of any high-end sparkle but has the grit and the low-end that just causes a mix to end up sounding muddy and overly dense.
 
 #### Saturation Knob
 
@@ -651,7 +714,7 @@ Turning on type II makes this even worse. It gives you a saturation sound that i
   <div class="image-caption">Tape Emulator</div>
 {:/nomarkdown}
 
-Ahhhh, the ubiquitous love of tape machines. This does not sound like a tape machine.
+Ahhhh, the ubiquitous love of tape machines. This does not sound like a tape machine though. It sounds like what people think tape machines sound like.
 
 It _does_ sound cool though. I also appreciate the lock knob which inversely links the input level in the output level.
 
@@ -672,6 +735,7 @@ Here you're given channel and bus emulations of 3 famous console styles:
 
 They all sound fantastic and I have been a fan of putting them on nearly every single channel. I particularly like the S-type, which sounds _similar_ to an SSL 4K console. Regardless if the emulation is good I find that it is a cool sound.
 
+It is easy to overuse them though. It would be nice if there was a 'global off' button for the track version at least. As you're building the mix, heavier saturation can sound fantastic, but as the mix grows it adds to the overly-dense high-end that ruins many-a-mix.
 
 #### REmatrix Solo
 
@@ -699,6 +763,8 @@ This is an amazing algorithmic reverb that you get for free and get to use on ev
 
 Joking aside, [BREVERB 2](https://overloud.com/products/breverb-2) is a great reverb that people happily pay $100+ to own. I think it is a wonderful addition to Cakewalk.
 
+It has the same limitations as [the plugin version](#breverb-2-1).
+
 #### FX Chain
 
 {::nomarkdown}
@@ -706,7 +772,7 @@ Joking aside, [BREVERB 2](https://overloud.com/products/breverb-2) is a great re
   <div class="image-caption">FX Chain</div>
 {:/nomarkdown}
 
-FX chain does nothing more than a light but FX in between your ProChannel modules.
+FX chain does nothing more than let you put plug-in FX in between your ProChannel modules.
 
 #### Style Dials
 
@@ -719,16 +785,29 @@ FX chain does nothing more than a light but FX in between your ProChannel module
 
 * Depth - Reverb/delay, very short
 * Gater - Gate
-* Grit - distortion, supposedly tubey but... nah.
-* Max - Brickwal Limiter that sounds alright.
+* Grit - Distortion, supposedly tubey but... nah. I often wonder if anyone designing these things has actually used high-quality tube equipment before?
+* Max - Brickwall Limiter that sounds alright.
 * Pulse - Tremolo with distortion?
 * Shaper - Transient shaper
 * Smoother - De-esser
 * Space - Big sounding reverb
 
-I was initially very skeptical of these things, since I'm not a big fan of one plug-ins. I eventually came around to it and found that I used "Gater", "Depth" and "Shaper" frequently enough to warrant a positive word about them.
+I was initially very skeptical of these things, since I'm not a big fan of one knob plug-ins. I eventually came around to it and found that I used "Gater", "Depth" and "Shaper" frequently enough to warrant a positive word about them.
 
 None of these sound particularly bad, and I would imagine that there useful for occasional use. My concern would be that people would overuse these and leave all of their mixes having a very similar sounding "flavor".
+
+## Clip Effects
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/ClipEffects.png" alt="Clip Effects">
+<div class="image-caption">Clip Effects</div>
+{:/nomarkdown}
+
+By selecting a clip and opening the clip tab in the [Mix Strip](#mix-strip) you can apply effects directly to clips.
+
+Clip effects allow you to apply effects on a more fine-grained level compared to using track-level effects and trying to automate them for a specific clip.
+
+The downside is that it doesn't appear that you can automate clip-effects at all, so you must be certain that you want that specific process for the entire clip. That's quite the downer that reduces the usefulness of the system.
 
 ## Plugins
 
@@ -742,7 +821,6 @@ None of these sound particularly bad, and I would imagine that there useful for 
 This "feature" is awful. Most other DAWs do this relatively intelligently, but Cakewalk requires that you constantly turn this feature on/off to use typing keyboard input to your plugins, or to Cakewalk itself.
 
 I find myself needing to turn it on/off to type in values in a plugin most frequently.
-
 
 ## Markers
 
@@ -848,6 +926,10 @@ When using the staff view, a 'fret pane' can be opened to show a guitar fretboar
 
 I found that it didn't do the best job of creating playable chords. Many times there'd be a note way up or way down the fretboard when it could have been easily moved to an adjacent string so the entire part would be human-playable.
 
+I thought maybe this would be more useful for a "Solo" style part or a lead, but even that created an unplayable mess with anything remotely non-trivial.
+
+I'm really not sure what this feature is supposed to do except confuse people.
+
 ## Quick Tab
 
 {::nomarkdown}
@@ -858,6 +940,8 @@ I found that it didn't do the best job of creating playable chords. Many times t
 Quick tab is neat, but it's very limited. There's no way that I could find to adjust enharmonic equivalents, add extra notation for performance characteristics, adjust rhythmic display etc...
 
 I tried it with some direct transcriptions I've done in the past and it did an alright job, but the places where there were mistakes were unfixable due to the inflexibility.
+
+Much like the [fret pane](#fret-pane) this seems to be a feature that was added for the sake of being a feature. It's not even remotely usable except for the most basic of uses.
 
 ## Step Sequencer
 
@@ -947,9 +1031,67 @@ If you have old synths then you know what a pain it is to deal with sysex parame
 
 Cakewalk has full sysex support! HOORAY!
 
+## Virtual Keyboard
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/VirtualKeyboard.png" alt="Virtual Keyboard">
+<div class="image-caption">Virtual Keyboard</div>
+{:/nomarkdown}
+
+I added this for no other reason than to complain.
+
+It doesn't respect the layout of your keyboard set in the OS! I don't use QWERTY so this feature is utterly useless to me.
+
+It needs to be editable or properly follow the selected layout in the operating system's Region & Language settings.
+
 # Notable Features
 
 ## Matrix View
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/MatrixView.png" alt="Matrix View">
+<div class="image-caption">Matrix View</div>
+{:/nomarkdown}
+
+If you know [Ableton Live](https://www.ableton.com/en/live/) or [Bitwig]({% post_url 2017-06-04-30-days-of-wigging-out %}) then you are probably familiar with the grid-based music making system.
+
+Cakewalk's is rotated 90 degrees though.
+
+You're given a series of cells. Horizontally are tracks. Vertical presentation is "time".
+
+So multiple tracks can play clips at the same time. A vertical column may have multiple clips playing (in Live and Bitwig, this is a row or "scene").
+
+Each clip can be triggered via MIDI or by pressing the play button, and optionally the start time can be quantized to the nearest next time division. Play can also be 'latched' so that the clip is _only_ active when the mouse or MIDI note is held down.
+
+Each cell is edited through the [Loop Construction](#loop-construction) panel.
+
+Since the tracks in the matrix view are directly related to tracks in the project, you can record a performance in the matrix view, and clips will be written in your track view corresponding to what you heard in the matrix view. This is similar to Bitwig/Live's session record feature.
+
+So you might think that this is a fair drop-in replacement for something like Live or Bitwig. Unfortunately it's not. There's a few core issues in that case:
+
+* No integrated clip editor. The [Loop Construction view](#loop-construction) is nothing like Live/Bitwig's editor. It's severely lacking in this case.
+  * Audiosnap is also not available to clips easily.
+* No automation facilities for clips.
+* Track controls missing - Any track related setup must be done in the track view or [Mix Strip](#mix-strip)
+* No programmable playback - In Live/Bitwig you can setup follow-actions to craft a procedural playback of clips. This is a fantastic way to work.
+* No clip information - Getting information about clips requires switching to multiple other parts of the GUI.
+* Controllers - Utilizing this for a Live performance tool is out the window unless you want to spend hours setting up a fragile (project specific) MIDI mapping. Other DAWs have first-party support for various pad-controllers.
+* Mixer? - Using the matrix view is frustrating as you end up needing to bounce around to various parts of the GUI to adjust mix components. This is directly integrated into Live and Bitwig's session window.
+* Track status - When a row is playing, there is no status for it. Live/Bitwig have a status circle that shows you the current loop-status of the track. This is way easier to utilize than looking around the grid for the currently playing clip
+* [Media Browser](#media-browser) - Knowing metadata about clips is important. Cakewalk's browser is simple and offers little to no data about what you're about to drop in. Search and folder management are also barely existent.
+* Bitwig - Bitwig's session view is capable of being directly shown with the main arrangement. Working with this setup is pleasant.
+* Switching - Switching to/from the matrix view is painful. It will overlap one of your other docks. You can't have the Console and Matrix view open at the same time for instance.
+* Recording - You can't record directly to clips, which removes any last potential serious use for it on the cutting floor.
+
+There's some extra minor issues I won't go into that can be problematic in the Matrix view as well.
+
+I could _nearly_ defend it as a useful feature if you could record to clips and then test out arrangements. As it is, you must record clips to your track view (likely somewhere way to the right of the arrangement) and drag them in. It's a messy workflow.
+
+If you just like to drag and drop loops then maybe it's useful? I hope not many people work that way, except perhaps folks doing bgm for tv.
+
+As a soundboard it fails due to the poor browser.
+
+Matrix view needs a lot of work to be a contender. I imagine that a good deal of time was spent on this feature only to have it set by the wayside.
 
 ## Load Balancing
 
@@ -986,7 +1128,9 @@ There are some caveats though. Your processing load will be doubled (or thereabo
 
 I found this feature to be _completely_ worthless. It's a neat idea, but on my 18-core system with a Radeon Pro Vega 64, changing lenses can take upwards of 20 seconds. The temporal delay isn't the only thing. I found that often when attempting to make my own lenses, things did not stay where I put them.
 
-The lenses feature clashes partially with the [screensets](#screensets) feature below as well. Switching to a lense sometimes changed my screen layout, which necessitated switching to the screenset that I already had loaded.
+The lenses feature clashes partially with the [screensets](#screensets) feature below as well. Switching to a lense sometimes changed my screen layout, which necessitated switching to the screenset that I already had loaded. Screensets don't load particularly quickly either, so that's yet another delay.
+
+Interesting concept, poor execution. If this loaded near-instantly, I still think that the idea of moving around where important elements are is a poor UX decision. The user should always know where things are! Making that a dynamic process adds unnecessary complexity.
 
 ## Screensets
 
@@ -1028,9 +1172,9 @@ The idea here is that Cakewalk will intelligently map MIDI input to the current 
 
 In practice... it is a pile of garbage.
 
-Not only is it difficult to get working _even if_ you have a device with official mappings, but it's prone to corruption, won't control VST3 plugins and undoing mappings requires use of a [third party program](http://forum.cakewalk.com/How-to-make-ACT-Learn-button-work-in-any-Sonar-version-m3419474.aspx) that is equally poorly designed and cumbersome to use.
+Not only is it difficult to get working _even if_ you have a device with official mappings, but it's prone to corruption, won't control VST3 plugins and undoing mappings requires use of a [third party program](http://forum.cakewalk.com/How-to-make-ACT-Learn-button-work-in-any-Sonar-version-m3419474.aspx) that is equally poorly designed and cumbersome to use. (Kudos to the author for doing this though. It's an admirable effort to fix something that shouldn't need fixing.)
 
-I found at least 4 third-party programs that attempt to fix the issues with ACT, yet the authors don't seem to admit that there's issues with the design or function.
+I found at least 4 third-party programs that attempt to fix the issues with, or amend the capability of, ACT, yet the authors don't seem to admit that there's issues with the design or function.
 
 Guys, if you have to write software to fix someone else's software... that 'someone else's software' **IS RUBBISH**. You can spin it however you want, but ACT is fundamentally flawed and functionally broken.
 
@@ -1060,6 +1204,8 @@ I can't stand how it's not possible to set how close you need to be something fo
 Cakewalk lets you adjust how strong the 'magnet' is when snapping. Not only can you adjust it, but it has a useful widget that allows you to test the feel of the current setting without needing to go back to your project and potentially mess up somethign trying it.
 
 Brilliant feature that's well executed.
+
+I would prefer that this be more accessible. I found myself adjusting this for varying workflows occasionally, and I would have liked it on the Control Bar as well as the preferences window.
 
 ## Landmark snapping
 
@@ -1100,7 +1246,6 @@ You can search for shortcuts by key or by name, bind to keyboard and MIDI and im
 
 The issues I have:
 
-* Few shortcuts - I know this seems silly, but there are few shortcuts available.
 * **TERRIBLE** default bindings - The default bindings are some sort of next level trash. A number of useful functions are unbound, and useful functions (like tools) are bound to overlapping keys.
 * Multiple Layers - You cant search just everything. You need to know if your binding is global, console, event list, step sequencer, etc... etc... You're left to browsing 18 sub-layers of shortcuts by hand.
 * Slow - the keyboard shortcuts window is slow to load, slow to bind/unbind and slow to switch "areas".
@@ -1115,12 +1260,12 @@ The Keyboard Shortcuts window is a necessary feature that's only half-done.
 <div class="image-caption">CD Burning</div>
 {:/nomarkdown}
 
-I can't review this because I don't own a cd/dvd drive, let alone a burner. I don't miss it at all.
+I can't review this because I don't own a cd/dvd drive, let alone a burner. I don't miss CD/DVD drives at all. Good Riddance.
 
 ## Loop Construction
 
 {::nomarkdown}
-<img src="/assets/Cakewalk/LoopConstruction" alt="Loop Construction">
+<img src="/assets/Cakewalk/LoopConstruction.png" alt="Loop Construction">
 <div class="image-caption">Loop Construction</div>
 {:/nomarkdown}
 
@@ -1131,6 +1276,8 @@ The pitch of a loop can be set so that it transposes (within capability) as well
 Files that have been groovified are shown with rounded corners in the track view.
 
 It's an interesting tool, but I found that it did a poor job of transient detection and tempo detection unless the file was immaculately recorded and sliced.
+
+I don't know of any product that does this well. Even the original [Recycle](https://www.propellerheads.com/recycle) or [Acid](https://www.magix.com/us/music/acid/) have similar issues. Perhaps criticizing loop construction isn't fair since nobody really has done this right yet.
 
 # Plugins
 
@@ -1411,6 +1558,40 @@ A proper transpose plugin that does more than just pitch shifting. It can transp
 MIDI Velocity scaling, re-writing, limiting, randomization and changing.
 
 It's a dynamics processor for MIDI notes. It works well.
+
+# Conclusion
+
+If you've made it this far then you may think I have a poor view of the software. If you just skipped here then scroll up and start over. No cheating!
+
+Cakewalk is littered with half-finished features. I don't know if this is caused by various owners looking for marketable features or if it's endemic to the development of the software. I suspect that due to the strange over-use of buzzwords that this is driven by a marketting team that pulls the reins on a talented developer team.
+
+Luckily, the _core_ features necessary for basic music making are in tact. For simple recording and mixing, Cakewalk is excellent. I quite enjoyed just recording a few guitar parts, some drums and bass, then doing a mix. It's possibly the most pleasant of experiences in that regard when it comes to DAWs.
+
+The software falls apart in _serious_ ways when it comes to workflows that are more common in professional contexts. If you work with large orchestral tracks, post, high-pressure/tight-deadline band recording then I'm sure you can _squeeze by_, but there's **SO MANY** features that exist in other DAWs that would make your life immeasurably easier. Even just improving some specific areas of the software could lead to workflow improvements.
+
+Automation is laughably bad. Audio editing is basic. No VCA faders. Effects management is reliant on third-party tools. Surround support is spotty. Navigation tools are non-existent. MIDI editing is 2 decades behind other products. HiDPI support is poor (see all the images in this post?). The GUI is fractured with varying menus in each section and hotkeys scattered around and overloaded. Video support is like it was in the 90s.
+
+I can understand why people enjoy the software. There's no shame (or anything negative at all!) about having basic needs. Cakewalk gets the basics right for the most part.
+
+However... There's a huge number of features that other products have attained that can speed up basic workflows. [Automation](#automation-modes) is a prime example. Until you understand how a mature system works, you may not realize how much extra work you're doing. Imagine having to enter a 10-digit code, turn a key and do a little dance to enter a building while the guys across the street just put their eye to a scanner.
+
+As a free product Cakewalk is fantastic. If I was paying $50 a month for it, I'd be quite unhappy for the value. I know that the paid version came with a lot of bonus plugins/addons, but the core functionality is behind the competitors.
+
+As a free product I'm not sure I could call it the best product. [Tracktion 7](https://www.tracktion.com/products/t7-daw) has an excellent core workflow with some interesting workflow features. [Ardour]({% post_url 2017-10-26-30-Days-with-Ardour-v2 %}) also has a brilliant core featureset, and some interesting additions (but barely any MIDI support). [Radium](http://users.notam02.no/~kjetism/radium/) is an incredible option for software based musicians that aren't afraid to think outside the box (it's a bit strange even for a tracker). Cakewalk isn't far removed from these options, and I think a case could be made that they surpass Cakewalk in a number of areas that may be important to certain musicians. Ardour, Radium and Tracktion are cross-platform too.
+
+I can say that Cakewalk is worth the price you paid, possibly a bit more. If you like the workflow then nobody can convince you otherwise, but compared to the rest of the market it's clearly behind the pack.
+
+I'm somewhat at a loss for this. Cakewalk is one of the older generation of products. Even Pro Tools has managed to surpass Cakewalk (at least in terms of _usable_ features). Perhaps it's the multi-tiered changes of ownership over the years causing delays in product development? Corporate ownership focused on feature-based development?
+
+Whatever it is, Cakewalk doesn't even live up to the likes of [some newcomers](https://www.presonus.com/products/Studio-One).
+
+Hopefully bandlab can do something with the software to shore up the half-finished features and enhance the core workflows. I don't even care about the features that aren't there like chord tools, arrangement features, advanced editing tools (spectral editing, better warping), object-based editing, sequence based editing, scratch arrangements, advanced tempo editing, live looping, navigational tools, post workflows, video editing, automation curves, automation modes beyond write/touch/latch, live collaboration features, integrated sidechain support, standards metering, macro controls, reference/edit clips, audio/midi metadata support, advanced MIDI transformation tools, true scripting (not macros like CAL), remote control, track templates, VCA faders, project alternatives, clip automation, video generation, DMX support, OSC support, crossplatform, automation processing, control modulation, AAF support, gain reduction metering, ambisonics, VR support (producing, not using Cakewalk inside VR), user profiles, selection saving, zoom presets, metronome rhythms, MPE support, VST Expression support, ADR system, track versions/playlists, monitor track, audio analysis tooling, 'always record', logic-based search, temporary control grouping, mixer undo, offline undo, crossfade tooling, sample-accurate parameter automation, hardware inserts, Link support, audio to midi slicing, HDPI support, offline manual, articulation management, per-project settings, hardware synth integration, choke groups, inter-application audio support, plugin parameter routing, modular track routing, etc...
+
+Let's just ignore all those missing things.
+
+If Bandlab just took what's already there and _fixed it_, it would be a great product. Get rid of the annoying popups, consolidate the menus, finish the tab view, finish the matrix view, improve automation, give the console an update, add some proper MIDI tooling, improve audiosnap, speed up the GUI, and integrate a decent audio editor. Now you have a product that will give any DAW a run for its money no matter the cost.
+
+Until then it just feels like corporate America in DAW form: half-baked, promise-driven and 15 years late.
 
 # Support Me!
 
