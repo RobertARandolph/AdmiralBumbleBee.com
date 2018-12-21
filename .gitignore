@@ -2,6 +2,4 @@
 .DS_Store
 /.bundle
 /bundler_stubs
-.sass-cache/499e39a76a552418bf7759ed8d99f5b7b739daa2/_base.scssc
-.sass-cache/499e39a76a552418bf7759ed8d99f5b7b739daa2/_layout.scssc
-.sass-cache/499e39a76a552418bf7759ed8d99f5b7b739daa2/_syntax-highlighting.scssc
+.sass-cache
