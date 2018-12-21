@@ -35,7 +35,7 @@ series: Cakewalk
 
 ## Love it
 
-...
+I actually didn't like much at first. That did change over time though.
 
 ## Annoyances
 
@@ -46,6 +46,12 @@ No picture here, because it doesn't exist!
 If you want to know if/when a glitch has happened in your audio then you're out of luck until you listen to the playback.
 
 Total workflow killer to need to double-check every single recording in case Windows has decided to have a seizure.
+
+### Lost Windows
+
+It's easy to 'lose' a window in the background with no way to get it back.
+
+No way to screenshot it because the window is gone until you start moving things around to find it. Incredibly frustrating.
 
 ### Notifications
 
@@ -229,6 +235,17 @@ It is slow to react to what you are focusing on, and the description offered is 
 
 Luckily there is another help system which allows you to press F1, and the manual load focused on the section that corresponds to where your mouses hovering. That is useful.
 
+### Weak Metronome
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Metronome.png" alt="No metronome settings">
+<div class="image-caption">No metronome settings</div>
+{:/nomarkdown}
+
+There's no rhythms, no time-signature changes, no user-based sounds (maybe you can add this in a specific folder?), no adjustable tone-based metronome.
+
+It's a poor showing of a metronome system.
+
 ### Cakewalk Projects
 
 {::nomarkdown}
@@ -358,6 +375,23 @@ Hopefully one of those explanations hooks you. I occasionally take a stab at exp
 Along with Cakewalk's simplistic automation system, there are no VCAs faders. VCA faders not only make mixing a joy, but are another tool in the arsenal of a automationist (I made that word up, I hope it sticks).
 
 I **LOVE** working with VCA faders. They make working with large complex arrangements a breeze. _If anything_, they allow you to easily layer automation and create 'trim automation' easily.
+
+### Zoom Tool
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/ZoomTool.png" alt="Zoom Tool is hidden!">
+<div class="image-caption">Zoom Tool is hidden!</div>
+{:/nomarkdown}
+
+I love the mouse-based zoom workflow. I don't like using mice for much, but for selecting areas of the screen to work on it's a great tool.
+
+Cakewalk has a tool that lets you select what you want to see by just boxing that area. Press `z` to activate it.
+
+It's not on the tool palette though! I bet a lot of Cakewalk users don't know it exists.
+
+Try the modifier keys with it too to unlock some extra features.
+
+There's also a hidden scrub tool if you look for it.
 
 # General Audio
 
@@ -709,6 +743,22 @@ This "feature" is awful. Most other DAWs do this relatively intelligently, but C
 
 I find myself needing to turn it on/off to type in values in a plugin most frequently.
 
+
+## Markers
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Markers.png" alt="Markers">
+<div class="image-caption">Markers</div>
+{:/nomarkdown}
+
+I'm sticking this in the mixing section because I use markers most when mixing.
+
+Cakewalk has a fairly basic markers system. You create time based markers so that you can jump to sections. It's possible to set the 'pitch' of a marker for use with groove clips (though I didn't figure out how to utilize that).
+
+I wish there were hotkeys for the first 10 markers at least, because I like to use these functions frequently when working. Marker actions would be nice (make something happen at a marker).
+
+Basic, but necessary feature that's implement at its bare minimum of functionality.
+
 # MIDI
 
 ## Basic Editing
@@ -744,6 +794,30 @@ This is nothing more than a small magnifying glass.
 Cakewalk's MIDI editing controls are quite annoying due to their small size and narrow targets, and this is apparently supposed to alleviate it.
 
 It does not. In fact the two times that I want to use it actually made me feel slightly nauseous. In no way did make it easier to edit midi for me.
+
+## Multitrack MIDI Editing
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/MultitrackMIDI.png" alt="Multitrack MIDI Editing">
+<div class="image-caption">Multitrack MIDI Editing</div>
+{:/nomarkdown}
+
+This feature is the ability to view multiple MIDI parts overlaid while editing a single part. With this active you can better create harmonies and work with rhythms in a more natural manner.
+
+I expect this functionality out of any DAW and it's here.
+
+## Track Filters
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/TrackFilters.png" alt="Track Filters">
+<div class="image-caption">Track Filters</div>
+{:/nomarkdown}
+
+A necessary feature for workflows that utilize a large number of tracks. You can create filters that instantly show only certain sets of tracks.
+
+It's simple and it's easy to setup.
+
+I would still prefer a search feature, but this works alright.
 
 ## Per clip editors
 
@@ -847,7 +921,6 @@ MIDI track tools allow give you ways to transform your incoming MIDI data in rea
 * Bank browser
 * Patch selection method (bank selection, cc 0, cc32 or patch 100 offset)
 
-
 ## Synth Rack
 
 {::nomarkdown}
@@ -855,7 +928,24 @@ MIDI track tools allow give you ways to transform your incoming MIDI data in rea
 <div class="image-caption">SynthRack...</div>
 {:/nomarkdown}
 
-MIDI track outputs to synth, audio track takes input from synth with monitoring on.
+Synths are stored in the 'synth rack'. The plugins are global to the project and you route tracks to them as needed.
+
+It's not an uncommon system, and it has some benefits in terms of CPU/Disk usage. It can be confusing for people that are used to per-track instruments, but I feel that the benefits outweigh the initial confusion.
+
+If you're used to working with hardware, then this should be a familiar system.
+
+If you want to use a MIDI track with a synth, instead of an instrument track, then you need to output the MIDI track to the synth rack slot, create an audio track and set that to take input from the synth and turn input echos on. I found this mildly confusing at first. It's necessary if you want to use [MIDI FX though](#midi-fx).
+
+## Sysex
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Sysex.png" alt="Sysex!">
+<div class="image-caption">Sysex!</div>
+{:/nomarkdown}
+
+If you have old synths then you know what a pain it is to deal with sysex parameter changes or even firmware updates.
+
+Cakewalk has full sysex support! HOORAY!
 
 # Notable Features
 
@@ -958,6 +1048,30 @@ This is a silly name for a cool feature. It's nothing more than a line that show
 
 It's a tiny thing, but this might be one of my favorite features about Cakewalk. It just makes most basic playback/editing actions easier.
 
+## Snap Intensity
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/SnapIntensity.png" alt="Snap intensity and magnetic testing">
+<div class="image-caption">Snap intensity and magnetic testing</div>
+{:/nomarkdown}
+
+I can't stand how it's not possible to set how close you need to be something for it to 'snap' in other products.
+
+Cakewalk lets you adjust how strong the 'magnet' is when snapping. Not only can you adjust it, but it has a useful widget that allows you to test the feel of the current setting without needing to go back to your project and potentially mess up somethign trying it.
+
+Brilliant feature that's well executed.
+
+## Landmark snapping
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Landmarks.png" alt="Landmark snapping">
+<div class="image-caption">Landmark snapping</div>
+{:/nomarkdown}
+
+Cakewalk lets you turn on/off the ability to snap to non-time related events like: markers, transients, current time, MIDI notes, clips and automation nodes.
+
+This makes placing things FAR easier, since music doesn't always happen on the time grid. Excellent feature that not every DAW has caught up with yet.
+
 ## Mix Recall
 
 {::nomarkdown}
@@ -965,7 +1079,13 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
 <div class="image-caption">Mix Recall</div>
 {:/nomarkdown}
 
+Save your mix, then recall it later. That's as simple as it gets.
 
+Notably _this saves and recalls automation!_. Other products don't do this correctly which causes some major frustrations.
+
+It appears to handle routing correctly, plugin settings and other mix related things.
+
+Well done.
 
 ## Keyboard Shortcuts
 
@@ -987,6 +1107,30 @@ The issues I have:
 * Corruption - I've had my shortcuts corrupted once, that's more times than I ever want it to happen. I've never had this happen in any other software. I've _lost_ bindings due to my own idiocy, but never had bindings corrupted on save.
 
 The Keyboard Shortcuts window is a necessary feature that's only half-done.
+
+## CD Burning
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/CDBurning.png" alt="CD Burning">
+<div class="image-caption">CD Burning</div>
+{:/nomarkdown}
+
+I can't review this because I don't own a cd/dvd drive, let alone a burner. I don't miss it at all.
+
+## Loop Construction
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/LoopConstruction" alt="Loop Construction">
+<div class="image-caption">Loop Construction</div>
+{:/nomarkdown}
+
+Loop construction is where you create "Groove Clips". They are sliced or stretched so that they can conform to the project tempo. You can edit pitch/pan/gain of the slices as you want as well.
+
+The pitch of a loop can be set so that it transposes (within capability) as well. This data is written to the file so that it can be utilized when using the [browser](#media-browser) to preview files.
+
+Files that have been groovified are shown with rounded corners in the track view.
+
+It's an interesting tool, but I found that it did a poor job of transient detection and tempo detection unless the file was immaculately recorded and sliced.
 
 # Plugins
 
@@ -1194,6 +1338,8 @@ This is not meant to sound good. It's a general midi synthesizer and it does a _
 It most certainly doesn't sound good, but it does exactly what it's aiming to do. That's admirable and I'm sure many people have a use for it.
 
 ## MIDI FX
+
+A note that these only work on MIDI tracks it seems. I was unable to figure out how to use them on instrument tracks. So as far as I know this necessitates a workaround as described in the [synth rack section](#synth-rack) to use these with software instruments.
 
 ### Arpeggiator
 
