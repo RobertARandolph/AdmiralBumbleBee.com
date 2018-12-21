@@ -35,13 +35,7 @@ series: Cakewalk
 
 ## Love it
 
-### GUI Configurability
-
-{::nomarkdown}
-<img src="/assets/Cakewalk/GUI.png" alt="GUI Configuration">
-<div class="image-caption">GUI Configuration</div>
-{:/nomarkdown}
-
+...
 
 ## Annoyances
 
@@ -84,6 +78,8 @@ I also get this dialog if I alt-tab away from Cakewalk for more than ~15 seconds
 
 There aren't any... apparently?
 
+As far as I can see their are no specific settings that are set project by project that you can change after the project is created, except for the things in the control bar, and associated menus.
+
 ### Analytics
 
 {::nomarkdown}
@@ -91,11 +87,28 @@ There aren't any... apparently?
 <div class="image-caption">Analytics on by default?</div>
 {:/nomarkdown}
 
+Cakewalk has analytics turned on by default, which is an invasion of privacy that I do not think is acceptable. These analytics may be anonymized, butt I do not feel that a DAW should have these things enabled by default.
+
+### Buzz Words
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Buzz.png" alt="Buzzwords Galore">
+<div class="image-caption">Buzzwords Galore</div>
+{:/nomarkdown}
+
+MIDI Microscope, Lenses, ACT, CAL, Aim Assist, VocalSync, Skylight, Audiosnap etc...
+
+Can you guess what these things do without checking the manual? If you're not already a Cakewalk user you may be able to guess [Vocalsync](#vocalsync), or wrongly guess what Audiosnap does and be lost on the rest.
+
+I asked a number of educated audio people (around 50 or so) what they thought some of these terms referred to, and only one person got _any_ right: a former Sonar user. He didn't even get them all!
+
+Cakewalk is awash in buzzwords that don't actually describe what the function does. The manual does do an admirable job explaining the features, but you may be in for some heavy manual reading to fully understand the functionality offered by the software.
+
 ### Empty MIDI Clips
 
 {::nomarkdown}
 <img src="/assets/Cakewalk/EmptyMIDI.png" alt="This isn't possibly">
-<div class="image-caption">This isn't possibly</div>
+<div class="image-caption">This isn't possible</div>
 {:/nomarkdown}
 
 There is no way to insert a MIDI clip other than to drag one in, use the in-line piano roll or some wierd workarounds. Empty MIDI clips aren't even possible apparently.
@@ -210,6 +223,12 @@ An extra layer of annoyance is that for some reason my 'recent projects' gets wi
 <div class="image-caption">Unhelpful Module</div>
 {:/nomarkdown}
 
+I like the concept of having some sort of live help that shows you what a control does, but Cakewalk's help module is almost completely useless.
+
+It is slow to react to what you are focusing on, and the description offered is minimal and unhelpful.
+
+Luckily there is another help system which allows you to press F1, and the manual load focused on the section that corresponds to where your mouses hovering. That is useful.
+
 ### Cakewalk Projects
 
 {::nomarkdown}
@@ -219,7 +238,7 @@ An extra layer of annoyance is that for some reason my 'recent projects' gets wi
 
 Why are Cakewalk Projects stored in the root of the C drive by default?
 
-They should be in C:\Users\name\Documents or C:\Cakewalk Projects\Music like everything else is supposed to do!
+They should be in C:\Users\name\Documents or C:\Users\name\Music like everything else is supposed to!
 
 ### NO MIXER UNDO
 
@@ -236,6 +255,19 @@ AHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH
 Watch as I move a fader and hit `ctrl-z` multiple times. My project slowly disassembles itself, but the fader never moves.
 
 It's 2018. Most DAWs have mixer undo. It's a vital workflow tool, especially when working with certain automation tasks or working with grouped faders.
+
+### Plugin Selection
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/PluginMenu.png" alt="Plugin Menus">
+<div class="image-caption">Plugin Menus</div>
+{:/nomarkdown}
+
+Adding/Removing plugins isn't particularly fun in Cakewalk. You need to either use the browser + drag'n'drop or utilize the terrible menu system.
+
+[There is a third-party solution](https://www.kvraudio.com/forum/viewtopic.php?f=105&t=171797) that sorta fixes the issue, but it still relies on utilizing multi-layer menus for finding your products.
+
+A proper in-line plugin finder is needed! The other DAWs have it guys, get with the times!
 
 ### Fader Groups are Borked
 
@@ -327,6 +359,8 @@ Along with Cakewalk's simplistic automation system, there are no VCAs faders. VC
 
 I **LOVE** working with VCA faders. They make working with large complex arrangements a breeze. _If anything_, they allow you to easily layer automation and create 'trim automation' easily.
 
+# General Audio
+
 ## Basic Editing
 
 {::nomarkdown}
@@ -336,6 +370,32 @@ I **LOVE** working with VCA faders. They make working with large complex arrange
     </video>
     <div class="video-caption">Basic Editing</div>
 {:/nomarkdown}
+
+Basic editing is not a golden star on Cakewalk's reputation.
+
+Editing relies on utilizing multiple tools which are presented in layers, there is an edit tool with multiple sub tools, there is a draw tool with multiple sub tools, there is an array stool with multiple sub tools, there is a select tool, there is a move tool and there is a smart tool.
+
+Juggling these tools is not exactly the most efficient of workflows. The smart tool does work, but it does lack a number of features offered by other tools.
+
+If you have ever edited in a DAW that has a keyboard-based editing flow, or a more functional smart tool then utilizing something like Cakewalk's fractured system is not the most pleasant of experiences.
+
+You can get things done that need to be done, but there are other systems for basic audio editing that are designed to work much more efficiently and offer more functionality.
+
+## Takes and Comping
+
+{::nomarkdown}
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Cakewalk/Comping.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Takes and Comping</div>
+{:/nomarkdown}
+
+Takes and comping in Cakewalk are well implemented.  I have used the number of comping systems and I find that Cakewalk's is easy to use and allows enough flexibility to handle most tasks.
+
+One of the things that I enjoy about it is that you can record directly to the take lanes in case you have a take that you need to do overdubs on. This allows you to minimize the number of take lanes, so that you do not have a screen full of takes that you need to scroll up and down to utilize.
+
+There are systems that are more complex and have more features, but hose systems tend to be error-prone and get in the way of even more advanced workflows.
 
 ## Audio Snap
 
@@ -347,12 +407,38 @@ I **LOVE** working with VCA faders. They make working with large complex arrange
     <div class="video-caption">Audio Snap</div>
 {:/nomarkdown}
 
+This is what is referred to as warping in other products, but Cakewalk's implementation is somewhat sad.
+
+You simply get some lines drawn on your waveform that you can move around to stretch that portion of audio between the adjacent 'audio snap' lines.
+
+The waveform is not updated in real time, so it can be difficult to know exactly what you were going to get before hand. This is important because the algorithm does not always put the transient marker exactly where it needs to be. In some other products there is no need to move around the markers, since you can see exactly what is happening in real time. When you can see what is happening in real time you can just move the marker to exactly where things need to go and get on with your life.
+
+Look at how Studio One does it:
+
+{::nomarkdown}
+<img src="/assets/StudioEvaluatione/warp.gif" alt="Studio One Warping">
+<div class="image-caption">Studio One Warping</div>
+{:/nomarkdown}
+
+Doesn't that look so much better? Everything about it is better from a user interaction perspective.
+
+Not only that but you can utilize working across multiple tracks at the same time. So if you wish to move a snare drum hit in a multitrack recording you can do that.
+
+Other products also have fully featured quantization tools that allow you to work with warp markers as if they were MIDI notes, or to transfer of warp markers directly to MIDI.
+
+As far as I know does not have these features.
+
 ## Asset Management
 
 {::nomarkdown}
 <img src="/assets/Cakewalk/AssetManagement.png" alt="Asset Management">
 <div class="image-caption">Asset Management</div>
 {:/nomarkdown}
+
+Cakewalk comes with some basic audio asset management tools:
+
+* Consolidate Project - Consolidate takes all of the files referenced that exist outside of the project folder and puts them inside the project folder.
+* Clean Audio Folder - Clean removes all audio in the projects audio folder that is not currently referenced in the project.
 
 ## Drum Replacer
 
@@ -361,8 +447,27 @@ I **LOVE** working with VCA faders. They make working with large complex arrange
 <div class="image-caption">Drum Replacer</div>
 {:/nomarkdown}
 
-Does not auto-scroll sometimes.
-Desyncs sometimes.
+Drum replacer allows you to set a threshold which will cause a sample to be triggered when that threshold is violated by the audio.
+
+As you may expect by the name, this is used to replace drums in drum recordings.
+
+It does have a neat feature that allows you to apply a filter before the detection, and it shows the audio's waveform after the processing.You can also limit how frequently samples can be triggered, which helps with lower frequency sounds that may look like multiple hits to the replacer.
+
+You can add and remove triggers manually, and I quite appreciate this feature.
+
+It is also possible to output the triggers to midi so that you can utilize an external software instrument to produce the drum sounds. I find that this workflow is somewhat cumbersome though. Other products simply let you click a button to export a midi track, but drum replacer directly outputs the midi to a synth that is currently in the project. If you want to capture the midi then you need to set up a MIDI loopback and record it.
+
+When working with complex parts is nice to be able to export to MIDI directly and then utilize the plethora of midi editing tools at your disposal to clean up the triggers.
+
+I found that this worked relatively well, particularly when using sound fonts that had multiple velocity levels for a sound, but there were a few issues:
+
+* Does not auto-scroll sometimes.
+* Occasionally the sound will de-sync from the recording
+* No output to MIDI
+* Limited support for sample types (only soundfonts allow multiple velocity)
+* Creating your own SFZ files is a pain. [There is a utility](https://app.box.com/s/aq7o929e14mamea5rng4zjotj0ge0xi5), but it's something that should not need to exist.
+
+Overall I did find that the workflow works relatively well for doing simple drum emplacement. If you need to work with more complex parts then I would much rather use a different DAW.
 
 ## VocalSync
 
@@ -374,6 +479,12 @@ Desyncs sometimes.
     <div class="video-caption">VocalSync</div>
 {:/nomarkdown}
 
+Vocalsync is an answer to [VocAlign](https://www.synchroarts.com/products/vocalign-pro/overview).
+
+The idea is to analyze two pieces of audio and then shift one of them so that it aligns with the source. This is done with an engine similar to [audiosnap](#audiosnap), so audio is affected only between parts where it needs to be.
+
+I found that it works fairly well, but does not work as well as vocalign or [Align takes](/ReaperScripts.html#align-takes---thread).
+
 # Mixing
 
 ## Console
@@ -383,12 +494,57 @@ Desyncs sometimes.
 <div class="image-caption">Console</div>
 {:/nomarkdown}
 
+The mixing console is what you would expect from digital audio software, it has all the basic features that you would want contained in the [mix strips](#mix-strip)
+
+A thing that I enjoy is that you can adjust the metering specification for the various types of channels. It would be nice if VU and K-System metering was available, but rms is fine enough for most uses.
+
+Another feature that I like is that you can select the range of the meter for each individual channel or for each type of channel.
+
+One of the more disappointing things is that there is no navigation system that allows you to quickly find or jump to a specific track, or a type of track. Other products have things like search boxes and/or tree views that make it easy to navigate a large project in the mix console.I worked on a 45 track project in Cakewalk and even that was relatively difficult to move around and without any easy way of finding tracks.
+
+(Utilizing folders only obfuscates information and adds more clicks. They're a great organizational tool, but they are _not_ a navigation tool.)
+
+### Send Assistant
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/SendAssistant.png" alt="Send Assistant">
+<div class="image-caption">Send Assistant</div>
+{:/nomarkdown}
+
+Creating sins is something that most DAWss are not very good at. The act of creating a send is usually ambiguous since there are multiple ways that you may want this to happen and various goals that you may have when creating a send.
+
+Enter the Send Assistant. It offers a dialogue that makes it easy to create a send to the destination that you want.
+
+It is also possible to create sends directly from the plus button next to the send. You can create new tracks or utilize existing tracks, and there is this concept of a "patch point".
+
+Patch points allow you to send audio to a bus that can then be used as an input on any other track. Patch points allow you to send audio from any track to any other track.
+
+All in all, creating sends in Cakewalk is an unusually pleasant experience.
+
 ### Mix Strip
 
 {::nomarkdown}
 <img src="/assets/Cakewalk/MixStrip.png" alt="Mix Strip">
 <div class="image-caption">Mix Strip</div>
 {:/nomarkdown}
+
+The mix strip for each channel offers you most of what you'd expect:
+* Mono/Stereo
+* Polarity Inversion
+* Automation modes
+* Mute
+* Solo
+* Record arm
+* Input Monitor
+* FX
+* Sends
+* Pans
+* Faders
+* I/O assignment
+
+It is a bit disappointing that you cannot change the size of the faders, so you end up bound to the relatively small faders you are offered. A neat feature is that you can easily access [Pro Channel](#prochannel) straight from the mix strip by clicking the pro channel button.
+
+I am not a fan of using menus to remove sends or effects. It is not difficult to add a modifier that allows you to click in effect or a send and remove it. Two clicks and visual recognition of a menu is a poor workflow.
 
 ### ProChannel
 
@@ -397,6 +553,13 @@ Desyncs sometimes.
 <div class="image-caption">Pro Channel</div>
 {:/nomarkdown}
 
+I **LOVE** ProChannel.
+
+I know that it seems silly, but I love channel strips in mixers in DAWs, and I think that Cakewalk's channel strip is only second to what Steinberg offers in Cubase and Nuendo.
+
+You are given a selection of tools that sound relatively decent and are easy to access for every single channel in your console. They are also fairly CPU friendly.
+
+It appears that before BandLab purchased Cakewalk, Sonar had many more ProChannel modules. I would love to see these added, but I suspect that they will be separated out as purchasable assets to help monetize Cakewalk.
 
 #### Compressor 
 
@@ -405,6 +568,9 @@ Desyncs sometimes.
   <div class="image-caption">Compressor </div>
 {:/nomarkdown}
 
+An [1176 style compressor](https://www.uaudio.com/hardware/1176ln.html). Fast attack time and that "all buttons in"mode is available as you would expect.
+
+It does not sound exactly like an 1176. Despite that I have enjoyed utilizing it when mixing in Cakewalk and I think that it is a great compressor despite its inauthenticity.
 
 #### EQ 
 
@@ -413,6 +579,16 @@ Desyncs sometimes.
   <div class="image-caption">EQ </div>
 {:/nomarkdown}
 
+This is an atypical, four band equalizer with a high-pass and low-pass.
+
+There are four modes:
+
+* Hybrid - [SSL 400 E-series curves](https://en.wikipedia.org/wiki/Solid_State_Logic#4000_series) except that when you cut, you get a much sharper constant-q response. "Surgical" when cutting and "broad" when boosting.
+* Pure - Symmetrical cuts and boosts that are not constant-q. This gives you a very wide equalizer that is good for broad changes.
+* E-Type - [SSL4k E-type](https://en.wikipedia.org/wiki/Solid_State_Logic#4000_series). A more aggressive sound with that becomes _less_ aggressive with larger gain values. Sharp with small changes, broad with large changes. Your typical constant-q behaviour. (Also my favorite EQ style)
+* G-type - Much broader EQ response like the [SSL 4000 G-type](https://en.wikipedia.org/wiki/Solid_State_Logic#4000_series). Large boosts are similar to the E-type, but smaller boosts are broader.
+
+I really enjoy using the ProChannel equalizer.
 
 #### Tube 
 
@@ -421,6 +597,9 @@ Desyncs sometimes.
   <div class="image-caption">Tube </div>
 {:/nomarkdown}
 
+I may not be very popular with this opinion, but I feel that the two module just sounds farty and unpleasant.
+
+Turning on type II makes this even worse. It gives you a saturation sound that is devoid of any high-end sparkle but has the grid and the low-end that just causes a mix to end up sounding muddy and overly dense.
 
 #### Saturation Knob
 
@@ -429,6 +608,7 @@ Desyncs sometimes.
   <div class="image-caption">Saturation Knob</div>
 {:/nomarkdown}
 
+[Softube's Saturation Knob](https://www.softube.com/index.php?id=satknob) (which is free to any DAW users) is available in the ProChannel. I am not the biggest fan of this, but I have heard people use it any pleasing way.
 
 #### Tape Emulator
 
@@ -437,6 +617,11 @@ Desyncs sometimes.
   <div class="image-caption">Tape Emulator</div>
 {:/nomarkdown}
 
+Ahhhh, the ubiquitous love of tape machines. This does not sound like a tape machine.
+
+It _does_ sound cool though. I also appreciate the lock knob which inversely links the input level in the output level.
+
+I have had quite a lot of fun putting it on 7.5 IPS and smashing some distant drum mics. Man, that's fun.
 
 #### Console Emulation
 
@@ -444,6 +629,14 @@ Desyncs sometimes.
   <img src="/assets/Cakewalk/ConsoleEmulation.png" alt="Console Emulation">
   <div class="image-caption">Console Emulation</div>
 {:/nomarkdown}
+
+Here you're given channel and bus emulations of 3 famous console styles:
+
+* [SSL 4000](https://en.wikipedia.org/wiki/Solid_State_Logic#4000_series)
+* [Neve (88R I think)](https://ams-neve.com/)
+* [Trident A-Range](https://www.uaudio.com/blog/trident-a-range-desk/)
+
+They all sound fantastic and I have been a fan of putting them on nearly every single channel. I particularly like the S-type, which sounds _similar_ to an SSL 4K console. Regardless if the emulation is good I find that it is a cool sound.
 
 
 #### REmatrix Solo
@@ -453,6 +646,13 @@ Desyncs sometimes.
   <div class="image-caption">REmatrix Solo</div>
 {:/nomarkdown}
 
+This is your typical convolution reverb, and it is available on every single channel if you want.
+
+It comes with a decent selection of impulses and you can load your own. There is a single EQ band and you can add your own pre-delay.
+
+An alternate use of this is to use it as a guitar cabinet simulator for which it does a reasonable job.
+
+It's nothing exciting but it is still a useful thing to have at your fingertips. Especially so when there's so many free impulse responses out there.
 
 #### BREVERB 2
 
@@ -461,6 +661,9 @@ Desyncs sometimes.
   <div class="image-caption">BREVERB 2</div>
 {:/nomarkdown}
 
+This is an amazing algorithmic reverb that you get for free and get to use on every single channel in your project multiple times (if you're like me and making some crazy mess of shoegaze at 3am).
+
+Joking aside, [BREVERB 2](https://overloud.com/products/breverb-2) is a great reverb that people happily pay $100+ to own. I think it is a wonderful addition to Cakewalk.
 
 #### FX Chain
 
@@ -469,6 +672,29 @@ Desyncs sometimes.
   <div class="image-caption">FX Chain</div>
 {:/nomarkdown}
 
+FX chain does nothing more than a light but FX in between your ProChannel modules.
+
+#### Style Dials
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/StyleDials.png" alt="Style Dials">
+<div class="image-caption">Style Dials</div>
+{:/nomarkdown}
+
+"Style dials" are a silly little concept where you have a single knob that does multiple functions such as:
+
+* Depth - Reverb/delay, very short
+* Gater - Gate
+* Grit - distortion, supposedly tubey but... nah.
+* Max - Brickwal Limiter that sounds alright.
+* Pulse - Tremolo with distortion?
+* Shaper - Transient shaper
+* Smoother - De-esser
+* Space - Big sounding reverb
+
+I was initially very skeptical of these things, since I'm not a big fan of one plug-ins. I eventually came around to it and found that I used "Gater", "Depth" and "Shaper" frequently enough to warrant a positive word about them.
+
+None of these sound particularly bad, and I would imagine that there useful for occasional use. My concern would be that people would overuse these and leave all of their mixes having a very similar sounding "flavor".
 
 ## Plugins
 
@@ -503,6 +729,22 @@ The editing is tool-based, but the tools are far away in the main control bar an
 
 And on some keyboards these tool keys may clash with other functions you utilize with Windows.
 
+### MIDI Microscope
+
+{::nomarkdown}
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Cakewalk/MIDIMicroscope.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">MIDI Microscope</div>
+{:/nomarkdown}
+
+This is nothing more than a small magnifying glass.
+
+Cakewalk's MIDI editing controls are quite annoying due to their small size and narrow targets, and this is apparently supposed to alleviate it.
+
+It does not. In fact the two times that I want to use it actually made me feel slightly nauseous. In no way did make it easier to edit midi for me.
+
 ## Per clip editors
 
 {::nomarkdown}
@@ -511,6 +753,12 @@ And on some keyboards these tool keys may clash with other functions you utilize
 {:/nomarkdown}
 
 Each MIDI clip can be set to utilize a different MIDI editor view by clicking the icon in the upper right of the Clip.
+
+I think this is actually pretty cool that you can have a preferred type of midi editor per clip. I do think that it is perhaps more complex than it needs to be.
+
+Since a track will normally house a specific instrument, I think it is a reasonable assumption to make that that instrument will always warrant the same type of editor. Having the editor preference set as per clip makes for more clicking and increases the chance of ending up with a clip that is not set up how you want.
+
+This is still a great feature and I wish more audio products would have something like it.
 
 ## Fret Pane
 
@@ -524,7 +772,18 @@ Each MIDI clip can be set to utilize a different MIDI editor view by clicking th
 
 When using the staff view, a 'fret pane' can be opened to show a guitar fretboard which displays the notes being played at the current time.
 
-I found that it didn't do the best job of creating playable chords. Many times there'd be a note way up or way down the fretboard when it could have been easily moved to an adjacent string so the entire part would be human-playable
+I found that it didn't do the best job of creating playable chords. Many times there'd be a note way up or way down the fretboard when it could have been easily moved to an adjacent string so the entire part would be human-playable.
+
+## Quick Tab
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Tablature.png" alt="Tablature view">
+<div class="image-caption">Tablature view</div>
+{:/nomarkdown}
+
+Quick tab is neat, but it's very limited. There's no way that I could find to adjust enharmonic equivalents, add extra notation for performance characteristics, adjust rhythmic display etc...
+
+I tried it with some direct transcriptions I've done in the past and it did an alright job, but the places where there were mistakes were unfixable due to the inflexibility.
 
 ## Step Sequencer
 
@@ -532,6 +791,14 @@ I found that it didn't do the best job of creating playable chords. Many times t
 <img src="/assets/Cakewalk/StepSequencer.png" alt="Step Sequencer">
 <div class="image-caption">Step Sequencer</div>
 {:/nomarkdown}
+
+This is a step sequencer that allows you to program sounds, usually drums, by clicking blocks that correspond to a place in time.
+
+As far step sequencers go I found this was relatively decent.
+
+Unfortunately the competition is already beginning to leap-frog Cakewalk. [Studio One 4's new pattern editor]({% post_url 2018-05-24-Studio-One-4 %}#pattern-editor) is a good example.
+
+This is still a decent attempt and I would think that most people would appreciate how simple it is to place notes and adjust the velocity. Sometimes having a more functional step sequencer takes away from the essence of the concept: a simple way to enter musical information.
 
 ## Transform Tool
 
@@ -543,6 +810,12 @@ I found that it didn't do the best job of creating playable chords. Many times t
     <div class="video-caption">Transform Tool</div>
 {:/nomarkdown}
 
+This allows you to select an area of data and then basically treat it like a bitmap image. You can warp and skew the data by changing the size of the rectangle.
+
+A particularly neat feature is the ability to have a "soft" transform.This mode allows you to select an area that extends slightly outside and inside of the transform rectangle and scales the data at the boundaries to give a smooth transition around the transform box.
+
+A couple other DAWs have a similar feature, but this works well enough.
+
 ## Pattern Tool
 
 {::nomarkdown}
@@ -553,12 +826,27 @@ I found that it didn't do the best job of creating playable chords. Many times t
     <div class="video-caption">Pattern Tool</div>
 {:/nomarkdown}
 
+The pattern tool is nothing more than a tool that lets you paste MIDI data (by selecting a file) when you drag your mouse across the MIDI editor.
+
+I am not sure how useful this is, but if there are common rhythms that you use you want to use as a starting point for a track then I'd imagine this could be useful.
+
 ## MIDI Track Tools
 
 {::nomarkdown}
 <img src="/assets/Cakewalk/MIDITrackTools.png" alt="MIDI Track tools">
 <div class="image-caption">MIDI Track tools</div>
 {:/nomarkdown}
+
+MIDI track tools allow give you ways to transform your incoming MIDI data in real time. Here's what you can do:
+
+* Snap to scale - A decent set of scales is available and non-diatonic notes will be shifted to the scale. There is a scale manager where you can create your own scales.
+* Input Quantize - MIDI notes are shifted to the nearest rhythmic value.
+* Arpeggiator - An arpeggiator with latch (letting go of keys does not stop the notes). You can also scale the velocity, shift the pitch, add swing (shift offbeats forward) and adjust the duration. Flam (doubling of notes with a slight offset) is there, and creates an interesting textural sound. The arpeggiator comes with 14 different patterns of playback.
+* Key - Pitch shift.
+* Time - Time shift.
+* Bank browser
+* Patch selection method (bank selection, cc 0, cc32 or patch 100 offset)
+
 
 ## Synth Rack
 
@@ -580,7 +868,9 @@ MIDI track outputs to synth, audio track takes input from synth with monitoring 
 <div class="image-caption">Load Balancing</div>
 {:/nomarkdown}
 
-http://www.cakewalk.com/Documentation?product=SONAR&language=3&help=AudioPerformance.14.html
+Cakewalk can attempt to balance the load of your project across multiple processors as much as possible, which is a neat feature that surprisingly not many DAWs do (or do well).
+
+When I installed Cakewalk, this feature was disabled, so [follow the directions here to get started](http://www.cakewalk.com/Documentation?product=SONAR&language=3&help=AudioPerformance.14.html).
 
 ## Plugin Upsampling
 
@@ -589,12 +879,24 @@ http://www.cakewalk.com/Documentation?product=SONAR&language=3&help=AudioPerform
 <div class="image-caption">Plugin Upsampling</div>
 {:/nomarkdown}
 
+[Aliasing](https://en.wikipedia.org/wiki/Aliasing#Online_audio_example) is the bane of anyone using digital audio with any sort of non-linear process (such as anything with saturation/distortion).
+
+Cakewalk can upsample the signal pathway for all processes to twice the sample rate. This is sufficient to reduce a significant amount of aliasing and decrease the inharmonic content that may be present from non-linear processes.
+
+There are some caveats though. Your processing load will be doubled (or thereabouts) and there will naturally be changes to your audio from the up/downsampling process. These changes are beyond the scope of this review, but there's no free cake here!
+
 ## Lenses
 
 {::nomarkdown}
 <img src="/assets/Cakewalk/Lenses.png" alt="Lenses">
 <div class="image-caption">Lenses</div>
 {:/nomarkdown}
+
+"Lenses" is a marketing buzzword for letting you select what parts of Cakewalk are shown. It changes most aspects of the GUI to remove elements that are unnecessary for a given workflow.
+
+I found this feature to be _completely_ worthless. It's a neat idea, but on my 18-core system with a Radeon Pro Vega 64, changing lenses can take upwards of 20 seconds. The temporal delay isn't the only thing. I found that often when attempting to make my own lenses, things did not stay where I put them.
+
+The lenses feature clashes partially with the [screensets](#screensets) feature below as well. Switching to a lense sometimes changed my screen layout, which necessitated switching to the screenset that I already had loaded.
 
 ## Screensets
 
@@ -603,12 +905,27 @@ http://www.cakewalk.com/Documentation?product=SONAR&language=3&help=AudioPerform
 <div class="image-caption">Screensets</div>
 {:/nomarkdown}
 
+Screensets are a way of saving a window layout. You can take a snapshot of where things are laid out on the screen and recall it later to enable a smoother workflow for a specific task.
+
+Once again, switching screensets is slow and error prone. I found a number of times where things would be docked wrong or where windows would not be 'where I left them'.
+
+More annoyingly, it's 2018 and Cakewalk is slower at switching screensets than [Sawstudio](http://sawstudio.com/) was nearly 20 years ago (near instant, even under load). Screenset switching should be _instant_ or it feels like more of a nuisance than a help.
+
 ## CWAF
 
 {::nomarkdown}
 <img src="/assets/Cakewalk/CWAF.png" alt="CWAF">
 <div class="image-caption">CWAF</div>
 {:/nomarkdown}
+
+This is the 'find my audio files' type tool. It searches for audio files used in Cakewalk projects.
+
+It has 2 functions that I found mildly useful:
+
+* Move project - it does what it says on the tin.
+* Save report - this saves a textual report of what was found so that you can further process the information.
+
+It's not as nice as some other asset management tools in other DAWs, but it is big step above nothing at all.
 
 ## ACT
 
@@ -648,6 +965,8 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
 <div class="image-caption">Mix Recall</div>
 {:/nomarkdown}
 
+
+
 ## Keyboard Shortcuts
 
 {::nomarkdown}
@@ -655,6 +974,19 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
 <div class="image-caption">Keyboard Shortcuts</div>
 {:/nomarkdown}
 
+I'm conflicted. Cakewalk's keyboard shortcuts window is conceptually neat, but it's also deeply flawed.
+
+You can search for shortcuts by key or by name, bind to keyboard and MIDI and import/export. There's also a neat feature that lets you use a MIDI "modifier key", so that you can send a MIDI note that allows use of a second layer of utilization. So C1 could do something, and C1 + C2 could do something else.
+
+The issues I have:
+
+* Few shortcuts - I know this seems silly, but there are few shortcuts available.
+* **TERRIBLE** default bindings - The default bindings are some sort of next level trash. A number of useful functions are unbound, and useful functions (like tools) are bound to overlapping keys.
+* Multiple Layers - You cant search just everything. You need to know if your binding is global, console, event list, step sequencer, etc... etc... You're left to browsing 18 sub-layers of shortcuts by hand.
+* Slow - the keyboard shortcuts window is slow to load, slow to bind/unbind and slow to switch "areas".
+* Corruption - I've had my shortcuts corrupted once, that's more times than I ever want it to happen. I've never had this happen in any other software. I've _lost_ bindings due to my own idiocy, but never had bindings corrupted on save.
+
+The Keyboard Shortcuts window is a necessary feature that's only half-done.
 
 # Plugins
 
@@ -667,12 +999,20 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Sonitus Compressor </div>
 {:/nomarkdown}
 
+Ahhh my old love. I used to use the Sonitus Compressor obsessively before they were bought out. I still have my original license that I used as a DX plugin.
+
+It's versatile and easy to use. Brilliant plugin back then... 
+
+These days with oversampled compressors that have various modes or more technical parameters, it's a bit lacking, but as an included stock plugin I think it's more than sufficient.
+
 ### Sonitus Delay 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/SonitusDelay.png" alt="Sonitus Delay ">
   <div class="image-caption">Sonitus Delay </div>
 {:/nomarkdown}
+
+A competent delay. Not much more needs to be said. Nothing fancy here at all.
 
 ### Sonitus Gate 
 
@@ -681,12 +1021,18 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Sonitus Gate </div>
 {:/nomarkdown}
 
+Sonitus Gate is a simple gate that is easily surpassed by other free options on the market. I see no reason to use it other than nostalgia.
+
+The envelope characteristics lead to less natural results than you can get with other products.
+
 ### Sonitus Multiband 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/SonitusMultiband.png" alt="Sonitus Multiband ">
   <div class="image-caption">Sonitus Multiband </div>
 {:/nomarkdown}
+
+A difficult to use multiband compressor that's once again surpassed by free and cheap options elsewhere in nearly every facet.
 
 ### Sonitus Equalizer 
 
@@ -695,12 +1041,16 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Sonitus Equalizer </div>
 {:/nomarkdown}
 
+Simple 6 band biquad equalizer. Bleh.
+
 ### Sonitus WahWah 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/SonitusWahWah.png" alt="Sonitus WahWah ">
   <div class="image-caption">Sonitus WahWah </div>
 {:/nomarkdown}
+
+Grainy sounding wahwah with an autowah setting that doesn't react as sharply as I want it to.
 
 ### Sonitus Modulator 
 
@@ -709,12 +1059,18 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Sonitus Modulator </div>
 {:/nomarkdown}
 
+Flanger, Phaser, Chorus, Tremolo. Simple versions of each. Nothing exciting except for the tape mode in the flanger which gives you more extreme sounding flange.
+
 ### Sonitus Phase 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/SonitusPhase.png" alt="Sonitus Phase ">
   <div class="image-caption">Sonitus Phase </div>
 {:/nomarkdown}
+
+Now _this_ is a cool inclusion. I don't know of any other DAW that comes with a product like this. Phase rotation with both IIR and FIR options. You can rotate the phase of your audio to deal with cancellation issues that crop up when multi-micing sources.
+
+Cool.
 
 ### Sonitus Reverb 
 
@@ -723,12 +1079,16 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Sonitus Reverb </div>
 {:/nomarkdown}
 
+Sounds exactly like I remember: thin. No thanks.
+
 ### Sonitus Surround 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/SonitusSurround.png" alt="Sonitus Surround ">
   <div class="image-caption">Sonitus Surround </div>
 {:/nomarkdown}
+
+I don't use surround, so I have nothing to say.
 
 ### Sonitus Surround Comp
 
@@ -737,12 +1097,20 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Sonitus Surround Comp</div>
 {:/nomarkdown}
 
+I don't use surround, so I have nothing to say.
+
 ### BREVERB 2 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/BREVERB2.png" alt="BREVERB 2 ">
   <div class="image-caption">BREVERB 2 </div>
 {:/nomarkdown}
+
+Fantastic reverb plugin that could warrant its own reverb. The Cakewalk version is missing some "spaces" and presets (obviously), but the Hall and Room modes alone are perfectly fine for most uses.
+
+There's also fewer parameters for adjustment. Each of the modes is missing 2-3 parameter panels, with some knobs missing on each panel.
+
+It doesn't really matter. It's an awesome inclusion, and probably the best included Reverb along with Apple's new [Chromaverb]({% post_url 2018-01-26-Cool-things-in-Logic-Pro-X-Part-10-4 %}#chromaverb). It's not as fun to watch as Chromaverb though :)
 
 ### TH3  
 
@@ -751,12 +1119,22 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">TH3  </div>
 {:/nomarkdown}
 
+Alright, I might get some hate here, but I dislike TH3. I really dislike it. All of the models sound too forward, the presets are far too loud, and browsing your 'components' is a pain. The Fender models in particular sound completely wrong to me, and I have most of those represented in my studio to compare with.
+
+The Cakewalk version is missing components as expected, but it's not much of a loss. It's like losing that McDonalds receipt that you were going to throw away anyways.
+
+It's almost a downside that TH3 is included. It's a neat idea, but... not a fan.
+
 ### Boost 11 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/Boost11.png" alt="Boost 11 ">
   <div class="image-caption">Boost 11 </div>
 {:/nomarkdown}
+
+Eh. It's a brickwall limiter that doesn't sound too bad. If you're looking for those disgustingly loud -4LUFS levels then this won't get you there. Sensible target loudnesses are easily acquired with Boost 11.
+
+I think most folks that want aggressive loudness enhancements will be better served by third-party products no matter what.
 
 ## Instruments
 
@@ -767,12 +1145,22 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">SI-Bass Guitar</div>
 {:/nomarkdown}
 
+Ahahahahahahahahahahahahahahahahahahahahahahah
+
+...
+
+hahahahahahahahahah
+
+Bass guitar. Nope. Not even close.
+
 ### SI-Drum Kit
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/SI-DrumKit.png" alt="SI-Drum Kit">
   <div class="image-caption">SI-Drum Kit</div>
 {:/nomarkdown}
+
+It goes well with the bass guitar!
 
 ### SI-Electric Piano
 
@@ -781,6 +1169,10 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">SI-Electric Piano</div>
 {:/nomarkdown}
 
+Electric piano is a simple instrument that can be emulated fairly well with samples and some post-processing. Yet this sounds dull and lifeless.
+
+Difficult to mess up, but there it is.
+
 ### SI-String Section
 
 {::nomarkdown}
@@ -788,12 +1180,18 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">SI-String Section</div>
 {:/nomarkdown}
 
+A string section for your 'bass' and 'drums'.
+
 ### TTS-1 
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/TTS-1.png" alt="TTS-1">
   <div class="image-caption">TTS-1</div>
 {:/nomarkdown}
+
+This is not meant to sound good. It's a general midi synthesizer and it does a _fantastic_ job. You have a whole host of standard instruments and configuration options.
+
+It most certainly doesn't sound good, but it does exactly what it's aiming to do. That's admirable and I'm sure many people have a use for it.
 
 ## MIDI FX
 
@@ -804,12 +1202,18 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Arpeggiator</div>
 {:/nomarkdown}
 
+A cheesy looking arpeggiator with few options, 4 patterns and difficult to use parameters.
+
+The [built in arpeggiator is much better](#midi-track-tools)
+
 ### Chord Analyzer
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/ChordAnalyzer.png" alt="Chord Analyzer">
   <div class="image-caption">Chord Analyzer</div>
 {:/nomarkdown}
+
+Not very good at its only job. A second inversion Emin chord shows up as G#min+5 1st inversion... most inversions come out wrong! What's the point of this if it can't get inversions correct?
 
 ### Echo Delay
 
@@ -818,12 +1222,20 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Echo Delay</div>
 {:/nomarkdown}
 
+A simple MIDI delay that adds midi notes to the stream like a delay or echo.
+
+It can increase/decrease the pitch of subsequent echos to create a cool sparkly or droney sound. Pretty fun.
+
 ### MIDI Event Filter
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/MIDIEventFilter.png" alt="MIDI Event Filter">
   <div class="image-caption">MIDI Event Filter</div>
 {:/nomarkdown}
+
+You can filter most MIDI events here, including RPN/NRPN, clock and aftertouch. Unfortunately you're limited to one of each type of event. So you may end up needing a handful of MIDI event filters to get the job done.
+
+Surprisingly there's no log to show you what's going in/out, which is essential to a utility like this.
 
 ### Quantize  
 
@@ -832,6 +1244,8 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Quantize</div>
 {:/nomarkdown}
 
+Quantizes notes in both directions. Useful, quick and non-destructive.
+
 ### Transpose  
 
 {::nomarkdown}
@@ -839,12 +1253,18 @@ It's a tiny thing, but this might be one of my favorite features about Cakewalk.
   <div class="image-caption">Transpose</div>
 {:/nomarkdown}
 
+A proper transpose plugin that does more than just pitch shifting. It can transpose keys/scales and allows custom transpositions. There's more that could be done here, but compared to what other DAWs offer, this is great.
+
 ### Velocity  
 
 {::nomarkdown}
   <img src="/assets/Cakewalk/Velocity.png" alt="Velocity">
   <div class="image-caption">Velocity</div>
 {:/nomarkdown}
+
+MIDI Velocity scaling, re-writing, limiting, randomization and changing.
+
+It's a dynamics processor for MIDI notes. It works well.
 
 # Support Me!
 
