@@ -843,7 +843,7 @@ Interesting concept, poor execution. If this loaded near-instantly, I still thin
 ## Screensets
 
 {::nomarkdown}
-<img src="/assets/Cakewalk/Screensets.png" alt="Screensets">
+<img src="/assets/Cakewalk/ScreenSets.png" alt="Screensets">
 <div class="image-caption">Screensets</div>
 {:/nomarkdown}
 
@@ -1027,7 +1027,7 @@ The envelope characteristics lead to less natural results than you can get with 
 ### Sonitus Multiband 
 
 {::nomarkdown}
-  <img src="/assets/Cakewalk/SonitusMultiband.png" alt="Sonitus Multiband ">
+  <img src="/assets/Cakewalk/SonitusMultiBand.png" alt="Sonitus Multiband ">
   <div class="image-caption">Sonitus Multiband </div>
 {:/nomarkdown}
 
