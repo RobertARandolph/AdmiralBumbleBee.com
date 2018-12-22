@@ -2,10 +2,10 @@
 layout: post
 title: "30 days with Cakewalk - Part 1: Almost Everything."
 comments: true
-date:   2018-12-11_18:35:35 
+date:   2018-12-22_10:35:35 
 categories: music
 tags: ['Cakewalk', 'DAW']
-image:
+image: /assets/Cakewalk/Cakewalk.png
 description: First impressions and more
 series: Cakewalk
 ---
@@ -19,9 +19,11 @@ Ok, you should know by now that I [dislike Windows]({% post_url 2018-12-15-Why-I
 
 So what follows is my thoughts on _nearly_ every aspect of Cakewalk. I intentionally left out some parts that I didn't think warrant mention, and I'm certain I missed a few things.
 
-This post is ___ words. I've spent countless hours (200+ now) digging into the software, reading the manual, scouring the forums, cross-referencing, etc... If I've made any glaring errors please leave a comment or contact me and I will fix it. If you disagree with my opinions then feel free to let me know and we can discuss it. I'm pliable and can be convinced by a rational well-reasoned argument.
+This post is 12,000+ words and has 110+ images/videos. Not to mention all the code I write to create media, extract information, cross-check the manual and other bits. I've spent countless hours (200+ now) digging into the software in the last month, reading the manual, scouring the forums, cross-referencing, etc... If I've made any glaring errors please leave a comment or contact me and I will fix it. If you disagree with my opinions then feel free to let me know and we can discuss it. I'm pliable and can be convinced by a rational well-reasoned argument. I will also update the post.
 
 There's some things [shaking up at Bandlab](https://discuss.cakewalk.com/), so this may not be my final post in the series for now, but I intend it to be. My thoughts on Cakewalk as a whole are at the end.
+
+[The DAW Chart is updated with Cakewalk as well](/DAW-Chart.html). As of publishing this, I don't even know what the final score is (that's calculated client side). I avoid looking so I don't subconsciously try to smidge an overall rating ahead of another DAW.
 
 Without further ado let's hop into it.
 
@@ -66,6 +68,10 @@ Total workflow killer to need to double-check every single recording in case Win
 It's easy to 'lose' a window in the background with no way to get it back.
 
 No way to screenshot it because the window is gone until you start moving things around to find it. Incredibly frustrating.
+
+### Copy and Paste
+
+I wasn't able to catch this one because it's so random: sometimes copy and paste just gets corrupted. You get extra points or missing data or it simply won't work. Sometimes undo fixes it, sometimes I had to restart Cakewalk.
 
 ### Notifications
 
@@ -466,7 +472,7 @@ Takes and comping in Cakewalk are well implemented.  I have used the number of c
 
 One of the things that I enjoy about it is that you can record directly to the take lanes in case you have a take that you need to do overdubs on. This allows you to minimize the number of take lanes, so that you do not have a screen full of takes that you need to scroll up and down to utilize.
 
-There are systems that are more complex and have more features, but hose systems tend to be error-prone and get in the way of even more advanced workflows.
+There are systems that are more complex and have more features, but those systems tend to be error-prone and get in the way of even more advanced workflows.
 
 ## Audio Snap
 
@@ -656,16 +662,33 @@ You are given a selection of tools that sound relatively decent and are easy to 
 
 It appears that before BandLab purchased Cakewalk, Sonar had many more ProChannel modules. I would love to see these added, but I suspect that they will be separated out as purchasable assets to help monetize Cakewalk.
 
-#### Compressor 
+I found one bothersome limitation: you can only have one compressor. This actually caused me to miss the [PC4K](#pc4k) for a while because the default ProChannel has the PC76 enabled. If the PC76 is in the strip, then the PC4k can't be used and vice versa.
+
+#### PC76 
 
 {::nomarkdown}
-  <img src="/assets/Cakewalk/Compressor.png" alt="Compressor">
-  <div class="image-caption">Compressor </div>
+  <img src="/assets/Cakewalk/Compressor.png" alt="PC76">
+  <div class="image-caption">PC76</div>
 {:/nomarkdown}
 
 An [1176 style compressor](https://www.uaudio.com/hardware/1176ln.html). Fast attack time and that "all buttons in"mode is available as you would expect.
 
 It does not sound exactly like an 1176. I have enjoyed utilizing it when mixing in Cakewalk and I think that it is a great compressor despite its inauthenticity.
+
+#### PC4K
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/PC4k.png" alt="PC4k">
+<div class="image-caption">PC4k</div>
+{:/nomarkdown}
+
+This is the SSL bus style compressor. Legendary compressor sound that is wildly overdone.
+
+I don't think it sounds remotely like a 4k bus compressor. It has a similar compression characteristic, but it's missing the vibe (saturation and the 2:1 ratio isn't right).
+
+It still is an excellent compressor.
+
+(Turn the screw and click the VU-meter. Enjoy the not-so-drab change)
 
 #### EQ 
 
@@ -686,6 +709,49 @@ There are four modes:
 One of the more interesting things you can do is utilize one of the EQ times (I suggest E-Type to start), and then switch modes to see if you can get a better sound via the curve changes.
 
 I really enjoy using the ProChannel equalizer.
+
+**BUT WAIT** There's more!
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/ZoomEQ.png" alt="Zoom">
+<div class="image-caption">Zoom</div>
+{:/nomarkdown}
+
+Look at the top of the ProChannel title for the EQ. See those double arrows pointing to the right? That brings up a pretty full EQ window with spectrum analyzer, piano frequency graph and an input meter.
+
+If you've ever wondered what that ridiculous gloss button does...
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/Gloss.png" alt="Gloss">
+<div class="image-caption">Gloss</div>
+{:/nomarkdown}
+
+It adds a 3dB boost around 12khz with a 2dB dip at around 4.6khz. There was some slight distortion differences in the measurement, but not enough that I could rule it out as an error of measurement. Phase response is as expected for that filter.
+
+Notably, this is **NOT SHOWN** in the response graph, which I think is a deceptive design. Presenting a graphic that aims to give you an idea of what the processor is doing, then _not_ showing you what the processor is doing is not very friendly.
+
+Perhaps they just want to hide how simple, and ridiculous, it is?
+
+I found quite a few people on the forum that claimed they couldn't hear it... take from that what you will.
+
+{::nomarkdown}
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Cakewalk/BrokenEQ.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Low Pass bug</div>
+{:/nomarkdown}
+
+The low pass display curve is bugged... Watch above and notice how the high pass (filter on the left) transitions smoothly from side to side. The low pass filter has to clear 'bumps' in the graphical display.
+
+Measuring the frequency response shows that the passed audio does not have these bumps in the response.
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/GoodEQ.png" alt="But the EQ works right...">
+<div class="image-caption">But the EQ works right...</div>
+{:/nomarkdown}
+
+All 4 of the EQ types have this issue. It's inconsequential, but these little details offer a peek into the development process. It's not _that_ bugs happen, but what type of bugs happen that give you insight.
 
 #### Tube 
 
@@ -720,6 +786,10 @@ It _does_ sound cool though. I also appreciate the lock knob which inversely lin
 
 I have had quite a lot of fun putting it on 7.5 IPS and smashing some distant drum mics. Man, that's fun.
 
+I do find it a bit annoying that it has RMS and Peak meters and not VU meters. I suppose that's alright since Cakewalk has RMS metering available for its console meters though.
+
+By the way... why does the tape emulator have a triode tube schematic icon? It clearly doesn't have 'tube like' saturation.
+
 #### Console Emulation
 
 {::nomarkdown}
@@ -736,6 +806,8 @@ Here you're given channel and bus emulations of 3 famous console styles:
 They all sound fantastic and I have been a fan of putting them on nearly every single channel. I particularly like the S-type, which sounds _similar_ to an SSL 4K console. Regardless if the emulation is good I find that it is a cool sound.
 
 It is easy to overuse them though. It would be nice if there was a 'global off' button for the track version at least. As you're building the mix, heavier saturation can sound fantastic, but as the mix grows it adds to the overly-dense high-end that ruins many-a-mix.
+
+(There's that triode tube icon again... these aren't even tube consoles!)
 
 #### REmatrix Solo
 
@@ -772,7 +844,14 @@ It has the same limitations as [the plugin version](#breverb-2-1).
   <div class="image-caption">FX Chain</div>
 {:/nomarkdown}
 
-FX chain does nothing more than let you put plug-in FX in between your ProChannel modules.
+FX chain lets you put plug-in FX in between your ProChannel modules and...
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/FXChainMacro.png" alt="Macros!">
+<div class="image-caption">Macros!</div>
+{:/nomarkdown}
+
+It lets you assign multiple knobs from various plugins to a single control. These controls can be scaled (and inverted). These controls can be automated, allowing you to control multiple plugin parameters (scaled/inverted!) with a single automation line.
 
 #### Style Dials
 
@@ -1117,6 +1196,12 @@ Cakewalk can upsample the signal pathway for all processes to twice the sample r
 
 There are some caveats though. Your processing load will be doubled (or thereabouts) and there will naturally be changes to your audio from the up/downsampling process. These changes are beyond the scope of this review, but there's no free cake here!
 
+It's important to recognize that **ALL** plugins will be resampled, including processes that don't require this. This feature would be _far_ more valuable if it was available as a container. Insert a container that oversamples the processes inside it. That way you only need to upsample where it's needed.
+
+If you do want a container-style product then [look into Metaplugin](https://ddmf.eu/metaplugin-chainer-vst-au-rtas-aax-wrapper/). Metaplugin gives you flexibility in routing, dry/wet on every plugin and 4x oversampling per use.
+
+I was tempted to add this as a feature to the [DAW-Chart](/DAW-Chart.html), but since only one DAW supports it, and doesn't do it particularly well, it would just add noise.
+
 ## Lenses
 
 {::nomarkdown}
@@ -1427,6 +1512,41 @@ Eh. It's a brickwall limiter that doesn't sound too bad. If you're looking for t
 
 I think most folks that want aggressive loudness enhancements will be better served by third-party products no matter what.
 
+### FX Chain
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/FXChainPlugin.png" alt="FX Chain Plugin">
+<div class="image-caption">FX Chain Plugin</div>
+{:/nomarkdown}
+
+It's just like the [ProChannel FXChain](#fx-chain) except it can be inserted into a plugin chain.
+
+There are more knob/button slots available and...
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/FXChainCustom.png" alt="Customizing FX Chains">
+<div class="image-caption">Customizing FX Chains</div>
+{:/nomarkdown}
+
+You can customize the look of the panel to create your own custom FX controllers.
+
+Useful tool to have. My wishes are that it allowed parallel routing and had modulation.
+
+### External Insert
+
+{::nomarkdown}
+<img src="/assets/Cakewalk/ExternalInserts.png" alt="External Inserts">
+<div class="image-caption">External Inserts</div>
+{:/nomarkdown}
+
+This is how you insert external gear into your signal chain. It uses Cakewalk's normal outdated "L/R" stereo (for many devices, if not all).
+
+Sending audio out and back into your Interface incurs a delay. You can click the delay button at the top to try to ping through the devices and get an automatic delay value so the external insert will compensate that.
+
+I found that this automatic compensation did not do a good job. It was usually off by 50+ samples, which is more than plenty to notice issues with multi-tracked sources (two mics on the same source, one becoming delayed). I checked this with a scope and was able to verify the _correct_ timing within 1 sample, and the External Insert _never_ got it right.
+
+The interface is woefully outdated, it's difficult to use due to the I/O naming, and the automatic compensation is wrong. Oh bother.
+
 ## Instruments
 
 ### SI-Bass Guitar
@@ -1585,13 +1705,15 @@ I'm somewhat at a loss for this. Cakewalk is one of the older generation of prod
 
 Whatever it is, Cakewalk doesn't even live up to the likes of [some newcomers](https://www.presonus.com/products/Studio-One).
 
-Hopefully bandlab can do something with the software to shore up the half-finished features and enhance the core workflows. I don't even care about the features that aren't there like chord tools, arrangement features, advanced editing tools (spectral editing, better warping), object-based editing, sequence based editing, scratch arrangements, advanced tempo editing, live looping, navigational tools, post workflows, video editing, automation curves, automation modes beyond write/touch/latch, live collaboration features, integrated sidechain support, standards metering, macro controls, reference/edit clips, audio/midi metadata support, advanced MIDI transformation tools, true scripting (not macros like CAL), remote control, track templates, VCA faders, project alternatives, clip automation, video generation, DMX support, OSC support, crossplatform, automation processing, control modulation, AAF support, gain reduction metering, ambisonics, VR support (producing, not using Cakewalk inside VR), user profiles, selection saving, zoom presets, metronome rhythms, MPE support, VST Expression support, ADR system, track versions/playlists, monitor track, audio analysis tooling, 'always record', logic-based search, temporary control grouping, mixer undo, offline undo, crossfade tooling, sample-accurate parameter automation, hardware inserts, Link support, audio to midi slicing, HDPI support, offline manual, articulation management, per-project settings, hardware synth integration, choke groups, inter-application audio support, plugin parameter routing, modular track routing, etc...
+Hopefully bandlab can do something with the software to shore up the half-finished features and enhance the core workflows. I don't even care about the features that aren't there like chord tools, arrangement features, advanced editing tools (spectral editing, better warping), object-based editing, sequence based editing, scratch arrangements, advanced tempo editing, live looping, navigational tools, post workflows, video editing, automation curves, automation modes beyond write/touch/latch, live collaboration features, integrated sidechain support, standards metering, reference/edit clips, audio/midi metadata support, advanced MIDI transformation tools, true scripting (not macros like CAL), remote control, track templates, VCA faders, project alternatives, clip-based automation, automation clips, video generation, DMX support, OSC support, crossplatform, automation processing, snapshot automation, control modulation, AAF support, gain reduction metering, ambisonics, VR support (producing, not using Cakewalk inside VR), user profiles, selection saving, zoom presets, metronome rhythms, MPE support, VST Expression support, ADR system, track versions/playlists, monitor track, audio analysis tooling, 'always record', re-record, logic-based search, temporary control grouping, mixer undo, offline undo, crossfade tooling, sample-accurate parameter automation, hardware inserts that work, MIDI hardware send/return, Link support, audio to midi slicing, HDPI support, offline manual, articulation management, per-project settings, hardware synth integration, choke groups, inter-application audio support, plugin parameter routing, modular track routing, etc...
 
-Let's just ignore all those missing things.
+Let's just ignore all those missing things, even though I can think of 4 competing products that have a significant cross-section of these features.
 
-If Bandlab just took what's already there and _fixed it_, it would be a great product. Get rid of the annoying popups, consolidate the menus, finish the tab view, finish the matrix view, improve automation, give the console an update, add some proper MIDI tooling, improve audiosnap, speed up the GUI, and integrate a decent audio editor. Now you have a product that will give any DAW a run for its money no matter the cost.
+If Bandlab just **took what's already there** and _fixed it_, it would be a great product. Get rid of the annoying popups, consolidate the menus, finish the tab view, finish the matrix view, improve automation, give the console an update, add some proper MIDI tooling, improve audiosnap, speed up the GUI, and integrate a decent audio editor, add AAF support. Now you have a product that will give any DAW a run for its money no matter the cost.
 
 Until then it just feels like corporate America in DAW form: half-baked, promise-driven and 15 years late.
+
+Unlike corporate America... there's some real promise here.
 
 # Support Me!
 
