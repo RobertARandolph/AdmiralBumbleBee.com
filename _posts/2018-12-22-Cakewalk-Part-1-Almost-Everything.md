@@ -693,7 +693,7 @@ I am not sure how useful this is, but if there are common rhythms that you use y
 ## MIDI Track Tools
 
 {::nomarkdown}
-<img src="/assets/Cakewalk/MIDITrackTools.png" alt="MIDI Track tools">
+<img src="/assets/Cakewalk/MidiTrackTools.png" alt="MIDI Track tools">
 <div class="image-caption">MIDI Track tools</div>
 {:/nomarkdown}
 
