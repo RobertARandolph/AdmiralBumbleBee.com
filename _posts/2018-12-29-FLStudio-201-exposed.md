@@ -289,7 +289,11 @@ Solo is the grouped inverse of mute. When you solo in effect than every other ef
     <div class="video-caption">Time automation bugged</div>
 {:/nomarkdown}
 
-[This appears to be broken.](https://forum.image-line.com/viewtopic.php?f=100&t=196504&p=1359111#p1359275) so I will not be reviewing it.
+~~[This appears to be broken.](https://forum.image-line.com/viewtopic.php?f=100&t=196504&p=1359111#p1359275) so I will not be reviewing it.~~
+
+**EDIT:** This seems to be unrelated.
+
+The feature works for sampler channels, but not audio channels. So either the changelog is wrong or this is still bugged.
 
 # Update Checking
 
