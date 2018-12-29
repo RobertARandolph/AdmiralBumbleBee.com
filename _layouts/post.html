@@ -35,11 +35,12 @@ function func1 () {
   }
 
   // Autoplay videos in document because firefox/chrome won't autoplay after dom manipulation
-  var gv = document.getElementsByClassName("gifvid");
-
-  for (i=0;i<gv.length;i++) {
-  //  gv[i].play();
-  }
+  // This seems to have broken firefox?
+//  var gv = document.getElementsByClassName("gifvid");
+//
+//  for (i=0;i<gv.length;i++) {
+//    gv[i].play();
+//  }
 }
 </script>
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
