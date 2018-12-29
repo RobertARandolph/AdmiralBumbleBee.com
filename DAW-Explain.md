@@ -787,7 +787,11 @@ Features relative to working on the same project on different computers with dif
 
 ## Remote Collaboration
 
-Support for collaboration over a network connection. Live collaboration will be given higher ratings than non-live systems, however implementation is key.
+Support for collaboration over a network connection _remotely_. Live collaboration will be given higher ratings than non-live systems, however implementation is key.
+
+## Local Collaboration
+
+Support for collaborating with users in the same physical space.
 
 ## Project Interchange
 

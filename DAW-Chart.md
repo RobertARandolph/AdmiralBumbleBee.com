@@ -1274,7 +1274,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="2"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="10"> </daw>
-			<daw name="Bitwig" rating="0"> </daw>
+			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
         </category> 
@@ -1471,6 +1471,22 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0" link="Live-Collab"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
+            <daw name="Mixbus" rating="0"> </daw>
+            <daw name="SawStudio" rating="0"> </daw>
+        </category>
+        <category name="Local Collaboration">
+            <daw name="Reaper" rating="0"> </daw>
+            <daw name="Digital Performer" rating="0"> </daw>
+			<daw name="Cubase" rating="4"> </daw>
+			<daw name="Waveform" rating="0"> </daw>
+            <daw name="Studio One" rating="0"> </daw>
+            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="Logic" rating="0"> </daw>
+            <daw name="Reason" rating="9"> </daw>
+			<daw name="Cakewalk" rating="0"> </daw>
+			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="Live" rating="0"> </daw>
+			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
         </category>
@@ -1700,7 +1716,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="10"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="6"> </daw>
-			<daw name="Bitwig" rating="4"> </daw>
+			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
             <daw name="SawStudio" rating="10"> </daw>
         </category>
@@ -1716,7 +1732,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="3"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="5"> </daw>
-			<daw name="Bitwig" rating="6"> </daw>
+			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
             <daw name="SawStudio" rating="10"> </daw>
         </category>
@@ -1732,7 +1748,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="9"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
-			<daw name="Bitwig" rating="1"> </daw>
+			<daw name="Bitwig" rating="7" link="bitwig-customization"> </daw>
             <daw name="Mixbus" rating="10" link="mixbus-customization"> </daw>
             <daw name="SawStudio" rating="1"> </daw>
         </category>
@@ -1901,6 +1917,10 @@ Services link [Splice](https://splice.com) exist, but they are paid. Live does n
 ## Bitwig re-record
 
 With overdub turned off, Bitwig can emulate 're-record' by pressing the play/record button twice with overdub turned off.
+
+## Bitwig Customization
+
+The community has done a fair job of unlocking various bits of Bitwig for customization. Since this is a free effort, and Bitwig hasn't actively hampered these efforts, I'm considering it.
 
 # Mixbus Notes
 
