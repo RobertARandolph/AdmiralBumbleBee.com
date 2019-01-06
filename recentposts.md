@@ -37,15 +37,18 @@ window.onresize = function(event) {
 </form>
 
 <h1 class="page-heading">Recent Posts!</h1>
-{% for post in site.posts limit:10 %}
+{% assign i = 0 %}
+{% for post in site.posts %}
   {% if post.visible != 0 %}
   <div class="recent-post flexFont">
     <a href="{{ post.url }}" target="_parent">{{ post.title }}</a>
   </div>
+ {% assign i = i | plus: 1 %}
+  {% endif %}
+  {% if i > 20 %}
+    {% break %}
   {% endif %}
 {% endfor %}
-
-
 </body>
 </html>
 
