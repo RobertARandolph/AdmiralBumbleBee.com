@@ -47,14 +47,14 @@ So what I have done here is I have taken a number of audio samples and I have st
 
 Here is a list of the pieces of audio and each one is a link to the original audio. You can try this yourself if you want. **THESE ARE WAVE FILES UP TO 60MB**
 
-* [Vocals](/assets/Stretch/Vox100.wav)
-* [EDM Sample](/assets/Stretch/Puke100.wav)
-* [Orchestral](/assets/Stretch/Och100.wav)
-* [Pop Mix](/assets/Stretch/Pop100.wav)
-* [Strumming Acoustic Guitar](/assets/Stretch/Acoustic100.wav)
-* [Drums](/assets/Stretch/Drums100.wav)
-* [Electric Bass](/assets/Stretch/Bass100.wav)
-* [Trumpet Double Harmonic Minor](/assets/Stretch/Trumpet100.wav)
+* [Vocals](/assets/Stretch/Vox100.wav) - Me reading a book.
+* [EDM Sample](/assets/Stretch/Puke100.wav) - [From this guy](https://soundcloud.com/sera-music)
+* [Orchestral](/assets/Stretch/Och100.wav) - [By Aero Soul](https://soundcloud.com/aerosoul)
+* [Pop Mix](/assets/Stretch/Pop100.wav) - [mix by Ill-Esha](https://ill-esha.com)
+* [Strumming Acoustic Guitar](/assets/Stretch/Acoustic100.wav) - Me playing.
+* [Drums](/assets/Stretch/Drums100.wav) - Me playing.
+* [Electric Bass](/assets/Stretch/Bass100.wav) - Me playing.
+* [Trumpet Double Harmonic Minor](/assets/Stretch/Trumpet100.wav) - [By Aero Soul](https://soundcloud.com/aerosoul) 
 
 The examples below are encoded at 256kbps using the [highest quality codec that is supported in most browsers (lib_fdkaac)](https://trac.ffmpeg.org/wiki/Encode/AAC). I wanted to use wav examples but they were over 4GB total. Flac was just under 2GB, which is still _far_ too much.
 
