@@ -4,7 +4,7 @@ title: 10 Axiom Presets and how I made them
 comments: true
 date:   2018-05-20_15:36:02 
 categories: music
-tags: ['Studio Tips', 'Review']
+tags: ['Studio Tips', 'Review', 'Guitar']
 image: /assets/BlueCat/Axiom/AxiomGeneral.png
 description: Some tips and tricks and presets for Bluecat Axiom
 ---

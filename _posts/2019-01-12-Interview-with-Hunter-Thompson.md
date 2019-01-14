@@ -33,7 +33,7 @@ Over at [EDMP Discord](https://discordapp.com/invite/edmp) we had a Q&A session 
 
 **Interviewer**: Yes, I think a lot of people here have never played shows, though they are rife with tunes.
 
-**Hunter Thompson**: Become a studio rat. A good example of this is [Graves](https://soundcloud.com/wearegraves) was making records with [Kanye](https://www.kanyewest.com_ before he started his solo project. You'll gain notoriety around the music industry for what you're able to create and people will start recognizing you.
+**Hunter Thompson**: Become a studio rat. A good example of this is [Graves](https://soundcloud.com/wearegraves) was making records with [Kanye](https://www.kanyewest.com) before he started his solo project. You'll gain notoriety around the music industry for what you're able to create and people will start recognizing you.
 
 ### What do you think is ideal in a press kit nowadays?
 
