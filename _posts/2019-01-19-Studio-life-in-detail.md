@@ -49,6 +49,7 @@ This is also my second article in a row without an accompanying video. I have no
 <img src="/assets/Macro/Thumbnails/FoamWide.jpg" alt="Foam WIde">
 </a>
 <div class="image-caption">Foam Wide</div>
+{:/nomarkdown}
 
 Some cheap Ebay fire-rated foam. 4" high density.
 
