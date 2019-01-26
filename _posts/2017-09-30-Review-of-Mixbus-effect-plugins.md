@@ -429,6 +429,8 @@ There is only a master attack/release and knee. This is very unfortunate since t
 
 XT-MC is a competent multi-band compressor, however once again at the price point it's being offered at there is _a lot_ of competition that offers more functionality and arguably better sound. XT-MC is rather easy to work with and does offer good results though.
 
+**IMPORTANT** I've [reviewed the successor the XT-MC]({% post_url 2019-01-26-Harrison-AVA-MC-Review %}) and I'm a good bit more kind to it after doing a deeper dive and spending more time with it. Based on that, I would likely rate this as a 60. If XT-MC was at the price of AVA MC's intro, I'd give it a 90.
+
 ## XT-LC Lookahead Compressor
 
 {::nomarkdown}

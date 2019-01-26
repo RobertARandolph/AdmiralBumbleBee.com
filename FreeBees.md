@@ -280,6 +280,7 @@ These are plug-ins that you can acquire without needing to spend money.
     * [Grace](http://www.onesmallclue.com/plugin/grace/) - a moderately capable VST sampler.
     * [tx16w](https://www.tx16wx.com) - powerful sampler with a GUI that is somewhat annoying, but powerful enough to offset those annoyances.
     * [HISE](http://hise.audio) - HSE is not for the faint of heart. It’s highly functional but mildly complex. The tradeoffs are worth it. It’s one of the few samplers that comes close to [Kontakt](https://www.native-instruments.com/en/products/komplete/samplers/kontakt-6/pricing/) in terms of capability, and it’s free.
+    * [Spitfire Audio Labs](https://www.spitfireaudio.com/labs/) - Neat collection of fairly simple, and intriguing instruments.
 
 ## Other
 
@@ -291,6 +292,12 @@ These are plug-ins that you can acquire without needing to spend money.
     * [Hypercyclic](http://www.mucoder.net/en/hypercyclic/) - maybe the best arpeggiator plug-in, and it’s free.
     * [tonespace](http://www.mucoder.net/en/tonespace/) - awesome chord generator. If you want to eventuall upgrade from this then I suggest Scaler (not free)
     * [ISOL8](https://www.tb-software.com/TBProAudio/ISOL8.html) - If your DAW does not have proper monitoring tools, then this will give you what you need to quickly and easily mange mix monitoring tasks.
+    
+# Hall of Shame
+
+* [Hornet StereoView](https://www.hornetplugins.com/plugins/hornet-stereoview/) - Requires Twitter or Facebook sharing.
+* [Calf Studiogear](https://calf-studio-gear.org) - Poor quality DSP.
+* [LVCAudio T-chain](http://lvcaudio.com/plugins/tchain/) - Microtransaction based "free" environment. Nausea inducing GUIs with extreme faux-3d.
 
 # Support Me!
 
