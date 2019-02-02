@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Harrison AVA MC review
+title: Harrison AVA Multiband Compressor review
 comments: true
 date:   2019-01-26_13:19:23 
 categories: music
@@ -19,6 +19,8 @@ description: A review and deep-dive into Harrison's new AVA MC
 What follows are the results of my investigation and general thoughts.
 
 **I DID NOT PAY FOR THIS PRODUCT** I am both a beta tester and received an NFR review copy. If you feel that this has possibly coloured my review, please let me know.
+
+**IMPORTANT! IMPORTANT!** After reading this article, please [read the followup article]({% post_url 2019-01-31-Harrison-AVA-MC-Part-2 %}).
 
 <!--more-->
 
@@ -297,6 +299,8 @@ I'm not _certain_ this is how AVA MC operates, but based on the above testing th
 AVA MC does not appear to have any crossovers or 'bands' in the detection path. It seems like the input signal is filtered and fed to 4 different envelope generators. Those envelope generators control the amplitude of 4 filters that are acting on the signal.
 
 This is in contrast to how either multiband compressors or dynamic equalizers work, making this a somewhat unique processor if I'm correct.
+
+**IMPORTANT! IMPORTANT!** After reading this article, please [read the followup article]({% post_url 2019-01-31-Harrison-AVA-MC-Part-2 %}).
 
 # Technical conclusion
 
