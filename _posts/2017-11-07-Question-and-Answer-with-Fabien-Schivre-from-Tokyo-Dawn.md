@@ -4,7 +4,7 @@ title: Question and Answer with Fabien Schivre from Tokyo Dawn
 comments: true
 date:   2017-11-07_11:16:09 
 categories: music
-tags: ['Studio Tips']
+tags: ['Interviews', 'Studio Tips']
 image: /assets/General/TDL.png
 description: Q&A with Fabien from tokyodawn.net
 ---
