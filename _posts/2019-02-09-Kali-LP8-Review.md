@@ -2,7 +2,7 @@
 layout: post
 title: Kali LP8 Review
 comments: true
-date:   2019-02-09_21:15:10 
+date:   2019-02-09_11:15:10 
 categories: music
 tags: ['Reviews', 'Studio']
 image: /assets/Kali/Header.jpg
