@@ -15,7 +15,7 @@ series: fabien
   <div class="image-caption">Discord q&a with Fabien</div>
 {:/nomarkdown}
 
-Recently on the [EDM Production discord](http://discord.gg/edmp) that I help administrate, I held a Q&A with [Fabien Schivre from Tokyo Dawn](http://www.tokyodawn.net/tokyo-dawn-labs/). Specifically we discussed Tokyo Dawn Labs.
+Recently on the [EDM Production discord](http://discord.gg/edmp) that I help administrate, I held a Q&A with [Fabien Schivre from Tokyo Dawn](http://www.tokyodawn.net/tokyo-dawn-labs/). We had a free for all this time!
 
 Click through for the whole Q&A as I've transcribed it.
 
@@ -292,6 +292,8 @@ This post took 2.5 hours to transcribe and host the Q&A. If you appreciate the i
 <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
 <img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
 </form>
+
+Please check out [TokyoDawn](https://www.tokyodawn.net) as well! Great music and great software.
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
 
