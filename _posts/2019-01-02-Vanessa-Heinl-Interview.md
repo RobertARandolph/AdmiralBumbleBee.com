@@ -4,7 +4,7 @@ title: Vanessa Heinl Interview
 comments: true
 date:   2019-01-02_12:17:31 
 categories: interview
-tags: ['Interview', 'Cubase', 'Programming']
+tags: ['Interviews', 'Cubase', 'Programming']
 image:
 description: Interview with Vanessa Heinl
 ---

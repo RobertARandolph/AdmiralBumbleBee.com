@@ -4,7 +4,7 @@ title: Interview with Rob Stenson of Goodhertz, and of Rob Stenson.
 comments: true
 date:   2019-01-12_09:23:10 
 categories: music
-tags: ['Interview', 'Programming']
+tags: ['Interviews', 'Programming']
 image:
 description:
 ---

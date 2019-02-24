@@ -4,7 +4,7 @@ title: Kali LP8 Review
 comments: true
 date:   2019-02-09_11:15:10 
 categories: music
-tags: ['Reviews', 'Studio']
+tags: ['Review', 'Studio']
 image: /assets/Kali/Header.jpg
 description: Review and Testing of the Kali Audio LP-8
 ---
