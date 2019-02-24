@@ -109,7 +109,7 @@ I did 2 tests:
 <a href="/assets/Differ/Automation.png">
 <img src="/assets/Differ/Thumbnails/Automation.png" alt="Automation in Action">
 </a>
-<div class="image-caption">Automation in Action</div>
+<div class="image-caption">Automation in Action (click for larger image)</div>
 {:/nomarkdown}
 
 * 997kHz at -18dB FS peak with a -inf to 0dB fader volume automation over 2 seconds.
@@ -130,7 +130,7 @@ __TRY IT YOURSELF!__
 <a href="/assets/Differ/Bypass.png">
 <img src="/assets/Differ/Thumbnails/Bypass.png" alt="Bypass test">
 </a>
-<div class="image-caption">Bypass test</div>
+<div class="image-caption">Bypass test (click for larger image)</div>
 {:/nomarkdown}
 
 * 997kHz at -18dB FS peak with the fastest possible transition to -inf at 1 second.
@@ -147,7 +147,7 @@ Let's look further!
 <a href="/assets/Differ/BypassWave.png">
 <img src="/assets/Differ/Thumbnails/BypassWave.png" alt="Waveforms">
 </a>
-<div class="image-caption">Waveforms</div>
+<div class="image-caption">Waveforms (click for larger image)</div>
 {:/nomarkdown}
 
 Note that I carefully snapped the automation of each of these to 1 second in the DAW. _ONLY_ Pro Tools did _exactly_ that.
@@ -168,7 +168,7 @@ One test.
 <a href="/assets/Differ/Fades.png">
 <img src="/assets/Differ/Thumbnails/Fades.png" alt="Fades">
 </a>
-<div class="image-caption">Fades</div>
+<div class="image-caption">Fades (click for larger image)</div>
 {:/nomarkdown}
 
 * 997kHz at -18dB FS peak with a Linear fade applied for 2000ms
@@ -195,7 +195,7 @@ I will not be testing delay compensation, as that is an extraordinarily complex 
 <a href="/assets/Differ/ProToolsRepeat.png">
 <img src="/assets/Differ/Thumbnails/ProToolsRepeat.png" alt="Pro Tools Repeat">
 </a>
-<div class="image-caption">Pro Tools render tests</div>
+<div class="image-caption">Pro Tools render tests (click for larger image)</div>
 {:/nomarkdown}
 
 **NOTHING TO SEE HERE**
@@ -208,7 +208,7 @@ Pro Tools rendered the automation identically every single time. 54 renders, all
 <a href="/assets/Differ/CubaseRepeat.png">
 <img src="/assets/Differ/Thumbnails/CubaseRepeat.png" alt="Cubase render tests">
 </a>
-<div class="image-caption">Cubase render tests</div>
+<div class="image-caption">Cubase render tests (click for larger image)</div>
 {:/nomarkdown}
 
 Cubase was easy to break. Changing buffer sizes changed where the automation happened! From 64 sample buffer to 1024 sample buffer changed it by about 588 samples, or 12 milliseconds!
@@ -229,7 +229,7 @@ I did not find any settings that alleviated this behaviour. Changing buffer size
 <a href="/assets/Differ/LogicRepeat.png">
 <img src="/assets/Differ/Thumbnails/LogicRepeat.png" alt="Logic Repeat">
 </a>
-<div class="image-caption">Logic render tests</div>
+<div class="image-caption">Logic render tests (click for larger image)</div>
 {:/nomarkdown}
 
 Logic aced it, mostly. I tried every combination of buffer sizes, process buffer ranges, real/offline...
@@ -244,7 +244,7 @@ Logic aced it, mostly. I tried every combination of buffer sizes, process buffer
 <a href="/assets/Differ/LogicRepeat2.png">
 <img src="/assets/Differ/Thumbnails/LogicRepeat2.png" alt="Logic render test... default">
 </a>
-<div class="image-caption">Logic render test... default</div>
+<div class="image-caption">Logic render test... default (click for larger image)</div>
 {:/nomarkdown}
 
 This is what logic looks like with the default settings. ARGH! Good luck "nulling" other DAWs when Logic Pro itself can't even decent how audio is supposed to be rendered.
