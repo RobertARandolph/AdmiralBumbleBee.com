@@ -64,7 +64,7 @@ These are practical concerns, but they are nonetheless concerns _and_ they are a
 
 So why doesn't anyone do it?
 
-_It's easier to be right about something if you pare away everything that makes you wrong._ The output of modern audio software is an incredibly complex system with multiple sound-affect subsystems working in tandem. It's nearly impossible to make a claim about whether products sound similar or not unless you focus on any given subsystem.
+_It's easier to be right about something if you pare away everything that makes you wrong._ The output of modern audio software is an incredibly complex system with multiple sound-effect subsystems working in tandem. It's nearly impossible to make a claim about whether products sound similar or not unless you focus on any given subsystem.
 
 Now we have a nearly 30 year history of people focusing on if DAWs "sum" the same. Why summing? Why that particular subsystem? I suspect that this was a major focus given that the previous systems used, mixing consoles, did vary in summing quality. Naturally when people new to digital heard differences that's what they attributed it to.
 
@@ -112,7 +112,7 @@ I did 2 tests:
 <div class="image-caption">Automation in Action (click for larger image)</div>
 {:/nomarkdown}
 
-* 997kHz at -18dB FS peak with a -inf to 0dB fader volume automation over 2 seconds.
+* 997Hz at -18dB FS peak with a -inf to 0dB fader volume automation over 2 seconds.
 
 Before you judge, let's be very clear: modulation is hard. It's _impossible_ to produce "automation" that satisfies the 3 criteria most people want: fast response (low slew), clean and low-load. Most products favor low-load and clean (to an extent).
 
@@ -133,7 +133,7 @@ __TRY IT YOURSELF!__
 <div class="image-caption">Bypass test (click for larger image)</div>
 {:/nomarkdown}
 
-* 997kHz at -18dB FS peak with the fastest possible transition to -inf at 1 second.
+* 997Hz at -18dB FS peak with the fastest possible transition to -inf at 1 second.
 
 This tests how "fast" the automation is. The goal here, counter to intuition, is to have the _ugliest_ pop at the end. That signals that there's a discontinuity. The less intense the termination is, the "slower" the automation is, which indicates some sort of interpolation.
 
@@ -171,7 +171,7 @@ One test.
 <div class="image-caption">Fades (click for larger image)</div>
 {:/nomarkdown}
 
-* 997kHz at -18dB FS peak with a Linear fade applied for 2000ms
+* 997Hz at -18dB FS peak with a Linear fade applied for 2000ms
 
 At least they can all do fades decently, but different nonetheless.
 

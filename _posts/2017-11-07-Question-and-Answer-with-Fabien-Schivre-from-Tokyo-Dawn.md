@@ -7,6 +7,7 @@ categories: music
 tags: ['Interviews', 'Studio Tips']
 image: /assets/General/TDL.png
 description: Q&A with Fabien from tokyodawn.net
+series: fabien
 ---
 
 {::nomarkdown}
@@ -17,6 +18,15 @@ description: Q&A with Fabien from tokyodawn.net
 Recently on the [EDM Production discord](http://discord.gg/edmp) that I help administrate, I held a Q&A with [Fabien Schivre from Tokyo Dawn](http://www.tokyodawn.net/tokyo-dawn-labs/). Specifically we discussed Tokyo Dawn Labs.
 
 Click through for the whole Q&A as I've transcribed it.
+
+{% assign fabien = site.posts | where: "series", "fabien" | sort: 'date' %}
+<ul>
+{% for my_page in fabien %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 <!--more-->
 
