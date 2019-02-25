@@ -130,9 +130,9 @@ The guys over at nebula (and related) have the great advantage to not dependent 
 
 We also have ideas, but nothing I could present now.
 
-**Fabien**: I'd like to know if there's any "common knowledge" in the audio world that gets thrown around, that you find particularly bothersome.
+### I'd like to know if there's any "common knowledge" in the audio world that gets thrown around, that you find particularly bothersome.
 
-The whole dither hype and panic maybe.
+**Fabien**: The whole dither hype and panic maybe.
 
 But I'd say that very often, the very basics of engineering are lacking. For example, the radical difference between floating point math and fixed point math is still only known to most motivated audio ppl. As is the respect toward the overwhelmingly strong effects of perception and bias.
 
