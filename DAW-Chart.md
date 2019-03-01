@@ -268,7 +268,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Undo">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
             <daw name="Studio One" rating="7"> </daw>
@@ -366,7 +366,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
     <admdc section="Sample and File Browsing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
         <category name="Sample and File Browsing">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="Digital Performer" rating="4"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
             <daw name="Studio One" rating="7"> </daw>
@@ -382,7 +382,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Preview">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="Digital Performer" rating="3"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
             <daw name="Studio One" rating="4"> </daw>
@@ -514,7 +514,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
     <admdc section="Mixing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
         <category name="VCAs">
             <daw name="Reaper" rating="6" link="reaper-vca"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="Digital Performer" rating="9"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
             <daw name="Studio One" rating="9"> </daw>
@@ -594,7 +594,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Plugin Organization">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
             <daw name="Studio One" rating="9"> </daw>
@@ -724,7 +724,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Included Sound Content">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
             <daw name="Studio One" rating="8"> </daw>
@@ -808,7 +808,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
     <admdc section="Automation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
         <category name="General Automation">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="Digital Performer" rating="8"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
             <daw name="Studio One" rating="4"> </daw>
@@ -1018,7 +1018,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Audio Bonuses">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
             <daw name="Studio One" rating="5"> </daw>
@@ -1296,7 +1296,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Clip Launching">
             <daw name="Reaper" rating="0" link="reaper-clip-launching"> </daw>
-            <daw name="Digital Performer" rating="8" link="dp-clip-launching"> </daw>
+            <daw name="Digital Performer" rating="9" link="dp-clip-launching"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
             <daw name="Studio One" rating="0"> </daw>
@@ -1558,7 +1558,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Zoom">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="Digital Performer" rating="10"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
             <daw name="Studio One" rating="0"> </daw>
@@ -1574,7 +1574,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="HDPI">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
             <daw name="Studio One" rating="10"> </daw>
@@ -1690,7 +1690,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Software Updates">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="10" link="cubase-updates"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
             <daw name="Studio One" rating="9"> </daw>
@@ -1818,6 +1818,8 @@ Digital Performer gets a 10 for having both traditional loop/cycle recording _an
 ## DP Clip Launching
 
 DP has a system called "Chunks" which allows complex setups for launching clips/projects. It is not similar to Live's style of clip launching at all, however it is used for very large shows around the world.
+
+DP10 added a Clip like 'spreadsheet' style view.
 
 # Cubase Notes
 
