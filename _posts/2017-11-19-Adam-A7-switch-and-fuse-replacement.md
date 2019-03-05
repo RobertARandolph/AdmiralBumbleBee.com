@@ -36,7 +36,7 @@ Here's the supplies that you need:
 
 * [Hobby knife](https://www.amazon.com/OLFA-Cushion-Grip-Art-Knife/dp/B0006O87TQ/ref=sr_1_3?ie=UTF8&qid=1511118307&sr=8-3&keywords=olfa+hobby+knife) with a sharp blade (no 11)
 * Some sort of clippers, even nail clippers will work fine.
-* [Round 10a 127v Rocker switch](https://www.amazon.com/gp/product/B01LY929BT/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1)
+* [Round 10a 125v Rocker switch](https://www.amazon.com/Terminal-Black-Round-Rocker-Switch/dp/B0057M4J4E/ref=sr_1_5?keywords=spst+rocker+switch&qid=1551821728&s=gateway&sr=8-5)
 * Flathead screw driver, small and thin tip if possible
 * FUSE - [5mm x 20mm 127v 2amp slow-blow fuse](https://www.amazon.com/gp/product/B01ANBZV4U/ref=oh_aui_detailpage_o00_s00?ie=UTF8&psc=1).
 
