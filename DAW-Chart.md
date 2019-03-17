@@ -39,17 +39,18 @@ If you never do multitrack editing, give it a 0. Then DAWs that excel in this ar
 
 These are the versions that I have most recently evaluated the features (and stability) of:
 
-* Reaper 5.961
-* Digital Performer 9.52
-* Cubase 10.0
-* Studio One 4.1.0
-* Pro Tools 2018.7
+* Reaper 5.972
+* Digital Performer 10.0
+* Cubase 10.0.15
+* Studio One 4.1.2
+* Pro Tools 2018.12
 * Logic 10.4.2
 * Reason 10.2
-* FLStudio 20 Mac
+* Cakewalk 2018.11
+* FLStudio 20.2 Mac
 * Live 10.04
-* Bitwig 2.4 B4
-* Mixbus 32c 5.0
+* Bitwig 2.5
+* Mixbus 32c 5.1
 * SawStudio 5.6
 
 # How recently was this update
@@ -1394,7 +1395,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="VST3">
             <daw name="Reaper" rating="7"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="Digital Performer" rating="8"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
             <daw name="Studio One" rating="10"> </daw>

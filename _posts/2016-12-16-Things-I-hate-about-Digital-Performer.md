@@ -5,11 +5,21 @@ comments: true
 date:   2016-12-16_08:56:38 
 categories: music
 tags: ['Digital Performer', 'DAW']
+series: dp
 ---
 
 ![DP Velocity editing](/assets/DP/DPVelocity.png)
 
 Digital Performer 9.1 isn't all roses. There's quite a few things that I would like improved and features that I feel are blatantly missing compared to the competition. Some of these things cause creative blocks, require tedious workarounds or simply aren't cool.
+
+{% assign dp = site.posts | where: "series", "dp" | sort: 'date' %}
+<ul>
+{% for my_page in dp %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 <!--more-->
 
@@ -23,6 +33,11 @@ Digital Performer 9.1 isn't all roses. There's quite a few things that I would l
 These are the things that annoy me on a daily basis when using DP. If you follow this blog, you'll soon see how badly they annoy me!
 
 ## VCAs
+
+{::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
 
 {::nomarkdown}
   <img src="/assets/DP/vca.gif" alt="VCA">
@@ -43,8 +58,12 @@ VCA tracks allow you to separate layers of automation and do it across multiple 
 
 DP does not have VCAs or anything resembling VCAs. With DP's amazing large project navigation features it's astonishing that there's no VCA capability! I hate mixing without VCAs and it's one of the #1 most irritating things about using DP.
 
-
 ## Absolute Grid
+
+{::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
 
 {::nomarkdown}
   <img src="/assets/DP/grid.gif" alt="Snap types in Cubase">
@@ -75,6 +94,12 @@ They need to be like the meters in S1 or Cubase as shown above. It can make a bi
 ## Hardware Inserts
 
 {::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
+
+
+{::nomarkdown}
   <img src="/assets/DP/CubaseHardware.png" alt="Cubase Hardware Inserts">
   <div class="image-caption">Hardware Inserts in Cubase</div>
 {:/nomarkdown}
@@ -88,6 +113,12 @@ This was fixed in DP9.13. Digital Performer's hardware inserts work great now, w
 ## Sequence window beat warping
 
 {::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
+
+
+{::nomarkdown}
   <img src="/assets/StudioEvaluatione/warp.gif" alt="Beat warping in Studio One">
   <div class="image-caption">Warping a beat in Studio One</div>
 {:/nomarkdown}
@@ -99,6 +130,12 @@ Some DAWs like Logic, Studio One, Reaper and Pro Tools allow you to simply selec
 DP has the ability to do this via 'Quantize Soundbites', but there is no way to manually grab a beat and move it. Even if you could, you couldn't snap it to the grid anyway.
 
 ## File browser
+
+{::nomarkdown}
+<img src="/assets/General/Improved.png" alt="Improved">
+</br>
+{:/nomarkdown}
+
 
 {::nomarkdown}
   <img src="/assets/DP/CubaseMediaBay.png" alt="Media Bay in Cubase">
@@ -130,6 +167,11 @@ Some DAWs allow you to route midi or audio to anywhere. This can be very useful 
 When going through the undo-tree in DP it is possible to create quite a mess if you've been making mixer changes while editing. The changes to the mixer are not saved, but everything else is. Of course if you accidentally move a fader or plug-in parameter then you are at the mercy of the gods to get things back to where they are.
 
 ## Better sounding time/pitch manipulation
+
+{::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
 
 {::nomarkdown}
   <img src="/assets/DP/CubaseStretch.png" alt="Cubase stretch algos">
@@ -170,6 +212,11 @@ DP requires some ridiculous aux-track to even setup a single stem export. Then y
 Take note of the image above to see how easy it is to export stems and tracks in Cubase with the batch functionality.
 
 ## Larger GUI elements
+
+{::nomarkdown}
+<img src="/assets/General/Improved.png" alt="Improved">
+</br>
+{:/nomarkdown}
 
 {::nomarkdown}
   <img src="/assets/DP/DPVelocity.png" alt="DP Velocity editing">
@@ -271,6 +318,11 @@ I will say that Pro Tools Control does work with DP, but it's not nearly as good
 
 ## VST3 support
 
+{::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
+
 VST2 is dead. DP only supports AU and VST2.
 
 [What's so great about VST3?](https://www.steinberg.net/en/company/technologies/vst3.html) Autosuspend, Dynamic I/O, Native window resize support, Sample accurate automation, better preset organization, VSTXML, better midi support, Audio input for instruments, multiple midi I/O, and more.
@@ -306,26 +358,31 @@ Once again, watch the video. Spectral editing is an __amazing__ feature, and DP 
 
 # Bugs
 
+{::nomarkdown}
+<img src="/assets/General/Improved.png" alt="Improved">
+</br>
+{:/nomarkdown}
+
 DP has some _serious_ workflow bugs.
 
-* Nudge is broken
-* Hardware inserts are broken
-* Midi input to plug-ins is broken
-* Tab key does weird things
+* Nudge is broken (Fixed)
+* Hardware inserts are broken (Fixed)
+* Midi input to plug-ins is broken (Fixed)
+* Tab key does weird things (Fixed)
 * Snapshot automation is broke on many third-party plug-ins
-* Track selector bugs
+* Track selector bugs (Fixed)
 * Console bugs
 * Possible to destroy your project with branched undo
-* Possible to edit midi data when it's not visible
+* Possible to edit midi data when it's not visible (Fixed)
 * Window sets broken
 
-And most importantly, the much touted performance improvements in 9.1 actually destroyed performance for many people. The latest version of DP has a number of weird bugs as well with editing during playback and plug-ins not rendering.
+And most importantly, the much touted performance improvements in 9.1 actually destroyed performance for many people. The latest version of DP has a number of weird bugs as well with editing during playback and plug-ins not rendering. (Fixed!)
 
 Every DAW has bugs, but DP appears to be aspiring to [n-Track](http://en.ntrack.com/index.php) levels of bugginess.
 
 # Conclusion
 
-A lot of those images are Cubase, aren't they?
+A lot of those images are Cubase, aren't they? (Edit: DP10 fixed a lot of these things!)
 
 DP isn't all bad though. Check out the posts I wrote about the cool stuff in it
 

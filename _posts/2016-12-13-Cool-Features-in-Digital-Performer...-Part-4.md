@@ -5,17 +5,24 @@ comments: true
 date:   2016-12-13_10:28:16 
 categories: music
 tags: ['Digital Performer', 'DAW']
+series: dp
 ---
 
 ![Day 4](/assets/DP/Featurespt4.png)
 
 Today's installment of cool stuff in DP brings you up to snuff on these features: Mixer Scenes, Track Selector, Search Window, and some creative effects.
+
 Be sure to check out the other DP Features posts!
 
-[Part 1]({% post_url 2016-12-10-Cool-Features-in-Digital-Performer...-Part-1%})
-[Part 2]({% post_url 2016-12-11-Cool-Features-in-Digital-Performer...-Part-2%})
-[Part 3]({% post_url 2016-12-12-Cool-Features-in-Digital-Performer...-Part-3%})
-[Part 5]({% post_url 2016-12-14-Cool-Features-in-Digital-Performer...-Part-5%})
+{% assign dp = site.posts | where: "series", "dp" | sort: 'date' %}
+<ul>
+{% for my_page in dp %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
 
 <!--more-->
 

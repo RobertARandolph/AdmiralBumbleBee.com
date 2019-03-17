@@ -5,6 +5,7 @@ comments: true
 date:   2016-12-14_09:21:59 
 categories: music
 tags: ['Digital Performer', 'DAW']
+series: dp
 ---
 
 ![Day 5](/assets/DP/Featurespt5.png)
@@ -13,10 +14,14 @@ This installment of "Cool Features in Digital Performer" I'm going to wax poetic
 
 Be sure to check out the other DP Features posts!
 
-[Part 1]({% post_url 2016-12-10-Cool-Features-in-Digital-Performer...-Part-1%})
-[Part 2]({% post_url 2016-12-11-Cool-Features-in-Digital-Performer...-Part-2%})
-[Part 3]({% post_url 2016-12-12-Cool-Features-in-Digital-Performer...-Part-3%})
-[Part 4]({% post_url 2016-12-13-Cool-Features-in-Digital-Performer...-Part-4%})
+{% assign dp = site.posts | where: "series", "dp" | sort: 'date' %}
+<ul>
+{% for my_page in dp %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 <!--more-->
 

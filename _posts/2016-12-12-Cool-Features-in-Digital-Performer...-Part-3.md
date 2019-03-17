@@ -5,6 +5,7 @@ comments: true
 date:   2016-12-12_12:44:50 
 categories: music
 tags: ['Digital Performer', 'DAW']
+series: dp
 ---
 
 ![Day 3](/assets/DP/Featurespt3.png)
@@ -13,10 +14,14 @@ In today's discussion of neato things in Digital Performer I will be covering: C
 
 Be sure to check out the other DP Features posts!
 
-[Part 1]({% post_url 2016-12-10-Cool-Features-in-Digital-Performer...-Part-1%})
-[Part 2]({% post_url 2016-12-11-Cool-Features-in-Digital-Performer...-Part-2%})
-[Part 4]({% post_url 2016-12-13-Cool-Features-in-Digital-Performer...-Part-4%})
-[Part 5]({% post_url 2016-12-14-Cool-Features-in-Digital-Performer...-Part-5%})
+{% assign dp = site.posts | where: "series", "dp" | sort: 'date' %}
+<ul>
+{% for my_page in dp %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 <!--more-->
 
