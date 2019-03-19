@@ -21,7 +21,7 @@ Well, [Digital Performer 10 is out!](http://motu.com/newsitems/digital-performer
 
 I had a bunch of prepared content for DP10, but it appears that other press, including MOTU, managed to cover the same topics I was going to. I _hate_ duplicating content and I avoid it if possible. I sorted those posts away. **THIS IS NOT A THOROUGH REVIEW**. It's just the things I like about the update.
 
-Let me walk you through what I like about DP 10, and why I'm back to using DP10 as my main driver. ([I switched to Cubase in Aug 28, 2018]({% post_url 2018-08-29-Cubase-and-Me %}) while waiting for DP10 if you don't remember. I will still be using Cubase heavily though ;))
+Let me walk you through what I like about DP 10, and why I'm back to using DP10 as my main driver. ([I switched to Cubase in Aug 28, 2018]({% post_url 2018-08-29-Cubase-and-Me %}) while waiting for DP10 if you don't remember.)
 
 {% assign dp = site.posts | where: "series", "dp" | sort: 'date' %}
 <ul>
@@ -177,7 +177,7 @@ Let's play a game! It's called "Spot the Velocity marks".
 
 I've already lost the game.
 
-Even though you can now clearly _see_ velocity as colour, or as a bar in the note, the actual editing space is still terrible to work in. [There are ways to make them _slightly_ more visible](http://www.motunation.com/forum/viewtopic.php?f=26&t=51416&sid=81a7ebb202785bde259ca65b4389715b). That doesn't help much.
+Even though you can now clearly _see_ velocity as colour, or as a bar in the note, the actual editing space is still terrible to work in. [There are ways to make them _slightly_ more visible](http://www.motunation.com/forum/viewtopic.php?f=26&t=51416). That doesn't help much.
 
 **BUT** I have a video on a 'workaround', that I think actually makes editing MIDI Velocity in DP a pleasant experience. It can be difficult to see what you're doing, but actually doing it is a breeze!
 
