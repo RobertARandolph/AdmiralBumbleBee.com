@@ -327,16 +327,16 @@ It's a complete shame. A modern style EQ gains one of its primary workflow benef
 
 Neither Carve nor Splice offer an exceptional amount of information beyond a very simple analyzer and what you can hear. Sometimes it even presents misleading information due to the normalization.
 
-### Snap Heap
+### Snap Heap and Multipass
 
 {::nomarkdown}
 <img src="/assets/Khs/SnapHeap.png" alt="SnapHeap integration">
 <div class="image-caption">SnapHeap integration</div>
 {:/nomarkdown}
 
-Snap Heap is a host for Kilohearts plugins called "snapins". Carve and Slice are both snapins.
+Snap Heap and Multipass are hosts for Kilohearts plugins called "snapins". Carve and Slice are both snapins.
 
-The benefit of this system is that you have a unified modulation system with macros, envelopes, LFOs, pitch tracking and MIDI mapping. You can then save these multi-effects setups and recall them later. You also have 4 channels of parallel processing.
+The benefit of the Snap Heap system is that you have a unified modulation system with macros, envelopes, LFOs, pitch tracking and MIDI mapping. You can then save these multi-effects setups and recall them later. You also have 4 channels of parallel processing.
 
 I know some people that absolutely love this system, and I can understand why.
 
@@ -348,7 +348,11 @@ The manual doesn't explain how you can use anything else, and I was unable to de
 
 I don't see any reason why you would want to use this over another more complete system like [mux](http://www.mutools.com/mux-product.html) or [metaplugin](https://ddmf.eu/metaplugin-chainer-vst-au-rtas-aax-wrapper/) (which doesn't have modulation, but it does have other benefits).
 
+Multipass is a multiband system, but once again there's products that offer you way more like [MB-7](https://www.bluecataudio.com/Products/Product_MB7Mixer/).
+
 I suppose if you're already using the snapin system then it's maybe worth it, and the Snap Heap system is pretty cool. There are other systems out there that give you similar benefits, but with any VST/AU you want.
+
+Hopefully they address this soon!
 
 ### Preset Browser
 
