@@ -232,7 +232,7 @@ This is the action that I use for [SWS project startup actions](#sws-startup-act
 * Audio->Buffering
 	* Media buffer size: 10ms - this greatly reduces latency when switching takes and moving the playhead.
 	* Media buffer size when per-take FX UI open: 10ms - reduces latency when adjusting per-take FX.
-    * Anticipative FX processing
+    * **OFF** Anticipative FX processing - following settings are irrelevant.
         * Render-ahead: 50ms
             * This is done to reduce the display response time on FX. Higher values make the display delayed.
     * Advanced Disk I/O options

@@ -193,6 +193,7 @@ These are plug-ins that you can acquire without needing to spend money.
     * [Youlean](https://youlean.co) - Must-have metering solution.
     * [dpMeter 3](https://www.tb-software.com/TBProAudio/dpmeter3.html) - I don’t use Youlean, I use dpMeter 3 for my level metering needs (along with vumt deluxe which is not free)
     * [Span](https://www.voxengo.com/product/span/) - Span is basically the de facto frequency analyzer plug-in on the market, just get it.
+    * [Correlometer](https://www.kvraudio.com/product/correlometer-by-voxengo) - This tells you the correlation between left and right channels, which also can correspond to 'stereo width'. It can be used for testing per-band correlation between two sources by routing the signals to the Left and Right channels of the plugin.
     * [MvMeter2](https://www.tb-software.com/TBProAudio/mvmeter2.html) - [as described in my Gain Staging post]({% post_url 2017-11-01-Gainstaging-for-the-modern-musician %}), having a VU meter is useful (if not essential), and this is an excellent free one.
 
 ## Distortion
