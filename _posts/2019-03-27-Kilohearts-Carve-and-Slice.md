@@ -4,7 +4,7 @@ title: Kilohearts Carve and Slice
 comments: true
 date:   2019-03-27_11:28:47 
 categories: music
-tags: ['review']
+tags: ['Review']
 image: /assets/Khs/SnapHeap.png
 description: Kilohearts Carve and Slice EQs
 ---

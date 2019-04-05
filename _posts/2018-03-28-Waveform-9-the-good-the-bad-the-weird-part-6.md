@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 'Waveform 9: the good, the bad, the weird. Part 6: MIDI Editing'
+title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 6: MIDI Editing'
 comments: true
 date:   2018-03-28_09:33:10 
 categories: music
 tags: ['Tracktion Waveform', 'DAW']
 image: /assets/Waveform/Weird/MultiEdit.png
 description: MIDI Editing in Waveform 9, with 50% more whining!
+series: waveform
 ---
 
 {::nomarkdown}
@@ -29,18 +30,18 @@ I know that it seems like there's a lot of bad things today, and there is, but t
   * Step Recording
 * Weird
   * MIDI Multi-Editing
-
+  
+  
 **Other parts in this series**: 
-* [30 days with Tracktion Waveform 9]({% post_url 2018-02-28-30-days-with-Tracktion-Waveform-9 %})
-* [Part 1: Browser - Mixing - GUI - VCAs]({% post_url 2018-03-08-Waveform-9-the-good-the-bad-the-weird-part-1 %})
-* [Part 2: Modulation - Plugin browsing - Annoyances - GUI]({% post_url 2018-03-14-Waveform-9-the-good-the-bad-the-weird-part-2 %})
-* [Part 3: Macros - UI design - Ghost tracks - Buying]({% post_url 2018-03-18-Waveform-9-the-good-the-bad-the-weird-part-3 %})
-* [Part 4: Pattern Generator - Edit Clips - Folder editing - Chord Track]({% post_url 2018-03-21-Waveform-9-the-good-the-bad-the-weird-part-4 %})
-* [Part 5: Step Clips - Loops - Clip Linking - Loop Recording - Track Presets]({% post_url 2018-03-25-Waveform-9-the-good-the-bad-the-weird-part-5 %})
-* [Part 7: Recording]({% post_url 2018-03-31-Waveform-9-the-good-the-bad-the-weird-part-7 %})
-* [Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more]({% post_url 2018-04-03-Waveform-9-the-good-the-bad-the-weird-part-8 %})
-* [Instruments and Effect Review]({% post_url 2018-04-08-Waveform-9-instruments-and-effect-review %}) 
-* [Conclusion]({% post_url 2018-04-11-Waveform-9-Conclusion %})
+
+{% assign waves = site.posts | where: "series", "waveform" | sort: 'date' %}
+<ul>
+{% for my_page in waves %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 **VERSION** - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.
 

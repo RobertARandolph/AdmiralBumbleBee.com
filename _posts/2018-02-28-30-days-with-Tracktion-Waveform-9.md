@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 30 days with Tracktion Waveform 9
+title: '30 days with Tracktion Waveform 9.1.1 - Version 9, Part 0: Intro'
 comments: true
 date:   2018-02-28_12:27:51 
 categories: music
 tags: ['Monthly', 'DAW', 'Tracktion Waveform']
 image:
 description: The beginning of 30 days with Tracktion Waveform 9
+series: waveform
 ---
 
 {::nomarkdown}
@@ -33,16 +34,15 @@ Waveform is a rather unique product and I think that this will be an interesting
 Hopefully the first post will be up in the next 3 days. I have a lot of work to do in the next 2 days!
 
 **Other parts in this series**: 
-* [Part 1: Browser - Mixing - GUI - VCAs]({% post_url 2018-03-08-Waveform-9-the-good-the-bad-the-weird-part-1 %})
-* [Part 2: Modulation - Plugin browsing - Annoyances - GUI]({% post_url 2018-03-14-Waveform-9-the-good-the-bad-the-weird-part-2 %})
-* [Part 3: Macros - UI design - Ghost tracks - Buying]({% post_url 2018-03-18-Waveform-9-the-good-the-bad-the-weird-part-3 %})
-* [Part 4: Pattern Generator - Edit Clips - Folder editing - Chord Track]({% post_url 2018-03-21-Waveform-9-the-good-the-bad-the-weird-part-4 %})
-* [Part 5: Step Clips - Loops - Clip Linking - Loop Recording - Track Presets]({% post_url 2018-03-25-Waveform-9-the-good-the-bad-the-weird-part-5 %})
-* [Part 6: MIDI Editing]({% post_url 2018-03-28-Waveform-9-the-good-the-bad-the-weird-part-6 %})
-* [Part 7: Recording]({% post_url 2018-03-31-Waveform-9-the-good-the-bad-the-weird-part-7 %})
-* [Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more]({% post_url 2018-04-03-Waveform-9-the-good-the-bad-the-weird-part-8 %})
-* [Instruments and Effect Review]({% post_url 2018-04-08-Waveform-9-instruments-and-effect-review %}) 
-* [Conclusion]({% post_url 2018-04-11-Waveform-9-Conclusion %})
+
+{% assign waves = site.posts | where: "series", "waveform" | sort: 'date' %}
+<ul>
+{% for my_page in waves %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+
 
 <a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 

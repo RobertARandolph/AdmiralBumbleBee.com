@@ -1,12 +1,13 @@
 ---
 layout: post
-title: 'Waveform 9: the good, the bad, the weird. Part 7: Recording'
+title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 7: Recording'
 comments: true
 date:   2018-03-31_08:43:26 
 categories: music
 tags: ['Tracktion Waveform', 'DAW']
 image: /assets/Waveform/Good/BigMeters.png
 description: Discussing recording features in Waveform 9
+series: waveform
 ---
 
 {::nomarkdown}
@@ -39,18 +40,16 @@ This article has some of my favorite features in the software, and some things t
 * Weird
   * Stereo Input
 
-
 **Other parts in this series**: 
-* [30 days with Tracktion Waveform 9]({% post_url 2018-02-28-30-days-with-Tracktion-Waveform-9 %})
-* [Part 1: Browser - Mixing - GUI - VCAs]({% post_url 2018-03-08-Waveform-9-the-good-the-bad-the-weird-part-1 %})
-* [Part 2: Modulation - Plugin browsing - Annoyances - GUI]({% post_url 2018-03-14-Waveform-9-the-good-the-bad-the-weird-part-2 %})
-* [Part 3: Macros - UI design - Ghost tracks - Buying]({% post_url 2018-03-18-Waveform-9-the-good-the-bad-the-weird-part-3 %})
-* [Part 4: Pattern Generator - Edit Clips - Folder editing - Chord Track]({% post_url 2018-03-21-Waveform-9-the-good-the-bad-the-weird-part-4 %})
-* [Part 5: Step Clips - Loops - Clip Linking - Loop Recording - Track Presets]({% post_url 2018-03-25-Waveform-9-the-good-the-bad-the-weird-part-5 %})
-* [Part 6: MIDI Editing]({% post_url 2018-03-28-Waveform-9-the-good-the-bad-the-weird-part-6 %})
-* [Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more]({% post_url 2018-04-03-Waveform-9-the-good-the-bad-the-weird-part-8 %})
-* [Instruments and Effect Review]({% post_url 2018-04-08-Waveform-9-instruments-and-effect-review %}) 
-* [Conclusion]({% post_url 2018-04-11-Waveform-9-Conclusion %})
+
+{% assign waves = site.posts | where: "series", "waveform" | sort: 'date' %}
+<ul>
+{% for my_page in waves %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
 
 **VERSION** - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.
 

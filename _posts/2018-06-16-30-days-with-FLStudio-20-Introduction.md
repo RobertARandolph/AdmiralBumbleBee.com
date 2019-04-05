@@ -6,7 +6,7 @@ date:   2018-06-16_11:09:20
 categories: music
 tags: ['FLStudio', 'DAW']
 image:
-description: FLStudion can be weird... let's get that sorted.
+description: FLStudio can be weird... let's get that sorted.
 series: FLStudio
 ---
 
