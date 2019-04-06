@@ -15,7 +15,7 @@ series: ableton
 <div class="image-caption">Ableton Live 10</div>
 {:/nomarkdown}
 
-Anyone that's familiar with me, [or the DAW Feature Cart](/DAW-Chart.html), probably thinks that **I dislike Ableton Live**.
+Anyone that's familiar with me, [or the DAW Feature Chart](/DAW-Chart.html), probably thinks that **I dislike Ableton Live**.
 
 **You'd be right**. I try to be as fair as possible in the DAW Feature Chart, but I personally have had a history of issues with Live.
 
