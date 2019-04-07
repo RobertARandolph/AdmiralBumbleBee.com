@@ -1,0 +1,498 @@
+I"��<img src="/assets/DrumMic/SpacedWrong.png" alt="Spaced Wrong">
+<div class="image-caption">This is how most people do it, but there's hidden secrets...</div>
+
+<p>Today I’ll be discussing how to place Drum Overheads, and specifically what I think many people are ‘doing wrong’. This is largely in the context of <a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=glyn+johns+technique&amp;ie=UTF-8&amp;oe=UTF-8">the Glyn Johns technique</a> and <a href="https://www.google.com/search?client=safari&amp;rls=en&amp;q=recorder+man+technique&amp;ie=UTF-8&amp;oe=UTF-8">the Recorderman Technique</a>, but it also applies to various other drum overheads miking techniques.</p>
+
+<p>Before you get your jimmies rustled, let me say that <strong>there’s not really a “wrong” way</strong>. Thousands of awesome sounding records have been made using a variety of wonky techniques. What’s <em>really</em> important is that you capture the sound of the drumkit in a way that best represents the instrument in the context of the mix.</p>
+
+<p>What I’m offering you is a geometric explanation of how to establish a good starting point, and explaining some potential snafus with various techniques.</p>
+
+<p>I’m also going to discuss how many people explaining this techniques do a somewhat poor job. I’ve gone through many videos and text descriptions and there seems to be common misconceptions that I wish to clear up.</p>
+
+<p>I’m going to try to do my best to explain this mathematically, but also ‘intuitively’ (<a href="https://community.ardour.org/node/3322">whatever that means</a>). There’s going to be 3 different explanations of the same topic. I hope one of them makes sense to you.</p>
+
+<ul>
+  <li><a href="/music/2018/04/27/Youre-micing-drums-wrong-part-2.html">Part 2</a></li>
+  <li><a href="/music/2018/05/05/Youre-micing-drums-wrong-part-3.html">Part 3</a></li>
+</ul>
+
+<p>Onwards!</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li><a href="#finding-the-circle" id="markdown-toc-finding-the-circle">Finding the circle</a>    <ul>
+      <li><a href="#intersecting-spheres" id="markdown-toc-intersecting-spheres">Intersecting Spheres</a></li>
+      <li><a href="#perpendicular-circle" id="markdown-toc-perpendicular-circle">Perpendicular Circle</a></li>
+      <li><a href="#rotated-triangles" id="markdown-toc-rotated-triangles">Rotated Triangles</a>        <ul>
+          <li><a href="#strings-through-drums" id="markdown-toc-strings-through-drums">Strings through drums</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#xy-and-mid-side" id="markdown-toc-xy-and-mid-side">XY and Mid-Side</a></li>
+  <li><a href="#spaced-pair" id="markdown-toc-spaced-pair">Spaced Pair</a>    <ul>
+      <li><a href="#potential-issues" id="markdown-toc-potential-issues">Potential Issues</a></li>
+      <li><a href="#even-spaced-correction" id="markdown-toc-even-spaced-correction">Even Spaced Correction</a></li>
+      <li><a href="#uneven-spaced-correction" id="markdown-toc-uneven-spaced-correction">Uneven Spaced Correction</a></li>
+      <li><a href="#spaced-incorrect" id="markdown-toc-spaced-incorrect">Spaced Incorrect</a></li>
+      <li><a href="#spaced-partially-correct" id="markdown-toc-spaced-partially-correct">Spaced partially-correct</a></li>
+    </ul>
+  </li>
+  <li><a href="#glyn-johns" id="markdown-toc-glyn-johns">Glyn Johns</a>    <ul>
+      <li><a href="#fixing-glyn-johns" id="markdown-toc-fixing-glyn-johns">Fixing? Glyn Johns</a></li>
+    </ul>
+  </li>
+  <li><a href="#recorderman" id="markdown-toc-recorderman">Recorderman</a></li>
+  <li><a href="#the-best-method" id="markdown-toc-the-best-method">The best method?</a></li>
+  <li><a href="#the-other-best-method" id="markdown-toc-the-other-best-method">The other best method?</a></li>
+  <li><a href="#uneven-spaced-pair-execution" id="markdown-toc-uneven-spaced-pair-execution">Uneven Spaced Pair Execution</a>    <ul>
+      <li><a href="#snare-knot" id="markdown-toc-snare-knot">Snare Knot</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>I’m talking about overheads in this post. These are mics that go somewhere away from the drumset. They generally are around 32”/0.8m away from the drumset so that they can capture ‘the big picture’ of the kit.</p>
+
+<p>For most mixing, your overheads will be the core of the drum sound. Close mics and auxiliary will fill in holes in the sound and add impact/punch to specific drum sounds.</p>
+
+<p>Most miking techniques focus on centering the snare and kick drum between them. When the sound of these elements reaches both microphones at the same time, and with the same intensity, those elements will sound ‘centered’ if the mics are panned hard to the sides.</p>
+
+<p>The general rule we’re going to be working with here is how to create a 2 microphone overhead setup that satisfies these two conditions:</p>
+
+<ul>
+  <li>The sound from the kick reaches each mic with equal amplitude and at equal times.</li>
+  <li>The sound from the snare reaches each mic with equal amplitude and at equal times.</li>
+</ul>
+
+<p>Luckily, those two things will occur if we maintain 1 critical aspect: distance.</p>
+
+<p>However! There’s another dimension to this. We <em>also</em> want the overheads to capture all of the other elements in the drum kit. There’s plenty of microphone placements that satisfy these two conditions, but do a terrible job of capturing the rest of the kit. We’ll explore that as we progress.</p>
+
+<p>We’ll also explore some common ‘mistakes’ and pitfalls in popular miking techniques.</p>
+
+<p>In the following 3d renderings:</p>
+
+<ul>
+  <li>The microphones are Green.</li>
+  <li>The snare is Yellow.</li>
+  <li>The kick is blue.</li>
+  <li>Toms are white.</li>
+  <li>Cymbals are brown.</li>
+  <li>Measurement lines are red.</li>
+</ul>
+
+<p><strong>Most of these examples assume an omni directional microphone!!</strong> <a href="/music/2018/04/27/Youre-micing-drums-wrong-part-2.html">Part 2</a> goes further in depth on the topic.</p>
+
+<p>XY and Mid-side obviously rely on cardioid types and figure-eight respectively.</p>
+
+<h1 id="finding-the-circle">Finding the circle</h1>
+
+<p>In 3d space there’s exactly one 2d circular plane where 2 microphones can be maintain equal distances from 2 sources.</p>
+
+<p>That may sound confusing, but I’m going to show you two ways to find this circle. Hopefully one of these methods will help cement the idea for you.</p>
+
+<h2 id="intersecting-spheres">Intersecting Spheres</h2>
+
+<img src="/assets/DrumMic/DrumHalfSpheres.png" alt="Intersecting Half Spheres">
+<div class="image-caption">Intersecting Half Spheres</div>
+
+<p>I feel like this is the most intuitive method. <a href="http://www.thelostvertex.com">My brother</a> disagrees with me, but I’ll show his method too.</p>
+
+<p>Imagine 2 spheres that have their origin centered on the drums you want to record.</p>
+
+<p>The radius of the spheres corresponds to the distance you want each mic from that drum. So the snare microphone you may want 42” from each mic, and the kick 50” from each mic.</p>
+
+<p>So you would draw a 42” radius (<em>not</em> diameter!) sphere with the origin on the snare. A 50” radius sphere is drawn on the kick. (No metric here, the actual measurements are irrelevant. Sorry rest-of-the-world!)</p>
+
+<p>So that’s what we see above, except I used half-spheres to make it a bit clearer. The white half-sphere is a 42” sphere with the origin on the snare. The grey-blue half-sphere is a 50” radius half-sphere with the origin on the center of the batter of the kick.</p>
+
+<p>The area where they intersect defines an arc where 2 mics can be placed and either mic will always be 42” from the snare and 50” from the kick.</p>
+
+<p>(I know that the word is <em>hemisphere</em>, but I think that half-sphere is more clear to those with limited English vocabulary.)</p>
+
+<p>So let’s check out a video…</p>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/DrumMic/SphereDisect.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Sphere Dissection Movie</div>
+
+<p>The video above has 4 segments.</p>
+
+<ol>
+  <li>It shows the intersecting half-spheres</li>
+  <li>It shows the arc of intersection along with measurements. 3’6” to the snare and 4’2” to the kick. That’s 42” and 50”.</li>
+  <li>It shows another measurement along the arc. The distance to the arc is the same…</li>
+  <li>It shows yet another measurement. No matter where we go on the arc… the distance to the snare is always 42” and the distance to the kick is always 50”</li>
+</ol>
+
+<p>So you could put either of 2 microphones anywhere along this arc, and the snare will always be the same distance from each mic. The kick will always be the same distance from each mic.</p>
+
+<p>The result is excellent <a href="/music/2018/02/16/Fixing-Phase-what-why-and-how.html">phase coherency</a> and equal amplitude in both microphones.</p>
+
+<h2 id="perpendicular-circle">Perpendicular Circle</h2>
+
+<img src="/assets/DrumMic/DrumCircle1.png" alt="Drum Circle method">
+<div class="image-caption">Drum Circle Method: Step 1</div>
+
+<p>There’s yet another way to show this arc. This is the method that my younger sibling seems to prefer. (Warning, unnecessary trigonometry coming up)</p>
+
+<p>Once again we’ll be working with 42” from the snare and 50” from the kick.</p>
+
+<p>First we draw a line from the center of the kick through the center of the snare. Then we measure the distance between center of kick to center of snare along that line.</p>
+
+<p>Now we construct a triangle. Our sides of it are a. 42”, b. 50” and the distance between the kick/snare centers, which is c. 14.375” in this case. To construct the triangle I need to know at least 2 of the angles. I’m going to use the angles of bc (α) and ac (angle β).</p>
+
+<p>The formula for α is cos^-1((b^2 + c^2 - a^2) / 2bc) = 49.02345658°</p>
+
+<br \>
+<img src="/assets/DrumMic/AngleA.png" alt="Angle A">
+<br \>
+
+<p>And β is cos^-1((c^2 + a^2 - b^2) / 2ca) = 116.00138398°</p>
+
+<br \>
+<img src="/assets/DrumMic/AngleB.png" alt="Angle B">
+<br \>
+
+<p>Great, now we can construct a triangle with the base being the line between the snare center and kick center. That’s what is in the image above.</p>
+
+<p>The next step is to find our arc, and this part is easy. Now we draw a circle perpendicular with our line whose edge meets the tip of our triangle. It looks like this:</p>
+
+<img src="/assets/DrumMic/DrumCircle2.png" alt="Drum Circle Method">
+<div class="image-caption">Drum Circle Method: Step 2</div>
+
+<p>Oh hey! Look! It’s the same arc that we got with the <a href="#intersecting-spheres">intersecting spheres method</a>.</p>
+
+<p>That was a lot harder than the sphere method, but the result is the same.</p>
+
+<h2 id="rotated-triangles">Rotated Triangles</h2>
+
+<img src="/assets/DrumMic/DrumString.png" alt="Strings!">
+<div class="image-caption">Two Strings attached to kick/snare</div>
+
+<p>Ok, it’s time to get practical. If you’ve done any looking around on drum overhead miking then I’m sure you’ve seen people measure this using a string or a cable.</p>
+
+<p>So let’s do that. I’m using the method in <a href="#perpendicular-circles">perpendicular circles</a> to create my 2 ‘strings’, but in real life you can just tape a 92” (42” + 50”) to the center of the kick and the center of the snare. Grab the string at 42” from the snare and now you can swing it around.</p>
+
+<p>Above we have our ‘string’ in place.</p>
+
+<p>Now let’s grab that string and swing it around the drum kit so it remains tightly attached to the kick/snare. Here’s what various positions of that look like…</p>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/DrumMic/DrumStrings.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Moving the Strings</div>
+
+<p>That’s various positions of the linked strings, and I’m moving around the model so that you can see that…</p>
+
+<p>The tips of the string layout the exact same circle we’ve made twice already!</p>
+
+<h3 id="strings-through-drums">Strings through drums</h3>
+
+<img src="/assets/DrumMic/StringThrough.png" alt="String through">
+<div class="image-caption">That isn't possible...</div>
+
+<p>Oh no! We have a problem. If you try to do this in real life, your string can’t go straight through the drum!</p>
+
+<p>There is no free lunch though. The issue here is that as your mic passes over the batter head of the kick drum you begin to pick up more and more of the sound from the front of the drum. That sound is timed differently, and of a different amplitude than the batter head. This messes up your phase relationships. For best results, you want to basically imagine a wall created by the batter head and not pass that with either mic.</p>
+
+<p>This is a total non-issue. The physical reality here is stopping you from making a decision that will harm your attempt at creating a kick/snare phase/amplitude cohesive sound.</p>
+
+<h1 id="xy-and-mid-side">XY and Mid-Side</h1>
+
+<img src="/assets/DrumMic/XY.jpg" alt="XY and MidSide">
+<div class="image-caption">XY and Mid-Side</div>
+
+<p>These are the easiest setups to achieve our goals. With both you have 2 mics that are right next to each other, except they capture different portions of the kit.</p>
+
+<p>As the microphones are placed near each other, they satisfy the distance/amplitude requirements for the kick/snare. They also capture a fairly even image of the drumkit. Hopefully this is obvious from the 3d rendering above. The amplitude of each drum varies between the microphones due to the directionality of the mics used, but the arrival-time of sound is consistent.</p>
+
+<p>So why not <em>always</em> use this? Simply because it can be somewhat boring. The image presented is very tight and lacks stereo width. Every element is the same distance from both microphones so there is very little <a href="https://en.wikipedia.org/wiki/Precedence_effect">precedence effect</a> happening. The precedence effect (or haas effect) aids in creating a wide stereo image that helps the drum kit envelope the listener.</p>
+
+<p>That said, these techniques can be excellent for miking drums from an extreme distance. The sound of the drums filling the room can help create a vast-sounding stereo sound that, when mixed in to the other mics, creates a more bombastic drum impression.</p>
+
+<h1 id="spaced-pair">Spaced Pair</h1>
+
+<img src="/assets/DrumMic/DrumSpaced.png" alt="DrumsSpaced">
+<div class="image-caption">Spaced Pair</div>
+
+<p>Space pair is simply placing 2 microphones on each side of the drum kit, above it somewhere.</p>
+
+<h2 id="potential-issues">Potential Issues</h2>
+
+<img src="/assets/DrumMic/DrumSpacedMeasureBad.png" alt="Spaced Issues">
+<div class="image-caption">Spaced Mic Issues</div>
+
+<p>The issues here may be apparent to you already, but you can refer to the render above with measurements.</p>
+
+<p>Both mics are different distances from <em>everything</em> in the kit. I’ve hidden the cymbals and toms to make this more clear.</p>
+
+<p>The 2 mics differ in distance from the snare by about 5.25”/13cm. The mic closest to the snare will present the snare louder and more biased towards that side due to the <a href="https://en.wikipedia.org/wiki/Precedence_effect">precedence effect</a>.</p>
+
+<p>The 2 mics differ in distance from the kick by 4.625”/11.75cm. The right microphone will have a louder kick and it will sound more panned to that direction.</p>
+
+<p>These relationships between each mic and a drum kit element persist. There will not be any elements, in a normal kit setup, that are equidistant to each microphone.</p>
+
+<p>So this is clearly an interesting technique if you want a very wide drum sound with no cohesive center. That’s a pretty rare desire in modern recording though.</p>
+
+<p>So let’s “fix” it.</p>
+
+<h2 id="even-spaced-correction">Even Spaced Correction</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/DrumMic/SpacedCorrection.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Spaced Correction</div>
+
+<p>Here we go again. A video showing equidistant microphone spacing between the kick and snare. The kick and snare are the same distance from each mic.</p>
+
+<p>There’s 4 frames in the video:</p>
+
+<ol>
+  <li>Our <a href="#intersecting-spheres">intersecting half-spheres</a>.</li>
+  <li>The arc that’s defined by the intersection.</li>
+  <li>The whole drumset with microphones along the arc</li>
+  <li>A second setup with a larger arc, and microphones along it.</li>
+</ol>
+
+<p>This setup <a href="#recorderman">may look a bit familiar</a>, but it’s not. There’s some differences between this an recorderman.</p>
+
+<p>Take note the arc, as this does make it rather difficult to put mics in place on a normal drumkit, and it ends up heavily biased towards the drummer’s right side.</p>
+
+<h2 id="uneven-spaced-correction">Uneven Spaced Correction</h2>
+
+<img src="/assets/DrumMic/DrumString.png" alt="Strings!">
+<div class="image-caption">Two Strings attached to kick/snare</div>
+
+<p>Does this look familiar? <a href="#rotated-triangles">That’s the rotated triangles from earlier</a>. In fact, all 3 of the <a href="#finding-the-circle">methods I described earlier</a> use these exact same measurements, so you can use the explanation that makes most sense to you.</p>
+
+<p>In this setup the kick is the same distance to either mic, and the snare is the same distance to either mic, but the snare-&gt;mic and kick-&gt;mic distances are not equal.</p>
+
+<p>This yields a flexible setup where you can find the position you want for your first mic, and place the second mic so that the kick/snare maintain phase/amplitude coherence.</p>
+
+<h2 id="spaced-incorrect">Spaced Incorrect</h2>
+
+<img src="/assets/DrumMic/DrumSpacedNorm.png" alt="Incorrect Spacing">
+<div class="image-caption">Incorrect Spacing</div>
+
+<p>The issue here is that many people make a mistake. They come up with this idea where they say, “Imagine a line going down the center of the kick and snare, then put the microphones on an arc perpendicular to that.”</p>
+
+<p>It <em>sounds</em> good, but is it?</p>
+
+<p>Look above. Does that seem familiar? That looks like the normal arc you may see drum overheads placed on.</p>
+
+<img src="/assets/DrumMic/SpacedWrong.png" alt="Spaced Wrong">
+<div class="image-caption">Spaced Wrong Measurements</div>
+
+<p>Look at those measurments! Neither mic is equidistant from anything.</p>
+
+<p>The resulting sound will have level variances, timing variances, phase variances. Eugh! It’s a cool sound for sure, but it’s a really messy sound. It doesn’t work for everything.</p>
+
+<p>So how do we fix that arc? Well we twist that line so that it goes through the center of the kick/snare. Then we draw a circle through it and… <a href="#perpendicular-circle">wait! didn’t we do this before?</a>. Yes, yes we did. By centering the axis where the origin of the arc lies, we’ve just done the same thing I showed three times above.</p>
+
+<h2 id="spaced-partially-correct">Spaced partially-correct</h2>
+
+<img src="/assets/DrumMic/DrumSpaceV2.png" alt="Spaced Pair Version 2">
+<div class="image-caption">Spaced Pair Version 2</div>
+
+<p>The snare doesn’t always need to be centered, but the kick almost always does. We also have the rest of the drumkit to contend with, so there’s a way we can approach this.</p>
+
+<p>We draw a cross that goes through the kick and intersects the toms. Then we draw an arc perpendicular to that. The result is a kick that’s perfectly centered, a nice spread of toms and cymbals, and a snare that’s panned slightly to the drummer’s left.</p>
+
+<p>That’s what is in the image above. I draw a cross that goes through the kick’s center and is oriented to go through the highest rack tom, and the lowest floor tom. Then a circle is drawn parallel to the ‘through-tom’ line.</p>
+
+<p>As you can see we’ll get an excellent stereo image with the toms being on each side, the hats being on the left, the kick centered, the ride mostly-centered etc…</p>
+
+<p>It’s an excellent sound.</p>
+
+<h1 id="glyn-johns">Glyn Johns</h1>
+
+<img src="/assets/DrumMic/GlynJohns.png" alt="Glyn Johns' Technique">
+<div class="image-caption">Glyn Johns' Technique</div>
+
+<p>The <a href="https://en.wikipedia.org/wiki/Glyn_Johns">Glyn Johns</a> method is going to get me in trouble. Many amazing and iconic records were recorded with this method, and I’m just some dude that’s <em>not</em> mixing Led Zeppelin or the Eagles or Eric Clapton.</p>
+
+<p>The idea with Glyn John’s technique is that you place the snare mic about 2-3 stick-heights above the snare drum. Then you place the second mic an equal distance away from the snare, but down behind the floor tom.</p>
+
+<p>This ends up being the snare-centric version of <a href="#spaced-partially-correct">the ‘partially-correct’ spaced pair method</a>. Both microphones are placed equally distance from the snare, but have varying distances from the kick.</p>
+
+<p>I personally dislike this method because I feel that the kick is the center of the stereo image, not the snare. There’s also an issue with how cymbals are presented, which I think that <a href="https://www.youtube.com/watch?v=zT774sQDwdc&amp;t=7s">this video explains pretty well</a>.</p>
+
+<p>So… can we ‘fix’ it?</p>
+
+<h2 id="fixing-glyn-johns">Fixing? Glyn Johns</h2>
+
+<img src="/assets/DrumMic/GlynJohnsCorrected.mp4" alt="Glyn Johns' Corrected">
+<div class="image-caption">Glyn Johns' Corrected?</div>
+
+<p>OK. I get it. This is sacred ground. Please don’t tie me to the pyre. But can we “fix” the Glyn Johns technique?</p>
+
+<p>The core of this mic technique is the single over-head snare mic. So if we use one of our methods above to create an equidistant arc from the kick/snare we end up with the movie above.</p>
+
+<p>Do you notice anything wrong?</p>
+
+<p>Yep… The second mic is going to be placed either behind the drummer or on the left side of the drum kit. Your stereo image will consist of snare+hat and… just about that. There will be no spread of toms or cymbals in any meaningful way.</p>
+
+<p>If we center the arc on the floor time mic then we have similar issues.</p>
+
+<img src="/assets/DrumMic/GlynJohnFloor.png" alt="Glyn Johns' Floor centered">
+<div class="image-caption">Centered around the floor microphone</div>
+
+<p>Again we have the same problem. We’ll only capture the right side of the drumset. The second mic can go along that arc anywhere and there’s nothing there of value.</p>
+
+<p>Does this make the Glyn Johns’ technique <em>bad</em>? No, but you should be aware of what you are getting when you use it. You’re not getting a coherent kick drum image, and you’re <a href="https://www.youtube.com/watch?v=zT774sQDwdc&amp;t=7s">also sacrificing clarity of cymbals</a>.</p>
+
+<p>Is there a better way? Sorta…</p>
+
+<h1 id="recorderman">Recorderman</h1>
+
+<img src="/assets/DrumMic/Recorderman.png" alt="Recorderman">
+<div class="image-caption">Recorderman</div>
+
+<p>The recorder man technique tries to take the snare coherency in to account, as well as fixing the <a href="https://www.youtube.com/watch?v=zT774sQDwdc&amp;t=7s">cymbal issue</a>.</p>
+
+<p>Unfortunately the Recorderman technique has the same issue as the <a href="#glyn-johns">Glyn Johns’ Technique</a>. When you start with a mic directly over the snare, <a href="#fixing-glyn-johns">you end up with your equal distance arcs being in rather strange places.</a>.</p>
+
+<p>Feel free to try it. Tape a string to your kick, and one to your snare. Pull the string tight above the snare drum and pinch that point.</p>
+
+<p>Now swing an arc so that both legs stay tight. You’ll end up on the drummer’s <em>left</em> side, by the snare. That’s no good. If you try starting where the Recorderman puts the mic over the drummer’s shoulder, then the overhead mic ends up out over the ride cymbal, NOT over the snare.</p>
+
+<p>Of course, many great records have been made with this technique. So I’m once again just informing you of some limitations of it. It still can work great.</p>
+
+<h1 id="the-best-method">The best method?</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/DrumMic/DrumStrings.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">The best all along?</div>
+
+<p>I posit that the most coherent sounding overhead setup is the <a href="#uneven-spaced-correction">Uneven Spaced Pair</a>.</p>
+
+<p>The difference between my <a href="#uneven-spaced-correction">Uneven Spaced Pair</a> is that my method allows you to choose <em>any</em> starting position for the first microphone and maintain kick/snare coherence with the second microphone.</p>
+
+<p>This is the technique that I used in the intro, where the distance from snare-&gt;mics is not the same as kick-&gt;mics, but they still maintain an equal distance relative to each other. The phase/amplitude coherence remains, yet you can choose your arc.</p>
+
+<p>This gives the most coherent stereo image with the kick and snare perfectly centered. From this point mics can be moved slightly to add phase and time misalignment to artificially widen the stereo image.</p>
+
+<p>Close mics can be used on toms and cymbals, then panned to increase the direct stereo image as well.</p>
+
+<p>To adjust the stereo image, use <a href="https://en.wikipedia.org/wiki/Cardioid">cardoid</a> pattern microphones and adjusting their direction to change what the mic picks up. Keep the capsule on your arc though!</p>
+
+<p>Of course, this isn’t the best method subjectively. It’s only meant to be a good starting point when you specifically want a center coherent sound, which is usually the basis for most modern drum sounds.</p>
+
+<h1 id="the-other-best-method">The other best method?</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/DrumMic/CenterMic.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Add another mic!</div>
+
+<p>However… There’s a secondary method that can be used: Anything but, with a center mic.</p>
+
+<p>This is similar to the <a href="https://www.youtube.com/watch?v=K9NjecFFoIQ">Weathervane Technique</a>. The Weathervane technique creates an <a href="https://en.wikipedia.org/wiki/Ellipsoid">ellipsoidal path</a> by using a single string taped to the kick/snare. This is <em>not</em> a circular arc because a single point is not maintained. The Weathervane technique allows you to slide the string on your finger, which makes the kick and snare foci for an ellipse rather than the center of the circle.</p>
+
+<p>The result of the elliptical path of the 3 mics is that they are not equidistant from the kick and snare. I wish I could draw this one, but I don’t know how to do it in <a href="https://www.sketchup.com">Sketchup</a>.</p>
+
+<p>This method relies on <strong>three</strong> mics though. One mic is panned dead center to establish the center channel, and the other 2 mics are panned.</p>
+
+<p>The 2 panned mics are along an elliptical arc, rather than a circular arc. So they do not maintain perfect phase/amplitude relationships to the kick snare. This results in a wider image that is panned around the central microphone.</p>
+
+<p>The Weathervane technique has this voodoo with equilateral triangles and whatnot. The equilateral triangle ensures that the ‘center’ mic is actually centered along the same ellipsoid plane as the other 2 mics. The result is a <em>consistent</em> phase/amplitude difference, but not a magical one.</p>
+
+<p>You can actually place the ‘center mic’ anywhere that you feel captures the entire kit as a whole in a balanced way. In the image above I’m using the <a href="#spaced-partially-correct">Partially Corrected Spaced Pair</a> along with a single center mic. The mic is placed directly above the snare 42”, and is the darker green mic.</p>
+
+<p>Notice though how close the ‘center mic’ is to the arc.</p>
+
+<h1 id="uneven-spaced-pair-execution">Uneven Spaced Pair Execution</h1>
+
+<p>Setting up the <a href="#uneven-spaced-correction">Uneven Spaced Pair</a> is pretty easy. You just need a piece of string, you tape it to the drum, find a good place for the first mic then pinch that point and swing the string around with both lines tight. Anywhere on that arc you can place the second mic.</p>
+
+<p>With this method I suggest setting up a distance starting somewhere behind the floor tom, and then swinging up for the overhead mic. When you try it you’ll see why. It takes some practice to try starting with the overhead.</p>
+
+<p>I don’t like putting tape on drums that aren’t mind, so I have a different method.</p>
+
+<h2 id="snare-knot">Snare Knot</h2>
+
+<a href="/assets/DrumMic/Loop.jpg">
+<img src="/assets/DrumMic/Thumbnails/Loop.jpg" alt="Loop">
+</a>
+<div class="image-caption">Make a Loop</div>
+
+<p>First I tie a loop about 48”/1.2m from the end of the string. I’m using <a href="https://en.wikipedia.org/wiki/Parachute_cord">paracord</a> for this.</p>
+
+<a href="/assets/DrumMic/WrapLug.jpg">
+<img src="/assets/DrumMic/Thumbnails/WrapLug.jpg" alt="Wrap around the lugs">
+</a>
+<div class="image-caption">Wrap around the lugs</div>
+
+<p>Now with the other end I string it around 2 opposing lugs like shown.</p>
+
+<p>You want the knot that defines your loop to be in the center of the snare drum.</p>
+
+<a href="/assets/DrumMic/LarksHead.jpg">
+<img src="/assets/DrumMic/Thumbnails/LarksHead.jpg" alt="Attach to free line">
+</a>
+<div class="image-caption">Attach Loop to free line</div>
+
+<p>Next I attach the loop to the loose end using a <a href="https://en.wikipedia.org/wiki/Cow_hitch">Cow Hitch</a> (which I call a Lark’s Head personally).</p>
+
+<p>Make this tight. When you pull on the other end of the cord, you’ll now have a line coming straight from the center of the drum.</p>
+
+<a href="/assets/DrumMic/KickSide.jpg">
+<img src="/assets/DrumMic/Thumbnails/KickSide.jpg" alt="Kick side setup">
+</a>
+<div class="image-caption">Setup on the kick side</div>
+
+<p>On the kick side I create a loop and once again use a <a href="http://www.animatedknots.com/girth/index.php">Lark’s Head</a> (These are the same knots, really… cow’s hitch, lark’s head, strap hitch, girth hitch etc…).</p>
+
+<p>One the kick side it helps if your loop is adjustable. I use a <a href="https://www.netknots.com/rope_knots/tautline-hitch">Tautline hitch</a> to create an adjustable loop. This allows you to dynamically change the length of the string to adjust your ratios as you need.</p>
+
+<p>I put a 20lb weight on my kick pedal and attach the other end to that.</p>
+
+<p>That’s it! Now you can find the point where you want your first mic and swing it around to find the second point! Keep that point pinched. That’s how you keep the legs equally spaced.</p>
+
+<p>It takes some experimenting, but I can set this up in about 20 seconds and be placing mics. Pull it off and go. Folks think it’s magic.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>So what have we learned? Nothing really.</p>
+
+<p>There’s faults with old methods, but those old methods have sold more records than everyone reading this combined has probably. There’s new methods, but they require some learning. None of these are going to magically make your recordings better.</p>
+
+<p>I hope what you take away from this is a better understanding of the tradeoffs between different methods. Once you understand how your overheads are working, you can mix with them better and supplement them with close/far mics more easily.</p>
+
+<p>There’s not really any “wrong” methods. I’m simply here to educate you on how to achieve what you want. If you’re making decisions without knowing the pros and cons, that’s the only way to ‘do it wrong’.</p>
+
+<p>(We also learned that I suck at 3d modeling)</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 13 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

@@ -1,0 +1,390 @@
+I"�[<img src="/assets/Mixbus/mb5/MB5.png" alt="Mixbus 5 32c is here!">
+<div class="image-caption">Mixbus 5 32c is here!</div>
+
+<p>Mixbus <strong>FIVE</strong> 32c is alive! (and I’m no artist, but I tried)</p>
+
+<p>I’m interrupting the <a href="/tags/#Bitwig">Bitwig series</a> because I think it’s necessary, and because I have the scoop.</p>
+
+<p>Enough intro rubbish. On with it!</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#the-video" id="markdown-toc-the-video">The Video</a></li>
+  <li><a href="#the-big-stuff" id="markdown-toc-the-big-stuff">The Big Stuff</a>    <ul>
+      <li><a href="#plugin-tagging" id="markdown-toc-plugin-tagging">Plugin Tagging</a></li>
+      <li><a href="#plugin-tags" id="markdown-toc-plugin-tags">Plugin Tags</a></li>
+      <li><a href="#mixer-storerecall" id="markdown-toc-mixer-storerecall">Mixer Store/Recall</a></li>
+      <li><a href="#track-organizer" id="markdown-toc-track-organizer">Track Organizer</a></li>
+      <li><a href="#mixer-reset" id="markdown-toc-mixer-reset">Mixer Reset</a></li>
+      <li><a href="#grid-and-snap" id="markdown-toc-grid-and-snap">Grid and Snap</a></li>
+      <li><a href="#midi-velocity" id="markdown-toc-midi-velocity">MIDI Velocity!</a></li>
+      <li><a href="#control-surface-support" id="markdown-toc-control-surface-support">Control surface support</a></li>
+      <li><a href="#way-faster-vst-scanning" id="markdown-toc-way-faster-vst-scanning">WAY faster VST Scanning</a></li>
+      <li><a href="#legacyq" id="markdown-toc-legacyq">LegacyQ</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-small-stuff" id="markdown-toc-the-small-stuff">The Small Stuff</a>    <ul>
+      <li><a href="#floating-transport" id="markdown-toc-floating-transport">Floating Transport</a></li>
+      <li><a href="#scripts" id="markdown-toc-scripts">Scripts</a></li>
+      <li><a href="#cpu-profile" id="markdown-toc-cpu-profile">CPU Profile</a></li>
+      <li><a href="#a-comp-improved-and-a-expander-added" id="markdown-toc-a-comp-improved-and-a-expander-added">A-Comp improved and A-Expander added</a></li>
+      <li><a href="#mac-info-bar" id="markdown-toc-mac-info-bar">Mac Info Bar</a></li>
+      <li><a href="#add-track-in-mixer" id="markdown-toc-add-track-in-mixer">Add Track in Mixer</a></li>
+      <li><a href="#thicker-pane-separators" id="markdown-toc-thicker-pane-separators">Thicker Pane Separators</a></li>
+      <li><a href="#plugin-manager" id="markdown-toc-plugin-manager">Plugin Manager</a></li>
+      <li><a href="#marker-delta" id="markdown-toc-marker-delta">Marker Delta</a></li>
+      <li><a href="#vst-touch-automation" id="markdown-toc-vst-touch-automation">VST Touch Automation</a></li>
+      <li><a href="#midi-patchfiles" id="markdown-toc-midi-patchfiles">MIDI Patchfiles</a></li>
+      <li><a href="#vst-resizing" id="markdown-toc-vst-resizing">VST Resizing</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-missing-stuff" id="markdown-toc-the-missing-stuff">The Missing Stuff</a>    <ul>
+      <li><a href="#midi" id="markdown-toc-midi">MIDI</a></li>
+      <li><a href="#stretching" id="markdown-toc-stretching">Stretching</a></li>
+      <li><a href="#no-comping-still" id="markdown-toc-no-comping-still">No Comping still</a></li>
+      <li><a href="#i-still-hate-the-vcas" id="markdown-toc-i-still-hate-the-vcas">I still hate the VCAs</a></li>
+    </ul>
+  </li>
+  <li><a href="#is-it-worth-it" id="markdown-toc-is-it-worth-it">Is it worth it?</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="the-video">The Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ON7nP3Kk350" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Everything in this article is in the video, and vice versa.</p>
+
+<h1 id="the-big-stuff">The Big Stuff</h1>
+
+<h2 id="plugin-tagging">Plugin Tagging</h2>
+
+<img src="/assets/Mixbus/mb5/Tagging.png" alt="Plugin Tagging">
+<div class="image-caption">Plugin Tagging</div>
+
+<p>This is the big feature along with <a href="#plugin-tags">Plugin Tags</a> for a lot of people I think.</p>
+
+<p>You can now add tags to plugins to make searching easier. The <a href="#plugin-manager">Plugin Manager</a> has also been improved to facilitate this.</p>
+
+<p>Adding tags is easy, you select the plugin and add the tags separate by spaces. Unfortunately you can’t tag multiple things at once./legacy</p>
+
+<p>And to kick this feature off…</p>
+
+<h2 id="plugin-tags">Plugin Tags</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Mixbus/mb5/Tags.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Pre-tagged plugins (I had to hide the names, sorry)</div>
+
+<p>There’s over 3,000 tags ready. It’s fairly likely that most of (or all?) of your plugins will be tagged and ready to go.</p>
+
+<p>This is a huge feature, and I’m sure it was a lot of work. Plugin tagging is a feature that is nice to use, but it’s tedious to setup.</p>
+
+<p>Harrison has done the lion’s share of the work for you already. Really cool thing to add.</p>
+
+<h2 id="mixer-storerecall">Mixer Store/Recall</h2>
+
+<img src="/assets/Mixbus/mb5/StoreRecall.png" alt="Store and Recall">
+<div class="image-caption">Store and Recall</div>
+
+<p>Often it’s beneficial to allow yourself what I like to call, “the freedom of error.” This means that when you aren’t afraid of making irreversible changes, you can explore and find solutions you may have never found otherwise.</p>
+
+<p>This also allows you to create “templates” of sort to copy/past between projects.</p>
+
+<p>The real beauty of this is that you don’t need to restore from track to track. When you recall you can select what track data in the stored data gets moved to your project. Want to move settings from a “Kick” project to a “Cajon” in another project? Just assign away. Easy to do.</p>
+
+<p>It’s not <em>all</em> roses though. Sends don’t get saved, and sometimes if you have a send present in the stored data then it will just crash Mixbus. Not very nice :( I’ve been told that it will take quite a bit of work to fix this issue, but I hope they invest the time.</p>
+
+<p>(Note, don’t confuse this with “Mixer Store”, which is a less good version of this feature.)</p>
+
+<h2 id="track-organizer">Track Organizer</h2>
+
+<img src="/assets/Mixbus/mb5/TrackOrganizer.png" alt="Track Organizer">
+<div class="image-caption">Track Organizer</div>
+
+<p>Track Organizer is a neat little script that lets you assign tracks to groups, colour them, add comments and rename them easily.</p>
+
+<p>It’s nicer than trying to do this in the Editor view.</p>
+
+<p>There’s a preset set of groups available, but you can open up the script editor and add your own. Find the like that looks like this:</p>
+
+<p><code class="highlighter-rouge">local pl = {["----"]   = "", ["Drums"] = "Drums", ["Bass"] = "Bass", ["Guitars"] = "Guitars", ["Keys"] = "Keys", ["Strings"] = "Strings", ["Vox"] = "Vox"</code></p>
+
+<p>Now you can add your own groups in the format of <code class="highlighter-rouge">["Group"] = "Group"</code>. There needs to be commas between each set, and the last one does not get a comma.</p>
+
+<h2 id="mixer-reset">Mixer Reset</h2>
+
+<img src="/assets/Mixbus/mb5/ResetMixer.png" alt="Reset Mixer">
+<div class="image-caption">Reset Mixer</div>
+
+<p>Yet another script is one that will reset your mixer for you.</p>
+
+<p>You can select which things are reset, and by default it does not remove your plugins; it only bypasses them. The plugin bypass on reset is something that I quite enjoy. I’ve not seen that in any other product and it’s brilliant.</p>
+
+<h2 id="grid-and-snap">Grid and Snap</h2>
+
+<img src="/assets/Mixbus/mb5/SnapAndGrid.png" alt="Snap and Grid changes">
+<div class="image-caption">Snap and Grid changes</div>
+
+<p>Snap has been improved!</p>
+
+<p>For instance if you wanted to snap to snap to Markers AND the grid before, you could not. Now you can set which things are ‘snappable’ in preferences.</p>
+
+<p>The snap settings are much tidier now, as you can see in the menu above. No more going through a giant menu trying to figure out which triplet setting you need.</p>
+
+<p>The overall experience with snapping is more pleasant.</p>
+
+<h2 id="midi-velocity">MIDI Velocity!</h2>
+
+<img src="/assets/Mixbus/mb5/NoteVelo.png" alt="Note Velocity Improvement">
+<div class="image-caption">Note Velocity Improvement</div>
+
+<p>Mixbus is not good at MIDI. It’s really not, but at least you can now see the velocity of the current note!</p>
+
+<p>The velocity is drawn as a horizontal bar on top of the note, and… that’s it.</p>
+
+<p>Not a big deal to some people, but in Mixbus world this is a pretty big leap in MIDI technology. (That is a bit sad, I know).</p>
+
+<h2 id="control-surface-support">Control surface support</h2>
+
+<img src="/assets/Mixbus/mb5/ControlSurface.png" alt="Control Surface Support">
+<div class="image-caption">Control Surface Support</div>
+
+<p>A bunch of control surfaces are not supported. I was unable to test these at all, so best of luck.</p>
+
+<p>It’s nice to see them supporting competitor’s products though.</p>
+
+<h2 id="way-faster-vst-scanning">WAY faster VST Scanning</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Mixbus/mb5/VSTScan.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">VST Scanning</div>
+
+<p>VSTs scan <strong>SIGNIFICANTLY</strong> faster on my machine now. A hung VST no longer ruins your Mixbus experience either. Mixbus will pop up a window asking if you want to wait on it.</p>
+
+<p>This was a sore spot for me and it’s nice to see it improved.</p>
+
+<p><strong>EDIT</strong> I did test this on my system multiple times, but I’ve been told there was no direct improvements for this. Maybe just some luck?</p>
+
+<p>Mixbus 4.3 should have had the pop-up too, but I don’t get it when I test Mixbus 4.3.</p>
+
+<h2 id="legacyq">LegacyQ</h2>
+
+<img src="/assets/Mixbus/mb5/LegacyQ.png" alt="LegacyQ">
+<div class="image-caption">LegacyQ</div>
+
+<p><strong>FREE</strong> with the upgrade from MB4 32c to MB5 32c.</p>
+
+<p>This is the plugin version of the Series 10 digital equalizer that works fully with control surfaces. The GUI looks quite nice, but how does it fair?</p>
+
+<p>The most important thing is the sound. I can’t say if it sounds like the original Series 10 EQ, but I can say that it doesn’t seem to be anything special.</p>
+
+<p>It operates basically like any digital EQ except with some limitations. Each band has a specific range that it can be moved between. Band 1 is 40-800hz, band 2 is 100-2,000hz, band 3 is 250-6,000hz, band 4 500-10,000hz, band 5 is 800-15,000hz. This limitation is nonsense. Maybe the original EQ worked like that, but come on.</p>
+
+<p>Bands A and B are only high/low-pass or bells. They allow steeper slopes than bands 1-5 in the high/low-pass modes.</p>
+
+<p>The analyzer is similar to <a href="https://x42-plugins.com/x42/x42-eq">x42 EQ</a> in that it is both fast and it has high resolution in the low bands. It’s a nice touch.</p>
+
+<p>There’s a “search” band that turns the current band in to a bandpass filter with boost capabilities. It makes the “search and destroy” workflow a bit easier.</p>
+
+<p>The bell bands can get very, very narrow. That is great, but it’s nothing that you can’t get with products from other makers. (Though, if you don’t have anything yet, it’s very welcome)</p>
+
+<p>The GUI is a bit of a mess.</p>
+
+<ul>
+  <li>The Analyzer only shows you about 18db at a time, and you have to manually tune it. This means constantly screwing around with it only to just see the peaks (and often not see the whole picture if you want it)</li>
+  <li>The sides are shaded which makes the A and B bands sometimes look disabled at a glance.</li>
+  <li>You can move the graphical band nodes outside of the screen. Once they’re gone then you need to use the knobs or resize the graph area to get them back.</li>
+  <li>The knob indicators are difficult to read.</li>
+  <li>Fine tune is jumpy</li>
+  <li>Typing in values doesn’t work at all for me.</li>
+</ul>
+
+<p>It’s a great addition for people that don’t have a bunch of VST plugins already, but some of the current bugs make it annoying to use. When those get sorted then I think it’ll add some functional value to the Mixbus 32c package for new users.</p>
+
+<h1 id="the-small-stuff">The Small Stuff</h1>
+
+<h2 id="floating-transport">Floating Transport</h2>
+
+<img src="/assets/Mixbus/mb5/FloatingTransport.png" alt="Floating Transport">
+<div class="image-caption">Floating Transport</div>
+
+<p>A floating transport that is <em>resizable</em>. If you want a big transport, or want to throw it on another window, or have a touch screen then you’ll love this ‘small’ change.</p>
+
+<h2 id="scripts">Scripts</h2>
+
+<img src="/assets/Mixbus/mb5/MoreScripts.png" alt="More Scripts">
+<div class="image-caption">More Scripts</div>
+
+<p>There’s more scripts added than was mentioned, but nothing particularly useful. Just some small examples.</p>
+
+<h2 id="cpu-profile">CPU Profile</h2>
+
+<img src="/assets/Mixbus/mb5/CPU.png" alt="CPU Profile">
+<div class="image-caption">CPU Profile</div>
+
+<p>This might be my personal favorite feature in Mixbus 5. Plugins now can show a CPU usage profile, <em>and it’s done correctly</em>.</p>
+
+<p>Let me explain:</p>
+
+<p>DAW’s process everything in chunks. That chunk is what you setup as a ‘buffer size’ in Mixbus. Everything has to be done in that number of samples.</p>
+
+<p>So if you are at 44,100hz sample rate and your buffer is 128 samples, the DAW has 2.9 milliseconds (128 / (441000 / 1000)) to process everything. That’s not very much time!</p>
+
+<p>Most DAWs report CPU in terms of ‘how much time is left’. So if it took 2ms to process the project and it has 2.9ms to complete the whole buffer then it will report 69% CPU usage (2 / 2.9). It doesn’t <em>actually care</em> about how much CPU is being used. The DAW only cares about how much time it has.</p>
+
+<p>DAWs don’t use ‘real’ CPU usage because it’s complex to do, and because it doesn’t matter how fast the computer can process audio, it only matters if the data arrives in time. So if your DAW is set to a buffer equating 1ms, a processor that can do 100 calculations in 1ms is more valuable than a processor that can do only 10 in 1ms, but 500 in 2ms. The DAW needs the data <em>in time</em> so it only cares about the latency.</p>
+
+<p>The CPU Profile section reports to you how long a plugin took to process everything. The min, max, average time and std deviation.</p>
+
+<p>On multiple core systems this is muddied a bit, but it gives you a much clearer and more accurate view of the performance that isn’t reliant on buffer size.</p>
+
+<h2 id="a-comp-improved-and-a-expander-added">A-Comp improved and A-Expander added</h2>
+
+<img src="/assets/Mixbus/mb5/A-Comp.png" alt="A-things improved">
+<div class="image-caption">A-things improved</div>
+
+<p>No more zippering weird noise when adjusting gain of A-Compressor and A-Expander! Wooooo.</p>
+
+<p>A-Compressor has a cool new inline display too.</p>
+
+<p>A-Comp also sounds better or I’m crazy. Maybe my tastes have changed, but it seems to sound better. Nothing about this in the official release notes though.</p>
+
+<p>There is also now an A-Expander, which works decently.</p>
+
+<h2 id="mac-info-bar">Mac Info Bar</h2>
+
+<img src="/assets/Mixbus/mb5/TopBar.png" alt="Top Bar">
+<div class="image-caption">Top Bar</div>
+
+<p>The info bar is on top on macOS!!!!!!!!!!!!!!!!!!!!!!!!!!!!</p>
+
+<p>Thank you. It was awful on the bottom.</p>
+
+<h2 id="add-track-in-mixer">Add Track in Mixer</h2>
+
+<img src="/assets/Mixbus/mb5/AddTrack.png" alt="Add Track in the Mixer">
+<div class="image-caption">Add Track in the Mixer</div>
+
+<p>You can now easily add tracks when viewing the mixer. Small looking improvement, but a potentially fantastic workflow improvement for many users.</p>
+
+<h2 id="thicker-pane-separators">Thicker Pane Separators</h2>
+
+<img src="/assets/Mixbus/mb5/Pane.png" alt="Feel the pane">
+<div class="image-caption">Feel the pane</div>
+
+<p>Adjusting panes in Mixbus has always been difficult. You had to wiggle your cursor just right before it would ‘grab’ and you’d be able to click and move it.</p>
+
+<p>The bars separating panes have been increased in size. A small improvement, but something that I know will lessen my frustration during sessions just a tiny bit. Every bit counts when working with musicians.</p>
+
+<h2 id="plugin-manager">Plugin Manager</h2>
+
+<img src="/assets/Mixbus/mb5/PluginSelector.png" alt="Plugin Selector">
+<div class="image-caption">Plugin Manager</div>
+
+<p>The plugin manager has been changed and it’s way better. The ‘Show Only’ boxes are radio buttons now instead of a menu, and there’s more options.</p>
+
+<p>You can select by author (with a prefilled menu), I/O and format. The <a href="#plugin-tagging">tagging support</a> is there as mentioned before.</p>
+
+<p>I already thought that Mixbus had one of the better plugin selectors, but it’s much improved now.</p>
+
+<h2 id="marker-delta">Marker Delta</h2>
+
+<img src="/assets/Mixbus/mb5/MarkerDelta.png" alt="Marker to Cursor delta">
+<div class="image-caption">Marker to Cursor delta</div>
+
+<p>Mixbus 4.3 was able to show the time between the play cursor and the mouse cursor, but Mixbus 5 can now show the distance between the start marker and the play cursor.</p>
+
+<p>It’s quite an enhancement for people doing film work, or anyone doing post-production.</p>
+
+<h2 id="vst-touch-automation">VST Touch Automation</h2>
+
+<p>VST Plugins now trigger touch automation.</p>
+
+<h2 id="midi-patchfiles">MIDI Patchfiles</h2>
+
+<p>350+ MIDI Patch files are included now. So you can have proper lists of patches when you use external synths and program changes.</p>
+
+<p>The total is now up to 448 synths supported. That’s <strong>A LOT</strong>.</p>
+
+<h2 id="vst-resizing">VST Resizing</h2>
+
+<p>VSTs can now be resized…. but very poorly. This feature is totally broken.</p>
+
+<p>VSTs can be made larger, but not smaller. Some VSTs can’t be made smaller no matter what and will blow up in size when you attempt to resize them.</p>
+
+<p>This needs fixing ASAP.</p>
+
+<h1 id="the-missing-stuff">The Missing Stuff</h1>
+
+<h2 id="midi">MIDI</h2>
+
+<p>MIDI still sucks. You wouldn’t want to do a full MIDI Production in Mixbus if you had a choice. Mixbus <em>does</em> support MIDI, but the full experience has improved very little.</p>
+
+<h2 id="stretching">Stretching</h2>
+
+<p>Time stretching is still unsatisfactory. The <a href="https://breakfastquay.com/rubberband/">rubberband stretching library</a> is just… bad. It doesn’t sound very good.</p>
+
+<p>There’s also no marker-based time stretching so that you don’t need to chop up your audio. I’m not sure what the Harrison Consoles team are up to in this regard, but it sorely needs to be improved.</p>
+
+<p>I’m not even suggesting this for music folks (many of which do use this functionality), but for film post, dialogue work, scoring etc… being able to fit sounds in to a specific time is a necessary workflow devil. Mixbus doesn’t hold a candle to its competitors in this area.</p>
+
+<h2 id="no-comping-still">No Comping still</h2>
+
+<p>No swipe-comping or similar workflows yet.</p>
+
+<h2 id="i-still-hate-the-vcas">I still hate the VCAs</h2>
+
+<p>Ardour does VCAs in an awesome way. The Mixbus team has chosen to change how VCAs are done to replicate how it works on their hardware consoles.</p>
+
+<p>This is a completely artificial limitation! We’re using a digital product. It’s great to emulate analog systems where it benefits the workflow, but changing a working system to emulate an older less-flexible way of working is silly.</p>
+
+<p>I <a href="/music/2017/09/18/Mixbus-32c-The-Mixer.html#vcas">already complained about this once</a> so I’ll spare you here.</p>
+
+<h1 id="is-it-worth-it">Is it worth it?</h1>
+
+<img src="/assets/Mixbus/mb5/79.png" alt="$79">
+<div class="image-caption">$69</div>
+
+<p>The upgrade is $79. Is it worth it?</p>
+
+<p>If you value your time at more than $10 an hour, then it’ll probably pay for itself in a week or two of using plugins.</p>
+
+<p>There isn’t <em>that</em> much new compared to what spoiled users have come to expect from big DAW companies, but Harrison has consistently proven themselves with large <strong>free</strong> follow-up updates.</p>
+
+<p>I think that this update meets the mark for value as it is, but if history is any indicator then it will be more than worth it in the coming months. Mixbus 5 is one of those updates that doesn’t earn your money because the devs are throwing bling at you, but because they are clearly listening to user feedback and making small changes (some of which are substantial work) in response to feedback.</p>
+
+<p>If you don’t have a good GUI-based EQ, then it’s most certainly worth it (especially when LegacyQ’s bugs are fixed).</p>
+
+<p>If you want to show that responding to user feedback is a value-generating mechanism for the developers, then you should support it.</p>
+
+<p>If you’re a <em>new</em> user then very little of this will be exciting. It’s just one of those updates. I suspect that many existing users will find a feature or two that touches them, but new users are going to wonder “what’s the fuss?” and you’d be right. There is no fuss if you haven’t wanted any of these things to improve.</p>
+
+<p>There’s companies out there that just throw feature after unfinished feature out the door hoping to lure you in with some “new shiny”. Then there’s the companies that put man-hours in to things that people are asking for. <a href="http://bitwig.com">Bitwig</a> is becoming the latter. <a href="https://www.image-line.com/flstudio/">Image Line</a> has always been the latter. Harrison has usually been the latter, but this time it’s almost 100% in that direction in a major update.</p>
+
+<p>So it’s up to you if you want to support that.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 17 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

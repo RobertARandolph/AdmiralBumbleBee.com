@@ -1,0 +1,12 @@
+I"C<img src="/assets/DrumStuff/Trigger/Piezos.jpg" alt="Piezos">
+<div class="image-caption">Piezo Elements</div>
+
+<p>I often need to use drum triggers. Drum triggers are basically a type of <a href="https://en.wikipedia.org/wiki/Transducer">transducer</a> that is applied directly to a drum head. This gives you an isolated signal, without leakage from other instruments, that you can use to convert to MIDI and trigger a drum sound with a sampler.</p>
+
+<p>In this post I’m going to walk you through how I do this <em>very cheaply</em>, and how I use the resulting trigger signal in Reaper.</p>
+
+<p><strong>YOU DON’T NEED DRUMS TO DO THIS!!</strong> You can trigger anything. A desk. A lamp. A mousepad. Your wife’s belly. A floor pad. Anything you can hit/tap/punch/stomp or impact, you can “Trigger”.</p>
+
+<p>On with it!</p>
+
+:ET

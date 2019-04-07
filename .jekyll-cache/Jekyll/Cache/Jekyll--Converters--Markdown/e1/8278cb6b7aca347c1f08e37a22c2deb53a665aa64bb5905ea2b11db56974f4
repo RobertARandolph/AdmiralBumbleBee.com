@@ -1,0 +1,540 @@
+I"��<img src="/assets/Waveform/10/TrackEditor.png" alt="Track Editor">
+<div class="image-caption">Track Editor</div>
+
+<p>Waveform 10 has been out for a little while, but I’m just now getting to it. Lucky me too, because it’s been a rough launch for them.</p>
+
+<p>The release is pretty huge though! One of the more significant updates to a DAW recently, at least in terms of workflow changes and added products.</p>
+
+<p>Let’s get on with it.</p>
+
+<p><strong>Other parts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html"> Version 9, Part 0: Intro</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html"> Version 9.1.1, Part 1: Browser, Mixing, GUI, VCAs</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html"> Version 9.1.1, Part 2: Modulation, Plugin browsing, Annoyances, GUI</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html"> Version 9.1.1, Part 3: Macros, UI design, Ghost tracks, Buying</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/21/Waveform-9-the-good-the-bad-the-weird-part-4.html"> Version 9.1.1, Part 4: Pattern Generator, Edit Clips, Folder editing, Chord Track</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html"> Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html"> Version 9.1.1, Part 6: MIDI Editing</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html"> Version 9.1.1, Part 7: Recording</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/03/Waveform-9-the-good-the-bad-the-weird-part-8.html"> Version 9.1.1, Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/08/Waveform-9-instruments-and-effect-review.html"> Version 9.1.1, Part 9: Instruments and Effect Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/11/Waveform-9-Conclusion.html"> Version 9.1.1, Part 10: Conclusion</a></li>
+    
+ 
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#new-features" id="markdown-toc-new-features">New Features</a>    <ul>
+      <li><a href="#groove-doctor" id="markdown-toc-groove-doctor">Groove Doctor</a>        <ul>
+          <li><a href="#quantise-audio" id="markdown-toc-quantise-audio">Quantise Audio</a></li>
+          <li><a href="#groove-extraction" id="markdown-toc-groove-extraction">Groove Extraction</a></li>
+          <li><a href="#extract-tempo-map" id="markdown-toc-extract-tempo-map">Extract Tempo Map</a></li>
+        </ul>
+      </li>
+      <li><a href="#beat-replace-drum-loop" id="markdown-toc-beat-replace-drum-loop">Beat Replace Drum Loop</a></li>
+      <li><a href="#midi-groove-extraction" id="markdown-toc-midi-groove-extraction">MIDI Groove extraction</a></li>
+      <li><a href="#actions-panel" id="markdown-toc-actions-panel">Actions Panel</a></li>
+      <li><a href="#new-plugins" id="markdown-toc-new-plugins">New Plugins</a>        <ul>
+          <li><a href="#air-windows" id="markdown-toc-air-windows">Air Windows</a></li>
+          <li><a href="#4osc" id="markdown-toc-4osc">4OSC</a></li>
+        </ul>
+      </li>
+      <li><a href="#multi-midi-preview" id="markdown-toc-multi-midi-preview">Multi MIDI Preview</a></li>
+      <li><a href="#edit-and-mix-groups" id="markdown-toc-edit-and-mix-groups">Edit and Mix Groups</a></li>
+      <li><a href="#track-snapshots" id="markdown-toc-track-snapshots">Track Snapshots</a></li>
+      <li><a href="#track-editor" id="markdown-toc-track-editor">Track Editor</a></li>
+      <li><a href="#edit-cursor" id="markdown-toc-edit-cursor">Edit Cursor</a></li>
+      <li><a href="#range-selection" id="markdown-toc-range-selection">Range Selection</a></li>
+      <li><a href="#autosave-and-crash-recovery" id="markdown-toc-autosave-and-crash-recovery">Autosave and Crash Recovery</a></li>
+      <li><a href="#consolidate-audio" id="markdown-toc-consolidate-audio">Consolidate audio</a></li>
+      <li><a href="#autotune" id="markdown-toc-autotune">Autotune</a></li>
+    </ul>
+  </li>
+  <li><a href="#improvements" id="markdown-toc-improvements">Improvements</a>    <ul>
+      <li><a href="#modifier-panels" id="markdown-toc-modifier-panels">Modifier Panels</a></li>
+      <li><a href="#multisampler-20" id="markdown-toc-multisampler-20">Multisampler 2.0</a></li>
+      <li><a href="#output-assignment" id="markdown-toc-output-assignment">Output assignment</a></li>
+      <li><a href="#crossfade-adjustment" id="markdown-toc-crossfade-adjustment">Crossfade Adjustment</a></li>
+      <li><a href="#other" id="markdown-toc-other">Other</a></li>
+    </ul>
+  </li>
+  <li><a href="#meta" id="markdown-toc-meta">Meta</a>    <ul>
+      <li><a href="#plugin-validator" id="markdown-toc-plugin-validator">Plugin Validator</a></li>
+      <li><a href="#open-source" id="markdown-toc-open-source">Open Source</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="new-features">New Features</h1>
+
+<h2 id="groove-doctor">Groove Doctor</h2>
+
+<p>Groove Doctor is a ridiculous name for a fantastic feature.</p>
+
+<p>It has 3 main features.</p>
+
+<h3 id="quantise-audio">Quantise Audio</h3>
+
+<img src="/assets/Waveform/10/Quantise.png" alt="Quantise Audio">
+<div class="image-caption">Quantise Audio</div>
+
+<p>Multitrack audio is a pain to edit, but most DAWs have allow you execute the following workflow:</p>
+
+<ul>
+  <li>Find transients in selected tracks or clips.</li>
+  <li>Split all selected clips at the same place at important transients.</li>
+  <li>Quantize the start of the clips.</li>
+</ul>
+
+<p>Waveform can do these things with Groove Doctor now.</p>
+
+<p>The quantization of the clips causes gaps to occur though. Some products have wholly ineffective “fill gaps” commands that don’t work very well. Waveform <a href="/music/2018/10/20/Edit-Drums-Better-with-this-Trick.html">uses a method I described in october of 2018</a>. (I’m actually curious if they got the idea from me or if it was serendipitous).</p>
+
+<p>The idea is that you can assume that your transient is at the beginning of the clip. Audio before that transient is likely to be either silent or that it’d mesh well with audio at the end of the previous clip. This should be obvious since the start of a clip used to be connected to the end of the clip before it.</p>
+
+<p>Groove Doctor extends the beginning of the audio in the direction you choose. Ideally a negative value (backwards). Then it crossfades that pulled back audio with what it now overlaps.</p>
+
+<p>The result is <em>usually</em> a quantized drum sound that hasn’t lost its punch.</p>
+
+<p>I love how they’ve implemented this (probably because I independently described the concept months ago ;) ). Here’s some tricks:</p>
+
+<ul>
+  <li>Analyse only one important track to start - Ideally the kick drum. Once you analyze that track, then capture a new selection with the rest of your drums and separate. This will make it so the separations only occur on the ‘important’ part, like a kick. The result is much cleaner.</li>
+  <li>Be familiar with your undo/redo keys - It can take a few tries to get the separation sensitivity and smoothing correct.</li>
+  <li>Don’t be afraid to work in sections! - Groove Doctor allows you to only affect a time selection, as well as selected tracks. If there’s a problematic area, then work on that separately. (Many other DAWs don’t even let you do this easily!)
+    <ul>
+      <li>This is particularly important for the grid size! Sometimes drummers will stumble and get a grid-size off. That will make all your efforts for that section sound off time. Work in time-delimited sections with appropriate settings!</li>
+    </ul>
+  </li>
+  <li>Padding can be used to create feel - If you set the padding in the separate section, then the split will happen early or late. Subsequently your quantization will be early or late. You can make the groove feel laid back with negative padding, or ‘driving’ with positive padding. Be careful though! Big values may cause your quantization to snap to the wrong beat.</li>
+  <li>In the smoothing section, the crossfade and offset values depend upon how busy the track is - Try to use the longest possible negative offset that you can, and the smallest crossfade that you can. Set the crossfade to 1ms and set the largest negative offset that sounds mostly OK, then fine tune it with the crossfade.</li>
+  <li>Use the smallest possible grid strength - The goal should not be to make the track perfectly align to the grid. The goal is to make it <em>sound</em> like it’s on the grid. You’re not going to be moving every single drum hit. If you just move the kicks (and everything between them!) then it will throw off the groove a tiny bit. Focus on how the track feels, not how it looks. This advice holds even for the most metronomic of metal.</li>
+  <li><a href="#groove-extraction">Groove extract</a> if you can - Rather than using the grid as your source, try using another rhythm track. Extract the groove from the bass synth/guitar and apply that groove to the drums. Or do the opposite. Once again, the goal should be to get something sounding tight, not to get something aligned to the grid.</li>
+  <li>Transients can be added using the shift key and clicking. Likewise you can edit transients by clicking and dragging.
+    <ul>
+      <li>Assign hotkeys to the “Scroll to previous transient” and “Scroll to next transient” actions. These commands make it so you can zoom in and quickly zip-zap around to edit things.</li>
+    </ul>
+  </li>
+  <li><strong>USE SNAPSHOTS!</strong> Groove doctor has <a href="#track-snapshots">track snapshot</a> icons for the separate, quantise and smooth sections. USE THEM! You may need to go back and adjust something later.</li>
+</ul>
+
+<p>Groove doctor is awesome. Wish I thought of it ;)</p>
+
+<h3 id="groove-extraction">Groove Extraction</h3>
+
+<img src="/assets/Waveform/10/Extract.png" alt="Extract Groove">
+<div class="image-caption">Extract Groove</div>
+
+<p>Groove doctor doesn’t just let you edit drums. You can extract the timing variances from a track so that you can later apply those to another track.</p>
+
+<p>Once you extra the groove, you can apply that to other audio OR MIDI tracks. The timing variances in your ‘source’ will now be used to quantize the destination.</p>
+
+<p>Super neat feature.</p>
+
+<h3 id="extract-tempo-map">Extract Tempo Map</h3>
+
+<img src="/assets/Waveform/10/TempoExtract.png" alt="Tempo Extraction">
+<div class="image-caption">Tempo Extraction</div>
+
+<p>There are times when you think the performance is awesome and you want Waveform’s grid to conform to the audio. Extract tempo map does this.</p>
+
+<p>It’s quite simple: you extract the groove and instead of copying those time variances to audio or MIDI, you apply those changes in timing to the tempo map.</p>
+
+<p>However, it does not seem to work very well unless your tempo is already very close to the clip. This has further implications if you have a sudden change in tempo or if Waveform seemingly-randomly maxes out the tempo at 300bpm.</p>
+
+<p>In order to get this to work even remotely well, I have had to go through and create a tempo map that’s already close to the target, then use the “Extract Tempo Map” function to add another point or two.</p>
+
+<p>Even when the tempo is already close, it rarely seems to give correct results. I tried a wide range of performances from mild <a href="https://en.wikipedia.org/wiki/Tempo_rubato">rubato</a> to extreme and performances recorded to a click at a different tempo. Waveform <em>never</em> got it right. Not once.</p>
+
+<h2 id="beat-replace-drum-loop">Beat Replace Drum Loop</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/BeatReplace.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Beat Replacement</div>
+
+<p>This is part of the new <a href="#multisampler-20">Multisampler</a>, but it’s primarily used on drums (or things that you want to be drums).</p>
+
+<p>Select a clip, go to the multisampler button and click “Beat Replace Drum Loop”. This loads your clip into Multisampler with transients marked. Edit your regions and click “Create MIDI”.</p>
+
+<p>Now you have a new clip on your track with MIDI notes corresponding to the transients. The MIDI notes contain velocity information as well.</p>
+
+<p>Replacing drum sounds is easy.</p>
+
+<p>The only major issue I’ve found is that you can’t move the multisampler instrument before “Create MIDI” or you lose your audio. It would be nice if you could capture the audio, move multisampler to a new track, <em>then</em> create MIDI on that new track.</p>
+
+<ul>
+  <li><strong>TIP</strong> - Beatbox with a microphone, use filters to filter out the bass, snare, hat etc… and then use this feature to create MIDI that you can use to trigger drum sounds.</li>
+</ul>
+
+<h2 id="midi-groove-extraction">MIDI Groove extraction</h2>
+
+<img src="/assets/Waveform/10/ExtractMIDI.png" alt="Extract MIDI groove">
+<div class="image-caption">Extract MIDI groove</div>
+
+<p>Waveform 10.1 added an action that lets you extra groove information from MIDI, so that you can apply it to MIDI <a href="#quantise-audio">or audio</a> or <a href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html#step-clips">step clips</a>.</p>
+
+<h2 id="actions-panel">Actions Panel</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/ActionsPanel.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Actions Panel</div>
+
+<p>The actions panel is a new tab in the browser that shows you contextual actions. When you click something, you get to see all of the actions that you can make on that thing.</p>
+
+<p>Many DAWs have actions lists or commands windows. Waveform takes it to another level by directly integrating menu-based actions (click to see a menu), checkboxes, textboxes, meters(!!) and colour pickers directly in the action list. The text in the upper left shows you all connected contexts so that you can quickly jump to a related context without changing your focus.</p>
+
+<p>Seeing every available action when you click something can be overwhelming and is generally unnecessary. The clutter is solved by the little stars next to each action. You can ‘favorite’ an action, and click the star in the upper right to filter only ‘favorites’. If you know you’ll only ever solo/mute/create folder/freeze a track, then you can set it up so you only see those.</p>
+
+<p>The inverse of favoriting is possible too; you can hide things you don’t want to see.</p>
+
+<p>If you want to see some other shortcuts, keyboard macros or any other action in Waveform in a specific context, then you can add it.</p>
+
+<p>The keyboard shortcuts menu has a “Show favourites menu” action that you can assign to a key of your choice. This opens your favorite actions for whatever context your mouse is over. I love this feature and strongly think they should make this a default shortcut.</p>
+
+<p>The action list is brilliant except for one small thing: you can’t assign shortcuts there. If it was possible to assign shortcuts directly in the actions panel then it would be <em>the best</em> in its class by far.</p>
+
+<h2 id="new-plugins">New Plugins</h2>
+
+<h3 id="air-windows">Air Windows</h3>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/AirWindows.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Air Windows plugins</div>
+
+<p>62 new plugins. Most (all?) of them were already free anyway, but now you get to have them cluttering up your plugins list in Waveform 10! Hooray! ??</p>
+
+<p>I am not a fan of this change at all. At least half of them are basically useless, and the rest you could have downloaded yourself.</p>
+
+<p>These plugins should be a separate download, and since Waveform already has a download manager that likes to constantly annoy you, why not??</p>
+
+<p>Whether you like Air Windows or not (I certainly don’t!), the concept of including freely available plugins is ridiculous.</p>
+
+<h3 id="4osc">4OSC</h3>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/4OSC.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">4OSC</div>
+
+<p>4OSC (<a href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html#3xosc">nice naming guys</a>) is a “simple” subtractive synth that’s quite powerful.</p>
+
+<p>You have 4 oscillators with the typical sine, square, saw, triangle and noise shapes. Each oscillator has pulse width variation and up to 8 voices of unison (with detune and spread).</p>
+
+<p>There is a single (moog style?) filter with key tracking and its own dedicated envelope with velocity modulation.</p>
+
+<p>There’s your typical amplitude envelope and the fun parts: two envelopes and two LFOs that can control <em>nearly</em> every parameter. Oh, and there’s <a href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html#mpe">MPE mapping</a> along with the full set of MIDI CC available to <em>easily</em> map to what you want.</p>
+
+<p>A simple distortion, chorus, delay and delightfully terrible sounding reverb top off the featureset.</p>
+
+<p>The features aren’t what make this exciting. It’s how easy it is to both modulate things <em>and</em> know what you modulated. Many other synths have modulation features, but they make it difficult to assign modulation or to figure out what you did at 4am yesterday in a haze of… incense.</p>
+
+<p>Removing modulation is easy as right clicking the triangle next to what’s modulated. This is also a quick way to know what things are assigned to a control.</p>
+
+<p>I can’t think of many other products that get the simplicity, ease and power ration <em>just</em> right. Anyone with basic synthesis knowledge can comprehend it. Anyone that can operate a mouse can learn to use it in seconds. Anyone with a few minutes can make some crazy cool sounds.</p>
+
+<p>Oh, and it was added for free for all Waveform 10 users in v10.1. They <a href="https://www.theverge.com/2015/2/24/8098379/apple-buys-camel-audio-synth-audio-plugins">didn’t even have to buy out anyone</a> for it.</p>
+
+<h2 id="multi-midi-preview">Multi MIDI Preview</h2>
+
+<p><a href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html#midi-multi-editing">Waveform has had multitrack MIDI editing</a> for a while, but you couldn’t utilize MIDI preview to hear notes on multiple tracks at once.</p>
+
+<p>Now you can do that. Wonderful!</p>
+
+<h2 id="edit-and-mix-groups">Edit and Mix Groups</h2>
+
+<img src="/assets/Waveform/10/Groups.png" alt="Groups">
+<div class="image-caption">Groups</div>
+
+<p>Not an exciting feature if you’re coming from another mature DAW, but a fantastic addition to Waveform 10’s list of unique features.</p>
+
+<p>Tracks can now have various parameters linked:</p>
+
+<ul>
+  <li>Editing</li>
+  <li>Volume</li>
+  <li>Mute</li>
+  <li>Solo</li>
+  <li>Record</li>
+  <li>Colour</li>
+  <li>Visibility</li>
+  <li>Pan</li>
+  <li>Send</li>
+  <li>Track height</li>
+</ul>
+
+<p>These are not mutually exclusive mappings either. You can have groups that overlap groups. You can have a drum group that links edits, but have your kick and bass volume linked and still have a “band record” group that links the record state for all open mics in thestudio.</p>
+
+<p>If you need to bypass a group, you can easily disable it temporarily.</p>
+
+<p>Excellent implementation.</p>
+
+<h2 id="track-snapshots">Track Snapshots</h2>
+
+<img src="/assets/Waveform/10/Snapshots.png" alt="Track Snapshots">
+<div class="image-caption">Track Snapshots</div>
+
+<p>If you’re familiar with versions, lanes, playlists etc… from other DAWs then you know what track snapshots are.</p>
+
+<p>If you’re not familiar with those features then let me introduce you: Track Snapshots let you save the current clips at their current state to a ‘snapshot’. From that point you can experiment with edits or clip changes without any fear as you can revert back to your previous snapshot.</p>
+
+<p>Snapshots don’t work like comping lanes. You can’t grab something from another snapshot easily to put it in another.</p>
+
+<h2 id="track-editor">Track Editor</h2>
+
+<img src="/assets/Waveform/10/TrackEditor.png" alt="Track Editor">
+<div class="image-caption">Track Editor</div>
+
+<p>The concept of a separate editor for an item is fairly common in DAWs. Waveform 10 takes it to another level.</p>
+
+<p>You can launch a window of any track that is <em>that track but in its own window</em>. You can have multiple tracks in a window, and multiple windows with any tracks. Each window can optionally follow the main edit window or not. Scrolling is optional too.</p>
+
+<p>I first thought that this feature was a bit useless, but I forced myself to use it and I’ve found it indispensable.</p>
+
+<p>Often when editing something you want to focus on it. Obvious, right? I think that most people will naturally zoom in, increase the track height then do the reverse when they need to reference something else in the project.</p>
+
+<p>Track Editor windows can also show any tracks you want. So if you want to edit your kick drum and bass together, you can make a window to do that. You can leave the tracks where they are in your project, the edit window is its own thing. Tracks can easily be added, removed and hidden too.</p>
+
+<p>Track Editors allow you to just launch a window for that track, size it how you want and when you’re done just close it (or send it elswhere). No more of the zoom, zoom, unzoom, unzoom dance. I love when DAWs have excellent zooming functions, but this feature makes that less important.</p>
+
+<p>Try it. Force yourself if you must. Anytime you want to work on a track, pop it out to a window.</p>
+
+<p>My only gripe is that opening Track Editors is not easy. There does not appear to be an assignable shortcut for it and I don’t see any mouse-based method that’s quick. Perhaps something like cmd/ctrl-double clicking a track would be nice? The “Tracks” menu has nothing for it and neither does the info panel for tracks. It’s just hidden in the right click menu or <a href="#actions-panel">actions panel</a>.</p>
+
+<p>It would be nice if adding tracks was search based instead of menu based. I’ve had some <em>HUGE</em> menus pop up in my face because I have 75+ tracks in the project.</p>
+
+<p>This is still a magnificent feature. Once you use it, any other DAW feels a bit disgusting.</p>
+
+<h2 id="edit-cursor">Edit Cursor</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/EditCursor.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Edit Cursor</div>
+
+<p>Waveform 9 didn’t have a visible vertical cursor that told you where things where happening. Waveform 10 adds this.</p>
+
+<p>I don’t think I really missed this feature, but now that it’s here I wonder how I lived without it. It’s just easier to know where a cut is about to happen.</p>
+
+<h2 id="range-selection">Range Selection</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/RangeSelect.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Range Selection</div>
+
+<p>Waveform 10 now has range selection, yet another feature more mature products have had as a basic feature for a long time.</p>
+
+<p>You can select a range by holding shift and alt/option, then work upon that range to split it and move it around if you want.</p>
+
+<h2 id="autosave-and-crash-recovery">Autosave and Crash Recovery</h2>
+
+<img src="/assets/Waveform/10/Crash.png" alt="It took me 5 minutes of trying to get this">
+<div class="image-caption">It took me 5 minutes of trying to get this</div>
+
+<p>Waveform will autosave your project (never when it’ll cause a glitch though!) and help you recover any lost work if there’s a crash.</p>
+
+<p>This is a feature that you hope you never have to use, but Waveform 10 has needed this so far due to some pretty nasty bugs upon release. Thankfully it’s there to save you.</p>
+
+<p><strong>EXCEPT</strong> for one massive failure: your undo history is not saved! If you crash doing something that you want/needed to undo then you’re screwed. Your project loads back up and you can’t undo anymore. I’ve had Waveform 10 crash at least a dozen times while writing this (I’m using a beta right now), and most of those times the crash recovery was useless because I was left in a state that I wanted to undo from.</p>
+
+<p>The autosave frequency isn’t often enough to alleviate this.</p>
+
+<p>I also noticed that my I/O assignments were incorrect upon reloading a crash recovered project.</p>
+
+<p>They have been rapidly improving the stability of W10, and I’ve only found crashes when poking deep at things. It’s still not forgivable though. Music software needs to be stable to be useful.</p>
+
+<h2 id="consolidate-audio">Consolidate audio</h2>
+
+<img src="/assets/Waveform/10/Consolidate.png" alt="Consolidate">
+<div class="image-caption">Consolidate</div>
+
+<p>Assets can optionally be copied to the edit’s folder when desired, and there’s a ‘Consolidate Files’ option for edits in the Projects view as well.</p>
+
+<p>Consolidate Files does what it sounds like; it finds all assets in your project and copies them to the project folder.</p>
+
+<h2 id="autotune">Autotune</h2>
+
+<img src="/assets/Waveform/10/Autotune.png" alt="Autotune Access">
+<div class="image-caption">Autotune Access</div>
+
+<p>Autotune included! It’s <a href="https://www.antarestech.com/product/auto-tune-access/">the limited version</a> but it works more than well enough for most half-decent singers.</p>
+
+<p>Waveform already includes <a href="https://www.celemony.com/en/melodyne/what-is-melodyne">Melodyne Essential</a> which ok-ish for editing (and it gives you a mild discount to upgrade). Melodyne doesn’t help you when you need realtime pitch correction, and that’s where Autotune steps in.</p>
+
+<p>You get about a $100 discount to upgrade to <a href="https://www.antarestech.com/product/auto-tune-pro/">Autotune Pro</a> if you want, so even if you don’t want to use the access version, you get a coupon to move up if you want.</p>
+
+<p>The downside here is that Autotune uses <a href="https://www.wibu.com/us/products/codemeter.html">Wibu’s Codemeter</a>. It doesn’t bother me, but it is yet another copy protection system on your computer. If you don’t care for it, then don’t download it. TSC doesn’t force it upon you.</p>
+
+<h1 id="improvements">Improvements</h1>
+
+<h2 id="modifier-panels">Modifier Panels</h2>
+
+<img src="/assets/Waveform/10/ModifierWindow.png" alt="Modifier Windows">
+<div class="image-caption">Modifier Windows</div>
+
+<p>Modifiers now have their own floating windows! Hooray!</p>
+
+<p>Hop over to the <a href="#actions-panel">actions panel</a> when you click a modifier to see the modifier open actions. The main modifier panel can be opened with a double click on its icon in the filter panel as well.</p>
+
+<h2 id="multisampler-20">Multisampler 2.0</h2>
+
+<img src="/assets/Waveform/10/MS2.png" alt="Multisampler 2?">
+<div class="image-caption">Multisampler 2?</div>
+
+<p>NOT a new plugin, but <em>improved</em>. I’m also not sure if it’s actually 2.0, but that’s what I’m calling it.</p>
+
+<p>Here’s what you can expect:</p>
+
+<ul>
+  <li>Trigger layers for editing via MIDI.</li>
+  <li>Layers have mute and solo.</li>
+  <li>The recording tab has been improved in design.
+    <ul>
+      <li>You can now record from: Multisampler input or Audio I/O directly. That’s in addition to system input, system output (any sound coming out of your computer!) and the multisampler output (for resampling)</li>
+    </ul>
+  </li>
+  <li>Live monitoring is now a toggle</li>
+  <li>64 voices with optional voice stealing</li>
+  <li><a href="#beat-replace-drum-loop">Create MIDI</a>.</li>
+</ul>
+
+<p>Multisampler was already one of the better <em>stock</em> samplers out there, and it’s nice to see it improving.</p>
+
+<h2 id="output-assignment">Output assignment</h2>
+
+<img src="/assets/Waveform/10/Outputs.png" alt="Output Assignment">
+<div class="image-caption">Output Assignment</div>
+
+<p>It’s <em>finally</em> possible to easily select the output assignment of a track. Click the speaker on the right of the track.</p>
+
+<p>You might notice as well that the output name is clearly displayed at the end of the signal path (rather than at the beginning like most DAWs). I appreciate that.</p>
+
+<p>Waveform’s gone from one of the most annoying DAWs to assign outputs for a single track, to one of the easiest. Now we just need a way to assign multiple at once.</p>
+
+<h2 id="crossfade-adjustment">Crossfade Adjustment</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/10/Crossfade.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Crossfade moving</div>
+
+<p>Small quality of life improvement here: you can now drag complete crossfades around.</p>
+
+<h2 id="other">Other</h2>
+
+<p>Ripped straight from the changelog. I do it so you don’t have to.</p>
+
+<ul>
+  <li>Arrange tracks now show track colours and folders</li>
+  <li>Arrange tracks show track destinations</li>
+  <li>Solo/mute buttons can now be dragged across tracks for quick setting</li>
+  <li>Panel visibilities have been unified in to a single panel</li>
+  <li>Toggle plugins between normal and faceplate view</li>
+  <li>Controllers: Added support for OSC custom controllers (Note: I don’t see this as a user-facing feature)</li>
+  <li>Mixer: Allow clicks on level meter to reset overloads</li>
+  <li>UI: Added gradient to horizontal meters</li>
+  <li>Javascript: Added an action to renderClipsFromSelectedRange</li>
+  <li>Edit playback: Added a setting to stop playback when a new tab is selected. This can be disabled from the General Behaviour settings</li>
+  <li>UI: Added some shading around the loop in and out region in the arrange area</li>
+</ul>
+
+<h1 id="meta">Meta</h1>
+
+<h2 id="plugin-validator">Plugin Validator</h2>
+
+<img src="/assets/Waveform/10/PluginVal.png" alt="PluginVal">
+<div class="image-caption">PluginVal</div>
+
+<p>Plugin validation doesn’t directly affect the end user. If developers latch on to this idea and utilize such a program to validate their own products, then that will go a long way towards a more stable experience for everyone.</p>
+
+<p>The Tracktion team has made <a href="https://github.com/Tracktion/pluginval">their plugin validator open to the public</a> so that anyone can use it.</p>
+
+<p>Apple already has AUValidator, but Steinberg offers nothing close, nor does Avid (pubicly). If everyone used a single validation product then that would either force the platform publishers (Apple, Steinberg and Avid primarily) to codify (and code) their standards or to conform to what this validator claims to be functional.</p>
+
+<p>It’s a long shot, but if it were to catch on then this is the single biggest feature offered by the Tracktion team so far.</p>
+
+<h2 id="open-source">Open Source</h2>
+
+<p>The <a href="https://github.com/Tracktion/tracktion_engine">Tracktion engine</a> is open source! Not <em>all</em> of Waveform is there, but the core engine is.</p>
+
+<p>What does this mean for you? It means that if other companies, individuals or hobbyists decide to use it and then submit patches, you benefit. More eyes is always a good thing. (More mouths and more hands… not so much).</p>
+
+<p>Like the <a href="#plugin-validator">plugin validator</a>, if this catches on, then it’s a huge win for Waveform users. The core of the software will improve and <em>hopefully</em> lessen some of the <a href="https://en.wiktionary.org/wiki/bikeshedding">bikeshedding</a> tendencies that plague every developer of a large project.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It’s been a rough launch. Waveform 10 on launch was stable for some folks, and exceedingly unstable for others.</p>
+
+<p>The actual features added are fantastic. This is one of the bigger updates in the DAW world in terms of total functionality added. It adds some features that I pushed for pretty hard. Hopefully some of these new features will start to attract people in the ‘professional’ recording and production scenes.</p>
+
+<p>There’s still some MIDI features needed, and a number of bugs to fix, but Waveform 10 is still my goto when I want to have fun with music again.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 18 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

@@ -1,0 +1,326 @@
+I"�Z<img src="/assets//" alt="">
+<div class="image-caption"></div>
+
+<img src="/assets/FLStudio/40k.png" alt="40 thousand words">
+<div class="image-caption">40,000+ words</div>
+
+<p>It’s been 42 days since I started doing “30 days” with FLStudio. I haven’t covered everything. This review is over 40,000 words (not including my notes, but including metadata inside the posts), which is the cutoff for classification as a ‘novel’. I’ve written a novel on FLStudio. Great… hmm…</p>
+
+<p>I spent 133 hours writing and working on this post. According to <a href="https://manytricks.com/timesink/">time sink</a> I spent 230 hours using FLStudio in 42 days. That worked out to almost exactly 8 hours a day for 42 days. (I do schedule this, so I’m not too surprised)</p>
+
+<p>As with all of these sorts of reviews, I feel like I could keep writing for a couple more months, but it’s time to end it so I can move on… for now.</p>
+
+<p>I’m going to discuss some things that I didn’t cover in the other posts, plus give my overall thoughts on the product.</p>
+
+<p>Lots of typing, few images.</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html"> Part 1: Introduction to FL</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/30/30-days-with-FLStudio-20-Piano-Roll-Tools.html"> Part 5: Piano Roll Tools</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html"> Part 7: Modulation</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/11/30-days-with-FLStudio-20-Performance-VFX.html"> Part 8: Performance mode and Video FX</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html"> Part 9: Workflow</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#introduction-again" id="markdown-toc-introduction-again">Introduction, again.</a></li>
+  <li><a href="#mac" id="markdown-toc-mac">Mac?</a></li>
+  <li><a href="#windows" id="markdown-toc-windows">Windows?</a></li>
+  <li><a href="#a-coat-of-paint" id="markdown-toc-a-coat-of-paint">A coat of paint</a>    <ul>
+      <li><a href="#but-not-your-own-paint" id="markdown-toc-but-not-your-own-paint">But not your own paint</a></li>
+      <li><a href="#accoutrements" id="markdown-toc-accoutrements">Accoutrements</a></li>
+      <li><a href="#hotkeys" id="markdown-toc-hotkeys">Hotkeys</a></li>
+    </ul>
+  </li>
+  <li><a href="#no-vcas" id="markdown-toc-no-vcas">No VCAs</a></li>
+  <li><a href="#undo" id="markdown-toc-undo">Undo</a></li>
+  <li><a href="#current-channel" id="markdown-toc-current-channel">Current Channel</a></li>
+  <li><a href="#support" id="markdown-toc-support">Support</a>    <ul>
+      <li><a href="#manual" id="markdown-toc-manual">Manual</a></li>
+      <li><a href="#debug-panel" id="markdown-toc-debug-panel">Debug Panel</a></li>
+    </ul>
+  </li>
+  <li><a href="#updates" id="markdown-toc-updates">Updates</a></li>
+  <li><a href="#website" id="markdown-toc-website">Website</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="introduction-again">Introduction, again.</h1>
+
+<p>FLStudio is a DAW. It’s a <em>modern</em> DAW. A lot of people seem to have this warped view that it’s a toy or just a ‘beat machine’ of sorts. I can understand that. Not too long ago FLStudio was basically just a simple product that you’d make some bleeps and bloops in.</p>
+
+<p>It’s 2018 now, and FLStudio has progressed lighting fast to being a DAW that’s <em>more</em> than capable of working with the types of music that are topping the pop charts.</p>
+
+<p>Does that mean it’s the best at it though? Allow me some time here to address that.</p>
+
+<h1 id="mac">Mac?</h1>
+
+<p>FLStudio 20 marks the release of the <a href="https://en.wikipedia.org/wiki/MacOS">macOS</a> version of FLStudio. A question I’ve been asked many times is ‘is it ready’?</p>
+
+<p>I did this <em>entire</em> review on macOS. Every single bit of it. I didn’t reboot to windows a single time. Not one time.</p>
+
+<p>It’s not all candy and unicorns though. During this review I’ve not been able <a href="https://forum.image-line.com/viewtopic.php?f=1965&amp;t=187934">to use keyboard shortcuts</a>. Not even with the latest update that supposedly fixes it. It’s probable that your shortcuts will work, but mine do not.</p>
+
+<p>FLStudio doesn’t respond to window management tools like <a href="https://manytricks.com/moom/">moom</a>. So you’re stuck mousing your window around. Hotkeys like cmd-` don’t cycle between internal windows. It doesn’t behave nicely with <a href="https://en.wikipedia.org/wiki/Mission_Control_(macOS)">mission control</a> if you use that.</p>
+
+<p>All of the 64-bit purchasable plugins work inside FLStudio. There’s some that don’t work as AU or VST on mac. I won’t make a list since these will likely change.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Retina_Display">Retina</a> support is good. The main GUI is vectorized and sized properly. Many of the plugins look fantastic. In the effects/instruments review I mentioned most of the ones that are not vectorized, or you can probably notice by how blurry the screenshot looks (even on non HiDPI/Retina screens).</p>
+
+<p>“CPU” usage is surprisingly good. I expected it to perform relatively poorly, but I ran some unscientific benchmarks (how many of X or Y plugin can it run) and FLStudio beat out some of its competitors on my <a href="https://en.wikipedia.org/wiki/IMac_Pro">iMac Pro</a>.</p>
+
+<p>Sometimes when cmd-tabbing back to FLStudio it would not accept input, but that required a mouse click to fix. Some file dialogs were similar.</p>
+
+<p>The overall experience has been fantastic, especially for a version one.</p>
+
+<h1 id="windows">Windows?</h1>
+
+<p>This isn’t about <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows</a>. This is about the windows inside of FLStudio and how <em>incredibly annoying</em> they are.</p>
+
+<p>You have a number of windows inside FLStudio on its own caged desktop. There’s basically no support for managing those windows. Trying to manage these windows is a lot of mousing around, uncovering windows, finding windows, and awful clobberings of multiple overlaid windows.</p>
+
+<p>You can ‘detach’ windows (at least in the macOS version) to let them float outside FLStudio, but this is even worse! They now randomly appear on top of other applications. Trying to figure out what/when you can interact with a window without another window coming to the front is a crapshoot. This could just be a macOS thing, but they’re selling it and I’m using it.</p>
+
+<p>FLStudio <em>really</em> needs some sort of internal window management. All of the other major DAWs have their major interactable elements nicely arranged or has a way to arrange them. FLStudio just expects you to treat your windows like <a href="https://en.wikipedia.org/wiki/Jackson_Pollock">Jackson Pollock</a> treats paint.</p>
+
+<h1 id="a-coat-of-paint">A coat of paint</h1>
+
+<p>Speaking of paint, FLStudio has been updating its GUI with a new <a href="https://en.wikipedia.org/wiki/Vector_graphics">vectorized GUI</a>.</p>
+
+<p>I think it looks great. I’ve seen people that have used FLStudio for years that won’t move past V11 because they don’t like the changes, but I think the changes are fantastic. It looks clean. It looks modern (if not a bit ‘too modern’). It works on HiDPI/Retina displays perfectly.</p>
+
+<p>I hope that they update some of the plugins that don’t have vectorized GUIs. I’d love to see <a href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html#morphine">Morphine</a> with a vector interface for instance. It’s a great plugin that’s letdown by a poor GUI.</p>
+
+<h2 id="but-not-your-own-paint">But not your own paint</h2>
+
+<p>It’s vectorized, so surely you can colour it yourself or change certain elements right?!</p>
+
+<p>HAHAHHAHAHAHAHAHAHHHHHHHHHHHAAAAAAAAAAAAAAAAAAAAAA. <strong>NO</strong>.</p>
+
+<p>There’s no official theme support in FLStudio. You can change the background of the internal desktop and that’s it. Hopefully they will add support for at least adjusting the colours in the future.</p>
+
+<p>For now you just have to live with that classic look.</p>
+
+<h2 id="accoutrements">Accoutrements</h2>
+
+<p>There’s quite a few neat animations in FL. You can turn these on or off, along with adjusting how reactive the GUI is as a whole.</p>
+
+<p>Initially I thought these animations were silly and had no place in a professional experience, but as part of the review I decided I needed to try with them maxed for a while.</p>
+
+<p>The animations make the entire experience feel more fluid. It also adds a bit of fun to the music making experience. My bitterness slowly melted away as I watched deleted notes fade in to the void.</p>
+
+<h2 id="hotkeys">Hotkeys</h2>
+
+<p>At least you can adjust the hotkeys though…</p>
+
+<p>…</p>
+
+<p><strong>NOPE</strong></p>
+
+<p>You are at the mercy of the hotkeys that the Image-Line overlords have deemed to be correct. It doesn’t matter if they make no sense to you, or if you need to switch between DAWs frequently or if the key just doesn’t appear on your keyboard in a sensible place.</p>
+
+<p>None of it matters. You use what you get. You <em>can</em> hack it to work if you’re <a href="http://www.controllermate.com">clever, kinda like me</a> (I have it setup so controllermate changes what keys are sent to the app, depending on what app is at the forefront, and what my last pressed key was). It’s a huge workaround, and one that I think probably 90% of FLStudio users never think of.</p>
+
+<p>Unfortunately, the people that <em>drive</em> the FL ecosystem: the tutorial makers, the power users, the forum-lackeys and the people that should get a job are the ones that need this sort of feature. These are the people that make the FL world go around. Treat them to something special IL, please?</p>
+
+<h1 id="no-vcas">No VCAs</h1>
+
+<p>You know I can’t go without saying it.</p>
+
+<p><a href="/music/2016/12/16/Things-I-hate-about-Digital-Performer.html#vcas">I explained why VCAs can be useful before</a>. <a href="/music/2017/09/18/Mixbus-32c-The-Mixer.html#VCAs">Then I explained them yet again</a>.</p>
+
+<p>VCAs are awesome. FLStudio can emulate VCAs with a good bit of work, but they aren’t there.</p>
+
+<p>They <em>really</em> can speed up workflows though, and with a DAW that has such an emphasis on automation it would be even better still.</p>
+
+<p>Till then you’ll have to create an ungodly setup of controllers to emulate them fully, and you still don’t get everything (like automation coalescing)</p>
+
+<h1 id="undo">Undo</h1>
+
+<p>I haven’t complained about Undo, but I need to.</p>
+
+<p>Not everything can be undone. It’s a bit of a crapshoot to learn what can and can’t be undone. The first thing you learn though, is that deleting things cant be undone. The <em>ONE</em> thing that you’d want to undo the most, you can’t.</p>
+
+<p>Effects changes don’t undo, except the ones that do. Most things will undo, including VSTs, but I’ve encountered some scenarios where things don’t undo that will undo in other hosts.</p>
+
+<p>Then there’s the crashes. The only time I’ve had FLStudio crash is while trying to undo something. Of all the times when I don’t want it to crash, when I’m trying to recover something, is when it crashes. I’m sure this will be fixed if/when people can nail down a reproducible scenario, but I’ve been unable to do so.</p>
+
+<p>FL also has that style of undo where cmd-z and ctrl-z will undo the last undo. If you want to undo multiple in a row, you need to press ctrl-z then ctrl-alt-z. I rather dislike this method of working. Especially on macOS where it’s not standard behaviour.</p>
+
+<p>Undo history is <em>not</em> saved with your project. If you close FLStudio then you lose your potential to undo things. If you even re-open the project you will lose your entire undo history.</p>
+
+<p>It’s not all doom and gloom though. There is a project history where you can view your entire undo history in a nicely formatted manner. You’ll just lose it all once you close the project.</p>
+
+<h1 id="current-channel">Current Channel</h1>
+
+<p>FLStudio’s mixer has this channel called the ‘Current Channel’. It’s a channel that whatever your currently selected channel is routed through.</p>
+
+<p>This is a <strong>spectacular</strong> feature. You can put analysis tools on the ‘Current Channel’ to always have a way to visually check a channel with only a single click.</p>
+
+<p>You can use it to audition effects in your mix if you want, or just use it as a larger meter.</p>
+
+<p>The Current Channel may be my single favorite feature in FLStudio. It not only saves time, but it allows you to do things that you’d often not do because it takes too much time to add/remove a plugin. Sorry Image Line, but I hope every DAW developer on this planet copies this feature.</p>
+
+<p>It’s super ultra mega awesome.</p>
+
+<h1 id="support">Support</h1>
+
+<p>Image-Line has the best DAW support.</p>
+
+<p>There it is. I said it.</p>
+
+<p>It’s basically the only major DAW product where you can go on their <em>official</em> forums and get a humorous response from an official support agent or engage in discussion with one of the developers. They will acknowledge your troubles, they will help you, they will be awesome.</p>
+
+<p>It’s not just the people though. You really don’t need to go to the forum for help…</p>
+
+<h2 id="manual">Manual</h2>
+
+<p>Because FLStudio has <strong>THE BEST MANUAL.</strong> It explains nearly every aspect of the software <em>and</em> it explains the basic digital audio premises behind that topic.</p>
+
+<p>You’ll learn how digital audio works, you’ll learn about analog synthesis history, you’ll learn about additive synthesis, you’ll learn what FM synthesis is and how it works, you’ll learn about japanese culture, you’ll learn about filters, you’ll learn about mastering, you’ll learn a lot of things.</p>
+
+<p>The manual is fully hyperlinked and if there’s a video tutorial (there’s many) it will be referenced as well. There’s screenshots of complex parts of the GUIs with visual explanations.</p>
+
+<p><em>Every</em> effect and <em>every</em> instrument is covered.</p>
+
+<p>You’ll laugh at the jokes and obscure movie references. You’ll cry when you realize you want <a href="#hotkeys">to change shortcuts</a>. You’ll come back for more.</p>
+
+<h2 id="debug-panel">Debug Panel</h2>
+
+<img src="/assets/FLStudio/DebugLog.png" alt="Debugging Panel">
+<div class="image-caption">Debugging Panel</div>
+
+<p>The only picture in this post, but a good one.</p>
+
+<p>FLStudio has a debugging log (<code class="highlighter-rouge">Options-&gt;Debugging Log</code>) that shows you a lot of information about what’s happening in the project. This also shows you all MIDI I/O. It’s an educational experience too as well as a troubleshooting tool.</p>
+
+<p>It’s fantastic for troubleshooting issues. I recently had an issue where I found that <a href="http://midi.teragonaudio.com/tech/midispec/sense.htm">MIDI Active Sense</a> breaks MIDI controller mapping in FL. Were it not for the debugging log I would have never figured it out.</p>
+
+<p>Now they just have to fix it.</p>
+
+<p>It’s a great feature that other DAWs really need to have.</p>
+
+<h1 id="updates">Updates</h1>
+
+<p>Free updates. For. Life.</p>
+
+<p>Once you buy FLStudio you are now an eternal prisoner of their development juggernaut. You don’t need to pay <a href="https://www.bitwig.com/en/shop/webshop.html">129 euros a year</a> just to keep up to date. You won’t get <a href="https://www.waves.com/support/waves-update-plan">wupped</a> and have to pay big $$ when a new plugin is added.</p>
+
+<p>You pay once, and you are treated like a brand new customer every day.</p>
+
+<p>I really dislike how new customers of other products are given ‘everything’, but loyal long time customers have to pay for the privilege.</p>
+
+<p>I know that this isn’t a business model that every company can afford to do, but Image Line does it. It’s awesome.</p>
+
+<h1 id="website">Website</h1>
+
+<p><a href="https://www.image-line.com/flstudio/">Image Line’s website</a> is fantastic. I can find the information that I want quickly, and it looks nice.</p>
+
+<p>They don’t try to trick people in to buying things that they don’t need, but instead help inform the users of exactly what they will get and what it is.</p>
+
+<p>They make their forums easily accessible.</p>
+
+<p>The product pages aren’t full of ridiculous claims of superiority or fluff about ‘groundbreaking technology’. The product pages tell you what the product does, how it can help you and throws in a few clichés like, “Reap the sonic rewards!”</p>
+
+<p>Links for download are always visible along with what platforms are supported. You don’t need to go digging for a product page or download some massive universal installer (even though the FLStudio download is basically that).</p>
+
+<p>The FAQ covers decent questions and is organized well.</p>
+
+<p>There’s <strong>LOTS</strong> of tutorials in video format.</p>
+
+<p>The ‘my account’ page is easy to navigate and isn’t filled with a bunch of garbage. They make it simple to unlock your products, and their webpage as a whole constantly offers information on how to register and unlock your software.</p>
+
+<p>It’s not “the best” DAW website, but it’s tied for #1. They’ve done a great job of making an attractive <em>and</em> functional web presence.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>I’m sure it seems like I’ve been largely positive about FLStudio. I think I probably have, but the few things that bother me, just happen to be the things that I’m <em>most</em> interested in.</p>
+
+<p>Without better <a href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html">Audio support</a>, I personally simply can not use it. You <em>can</em> record just fine in FLStudio. It works great for simple workflows, but if your main method of getting music in to a DAW is recorded audio then it’s not your solution.</p>
+
+<p>However I’ve absolutely fallen in love with FLStudio’s <a href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html">modulation capabilities</a>. If there was a DAW for the experimental folks, then this is it. If you like to create automatic dynamic expression or if you’re never satisfied with what other products offer then FLStudio is powerful enough to satiate you.</p>
+
+<p>I think the most important takeaway from this entire review isn’t really about the <em>specifics</em> about FLStudio. There’s people that will love it, and people that will hate it. It’s a unique design, so the opinions on it will vary greatly.</p>
+
+<p>The takeaway is that FLStudio is a <strong>REAL</strong> DAW. It’s one of the top products. When you see FLStudio topping those ‘what DAW do you use?’ charts, it’s because it’s a highly capable product. It’s lightyears ahead of some DAWs in many areas.</p>
+
+<p>I’ve often heard the sentiment that ‘FLStudio is great for modern electronic music’. I don’t think that’s true. I think modern electronic music exists in part to FLStudio existence. I can’t imagine that it’s a coincidence that the things that most chart-topping styles rely on are easy in FLStudio (and <a href="https://www.ableton.com/en/">Ableton Live</a>). It’s been decades of development for FL. There’s no way they just magically are predicting production styles 5 years ahead of time.</p>
+
+<p>I think it’s more likely that FLStudio itself has helped define modern music.</p>
+
+<p>You may take this as a good thing, or a bad thing, but as you use the software it’s inescapable. If you hear something in a pop/electronic chart topper, it’s very likely something that’s easy in FL.</p>
+
+<p>That doesn’t mean that you need to create that type of music with FL though. History is littered with examples of people figuring out new uses for a hammer. I know of a number of fairly large (100k’s subscribers on youtube) artists that use FLStudio for orchestral work. I know of a few films scored in FLStudio. One of my favorite noise artists uses FLStudio. I know of a handful of rockers that sketch out their tracks in FL.</p>
+
+<p>I don’t think FLStudio is for me, yet(?), but after nearly a month and a half my view of it has changed drastically. It’s more than good software. It’s a defining application of this music generation.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 5 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

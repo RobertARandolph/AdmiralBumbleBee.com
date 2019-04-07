@@ -1,0 +1,386 @@
+I"%X<img src="/assets/FLStudio/ToolCollage.png" alt="Tool Collage">
+<div class="image-caption">Tool Collage</div>
+
+<p>Tools in the Piano Roll. These are things that don’t involve necessarily clicking directly in the piano roll, but selecting something else that acts on what you have already or generates new notes.</p>
+
+<p>This is the last in the “Piano Roll” mini-series. Go check out parts <a href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html">three</a> and <a href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html">four</a> for more.</p>
+
+<p>I’m not covering <em>everything</em> about working with MIDI in FLStudio, there’s still some things to come. This has just been about the piano roll and surrounding functions.</p>
+
+<p>On to it now…</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html"> Part 1: Introduction to FL</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html"> Part 7: Modulation</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/11/30-days-with-FLStudio-20-Performance-VFX.html"> Part 8: Performance mode and Video FX</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html"> Part 9: Workflow</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/24/30-days-of-FLStudio-20-conclusion.html"> Part 12: Conclusion</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#what-is-a-tool" id="markdown-toc-what-is-a-tool">What is a “Tool”</a></li>
+  <li><a href="#riff-machine" id="markdown-toc-riff-machine">Riff Machine</a></li>
+  <li><a href="#arpeggiator" id="markdown-toc-arpeggiator">Arpeggiator</a></li>
+  <li><a href="#articulator" id="markdown-toc-articulator">Articulator</a></li>
+  <li><a href="#stamp-tool" id="markdown-toc-stamp-tool">Stamp Tool</a></li>
+  <li><a href="#claw-machine" id="markdown-toc-claw-machine">Claw Machine</a></li>
+  <li><a href="#lfo-tool" id="markdown-toc-lfo-tool">LFO Tool</a></li>
+  <li><a href="#key-limiter-tool" id="markdown-toc-key-limiter-tool">Key Limiter Tool</a></li>
+  <li><a href="#chopper" id="markdown-toc-chopper">Chopper</a></li>
+  <li><a href="#flam-tool" id="markdown-toc-flam-tool">Flam Tool</a></li>
+  <li><a href="#flip-tool" id="markdown-toc-flip-tool">Flip Tool</a></li>
+  <li><a href="#quantizer" id="markdown-toc-quantizer">Quantizer</a>    <ul>
+      <li><a href="#quantizer-ugh" id="markdown-toc-quantizer-ugh">Quantizer… ugh</a></li>
+    </ul>
+  </li>
+  <li><a href="#randomizer" id="markdown-toc-randomizer">Randomizer</a></li>
+  <li><a href="#strum-tool" id="markdown-toc-strum-tool">Strum Tool</a></li>
+  <li><a href="#scale-levels-tool" id="markdown-toc-scale-levels-tool">Scale Levels Tool</a></li>
+  <li><a href="#is-it-the-best-now" id="markdown-toc-is-it-the-best-now">IS IT THE BEST NOW?!?!???????????????????</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="what-is-a-tool">What is a “Tool”</h1>
+
+<p>For the sake of this post, I’m considering a “Tool” to be anything that acts on midi via some explicit interface.</p>
+
+<p>That means things that require interacting with a menu or a window.</p>
+
+<p>The <a href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html">Basic Piano Roll</a> and <a href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html">Advanced Piano Roll</a> posts dealt with things that were direct interactions with the piano roll interface or directly influenced it. This time I’m going over things that you can pop up a window or dig in to a menu.</p>
+
+<h1 id="riff-machine">Riff Machine</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/RiffMachine.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Riff Machine</div>
+
+<p>Let’s start with the best tool in FLStudio. One that’s unique in existence and usefulness: Riff Machine.</p>
+
+<p>Riff Machine is an 8 step pattern generator and MIDI effect. Here’s the 8 steps:</p>
+
+<ul>
+  <li>Progression - Creates a progression of notes based on a “Score” (notes saved from a piano roll basically) or based on the current notes in the piano roll. The score is just a file containing a line of MIDI notes. You can save your own score files by using “Save as Score” in the piano roll, then loading that in to Riff Machine.</li>
+  <li>Chord - Takes the existing notes and ‘chordizes’ them, once again using scores. The “Step 2” scores are just chords. Once again you can save these yourself.</li>
+  <li>Arp - Works like the <a href="#arpeggiator">Arpeggiator</a></li>
+  <li>Mirror - Mirror works just like <a href="#flip-tool">Flip Tool</a></li>
+  <li>Levels - Levels randomizes values of pan, velocity, release, mod X/Y and pitch mod. You can control the intensity of the effect and which direction it works. More importantly you can grab new “seeds” (<em>AND</em> previous seeds!) to change the randomization.</li>
+  <li>Art - No, not “artistic”, but “Articulation”. See <a href="#articulator">Articulator</a> below.</li>
+  <li>Groove - Groove works with note starts, with some minor adjustments to length and timing of release.</li>
+  <li>Fit - see the <a href="#key-limiter">Key Limiter Tool</a></li>
+</ul>
+
+<p>So each of these steps happens in order. You can turn off stages. You can not re-order them.</p>
+
+<p>You can “Throw Dice” to generate a new random riff, then start over or accept it.</p>
+
+<p>You can work on your existing notes.</p>
+
+<p>What does this all add up to?! It’s an <em>amazing</em> tool that lets you work through writer’s block while only sacrificing the amount of artistic integrity that you are comfortable with! (that’s a joke).</p>
+
+<p>It’s a bit difficult to explain how great this tool can be to just get you started with an idea, or to create a complete and complex idea in just 30-45 seconds. Add on the fact that you can work with your existing part or use “scores” you saved makes this just a great tool.</p>
+
+<h1 id="arpeggiator">Arpeggiator</h1>
+
+<img src="/assets/FLStudio/Arpeggiator.png" alt="Arpeggiator">
+<div class="image-caption">Arpeggiator</div>
+
+<p>A nice arpeggiator with variable pattern, direction, time, gating, and time compression/expansion. Once again you can use scores to create your own patterns and rhythms.</p>
+
+<p>Something really fancy here other than the fact that you can create your own patterns/rhythms, save it as a score and apply it. It’s a surprisingly powerful feature. When creating these scores you can control what notes are affected by arpeggiation, what notes aren’t affected by octave changes and the length of the pattern.</p>
+
+<p>Super cool.</p>
+
+<h1 id="articulator">Articulator</h1>
+
+<img src="/assets/FLStudio/Articulator.png" alt="Articulator">
+<div class="image-caption">Articulator</div>
+
+<p>Articulator lets you adjust the ends of notes. They are lightly randomized and you can adjust the gap between subsequent notes and the overall lengths.</p>
+
+<p>There’s also a “Chop” function that will cut held chords when a new chord is played. So your held chord is interrupted and becomes part of the newly played chord.</p>
+
+<h1 id="stamp-tool">Stamp Tool</h1>
+
+<img src="/assets/FLStudio/StampTool.png" alt="Stamp Tool">
+<div class="image-caption">Stamp Tool</div>
+
+<p>The Stamp Tool. It could be such an awesome thing… This is FL’s main way of entering scales, rhythms or chords quickly.</p>
+
+<p>There’s a few issues with it:</p>
+
+<ul>
+  <li>You have to dive through one, or two giant menus. Who in their right mind thought that a giant menu was the right GUI widget for this?!</li>
+  <li>There’s no inversions (changing the root note but keeping the notes the same).</li>
+  <li>Sharps everywhere! No flats. Exceptionally annoying.</li>
+  <li>Dominant 7th is considered “advanced” but Major 7th is in the main dropdown menu. Very odd.</li>
+  <li>Drawing rhythm patterns doesn’t let you drag them to add more via the division.</li>
+  <li>There isn’t an <em>easy</em> way to add things via using scores. (You can add them via your Patches/Scores/Stamps/ directory then restart FL)</li>
+</ul>
+
+<p>It’s just not the best stamp/pattern tool out there. I’m sure that some people find it useful, especially for rhythms or grabbing a scale then <a href="#riff-machine">Riff Machining it</a>.</p>
+
+<p>However if you are an even mildly knowledgeable musician you’ll find it fairly limiting until you add a lot of your own presets, and that won’t even fix the workflow issue.</p>
+
+<h1 id="claw-machine">Claw Machine</h1>
+
+<img src="/assets/FLStudio/ClawMachine.png" alt="Claw Machine">
+<div class="image-caption">Claw Machine</div>
+
+<p>Claw machine is rather unique. It goes through your MIDI and ‘grabs’ parts out like a <a href="https://en.wikipedia.org/wiki/Claw_crane">claw machine</a>. It can fill in the gaps or skew the process towards the end of the pattern to create a build up (or breakdown or drop).</p>
+
+<p>When slicing up samples or working with synth parts that don’t re-trigger on note-on, Claw Machine can create some interesting rhythms that you may never have thought of yourself.</p>
+
+<h1 id="lfo-tool">LFO Tool</h1>
+
+<img src="/assets/FLStudio/LFOTool.png" alt="LFO Tool">
+<div class="image-caption">LFO Tool</div>
+
+<p>LFO Tool creates modulations of the data in the control editor, or the main data in the <a href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html#event-editor">Event Editor</a>.</p>
+
+<p>I think the LFO Tool is pretty awful. There’s no skewing, no adding with existing data, limited shapes, no parameter modulation (or changing parameters over time).</p>
+
+<p>It’s a very simple “make a shape of this data” tool that destroys whatever was already there. <a href="/ReaperScripts.html#lfo-tool---thread">It could be <strong>A LOT</strong> better</a></p>
+
+<h1 id="key-limiter-tool">Key Limiter Tool</h1>
+
+<img src="/assets/FLStudio/KeyLimiter.png" alt="Key Limiter">
+<div class="image-caption">Key Limiter</div>
+
+<p>It fiddles with your notes so that they fit the desired key and transpose as you wish. Notably it has an option to let you choose which direction notes are snapped: under, above and alternate. The note snap direction can greatly affect the tonality of your generated part.</p>
+
+<p>You can also select the range that things must stay in. Anything above or below is shifted, and where it’s shifted to is determined by the “Wrap top to bottom” option.</p>
+
+<p>It’s not as complex and capable <a href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html#so-much-more">as some other transposition tools can be</a> (see transpose at the bottom).</p>
+
+<p>The lack of functionality does match the simplicity of use though, so I find that acceptable.</p>
+
+<h1 id="chopper">Chopper</h1>
+
+<img src="/assets/FLStudio/Chopper.png" alt="Chopper">
+<div class="image-caption">Chopper</div>
+
+<p>Chop divides your notes based on the time setting and the pattern. Once again you can create your own scores for these, and I suggest that you reference the manual about this feature.</p>
+
+<p>The notes are either divided right on the grid (absolute mode) or relative to the start of each note (absolute off).</p>
+
+<p>The patterns used have a few cool features. You can define a pattern, notes that won’t be chopped and pattern length. Same as <a href="#arpeggeator">arpeggiators</a> except octave range limitation does apply.</p>
+
+<p>There’s the ‘Quick Chop’ feature that does this based on the snap settings, with no need for a dialog.</p>
+
+<h1 id="flam-tool">Flam Tool</h1>
+
+<img src="/assets/FLStudio/FlamTool.png" alt="Flam">
+<div class="image-caption">Flam</div>
+
+<p>Create a quick chop at the beginning of the selected notes. Useful, simple.</p>
+
+<h1 id="flip-tool">Flip Tool</h1>
+
+<img src="/assets/FLStudio/FlipTool.png" alt="Flip Tool">
+<div class="image-caption">Flip Tool</div>
+
+<p>The flip tool flips your MIDI notes around. You can slip horizontally and vertically.</p>
+
+<p>The “preserve start times” makes sure that your rhythms are intact when flipping certain compositions.</p>
+
+<h1 id="quantizer">Quantizer</h1>
+
+<img src="/assets/FLStudio/Quantizer.png" alt="Quantizer">
+<div class="image-caption">Quantizer</div>
+
+<p>A very simple tool that adjusts the start/end times of notes to the grid. Sounds kinda lame right?</p>
+
+<p>NOPE.</p>
+
+<p>Three big things here:</p>
+
+<ul>
+  <li>You can use scores to create quantization patterns. You can save a MIDI performance and then pull that back up and use those note positions as your “quantize grid”</li>
+  <li>A grid is displayed on your Piano Roll to show you exactly where the grid is.</li>
+  <li>Everything is applied and shown in realtime.</li>
+</ul>
+
+<p>It seems like a simple tool, but it’s incredibly powerful. If there’s not a grid pattern that you want, or if you need to match a performance then you can do it.</p>
+
+<p>Once again it’s not <a href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html#midi-effects">as powerful as some others</a> (scroll to the quantize window), but the simplicity:power ratio is great on FL’s quantizer.</p>
+
+<p>If you require some complex quantizing features then you will be sorely disappointed, but if you just want to align some notes or create some great rhythms then you are going to love it.</p>
+
+<p>There’s also a ‘Quick Quantize’ and ‘Quick Quantize Start’ that do what you may expect.</p>
+
+<h2 id="quantizer-ugh">Quantizer… ugh</h2>
+
+<p>Just a side note: FLStudio does not snap <strong>to</strong> the grid. It snaps <strong>BY</strong> the grid amount. So if your note is off the grid line and you want it to line up for some reason, <em>you must use the quantize tool</em></p>
+
+<p>These are often called “Absolute” (snap <em>to</em> grid) and “Relative” (snap <em>by</em> grid amount) in other DAWs. FLStudio only has the latter, and for the former you are required to use the quantize functions.</p>
+
+<h1 id="randomizer">Randomizer</h1>
+
+<img src="/assets/FLStudio/Randomizer.png" alt="Randomizer">
+<div class="image-caption">Randomizer</div>
+
+<p>It’s a randomizer. The parameters are fairly self explanatory. The only slightly strange one is “population” which basically stacks randomizers.</p>
+
+<p>You can turn off the Pattern and Level sections to work on one or the other, or both.</p>
+
+<p>The “Pattern” section creates new data. It will not let you randomize start/end times of existing notes.</p>
+
+<p>The “Levels” section allows you to randomize control data of current notes.</p>
+
+<p>Once again, one of the notable features is that the <a href="https://en.wikipedia.org/wiki/Random_seed">seed for the randomizer</a> can be selected, and more important you can <em>go back</em> to previous seeds. That way if you want to go back to something you like then you can go back to it.</p>
+
+<h1 id="strum-tool">Strum Tool</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/Strum.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Strum Tool</div>
+
+<p>Take a chord. Offset the start and possible end times. Now it sounds like strumming a guitar, kinda.</p>
+
+<p>You can change the ‘shape’ of the offset with the “Tension” knob, which is a neat addition.</p>
+
+<p>You can also select a bunch of notes and the strum tool will only work on overlapping notes (e.g. chords).</p>
+
+<p>The “Alternate” allows for strumming down, then up or up then down. Which comes first can be controlled with the start time strength knob.</p>
+
+<p>Some really fantastic rhythms can be made by taking a whole MIDI part and applying light strum to it. It really adds some flare that’s annoying to manually program in, but comes naturally when playing.</p>
+
+<p>Great tool.</p>
+
+<h1 id="scale-levels-tool">Scale Levels Tool</h1>
+
+<img src="/assets/FLStudio/ScaleLevels.png" alt="Scale Levels">
+<div class="image-caption">Scale Levels</div>
+
+<p>Scale Levels lets you multiply data, shift data or push/pull it away from a center point.</p>
+
+<p>That’s it. Simple and I’ve used it quite a bit.</p>
+
+<h1 id="is-it-the-best-now">IS IT THE BEST NOW?!?!???????????????????</h1>
+
+<p>Nah.</p>
+
+<p>But what IS the best? Robert… What DAW has the best MIDI editor?</p>
+
+<p>None of them. Not FLStudio. Not Logic. Not Live (definitely not Live). Not Cubase. Not Digital Performer.</p>
+
+<p>What is <em>best</em> depends on what you need.</p>
+
+<p>Some people compose based on what they hear in their head, and they need tools that allow them to get those ideas quickly. What those ideas are shapes what tools they need, and thusly ‘what is the best’ for them.</p>
+
+<p>Some people compose based on what they hear. They need tools to generate basic ideas, then they create fantastic work based on that inspiration. They need different tools for generating content and for moulding it.</p>
+
+<p>Some people compose on a piano or MIDI guitar or breath controller and they need specific editing/filtering tools and nothing more. Some people click in notes with a mouse and rarely need to ‘edit’ their work, they just need better ways to get notes in to a computer with their mouse/keyboard.</p>
+
+<p><strong>BUT</strong></p>
+
+<p>Here’s the rub. Some DAWs manage to have large feature sets that lets many ‘types’ of users work in their preferred method, and potentially borrow tools from other work flows.</p>
+
+<p>Generally what people call “the best” is one of two things:</p>
+
+<ol>
+  <li>the DAW that does exactly what they need</li>
+  <li>the DAW that allows the most workflows.</li>
+</ol>
+
+<p>If we want to call FLStudio’s Piano Roll “the best” then it’s surely 1., but it can’t be 1. to everyone. It isn’t 1. to me. I personally need tools that let me edit existing data easily, and I find that <a href="http://motu.com/products/software/dp">Digital Performer</a> does that better than anything else except <a href="https://www.steinberg.net/en/products/cubase/start.html">Cubase</a>.</p>
+
+<p>FLStudio’s Piano Roll isn’t bad. It’s not even mediocre. I’d definitely say that it’s one of the quickest workflows if you work with your mouse or create simple beats with hardware.</p>
+
+<p>Calling it the best… I’m not really cool with that though. So, one more time… from the manual <em>directly</em> as of June 30th 2018.</p>
+
+<p><code class="highlighter-rouge">FL Studio's Piano roll has the well deserved reputation as the best Piano roll in the business.</code></p>
+
+<p>That might be true. Can’t argue.</p>
+
+<p><code class="highlighter-rouge">FL Studio has, arguably, the most powerful Piano roll editor available. </code></p>
+
+<p>Ok, I argue that then. It’s not the most powerful by any means. Logic, Digital Performer, Cubase and Reaper most certain have it surpassed in “power” (features and functions).</p>
+
+<p>Maybe a better claim would be, “FLStudio has, arguably, one of the best workflows and an industry-wide appreciation for its innovations and design.” I would certainly agree with that.</p>
+
+<p>They could claim that it’s the most well-designed Piano Roll for desktop/laptop musicians, and I’d agree with that.</p>
+
+<p>They could claim that FLStudio has the most pleasant Piano Roll to play with, and I’d agree with that.</p>
+
+<p>They could even claim that it has the best Piano Roll for electronic music creation on the market, and I’d agree with that.</p>
+
+<p>What it <em>certainly</em> isn’t, is the most powerful.</p>
+
+<p>But not everyone needs a <a href="https://en.wikipedia.org/wiki/Bagger_288">Bagger 228</a>, some folks just need a shovel with a sharp edge and a good foot hold. FLStudio is a <em>great</em> shovel. (I really hope that analogy comes off right…)</p>
+
+<p>There’s a lot more cool stuff coming about FLStudio though.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 10 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

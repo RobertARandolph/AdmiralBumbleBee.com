@@ -1,0 +1,29 @@
+I"=<img src="/assets/Reaper/JSFX/Debug.png" alt="Debugging">
+<div class="image-caption">Debugging our plugin</div>
+
+<p>Today I’m going to show you how to write a MIDI plugin in <a href="https://www.reaper.fm">Reaper</a> using <a href="https://www.reaper.fm/sdk/js/js.php">JSFX</a>.</p>
+
+<p><strong>BUT WAIT!</strong> I’m going to assume that you are a total newb. I am going to walk you through every aspect of the process <em>including</em> <strong>how to find information</strong>.</p>
+
+<p>The following topics will be covered:</p>
+
+<ul>
+  <li>Basic JSFX MIDI programming</li>
+  <li>How MIDI works, and how to find out more</li>
+  <li>Simple Binary
+    <ul>
+      <li>Counting in Binary</li>
+      <li>Binary math</li>
+      <li>Binary operators</li>
+    </ul>
+  </li>
+  <li>Hexadecimal</li>
+  <li>Basic programming</li>
+  <li>Basic problem solving</li>
+</ul>
+
+<p>The only thing that you need for this is a computer with <a href="https://www.reaper.fm">Reaper</a> installed and a working internet connection. If you have any questions then please comment, I will happily answer to the best of my ability.</p>
+
+<p>Big shoutout to <a href="https://reaperblog.net">Jon at The Reaper Blog</a>. He brought up this question about a plugin that translated MIDI notes to CC on behalf of another user. That’s why I wrote this entire thing.</p>
+
+:ET

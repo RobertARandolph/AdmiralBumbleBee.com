@@ -223,6 +223,23 @@ I can't think of many other products that get the simplicity, ease and power rat
 
 Oh, and it was added for free for all Waveform 10 users in v10.1. They [didn't even have to buy out anyone](https://www.theverge.com/2015/2/24/8098379/apple-buys-camel-audio-synth-audio-plugins) for it.
 
+### Subtractive
+
+{::nomarkdown}
+<img src="/assets/Waveform/10/Subtractive.png" alt="Subtractive">
+<div class="image-caption">Subtractive</div>
+{:/nomarkdown}
+
+Subtractive is yet another synth included with Waveform 10.
+
+It's similar to [4OSC](#4osc) except you get 2 filters, 4 envelopes, 4 LFOs, an EQ, sync, a variety of overdrives, 4 effects sections with a variety of effects types and an arpeggiator. It also has a glide and pitch mod section to let you setup expressive elements.
+
+I don't like Subtractive as much as 4OSC though, because it's not as easy to use. It's a strong showing of a basic (by today's standards) subtractive synth. That's going to be awesome for a lot of people, especially when it comes with a number of presets and a tag-based preset browser.
+
+It's a good product. It's better than what is available for a subtractive synth in all but 2 DAWs. It's just not as exciting as 4OSC to me.
+
+Not everything needs to be exciting though, and Subtractive fills that nicely.
+
 ## Multi MIDI Preview
 
 [Waveform has had multitrack MIDI editing]({% post_url 2018-03-28-Waveform-9-the-good-the-bad-the-weird-part-6 %}#midi-multi-editing) for a while, but you couldn't utilize MIDI preview to hear notes on multiple tracks at once.

@@ -1,0 +1,24 @@
+I"�<a href="/assets/Reaper/MultiMIDI/NoteEdit.png">
+<img src="/assets/Reaper/MultiMIDI/Thumbnails/NoteEdit.png" alt="Note Editing Selection">
+</a>
+<div class="image-caption">Note Editing Selection</div>
+
+<p>A frequent scenario for some Reaper users:</p>
+
+<ul>
+  <li>Multiple MIDI items
+    <ul>
+      <li>Each item corresponds to parts of the same instrument (like drums - kick, snare, toms, cymbals etc…)</li>
+    </ul>
+  </li>
+  <li>Editing the files requires working with many parts at once</li>
+  <li>You go crazy jumping between MIDI items</li>
+</ul>
+
+<p>We can fix this, and make it easy to use. It can also be toggled on/off.</p>
+
+<p>Today I’m also doing a companion video. It covers the exact same thing as the text, but in video form. This is an experiment, so <strong>I’d like feedback on it!</strong> The video is in 4k resolution.</p>
+
+<p>If it works out and I am happy with the output, I’ll try to do this for future posts as well.</p>
+
+:ET

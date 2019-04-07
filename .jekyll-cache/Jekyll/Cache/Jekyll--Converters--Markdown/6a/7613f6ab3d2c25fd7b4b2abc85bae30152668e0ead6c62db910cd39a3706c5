@@ -1,0 +1,300 @@
+I"MM<img src="/assets/Waveform/Good/Melody.png" alt="Melody generator">
+<div class="image-caption">Melody generator</div>
+
+<p>Part 4. There’s just so many neat little workflow things in Waveform, that I may have to do a couple posts on just ‘good things’.</p>
+
+<p>Today I’m covering arrangement and composition tools. Part 5 will also cover a similar topic.</p>
+
+<ul>
+  <li>Good
+    <ul>
+      <li>Pattern Generator</li>
+      <li>Edit clips</li>
+    </ul>
+  </li>
+  <li>Bad
+    <ul>
+      <li>Folder editing</li>
+    </ul>
+  </li>
+  <li>Weird
+    <ul>
+      <li>Chord Track</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html"> Version 9, Part 0: Intro</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html"> Version 9.1.1, Part 1: Browser, Mixing, GUI, VCAs</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html"> Version 9.1.1, Part 2: Modulation, Plugin browsing, Annoyances, GUI</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html"> Version 9.1.1, Part 3: Macros, UI design, Ghost tracks, Buying</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html"> Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html"> Version 9.1.1, Part 6: MIDI Editing</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html"> Version 9.1.1, Part 7: Recording</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/03/Waveform-9-the-good-the-bad-the-weird-part-8.html"> Version 9.1.1, Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/08/Waveform-9-instruments-and-effect-review.html"> Version 9.1.1, Part 9: Instruments and Effect Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/11/Waveform-9-Conclusion.html"> Version 9.1.1, Part 10: Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/04/05/Tracktion-Waveform-10.html"> Version 10.1.0</a></li>
+    
+
+</ul>
+
+<p><strong>VERSION</strong> - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#good" id="markdown-toc-good">Good</a>    <ul>
+      <li><a href="#pattern-generator" id="markdown-toc-pattern-generator">Pattern Generator</a>        <ul>
+          <li><a href="#general-info" id="markdown-toc-general-info">General info</a></li>
+          <li><a href="#arpeggio" id="markdown-toc-arpeggio">Arpeggio</a></li>
+          <li><a href="#chords" id="markdown-toc-chords">Chords</a></li>
+          <li><a href="#bassline" id="markdown-toc-bassline">Bassline</a></li>
+          <li><a href="#melody" id="markdown-toc-melody">Melody</a></li>
+          <li><a href="#criticisms" id="markdown-toc-criticisms">Criticisms</a></li>
+        </ul>
+      </li>
+      <li><a href="#edit-clips" id="markdown-toc-edit-clips">Edit Clips</a>        <ul>
+          <li><a href="#criticisms-1" id="markdown-toc-criticisms-1">Criticisms</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#bad" id="markdown-toc-bad">Bad</a>    <ul>
+      <li><a href="#folder-editing" id="markdown-toc-folder-editing">Folder Editing</a></li>
+    </ul>
+  </li>
+  <li><a href="#weird" id="markdown-toc-weird">Weird</a>    <ul>
+      <li><a href="#chord-track" id="markdown-toc-chord-track">Chord Track</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="good">Good</h1>
+
+<h2 id="pattern-generator">Pattern Generator</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/VE1SU-wfKDA" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Each MIDI clip has an optional pattern generator. It can generate arpeggio patterns, chord patterns, basslines and melodies.</p>
+
+<p>The patterns can follow the <a href="#chord-track">chord track</a> or each pattern can have its own progression.</p>
+
+<p>The video above explains it pretty well, but if you liked videos instead of text you probably wouldn’t be here. I’m going to go through each section myself.</p>
+
+<p>The first thing you need to do is create a MIDI clip then select it and go to the “Pattern” tab in the bottom panel then you have a number of options.</p>
+
+<h3 id="general-info">General info</h3>
+
+<img src="/assets/Waveform/Good/Progression.png" alt="Progression bar">
+<div class="image-caption">Progression bar</div>
+
+<p>The basic idea once you select a type of pattern is that you can input chords progressions easily. The core of this functionality is the progression bar.</p>
+
+<p>The progression bar is where you can create a progression. Each chord is shown in <a href="https://en.wikipedia.org/wiki/Roman_numeral_analysis">roman numerals</a>, but you can optionally work in spelled pitches as well.</p>
+
+<p>There are a number of popular chord progressions available, and you can easily switch between them using the arrow buttons. There’s 3 and 4 bar presets along with custom presets (which you can easily save your own of).</p>
+
+<p>Each individual chord can be changed as required. Roman numeral representation is available for non-decorated chords and 7th chords. For chord extensions beyond a seventh you must select a pitch class root and then the extensions that you want. Extensions are only available up to 9ths, but since you can still manually edit the MIDI that isn’t a major issue. In settings you can also define your own custom chords, however currently not for roman numeral representation.</p>
+
+<p>There is a suggestion box on the right side that shows you the statistically most likely next chord in your current progression that’s supposedly based on an analysis of popular music. I’ve tried dozens (probably hundreds) of chord progressions and it seems to work fairly well. I can’t attest to the statistical accuracy, but the results are familiar. If you have a pattern generator on another clip, you can select ‘Other’ and get the pattern from that clip without saving a preset first.</p>
+
+<p>Each clip can have its own selectable key, which is based on a scale (grr… music theory nerd is raging). The clip can also follow the global track or <a href="#chord-track">chord track</a> as well. The Global track is the ‘Tempo’ track and you can enter key changes there.</p>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Each chord’s length can be adjusted with the</td>
+      <td>between chords in the Piano Roll. On that same bar you can move through <a href="https://en.wikipedia.org/wiki/Inversion_(music)">chord inversions</a> using the up/down arrows.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>From there each section has its own unique settings. Once you have the pattern generated, the MIDI can be edited as normal. If you make changes to the pattern, your manual changes are lost though.</p>
+
+<h3 id="arpeggio">Arpeggio</h3>
+
+<img src="/assets/Waveform/Good/Arpeggios.png" alt="Arpeggio pattern generators">
+<div class="image-caption">Arpeggio Pattern Generator</div>
+
+<p>The first option is to generate <a href="https://en.wikipedia.org/wiki/Arpeggio">arpeggios</a>.</p>
+
+<p>The things you’d expect are here: pattern length (which is basically “speed”), velocity, octave, gate (note length) and the number of steps.</p>
+
+<p>Arpeggios have various styles that are shown as cute drawn lines. There’s different styles for up and up/down modes. If you are looking for ‘down’ modes, they are a type of style presented while in ‘up’ mode.</p>
+
+<p>The root note of each arpeggio can be toggled to play or not.</p>
+
+<p>The Arpeggio generator is really simple, but unlike other DAWs that force you to use a MIDI plugin for this task, you are given the MIDI that you can edit and modify yourself.</p>
+
+<h3 id="chords">Chords</h3>
+
+<img src="/assets/Waveform/Good/Chords.png" alt="Chord patterns">
+<div class="image-caption">Chord Patterns</div>
+
+<p>Chords are fairly simple. It generates chords for the given progression. The only notable options are to add an octave up/down of the root, and the spread option. The spread option appears to move the 3rd an octave up.</p>
+
+<p>Chords have rhythmic options. There’s a number of chord presets which offer you rhythms for the chords. You can select a group of notes in a MIDI track and create your own chord preset if you have a specific rhythm that you want presented. Neat.</p>
+
+<h3 id="bassline">Bassline</h3>
+
+<img src="/assets/Waveform/Good/Bassline.png" alt="Bassline">
+<div class="image-caption">Bassline patterns</div>
+
+<p>Bassline patterns are like chord patterns except they only use the root by default. Bass presets offer rhythmic variation that’s a separate context from chord patterns.</p>
+
+<p>That’s all there is to it.</p>
+
+<h3 id="melody">Melody</h3>
+
+<img src="/assets/Waveform/Good/Melody.png" alt="Melody generator">
+<div class="image-caption">Melody generator</div>
+
+<p>This is where things get cool. The melody generator gives you the chords of your progression, but split up by a selectable division. With the paint brush tool you can pain a melody using the chord tones. It’s a guaranteed pleasant melody that follows the chord progression that you want.</p>
+
+<p>Notes can be merged using normal MIDI editor commands, split, adjusted etc…</p>
+
+<p>There is a randomization feature that randomizes melody using chord tones. That’s fun to play with.</p>
+
+<h3 id="criticisms">Criticisms</h3>
+
+<p>These criticisms are for Waveform 9.0.37.</p>
+
+<p>The Tracktion team may have changed these since I wrote this. During the course of this review I will try to maintain this, but after the review is over it’s unlikely I will keep this up to date. Please try the demo yourself first before becoming upset by these things!</p>
+
+<ul>
+  <li>There’s no option to work in flats. As a classically trained musician this is insufferable! When I’m trying to work in Db, the ii is <strong>not</strong> D#m. It’s not. It never will be. A C7 does <strong>NOT</strong> have an A# in it. <strong>PLEASE</strong> fix this Tracktion guys. It causes a cognitive sludge to develop for some of use.</li>
+  <li>Complex chords can only be input by pitch class. If you want a I7#9, you can’t input that as roman numeral. It’s only available as C7#9 (assuming you’re in C). This disconnect between pitch class and roman numeral adds another cognitive mud to the pile. My brain is constantly translating between things.
+    <ul>
+      <li>When using pitch class, the chord no longer follows the Chord track. So if you wanted a Ib9#11 chord, it won’t follow the key of the project when you change it, nor will it follow the chord track.</li>
+    </ul>
+  </li>
+  <li>Manual changes are lost when editing the pattern. Ideally the pattern would only adjust notes in the ‘previous’ chord, and there be an optional action to delete everything in that current chord’s section. Perhaps a ‘destructive’ and ‘non-destructive’ mode. This is really important when trying to use extensions that the pattern editor does not provide like 11s and 13s.</li>
+  <li>There does not appear to be any way to adjust the length of a chord without changing EVERYTHING after it. Often I wish to move the boundary between 2 chords and leave all subsequent chords alone. I think this should be the default behaviour.</li>
+  <li>If you make a melody, then want to change a chord <strong>you lose everything</strong>. Yes, really. One chord change and your <em>entire</em> melody is gone.</li>
+  <li>Melody patterns can’t use chord presets. That would make for some more interesting melodies if the spliced chord was split by the chord preset boundaries rather than a fixed even division.</li>
+  <li>‘Randomise’ notes sometimes creates overlapping notes that sound terrible. The “random” melody loves to have major and minor 2nds overlapping each other, and that’s not a great recipe for a nice melody.</li>
+</ul>
+
+<h2 id="edit-clips">Edit Clips</h2>
+
+<img src="/assets/Waveform/Good/EditClip.png" alt="Edit Clips">
+<div class="image-caption">Edit Clips</div>
+
+<p>Edit clips are clips that are projects. You can drag and drop a project in to another project. The project is rendered and inserted. The ‘new clip’ object (red box with the + at the top) can also create an edit clip, and you select the source in the properties panel.</p>
+
+<p>You can select which tracks you want in the edit clip, normalize and turn off plugins in the referenced clip. There is an option to normalize the clip based on RMS value, which is a great way to make sure your imported clip matches the general level of the parent project.</p>
+
+<p>Basically every ‘idea’ you have can be its own project. Want to import a drum loop from a failed project? Edit clips to the rescue. Have a big multitrack recording that you don’t want to clutter your project with? Edit clips to the rescue! Have a number of parts that you want to sequence together? Edit clips to the rescue.</p>
+
+<p>Waveform does nicely handle varying tempos as it uses the clip’s native ‘root tempo’ and time stretching facilities to match tempo.</p>
+
+<p>There’s not much to say about edit clips, it’s a simple feature that has a lot of use if you are creative about it.</p>
+
+<h3 id="criticisms-1">Criticisms</h3>
+
+<p>These criticisms are for Waveform 9.0.37.</p>
+
+<p>The Tracktion team may have changed these since I wrote this. During the course of this review I will try to maintain this, but after the review is over it’s unlikely I will keep this up to date. Please try the demo yourself first before becoming upset by these things!</p>
+
+<ul>
+  <li>Edit clips can’t play live. They are always rendered</li>
+  <li>Selecting tracks often resets the view. If you have a lot of tracks to deselect, then you are constantly scrolling around.</li>
+  <li>Referenced projects can’t be selected via a browse dialog. They have to be drag/drop from the tab bar or opened in the background. Draggind a .tracktionedit file from your file manager does work though.</li>
+</ul>
+
+<h1 id="bad">Bad</h1>
+
+<h2 id="folder-editing">Folder Editing</h2>
+
+<img src="/assets/Waveform/Bad/FolderEditing.png" alt="Folder Editing">
+<div class="image-caption">Folder editing</div>
+
+<p>If the author(s) of Waveform love(s) me, they have a funny way of showing it.</p>
+
+<p>I do a lot of multitrack recording and I often need to edit multiple tracks (or clips) as if they are a single object. Waveform <em>attempts</em> to facilitate this by having folders have a clip that’s a representative of the underlying tracks.</p>
+
+<p>This sounds neat until you try and use it.</p>
+
+<p>Usually when editing multitrack objects, it’s necessary to zoom in on a part and edit that with the desire that the grouped/linked tracks follow. Folder tracks don’t let you do that. If you want multiple tracks to follow the same edits then you need to move the folder track clip, which takes you away from the detailed view of the <em>actual</em> track that you’re trying to edit.</p>
+
+<p>Imagine that in the clip above I want to make an edit with the ‘FOK’ (front of kick) track. I need to zoom in and get it <em>just</em> right. You have to edit the folder track for ‘drums’ to do this and have everything line up properly. So at best I’m re-arranging my tracks around, and I lose potential zoom area since I need at least 2 tracks (‘FOK’ and the folder track) open.</p>
+
+<p>A number of important clip editing commands don’t work, the most important of which is split. That’s right, you can’t split a folder clip (in 9.0.37). Argh! You can’t crossfade either.</p>
+
+<p>The next issue is that warping doesn’t work on folder tracks. Bleh. I use that feature often in other DAWs.</p>
+
+<p>Folder track editing is a feature I guess. If you just want to drag groups of clips around, which you can do by selecting them anyway. For actual multitrack editing it just doesn’t cut it. In fact, I can’t find anything in Waveform for this. I’ve had to cheat on my ‘30 days’ by using <a href="https://www.reaper.fm">REAPER</a> for most multitrack editing duties.</p>
+
+<h1 id="weird">Weird</h1>
+
+<h2 id="chord-track">Chord Track</h2>
+
+<img src="/assets/Waveform/Weird/ChordTrack.png" alt="Chord Track">
+<div class="image-caption">Chord Track</div>
+
+<p>When you see ‘Chord Track’ you might think of <a href="https://www.youtube.com/watch?v=QaAqyrfju2M">Cubase’s Chord track</a> or <a href="https://documentation.apple.com/en/logicpro/usermanual/index.html#chapter=35%26section=4%26tasks=true">Logic’s Chord track</a>, but you would be sadly disappointed.</p>
+
+<p>The chord track is just a way of controlling <a href="#pattern-generator">pattern generators</a>. The pattern generators can follow the chord track, so it’s possible to use the chord track to sync up various pattern generators around the project.</p>
+
+<p>Unfortunately, that’s all the chord track does. It has no idea about the pitch of audio clips. <em>It doesn’t integrate with melodyne</em>, which I’m not sure is technically possible but it’d be great if it was. It doesn’t have any function to make manually-edited clips diatonically follow the chord track.</p>
+
+<p><del>Another strange thing about the chord track is that it allows you to enter progressions, but each chord is 1 bar long. I can’t find any way to change the length of the chord. The chord track also makes the following clips have the same inversion, which is <em>rarely</em> a desired track, usually you want clips to have their own voicing.</del> <strong>EDIT</strong> - Ok, so this is just confusing behaviour. You need to make the chord track &gt;1 bar to see the extra chords. If oyu are using multiple chord clips then this becomes messy quickly. Another work around is to use multiple chord clips alone, but then you lose the ability to use the suggestions feature and to keep progressions together easily.</p>
+
+<p>The chord track isn’t <em>bad</em> per se, but I struggle to find out how its use outweighs the workarounds necessary for utilizing it fully.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 7 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

@@ -1,0 +1,247 @@
+I"{=  <img src="/assets/Reaper/FXModulation.gif" alt="Modulation madness!">
+  <div class="image-caption">Modulate all of the things!</div>
+
+<p>Reaper has quite a routing system. It can allow for some exceptionally cool routing configurations that will leave you scratching your head the next day.</p>
+
+<p>In this post I’ll be going over <em>some</em> of the things you can do with Reaper’s routing, and I will also discuss why it will immolate your soul and leave nothing but the charred remains to remind you of your sins.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#background-why-this-all-works" id="markdown-toc-background-why-this-all-works">Background: Why this all works</a>    <ul>
+      <li><a href="#reaper-has-tracks-just-tracks" id="markdown-toc-reaper-has-tracks-just-tracks">Reaper has tracks. Just tracks.</a></li>
+      <li><a href="#every-track-is-basically-a-64-channel-daw" id="markdown-toc-every-track-is-basically-a-64-channel-daw">Every track is basically a 64 channel DAW.</a></li>
+    </ul>
+  </li>
+  <li><a href="#part-1-one-to-many" id="markdown-toc-part-1-one-to-many">Part 1: One to Many</a>    <ul>
+      <li><a href="#tracks" id="markdown-toc-tracks">Tracks</a></li>
+      <li><a href="#one-vi-to-separate-tracks" id="markdown-toc-one-vi-to-separate-tracks">One VI to separate tracks</a></li>
+      <li><a href="#fx" id="markdown-toc-fx">FX</a></li>
+      <li><a href="#fx-bonus" id="markdown-toc-fx-bonus">FX Bonus</a></li>
+    </ul>
+  </li>
+  <li><a href="#section-b-many-to-one" id="markdown-toc-section-b-many-to-one">Section B: Many to one</a>    <ul>
+      <li><a href="#folders" id="markdown-toc-folders">Folders</a></li>
+      <li><a href="#sends---masterparent-send-on" id="markdown-toc-sends---masterparent-send-on">Sends - Master/Parent send <strong>ON</strong></a></li>
+      <li><a href="#busses---masterparent-send-off" id="markdown-toc-busses---masterparent-send-off">Busses - Master/Parent send <strong>OFF</strong></a></li>
+    </ul>
+  </li>
+  <li><a href="#episode-3-many-to-many" id="markdown-toc-episode-3-many-to-many">Episode 3: Many to Many</a></li>
+  <li><a href="#chapter-iv-one-to-one" id="markdown-toc-chapter-iv-one-to-one">Chapter IV: One to One</a>    <ul>
+      <li><a href="#parameter-modulation" id="markdown-toc-parameter-modulation">Parameter modulation</a></li>
+      <li><a href="#workflow-enhancers" id="markdown-toc-workflow-enhancers">Workflow enhancers</a></li>
+    </ul>
+  </li>
+  <li><a href="#was-ist-mit-dem-anderen-morgen-das-ist-ein-kapitel-für-sich" id="markdown-toc-was-ist-mit-dem-anderen-morgen-das-ist-ein-kapitel-für-sich">Was ist mit dem anderen Morgen? Das ist ein Kapitel für sich.</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="background-why-this-all-works">Background: Why this all works</h1>
+
+<p>There are 2 concepts that you need to understand before the flexibility of Reaper’s routing makes any sense</p>
+
+<h2 id="reaper-has-tracks-just-tracks">Reaper has tracks. Just tracks.</h2>
+
+  <img src="/assets/Reaper/AudioandMidi.png" alt="Audio and Midi">
+  <div class="image-caption">Audio and Midi on the same track, in the same place</div>
+
+<p>There aren’t “Midi tracks” or “Audio Tracks” or “Aux Tracks” or “Video Tracks” or … anything. It just has tracks.</p>
+
+<p>Tracks can contain basically any data. You can mix data and overlap data. Look at the image above. Yep, that’s audio <strong>and</strong> midi on the same track, <strong>and</strong> they place at the same time, <strong>and</strong> they can be freely routed.</p>
+
+<h2 id="every-track-is-basically-a-64-channel-daw">Every track is basically a 64 channel DAW.</h2>
+
+  <img src="/assets/Reaper/EightinPlace.png" alt="Eight things at once">
+  <div class="image-caption">Eight items, two ways</div>
+
+<p>Any given track in Reaper has 64 channels of I/O with the option to have freely placeable overlapping media items. This allows each <em>single</em> track in Reaper to act as a 64-channel DAW in its own right.</p>
+
+<ul>
+  <li>Routing
+    <ul>
+      <li>Each track in Reaper has 64 channels of audio to route to/around/within/between FX as you desire. Look at the “Plug-in pin connector” window and the “8x mono to 1x stereo” plug-in. We have an 8-channel media item (“8 channels 1 item”) being mixed <em>just on one track</em>. We could have individual routing for each channel before getting to that mixer if we want.</li>
+    </ul>
+  </li>
+  <li>FX can route
+    <ul>
+      <li>FX can take input from any of the 64 inputs, and output specifically to any of the 64 outputs. There are also mixer/spliter plug-ins to deal with I/O in the midst of a plug-in chain.</li>
+    </ul>
+  </li>
+  <li>Input
+    <ul>
+      <li>Shown on the bottom track labeled “8 Channels 1 item”, each track in Reaper can take up to 64 channels of input.</li>
+      <li>This doesn’t <em>just</em> mean recording, it can also take up to 64 discrete channels of input from other tracks to be routed anywhere else, <em>even inside the track itself to various fx</em>.</li>
+    </ul>
+  </li>
+  <li>Output
+    <ul>
+      <li>A track can output to any one of 64 individual outputs to another track. (Tutorial Coming soon!)</li>
+      <li>Any media item can output to any one of the 64 64 individual outputs to be then routed elsewhere. (tutorial coming soon)</li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="part-1-one-to-many">Part 1: One to Many</h1>
+
+<h2 id="tracks">Tracks</h2>
+  <img src="/assets/Reaper/OnetoMany.png" alt="One to Many">
+  <div class="image-caption">One to many</div>
+
+<p>This is pretty simple. Most any DAW can do <em>something</em> like this. The difference with Reaper is that there’s no distinction between a normal track and “Aux/FX/Send Track” like in other software.</p>
+
+  <img src="/assets/Reaper/Receive.png" alt="Receives">
+  <div class="image-caption">Where's that noise coming from</div>
+
+<p>A very useful thing to note here is that in Reaper you can not only see sends, but <em>receives</em> as well. If you can’t recall where an empty track is taking data from, then you can click the routing window and see the receive.</p>
+
+<h2 id="one-vi-to-separate-tracks">One VI to separate tracks</h2>
+
+  <img src="/assets/Reaper/BfdMulti.png" alt="BFD in action">
+  <div class="image-caption">BFD out to multiple tracks</div>
+
+<p>As you would expect from a modern DAW, Reaper can easily handle instruments that have multiple outputs. In the image above <a href="https://www.fxpansion.com/products/bfd3/">FxPansion BFD3</a> is outputting to multiple tracks. Nothing special, other than all the things that you can do with it.</p>
+
+<h2 id="fx">FX</h2>
+
+  <img src="/assets/Reaper/FXRouting.png" alt="Routing FX">
+  <div class="image-caption">Routing Parallel FX</div>
+
+<p>A single FX can route itself to many destinations, which of course includes other FX in the chain.</p>
+
+<p>In the image above I have setup a parallel routing scheme. The ReaEQ does nothing except split the signal (any plug-in can do this, and it’s not strictly necessary here, but it does make things easier when you want to get more complex.). At the end of the chain I have a mixer that combines the paths to output a single stereo signal.</p>
+
+<p>You can do a wide variety of routing setups with FX, including sending specific FX to another track (or vice versa!).</p>
+
+<p><a href="https://www.eareckon.com/en/products/eareverb2-reverb-plug-in.html">Shoutout to EAReckon’s EAReverb 2</a>. IMO one of the best algorithmic reverb plug-ins.</p>
+
+<h2 id="fx-bonus">FX Bonus</h2>
+
+  <img src="/assets/Reaper/FXSplit.png" alt="Splitting FX">
+  <div class="image-caption">One to many... other things</div>
+
+<p>Since the “One to Many” paradigm works for FX, you can also have FX that output after processing. Reaper comes with various things that let you split your signal up and send data out to be processed.</p>
+
+<p>Complex processing setups are possible (and encouraged!)</p>
+
+<h1 id="section-b-many-to-one">Section B: Many to one</h1>
+
+<p>Many to one is basically what most people think of as a “Send” or as a “Buss”. Multiple tracks route audio to a single track.</p>
+
+<p>Reaper has multiple ways to achieve the “many to one” routing scenario.</p>
+
+<h2 id="folders">Folders</h2>
+
+  <img src="/assets/Reaper/RoutingFolders.png" alt="Reaper Folders">
+  <div class="image-caption">Routing with Folders</div>
+
+<p>Most DAWs consider folders to be semantic grouping. Reaper uses them for routing of audio and visualization. A track can have a hierarchal setup of tracks “below” it that all feed upwards to the parent in the hierarchy.</p>
+
+<p>Consider the image above. All the drum tracks are routed in to a hierarchy of folders. The following list shows the busses, that is to say the tracks that have <em>no media items</em>, but just have their children’s audio routed to them:</p>
+
+<ul>
+  <li>Drums - receives audio from: Kick, Snares, Toms, Ambient
+    <ul>
+      <li>Snares - receives audio from: Snare, Snare Bottom</li>
+      <li>Toms - receives audio from: Rack, Floor Small, Floor Big</li>
+      <li>Ambient mics - receives audio from: Overheads, Room</li>
+    </ul>
+  </li>
+</ul>
+
+<p>In the image there is a waveform drawn for the buss tracks that shows the combined signal routed to them, but this is not an actionable piece of data. However, top-level tracks can contain media, just like any track.</p>
+
+<h2 id="sends---masterparent-send-on">Sends - Master/Parent send <strong>ON</strong></h2>
+
+  <img src="/assets/Reaper/MasterOn.png" alt="Sends">
+  <div class="image-caption">What differentiates a send from a buss</div>
+
+<p>A track in Reaper can send audio to any other track, and simultaneously output audio from itself. This is just like a normal send in any other DAW, except the destination is just another track. No requirement for the destination to be an “Aux/FX/Send Track” like in other DAWs.</p>
+
+<p>All you have to do is create a send and leave the pictured item checked. Sometimes it’s called “parent send” depending on the folder hierarchy. This is what allows the track to operate normally and also send out data to other tracks.</p>
+
+<h2 id="busses---masterparent-send-off">Busses - Master/Parent send <strong>OFF</strong></h2>
+
+  <img src="/assets/Reaper/MasterOff.png" alt="Busses">
+  <div class="image-caption">What differentiates a buss from a send</div>
+
+<p>When you turn off the Master/Parent send, the track will only output data to its sends. This setup allows you to coalesce audio to a single place without using folder tracks.</p>
+
+<p>Same as setting up a buss track in any other DAW, rather than using Reaper’s folder system.</p>
+
+<h1 id="episode-3-many-to-many">Episode 3: Many to Many</h1>
+
+<iframe src="https://www.youtube.com/embed/Vu9n5AQetfI?ecver=2" width="560" height="315"></iframe>
+
+<p>Let’s start this off with a <a href="http://www.kennymania.com/reaper-videos/">Kenny</a> video.</p>
+
+<p>Here you can see that it’s possible to record multiple channels of data (audio) to a single media item, then split those multiple channels out to their own tracks. This can make something like managing a large multi-channel, but single performance, item very simple. Multitrack drums are particularly useful to be worked in this manner.</p>
+
+<p>Of course, all the other routing features are available here too.</p>
+
+<h1 id="chapter-iv-one-to-one">Chapter IV: One to One</h1>
+
+<p>We already know that “One to One” routing exists, since it’s simply an extension of “One to Many”, but it may not be obvious how useful this can be.</p>
+
+<h2 id="parameter-modulation">Parameter modulation</h2>
+
+  <img src="/assets/Reaper/FXModulation.gif" alt="Modulation madness!">
+  <div class="image-caption">Modulate all of the things!</div>
+
+<p>Another subcategory of “One to One” is that Reaper has parameter modulation for any given FX parameter.</p>
+
+<p>In the image above I have 2 things happening:</p>
+
+<ul>
+  <li>Eq Band 2 gain - modulated by a drum beat. It’s value follows the amplitude of a drum-beat signal routed to it.
+    <ul>
+      <li>This means any signal that you can create can be used to modulate an FX. (It is not audio-rate, but I do not know the limit)</li>
+    </ul>
+
+    <p>edit: The limit is the sample rate divided by the buffer size. Modulation changes once per buffer. So at 44,100khz and a 128 sample buffer size, your maximum modulation speed is 344.53125hz. Due to the ‘stepped’ modulation there is also aliasing and a lot of noise inherent in the signal that must be dealt with by the modulated parameter. This also means that the modulation may change depending on the buffer size! (thanks to evildragon for pointing this out)</p>
+  </li>
+  <li>Eq Band 3 Frequency - modulated by an LFO sine</li>
+  <li>Eq Band 3 Gain - modulated by an LFO sine</li>
+</ul>
+
+<p>There’s also a feature not shown: you can link any parameters to midi CC or to another FX parameter on the same track (even across plug-ins).</p>
+
+<h2 id="workflow-enhancers">Workflow enhancers</h2>
+
+<iframe src="https://www.youtube.com/embed/lwfqrpmzPFI?ecver=2" width="560" height="315"></iframe>
+
+<iframe src="https://www.youtube.com/embed/DXxXMGfSMts?ecver=2" width="560" height="315"></iframe>
+
+<p>The 2 <a href="http://www.kennymania.com/reaper-videos/">Kenny</a> videos above explain some basic, but excellent uses for it simple one-to-one routing.</p>
+
+<h1 id="was-ist-mit-dem-anderen-morgen-das-ist-ein-kapitel-für-sich">Was ist mit dem anderen Morgen? Das ist ein Kapitel für sich.</h1>
+
+  <img src="/assets/Reaper/FXplore.gif" alt="Follow the ball!">
+  <div class="image-caption">What's happening in this gif?</div>
+
+<p>Imagine this: You have a brilliant music making/mixing/producing session and you wake up ready to keep working. One of the great things about Reaper is…</p>
+
+<p>Wait. Scratch that.</p>
+
+<p>One of <strong>the most annoying</strong> things about Reaper is how difficult it can be to figure out how stuff is routed. Don’t believe me? Check out the gif above of me trying to show a <a href="#fx">the fx routing from earlier</a>. I’m sure you have it figured out after a few views right? This is a very simple setup. It’s that parallel routing right? <em>No.</em></p>
+
+<p>I actually changed it slightly, and the EAReverb plug-in is being routed to another track! I’m sure you can understand how confusing that can become eventually, especially if you go nuts with routing. (like I tend to)</p>
+
+<p>Reaper’s routing gives you enough rope to shoot yourself in the foot. When you’re in the groove some very fun and useful things are possible, but when you wake up the next morning… well… good luck.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

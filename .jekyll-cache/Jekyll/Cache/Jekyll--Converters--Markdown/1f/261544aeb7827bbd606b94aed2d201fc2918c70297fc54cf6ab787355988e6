@@ -1,0 +1,365 @@
+I"�V<img src="/assets/Waveform/Good/Macros.png" alt="Macros">
+<div class="image-caption">Keyboard Macros</div>
+
+<p>This is the cleanup post. Only 2 more posts left: Effects/Instruments review and the conclusion. So this post is where I try to cover the other things that I’ve missed so far that I find interesting.</p>
+
+<p>There might be a surprise coming later anyway… ;)</p>
+
+<ul>
+  <li>Good
+    <ul>
+      <li>Clip Layer FX</li>
+      <li>Multisampler</li>
+      <li>Macros</li>
+      <li>Project Management</li>
+      <li>Faceplates</li>
+      <li>Clip Render</li>
+      <li>CPU Metering</li>
+      <li>Freezing</li>
+    </ul>
+  </li>
+  <li>Bad
+    <ul>
+      <li>Scripting</li>
+      <li>Plugin Delay Compensation</li>
+    </ul>
+  </li>
+  <li>Weird
+    <ul>
+      <li>Menu Shortcuts</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html"> Version 9, Part 0: Intro</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html"> Version 9.1.1, Part 1: Browser, Mixing, GUI, VCAs</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html"> Version 9.1.1, Part 2: Modulation, Plugin browsing, Annoyances, GUI</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html"> Version 9.1.1, Part 3: Macros, UI design, Ghost tracks, Buying</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/21/Waveform-9-the-good-the-bad-the-weird-part-4.html"> Version 9.1.1, Part 4: Pattern Generator, Edit Clips, Folder editing, Chord Track</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html"> Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html"> Version 9.1.1, Part 6: MIDI Editing</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html"> Version 9.1.1, Part 7: Recording</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/08/Waveform-9-instruments-and-effect-review.html"> Version 9.1.1, Part 9: Instruments and Effect Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/11/Waveform-9-Conclusion.html"> Version 9.1.1, Part 10: Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/04/05/Tracktion-Waveform-10.html"> Version 10.1.0</a></li>
+    
+
+</ul>
+
+<p><strong>VERSION</strong> - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#good" id="markdown-toc-good">Good</a>    <ul>
+      <li><a href="#clip-layer-fx" id="markdown-toc-clip-layer-fx">Clip Layer FX</a></li>
+      <li><a href="#multisampler" id="markdown-toc-multisampler">Multisampler</a></li>
+      <li><a href="#macros" id="markdown-toc-macros">Macros</a></li>
+      <li><a href="#project-management" id="markdown-toc-project-management">Project Management</a></li>
+      <li><a href="#faceplates" id="markdown-toc-faceplates">Faceplates</a></li>
+      <li><a href="#clip-render" id="markdown-toc-clip-render">Clip Render</a></li>
+      <li><a href="#cpu-metering" id="markdown-toc-cpu-metering">CPU Metering</a></li>
+      <li><a href="#freezing" id="markdown-toc-freezing">Freezing</a></li>
+    </ul>
+  </li>
+  <li><a href="#bad" id="markdown-toc-bad">Bad</a>    <ul>
+      <li><a href="#scripting" id="markdown-toc-scripting">Scripting</a></li>
+      <li><a href="#plugin-delay-compensation" id="markdown-toc-plugin-delay-compensation">Plugin Delay Compensation</a>        <ul>
+          <li><a href="#automation-compensation" id="markdown-toc-automation-compensation">Automation Compensation</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#weird" id="markdown-toc-weird">Weird</a>    <ul>
+      <li><a href="#menu-shortcuts" id="markdown-toc-menu-shortcuts">Menu Shortcuts</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="good">Good</h1>
+
+<h2 id="clip-layer-fx">Clip Layer FX</h2>
+<img src="/assets/Waveform/Good/ClipLayerFX.png" alt="Clip Layer Effects">
+<div class="image-caption">Clip Layer Effects</div>
+
+<p>Clip layer effects is a unique idea. Essentially every clip has a selection of effects that can be applied to it:</p>
+
+<ul>
+  <li>Volume
+    <ul>
+      <li>Volume adjustment - clip level volume</li>
+      <li>Fade in/out.</li>
+      <li>Step volume adjustment - Essentially a <a href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html#step-clips">step clip</a> except just for volume. A neat gate effect.</li>
+    </ul>
+  </li>
+  <li>Pitch/Time
+    <ul>
+      <li>Pitch shift - automated pitch shift with curves.</li>
+      <li>Tape stop-start</li>
+      <li>Warp time - in-place beat warping. Time stretching only specific portions of the audio inside the clip</li>
+    </ul>
+  </li>
+  <li>Effects
+    <ul>
+      <li>Plugin - apply a plugin to the audio. The plugin is rendered, which can take some time on long clips, but ultimately saves CPU.</li>
+      <li>Reverse</li>
+    </ul>
+  </li>
+  <li>Mastering
+    <ul>
+      <li>Normalise</li>
+      <li>Mono - combine left and right channels</li>
+      <li>Invert - polarity inversion</li>
+    </ul>
+  </li>
+</ul>
+
+<p>When you apply a clip FX, a new row is created on the clip that shows the results of the effect. You can see the entire process step-by-step as it happens to the clip. Many of the clip fx have their own settings of course.</p>
+
+<p>In the image above I have a volume fade, a pitch drop, a reverse then I’ve warped the clip. Fast and easy.</p>
+
+<p>Clip Layer FX are simple to explain, but functionally they are extremely fun to use! I’m sure the tape stop/start effect and pitch automation are a big plus for electronic producers, and basically everything available is going to speed up your workflow once you learn to use it.</p>
+
+<p>The only thing that I personally wish existed was a ‘merge’ effect or a ‘split’ effect. While using the clip FX, there’s been times where I wanted to apply different clip fx to multiple clips, then apply the same effect to multiple clips. I’d imagine this is technically difficult to implement, but it’d be a nice workflow improvement.</p>
+
+<p>Nevertheless, once you begin using clip layer FX, other DAW’s implementations of item/region/object based editing might seem drab in comparison. (Though many DAWs do offer more functionality, I don’t know of anything that offers the commonly used actions so easily accessible and nicely presented).</p>
+
+<p><strong>NOTE</strong> - The inability to apply Clip Layer FX to multiple selected/grouped clips in sync bothers me quite a bit. Due to this I have to do all of my multitrack (like drum recordings) audio editing in another DAW. Waveform really needs to improve this.</p>
+
+<h2 id="multisampler">Multisampler</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/MultiSampler.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Clip straight to multisampler</div>
+
+<p>I will cover the Multisampler in the next post, but for now I want to discuss how easy it is to use. You may be familiar with <a href="https://www.ableton.com/en/manual/converting-audio-to-midi/">Ableton’s Slice to New MIDI Track</a> function, and this is very similar.</p>
+
+<p>You can take any clip and in the properties panel click ‘multisample’. The clip will be loaded in to a multisampler, transient detected and ready to go.</p>
+
+<p>From there you can use the MIDI editing tools, or use Multisampler as you desire to play your clip via MIDI. Quick way to sample sounds or to mangle your own beats.</p>
+
+<p>Unfortunately you are limited to the simplicity of Multisampler, but that is another topic.</p>
+
+<h2 id="macros">Macros</h2>
+
+<img src="/assets/Waveform/Good/Macros.png" alt="Macros">
+<div class="image-caption">Keyboard Macros</div>
+
+<p>Creating keyboard macros in Waveform takes a small bit of effort, but it’s relatively powerful in the context of what Waveform offers.</p>
+
+<p>This topic is purposely conflated with <a href="#scripting">scripting</a>. Keyboard macros and Scripting utilize the same interface and functionality. I’ve split them up because creating simple ‘do X Y then Z’ keyboard macros is nice.</p>
+
+<p>Creating a macro is done by clicking the <code class="highlighter-rouge">+</code> under ‘Macros’ in the ‘Keyboard Shortcuts’ settings window. Make sure ‘Show script Editor’ is on and now you can add your actions in a Javascript-like format. When you click other shortcuts, you can see their underlying code to call them.</p>
+
+<p>That’s all there is to it.</p>
+
+<h2 id="project-management">Project Management</h2>
+
+<img src="/assets/Waveform/Good/ProjectManagement.png" alt="Project Management">
+<div class="image-caption">Project Management</div>
+
+<p>Project management in Waveform is a joy. Multiple versions of projects are easy to create and keep track of. Recorded and imported assets are separated. Renders are kept in a list. Finding missing material is easy. Edits (project versions essentially) have rendered copies that you can listen back to right in the project page. Notes are available for each edit in plain sight.</p>
+
+<p>It’s great. I also love that it lubricates the process of creating and maintaining multiple versions. Many <a href="https://support.apple.com/en-us/HT202255">macOS apps have this feature already</a>, but the way Waveform handles it is excellent.</p>
+
+<p>For general studio work the project management makes life better.</p>
+
+<h2 id="faceplates">Faceplates</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/Faceplate.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">My faceplate is ugly, but functional</div>
+
+<p>Faceplates are user-creatable GUIs that control a plugin or <a href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html#macro-parameters">macro parameters</a>.</p>
+
+<p>You have a selection of “sliders” (knobs too), labels, parameter-direct controls and an XY controller. There’s currently 5 skins for controls. The background can be changed and there’s various parameters for handling the background.</p>
+
+<p>In the video above I created a faceplate to control <a href="https://www.fabfilter.com/products/pro-q-2-equalizer-plug-in">Fabfilter Pro-Q 2</a>. Here’s what I setup:</p>
+
+<ul>
+  <li>Tilt-shift - <a href="/music/2017/12/05/30-days-without-Fabfilter-products-pt2.html#tiltshift">a tilt shift filter</a>. Pro-Q has one, but I’m using a macro parameter to control 2 shelving filters inverse of each other. Just one knob does this!</li>
+  <li>De-Mud - this is a band setup to remove mud from the track. It uses a macro parameter behind the scenes so the Q and gain are connected. The deeper the cut, the narrower the Q. All from one knob.</li>
+  <li>Low cut - a very steep high pass. The knob changes the frequency of it.</li>
+  <li>ResKill - I have an instrument I record frequently that has a very annoying resonance at 4.38khz. So i just made a knob that lets me ‘turn it off’.</li>
+  <li>Freq/q/gain/shape - I also added one freely-accessible band. Normal EQ controls here.</li>
+</ul>
+
+<p>With this setup I never have to look at Pro-Q. I can have various setups tuned for different instruments or situations.</p>
+
+<p>Perhaps you have a massive sampling instrument or a plugin chain that requires digging through multiple windows/menus/tabs to adjust things. Faceplates save the day. Spend 20 minutes setting up a faceplate, save a faceplate preset, and now your complex instrument/fx chain is controllable from a clean GUI that you designed yourself.</p>
+
+<p>Pretty neat.</p>
+
+<h2 id="clip-render">Clip Render</h2>
+
+<img src="/assets/Waveform/Good/ClipRender.png" alt="Clip Rendering">
+<div class="image-caption">Clip Render</div>
+
+<p>Often it’s desirable to render a clip, especially when using <a href="#clip-layer-fx">clip fx</a>. Waveform makes this a smooth operation.</p>
+
+<p>Click the icon that looks like a ‘new file’ icon on the clip. You can optionally pass the clip through plugins (right click for this option), which is <em>fantastic</em>. Then you can drag it anywhere you want. Your desktop, a folder, inside Waveform… whatever.</p>
+
+<p>There’s not much to this other than how handy it can be.</p>
+
+<p>My only nitpick is that I can’t find a way to render multiple selected clips at once. Hopefully someone corrects me and says this is possible.</p>
+
+<h2 id="cpu-metering">CPU Metering</h2>
+
+<img src="/assets/Waveform/Good/CPUMeter.png" alt="CPU Meter">
+<div class="image-caption">CPU Meter</div>
+
+<p>Waveform’s CPU monitoring is <em>about</em> as good as it gets. (The death bringing DAW is better)</p>
+
+<p>Click the dashed circle in the upper right to pull up the ‘CPU Usage’ graph. From there you can see every track in the project, the assigned FX, the processing time usage and the latency of each plugin.</p>
+
+<p>Plugins can be enabled or disabled via this graph as well. A nice shortcut indeed.</p>
+
+<p>There’s an interesting option here to ‘Freeze’ your entire edit. This renders all of the tracks and disables the plugins that were rendered in the process. I’m not exactly sure how often you’d want to do this. This function is not undoable either, which I think makes it even less useful.</p>
+
+<p>This is also where you access that unusable <a href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html#low-latency-monitoring">Low Latency Monitoring</a>.</p>
+
+<h2 id="freezing">Freezing</h2>
+
+<img src="/assets/Waveform/Good/Freezing.png" alt="Freezing">
+<div class="image-caption">Freezing with Freeze Points</div>
+
+<p>Freezing is basically a semi-render. The idea is that when you have a track consuming too much processing time, you render the track and disable the effects on it. Then the effects are removed from being processed, while you still hear the result (as it was rendered). The downside is that since the effects were rendered, the frozen effects can not be adjusted.</p>
+
+<p>Most good DAWs have freezing, and like Waveform, most DAWs do it painlessly.</p>
+
+<p>What Waveform brings to the table that’s somewhat unique (but not totally) is the concept of freeze points. Rather than freezing your <em>entire</em> process chain, you can place a ‘Freeze Point’ and the track is only frozen up to that. Everything after that point is still processed in realtime.</p>
+
+<p>Freeze points allow more flexibility. You can only freeze up to the point where the most demanding plugin is, and allow later plugins to be available for adjustment in realtime.</p>
+
+<h1 id="bad">Bad</h1>
+
+<h2 id="scripting">Scripting</h2>
+
+<img src="/assets/Waveform/Bad/Scripting.png" alt="Scripting">
+<div class="image-caption">Scripting... not so good</div>
+
+<p>The <a href="#macros">keyboard macros</a> functionality is provided through a javascript-_like_ language.</p>
+
+<p>Theoretically this allows you to script custom actions… except it’s very limited compared to what other DAWs with scripting ability offer you.</p>
+
+<ol>
+  <li>It’s not javascript. <a href="https://github.com/WeAreROLI/JUCE/blob/master/modules/juce_core/javascript/juce_Javascript.cpp">JUCE Javascript</a> is a very small subset of <a href="https://www.javascript.com">Javascript</a> that’s missing a <strong>huge</strong> amount of functionality. It’s lacking even basic constructs that were available in <a href="https://en.wikipedia.org/wiki/ECMAScript">ECMAScript 1 in 1997</a>. You get strings, arrays, ints, a little bit of math, C-like if statements, do/while and c-like for loops… and that’s about it. It’s more like a bastardized C without memory access and the standard library of C89 (i.e. basically nothing), not Javascript.</li>
+  <li>The API is small. The number of actions that Waveform provides is relatively small already, and not everything is accessible. Major parts of a project are currently inaccessible via the scripting API, for instance you can not set/get anything regarding I/O. There’s no way to tell if a track is a submix, folder or normal track. Most project data is inaccessible or editable.</li>
+  <li>No GUIs. Scripts (‘Macros’) offer no sort of GUI other than Tracktion.showMessage() which gives you an anemic tooltip popup.</li>
+  <li>No debugging. There’s no way to debug a script AFAIK other than using the previously mentioned popup messages.</li>
+  <li>No standardized sharing. Someone did <a href="http://www.kvraudio.com/forum/viewtopic.php?f=22&amp;t=500416">make a thread for working macros</a>, but there’s no other standardized way to share things you’ve created.</li>
+</ol>
+
+<p>The state of scripting is improving with each minor update, but currently it’s nothing more than a decent macro system, <em>not</em> a scripting system.</p>
+
+<p>There’s nothing wrong with that either. Just don’t be sucked in thinking you’re going to be <a href="/ReaperScripts.html">doing crazy stuff</a>.</p>
+
+<h2 id="plugin-delay-compensation">Plugin Delay Compensation</h2>
+
+<img src="/assets/Waveform/Bad/PDC.png" alt="PDC">
+<div class="image-caption">PDC isn't everywhere</div>
+
+<p>Some plugins exhibit latency. That latency needs to be compensated otherwise things desync. Waveform <em>tries</em> to do this in most places, but there’s places where it doesn’t.</p>
+
+<ul>
+  <li><a href="#clip-layer-fx">Clip FX</a> are not compensated (as shown in the image above)</li>
+  <li>Racks are often not compensated correctly.</li>
+  <li>Latency causing plugins <em>after</em> an Aux Return are not compensated.</li>
+  <li>Latency causing plugins <em>after</em> an Aux Send are not compensated.</li>
+  <li>Sometimes PDC doesn’t seem to work correctly at all. I’ve encountered scenarios where the compensation is off by a millisecond or two for no discernible reason. Save the edit. Reload it and everything is fine.
+    <ul>
+      <li>I’ve been tricked in to trying to fix problems that I thought were part of the recording because of phase cancellation issues that were actually the result of incorrect latency compensation! (I wish I knew what caused this so I could report it, Sorry devs!)</li>
+    </ul>
+  </li>
+</ul>
+
+<h3 id="automation-compensation">Automation Compensation</h3>
+
+<img src="/assets/Waveform/Bad/Cursor.png" alt="Automation is sad guys, very sad">
+<div class="image-caption">Automation not compensated</div>
+
+<p>Automation is not latency compensated. That sucks. <strong>GUYS</strong> (and girls) <strong><em>THAT SUCKS</em></strong>.</p>
+
+<p>In the image above, on the yellow clip, I have volume automation (that light blue line) set so that everything should be muted up until part A. I have a plugin on the track with 1400ms of delay (that’s a lot).</p>
+
+<ul>
+  <li>What <em>should</em> happen is that the automation works and everything is muted until part A, then the audio becomes audible.</li>
+  <li>What <em>actually</em> happens is that the audio is muted for an extra 1400ms and doesn’t start until where I marked part B.</li>
+</ul>
+
+<p>The net result is that all of the automation on the track is offset forward by the amount of plugin latency on the track. So anytime you add a plugin with latency, you need to adjust any precision automation. If you remove a plugin with latency then you need to adjust your automation again.</p>
+
+<p><strong>This shouldn’t be a dealbreaker for most folks</strong> because a lot of DAWs screw this up, and in fact most of the major DAWs do. If I had to guess, I’d say that 75% of the DAWs out there right now don’t do this correctly. That doesn’t mean that Waveform can’t be one of the few that <em>does</em> do it correctly though.</p>
+
+<h1 id="weird">Weird</h1>
+
+<h2 id="menu-shortcuts">Menu Shortcuts</h2>
+
+<img src="/assets/Waveform/Bad/Shortcuts.png" alt="Shortcuts missing">
+<div class="image-caption">What's missing here?</div>
+
+<p>Menus in Waveform show the keyboard short assigned to them… <strong>sometimes</strong>.</p>
+
+<p>There’s various menus around the program that don’t show what you’d think is the associated shortcut. ‘Create a new track’ is the example above. I suspect that this is a different function than ‘Insert new Track’ (<code class="highlighter-rouge">T</code> by default), and that’s why the shortcut doesn’t show.</p>
+
+<p>I’ve found a number of them around Waveform and it is a mild hinderance to learning to be proficient in the software.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 12 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

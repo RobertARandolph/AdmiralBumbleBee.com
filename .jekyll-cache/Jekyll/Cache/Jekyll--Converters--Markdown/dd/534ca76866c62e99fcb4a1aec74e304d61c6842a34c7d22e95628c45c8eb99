@@ -1,0 +1,573 @@
+I"�<img src="/assets/WinRant/Update.png" alt="Windows Update">
+<div class="image-caption">Windows Update</div>
+
+<p>Anyone that reads this knows that I hate <a href="https://en.wikipedia.org/wiki/Microsoft_Windows">Microsoft Windows</a>. I get questions fairly frequently about why, and the reasons require their own post.</p>
+
+<p>This is that post.</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/12/05/30-days-with-Cakewalk.html">30 days with Cakewalk</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/12/22/Cakewalk-Part-1-Almost-Everything.html"> Part 1: Almost Everything.</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#warning" id="markdown-toc-warning">WARNING</a></li>
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#typing" id="markdown-toc-typing">Typing</a>    <ul>
+      <li><a href="#shortcuts" id="markdown-toc-shortcuts">Shortcuts</a></li>
+    </ul>
+  </li>
+  <li><a href="#setup" id="markdown-toc-setup">Setup</a></li>
+  <li><a href="#configuration" id="markdown-toc-configuration">Configuration</a>    <ul>
+      <li><a href="#keyboard-shortcuts" id="markdown-toc-keyboard-shortcuts">Keyboard shortcuts</a>        <ul>
+          <li><a href="#alt-f4" id="markdown-toc-alt-f4">Alt-F4</a></li>
+        </ul>
+      </li>
+      <li><a href="#consistency" id="markdown-toc-consistency">Consistency</a></li>
+      <li><a href="#backups" id="markdown-toc-backups">Backups</a></li>
+      <li><a href="#text-editing" id="markdown-toc-text-editing">Text Editing</a></li>
+      <li><a href="#codecs" id="markdown-toc-codecs">Codecs</a></li>
+    </ul>
+  </li>
+  <li><a href="#design-issues" id="markdown-toc-design-issues">Design issues</a>    <ul>
+      <li><a href="#hidpi" id="markdown-toc-hidpi">HiDPI</a></li>
+      <li><a href="#eula" id="markdown-toc-eula">EULA</a></li>
+    </ul>
+  </li>
+  <li><a href="#windows-update" id="markdown-toc-windows-update">Windows Update</a></li>
+  <li><a href="#development" id="markdown-toc-development">Development</a></li>
+  <li><a href="#sound" id="markdown-toc-sound">Sound</a>    <ul>
+      <li><a href="#multiclient-audio" id="markdown-toc-multiclient-audio">Multiclient Audio</a></li>
+      <li><a href="#robustness" id="markdown-toc-robustness">Robustness</a></li>
+      <li><a href="#sample-rates" id="markdown-toc-sample-rates">Sample Rates</a></li>
+      <li><a href="#device-app-attachment" id="markdown-toc-device-app-attachment">Device-App attachment</a></li>
+      <li><a href="#asio-panels" id="markdown-toc-asio-panels">ASIO panels</a></li>
+      <li><a href="#performance" id="markdown-toc-performance">Performance</a></li>
+    </ul>
+  </li>
+  <li><a href="#files" id="markdown-toc-files">Files</a>    <ul>
+      <li><a href="#no-quicklook-in-explorer" id="markdown-toc-no-quicklook-in-explorer">No Quicklook in Explorer</a></li>
+      <li><a href="#filesystem-is-wonky" id="markdown-toc-filesystem-is-wonky">Filesystem is wonky</a></li>
+      <li><a href="#program-files-x86" id="markdown-toc-program-files-x86">Program Files (x86)</a></li>
+    </ul>
+  </li>
+  <li><a href="#gui" id="markdown-toc-gui">GUI</a>    <ul>
+      <li><a href="#consistency-1" id="markdown-toc-consistency-1">Consistency</a></li>
+      <li><a href="#taskbar-and-notifications" id="markdown-toc-taskbar-and-notifications">Taskbar and Notifications</a></li>
+      <li><a href="#alt-tab" id="markdown-toc-alt-tab">Alt-Tab</a></li>
+      <li><a href="#menu-bar" id="markdown-toc-menu-bar">Menu bar</a></li>
+      <li><a href="#screenshots" id="markdown-toc-screenshots">Screenshots</a></li>
+      <li><a href="#stuff-i-dont-want" id="markdown-toc-stuff-i-dont-want">Stuff I don’t want</a></li>
+    </ul>
+  </li>
+  <li><a href="#things-that-just-dont-work-right" id="markdown-toc-things-that-just-dont-work-right">Things that just don’t work right</a>    <ul>
+      <li><a href="#slow-down" id="markdown-toc-slow-down">Slow down</a></li>
+      <li><a href="#cortana" id="markdown-toc-cortana">Cortana</a></li>
+      <li><a href="#deleting-files" id="markdown-toc-deleting-files">Deleting files</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion-mostly" id="markdown-toc-conclusion-mostly">Conclusion… mostly.</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="warning">WARNING</h1>
+
+<p><strong>I AM NOT SAYING WINDOWS IS BAD</strong>.</p>
+
+<p>It is. You know it is. I know it is. We don’t need to cover that.</p>
+
+<p>I’m explaining <em>why I dislike using Windows</em>.</p>
+
+<p>Many of these reasons may not apply to you, and that’s okay. It is my computer and these are the things that bother me about using Windows, and <em>some</em> reasons why this Cakewalk review will be cut short. (There’s some more serious Cakewalk-related reasons though).</p>
+
+<p>If you have suggestions to improve my Windows experience and that would be wonderful, but there’s a very high likelihood that I have already tried. Don’t let that stop you from making suggestions.</p>
+
+<h1 id="video">Video</h1>
+
+<p><strong>HAH</strong></p>
+
+<p>No video this week because I couldn’t figure out a sensible screen capture and editing workflow that let me work to my normal standard of quality (which isn’t even that great anyway!).</p>
+
+<p>I did learn about <a href="https://fxhome.com">Hitfilm</a>, which is a pretty decent program.</p>
+
+<h1 id="typing">Typing</h1>
+
+<img src="/assets/WinRant/Language.png" alt="Language Settings">
+<div class="image-caption">Language Settings</div>
+
+<p>I’m a bit weird when it comes to typing. I type with a keyboard layout called <a href="https://colemak.com/">Colemak</a>. If you care why, <a href="http://mkweb.bcgsc.ca/carpalx/">read here</a>. It’s one of the most efficient layouts with the fewest keys moved.</p>
+
+<p>I also love doing language study. I’m particularly keen on studying vietnamese and korean. So this means using <a href="https://en.wikipedia.org/wiki/Telex_(input_method)">Telex</a> and a hangul layout with a <a href="https://support.microsoft.com/en-us/help/130053/howto-how-to-use-hangeul-korean-windows-input-method-editor-ime">korean IME</a>. I also switche to japanese study occasionally, which means using a <a href="https://en.wikipedia.org/wiki/Japanese_input_methods">japanese IME</a>.</p>
+
+<p>I also type with <a href="https://www.kaufmann.no/roland/dvorak/">dvorak programmer</a>, and of course with QWERTY occasionally. When writing in German I usually switch to <a href="https://neo-layout.org/index_en.html">Neo</a> as well.</p>
+
+<p>To complicate this all even more, I learned a re-arranged hangul layout that matches the transformation of QWERTY-&gt;colemak in terms of key placement. Telex is a special case that <em>shouldn’t</em> care where your keys are (Windows cares though…)</p>
+
+<p>I also have caps lock remapped to control, pause to escape, HL (h and l typed together) to escape and I have application specific hotkeys all over the place.</p>
+
+<p>Setting this up in Windows is <strong>impossible</strong>. Not <em>difficult</em>, but <strong>impossible</strong>.</p>
+
+<p>I’ve managed to get Colemak working fine, that’s easy. Switching to another layout on the fly is difficult (it’s a simple keypress in macOS). Using multiple IMEs it’s incredibly difficult. Using a hangul layout + IME with a colemak layout transformation requires writing my own keyboard layout (including all sublayers!).</p>
+
+<p>So when I’m in Windows I can type english in Colemak and just live with that… <em>almost</em>.</p>
+
+<p>Some applications don’t seem to respect the layout I’ve setup in the Region and Language settings. I’ve found a few applications where I can type in textboxes fine, but keyboard shortcuts work like QWERTY. I even found an application that made control back into caps lock!</p>
+
+<h2 id="shortcuts">Shortcuts</h2>
+
+<img src="/assets/WinRant/XKeymacs.png" alt="Windows shortcut... solution?">
+<div class="image-caption">Windows shortcut... solution?</div>
+
+<p>It’s <a href="/general/2018/10/06/Editor-Musings.html">no secret that I love emacs</a>. Even though prefer using vim bindings, I utilize a number of emacs shortcuts when I type.</p>
+
+<ul>
+  <li>Control (shift to select) - f - move caret right</li>
+  <li>Control (shift to select) - b - move caret left</li>
+  <li>Control (shift to select) - n - move caret one line down</li>
+  <li>Control (shift to select) - p - move caret one line up</li>
+  <li>Control (shift to select) - a - move caret beginning of line</li>
+  <li>Control (shift to select) - e - move caret end of line</li>
+  <li>Control- h - delete character left</li>
+  <li>Control- d - delete character right</li>
+  <li>Control- k - delete from caret to end of line</li>
+  <li>Control- v - scroll down</li>
+  <li>Control- l - recenter caret to center of page</li>
+  <li>Control- t - transpose characters</li>
+  <li>Control- o - insert line</li>
+  <li>Control- k - cut</li>
+  <li>Control- y - paste (yank)</li>
+</ul>
+
+<p>I use these commands like it’s second nature. Even when doing normal typing I constantly use these commands to do light editing to text. It’s much easier than reaching for the arrow keys, page up/dn keys, backspace and there’s no analog to transpose.</p>
+
+<p>These are <em>native</em> to macOS. Nothing needs to be installed. They’re also common in most shell environments thanks to <a href="https://en.wikipedia.org/wiki/GNU_Readline">Readline</a>.</p>
+
+<p><a href="http://www.cam.hi-ho.ne.jp/oishi/indexen.html">There is a potential solution to this in Windows</a> but it has some problems. Keys like C-a and C-v are already taken by the OS as select all and paste respectively. (This is also an issue when using a non-cmd.exe/powershell terminal where c-c and c-z are already taken, so you can’t copy/paste text without using other shortcuts).</p>
+
+<p>XKeymacs has a number of issues besides that, but the inability to type <code class="highlighter-rouge">c-a c-k</code> to delete a line drives me bonkers. It’s built into my brain more firmly than where the ‘h’ key is.</p>
+
+<h1 id="setup">Setup</h1>
+
+<img src="/assets/WinRant/Runtime.png" alt="Let's install a few runtimes...">
+<div class="image-caption">Let's install a few runtimes...</div>
+
+<p>Windows comes with very few things, which can be nice, but it is also problematic when you want to get a system up and running for productivity.</p>
+
+<p>You will need to get drivers installed for nearly every single part of your system, and you will probably spend time figuring out which version of the drivers are correct to have a stable system. Don’t forget your peripherals as well!</p>
+
+<p>Then you probably want some sort of application to deal with images, some sort of application for browsing the Internet, an application for listening to music, some sort of antivirus/firewall (or you will need to set up Windows variations of these), something for mail etc… Once you have all that going then you’re almost set.</p>
+
+<p>And of course once you get all that set up you realize that none of these applications are designed to work with each other in any way whatsoever, and nor do they respect the file system in a consistent way so if you begin to work on a workflow that utilizes the software you need to come up with your own system to follow and integrate that with a variety of other applications ideas of how you’re supposed to use your computer.</p>
+
+<p>Let’s not forget all the different runtimes that you need to install! C++, .net, C++ different version, .net again, some weird thing that’s probably a virus but the application needs anyway…</p>
+
+<h1 id="configuration">Configuration</h1>
+
+<img src="/assets/WinRant/Screen.png" alt="Where's that setting to change my primary screen again?">
+<div class="image-caption">Where's that setting to change my primary screen again?</div>
+
+<p>You have everything set up, and it probably took less work than I’ve said (even though for me it takes even more work), and now you want to configure your computer to work how you want it to.</p>
+
+<p>Of course you would just go to one preferences pane, or a location where all of your configuration files are held, and edit things as necessary right?</p>
+
+<p>Well… No. You will need to go into multiple applications and through multiple configuration dialogues to find what you need to change. These things all write to different places on the disc, or the registry and if you make a mistake then good luck figuring out how to undo it if it’s not changeable from the GUI.</p>
+
+<p>And if for some reason the application that controls those settings has some sort of problem, then you are really screwed. On my window system I have at least a dozen applications the control configuration for how my system operates in some manner. Video card drivers, mouse drivers, three different things to control how the screen displays, two different ways to interact with USB devices, etc… It never stops.</p>
+
+<p>In macOS the same equipment (same system, same peripherals) are controlled by 1 preferences app, all of the prefs are in the same directory in human-readable text files, and the GUIs are all consistent (except the mouse drivers). Most Linux DE’s are equally easy, but the preferences are in predictable directories if required.</p>
+
+<h2 id="keyboard-shortcuts">Keyboard shortcuts</h2>
+
+<img src="/assets/WinRant/Shortcuts.png" alt="Shortcuts... Nope.">
+<div class="image-caption">Shortcuts... Nope.</div>
+
+<p>Of course, you can’t change application shortcuts unless the application specifically offers you the capability to do so. Many applications do not give you that capability, even though it may be incredibly useful.</p>
+
+<p>In macOS you can change the shortcuts for nearly the entire OS and any application as needed if there’s a menu item for the action.</p>
+
+<h3 id="alt-f4">Alt-F4</h3>
+
+<p><strong>WHO IN THEIR RIGHT MIND THOUGHT THAT ALT-F4 WAS A SENSIBLE SHORTCUT TO CLOSE A WINDOW????????????????????????</strong></p>
+
+<p>Have you really thought about that? It’s a difficult shortcut to press with one hand, despite being a common task. What about something like say… alt-q, or command-q?</p>
+
+<h2 id="consistency">Consistency</h2>
+
+<p>If you buy a new computer with Windows preinstalled on it, you will have no idea how it works or what is installed on it. There is a great deal of manufacturer splintering where every manufacturer has their own custom Windows installation set up that they provide, and it is often not consistent per brand. Some companies splinter their Windows experiences based upon model.</p>
+
+<p>This is not an issue if you are a self builder, it can be a major issue if you are a business owner that requires support plans for your systems (like me).</p>
+
+<h2 id="backups">Backups</h2>
+
+<img src="/assets/WinRant/Restore.png" alt="Restore/Backup? LOL.">
+<div class="image-caption">Restore/Backup? LOL.</div>
+
+<p>Having a good backup solution is one the most important things to do when you first set up a system. Windows does not come with a backup solution that is even remotely decent. It requires that you purchase and install a backup solution from another party, or be technical enough to set up something like <a href="https://rsync.samba.org/">rsync</a> (which isn’t the best backup solution anyway).</p>
+
+<p>I use the <a href="https://www.crashplan.com/en-us/">Crashplan for business</a>, but I also like having a local backup in case anything goes wrong and I need a quick restore, or to retrieve a handful files. Windows doesn’t make this easy, in effect makes it somewhat difficult since backing up a window system so that it can be restored in place onto a new computer is nearly impossible. You generally are held to restoring only programs and files.</p>
+
+<p>In macOS I was able to keep a single restore running from 2008 to 2017 across multiple machines, retaining the entire operating system setup in its entirety. It’s also free with macOS. Time machine <em>does</em> have some issues of its own when run on HFS volumes (which are uncommon now) but for a local backup solution as part a redundant data backup plan it’s fantastic. Windows… not fantastic.</p>
+
+<h2 id="text-editing">Text Editing</h2>
+
+<img src="/assets/WinRant/Notepad.png" alt="Windows Text Editing brilliancy">
+<div class="image-caption">Windows Text Editing brilliancy</div>
+
+<p>I’m convinced Sublime is so popular because most of the users are Windows users. (I know a number of macOS Sublime users, and Sublime is a quite nice, snappy application. So don’t misinterpret me here…)</p>
+
+<p>Setting up emacs/vim in Windows is a massive pain in the buttocks. This is a big deal for me, and a major part of setting up a working operating system for me.</p>
+
+<p>If you want to do something as incredibly simple as word processing or text editing, you’re off to your favorite search engine to find something.</p>
+
+<p>Don’t fret though! Windows 10 comes with Candy Crush! Blergh.</p>
+
+<h2 id="codecs">Codecs</h2>
+
+<img src="/assets/WinRant/Codec.png" alt="Codecs">
+<div class="image-caption">Codecs</div>
+
+<p>After a long day you want to just sit down and watch some videos. Not quite yet… you need to install some codecs first. You also need to know that’s what you need, and you need to find a pack of them that hopefully doesn’t come with a bunch of ad/spyware. Oh yeah, and it may not have that <em>one</em> codec you need.</p>
+
+<p>Or you can install VLC of course.</p>
+
+<p>Wait a second there… VLC doesn’t let you export certain formats, in particular h264. If you want to use one of the most common video formats in the general computing world then you need to install ffmpeg, possibly for each application you want to use. Hopefully your <em>paid</em> application supports it, but it might not.</p>
+
+<h1 id="design-issues">Design issues</h1>
+
+<img src="/assets/WinRant/Tracking.png" alt="Why is this _even_ a screen?">
+<div class="image-caption">Why is this _even_ a screen?</div>
+
+<p>User as administrator? Why is that normal?</p>
+
+<p>No true safe mode? (Try it and see how many apps startup!)</p>
+
+<p>Update broken? It’ll try to install it again!</p>
+
+<p>Drivers? Why are drivers still a thing for simple devices?</p>
+
+<p>Telemetry constantly, <strong>CONSTANTLY</strong> uses your disk drive. It’s nearly impossible to turn off. If you pay attention to logging you’ll see that Windows is constantly messing with your disk drive for no good reason.</p>
+
+<p>Install only on primary partition… unless you’re a geek that wants to use a third-party bootloader. (ahem)</p>
+
+<p><strong>NO</strong> I do not want to switch to Edge. STOP ASKING ME.</p>
+
+<p>Why are there ads in my start menu?</p>
+
+<p>How did these random games show up that I never installed? Why is there stuff constantly showing up in there that I did not want, don’t need and did not give permission to be there?</p>
+
+<p>Why is Windows Defender thrashing my drive?</p>
+
+<p>Why do I need to give EVERY SINGLE APPLICATION PERMISSION TO DO ANYTHING????????????</p>
+
+<h2 id="hidpi">HiDPI</h2>
+
+<img src="/assets/WinRant/Scaling.png" alt="Scaling at least exists in Windows 10">
+<div class="image-caption">Scaling at least exists in Windows 10</div>
+
+<p>Have you tried to use HiDPI in Windows? It’s a disaster. About 1/4 of the applications are simply broken, and the rest are ugly or run unusually slow.</p>
+
+<p>It’s not perfect on macOS of course (nothing you can do about low res bitmaps), but at least nothing is outright broken from the user’s point of view. Most Linux DEs handle this alright as well.</p>
+
+<p>Then again, as a developer, Windows’ HiDPI support is much nicer to deal with. So why is everyone screwing it up?</p>
+
+<h2 id="eula">EULA</h2>
+
+<img src="/assets/WinRant/Services.png" alt="Windows Services EULA">
+<div class="image-caption">Windows Services EULA</div>
+
+<p><a href="https://www.microsoft.com/en-us/servicesagreement/">Let’s take a look here</a>, which you agree to implicitly when you install Windows 10.</p>
+
+<p><code class="highlighter-rouge">To the extent necessary to provide the Services to you and others, to protect you and the Services, and to improve Microsoft products and services, you grant to Microsoft a worldwide and royalty-free intellectual property license to use Your Content, for example, to make copies of, retain, transmit, reformat, display, and distribute via communication tools Your Content on the Services.</code></p>
+
+<p>Hmm… So they can use your content to advertise their products, for free. Neat.</p>
+
+<p><a href="https://www.howtogeek.com/fyi/windows-10-sends-your-activity-history-to-microsoft-even-if-you-tell-it-not-to/">You can’t stop them from getting your information either</a> (They’ve said this is fixed…)</p>
+
+<p>No thanks.</p>
+
+<h1 id="windows-update">Windows Update</h1>
+
+<img src="/assets/WinRant/Update.png" alt="Windows Update">
+<div class="image-caption">Windows Update</div>
+
+<p>What an incredible piece of garbage this is. Microsoft wanted you to upgrade your system more, so they create a system that forces you to upgrade your system, even when you don’t want to.</p>
+
+<p>I have been unable to turn off Windows update no matter what I do. I have tried every single possible thing that I found on the Internet, and Windows still manages to turn Windows update back online and update at the worst possible times.</p>
+
+<p>I have spent more time trying to get Windows not update than I’ve spent actively trying to keep my system in a working state.Of course I suspect many other people do this and it results in many systems being out of date because the users became so frustrated with Windows update that they turned it off somehow.</p>
+
+<p>I have lost a significant amount of data due to Windows update. I absolutely despise it. It’s decided to restart when I step away from my computer while a long-running process is going, causing me to lose hours of data. It’s put my computer in a restart loop because an update failed.</p>
+
+<p>I have also had to reinstall Windows twice because Windows update installed something that caused my video card drivers to not operate correctly, and of course I was unable to fix it because the settings that controlled us were in a binary format and I was unable to edit them in safe mode without the drivers running.</p>
+
+<p><a href="https://www.engadget.com/2018/10/05/windows-10-october-update-1809-delete-data-wipe-user-profile/">I’m glad I’m not one of the people that lost everything because of Windows Update</a>. Lest you think that is someone doing it wrong, <a href="https://www.forbes.com/sites/gordonkelly/2018/10/06/microsoft-windows-10-update-lost-data-upgrade-windows-7-windows-xp-free-upgrade/#3a69d7b66fa4">Microsoft themselves cofirmed it</a>. You know, <a href="https://www.digitaltrends.com/computing/microsoft-more-october-2019-update-bugs/">Microsoft really is something</a>.</p>
+
+<p><a href="https://www.ghacks.net/2018/11/23/german-federal-office-bsi-publishes-telemetry-analysis/">Plus they spy on you anyway…</a>.</p>
+
+<p><strong>I REALLY HATE WINDOWS UPDATE</strong></p>
+
+<p>If there was one singular reason why I can’t stand Windows, this is why. I have to choose between having a <em>working</em> system and having a working up-to-date system.</p>
+
+<h1 id="development">Development</h1>
+
+<img src="/assets/WinRant/Install.png" alt="Installing things sucks.">
+<div class="image-caption">Installing things sucks.</div>
+
+<p>I had to set up <a href="https://www.python.org/">Python</a>, then <a href="https://www.ruby-lang.org/en/">Ruby</a>, then <a href="https://www.java.com/en/">Java</a>, then <a href="https://docs.microsoft.com/en-us/windows/wsl/install-win10">WSL</a>, then <a href="https://git-scm.com/download/win">Git</a>, then… about 25 other things.</p>
+
+<p>It goes on and on, and guess what? None of these applications utilize a similar installer, install to a similar location, or even operate similarly in any manner.</p>
+
+<p>And of course, most of them don’t even work properly. It took me nearly an entire day did get Ruby working correctly in Windows, and then another day messing with Python and learning to <a href="https://docs.python.org/3/using/windows.html">use it in Windows</a>.</p>
+
+<p>I can’t even find a terminal that works somewhat sanely. Powershell is limited, and the bash alternatives are all slow or strangely missing common tools. Forget even trying to get my preferred shell (<a href="https://fishshell.com">fish</a>) running.</p>
+
+<p>Even doing something as simple as downloading <a href="https://visualstudio.microsoft.com/">Visual Studio</a> and attempting to compile the <a href="https://www.steinberg.net/en/company/technologies/vst3.html">VST3 SDK examples</a> didn’t work correctly. In fact even Microsoft’s own examples for C# and C++ did not work correctly!</p>
+
+<p>And don’t even get me started on <a href="https://chocolatey.org/">chocolatey</a>… even just <em>installing that</em> is a pain.</p>
+
+<h1 id="sound">Sound</h1>
+
+<h2 id="multiclient-audio">Multiclient Audio</h2>
+
+<img src="/assets/WinRant/MultiClient.jpg" alt="You can't see it, but Itunes stopped, and won't play, soon as I opened Reaper">
+<div class="image-caption">You can't see it, but Itunes stopped, and won't play, stopped soon as I opened Reaper</div>
+
+<p>If you spent enough on your audio interface and you don’t have to worry about this, but most people running the issue that they cannot play audio through multiple applications at once when using an ASIO application.</p>
+
+<p>That is because many drivers are not what is called “multi-client”. That means that the driver is not great in a way that allows multiple applications to access it.</p>
+
+<p>This is <em>never</em> an issue in macOS. Also not an issue with Linux as long as you’re using a common setup.</p>
+
+<p>Can you name those 4 albums or artists on the bottom that have visible covers?</p>
+
+<h2 id="robustness">Robustness</h2>
+
+<img src="/assets/WinRant/LatencyMon.png" alt="I have a MONSTER system... can't run Cakewalk at 64 samples though">
+<div class="image-caption">I have a MONSTER system... can't run Cakewalk at 64 samples though</div>
+
+<p>There is none. Open an application to check an e-mail, slack/discord or whatever. There’s a chance you may end up with a parade of crackles in your audio and need to up your buffer size.</p>
+
+<p>No matter where I go there seems to always be something that messes up my DAW audio.</p>
+
+<p>In macOS while writing articles, I’ll sometimes have 30+ applications open doing graphics/video/writing/programming and still have a DAW running perfectly in the background at 64 sample-length buffer. I can do the same in Linux without a hitch, and in fact Linux does this <em>better</em>.</p>
+
+<p>I can’t manage this in Windows on the <em>same machine</em> with the same everything connected, a lean Windows install and nothing open except the absolute necessary processes running. If I open an e-mail app or Chrome, then it’s time to bump up the buffer.</p>
+
+<p>Run another DAW at the same time and <em>everything</em> goes to pot. I’ve had 11 DAWs open at the same time in macOS without a hiccup. I can’t even manage 2 in Windows (rewire, hah! Sure, good luck.) I’m sure it is possible, but it will require some digging and testing and configuration deep dives.</p>
+
+<h2 id="sample-rates">Sample Rates</h2>
+
+<img src="/assets/WinRant/SampleRate.png" alt="Wait... it defaults to 16-bit too">
+<div class="image-caption">Wait... it defaults to 16-bit too</div>
+
+<p>Changing sample rates requires reopening nearly every single application on the computer. In macOS this is completely unnecessary, when you change sample rates everything updates as you may expect, everything updates. There will be a little pop, a quiet one, but everything still works.</p>
+
+<h2 id="device-app-attachment">Device-App attachment</h2>
+
+<p>If you change sound devices, open applications won’t change. They need to be closed or reset to change devices.</p>
+
+<p>That can be <em>exceptionally</em> annoying.</p>
+
+<h2 id="asio-panels">ASIO panels</h2>
+
+<img src="/assets/WinRant/ASIO.png" alt="My $1,200 interface has worse configuration than one of my $79 ones... but only in Windows.">
+<div class="image-caption">My $1,200 interface has worse configuration than one of my $79 ones... but only in Windows.</div>
+
+<p>When needing to adjust audio interface parameters inside of a DAW, Windows applications require you to open an ASIO control panel. None of these control panels work similarly or have a similar design, or even give you access to the same types of parameters.</p>
+
+<p>I switch interfaces relatively often and it can be somewhat annoying to have to switch my expectations of what I can do inside a control panel.</p>
+
+<p>I have also run into situations where changing buffer sizes in the ASIO panel does not actually change the buffer size in the host.</p>
+
+<h2 id="performance">Performance</h2>
+
+<p>There’s at least 3 types of drivers in Windows. None of them offer low-latency performance by default. 2 of them are garbage no matter what you do, and ASIO only works if you install a driver.</p>
+
+<p>This is a major issue. In macOS, even the worst audio interfaces will give you usable latency (the default laptop soundcard will even!). Windows users just roll the dice and hope they can get something usable.</p>
+
+<p>Even Linux has this right!</p>
+
+<h1 id="files">Files</h1>
+
+<h2 id="no-quicklook-in-explorer">No Quicklook in Explorer</h2>
+
+<img src="/assets/WinRant/QuickLook.png" alt="How do you browse these images quickly?">
+<div class="image-caption">How do you browse these images quickly?</div>
+
+<p><a href="https://github.com/QL-Win/QuickLook">This is something that can be fixed with an application installation</a>, but why?</p>
+
+<p>QuickLook is functionality that allows you to simply hit the spacebar when browsing files in your file Explorer and instantly see a preview of that file. When looking through images or PDFs or any other document it is incredibly helpful to see a preview instantly to make sure that some weirdly named file is actually what you think it is.</p>
+
+<p>I use QuickLook <strong>A LOT</strong> and I’m not entirely happy with the windows alternative. It’s slower and it does not support all the file types that macOS does.</p>
+
+<h2 id="filesystem-is-wonky">Filesystem is wonky</h2>
+
+<img src="/assets/WinRant/Settings.png" alt="Let's change some settings..">
+<div class="image-caption">Let's change some settings..</div>
+
+<p>What happens when you want to change a setting in Windows? You just go to file open it up and change the setting right?</p>
+
+<p>Well no… The setting might be in the registry, or it may be in a binary file hidden somewhere or who knows where it is! There is no place in the operating system where you can be guaranteed to find settings, preferences or other application information. It’s the Wild Wild West out there.</p>
+
+<p>At least all applications keep their settings in the same place right? Nope. Well… perhaps they use similar formats? Nein. <em>Surely</em> there’s clear documentation on how to find these things RIGHT? Ahahhahahahahahahahah. No.</p>
+
+<p>This is not the problem of the filesystem itself, but the culture surrounding Windows and Microsoft lack of clear documentation regarding where things should be. This has improved in recent years, but there is no incentive for developers to follow any of these guidelines, nor is there an easy way to find these guidelines.</p>
+
+<h2 id="program-files-x86">Program Files (x86)</h2>
+
+<img src="/assets/WinRant/x86.png" alt="WHY WHY WHY WHY do I have so many places for programs to go?">
+<div class="image-caption">WHY WHY WHY WHY do I have so many places for programs to go?</div>
+
+<p>Need I say more? Your applications are all split up. Program Files, Program Files x86 and now Users{UserName}\AppData\Local\Programs\ is a thing too.</p>
+
+<p>But don’t worry! It’s not like any important data is there except an executable. Applications <em>love</em> to scatter files and settings all over your drive.</p>
+
+<p>You may not realize this, but if you’re curious then <a href="https://www.raymond.cc/blog/3-portable-tools-monitor-files-folders-changes/">pick your favorite file monitoring software</a> and pay attention. (or use <a href="https://docs.microsoft.com/en-us/sysinternals/downloads/procmon">ProcMon like I do</a>) It’s ridiculous!</p>
+
+<p>I’m not annoyed that files are being written/read, I’m annoyed at how fractured the logic is to their location. Not even Microsoft’s own applications follow a similar logic to where types of data will be stored on the drive.</p>
+
+<h1 id="gui">GUI</h1>
+
+<h2 id="consistency-1">Consistency</h2>
+
+<img src="/assets/WinRant/Menus.jpg" alt="They're all different!">
+<div class="image-caption">They're all different!</div>
+
+<p>If you’re a Windows user then you have surely noticed that nearly every application has its own menu system, its own style of checkboxes combo boxes sliders etc… How the mouse buttons interact how the window is maximized or not maximized or how anything works is not consistent from application to application.</p>
+
+<p>here is almost no consistency between applications and windows, and that often means that for each application you have to do a major context switching your brain in order to interact with it. Initially learning the software is also an issue too.</p>
+
+<p>This drives me absolutely crazy have to spend mental energy remembering where some option is or how some GUI widget works when ALT tabbing to another application.</p>
+
+<p>(This is a major reason I prefer Safari over Chrome or Firefox on macOS. It’s just easier to use when you are used to other applications (most of them) that adhere to macOS design guidelines.)</p>
+
+<h2 id="taskbar-and-notifications">Taskbar and Notifications</h2>
+
+<img src="/assets/WinRant/Taskbar.png" alt="Taskbar is a terrible design.">
+<div class="image-caption">Taskbar is a terrible design.</div>
+
+<p>The taskbar and the notification area are in the same GUI widget, which means that as the notification area grows you get less space to show where apps are. If you use the combined option then you lose track of where specific windows are, and it makes it more difficult to select the appropriate window.</p>
+
+<h2 id="alt-tab">Alt-Tab</h2>
+
+<img src="/assets/WinRant/AltTab.jpg" alt="Alt Tabbing to disaster">
+<div class="image-caption">Alt Tabbing to disaster</div>
+
+<p>Regarding the previous point someone may suggest simply using alt tab, which I do.The issue is that there is no inter-app window switching hotkey. In macOS you use <code class="highlighter-rouge">cmd-~</code>,which will allow you to switch between windows of the selected application.</p>
+
+<p>Windows does not make a distinction between application Windows and applications, so when you use alt–tab you end up switching between every single open window on the operating system. This is both inefficient and frustrating.</p>
+
+<p>It’s easy to lose an application window (how often have you had to go searching for that dialog that’s locked up your whole app?), and trying to manage multiple applications that have multiple windows is nothing more than a test of the durability of your tab key.</p>
+
+<h2 id="menu-bar">Menu bar</h2>
+
+<img src="/assets/WinRant/MenuBar.png" alt="Menu Bars are all over the place">
+<div class="image-caption">Menu Bars are all over the place</div>
+
+<p>I know this is something that bothers Windows users when they moved to macOS, but I strongly feel that this is a thing that macOS got right. macOS has plenty of annoying things, but I strongly feel this is a UX choice they aced.</p>
+
+<p>In macOS menu bars are always at the top of the screen, the menu bar changes depending on which application is currently open. This means that there is a minimal amount of screen space dedicated to menu bars and you always know exactly where the menu bar is going to be located.</p>
+
+<p>I can go to the file menu in almost any application with my eyes closed because it is always in the exact same place on my screen.</p>
+
+<p>In Windows menus are all over the place. They may not even be at the top of the application, and many applications implement their own menu system that is different from others. That might mean that one application has checkboxes and has menus that work one way and another application has checkboxes that work another way and yet another application shows checkboxes but they don’t actually do anything. Some applications and windows, including ones from Microsoft itself, don’t even have menus, but instead you click something and it opens up a sidebar that has a bunch of options for you.</p>
+
+<p>Some Linux DE’s copied this over the years, but it’s not fully taken hold yet. It’s a bit difficult when many applications draw their own menus instead of doing things right.</p>
+
+<h2 id="screenshots">Screenshots</h2>
+
+<img src="/assets/WinRant/Screenshot.jpg" alt="Screenshots of screenshots">
+<div class="image-caption">Screenshots of screenshots</div>
+
+<p>This is something I learned while writing this post… Taking screenshots is a terrible experience. The best application I found was <a href="https://getsharex.com/">ShareX</a>, and it exposes one of the nastier things about Windows: windows.</p>
+
+<p>If I want to take a screenshot of what looks like a window, sometimes it’s not even possible. Microsoft’s own explorer isn’t just ‘a window’, it’s a bunch of windows stacked on each other. Yes, this is due to how Windows defines programmatic “windows”, but as an end-user it’s frustrating.</p>
+
+<p>Why do I even need to install a program to take screenshots anyway? Or to take video?</p>
+
+<p>(Anyone that mentions the abomination “Snipping tool” should be drug out into the street and shot. It’s like 10 clicks to capture a window and save it to a file. Nonsense.)</p>
+
+<h2 id="stuff-i-dont-want">Stuff I don’t want</h2>
+
+<img src="/assets/WinRant/StartMenu.png" alt="Why is this here? Why should I have to turn this off?">
+<div class="image-caption">Why is this here? Why should I have to turn this off?</div>
+
+<p>Windows manages to have both a dearth of useful applications yet still constantly push all these idiotic games and useless pop culture applications upon you with no easy way to get rid of them.</p>
+
+<p>No, I do not want candy crush. No I do not want a news app or a stock thing, and even more so I don’t want to spend a ridiculous amount of time trying to figure out how to get off my computer.</p>
+
+<p>In macOS I just drop that to <a href="https://freemacsoft.net/appcleaner/">App Cleaner</a> and it’s gone for good. I do not even need to use that application to get it visually off my system, but app cleaner does a great job of removing all the little bits that may be hidden from view. “Normal” app uninstallation in macOS is as simple as drag and drop, which is still light years ahead of Windows.</p>
+
+<p>Linux is… let’s not talk about install/uninstall in Linux environments.</p>
+
+<h1 id="things-that-just-dont-work-right">Things that just don’t work right</h1>
+
+<h2 id="slow-down">Slow down</h2>
+
+<img src="/assets/WinRant/AppUsage.png" alt="Wait... why was Xbox running at all?">
+<div class="image-caption">Wait... why was Xbox running at all?</div>
+
+<p>I am sure that this is not necessarily something that is inherently the fault of the operating system, however after I have windows open for about four hours it begins to slow down significantly without any signs of a memory leak or a runaway process.</p>
+
+<p>When googling for this I find that this is a very common issue that other people have and that there is a wide variety of solutions that tend to point to Windows components themselves rather than other installed applications.</p>
+
+<p>I reinstalled Windows completely from scratch and did not install any other applications other than the necessary drivers and this was still a persistent issue for me. It seems possible that this is simply a driver application issue, but it is incredibly annoying.</p>
+
+<h2 id="cortana">Cortana</h2>
+
+<img src="/assets/WinRant/Cortana.png" alt="Cortana">
+<div class="image-caption">Cortana</div>
+
+<p>I greatly dislike the concept of Cortana, but it is incredibly difficult to completely turn off. It is a privacy issue and even when attempting to use it it doesn’t work very well at all.</p>
+
+<p>As a comparison, Siri is equally as useless, but I can completely turn it off. Linux doesn’t have these annoying jabber-boxes thankfully.</p>
+
+<h2 id="deleting-files">Deleting files</h2>
+
+<img src="/assets/WinRant/InUSe.png" alt="File is in use...">
+<div class="image-caption">File is in use...</div>
+
+<p>If an application has a file open, then it is impossible to delete it in Windows <em>sometimes</em>. In Linux and macOS this is not an issue in the slightest.</p>
+
+<p>It is even more problematic when there are hidden applications or sub processes that are using a file and you can’t manage to delete it without going through task manager and “end tasking” dozens of applications… or just restarting your computer.</p>
+
+<h1 id="conclusion-mostly">Conclusion… mostly.</h1>
+
+<p>I know there’s <strong>A LOT</strong> of people that happily use Windows day to day, and they do “fine” (for warped definitions of “fine”). When you start using other operating systems, you quickly learn how things can work and how many things in Windows are more difficult than they need to be.</p>
+
+<p>I use Windows every day. I’m the guy that does tech support for the family (which is Windows of course). I used to sell turn-key DAW systems from the Win XP to Win 7 eras. I’m not a Windows newbie, and more importantly I know how to use an internet search. These aren’t just the frustrations of a ‘switcher’.</p>
+
+<p>I’ve not listed everything that I find problematic, but the things that I find problematic in day-to-day computing life. There’s other issues that pop up in long term use or when dealing with system administration.</p>
+
+<p>I can’t stand Windows. I’m not even particularly happy with macOS or Linux… but they’re immeasurably nicer to use than Windows.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>I spent the last 36 hours doing EVERYTHING in Windows, including writing this post and publishing it. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

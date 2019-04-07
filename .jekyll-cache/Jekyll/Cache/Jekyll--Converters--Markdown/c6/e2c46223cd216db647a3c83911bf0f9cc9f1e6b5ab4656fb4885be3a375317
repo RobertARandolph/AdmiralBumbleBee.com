@@ -1,0 +1,280 @@
+I"K<img src="/assets/Studio One/PatternEditor.png" alt="Pattern Editor">
+<div class="image-caption">Pattern Editor</div>
+
+<p><a href="https://www.presonus.com/products/Studio-One/whats-new">Studio One 4</a> has been released and I’m sure there’s a lot of folks expecting me to do a 30 days with it, or an exhaustive review.</p>
+
+<p>I won’t be doing that. I did have a post half-prepared, but as I was working on fleshing it out and doing some extra research, I realized that there’s people out there with great content on this already.</p>
+
+<p>So what I’m going to do is list some content that I think is great, then go over some things that I particularly like/dislike. This won’t be a <em>complete</em> review.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#great-content" id="markdown-toc-great-content">Great content</a></li>
+  <li><a href="#my-overview-of-some-things" id="markdown-toc-my-overview-of-some-things">My overview of some things</a>    <ul>
+      <li><a href="#chord-detection" id="markdown-toc-chord-detection">Chord Detection</a>        <ul>
+          <li><a href="#audio" id="markdown-toc-audio">Audio</a></li>
+        </ul>
+      </li>
+      <li><a href="#chord-track" id="markdown-toc-chord-track">Chord Track</a></li>
+      <li><a href="#impact-xt" id="markdown-toc-impact-xt">Impact XT</a></li>
+      <li><a href="#sample-one-xt-record" id="markdown-toc-sample-one-xt-record">Sample One XT Record</a></li>
+      <li><a href="#pattern-editor" id="markdown-toc-pattern-editor">Pattern Editor</a></li>
+      <li><a href="#ripple-editing" id="markdown-toc-ripple-editing">Ripple Editing</a></li>
+      <li><a href="#track-notes" id="markdown-toc-track-notes">Track Notes</a></li>
+      <li><a href="#aaf-importexport" id="markdown-toc-aaf-importexport">AAF import/export</a></li>
+      <li><a href="#robust-plugin-scanner" id="markdown-toc-robust-plugin-scanner">Robust Plugin Scanner</a></li>
+      <li><a href="#mixer-visual-redesign" id="markdown-toc-mixer-visual-redesign">Mixer visual redesign</a></li>
+      <li><a href="#light-theme" id="markdown-toc-light-theme">Light Theme</a></li>
+    </ul>
+  </li>
+  <li><a href="#highly-desired-things-not-added" id="markdown-toc-highly-desired-things-not-added">Highly desired things not added</a>    <ul>
+      <li><a href="#improved-browser" id="markdown-toc-improved-browser">Improved browser</a></li>
+      <li><a href="#better-cpu-support" id="markdown-toc-better-cpu-support">Better CPU support</a></li>
+      <li><a href="#mix-snapshots" id="markdown-toc-mix-snapshots">Mix snapshots</a></li>
+      <li><a href="#articulation-support" id="markdown-toc-articulation-support">Articulation support</a></li>
+      <li><a href="#automation-items" id="markdown-toc-automation-items">Automation items</a></li>
+      <li><a href="#no-mpe" id="markdown-toc-no-mpe">No MPE</a></li>
+      <li><a href="#waveform-quality" id="markdown-toc-waveform-quality">Waveform quality</a></li>
+      <li><a href="#polarity-inversion" id="markdown-toc-polarity-inversion">Polarity inversion</a></li>
+      <li><a href="#manual" id="markdown-toc-manual">Manual</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="great-content">Great content</h1>
+
+<ul>
+  <li><a href="https://www.presonus.com/products/Studio-One/whats-new">What’s new</a> - The “what’s new” page actually lists nearly everything.</li>
+  <li><a href="https://www.youtube.com/watch?v=77dgZMPWrzM&amp;t=332s">Everything you need to know</a> - A good dive in to most of the new features. Probably one of the better videos in terms of content:time.</li>
+  <li><a href="https://www.youtube.com/watch?v=lgM95T8CY44">New features in 6 minutes or less</a> - Not a deep dive, but a quick overview. Well done.</li>
+  <li><a href="https://www.youtube.com/watch?v=iGtf6_eWav4">Pattern mode overview</a> - excellent video on the <em>great</em> pattern mode.</li>
+</ul>
+
+<p>Visiting those 3 first links will give you basically all of the information you need.</p>
+
+<p>Don’t bother watching the <a href="https://www.youtube.com/watch?v=0NqDQi9riy8">webcast</a>. It’s a bunch of artists talking out of their ass and really superficial demonstrations of features. They spent an hour saying almost nothing.</p>
+
+<p>I don’t think that a single artist said anything of value regarding the software except for Nigel Williams. Just a bunch of worthless hype and getting excited about features that are common in other DAWs.</p>
+
+<h1 id="my-overview-of-some-things">My overview of some things</h1>
+
+<h2 id="chord-detection">Chord Detection</h2>
+
+<h3 id="audio">Audio</h3>
+
+<img src="/assets/Studio One/AudioDetect.png" alt="Audio Detection">
+<div class="image-caption">Audio Chord Detection</div>
+
+<p>This is a big one to me. You can detect the chords in a track. It works on polyphonic material and monophonic material.</p>
+
+<p>Most importantly <em>it works pretty well!</em></p>
+
+<p>When it doesn’t work you can easily edit the chords in the audio editor using the normal audio editing tools. The chords are like their own regions.</p>
+
+<p>Then the <a href="#chord-track">Chord Track</a> can take these chords and apply <em>polyphonic transpositions</em> to them. That’s right, you can take a guitar chord that’s an A minor and change it to an A major (just change the C#s to Cs).</p>
+
+<h2 id="chord-track">Chord Track</h2>
+
+<img src="/assets/Studio One/ChordTrack.png" alt="Chord Track">
+<div class="image-caption">Chord Track</div>
+
+<p>If you’ve watched the videos I listed in the <a href="#great-content">great content</a> section then you already know all about this feature. It works really well and there’s one major feature it has over other chord-tracks…</p>
+
+<p><strong>It does polyphonic audio transposition.</strong></p>
+
+<p>When an audio track is set to ‘follow’ the chord track, any changes to the chord track will cause the audio track to be transposed, but only the notes in the track that need to be.</p>
+
+<p>While this is all cool, it does have some issues:</p>
+
+<ul>
+  <li>No explicit inversions</li>
+  <li>No per-track transpositions? It doesn’t seem that you can change the polyphonic transposition of a single chord.</li>
+  <li>Chord selection doesn’t let you input chords as MIDI. The chord selection interface would have been great to use as a quick way to insert chords in a MIDI track, but you can’t.</li>
+  <li>Adjusting Chord track chords can really mess things up. Sometimes when using the arranger track, with the chord track, you can make a total mess of your project.</li>
+  <li>Chords on audio must be edited in the editor. You can’t edit them in the main view.</li>
+  <li>MIDI parts don’t show chords on them like Audio parts do, nor can you edit them. Sometimes it gets the wrong chords when using more complex chords with inversions, and you can’t fix that!</li>
+</ul>
+
+<p>Surprisingly, when you find the correct mode (in the track inspector under <code class="highlighter-rouge">tune mode</code>), the polyphonic chord following sounds really good. Surprisingly good. Even on complex material it can be imperceptible. Of course there’s times where it sounds like you’re tripping on LSD listening to some sound effects record.</p>
+
+<p>Nobody in their right mind would expect this type of thing to always sound amazing. The thing that is surprising is that it does a good job <em>most of the time</em>. Ideally you wouldn’t rely on this for your final mix anyway, but just to test out ideas. For testing out ideas it’s an amazing feature.</p>
+
+<h2 id="impact-xt">Impact XT</h2>
+
+<img src="/assets/Studio One/ImpactXT.png" alt="Impact XT">
+<div class="image-caption">Impact XT</div>
+
+<p>Impact XT really isn’t my thing, but there are some cool features I like.</p>
+
+<p>There’s added trigger modes. Unfortunetly loop has no setting for repeat quantize, it will always repeat the length of the sample. You can’t do something like setup a “1/4 Loop” of a sample easily. Some other similar samplers have options like this so you can hold down a pad and have a straight rhythm looping.</p>
+
+<p>Quantize was added for input, however there are limited options. I’m not exactly sure how useful this is, but some readers may find it interesting</p>
+
+<p>Impact has always supported multiple velocity layers and round robin/ random per pad, but now there’s “stack”. Stack allows you to put multiple samples on a pad and have them all play at the same time. Awesome for layering sounds.</p>
+
+<h2 id="sample-one-xt-record">Sample One XT Record</h2>
+
+<img src="/assets/Studio One/SampleOneRecord.png" alt="Sample One Recording">
+<div class="image-caption">Sample One Recording</div>
+
+<p>This is probably the biggest added feature in Sample One XT, you can now record directly to it from any input you have in Song Setup.</p>
+
+<p>Even cooler still is gate record. You can setup a gate that triggers when recording starts or stops. This lets you turn on Sample One, walk to a drumset or drum machine (or anything) and just make noise. Each thing that triggers the gate will be recorded and thrown in to its own sample.</p>
+
+<p>Using this I could sample my entire drum kit in about 30 seconds, hands free!</p>
+
+<p>Gate record is neat, but it turns off when trying to record loops easily due to silence causing the gate to turn off. This renders it nearly useless for anything except recording one-shots. It would be nice if there was only “gate on” and no gate off except for a manual trigger. The minimum gate isn’t sufficient sometimes.</p>
+
+<h2 id="pattern-editor">Pattern Editor</h2>
+
+<img src="/assets/Studio One/PatternEditor.png" alt="Pattern Editor">
+<div class="image-caption">Pattern Editor</div>
+
+<p>This is probably the coolest feature in the whole update I think. There’s a proper step sequencer with the following extra awesome features:</p>
+
+<ul>
+  <li>Polymetric - each line can have a different number of steps. You can have one with 8 and one with 12 and they will repeat at their own rates, creating a neat evolving pattern on its own.</li>
+  <li>Probability - each step can have a % chance of triggering. Fantastic for creating more organic sounds. The downside is that there’s no probablistic mode. Each playback might be different and there’s no way to ‘lock’ the result of the probability other than rendering it to audio. Then you lose the ability to use the pattern editor. Still… probability is awesome.</li>
+  <li>Accent - Holding down command (macOS) or control (Windows) allows you to set accents on parts. This increases the velocity by a % so you don’t need to mess with velocity settings for accents. It’s a classic workflow that works great.</li>
+  <li>Fill modes - There’s buttons in the upper right to set to every 1/4, every other, every step, clear steps or shift steps. A must for any reasonable step editor, and they are here.</li>
+  <li>Variations - Each pattern can have multiple variations. There’s no need to create multiple patterns with similar parts, you can simply create a variation and select the variation in the main arranger view on the region.</li>
+  <li>Step record - Turn on step record and you can insert notes one at a time with your MIDI controller</li>
+  <li>Smart naming - when you use Impact or Sample One, it automatically picks up the names/locations of the samples and adds them to the pattern.</li>
+</ul>
+
+<p>The overall result is a great pattern editor. Drum editing is great with it. It’s brilliant. It’s classic. Awesome. More superlative adjectives.</p>
+
+<h2 id="ripple-editing">Ripple Editing</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/77dgZMPWrzM?start=214" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Jump to 3:32 in that video above if it doesn’t do it automatically. Russ explains ripple editing in S1 4 nicely.</p>
+
+<p>Dialogue editors, film scorers, library editors, samplers and more will love this feature. It’s similar to the Pro Tools <a href="https://www.soundonsound.com/techniques/pro-tools-shuffle-mode">shuffle mode</a> if you’re used to PT.</p>
+
+<p>Some other DAWs (Look at you <a href="https://www.reaper.fm">Reaper</a>) don’t do this particularly well. Studio One gets ripple editing right.</p>
+
+<h2 id="track-notes">Track Notes</h2>
+
+<img src="/assets/Studio One/TrackNotes.png" alt="Track Notes">
+<div class="image-caption">Track Notes</div>
+
+<p>Another fantastic feature that probably won’t get much coverage. You can now right click a track and select “Edit Note…” to add notes to tracks. Never again forget what you were doing the night before, or hardware settings, or what things you were trying…</p>
+
+<h2 id="aaf-importexport">AAF import/export</h2>
+
+<img src="/assets/Studio One/AAf.png" alt="AAF import/export">
+<div class="image-caption">AAF import/export</div>
+
+<p><strong>THE BIG ONE</strong> for Studio One to reach a bigger audience. For those of use that need to send and receive projects from other studios, this is huge.</p>
+
+<p>For the hobbyist/home user or professional that doesn’t need to exchange projects it’s no big deal.</p>
+
+<p>It’s a small thing, but it will make a big difference in Studio One’s potential adoption in big studios, which will in turn make things better for all Studio One users.</p>
+
+<h2 id="robust-plugin-scanner">Robust Plugin Scanner</h2>
+
+<img src="/assets/Studio One/Scanner.png" alt="Scanner">
+<div class="image-caption">Plugin Scanner</div>
+
+<p>There’s a new plugin scanner in Studio One 4, and this is a truly wonderful feature. No more crashing when opening Studio One because of a bad plugin. Plugin scanning is also much faster.</p>
+
+<p>It’s a small thing, but if you’ve ever had a crashing plugin in S1, you’ll know how great this is.</p>
+
+<h2 id="mixer-visual-redesign">Mixer visual redesign</h2>
+
+<img src="/assets/Studio One/MixerRedesign.png" alt="Mixer Redesign">
+<div class="image-caption">Mixer Redesign</div>
+
+<p>The mixer’s design has been updated. New buttons, new arrangement of buttons, new faders.</p>
+
+<p>It all seems a bit cartoonish now, but it is cleaner and easier to recognize things.</p>
+
+<h2 id="light-theme">Light Theme</h2>
+
+<img src="/assets/Studio One/LightTheme.png" alt="Light Theme">
+<div class="image-caption">Light Theme</div>
+
+<p>This isn’t really “new”. What <em>is</em> new is that the Luminance control in Preferences-&gt;General-&gt;Appearance works differently. It no longer is still a “Dark Theme” when above 0%. Values above 0% are light. Values below 0% are dark.</p>
+
+<p>I love it. I like light themes. I work in a well-lit studio so dark GUIs seem strange to me. All hail the light theme!</p>
+
+<h1 id="highly-desired-things-not-added">Highly desired things not added</h1>
+
+<h2 id="improved-browser">Improved browser</h2>
+
+<p>The browser still has issues. It doesn’t conform samples to the chord track or to tempo. No tags. Poor search.</p>
+
+<h2 id="better-cpu-support">Better CPU support</h2>
+
+<p>Still has poor multicore support for multiple instruments on the track.</p>
+
+<h2 id="mix-snapshots">Mix snapshots</h2>
+
+<p>Still no way to save multiple mixes!</p>
+
+<h2 id="articulation-support">Articulation support</h2>
+
+<p>They really could take a lesson from <a href="/music/2018/01/26/Cool-things-in-Logic-Pro-X-Part-10-4.html#articulation-management">Apple’s Articulation Management</a>.</p>
+
+<p>Managing articulations in Studio One is really unpleasant, and it’s even more so with the chord track which will potentially mess up your articulations!</p>
+
+<h2 id="automation-items">Automation items</h2>
+
+<p>Still no automation items, or any way to encapsulate automation so it can be moved/edited/linked like audio/midi.</p>
+
+<h2 id="no-mpe">No MPE</h2>
+
+<p>No <a href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html#what-is-mpenote-expression">MPE still</a>. I’m really surprised they haven’t jumped on this train yet.</p>
+
+<h2 id="waveform-quality">Waveform quality</h2>
+
+<img src="/assets/Studio One/Waveforms.png" alt="Waveforms">
+<div class="image-caption">Waveform quality</div>
+
+<p>Studio One has some really suspect waveform drawing. It’s <strong>REALLY BAD SOMETIMES</strong>. Look at it. That’s not a joke. That’s what you see when you zoom sometimes. Yes, it can be better… but it’s often terrible.</p>
+
+<p>Totally unacceptable. This should have been fixed in the 1.0 alpha!</p>
+
+<h2 id="polarity-inversion">Polarity inversion</h2>
+
+<p>Lots of people wanted polarity inversion in the mixer. (<a href="/music/2018/02/16/Fixing-Phase-what-why-and-how.html">why would you want this?</a>). They redesigned the mixer… but no changes here.</p>
+
+<h2 id="manual">Manual</h2>
+
+<p>The manual still sucks. They’ve done very little to improve the “reference manual” included with S1.</p>
+
+<p>Many of the new features aren’t fully explained. There’s missing screenshots. Old features still missing info. It’s a disaster.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Is it worth the $149 update fee?</p>
+
+<p>If you’re a songwriter, <em>absolutely</em>. If you’re a recording engineer then there’s not really much here for your. If (for some reason?) you do film scoring or dialogue work (podcasts?) in Studio One then it’s a great update.</p>
+
+<p>It’s a <strong>fantastic</strong> update for anyone doing hip-hop/rap/dance music. If you do <em>any</em> sort of sampling, beat making, drum programming or anything like that… it’s great. Worth the money. Plunk it down and go.</p>
+
+<p>I know this may seem like a short post for a “major” update, but like I said… lots of other people have covered this well already. I’m just giving my 2 cents on it.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 6 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

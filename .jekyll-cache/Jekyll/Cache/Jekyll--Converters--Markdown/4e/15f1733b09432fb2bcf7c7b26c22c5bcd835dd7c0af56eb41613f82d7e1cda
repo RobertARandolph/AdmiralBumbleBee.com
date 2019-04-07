@@ -1,0 +1,131 @@
+I"�#<img src="/assets/Stretch/ZvE.png" alt="ZTX versus Elastique">
+<div class="image-caption">ZTX versus Elastique</div>
+
+<p>As you may know many people use timestretching software in their day to day operations, and it is common that people use timestretching for various things from setting an audio file to a specific tempo or fixing the timing such as in a drum recording, or even for creative effects.</p>
+
+<p>However, not all timestretching systems are created equal. Some timestretching systems are significantly better than others, and this is evident if you have used something like <a href="https://www.surina.net/soundtouch/">Sound</a> then you are fully aware of how terrible timestretching can <em>truly</em> be. There are also other naive timestretching algorithms that are complete garbage.</p>
+
+<p>The most common timestretching algorithm is <a href="https://products.zplane.de/elastique-pitch-2">Elastique</a> which is used all the way from the lowly <a href="https://www.bitwig.com/en/home.html">Bitwig</a> up to <a href="https://new.steinberg.net/cubase/">Cubase</a>, <a href="https://www.apple.com/logic-pro/">Logic Pro</a> and <a href="https://www.avid.com/pro-tools">Pro Tools</a>.</p>
+
+<p>There is a new algorithm on the market when it comes to DAWs, and that is <a href="http://www.zynaptiq.com/ztx/">ZTX</a>. <a href="http://motu.com/newsitems/digital-performer-95-is-now-shipping">Digital Perfomer</a> added ZTX and their 9.5 update recently, and it’s interesting because it is the only DAW that currently uses this algorithm. They had a choice of many things and they chose ZTX over Elastique.</p>
+
+<p>MOTU isn’t fueled with a bunch of morons, if they chose ZTX over other algorithms (many of which are licensed), then you would expect that they feel that it is superior over the other options.</p>
+
+<p><strong>WELL IS IT?</strong></p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li><a href="#examples" id="markdown-toc-examples">Examples</a>    <ul>
+      <li><a href="#50-stretch---516mb" id="markdown-toc-50-stretch---516mb">50% stretch - 51.6MB</a></li>
+      <li><a href="#66-stretch---403mb" id="markdown-toc-66-stretch---403mb">66% stretch - 40.3MB</a></li>
+      <li><a href="#78-stretch---34mb" id="markdown-toc-78-stretch---34mb">78% stretch - 34MB</a></li>
+      <li><a href="#95-stretch---276mb" id="markdown-toc-95-stretch---276mb">95% stretch - 27.6MB</a></li>
+      <li><a href="#105-stretch---251mb" id="markdown-toc-105-stretch---251mb">105% stretch - 25.1MB</a></li>
+      <li><a href="#133-stretch---198mb" id="markdown-toc-133-stretch---198mb">133% stretch - 19.8MB</a></li>
+      <li><a href="#166-stretch---158mb" id="markdown-toc-166-stretch---158mb">166% stretch - 15.8MB</a></li>
+      <li><a href="#200-stretch---133mb" id="markdown-toc-200-stretch---133mb">200% stretch - 13.3MB</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="video">Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/m6MBwmYrbtg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>This is just a recap so youtubers can find this article. The real action is here in text form!</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>So what I have done here is I have taken a number of audio samples and I have stretch them with the ZTX and Elastique algorithms. I have used the “best” settings for each piece of audio.</p>
+
+<p>Here is a list of the pieces of audio and each one is a link to the original audio. You can try this yourself if you want. <strong>THESE ARE WAVE FILES UP TO 60MB</strong></p>
+
+<ul>
+  <li><a href="/assets/Stretch/Vox100.wav">Vocals</a> - Me reading a book.</li>
+  <li><a href="/assets/Stretch/Puke100.wav">EDM Sample</a> - <a href="https://soundcloud.com/sera-music">From this guy</a></li>
+  <li><a href="/assets/Stretch/Och100.wav">Orchestral</a> - <a href="https://soundcloud.com/aerosoul">By Aero Soul</a></li>
+  <li><a href="/assets/Stretch/Pop100.wav">Pop Mix</a> - <a href="https://ill-esha.com">mix by Ill-Esha</a></li>
+  <li><a href="/assets/Stretch/Acoustic100.wav">Strumming Acoustic Guitar</a> - Me playing.</li>
+  <li><a href="/assets/Stretch/Drums100.wav">Drums</a> - Me playing.</li>
+  <li><a href="/assets/Stretch/Bass100.wav">Electric Bass</a> - Me playing.</li>
+  <li><a href="/assets/Stretch/Trumpet100.wav">Trumpet Double Harmonic Minor</a> - <a href="https://soundcloud.com/aerosoul">By Aero Soul</a></li>
+</ul>
+
+<p>The examples below are encoded at 256kbps using the <a href="https://trac.ffmpeg.org/wiki/Encode/AAC">highest quality codec that is supported in most browsers (lib_fdkaac)</a>. I wanted to use wav examples but they were over 4GB total. Flac was just under 2GB, which is still <em>far</em> too much.</p>
+
+<p>I listened carefully to the AAC examples below and they are still clearly representative of the differences between the algorithms.</p>
+
+<h1 id="examples">Examples</h1>
+
+<p>I have split the examples off to their own pages because the total amount of data is exceeding 350MB. I am sure that not everybody wants to load that much data when they curiously stumble upon a page.</p>
+
+<p>I have labeled the amount of data necessary to load each page below, so if you have data caps then please be careful.</p>
+
+<p><strong>PLEASE BE AWARE!!</strong></p>
+
+<p><strong>THESE EXAMPLES WILL AUTOLOAD UP TO 116.7MB OF DATA!!!!!!!!!</strong></p>
+
+<h2 id="50-stretch---516mb">50% stretch - 51.6MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique50.html">50% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="66-stretch---403mb">66% stretch - 40.3MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique66.html">66% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="78-stretch---34mb">78% stretch - 34MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique78.html">78% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="95-stretch---276mb">95% stretch - 27.6MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique95.html">95% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="105-stretch---251mb">105% stretch - 25.1MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique105.html">105% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="133-stretch---198mb">133% stretch - 19.8MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique133.html">133% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="166-stretch---158mb">166% stretch - 15.8MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique166.html">166% Stretch Examples - Click to load new page</a></p>
+
+<h2 id="200-stretch---133mb">200% stretch - 13.3MB</h2>
+
+<p><a href="/music/2019/01/06/ZTX-vs-Elastique200.html">200% Stretch Examples - Click to load new page</a></p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>I don’t know about you but I have pretty clear ideas about which examples I thought were the best. ZTX examples were not only more time accurate, that they also had fewer artifacts and the overall tonality sounds truer to the source.</p>
+
+<p>There is a downside that as far as I’m aware doing phase align stretches with ZTX not possible. I have been told this by two different sources so I suspect it is likely true, however <a href="https://www.zplane.de">Zplane</a> would have to weigh in on this for the definitive answer.</p>
+
+<p>I hope other companies jump on the ZTX train, even if there’s licensing costs to absorb. It’s clearly the superior winner here.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 19 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

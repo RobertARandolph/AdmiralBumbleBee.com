@@ -1,0 +1,108 @@
+I"�<p><strong>Last Updated</strong> - 2018 December 11</p>
+
+<p>Hey. My name is Robert Randolph.</p>
+
+<p>Maybe <a href="/general/2018/06/09/Lets-talk-about-me-and-my-future.html">read this post about me first?</a></p>
+
+<p><strong>This is what I do with my free time:</strong></p>
+
+<ul>
+  <li>Develop software in…
+    <ul>
+      <li>C/asm for AVR and ARM microcontroller platforms</li>
+      <li><a href="https://common-lisp.net">Common Lisp</a> for desktop and web.</li>
+      <li><a href="https://clojure.org">Clojure</a> and Java for desktop.</li>
+      <li><del>Haskell for fun.</del>
+        <ul>
+          <li>I’m current playing with <a href="https://nim-lang.org">Nim</a> for fun now.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>Music…
+    <ul>
+      <li>Electric and Double bass</li>
+      <li>Percussion, mainly drum kit focusing on jazz and post-rock styles</li>
+      <li>Piano</li>
+      <li>Trombone</li>
+      <li>Trumpet</li>
+      <li>Electric Violin</li>
+      <li><a href="https://supercollider.github.io">SuperCollider</a> fiddling</li>
+      <li>VST programming</li>
+      <li>Instruction and teaching!</li>
+    </ul>
+  </li>
+  <li>Software tinkering
+    <ul>
+      <li>I just have a <strong>really</strong> big interest in DAWs, their workings and workflows.
+        <ul>
+          <li>I currently primarily use Digital Performer and Reaper.</li>
+        </ul>
+      </li>
+      <li>I really love <a href="https://www.omnigroup.com/omnifocus">Omnifocus</a> and <a href="https://manytricks.com">Many products from ManyTricks Software</a>. Specifically <a href="https://manytricks.com/keymo/">KeyMo</a>, <a href="https://manytricks.com/moom/">Moom</a> and <a href="https://manytricks.com/timesink/">Time Sink</a>.</li>
+      <li><del>I was a <strong>die-hard</strong> <a href="https://www.gnu.org/software/emacs/">emacs user</a>, but I tried to live without it for a month. It was successful and I continued using <a href="http://www.vim.org">Vim</a> as I have for a long time, then I did a month without that and… now I use <a href="https://code.visualstudio.com">VS Code</a> and <a href="https://netbeans.org">NetBeans</a>.</del></li>
+      <li>Nope. As of February 2018 I’m back to using emacs and <a href="https://github.com/emacs-evil/evil">Evil Mode</a>. VS Code is awesome software, but the VIM layer is just not as good as I need. I also really miss things like <a href="https://github.com/abo-abo/swiper">Ivy</a>, <a href="https://www.emacswiki.org/emacs/KeyChord">Key Chords</a> and having relative line numbers in normal mode, and absolute line numbers in insert mode. It’s built in to my consciousness.</li>
+    </ul>
+  </li>
+  <li>Tutorials!
+    <ul>
+      <li>DAW tutorials</li>
+      <li>Mechanics and efficiency tutorials for music</li>
+      <li>Electronics repair</li>
+    </ul>
+  </li>
+  <li>Workshop
+    <ul>
+      <li>I have a pretty nice workshop where I build all sorts of things that you’ll see here.</li>
+    </ul>
+  </li>
+  <li>Cook
+    <ul>
+      <li>I do a lot of the cooking in the house, and I quite enjoy it.</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>You can find me at</strong></p>
+
+<ul>
+  <li><a href="http://youtube.com/admiralbumblebee">youtube</a> - I’m updating this regularly now!</li>
+  <li><a href="https://freenode.net/">Freenode.net</a> as AdmiralBumbleBee. I spend most of my time in #ardour, #lisp, #clojure and ##C
+    <ul>
+      <li>I’m usually on other servers like thinstack, quaknet, rizon, efnet and more.</li>
+    </ul>
+  </li>
+  <li><a href="http://edmpdiscord.com">EDMP Discord</a></li>
+  <li><a href="https://discord.gg/wearethemusicmakers">WATMM</a></li>
+  <li>Forums
+    <ul>
+      <li><a href="http://www.kvraudio.com/forum/memberlist.php?mode=viewprofile&amp;u=7328">KVR Audio</a></li>
+      <li><a href="https://www.gearslutz.com/board/members/6666-robert-randolph/">Gearslutz</a></li>
+      <li><a href="https://forum.cockos.com/member.php?u=115271">Reaper</a></li>
+      <li><a href="http://www.motunation.com/forum/memberlist.php?mode=viewprofile&amp;u=56328">Motu Nation</a> - Eh, I don’t really use this much. There’s 2 users that ruin the entire environment.</li>
+    </ul>
+  </li>
+  <li><del>Yeah, that’s it pretty much. I don’t do the social online thing much.</del>
+    <ul>
+      <li>Ok, I’m working on making $$ from this site, but I still refuse to put ads. So I’m trying to figure out this social media thing now:
+        <ul>
+          <li><a href="https://www.instagram.com/admiralbumblebee/">Instagram</a></li>
+          <li><a href="https://twitter.com/admiralbee">Twitter</a></li>
+          <li><a href="https://www.youtube.com/admiralbumblebee">Youtube</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>E-mail - I use gmail. My <a href="https://en.wikipedia.org/wiki/Email_address">local-part</a> of the email is <code class="highlighter-rouge">audiolabs</code>.</li>
+</ul>
+
+<p><strong>You won’t find me at</strong></p>
+
+<ul>
+  <li>github. (Actually I am <a href="https://github.com/admiralbumblebee">on github</a>. I just don’t use it much)
+    <ul>
+      <li>I dislike the community aspect of development, and I also prefer to use <a href="http://mercurial-scm.org">Mercurial</a>. So I use <a href="https://bitbucket.org/product">bitbucket</a> instead.</li>
+    </ul>
+  </li>
+</ul>
+:ET

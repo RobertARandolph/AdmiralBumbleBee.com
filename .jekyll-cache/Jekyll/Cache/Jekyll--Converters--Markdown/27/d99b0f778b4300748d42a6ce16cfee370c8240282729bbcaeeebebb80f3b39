@@ -1,0 +1,175 @@
+I"�2<p><img src="/assets/DP/Featurespt1.png" alt="Polar!" /></p>
+
+<p>As I’ve been a Digital Performer user for a couple years, I thought I’d do a bit of a pseudo-review on DP. I’m going to cover some of the cool (and often unique) features in DP9, and I will also cover some of the downsides of using DP.</p>
+
+<p>Be sure to check out the other DP Features posts!</p>
+
+<ul>
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/11/Cool-Features-in-Digital-Performer/.-Part-2.html">Cool Features in Digital Performer... Part 2</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html">Cool Features in Digital Performer... Part 3</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/13/Cool-Features-in-Digital-Performer/.-Part-4.html">Cool Features in Digital Performer... Part 4</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html">Cool Features in Digital Performer... Part 5</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/16/Things-I-hate-about-Digital-Performer.html">Things I hate about Digital Performer...</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/03/15/Things-I-dont-hate-about-Digital-Performer-10.html">Things I don't hate about Digital Performer: 10 edition</a></li>
+    
+
+</ul>
+
+<p>Click through for some neat features!</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#polar" id="markdown-toc-polar">POLAR</a></li>
+  <li><a href="#plug-ins-part-1---masterworks" id="markdown-toc-plug-ins-part-1---masterworks">Plug-ins part 1 - MasterWorks</a>    <ul>
+      <li><a href="#masterworks-equalizer" id="markdown-toc-masterworks-equalizer">MasterWorks Equalizer</a></li>
+      <li><a href="#masterworks-leveler---la2a-emulation" id="markdown-toc-masterworks-leveler---la2a-emulation">MasterWorks Leveler - LA2A emulation</a></li>
+      <li><a href="#masterworks-fet-76---1176-emulation" id="markdown-toc-masterworks-fet-76---1176-emulation">MasterWorks FET-76 - 1176 emulation</a></li>
+      <li><a href="#masterworks-compressor---multiband-compressor" id="markdown-toc-masterworks-compressor---multiband-compressor">MasterWorks Compressor - Multiband Compressor</a></li>
+      <li><a href="#masterworks-limiter" id="markdown-toc-masterworks-limiter">MasterWorks Limiter</a></li>
+      <li><a href="#masterworks-gate" id="markdown-toc-masterworks-gate">MasterWorks Gate</a></li>
+    </ul>
+  </li>
+  <li><a href="#tracks-overview-window" id="markdown-toc-tracks-overview-window">Tracks Overview window</a></li>
+  <li><a href="#notes" id="markdown-toc-notes">Notes</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="polar">POLAR</h1>
+
+<p><img src="/assets/DP/Polar.png" alt="Polar!" /></p>
+
+<p>If you are familiar with the concept of ‘cycle record’ or ‘loop recording’ then you <em>almost</em> know what POLAR is. With loop recording, the previous loop is put in the background and you no longer hear it while recording the next loop. With POLAR you hear all previous takes as you record each subsequent take. If you are familiar with Ableton Live’s Looper plug-in then you know basically how POLAR works. If you’ve used a guitar looper pedal then you know too.</p>
+
+<p>With any sort of basic midi control, you can create yourself a full-featured guitar looper pedal.</p>
+
+<p>POLAR does have some useful features that you won’t find on your average guitar looper pedal though. You can trigger recording via an audio threshold, group overdubs, easily do stereo overdubs (drums! difficult lead parts!), and your looping session is fully synced to your project. Doing vocal harmonies is fun with POLAR. Creating complex multi-layer guitar solos is addictive. Even using it to create drum tracks 1 drum at a time is possible for the coordination impaired.</p>
+
+<p>Then when you’re done, you can just dump each overdub in to its own track in your project, or export them to use elsewhere.</p>
+
+<p>Note: This functionality is available for MIDI recording without any plug-in necessary. Traditional audio loop recording is possible as well (where the previous take is not played back with each subsequent take).</p>
+
+<h1 id="plug-ins-part-1---masterworks">Plug-ins part 1 - MasterWorks</h1>
+
+<p>There’s a bit of a <a href="https://en.wikipedia.org/wiki/Meme">meme</a> about not using stock plug-ins in your DAW. In DP that would be quite the mistake. DP comes with a suite of excellent sounding plug-ins. The first that I’d like to take about is what is called the ‘MasterWorks Series’.</p>
+
+<p>There’s 6 plug-ins in this pack of plug-ins.</p>
+
+<h2 id="masterworks-equalizer">MasterWorks Equalizer</h2>
+
+<p><img src="/assets/DP/MWeq.png" alt="MasterWorks Equalizer" /></p>
+
+<p>I actually thought I was going to write something lukewarm about this EQ, except I’ve been going through dozens of old DP projects and I realized that I used this very often. It was only when <a href="http://www.fabfilter.com/products/pro-q-2-equalizer-plug-in">Fabfilter Pro-Q 2</a> came out that I began to use MW EQ less often.</p>
+
+<p>While this is a fairly standard EQ, it does have 1 feature that makes it stand out: “Audition with noise”. This adds a small bit of pink noise to the signal when you touch a parameter. The added noise makes it easier to hear the EQ’s effect on the signal, and it’s particularly useful when doing any sort of ‘seek and destroy’ type operation.</p>
+
+<p>The multiple filter-types available are very useful as well. Mostly they vary the Q of the filter as the band gain is increased, but in different ways. Using an appropriate filter type can morph the MW EQ from a surgical kick drum EQ to a gentle Vocal filter.</p>
+
+<h2 id="masterworks-leveler---la2a-emulation">MasterWorks Leveler - LA2A emulation</h2>
+
+<p><img src="/assets/DP/MWleveler.png" alt="MasterWorks Levelr" /></p>
+
+<p>This is one of the best <a href="http://www.uaudio.com/hardware/compressors/la-2a.html">LA2A</a> emulations out there. I owned several LA2A emulations when I first switched to DP, and I’ve since sold them all.</p>
+
+<p>Not only do you get to select from 4 different eras of LA2A, but the emulation goes so far as to emulate the photocell warmup time. You can bypass this warmup, or save the state of warmup at any point.</p>
+
+<h2 id="masterworks-fet-76---1176-emulation">MasterWorks FET-76 - 1176 emulation</h2>
+
+<p><img src="/assets/DP/MWfet.png" alt="MasterWorks FET-76" /></p>
+
+<p>Ah yes, the ubiquitous <a href="http://www.uaudio.com/hardware/compressors/1176ln.html">1176</a>. This is Motu’s emulation of the famous unit, and they did quite an excellent job.</p>
+
+<p>I can not say that it is my favorite 1176 emulation, but unless you’ve owned a selection of hardware units (as I have), then I think the large majority of users would be exceptionally happy with this plug-in.</p>
+
+<h2 id="masterworks-compressor---multiband-compressor">MasterWorks Compressor - Multiband Compressor</h2>
+
+<p><img src="/assets/DP/MWcomp.png" alt="MasterWorks Compressor" /></p>
+
+<p>The MasterWorks Compressor is a fairly vanilla multiband compressor that has been executed well. It is an <em>excellent de-esser</em> and invaluable on a Reverb send to reduce unwanted artifacts. I’ve also used it to fix some unruly kick drums many times.</p>
+
+<p>Currently I always reach for <a href="http://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in">Fabfilter Pro-MB</a> any time that I need a multiband compressor, but considering that MW Comp comes free with DP… I think it is a fantastic addition.</p>
+
+<h2 id="masterworks-limiter">MasterWorks Limiter</h2>
+
+<p><img src="/assets/DP/MWlimiter.png" alt="MasterWorks Limiter" /></p>
+
+<p>While this isn’t <a href="http://aom-factory.jp/products/invisible-limiter/">Invisible Limiter</a>, <a href="http://www.voxengo.com/product/elephant/">Elephant</a>, <a href="https://dmgaudio.com/limitless">Limitless</a>, <a href="https://www.izotope.com/en/products/master-and-deliver/ozone.html?gclid=COLunK6Q6tACFYxkhgodcu8GkA">Ozone</a> or <a href="http://www.pspaudioware.com/plugins/dynamic_processors/psp_xenon/">Xenon</a> it is still a great limiter.</p>
+
+<p>In fact, I would much rather to use MW Limiter over the pervasive <a href="http://www.waves.com/plugins/l2-ultramaximizer">Waves L2</a> Limiter. I even frequently use MW Limiter instead of <a href="http://www.fabfilter.com/products/pro-l-brickwall-limiter-plug-in">Fabfilter Pro-L</a>.</p>
+
+<h2 id="masterworks-gate">MasterWorks Gate</h2>
+
+<p><img src="/assets/DP/MWgate.png" alt="MasterWorks Gate" /></p>
+
+<p>MasterWorks gate is simply a good gate plug-in. Period. It has proper sidechaining from audio, filtered input or midi. All the basic controls exist and it has a display that makes it fairly easy to understand what’s going on.</p>
+
+<p>When using the midi side-chain option along with any sort of clever midi-note-generation, the MW Gate can be a cool envelope destroying machine or rhythmic envelope generator.</p>
+
+<h1 id="tracks-overview-window">Tracks Overview window</h1>
+
+<p><img src="/assets/DP/TO.png" alt="Tracks Overview Window" /></p>
+
+<p>When working in a DAW, often you will want to get a large overview of your project. This is especially common when working with relatively large projects. Basically every other DAW requires that you setup a window-layout and manually zoom out to get a large overview of your project.</p>
+
+<p>DP Has the Tracks Overview Window. This view allows you to have excellent ‘macro’ control of your project. Often when doing anything except editing or mixing, the Tracks Overview Window is the place to be. Check out the image of the tiny project to get an idea of how useful this view can be.</p>
+
+<p><img src="/assets/DP/TOcontrols.png" alt="Track Overview Controls" /></p>
+
+<p>The TO also allows a DP user to be in total command of projects with 100s of tracks. With the track visibility pane and the TO, navigating a 500-600 track project is a breeze, if not outright pleasant. Even when working in small projects the TO allows the user to do most anything they need to without having to fool around with scrolling, zooming, searching for settings in a channel strip or whatever.</p>
+
+<p><img src="/assets/DP/TOsplit.png" alt="Tracks Overview horizontal split" /></p>
+
+<p>With DP’s consolidated window, it’s possible to have any of the other editors open with the TO available on the top or bottom pane. Also be sure to see those track visibility panels on the left that allow you to have different tracks visible in each pane. There’s menu items to quickly show ‘All Audio’, ‘All record enabled’ etc… and you can save track visibility layouts to recall later. Often I’ll have a top pane with just the audio tracks I’m recording, and the bottom is a full project overview, or I’ll have the multitrack drums I’m editing in the bottom while I have a single track waveform editor open up top for small adjustments. The possibilities are massive and make for very quick and informed workflows.</p>
+
+<p><img src="/assets/DP/TOsplit2.png" alt="Tracks Overview horizontal split" /></p>
+
+<p>If you’ve used a DAW that has a sort of ‘overview lane’, the TO is this concept but on steroids. I can’t emphasizes how useful this view is.</p>
+
+<p>(Hmm… is that a branched offline undo history I see?)</p>
+
+<h1 id="notes">Notes</h1>
+
+<p>Note: All images are taken with the ‘8 bit’ theme for DP9.</p>
+
+<p>Be sure to check out the other DP Features posts!</p>
+
+<p><a href="/music/2016/12/11/Cool-Features-in-Digital-Performer/.-Part-2.html">Part 2</a>
+<a href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html">Part 3</a>
+<a href="/music/2016/12/13/Cool-Features-in-Digital-Performer/.-Part-4.html">Part 4</a>
+<a href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html">Part 5</a></p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

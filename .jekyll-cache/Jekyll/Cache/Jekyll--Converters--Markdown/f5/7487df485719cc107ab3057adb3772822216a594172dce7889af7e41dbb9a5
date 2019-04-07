@@ -1,0 +1,241 @@
+I"�/<p><img src="/assets/DP/Featurespt5.png" alt="Day 5" /></p>
+
+<p>This installment of “Cool Features in Digital Performer” I’m going to wax poetic about: Snapshot Automation, Clippings, OSC Support, Midi Effects, and some more plug-ins.</p>
+
+<p>Be sure to check out the other DP Features posts!</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/10/Cool-Features-in-Digital-Performer/.-Part-1.html">Cool Features in Digital Performer... Part 1</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/11/Cool-Features-in-Digital-Performer/.-Part-2.html">Cool Features in Digital Performer... Part 2</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html">Cool Features in Digital Performer... Part 3</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/13/Cool-Features-in-Digital-Performer/.-Part-4.html">Cool Features in Digital Performer... Part 4</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/16/Things-I-hate-about-Digital-Performer.html">Things I hate about Digital Performer...</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/03/15/Things-I-dont-hate-about-Digital-Performer-10.html">Things I don't hate about Digital Performer: 10 edition</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#snapshot-automation" id="markdown-toc-snapshot-automation">Snapshot Automation</a></li>
+  <li><a href="#clippings" id="markdown-toc-clippings">Clippings</a></li>
+  <li><a href="#osc-support" id="markdown-toc-osc-support">OSC Support</a></li>
+  <li><a href="#midi-effects" id="markdown-toc-midi-effects">Midi Effects</a></li>
+  <li><a href="#plug-ins-part-5---boom-and-boomier" id="markdown-toc-plug-ins-part-5---boom-and-boomier">Plug-ins part 5 - Boom and boomier</a>    <ul>
+      <li><a href="#proverb" id="markdown-toc-proverb">Proverb</a></li>
+      <li><a href="#subkick" id="markdown-toc-subkick">Subkick</a></li>
+    </ul>
+  </li>
+  <li><a href="#notes" id="markdown-toc-notes">Notes</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="snapshot-automation">Snapshot Automation</h1>
+
+<p><img src="/assets/DP/AutomationSnapshot.png" alt="Automation Snapshots" /></p>
+
+<p>Snapshot Automation is nearly essential to my workflow. It is a very simple concept with major ramifications to automation heavy workflows without a controller.</p>
+
+<p>Snapshot automation allows you to make changes to something, such as a plug-in, and affect a piece of time with those changes as automation. Changes can be flat or ramped from one change to the next. This allows for using a single plugin where you may have to use 2 and work with bypass automation, or allows very easy morphing between parameters.</p>
+
+<p>Here are the options available, which may make it easier to understand what is possible:</p>
+
+<p>Time Range, this affects how the current changes are applied compared to what is already written as automation -</p>
+
+<ul>
+  <li>All time</li>
+  <li>Selected Time</li>
+  <li>From counter to chunk end</li>
+  <li>From counter to chunk start</li>
+  <li>From counter to next change (flat)</li>
+  <li>From counter to next change (ramped)</li>
+  <li>From counter to previous change (flat)</li>
+  <li>From counter to previous change (ramped)</li>
+  <li>From previous change to next change</li>
+</ul>
+
+<p>Tracks, this affects which tracks the snapshot parameters are taken from. Remember the powerful track selector features here! -</p>
+
+<ul>
+  <li>All</li>
+  <li>Selected tracks</li>
+  <li>Tracks shown in edit window</li>
+  <li>Tracks shown in mixing window</li>
+  <li>Tracks shown in edit window (of the plug-in)</li>
+</ul>
+
+<p>Data types, this pinpoints exactly which data on the affected track is written. DP has powerful automation filtering features that apply here. -</p>
+
+<ul>
+  <li>All <em>enabled</em> data types</li>
+  <li>Current data types in effects window</li>
+  <li>Data types visible in mixing board</li>
+  <li>Active data types in effects window</li>
+  <li>All data types in effects window</li>
+</ul>
+
+<p>Using these features you can make a change to your project at a point and write those changes instantly as automation. You can ramp these from other changes or apply the changes to a specific piece of time. Very powerful feature for non-controller based automation.</p>
+
+<p>Here’s a quick example of morphing between 2 presets in a plug-in. This took me about 10 seconds to do, and this doesn’t even scratch the surface of what you can do using the snapshot automation parameters and DP’s excellent automation tools.</p>
+
+<p><img src="/assets/DP/SnapshotMorph.png" alt="Automation Morphing!" /></p>
+
+<h1 id="clippings">Clippings</h1>
+
+<p><img src="/assets/DP/Clippings.png" alt="A clippings window" /></p>
+
+<p>Clippings are basically what it sounds like. It’s a clipboard, but a clipboard on steroids. A clipping window can hold basically anything. Links to files, presets, <em>sequences</em> (this basically gives you track templates), midi <em>data</em>, audio <em>data</em> and various other things.</p>
+
+<p>There’s 3 types of clipping windows in DP, and there can be multiple clipping windows of each type. Global, Project and Startup.</p>
+
+<ul>
+  <li>Global - available to any DP project</li>
+  <li>Project - these are available on a per-project basis.</li>
+  <li>Startup - these are per-project but everything in the window is executed upon project load. Very useful for rewire, video, complex hardware setups and more.</li>
+</ul>
+
+<p>Clippings allow you to store commonly used things to be quickly available. If it’s in DP it can be ‘clipped’. If it exists on your system it can be ‘clipped’.</p>
+
+<h1 id="osc-support">OSC Support</h1>
+
+<p><img src="/assets/DP/OSC.png" alt="Osc Support!" /></p>
+
+<p><a href="http://opensoundcontrol.org/introduction-osc">OSC</a> is a protocol that allows you to send structured messages to a device. For most people this isn’t very noteworthy, but if you’re a techno-muso-geek then OSC support is very exciting.</p>
+
+<p>DP has nearly-complete OSC bindings. Many commands are available, the mixer, effects parameters, the entire transport and some other bits.</p>
+
+<p>OSC control makes it possible for you to create your own control systems for DP using any number of programs like <a href="http://hexler.net/software/touchosc">TouschOSC</a> or even <a href="http://cnmat.berkeley.edu/oscuino">making your own hardware controller</a>.</p>
+
+<h1 id="midi-effects">Midi Effects</h1>
+
+<p>DP has a whole suite of <strong>Real-Time</strong> <em>non-destructive</em> midi plug-ins. This means that when you put these on a midi track, they do not alter the written data. The data is only altered in real-time as playback occurs.</p>
+
+<p>Note that many of these effects have various extra parameters not shown. Some of them have multiple layers of parameters with some really neat capabilities.</p>
+
+<p>Arpeggiator ⬇</p>
+
+<p><img src="/assets/DP/Arpeggiator.png" alt="Arpeggiator" /></p>
+
+<p>Change Duration ⬇</p>
+
+<p><img src="/assets/DP/ChangeDuration.png" alt="ChangeDuration" /></p>
+
+<p>Change Velocity ⬇</p>
+
+<p><img src="/assets/DP/ChangeVelocityReal.png" alt="ChangeVelocity" /></p>
+
+<p>Deflam ⬇</p>
+
+<p><img src="/assets/DP/DeflamReal.png" alt="Deflam" /></p>
+
+<p>Echo ⬇</p>
+
+<p><img src="/assets/DP/Echo.png" alt="Echo" /></p>
+
+<p>Groove ⬇</p>
+
+<p><img src="/assets/DP/Groove.png" alt="Groove" /></p>
+
+<p>Humanize ⬇</p>
+
+<p><img src="/assets/DP/HumanizeReal.png" alt="Humanize" /></p>
+
+<p>Invert Pitch ⬇</p>
+
+<p><img src="/assets/DP/InvertPitch.png" alt="InvertPitch" /></p>
+
+<p>Quantize ⬇</p>
+
+<p><img src="/assets/DP/Quantize.png" alt="Quantize" /></p>
+
+<p>Reassign Continuous Data ⬇</p>
+
+<p><img src="/assets/DP/Reassign.png" alt="Reassign" /></p>
+
+<p>Remove Duplicates ⬇</p>
+
+<p><img src="/assets/DP/RemoveDupes.png" alt="RemoveDupes" /></p>
+
+<p>Time Shift ⬇</p>
+
+<p><img src="/assets/DP/TimeShift.png" alt="TimeShift" /></p>
+
+<p>Transpose ⬇</p>
+
+<p><img src="/assets/DP/TransposeReal.png" alt="Transpose" /></p>
+
+<p>I’m not even going to go through all of these. Check out the GUIs to see what you can do. There’s some very cool stuff like the Reassign CC effect and Humanize.</p>
+
+<h1 id="plug-ins-part-5---boom-and-boomier">Plug-ins part 5 - Boom and boomier</h1>
+
+<p>This is the last installment of the plug-in reviews. DP has quite a few other plug-ins that I’m not covering, so don’t assume that’s all!</p>
+
+<h2 id="proverb">Proverb</h2>
+
+<p><img src="/assets/DP/Proverb.png" alt="Proverb" /></p>
+
+<p>Proverb is a <a href="https://en.wikipedia.org/wiki/Convolution_reverb">Convolution Reverb</a>. These type of processors basically allow you to replicate the sound of a static space’s reflections and decay.</p>
+
+<p>There are a lot of third-party convolution plug-ins, such as my favorite <a href="http://www.liquidsonics.com/software_reverberate.htm">LiquidSonics Reverberate 2</a>. Proverb does not compete with these products, but it does offer you a great basic convolution reverb that most people will not outgrow.</p>
+
+<p>Proverb does have some features that can be uncommon in other convolution reverb products, notably the dynamics section. Proverb has both a gate and compression. Compression allows you to create much denser sounding spaces that the IR alone would create, but without the downside of clouding up your mix as the detection is linked to the dry signal fed to the reverb.</p>
+
+<p>There’s <a href="http://www.openairlib.net">numerous</a> <a href="http://www.voxengo.com/impulses/">free</a> <a href="http://www.samplicity.com/bricasti-m7-impulse-responses/">impulse responses</a> out there that you can easily load in to Proverb. Unless you need some particularly specialized features, Proverb is more than sufficient for creating some amazing spacial sounds.</p>
+
+<p>As a bonus, throw Proverb on a send and follow it up with Ensemble Chorus included in DP. There’s some really cool sounds waiting for you!</p>
+
+<h2 id="subkick">Subkick</h2>
+
+<p><img src="/assets/DP/Subkick.png" alt="Subkick" /></p>
+
+<p>Subkick does what it sounds like it may do. When the threshold of the plug-in is crossed, it lets through a signal that emulates the sound of a strong kick drum boom. With drive and pitch parameters you can create some <strong>really</strong> crazy kick sounds, or subtly beef up your anemic recorded kick.</p>
+
+<p>Subkick is definitely not a processor that you will throw on every track, but it is one of the best kick enhancers out there and it’s free with DP.</p>
+
+<h1 id="notes">Notes</h1>
+
+<p>Note: All images are taken with the ‘8 bit’ theme for DP9.</p>
+
+<p>Be sure to check out the other DP Features posts!</p>
+
+<p><a href="/music/2016/12/10/Cool-Features-in-Digital-Performer/.-Part-1.html">Part 1</a>
+<a href="/music/2016/12/11/Cool-Features-in-Digital-Performer/.-Part-2.html">Part 2</a>
+<a href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html">Part 3</a>
+<a href="/music/2016/12/13/Cool-Features-in-Digital-Performer/.-Part-4.html">Part 4</a></p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

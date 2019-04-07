@@ -1,0 +1,419 @@
+I"�l<p><img src="/assets/StudioEvaluatione/scale.png" alt="The scale of which all is measured" /></p>
+
+<p>In this post I’m going to evaluate all of the included effects and instruments in Studio One. I won’t be covering the presets, samples or loops, since I never use those.</p>
+
+<p>As the scale you see indicates, this is what the ratings mean:</p>
+
+<ul>
+  <li>
+    <p>1-3: I would never use this in a project. There’s something better regardless of your platform that is cheap or free.</p>
+  </li>
+  <li>
+    <p>4-6: This is probably replaceable by something relatively expensive or it is marginally useful because of some unique feature or integration.</p>
+  </li>
+  <li>
+    <p>7-9: I would use this at any reasonable opportunity.</p>
+  </li>
+  <li>
+    <p>10: I would find reasons to use this.</p>
+  </li>
+</ul>
+
+<p>So here’s how I feel about <strong>all</strong> of the built in effects in Studio One</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#ampire-710" id="markdown-toc-ampire-710">Ampire (7/10)</a></li>
+  <li><a href="#analog-delay-510" id="markdown-toc-analog-delay-510">Analog Delay (5/10)</a></li>
+  <li><a href="#autofilter-610" id="markdown-toc-autofilter-610">Autofilter (6/10)</a></li>
+  <li><a href="#beat-delay-510" id="markdown-toc-beat-delay-510">Beat Delay (5/10)</a></li>
+  <li><a href="#binaural-pan-210" id="markdown-toc-binaural-pan-210">Binaural Pan (2/10)</a></li>
+  <li><a href="#bitcrusher-810" id="markdown-toc-bitcrusher-810">Bitcrusher (8/10)</a></li>
+  <li><a href="#channel-strip-110" id="markdown-toc-channel-strip-110">Channel Strip (1/10)</a></li>
+  <li><a href="#chorus-310" id="markdown-toc-chorus-310">Chorus (3/10)</a></li>
+  <li><a href="#compressor-410" id="markdown-toc-compressor-410">Compressor (4/10)</a></li>
+  <li><a href="#dual-pan-010" id="markdown-toc-dual-pan-010">Dual Pan (0/10)</a></li>
+  <li><a href="#expander-310" id="markdown-toc-expander-310">Expander (3/10)</a></li>
+  <li><a href="#fat-channel-210" id="markdown-toc-fat-channel-210">Fat Channel (2/10)</a></li>
+  <li><a href="#flanger-510" id="markdown-toc-flanger-510">Flanger (5/10)</a></li>
+  <li><a href="#gate-310" id="markdown-toc-gate-310">Gate (3/10)</a></li>
+  <li><a href="#groove-delay-910" id="markdown-toc-groove-delay-910">Groove Delay (9/10)</a></li>
+  <li><a href="#ir-maker-1010" id="markdown-toc-ir-maker-1010">IR Maker (10/10)</a></li>
+  <li><a href="#level-meter-110" id="markdown-toc-level-meter-110">Level Meter (1/10)</a></li>
+  <li><a href="#limiter-210" id="markdown-toc-limiter-210">Limiter (2/10)</a></li>
+  <li><a href="#mixtool-010" id="markdown-toc-mixtool-010">MixTool (0/10)</a></li>
+  <li><a href="#mixverb-110" id="markdown-toc-mixverb-110">Mixverb (1/10)</a></li>
+  <li><a href="#multiband-dynamics-810" id="markdown-toc-multiband-dynamics-810">Multiband Dynamics (8/10)</a></li>
+  <li><a href="#open-air-810" id="markdown-toc-open-air-810">Open AIR (8/10)</a></li>
+  <li><a href="#phase-meter-010" id="markdown-toc-phase-meter-010">Phase Meter (0/10)</a></li>
+  <li><a href="#phaser-310" id="markdown-toc-phaser-310">Phaser (3/10)</a></li>
+  <li><a href="#pipeline-monostereo-1010" id="markdown-toc-pipeline-monostereo-1010">Pipeline Mono/Stereo (10/10)</a></li>
+  <li><a href="#pro-eq-710" id="markdown-toc-pro-eq-710">Pro EQ (7/10)</a></li>
+  <li><a href="#redlightdist-110" id="markdown-toc-redlightdist-110">RedlightDist (1/10)</a></li>
+  <li><a href="#room-reverb-910" id="markdown-toc-room-reverb-910">Room Reverb (9/10)</a></li>
+  <li><a href="#rotor-810" id="markdown-toc-rotor-810">Rotor (8/10)</a></li>
+  <li><a href="#scope-1010" id="markdown-toc-scope-1010">Scope (10/10)</a></li>
+  <li><a href="#spectrum-meter-1010" id="markdown-toc-spectrum-meter-1010">Spectrum Meter (10/10)</a></li>
+  <li><a href="#tone-generator-810" id="markdown-toc-tone-generator-810">Tone Generator (8/10)</a></li>
+  <li><a href="#tricomp-310" id="markdown-toc-tricomp-310">Tricomp (3/10)</a></li>
+  <li><a href="#tuner-910" id="markdown-toc-tuner-910">Tuner (9/10)</a></li>
+  <li><a href="#x-trem-510" id="markdown-toc-x-trem-510">X-Trem (5/10)</a></li>
+  <li><a href="#-bonus" id="markdown-toc--bonus"># Bonus</a></li>
+  <li><a href="#vt1-910" id="markdown-toc-vt1-910">VT1 (9/10)</a></li>
+  <li><a href="#rc500--310" id="markdown-toc-rc500--310">RC500  (3/10)</a></li>
+  <li><a href="#conclusion-610" id="markdown-toc-conclusion-610">Conclusion (6/10)</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="ampire-710">Ampire (7/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Ampire.png" alt="Awesome!" /></p>
+
+<p>Ampire is probably the best guitar sim overall I’ve used yet in a DAW. You can use your own cab IRs, and the amp models are quite usable.</p>
+
+<p>The included ‘stomps’ are not exactly fantastic, but they are useable.</p>
+
+<p>I primarily use crunchy guitar tones, and clean tones. Ampire does do some passable heavy and grindy sounds, but I would definitely reach for something else first. Most of the time I am ok using Ampire to cut a track and then I would rather switch out to another amp sim for mixdown.</p>
+
+<h1 id="analog-delay-510">Analog Delay (5/10)</h1>
+<p><img src="/assets/StudioEvaluatione/AnalogDelay.png" alt="Meh" /></p>
+
+<p>It’s a delay. I don’t see how it’s particularly analog sounding other than the saturation sound and the ‘warping’ sound you can get when you change the speed.</p>
+
+<p>As a delay plugin, its useful. As an ‘analog delay’, I would definitely reach for something else first.</p>
+
+<h1 id="autofilter-610">Autofilter (6/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Autofilter.png" alt="I'm in between on this one" /></p>
+
+<p>I’m spoiled here. There are plugins out there like <a href="http://www.fabfilter.com/products/volcano-2-powerful-filter-plug-in">Fabfilter Volcano</a> and <a href="https://cytomic.com/drop">Cytomic The Drop</a>. If I hadn’t have used awesome plugins like this then I would probably rate the autofilter higher.</p>
+
+<p>If you are just the average user that doesn’t have a need for something like this, then I’d probably rate it 8/10 for it’s existence and occasional usefulness. The filter modes in it do sound quite good without the ‘auto’ section of it.</p>
+
+<p>If you have access to another modern filter plugin, then you will likely never touch this.</p>
+
+<h1 id="beat-delay-510">Beat Delay (5/10)</h1>
+<p><img src="/assets/StudioEvaluatione/BeatDelay.png" alt="Average" /></p>
+
+<p>Your average DAW delay plugin. They all have it. If you do any sort of music that is delay heavy then you won’t find much use for it.</p>
+
+<p>I will say that most other DAWs seem to offer a better delay plugin that this though.</p>
+
+<h1 id="binaural-pan-210">Binaural Pan (2/10)</h1>
+<p><img src="/assets/StudioEvaluatione/BinauralPan.png" alt="NO" /></p>
+
+<p>Don’t use this plug-in. The bane of mono compatibility and it’s done better elsewhere.</p>
+
+<h1 id="bitcrusher-810">Bitcrusher (8/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Bitcrusher.png" alt="Competent, but..." /></p>
+
+<p>The bitcrusher is nice to have. Some DAWs don’t even come with one, so that’s a big bonus. My main issue with it is that it’s not oversampled and it lacks various modes of emulation for various equipment.</p>
+
+<p>It’s definitely useful though, and I would not seek to replace this unless I needed something specific.</p>
+
+<h1 id="channel-strip-110">Channel Strip (1/10)</h1>
+<p><img src="/assets/StudioEvaluatione/ChannelStrip.png" alt="Yuck" /></p>
+
+<p>‘Compress’, ‘Expand’. Gross. This appears to be some sort of quick plugin for beginners. You will absolutely want to replace this, and will likely never use it since S1 comes with better plugins anyway!</p>
+
+<h1 id="chorus-310">Chorus (3/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Chorus.png" alt="I can't think of better, but I still don't like it" /></p>
+
+<p>I don’t use chorus plugins often, yet when I was using this on various things I still didn’t like it. It felt like the parameters weren’t mapped correctly for some reason.</p>
+
+<p>It is a competent implementation of a chorus for sure, but in use I simply did not get any sounds that I expected from it. I am somewhat embarrassed that I was unable to pinpoint my issues with it, but I certainly did not enjoy using it.</p>
+
+<h1 id="compressor-410">Compressor (4/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Compressor.png" alt="Surprisingly Ok, despite the rating" /></p>
+
+<p>I would definitely replace this plugin, but it is useful.</p>
+
+<p>My main issue with it is that it is difficult to get any ‘character’ out of it. It’s not intended for that, so I can’t really fault the plugin for it. I still want character when I use a compressor.</p>
+
+<p>I do appreciate that the Attack and Release knobs are mapped to reasonable values across the range. A lot of DAW compressors get that wrong. I never liked any of the auto or adaptive settings on the attack/release. They always seemed to make things sound ‘mushier’ than they would be with decent manual settings.</p>
+
+<p>The threshold/ratio display works well and allows for very quick adjustment of the compression.</p>
+
+<p>The sidechain works well and I have often used it for sidechaining duties as it’s very simple to setup and works cleanly as I want.</p>
+
+<p>The mix knob is very much appreciated. Parallel compression is very useful and not many DAW compressors come with this feature. Likewise with the stereolink feature.</p>
+
+<p>Another very cool thing is that the gain reduction shows in the mixer next to the level meter. Rather useful.</p>
+
+<h1 id="dual-pan-010">Dual Pan (0/10)</h1>
+<p><img src="/assets/StudioEvaluatione/DualPan.png" alt="This is a broken design" /></p>
+
+<p>There’s a few plugins that I will rate a 0 because they should be part of the mixer. This is one of them.</p>
+
+<p>The fact that this is a plugin is a failure of design. Period.</p>
+
+<h1 id="expander-310">Expander (3/10)</h1>
+<p><img src="/assets/StudioEvaluatione/EXpander.png" alt="It's alright, I guess" /></p>
+
+<p>It works, kinda. Very ineffective. I don’t know what more to say. This also shouldn’t be its own plugin.</p>
+
+<h1 id="fat-channel-210">Fat Channel (2/10)</h1>
+<p><img src="/assets/StudioEvaluatione/FatChannel.png" alt="The hell is this?" /></p>
+
+<p>I don’t get why this is called ‘fat channel’. There is nothing fat about it. It’s just a basic channel strip.</p>
+
+<p>Not only is it a basic strip, but the design is poor. It has small controls that are difficult to use relative to the rest of the GUIs. Not only that but it deviates from the other S1 plugin GUIs for no good reason.</p>
+
+<p>I understand that this exists for compatibility with their digital mixers, but… once again, this is a plugin that is easily replaced… by Studio One’s own plugins.</p>
+
+<h1 id="flanger-510">Flanger (5/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Flanger.png" alt="I guess it's alright" /></p>
+
+<p>It flanges. What else do you want?</p>
+
+<h1 id="gate-310">Gate (3/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Gate.png" alt="No sir, I don't like it" /></p>
+
+<p>There’s something about the attack/release curves that make this basically unusable in my experience.</p>
+
+<p>The open/close paradigm is unfamiliar to me, so when using this I had a lot of trouble mentally mapping these to the normal ideas of threshold/floor.</p>
+
+<p>The trigger functionality is good to have in a DAW gate. I’m particularly happy about that.</p>
+
+<p>However, every other gate plugin that I own is better.</p>
+
+<h1 id="groove-delay-910">Groove Delay (9/10)</h1>
+<p><img src="/assets/StudioEvaluatione/GrooveDelay.png" alt="here we go!" /></p>
+
+<p>Here we go! This is a fairly unique and useful delay plugin. You have a graphical interface to adjust the taps, pan, cutoff and swing. There’s also a cool X/Y graph for adjusting the filter freq/res.</p>
+
+<p>I’ve found this to be an excellent creative tool. I would happily pay $20-40 for this as an 3rd party VST.</p>
+
+<h1 id="ir-maker-1010">IR Maker (10/10)</h1>
+<p><img src="/assets/StudioEvaluatione/IRMaker.png" alt="NICE!" /></p>
+
+<p>Every DAW should have this.</p>
+
+<p>Since S1 has the ‘Open Air’ convolution reverb, and the user cab section of Ampire, it makes sense to have a way to create your own IRs. Studio One does!</p>
+
+<p>Every other DAW I know of lacks this feature, despite having built-in plugins that use IRs.</p>
+
+<p>Read the manual for how to use this, but rest assured that it opens up a whole new world of creativity and really boost the usefulness of Open Air and Ampire.</p>
+
+<p>Good work Presonus.</p>
+
+<h1 id="level-meter-110">Level Meter (1/10)</h1>
+<p><img src="/assets/StudioEvaluatione/LevelMeter.png" alt="Garbage" /></p>
+
+<p>It’s a nice try at a level meter, and it’s resizable.</p>
+
+<p>There are much better third-party options out there if you need any serious level monitoring. If you don’t then this is quite a good option.</p>
+
+<p>Why a 1/10? Because this should be fully-integrated in to every meter in the mixer. It’s not.</p>
+
+<h1 id="limiter-210">Limiter (2/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Limiter.png" alt="Not too good." /></p>
+
+<p>Replace this thing. It sounds awful.</p>
+
+<p>It’s nice that they have some K-metering options there, but the sound just isn’t there. There are <strong>many</strong> other options, many cheap, that offer much better results.</p>
+
+<h1 id="mixtool-010">MixTool (0/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Mixtool.png" alt="THIS AGAIN?" /></p>
+
+<p>Yes, these are all useful things… that need to be integrated in to the mixer.</p>
+
+<h1 id="mixverb-110">Mixverb (1/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Mixverb.png" alt="Awful" /></p>
+
+<p>This sounds terrible. I could not get anything useable out of this, especially when Room Reverb and Open Air offer so much more.</p>
+
+<p>I assume this is here for legacy reasons.</p>
+
+<h1 id="multiband-dynamics-810">Multiband Dynamics (8/10)</h1>
+<p><img src="/assets/StudioEvaluatione/MultibandDynamics.png" alt="Not bad" /></p>
+
+<p>It’s nice that they include a useable multiband dynamics plugin. It has expansion and gate functionality built-in as well.</p>
+
+<p>The filters are not ideal, as you can hear some fairly major artifacts with no dynamics processing engaged.</p>
+
+<p>The ‘Edit All Relative’ function is quite useful and I found it to be a nice shortcut for some bus-related processing. Once again the auto-speed settings were not particularly useful.</p>
+
+<p>The low/high threshold parameters are confusing. Just like the gate, I don’t know why they insist on renaming these relatively common parameters to something else. It took me a while to understand how they worked well enough to not have to consciously think why altering the threshold.</p>
+
+<p>Once again, having a mix knob is <em>extremely</em> useful. In fact, I rated this 7/10 originally but I’m going to change it to 8/10 because of the mix knob.</p>
+
+<h1 id="open-air-810">Open AIR (8/10)</h1>
+<p><img src="/assets/StudioEvaluatione/OpenAIR.png" alt="Thanks presonus!" /></p>
+
+<p>I think that every DAW needs a good convolution reverb. There are things that you can do with convolution that are so much quicker and simpler than algorithmic reverbs that I feel like it is now a basic feature that should be included in every DAW.</p>
+
+<p>Open Air is quite a decent implementation. The log level/time display options are useful, the cross-feed/delay ability allows for more immersive reverbs and the ER/LR mixing gives you some nice options for tuning room sounds.</p>
+
+<p>Another bonus is that S1 comes with a decent sized library of IRs <em>and</em> the IR Maker plugin so you can easily make your own.</p>
+
+<p>This may not be the best convolution reverb in town, but with the full suite of basics Presonus has done its users right with Open Air.</p>
+
+<h1 id="phase-meter-010">Phase Meter (0/10)</h1>
+<p><img src="/assets/StudioEvaluatione/PhaseMeter.png" alt="Yep, 0 again." /></p>
+
+<p>This should once again be part of every meter in the Mixer. I don’t expect it to be some sort of always integrated display, but a quick way to pop it up would be ideal.</p>
+
+<p>Not all DAWs come with a phase meter, so this is a fantastic inclusion, but I’m giving it 0 because it’s a bloody plugin and not integrated in to the mixer.</p>
+
+<h1 id="phaser-310">Phaser (3/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Phaser.png" alt="Not that great." /></p>
+
+<p>A competent phaser that has a sync option.</p>
+
+<p>I would give this a higher rating, but I have used some really cool 3rd party phaser plugins. For the price of the 3rd party options, this is easily replaceable if you use phasers often.</p>
+
+<h1 id="pipeline-monostereo-1010">Pipeline Mono/Stereo (10/10)</h1>
+<p><img src="/assets/StudioEvaluatione/PipelineMonoStereo.png" alt="YES. Thank you" /></p>
+
+<p>A 10. This is another thing that I feel is a basic feature of every DAW, but not every DAW has it.</p>
+
+<p>Pipeline allows you to use hardware effects as inserts similar to how you would just plop a VST in to your project. It has a ping function to figure out the I/o latency, and then it automatically compensates for it.</p>
+
+<p>The phase invert button is a very useful addition, along with the mix knob.</p>
+
+<p>I would easily say this is the best plugin in S1. I’ve used it a lot and it’s a fantastic implementation of this feature.</p>
+
+<h1 id="pro-eq-710">Pro EQ (7/10)</h1>
+<p><img src="/assets/StudioEvaluatione/ProEQ.png" alt="A difficult decision" /></p>
+
+<p>This was a difficult decision. A competent basic EQ. Third-party EQs are cheap and excellent. Pro EQ offers no colour options, so I really suspect most users will purchase another one or twenty EQs anyway.</p>
+
+<p>The main reason I give it a 7/10 and not a ‘replaceable’ rating is the waterfall spectrum option. Waterfall is a vertical spectrograph display that makes visualizing spectral information much easier than FFT, bars or other graph styles.</p>
+
+<p>I’ve only seen the waterfall or spectrograph displays on fairly expensive third-party EQs. Despite owning a car’s worth of digital EQs, I found myself grabbing Pro EQ fairly frequently simply because it worked and the waterfall display was excellent.</p>
+
+<p>I would really like more options to change the FFT size and speed. Along with mid/side capabilities and pre/post display settings I could easily see myself rating this 9 or 10. Compared to the price of some third-party EQs, that nearly offsets the entire cost of Studio One itself!</p>
+
+<h1 id="redlightdist-110">RedlightDist (1/10)</h1>
+<p><img src="/assets/StudioEvaluatione/RedlightDist.png" alt="Garbage" /></p>
+
+<p>Garbage. Gross. Awful. Probably the worst distortion plugin that I’ve ever used.</p>
+
+<h1 id="room-reverb-910">Room Reverb (9/10)</h1>
+<p><img src="/assets/StudioEvaluatione/RoomReverb.png" alt="Yes! I love it!" /></p>
+
+<p>I love this plugin. It’s not taken the spot of ‘favorite reverb’, since there’s half a dozen third-party options I’d grab first, but it works.</p>
+
+<p>Why do I love it if I’d use so many other options first? It works. Nearly every other DAW’s algorithmic reverb options are terrible. Room Reverb does exactly what the name implies and it does it well.</p>
+
+<p>I’ve been able to intuitively dial in the sound I want nearly every time with Room Reverb. Even with third-party options I end up fooling around for a bit to eek out the sound I’m looking for.</p>
+
+<p>Room reverb has let me get mostly there very fast. There’s a lot to be said for getting it ‘close enough’ and moving on when you are full of ideas that you want to get out.</p>
+
+<h1 id="rotor-810">Rotor (8/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Rotor.png" alt="Neat!" /></p>
+
+<p>Oh hey, cool. A leslie emulator, well for the most part.</p>
+
+<p>I pretty much would never use this personally, but I played around with it and it was very fun. It sounds good and it has useful parameters.</p>
+
+<p>I can’t tell you if it’s a <em>good</em> emulation, but I can tell you that it’s fun and it sounds good to someone that doesn’t use leslie sounds.</p>
+
+<h1 id="scope-1010">Scope (10/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Scope.png" alt="Very cool addition" /></p>
+
+<p>Wow a scope. It works too. I’ve ended up using this quite a few times, including when I was repairing a microphone recently. I figured I’d use the scope plugin instead of my bench scope and I was able to do a relatively basic repair, combined with the tone generator and a few resistors to get the levels right, without much issue.</p>
+
+<p>Very useful. Very cool. You may never need this, but when you need a scope… you need a scope. I really like having this in the DAW for free. Kudos Presonus.</p>
+
+<h1 id="spectrum-meter-1010">Spectrum Meter (10/10)</h1>
+<p><img src="/assets/StudioEvaluatione/SpectrumMeter.png" alt="Ok, very useful." /></p>
+
+<p>Very good implementation of a spectrum meter. This is the best I know of in any DAW, besides Samplitude.</p>
+
+<p>Sonogram and waterfall modes are extremely useful. Momentary mode is extermely useful as are every other parameter.</p>
+
+<p>If this was integrated in to the EQ, I would easily say that the EQ is <em>the best</em> EQ that any DAW offers. Period.</p>
+
+<p>Also, like many other S1 plugins, this is resizable. Very good addition to a spectrum meter and I often had it inserted on my master then thrown to a second screen.</p>
+
+<h1 id="tone-generator-810">Tone Generator (8/10)</h1>
+<p><img src="/assets/StudioEvaluatione/ToneGenerator.png" alt="Useful." /></p>
+
+<p>A competent tone generator that can be MIDI triggered. That means you can use it for sound reinforcement as well (huge booming kick drums anyone?). It is lacking an envelope, but that can be easily forged with some processing.</p>
+
+<p>It has sweep options along with period (length).</p>
+
+<p>I’ve used this quite a few times, surprisingly. Along with the scope and a multimeter, you have basically enough to do most audio repairs assuming some basic electronics knowledge.</p>
+
+<h1 id="tricomp-310">Tricomp (3/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Tricomp.png" alt="I really have no clue what to do with this thing" /></p>
+
+<p>I really tried to like this plugin. I really tried.</p>
+
+<p>I couldn’t get it to sound good on anything. Bass, busses of anything, master channel and individual tracks of every sort.</p>
+
+<p>I gave it 3 generous points for having a mix knob.</p>
+
+<h1 id="tuner-910">Tuner (9/10)</h1>
+<p><img src="/assets/StudioEvaluatione/Tuner.png" alt="Every daw needs a tuner." /></p>
+
+<p>When you’re in the studio, it’s important that <em>every musician use the same tuner</em>. I can’t tell you how many problems are caused by using multiple tuners. As such it is imperative that every DAW has an included tuner.</p>
+
+<p>Tuner is a basic tuner with calibration mode for 12-tet equal temperament tuning. It works and it will suffice for most people.</p>
+
+<p>I gave this 3 extra points for strobe mode. It’s way easier to tune with strobe mode in my experience, especially out of the corner of your eye.</p>
+
+<h1 id="x-trem-510">X-Trem (5/10)</h1>
+<p><img src="/assets/StudioEvaluatione/X-Trem.png" alt="A tremolo. K." /></p>
+
+<p>Ok, a tremolo. It h as sync mode and pan OR volume.</p>
+
+<p>It works, it’s basic. Probably replaceable if you use this sort of thing often, but it works and I think it will suffice for most one-off special effect use.</p>
+
+<h1 id="-bonus"># Bonus</h1>
+
+<p>Stuff from the <a href="https://shop.presonus.com/products/studio-one-prods/studio-one-add-ons/Channel-Strip-Collection">Presonus Channel Strip Collection</a></p>
+
+<h1 id="vt1-910">VT1 (9/10)</h1>
+<p><img src="/assets/StudioEvaluatione/VT1.png" alt="Pretty useful apparently!" /></p>
+
+<p>I’m skeptical of these sorts of channel strip plugins. There’s not a single one that I use with any regularity… until now.</p>
+
+<p>I found myself grabbing this thing constantly. The quick HP filter and a decent sounding compressor make for an addictive experience.</p>
+
+<p>On a recent project I ended up with about 20 of these things. It was just way easier to grab the VT1 for quick ‘channel duties’ to get the sound just about there, then bypass it and tweak with something else after.</p>
+
+<p>I liken this to the Room Reverb where it gets you ‘almost there’ very fast. Sometimes it gets you all the way there.</p>
+
+<h1 id="rc500--310">RC500  (3/10)</h1>
+<p><img src="/assets/StudioEvaluatione/RC500.png" alt="Alright. I used it a lot too" /></p>
+
+<p>I pretty much never touched the EQ on this. I did use the compressor a lot until I decided that it must be the same thing as the VT1’s compressor.</p>
+
+<p>Given that I’m <em>fairly</em> sure that this is the same compressor, or very close to the VT1, I have to rate this as replaceable. I can see no reason to put this on a track when you could easily drop the VT1 on and have the added functionality of that.</p>
+
+<p>Perhaps you may wish to bypass the ‘tubey’ sound of the VT1, but I always found it to be beneficial to the sound.</p>
+
+<h1 id="conclusion-610">Conclusion (6/10)</h1>
+
+<p>On a whole, Studio One’s effects are a mixed bag. Competent implementations of common things with some real standouts that other DAWs seem to miss.</p>
+
+<p>What I really missed in S1 is the flavour. There’s basically no character shipped with it. Other DAWs have various plugins emulating various hardware or their own twist on some character-driven effect. S1 lacks this.</p>
+
+<p>As a <a href="http://motu.com/products/software/dp">Digital Performer</a> user, I would prefer to be stranded on an island with what DP offers. That said, the utility of some of the things in S1 like the Spectrum Meter, Scope and IR Maker give S1 a real edge for someone on a budget.</p>
+
+<p>Presonus really should focus on better integration of some of their plugins in to the mixer, such as mixtool and the phase meter. Copying features between things like the spectrum meter and Pro EQ would be really great too.</p>
+
+<p>I do appreciate the gain reduction display in the mixer. That functionality is very useful and I hope that other developers implement the <a href="http://www.presonussoftware.com/en_US/index.php?id=developer">Presonus Plug-In Extensions</a> so that other VSTs can show this in Studio One as well.</p>
+
+<p>As far as I see it, Studio One comes with everything you need to make a good basic mix. If you want to produce a few mixes with different sonic vibes, then you’re out of luck and need to buy some third-party plugins.</p>
+
+<p>For me though, the lack of ‘character’ really made me end up relying on a lot of paid products when mixing in Studio One.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

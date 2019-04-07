@@ -1,0 +1,14 @@
+I"<p><img src="/assets/Random/spacemacs.png" alt="Spacemacs!" /></p>
+
+<p>Today I’ve decided to begin trying <a href="http://spacemacs.org">spacemacs</a>. For years I used <a href="https://www.gnu.org/software/emacs/">emacs</a> for things like <a href="http://orgmode.org">orgmode</a>, <a href="https://www.common-lisp.net">Common Lisp</a> and <a href="http://clojure.org">Clojure</a>. I also used emacs as somewhat of a C IDE with some ungodly <a href="http://cedet.sourceforge.net">CDET</a> configuration. Yet, I still almost always editted text in vim.</p>
+
+<p>So you may know that earlier this year I attempted to remove emacs from my life. I was partially successful as I have managed to slim down to only use emacs for Lispy-code and <a href="http://orgmode.org/worg/org-contrib/babel/">Babel</a>.</p>
+
+<p>Recently though, someone suggested that I try spacemacs to get the best of both worlds that I’m used to. So that’s what I’m doing right now. Writing this post in spacemacs. First though I have a question about something really simple…</p>
+
+<p>So I went to find out the IRC. Oh, it’s on some weird ‘gitter’ thing. Alright, no problem.</p>
+
+<p>Wait. You have to attach your github or twitter account to talk? What? Huh?</p>
+
+<p>Alright. I’m done with spacemacs. Back to vim.</p>
+:ET

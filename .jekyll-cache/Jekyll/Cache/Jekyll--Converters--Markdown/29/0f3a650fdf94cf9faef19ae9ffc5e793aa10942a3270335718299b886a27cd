@@ -1,0 +1,14 @@
+I"1<img src="/assets/Reaper/LuaTut/Tut.jpg" alt="Lua Code">
+<div class="image-caption">Lua Code</div>
+
+<p>Today we’re going to learn to write ReaScript, specifically Lua.</p>
+
+<p><strong>If you’ve never programmed in your life</strong>, I’m going to try to take you from that point to your very first script with a GUI.</p>
+
+<p>This isn’t a super trivial example either! This is a useful script that lets you create sidechaining via automation items.</p>
+
+<p><strong>THIS IS A LOT OF READING!</strong>. You do not need to do it all at once. Try it in sections, <strong>take a break</strong> if you need to, and come back another time. Programming takes time to learn, and time to do. Don’t force it all on yourself at once.</p>
+
+<p>I’ve a video walking you through it as well. Let’s get on with it…</p>
+
+:ET

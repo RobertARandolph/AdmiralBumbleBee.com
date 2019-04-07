@@ -1,0 +1,317 @@
+I"/Q<img src="/assets/FLStudio/PeakController.png" alt="Peak Controller">
+<div class="image-caption">Peak Controller</div>
+
+<p>Alright, here we go. This is some fun stuff. Modulation in FLStudio.</p>
+
+<p>What I mean by modulation is automatically changing parameters without link to automation. Such as having a waveform modulate a parameter, or some envelope or other means.</p>
+
+<p>This is a place where FLStudio really shines, and it seems like one of those places that few FL users even venture. They should!</p>
+
+<p>It’s equally as <a href="/music/2017/06/23/Bitwig-Modulators.html">awesome as Bitwig’s modulators</a>, but for different reasons.</p>
+
+<p>Onwards!</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html"> Part 1: Introduction to FL</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/30/30-days-with-FLStudio-20-Piano-Roll-Tools.html"> Part 5: Piano Roll Tools</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/11/30-days-with-FLStudio-20-Performance-VFX.html"> Part 8: Performance mode and Video FX</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html"> Part 9: Workflow</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/24/30-days-of-FLStudio-20-conclusion.html"> Part 12: Conclusion</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#how-does-modulation-work" id="markdown-toc-how-does-modulation-work">How does modulation work?</a></li>
+  <li><a href="#modulation-sources" id="markdown-toc-modulation-sources">Modulation Sources</a>    <ul>
+      <li><a href="#formula-controller" id="markdown-toc-formula-controller">Formula Controller</a></li>
+      <li><a href="#peak-controller" id="markdown-toc-peak-controller">Peak Controller</a></li>
+      <li><a href="#xy" id="markdown-toc-xy">XY</a></li>
+      <li><a href="#xyz" id="markdown-toc-xyz">XYZ</a></li>
+      <li><a href="#control-surface" id="markdown-toc-control-surface">Control Surface</a></li>
+      <li><a href="#envelope-controller" id="markdown-toc-envelope-controller">Envelope Controller</a></li>
+      <li><a href="#keyboard-controller" id="markdown-toc-keyboard-controller">Keyboard Controller</a></li>
+    </ul>
+  </li>
+  <li><a href="#mapping-formula" id="markdown-toc-mapping-formula">Mapping Formula</a></li>
+  <li><a href="#modx-and-mody" id="markdown-toc-modx-and-mody">ModX and ModY</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="how-does-modulation-work">How does modulation work?</h1>
+
+<img src="/assets/FLStudio/InternalController.png" alt="Internal Controllers">
+<div class="image-caption">Internal Controllers</div>
+
+<p>This is one of the beautiful aspects of modulation in FL: how simple it is to setup.</p>
+
+<p>First <a href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html#hardware-control">check out the previous post</a>. You use the exact same processes to link modulators, except instead of linking a MIDI controller you link what’s called an “Internal Controller”</p>
+
+<p>When you have an <a href="#modulation-sources">internal controller</a> somewhere in your project, then the <code class="highlighter-rouge">Internal Controller</code> section will show up in your linking dialog.</p>
+
+<p>Now you can link that <a href="#modulation-sources">modulation source</a> to your controller, along with smoothing and <a href="#mapping-formula">excellent mapping formulas</a></p>
+
+<h1 id="modulation-sources">Modulation Sources</h1>
+
+<p>FLStudio has a slim number of modulation sources, which are called “Controllers”. Despite the relative few of them, they are <em>extremely</em> powerful.</p>
+
+<h2 id="formula-controller">Formula Controller</h2>
+
+<img src="/assets/FLStudio/FormulaController.png" alt="Formula Controller">
+<div class="image-caption">Formula Controller</div>
+
+<p>Formula controller is an effect. It doesn’t pass MIDI or Audio, but instead it allows you to use a mathematical formula to blend 3 input sources (A, B and C) or use time to create a modulation output.</p>
+
+<p>This is one place you could get a modulation source like a sine wave (<code class="highlighter-rouge">a+Sin(SongTime*Pi*2*c)*(b-0.5)</code>) or square (<code class="highlighter-rouge">a+Round(Frac(SongTime/(5-c*4.5)))*(b*2-1)-b+0.5</code>), but there’s so much more!</p>
+
+<p>A, B and C inputs can be used like normal knobs, however they are also modulation targets like anything else. Thusly they can be used to combine modulation sources, or you can use them as parameters in your formula and modulate those parameters.</p>
+
+<p>Let’s check out an example below.</p>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/FormulaController.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Hot 1 on 1 Formula Controller Action</div>
+
+<p>I have 3 <a href="#peak-controller">Peak Controllers in LFO mode</a> here. They go to A, B and C with a formula of <code class="highlighter-rouge">a*b+c</code>.</p>
+
+<p>A*B causes the two sines to combine in the matter seen below, turning on the square wave offsets that modulation as the square progresses through its cycle.</p>
+
+<p>I tried to choose something easy to see with multiple modulation sources interacting, but you can do far more complex things here.</p>
+
+<p>Formula Controller has a whole suite of programmatic capabilities including conditionals, a complete set of math functions, metadata (song position, time), <em>mouse position</em>, and seeded randomization.</p>
+
+<p>Remember as well that this is controllable via <a href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html#hardware-control">hardware as well</a>. So if you want to adjust the output of your controller (assuming <a href="#mapping-formula">mapping formulas won’t do it</a>), or combine it with something or “If this, then that”, you can do it.</p>
+
+<p>There’s times where other controllers won’t do <em>exactly</em> what you want, but Formula Controller makes nearly anything possible.</p>
+
+<h2 id="peak-controller">Peak Controller</h2>
+
+<img src="/assets/FLStudio/PeakController.png" alt="Peak Controller">
+<div class="image-caption">Peak Controller</div>
+
+<p>Peak Controller is another effect Controller. It takes audio input, generates an envelope of that audio input based on the settings and outputs that as control data.</p>
+
+<p>Peak Controller also has LFO capabilities that are simpler than <a href="#formula-controller">Formula controller</a>, and with more control that means… That’s right! More modulation sources. As with nearly all of the Controllers, you can modulate their parameters as well. The video above is even more easily possible.</p>
+
+<p>Peak Controller outputs the LFO section and Envelope (called “Peak”) section separately, and has a “Peak+LFO” output where the peak and LFO are combined.</p>
+
+<p>Probably the most common use I’ve seen of this is for sidechaining. Putting Peak Controller on a kick track, then having the “Peak” signal controller a volume knob on the bass. This makes the bass’s volume change when the kick hits. I think there’s a much better way to do this though…</p>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/EQSidechain.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">EQ Sidechaining</div>
+
+<p>I have a kick on every beat above. I also have a bassline playing.</p>
+
+<p>The kick has a Peak Controller on it.</p>
+
+<p>The bassline has Fruity Parametric EQ 2.</p>
+
+<p>The kick’s Peak Controller is linked to the low-mid band of PEQ2. The <a href="#mapping-formula">mapping formula</a> is inverted. I then adjusted the settings so that when the kick hits, the low-mid band on the bass’s EQ reacts and makes room for the kick.</p>
+
+<p>This setup gives you a much thicker sound than turning the volume down on the whole bass track when the kick hits. You can selectively duck certain frequencies where the kick/bass fight each other, and allow both instruments to have the fullest sound possible.</p>
+
+<p>This is just one of many possibilities with FLStudio’s Internal Controllers, if you spend some time fooling around you can come up with many, many more.</p>
+
+<h2 id="xy">XY</h2>
+
+<img src="/assets/FLStudio/XY.png" alt="XY">
+<div class="image-caption">XY</div>
+
+<p>The XY controller is an XY pad. Duh.</p>
+
+<p>There’s more to it than just that though, because there’s a speed and acceleration control. The movement of the X/Y position is slowed and smoothed depending on these parameters. You can use this to link other controllers to X/Y and use this as a slew rate limiter of sorts, which is really neato.</p>
+
+<p>There’s joystick settings that allow you to map various joystick parameters to X and Y as you wish.</p>
+
+<h2 id="xyz">XYZ</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/XYZ.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">XYZ</div>
+
+<p><a href="#xy">The XY controller</a> but with a Z… and more!</p>
+
+<p>The basic premise is the same as the <a href="#xy">xy controller</a>, except XYZ also has input mapping panels that allow you to adjust the mapping scale of each parameter.</p>
+
+<p>The mapping panel has bezier curves, undo(!), grid snapping (which is weird), and a variety of tools like decimate, normalize, analyze audio, filter smooth and inversions. There’s also a sequence editor, which I’ve yet to find use for in this context, but I’m sure there’s something possible with linking a controller to it and have a single knob control the progression of a sequence.</p>
+
+<h2 id="control-surface">Control Surface</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/ControlSurface.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Control Surface</div>
+
+<p>Isn’t it annoying when you’re constantly having to dig through a couple windows or menus to change a parameter on a plugin? Maybe a reverb level or some compression or perhaps your mixer just won’t order your tracks exactly how you want?</p>
+
+<p>Enter the control surface. You can create your own control surface using buttons, sliders, knobs, checkboxes and XY pads.</p>
+
+<p>I’ve created an example above, where we have a few things happening:</p>
+
+<ul>
+  <li>A bit crush toggle - The <code class="highlighter-rouge">Bitcrush</code> button toggles the delay’s bitcrush effect on/off, except it goes from ‘no bitcrushing’ to only about 1/3 of the control. To do this I used a <a href="#mapping-formula">mapping formula</a> of <code class="highlighter-rouge">1-Input+.3</code>. That adds 0.3 to the value, AND inverts it.</li>
+  <li>Delay and Reverb mixes - I have these sliders assigned to the dry and wet sliders on the reverb and delay. The dry slider is inverted in the <a href="#mapping-formula">mapping formula panel</a>. This results in a ‘wet dry’ control of sorts</li>
+  <li>Feedback and Verb Size - Knobs assigned to delay feedback and Reverb room size. Something I’ve found useful, that I did not show, is using a logarithmic mapping for the Feedback control. This makes the control knob more sensitive near the ‘max’ value, so you can really fine tune the feedback at large values. Much better than a linear mapping.</li>
+  <li>Delay and Verb bypass - I mapped the bypass, in the mixer, to buttons. This requires an inverted mapping, but now I can turn on those effects with a single click.</li>
+</ul>
+
+<p>All of these controls can be linked to modulators as well. They are all targets for modulation.</p>
+
+<p>Creating controls in the control surface can be a pain. There’s a lot of right clicking to adjust names, styles, colours etc… For some of that you can use:</p>
+
+<img src="/assets/FLStudio/ControlCreator.png" alt="Control Creator">
+<div class="image-caption">Control Creator</div>
+
+<p>The control creator.</p>
+
+<p>This is basically a separate application that lets you design controls as you want, then you can drag the pointer icon in the upper right to your Control Surface to add the control.</p>
+
+<p>You can make some attractive widgets in the control creator, which makes creating your own control surfaces more fun than it out to be.</p>
+
+<p>The control creator doesn’t let you rename and set captions though, which is still a pain to do. Currently (as of this writing), the control creator doesn’t work correctly in macOS either.</p>
+
+<h2 id="envelope-controller">Envelope Controller</h2>
+
+<video poster="/assets/FLStudio/EnvelopeController.jpg" controls muted preload="none">
+<source src="/assets/FLStudio/EnvelopeController.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Envelope Controller</div>
+
+<p>Envelope controller is what it says. It’s a generator (or instrument if you prefer) that responds to MIDI input. It gives you a number of envelopes: 8 articulations of the following:</p>
+
+<ul>
+  <li>Envelope - A multi-point drawable envelope with bezier curves that’s triggered on MIDI note input. It has attack/decay/sustain/release stages with nifty scaling via the knobs at the bottom.</li>
+  <li>LFO - this is an envelope over an LFO with a release stage. The LFO is faded in and held when the keypress happens, and releases. You control the shape of the LFO and the intensity of it over time. You can do fun things with this like a ‘spring’ effect where a key makes a parameter bounce, then the bounce fades as the key is released. (among many other things!)</li>
+  <li>Keyboard Mapping - This allows you to map keyboard notes to modulation. In the video above (hit play), you can see that the higher I play on the keyboard, the higher the demo slider goes. So you could do something like control a filter cutoff based on which note you play on synths that don’t have keytracking. The envelope controls how much output occurs for a given note. You’re given a keyboard and you draw how much output that key gives.</li>
+  <li>Velocity - Note velocity is mapped like the previous.</li>
+  <li>Mod X/Y - an Modulation pad with X/Y is available with mapping.</li>
+  <li>Random - The Y axis controls the intensity of the randomness (the distance between possible values) and the X axis is mapped to keys.</li>
+</ul>
+
+<p>The envelope controller is exceptionally powerful, and it becomes even more powerful when used with Layers, Patcher or any setup that allows you to send the same MIDI to an instrument(s) and Envelope Controller at the same time. Now the notes used to play your instrument also create modulation.</p>
+
+<p>Then again, you can sequence your modulation exactly how you want separately anyway!</p>
+
+<h2 id="keyboard-controller">Keyboard Controller</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/KeyboardController.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Keyboard Controller</div>
+
+<p>Keyboard controller works somewhat similar to the Keyboard and Velocity modes in <a href="#envelope-controller">the envelope controller</a>. The main difference is that you can manually assign the output to keys rather than drawing on a graph.</p>
+
+<p>The note value and velocity value outputs are separate, so you can grab only the note value mapping or velocity value mapping as you wish.</p>
+
+<p>There’s a great “automap” mode that will linearly map the white keys or white and black keys across the keyboard, and you can set the min/max keys by resizing the lightened part on the keyboard.</p>
+
+<p>Attack and Release work differently than you may expect, and I really like how they work. Attack controls how quickly the modulation moves to a higher value. Release controls how quickly it moves to a lower value. So if you wanted a sweeping cutoff, that instantly drops back down when you play a bass note, you can do it. You could also have smooth transitions to softer played parts, but instant modulation when you start hammering it out.</p>
+
+<h1 id="mapping-formula">Mapping Formula</h1>
+
+<img src="/assets/FLStudio/MappingFormula.png" alt="Mapping Formulas">
+<div class="image-caption">Mapping Formulas</div>
+
+<p>Mapping Formulas are awesome. On <strong>ANY</strong> control you assign, you can remap the input to output.</p>
+
+<p>You can make it exponential, log, introduce dead zones (portions in the middle with no change), invert values, set min/max, scale things in many ways.</p>
+
+<p>All the math and programmatic things available in <a href="#formula-controller">the formula controller</a> are here except time-based things.</p>
+
+<p>If your linked controller isn’t scaled exactly how you want it, or you want it quantized, or some crazy shape… you can do it without needing to grab anything else.</p>
+
+<h1 id="modx-and-mody">ModX and ModY</h1>
+
+<img src="/assets/FLStudio/ModXY.png" alt="ModX and ModY">
+<div class="image-caption">ModX and ModY</div>
+
+<p>If you read the <a href="/music/2017/06/23/Bitwig-Modulators.html">Bitwig series on modulators</a> then you may recall that you can modulate things ‘inside’ effects. Like per-voice modulations or modulating things inside the tank of a reverb.</p>
+
+<p>FLStudio doesn’t really have this, but it comes close sorta. Many native synths respond to 2 parameters called ModX and ModY, and these are assignable inside the synth.</p>
+
+<p>These parameters can be mapped inside the synth to things you may not have mappable parameters for. Modulating/Linking ModX/ModY allows you to ‘reach deeper inside’ the synth to do more cool stuff.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Yeah. There’s some cool stuff here. There’s a small selection of <em>extremely</em> flexible tools that allow you to modulate nearly anything you can touch or automate, and the process for using them is simple.</p>
+
+<p>Personally, I think FL has the nicest modulation system of any DAW due to how easy it is to use, and how easy it is to <em>abuse</em>.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 11 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

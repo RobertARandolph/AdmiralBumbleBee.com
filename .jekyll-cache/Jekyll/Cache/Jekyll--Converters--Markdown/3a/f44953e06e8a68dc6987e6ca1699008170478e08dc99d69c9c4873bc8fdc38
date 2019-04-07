@@ -1,0 +1,188 @@
+I"E7  <img src="/assets/Logic/Good/Part5.png" alt="Logic Part 5">
+  <div class="image-caption">Can you guess what's in this episode?</div>
+
+<p>This is it! The final ‘Cool things’ feature in <a href="https://www.apple.com/logic-pro/">Logic Pro X</a> while <a href="/music/2017/12/14/30-days-of-Apple-Logic-Pro-X.html">I spend a month using it</a>. There will still be the effects and instruments review and a couple more posts though!</p>
+
+<p>There’s no theme again today. You may notice that I’ve also apparently overlooked some crazy cool features in Logic, like the <a href="https://help.apple.com/logicpro/mac/10.3/#/lgcpf755dc51">environment</a>. I only am doing this for 30 days, and I have to pick the things that I think will be most exciting or enlightening for folks. I have a list of 12 other features I wanted to include, but there’s only so much time!</p>
+
+<ul>
+  <li>Controller mapping</li>
+  <li>Capture Recording</li>
+  <li>Speed Fades</li>
+  <li>Snapshot Automation</li>
+  <li>Import Logic Projects</li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+<ul>
+  <li><a href="/music/2017/12/18/Cool-things-in-Logic-Pro-X-Part-1.html">Cool things in Logic Pro X Part 1</a></li>
+  <li><a href="/music/2017/12/23/Cool-things-in-Logic-Pro-X-Part-2.html">Cool things in Logic Pro X Part 2</a></li>
+  <li><a href="/music/2018/01/05/Cool-things-in-Logic-Pro-X-Part-3.html">Cool things in Logic Pro X Part 3</a></li>
+  <li><a href="/music/2018/01/09/Cool-things-in-Logic-Pro-X-Part-4.html">Cool things in Logic Pro X Part 4</a></li>
+  <li><a href="/music/2018/01/16/Logic-Pro-X-Tips-and-Tricks.html">Logic Pro X Tips &amp; Tricks and more cool things</a></li>
+  <li><a href="/music/2018/01/22/Logic-Effects-Review.html">Logic Effects Review</a></li>
+  <li><a href="/music/2018/01/26/Cool-things-in-Logic-Pro-X-Part-10-4.html">Cool things in Logic Pro X Part 10.4</a></li>
+  <li><a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html">Logic Instruments and MIDI Effects Review</a></li>
+  <li><a href="/music/2018/02/04/Things-I-hate-about-Logic-Pro-X.html">Things I hate about Logic Pro X and Conclusion!</a></li>
+</ul>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#controller-mapping" id="markdown-toc-controller-mapping">Controller mapping</a>    <ul>
+      <li><a href="#control-surface-support" id="markdown-toc-control-surface-support">Control Surface Support</a></li>
+    </ul>
+  </li>
+  <li><a href="#capture-recording" id="markdown-toc-capture-recording">Capture Recording</a>    <ul>
+      <li><a href="#allow-quick-punch-in" id="markdown-toc-allow-quick-punch-in">Allow Quick Punch-In</a></li>
+    </ul>
+  </li>
+  <li><a href="#speed-fades" id="markdown-toc-speed-fades">Speed Fades</a></li>
+  <li><a href="#snapshot-automation" id="markdown-toc-snapshot-automation">Snapshot Automation</a></li>
+  <li><a href="#import-logic-projects" id="markdown-toc-import-logic-projects">Import Logic Projects</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="controller-mapping">Controller mapping</h1>
+
+  <img src="/assets/Logic/Good/Mapping.png" alt="Controller Mapping">
+  <div class="image-caption">Controller Mapping</div>
+
+<p>Logic’s controller mapping is very powerful, yet very simple when necessary.</p>
+
+<p>There’s an ‘Easy View’ method that makes simple CC mapping easy. Move the control on screen, hit <code class="highlighter-rouge">command-L</code>, move the knob on your controller. That’s it. Fast and easy.</p>
+
+<p>And then there’s the ‘Expert View’, which is where the real fun is.</p>
+
+<p>Zones and Modes are an organizational tool to allow you to layout different ‘layers’ of the controller. Like you may have an ‘Encoder’ zone, with shift a shift mode. You can place these mappings in their appropriate ‘zone’ and ‘mode’ to make them easier to navigate in the future. Modes can be switched via midi input when a controller assignment class is set to ‘Mode Change’.</p>
+
+<p>The parameters view is where the real fun happens! You have total control over the midi data, or osc data input, what it controls and how. There’s a wide variety of modes that let you select to control nearly <em>everything</em> in Logic. Playhead/markers/zoom/any AU parameter/fader/pan/track/transport/key command/etc… You can even assign MIDI/OSC to typing letters!</p>
+
+<p>When using MIDI or OSC, you have full control over exactly what data is used from which device. You can input the data in Hex format for Midi and paths for OSC.</p>
+
+<p>Logic supports min/max and inversion, value scaling, various data interpretations for signed formats and different modes for applying the incoming data to thec urrent value. It also supports value feedback, including support for outputting specific data for controller displays!</p>
+
+<p>If you want a good start to some of the midi spec, I suggest <a href="http://www.gweep.net/~prefect/eng/reference/protocol/midispec.html">starting here</a>. It may seem confusing at first, but it’s not that difficult to figure out with some experimenting. OSC specs depend on the device that you’re using, check the device/program manual for more information. Or you can just use the ‘Easy View’ and never think about it!</p>
+
+<p>Logic’s Controller Assignments is <em>fantastic</em>. The <a href="https://help.apple.com/controlsurfacessupport/mac/10.3/#/ctls71c31487">manual is here</a> and contains a good amount of helpful information. Even if you only use the Easy View, Logic has one of the nicest implementations of external controller interfacing on the market.</p>
+
+<h2 id="control-surface-support">Control Surface Support</h2>
+
+  <img src="/assets/Logic/Good/ControlSurface.png" alt="Control Surfaces">
+  <div class="image-caption">Control Surfaces</div>
+
+<p>Logic also has built in support for a number of control surfaces. That isn’t particularly noteworthy, but what is noteworthy is how much control you are given in the ‘CS Group’ window. There’s a lot of things that you can change regarding the operation of the included controller mappings.</p>
+
+<h1 id="capture-recording">Capture Recording</h1>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Logic/Good/CaptureRecording.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Capture those missed recordings!</div>
+
+<p>Capture recording is a deceptively simple feature, but first you must enable it. Right-click (ctrl-click) on the transport and select <code class="highlighter-rouge">Customize Control Bar and Display...</code>. Check the <code class="highlighter-rouge">Capture Recording</code> box, click ok, and now you will have a new recording button with a halo around it.</p>
+
+<p>What does this button do? Any time you hit ‘play’ in Logic, it’s recording MIDI.</p>
+
+<p>Maybe you just started jamming out while listening to a playback, then you realized you came up with an awesome part. Just hit the ‘Capture Recording’ button and a midi region will show up on whatever track you have selected! That midi will be whatever you just played during the recent playback.</p>
+
+<p>The ‘Capture Recording’ button isn’t turned on by default, so you may miss this feature unless you are looking for it, but the few times you use it you will be very happy you knew about it.</p>
+
+<p><em>NOTE</em>: If you start playback again, you lose your hidden recording! Make sure you hit that <code class="highlighter-rouge">Capture Recording</code> button before you start playback again if you want to capture the recording.</p>
+
+<h2 id="allow-quick-punch-in">Allow Quick Punch-In</h2>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Logic/Good/QuickPunch.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Quick Punch Secret</div>
+
+<p>‘Capture Recording’ only works for MIDI, but there’s a workaround. If you have <code class="highlighter-rouge">Record-&gt;Allow Quick Punch-in</code> turned on, then logic is always recording on the record-enabled tracks.</p>
+
+<p>To capture a recording that you missed you just need to hit the <code class="highlighter-rouge">Record</code> button (or R) before playback stops. A an audio region will show up, and it will look like it only was recording after you hit record, but you can adjust the left-boundary of the region and reveal the entire recording!</p>
+
+<p>This only works on record-enabled tracks, and it <em>only</em> works if you press record before stopping. Still a useful feature, especially if you’re like me and hit play without hitting record. If you notice before stopping you can just hit ‘R’ and capture everything that happened!</p>
+
+<h1 id="speed-fades">Speed Fades</h1>
+
+  <img src="/assets/Logic/Good/SpeedFades.png" alt="Speed Fades">
+  <div class="image-caption">Speed Fades</div>
+
+<p>Speed fades are a small feature that I see asked about a lot online. You can turn any fade-in to a ‘speed up’ and any fade-out to a ‘slow down’.</p>
+
+<p>First create a fade, then in the inspector (hit the ⓘ in the upper left to show the inspector), click ‘more’ if the fade parameters are not open then you can change ‘Fade In’ and ‘Fade Out’ to ‘Speed up’ and ‘Slow Down’.</p>
+
+<p>That’s all. Now your fade will be a classic tape/vinyl speed effect, and the fade curve applies!</p>
+
+<h1 id="snapshot-automation">Snapshot Automation</h1>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Logic/Good/SnapshotAutomation.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Snapshot Automation in action</div>
+
+<p>If you’ve read my previous posts or looked at the <a href="/">DAW Feature Chart</a> then you may have noticed that I have a thing for snapshot automation.</p>
+
+<p>So what is ‘Snapshot Automation’ exactly? It’s when you can place the playhead at a location, change some controls and apply those changes as automation to that point in time. It’s an excellent workflow for doing ‘spot work’ or creative transitions between parts.</p>
+
+<p>In the video above I have the track in ‘Read’, and I’m adjusting the ‘Ratio’ parameter of the Compressor plugin. I place the playhead where I want and use <code class="highlighter-rouge">Mix-&gt;Create Track Automation-&gt;Create 1 Automation Point for Visible Parameter</code>. That creates an automation point with the current ‘Ratio’ value. Then I move the playhead, change the ‘Ratio’ parameter and select <code class="highlighter-rouge">Mix-&gt;Create Track Automation-&gt;Create 1 Automation Point for Visible Parameter</code> again. Now a new point is created with a ramp between the 2 points.</p>
+
+<p>There is also a <code class="highlighter-rouge">Mix-&gt;Create Track Automation-&gt;Create 2 Automation Points for Visible Parameter</code> which makes the change near-instant instead of a ramp.</p>
+
+<p>I strongly suggest adding a hotkey for <code class="highlighter-rouge">Mix-&gt;Create Track Automation-&gt;Create 1 Automation Point for Visible Parameter</code> and <code class="highlighter-rouge">Mix-&gt;Create Track Automation-&gt;Create 2 Automation Points for Visible Parameter</code>. It makes life much easier.</p>
+
+<p>This type of automation workflow allows you to use native effects GUIs for adjusting automation, or using the normal fader/pan/send knobs to make fine adjustments. Once you start writing automation with real controls instead of tiny little dots, you’ll truly understand how awesome this feature is.</p>
+
+<h1 id="import-logic-projects">Import Logic Projects</h1>
+
+  <img src="/assets/Logic/Good/Import.png" alt="Import">
+  <div class="image-caption">Import Logic Projects</div>
+
+<p>Logic allows you to selectively import content from other projects. You can either use <code class="highlighter-rouge">File-&gt;Import-&gt;Logic Projects...</code> or browse to the .logicx file in the ‘All Files’ section of the browser.</p>
+
+<p>Every track, including global tracks (marker/signature/tempo/notes), can be imported. You can selectively include content, plugins, automation, I/O assignments and send assignments. If you add a track with a send, Logic will optionally add the assigned sends as well!</p>
+
+<p>For large projects, there is a filter at the top to view only certain types of data.</p>
+
+<p>Not only can content be added, but you can also <em>selectively</em> import the following settings from another track.</p>
+
+<ul>
+  <li>Screensets</li>
+  <li>Score Sets</li>
+  <li>Score Settings</li>
+  <li>Sync Settings</li>
+  <li>Tuning Settings</li>
+  <li>Movie Settings</li>
+  <li>Transform Sets</li>
+  <li>Staff Styles</li>
+  <li>Metronome Settings</li>
+  <li>Audio Settings</li>
+  <li>Asset Settings</li>
+  <li>Lane Sets</li>
+  <li>Text Styles</li>
+  <li>Record Settings</li>
+  <li>MIDI Settings</li>
+</ul>
+
+<p>Project import is a fantastic feature, and Logic once again makes it simple.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 5 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

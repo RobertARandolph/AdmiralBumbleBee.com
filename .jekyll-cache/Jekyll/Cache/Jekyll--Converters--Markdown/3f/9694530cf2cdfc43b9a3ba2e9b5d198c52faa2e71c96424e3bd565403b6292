@@ -1,0 +1,181 @@
+I"
+4  <img src="/assets/Logic/Good/Part4.png" alt="Logic Part 4">
+  <div class="image-caption">Screenshots all globbed together, Modern Art</div>
+
+<p>And here we are with the penultimate ‘Cool things’ feature in <a href="https://www.apple.com/logic-pro/">Logic Pro X</a> while <a href="/music/2017/12/14/30-days-of-Apple-Logic-Pro-X.html">I spend a month using it</a>. One more ‘Cool Things’ post, a surprise, effects review, instruments review and a conclusion are still coming.</p>
+
+<p>There’s no theme today, I’m just grabbing 5 things from my list I’ve been making and going with it.</p>
+
+<ul>
+  <li>Plugin Organization</li>
+  <li>Swipe Comping</li>
+  <li>Alternatives and Reversions</li>
+  <li>Content</li>
+  <li>Automatic connections</li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+<ul>
+  <li><a href="/music/2017/12/18/Cool-things-in-Logic-Pro-X-Part-1.html">Cool things in Logic Pro X Part 1</a></li>
+  <li><a href="/music/2017/12/23/Cool-things-in-Logic-Pro-X-Part-2.html">Cool things in Logic Pro X Part 2</a></li>
+  <li><a href="/music/2018/01/05/Cool-things-in-Logic-Pro-X-Part-3.html">Cool things in Logic Pro X Part 3</a></li>
+  <li><a href="/music/2018/01/13/Cool-things-in-Logic-Pro-X-Part-5.html">Cool things in Logic Pro X Part 5</a></li>
+  <li><a href="/music/2018/01/16/Logic-Pro-X-Tips-and-Tricks.html">Logic Pro X Tips &amp; Tricks and more cool things</a></li>
+  <li><a href="/music/2018/01/22/Logic-Effects-Review.html">Logic Effects Review</a></li>
+  <li><a href="/music/2018/01/26/Cool-things-in-Logic-Pro-X-Part-10-4.html">Cool things in Logic Pro X Part 10.4</a></li>
+  <li><a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html">Logic Instruments and MIDI Effects Review</a></li>
+  <li><a href="/music/2018/02/04/Things-I-hate-about-Logic-Pro-X.html">Things I hate about Logic Pro X and Conclusion!</a></li>
+</ul>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#plugin-organization" id="markdown-toc-plugin-organization">Plugin Organization</a></li>
+  <li><a href="#swipe-comping" id="markdown-toc-swipe-comping">Swipe Comping</a></li>
+  <li><a href="#alternatives-and-reversions" id="markdown-toc-alternatives-and-reversions">Alternatives and Reversions</a>    <ul>
+      <li><a href="#alternatives" id="markdown-toc-alternatives">Alternatives</a></li>
+      <li><a href="#reversions" id="markdown-toc-reversions">Reversions</a></li>
+    </ul>
+  </li>
+  <li><a href="#content" id="markdown-toc-content">Content</a></li>
+  <li><a href="#automatic-connections" id="markdown-toc-automatic-connections">Automatic connections</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="plugin-organization">Plugin Organization</h1>
+
+  <img src="/assets/Logic/Good/PluginManager.png" alt="Plug-in Manager">
+  <div class="image-caption">Plug-in Manager</div>
+
+<p>Logic’s Plugin Organization is second to none, but tied with Cubase’s facilities at least. Specifically I’m referring to the window shown in the image above.</p>
+
+<p><a href="https://support.apple.com/en-us/HT204983">Logic Pro X 10.1</a> added the ‘Plug-in Manager’, which is a feature that allows you to change how plugins appear in Logic. Here’s some of the features:</p>
+
+<ul>
+  <li>Renaming of plugins
+    <ul>
+      <li>Changeable long name</li>
+      <li>Changeable short name - shown when there’s not enough space for the long name</li>
+    </ul>
+  </li>
+  <li>Folder and sub-folder categorization</li>
+  <li>Sorting</li>
+  <li>Rescanning and revalidation</li>
+  <li>Disable/Enable plugins</li>
+  <li>List by Manufacturer</li>
+  <li>Show plugin version</li>
+  <li>Check validation status</li>
+</ul>
+
+<p>I’m sure that doesn’t <em>seem</em> exciting at first, but I assure you that it’s a big time saver. I have my plugins organized in a manner which greatly reduces searching and aids me in locating ‘flavours’ of processor when I’m not 100% sure what I want.</p>
+
+<p>Even though I’ve pared down my AU plugin list from ~1800 to only a few hundred in the last few days (all legitimate!), having things organized is a huge help.</p>
+
+<p><strong>BONUS NACHOS</strong></p>
+
+<p>Cubase and Reaper have an awesome feature that lets you see what plugins are not currently in a category. Logic does not have this… almost.</p>
+
+<p>When I organized my plugins I simply took everything and dragged it to a folder I called ‘Uncategorized’. Then I simply dragged plugins from ‘Uncategorized’ to the correct folder. The net result being that anything that wasn’t in a properly labelled folder was left in the ‘Uncategorized’ folder and I can easily see what I missed.</p>
+
+<p>Sometimes I amaze myself with the (admittedly somewhat small) amount of brain power I put towards such insignificant issues.</p>
+
+<p><strong>BONUS NACHOS AND CHEESE</strong></p>
+
+<p>Want even more power over your plugin organization? Go purchase the awesome <a href="http://www.auganizer.com">Auganizer</a>. Even with Logic Pro X’s new plug-in manager, Auganizer offers you a number of features that aid in the organizational process. Particularly with more advanced filtering, search and the fact that it works with all AU hosts.</p>
+
+<p><strong>BONUS CHILI NACHOS AND CHEESE</strong></p>
+
+<p>I was going to save this for a ‘tips’ post, but I’ll let you in on a secret: you can create sub-folders in Logic’s Plug-in Manager easily. A sub-folder is indicated by a colon <code class="highlighter-rouge">:</code>.</p>
+
+<p>So <code class="highlighter-rouge">Guitar</code> is a folder, and <code class="highlighter-rouge">Guitar:Pedals</code> would create a sub-folder under Guitar with the name Pedals. Any level of sub-folder can contain effects. See my plug-in organizer screenshot above for this in action. (EQ, Dynamics, Guitar, Saturation)</p>
+
+<h1 id="swipe-comping">Swipe Comping</h1>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Logic/Good/Comp.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Comping</div>
+
+<p>First, What is ‘Comping’. Comping is short for ‘Compositing’ (and many online sources get this wrong!). This is the act of taking a number of performances and editing them into a single cohesive performance.</p>
+
+<p>Any host with basic editing tools, copy and paste can do this. So what’s the big deal? <em>Logic makes it easy</em>.</p>
+
+<p>First thing I did here was create a ‘Take Folder’. I did this by having a cycle on with the setting <code class="highlighter-rouge">Recording-&gt;Overlapping Audio Recordings-&gt;Cycle On: Create Take Folder</code> set to <strong>on</strong>. Then I recorded for 7 cycles. This created a take folder with all of my recordings. (Note: make sure that the ‘Replace mode’ button in your control bar is off! It’s a box with an X in it.)</p>
+
+<p>Swipe comping is exactly what you see in the video above. With <code class="highlighter-rouge">Preferences-&gt;General-Editing-&gt;Quick Swipe and Take Editing Swipe Zones</code> on, I can click-drag the bottom of the take and select that portion of the take for my comp. You can select the same portion of another take by clicking the bottom half of the take.</p>
+
+<p>It’s really that easy.</p>
+
+<p>A benefit that Logic Pro X has over some other similar comping systems (Like <a href="https://support.presonus.com/hc/en-us/articles/210041103-STUDIO-ONE-How-to-use-Track-Comping">Studio One</a> and <a href="https://www.youtube.com/watch?v=pO0iJi4cqtQ">Digital Performer</a>) is that you can edit the regions in the take folder easily. Each region in the take folder is its own autonomous entity that can be edited and played with as you want, with the changes being reflected in the comp. Other implementations force you in to this ‘comping mode’ where editing is either not possible or difficult.</p>
+
+<p>Logic’s comping even works perfectly well on multitrack performances like drums.</p>
+
+<h1 id="alternatives-and-reversions">Alternatives and Reversions</h1>
+
+  <img src="/assets/Logic/Good/AlternativeAndReversions.png" alt="Alternatives and Reversions">
+  <div class="image-caption">Alternatives and Reversions</div>
+
+<h2 id="alternatives">Alternatives</h2>
+
+<p>Alternatives. These features get less exciting as this posts goes on, but I know you… everytime you try to be organized then your project folder has lots of “Project1”, “Project1revision”, “Project1vocalup”, “Project1guitaroverdubs”, “Project1killmenow” etc…</p>
+
+<p>Not necessary in Logic. Logic has an intrinsic ‘Alternatives’ feature. You can save alternatives, edit alternatives and recall alternatives just as if you were ‘Save As’ing the project, except all of your alternatives are saved <em>with</em> the project.</p>
+
+<p>Alternatives are easily accessible and renameable from within the project itself via the <code class="highlighter-rouge">File-&gt;Project Alternatives-&gt;Edit Alternatives...</code> menu.</p>
+
+<p>Have an alternative that you want to break out in to its own project? <code class="highlighter-rouge">File-&gt;Project Alternatives-&gt;Export Alternative as Project...</code> is all you need.</p>
+
+<p>Yet another feature in Logic that simplifies a common workflow that I’m pretty sure we’re all awful at.</p>
+
+<h2 id="reversions">Reversions</h2>
+
+<p>In <code class="highlighter-rouge">Preferences-&gt;General-&gt;Project Handling</code> you can setup how many backups that Logic retains for the project. No more manual backups. No more inane searches through various folders to find backups. No more hassle.</p>
+
+<p>To load a backup you go to <code class="highlighter-rouge">File-&gt;Revert To</code> and select the backup you want. Time and date are shown to aid you in the decision. Of course, Logic also prompts you to load the most recent backup if Logic crashed for some reason.</p>
+
+<p>Let’s not forget as well that <a href="/music/2017/12/18/Cool-things-in-Logic-Pro-X-Part-1.html#persistent-undo">your undo history will be present</a> when you reload the project.</p>
+
+<h1 id="content">Content</h1>
+
+  <img src="/assets/Logic/Good/Content.png" alt="Content">
+  <div class="image-caption">Content</div>
+
+<p>Logic has a lot of free stuff available in <code class="highlighter-rouge">Logic Pro X-&gt;Sound Library</code>. High quality multisampled instruments, presets for the included synths, great drum kits, <a href="https://en.wikipedia.org/wiki/Convolution_reverb">impulse responses</a>, libraries for alchemy and more.</p>
+
+<p>Just about 60gb of content.</p>
+
+<p>I wouldn’t expect anyone to have a use for all of that. I suspect that 50-90% of it is useless for most people, but it’s fantastic that you have the choice. I’m particularly fond of the selection of IRs and Drum libraries. It’s a paltry ~8gb for me, but it’s probably $300 worth of content that I’ve purchased elsewhere for use in other DAWs.</p>
+
+<p>I know that the content is overlooked by most producers that think they don’t “need” it, but it’s full of things that are either excellent starting points for creating your own content, or just outright excellent content for included effects (like IRs for Space Designer).</p>
+
+<p>Don’t overlook it! Explore it and see what’s there. You might be surprised how much content there is, and that there’s a little bit in there that will help you out with whatever you do.</p>
+
+<h1 id="automatic-connections">Automatic connections</h1>
+
+  <img src="/assets/Logic/Good/AutoConnect.png" alt="Auto connect">
+  <div class="image-caption">Auto connect</div>
+
+<p>This is a really simple thing that no other DAW I know of gets right. When you turn-on or plug-in a new device to your system, Logic finds it and enables it automatically.</p>
+
+<p>It’s instantly available anywhere in your project or preferences. There’s no settings to change, nothing to refresh, no screwing around. It’s done. Automatically.</p>
+
+<p>Everything just works. It’s made writing this so much easier, since I often switch between numerous devices for setting up screenshots. I don’t have to think about what I have hooked up or if it’s enabled or set for some weird mode. I just turn it on and go.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 8 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

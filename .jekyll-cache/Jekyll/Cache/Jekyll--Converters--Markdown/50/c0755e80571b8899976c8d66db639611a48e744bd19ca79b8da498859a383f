@@ -1,0 +1,213 @@
+I"�3<p><img src="/assets/StudioEvaluatione/transform.gif" alt="More than meets the eye!" /></p>
+
+<p>Automation is an extremely important tool. In Studio One it’s even more important than some other DAWs since S1 does not have any modulation capabilities; automation is the only way to move controls around ‘automatically’.</p>
+
+<p>Studio One excels largely in editing and ‘penning in’ automation, but is <strong>seriously</strong> lacking in some areas. Let’s investigate</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#writing-with-a-controller" id="markdown-toc-writing-with-a-controller">Writing with a controller</a>    <ul>
+      <li><a href="#assigning-midi-to-a-control" id="markdown-toc-assigning-midi-to-a-control">Assigning midi to a control</a></li>
+      <li><a href="#punching-automation" id="markdown-toc-punching-automation">Punching automation</a></li>
+    </ul>
+  </li>
+  <li><a href="#editing-automation" id="markdown-toc-editing-automation">Editing automation</a>    <ul>
+      <li><a href="#freehand" id="markdown-toc-freehand">Freehand</a></li>
+      <li><a href="#shapes" id="markdown-toc-shapes">Shapes</a></li>
+      <li><a href="#transform" id="markdown-toc-transform">Transform</a></li>
+      <li><a href="#trim" id="markdown-toc-trim">Trim</a></li>
+      <li><a href="#other" id="markdown-toc-other">Other</a></li>
+      <li><a href="#missing" id="markdown-toc-missing">Missing</a></li>
+    </ul>
+  </li>
+  <li><a href="#modes" id="markdown-toc-modes">Modes</a></li>
+  <li><a href="#bonus-instrument-part-automation" id="markdown-toc-bonus-instrument-part-automation">Bonus: Instrument Part Automation</a></li>
+  <li><a href="#double-bonus-automation-tracks" id="markdown-toc-double-bonus-automation-tracks">Double Bonus: Automation Tracks</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a>    <ul>
+      <li><a href="#good" id="markdown-toc-good">Good</a></li>
+      <li><a href="#bad" id="markdown-toc-bad">Bad</a></li>
+      <li><a href="#summary" id="markdown-toc-summary">Summary</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="writing-with-a-controller">Writing with a controller</h1>
+
+<h2 id="assigning-midi-to-a-control">Assigning midi to a control</h2>
+
+<p><img src="/assets/StudioEvaluatione/AssignController.png" alt="Not too difficult I suppose" /></p>
+
+<p>Assigning a midi controller to a specific in-daw control is not difficult, but could be improved.</p>
+
+<p>First you have to open your external devices window (the rightmost down pointing arrow in the upper section of the picture), move the controllers you want to map to have them available.</p>
+
+<p>Then in the DAW, you move the thing you want to map and then what you want to map it to. Both of these will show in the upper left. Press the left-facing triangle in the middle and they are now mapped.</p>
+
+<p>I’ve seen better, I’ve seen worse. The most bothersome thing is that you apparently can’t map NRPN, Sysex, notes, velocity, pitch bend etc… Only midi CC. For me the exclusivity of CC control is a damning oversight that makes this feature very frustrating for me.</p>
+
+<h2 id="punching-automation">Punching automation</h2>
+
+<p>Nothing here to see folks! It really sucks, confining automation changes appears to be only doable by hand.</p>
+
+<h1 id="editing-automation">Editing automation</h1>
+
+<h2 id="freehand">Freehand</h2>
+
+<p><img src="/assets/StudioEvaluatione/automating.gif" alt="It works." /></p>
+
+<p>Well, it does what you’d expect, but with no density or thinning controls.</p>
+
+<h2 id="shapes">Shapes</h2>
+
+<p><img src="/assets/StudioEvaluatione/shapes.gif" alt="Ohhhh, shaps!" /></p>
+
+<p>There are a few basic shapes you can add: Sine, Saw, Square, Triangle and Parabola. You can change the phase offset, frequency and DC offset of these shapes.</p>
+
+<p>There’s no way to adjust the automation density, change the slope of the parabola or to manually enter a frequency for the shapes. Fine control of frequency is only attained through the grid settings.</p>
+
+<p>It is a bit weird that the manual calls them ‘Figures’. Doesn’t exactly make searching for this easy.</p>
+
+<h2 id="transform">Transform</h2>
+
+<p><img src="/assets/StudioEvaluatione/transform.gif" alt="More than meets the eye!" /></p>
+
+<p>The transform tool is super cool. Just watch the gif. It’s also exceptionally useful.</p>
+
+<p>A weird issue with it is that once you draw the transform box, it seems rather difficult to get rid of it!</p>
+
+<h2 id="trim">Trim</h2>
+
+<p><img src="/assets/StudioEvaluatione/trim.gif" alt="At least we can trim pretty easily." /></p>
+
+<p>Trimming manually works as expected. Select points or space between points and hover your mouse at the top of the lane/track till you see the horizontal trim cursor. Good enough.</p>
+
+<h2 id="other">Other</h2>
+
+<p><img src="/assets/StudioEvaluatione/EditValue.png" alt="Halfway there" /></p>
+
+<p>You can edit the literal value of an automation point by right clicking on it. Unfortunately you can not change the location of the value here. Unfortunate, as that would be extremely useful.</p>
+
+<h2 id="missing">Missing</h2>
+
+<p>The only way to add automation to a currently existing automation is to create a VCA, make your secondary automation, then merge it. Some other DAWs allow you to directly add/subtract automation as you write it, which is an exceptionally useful feature.</p>
+
+<h1 id="modes">Modes</h1>
+
+<p><img src="/assets/StudioEvaluatione/modes.png" alt="Just the basics, ma'am" /></p>
+
+<p>Studio One only comes with the basic automation modes: Off, Read, Touch, Latch and Write.</p>
+
+<p>Read mode is automatically turned on when automation is written, which is nice compared to some DAWs that don’t do that. Touch <em>only</em> writes automation when an assigned controller is touched, which requires a touch-sensitive controller for optimum usefulness. Latch turns on automation when a controller is touched and then doesn’t turn it off, meaning it will continue to write the current value of the controller until you stop. Write is simply an ‘overwrite’ mode.</p>
+
+<p>Other DAWs have all sorts of features for adjusting how and when automation is written. S1 only contains what I’ve listed here and nothing else. DAW automation has really advanced in the last 10 years with all sorts of excellent ways to handle complex workflows for film, large audio projects and crazy electronic production. Studio One is about a decade in the past here.</p>
+
+<h1 id="bonus-instrument-part-automation">Bonus: Instrument Part Automation</h1>
+
+<p><img src="/assets/StudioEvaluatione/InstrumentPartAutomation.png" alt="No clue man." /></p>
+
+<p>So apparently S1 has a feature called ‘Instrument Part Automation’. How exactly this is helpful, I’ve yet to figure out.</p>
+
+<p>I actually can’t figure out why this is useful because nowhere else in the manual does the term ‘Instrument Part’ appear. I don’t know what an instrument part is or why having automation part of it is important.</p>
+
+<p>S1 automatically attaches automation to audio regions, so that’s not it… I think. Instrument tracks have all the same modes as audio tracks, so there’s nothing special there either. My best guess is that this simply allows you to edit automation for an instrument in the ‘editor’ for the midi region.</p>
+
+<p>I’m actually really confused by this, and once again the Studio One fails to actually explain this.</p>
+
+<h1 id="double-bonus-automation-tracks">Double Bonus: Automation Tracks</h1>
+
+<p><img src="/assets/StudioEvaluatione/AutomationTracks.png" alt="Somewhat useful, sure." /></p>
+
+<p>Automation tracks are simply tracks that only contain automation. They can have automation for basically any controls in the mixer which is largely where they become useful.</p>
+
+<p>Things like busses and VCAs don’t display in the main view, so they don’t have an obvious way of editing automation. Automation tracks allow you to essentially put those ‘mixer-only’ entities in to your main view.</p>
+
+<p>They are also quite useful for decontextualizing large ‘song  wide’ changes from the instruments themselves. If you have a crescendo that affects a number of tracks, you could easily group all the automation specific to that crescendo in to an automation track. Since it can contain automation from all over, you can have a single track that contains the automation for a single ‘idea’. Very useful.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<h2 id="good">Good</h2>
+
+<ul>
+  <li>
+    <p>Editing automation</p>
+
+    <p>The automation editing tools are excellent, barring the inability to enter specific frequencies on the periodic drawing options. The transform tool is amazing.</p>
+  </li>
+  <li>
+    <p>Automation tracks</p>
+
+    <p>I’ve found automation tracks to be particularly useful. I really enjoy the idea of thinking of automation as a function of the arrangement rather than as a function of the instrument. Automation tracks allow you to work with that mindset.</p>
+  </li>
+</ul>
+
+<h2 id="bad">Bad</h2>
+
+<ul>
+  <li>
+    <p>Moving automation</p>
+
+    <p>Automation moves with regions (if you have “automation follows events turned on), but if you overlap regions then the overlapped automation is <strong>deleted</strong>. Yes, deleted. You don’t get it back by un-overlapping the parts, you have to undo. There is no way to cross-fade automation or ‘keep’ automation. This applies to the ‘instrument part automation’, which implies to me that the feature doesn’t really store automation in instrument ‘parts’… but I still dont know what an instrument part even is anyway!</p>
+
+    <p>There’s no way to move an automation point to exactly where you want, and when you do move it, the current value is displayed in whatever your grid’s timebase is. Not exactly what I want when I turn the grid off!</p>
+  </li>
+  <li>
+    <p>Automation density</p>
+
+    <p>Apparently, there’s no way to control automation density in Studio One. Complete bummer. I can’t figure out how to change how often automation points are written or how to thin out points that already exist.</p>
+
+    <p>Really big issue IMO. There are times where you need very fine-grained control of your automation, and times where you want to thin out things to reduce CPU load. No can do here.</p>
+
+    <p>If it’s possible, it’s not in the manual.</p>
+  </li>
+  <li>
+    <p>Automation point display</p>
+
+    <p>As far as I can tell, automation point positions are always displayed in the grid timebase, even if the grid is turned off. It should display in the current transport timebase.</p>
+
+    <p>There is also no way to manually enter a value for the time of the automation point.</p>
+  </li>
+  <li>
+    <p>No punch, no preview.</p>
+
+    <p>There’s no way to punch in automation unless you have a touch-sensitive controller. There’s no preview feature to allow you to punch in automation and only commit it when approved.</p>
+  </li>
+  <li>
+    <p>No beziers, no splines.</p>
+
+    <p>There’s the parabola shape, but I can’t figure out how to change the slope if necessary. You can finagle what resembles the curve you want by using the shape tools, but it’s painful.</p>
+
+    <p>Once again, stuck in the DAW features of the last decade.</p>
+  </li>
+  <li>
+    <p>Missing ‘extra modes’</p>
+
+    <p>Trim to… cross-over… add, etc.. Lots of missing modes of automation that are <em>extremely</em> useful in some contexts. Nuendo and Sequoia really have this down.</p>
+
+    <p>Also worth mentioning that there’s no ‘Trim current automation’ mode, which essentially modulates your current automation by the incoming data. This is probably the most common missing feature in S1.</p>
+  </li>
+</ul>
+
+<h2 id="summary">Summary</h2>
+
+<p>Mostly, Studio One has the bare basic automation features that you’d expect from a DAW back in 1998. The transform tool is useful (but not unique), and that’s about it.</p>
+
+<p>This is not really where S1 shines at all. VCA Faders really help out for day to day work, but when you really want to dig in to more advanced automation workflows, S1 is a total disappointment.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

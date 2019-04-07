@@ -1,0 +1,571 @@
+I"w]<a href="/assets/WoodBlocks/Purpleheart.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Purpleheart.jpg" alt="Purpleheart">
+</a>
+<div class="image-caption">Purpleheart on the drums</div>
+
+<p><a href="https://en.wikipedia.org/wiki/Wood_block">Wood blocks</a> are cool. There’s many ways to make them, and many types and shapes.</p>
+
+<p>I’m going to go through two methods of making one appropriate for use with a drum set: minimal tools and ‘appropriate’ tools.</p>
+
+<p>At minimum all you need is a block of wood, a drill and a chisel. You can even substitute a screwdriver and file for the chisel. Anyone can do this!</p>
+
+<p>The design I’m using was created through testing various shapes/styles of wood blocks until I found something that I felt was at home on a full sized drum kit.</p>
+
+<p>So let’s get to it!</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#minimal-tools" id="markdown-toc-minimal-tools">Minimal tools</a>    <ul>
+      <li><a href="#wood" id="markdown-toc-wood">Wood</a></li>
+      <li><a href="#mark-the-cut" id="markdown-toc-mark-the-cut">Mark the cut</a></li>
+      <li><a href="#workpiece-ready" id="markdown-toc-workpiece-ready">Workpiece Ready</a></li>
+      <li><a href="#mortise-marked" id="markdown-toc-mortise-marked">Mortise Marked</a></li>
+      <li><a href="#drill-depth" id="markdown-toc-drill-depth">Drill Depth</a></li>
+      <li><a href="#drill-holes" id="markdown-toc-drill-holes">Drill Holes</a></li>
+      <li><a href="#remove-waste" id="markdown-toc-remove-waste">Remove Waste</a></li>
+      <li><a href="#most-waste-gone" id="markdown-toc-most-waste-gone">Most Waste Gone</a></li>
+      <li><a href="#cleaned-a-bit" id="markdown-toc-cleaned-a-bit">Cleaned A Bit</a></li>
+      <li><a href="#plane" id="markdown-toc-plane">Plane</a></li>
+      <li><a href="#mark-depth" id="markdown-toc-mark-depth">Mark Depth</a></li>
+      <li><a href="#drill-and-shape" id="markdown-toc-drill-and-shape">Drill And Shape</a></li>
+    </ul>
+  </li>
+  <li><a href="#no-tool-limit" id="markdown-toc-no-tool-limit">No tool limit</a>    <ul>
+      <li><a href="#maple-board" id="markdown-toc-maple-board">Maple Board</a></li>
+      <li><a href="#mark-maple" id="markdown-toc-mark-maple">Mark Maple</a></li>
+      <li><a href="#maple-cut" id="markdown-toc-maple-cut">Maple Cut</a></li>
+      <li><a href="#mark-center" id="markdown-toc-mark-center">Mark Center</a></li>
+      <li><a href="#rip-saw" id="markdown-toc-rip-saw">Rip Saw</a></li>
+      <li><a href="#sawn" id="markdown-toc-sawn">Sawn</a></li>
+      <li><a href="#prep-router" id="markdown-toc-prep-router">Prep Router</a></li>
+      <li><a href="#routed" id="markdown-toc-routed">Routed</a></li>
+      <li><a href="#route-groove" id="markdown-toc-route-groove">Route Groove</a></li>
+      <li><a href="#cut-sides" id="markdown-toc-cut-sides">Cut Sides</a></li>
+      <li><a href="#sides-cut" id="markdown-toc-sides-cut">Sides Cut</a></li>
+      <li><a href="#test-fit" id="markdown-toc-test-fit">Test Fit</a></li>
+      <li><a href="#mark-side-cut" id="markdown-toc-mark-side-cut">Mark Side Cut</a></li>
+      <li><a href="#pre-glue-test-fit" id="markdown-toc-pre-glue-test-fit">Pre-glue Test Fit</a></li>
+      <li><a href="#glue" id="markdown-toc-glue">Glue</a></li>
+      <li><a href="#clamp" id="markdown-toc-clamp">Clamp</a></li>
+      <li><a href="#glued" id="markdown-toc-glued">Glued</a></li>
+      <li><a href="#trim" id="markdown-toc-trim">Trim</a></li>
+      <li><a href="#plane-face" id="markdown-toc-plane-face">Plane Face</a></li>
+      <li><a href="#plane-back" id="markdown-toc-plane-back">Plane Back</a></li>
+      <li><a href="#trim-sides" id="markdown-toc-trim-sides">Trim Sides</a></li>
+      <li><a href="#drill-center" id="markdown-toc-drill-center">Drill Center</a></li>
+      <li><a href="#test-holder-setup" id="markdown-toc-test-holder-setup">Test Holder Setup</a></li>
+      <li><a href="#drill-holder-center" id="markdown-toc-drill-holder-center">Drill Holder Center</a></li>
+      <li><a href="#tap-holder-center" id="markdown-toc-tap-holder-center">Tap Holder Center</a></li>
+      <li><a href="#mark-center-mortise" id="markdown-toc-mark-center-mortise">Mark Center Mortise</a></li>
+      <li><a href="#chisel-mortise" id="markdown-toc-chisel-mortise">Chisel Mortise</a></li>
+      <li><a href="#glue-mortise" id="markdown-toc-glue-mortise">Glue Mortise</a></li>
+      <li><a href="#drill-holder-hole" id="markdown-toc-drill-holder-hole">Drill Holder Hole</a></li>
+      <li><a href="#shape-holder-hole" id="markdown-toc-shape-holder-hole">Shape Holder Hole</a></li>
+      <li><a href="#maple-finished" id="markdown-toc-maple-finished">Maple Finished</a></li>
+    </ul>
+  </li>
+  <li><a href="#finished" id="markdown-toc-finished">Finished</a>    <ul>
+      <li><a href="#simple-on-the-drums" id="markdown-toc-simple-on-the-drums">Simple on the Drums</a></li>
+      <li><a href="#maple-on-the-drums" id="markdown-toc-maple-on-the-drums">Maple on the Drums</a></li>
+      <li><a href="#purpleheart-on-the-drums" id="markdown-toc-purpleheart-on-the-drums">Purpleheart on the Drums</a></li>
+    </ul>
+  </li>
+  <li><a href="#sounds" id="markdown-toc-sounds">Sounds</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="minimal-tools">Minimal tools</h1>
+
+<h2 id="wood">Wood</h2>
+
+<a href="/assets/WoodBlocks/Wood.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Wood.jpg" alt="Wood">
+</a>
+<div class="image-caption">Wood</div>
+
+<p>First we start with a piece of Pine. I pulled this off the side of the road as it was being thrown away. Totally free.</p>
+
+<h2 id="mark-the-cut">Mark the cut</h2>
+
+<a href="/assets/WoodBlocks/WoodMarked.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/WoodMarked.jpg" alt="WoodMarked">
+</a>
+<div class="image-caption">Wood Marked</div>
+
+<p>Mark your cut. This is the width of the final wood block. Mine is 6”(15cm) wide, 2”(5cm) tall and 4”(10cm) deep.</p>
+
+<p>You need to make sure that the grain is running side to side along your workpiece!</p>
+
+<h2 id="workpiece-ready">Workpiece Ready</h2>
+
+<a href="/assets/WoodBlocks/WoodCut.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/WoodCut.jpg" alt="WoodCut">
+</a>
+<div class="image-caption">Wood Cut</div>
+
+<p>Here’s our workpiece!</p>
+
+<h2 id="mortise-marked">Mortise Marked</h2>
+
+<a href="/assets/WoodBlocks/MortiseMarked.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MortiseMarked.jpg" alt="MortiseMarked">
+</a>
+<div class="image-caption">Mortise Marked</div>
+
+<p>What we’re going to do is create what’s called a <a href="https://en.wikipedia.org/wiki/Mortise">Mortise</a>. So mark a square inside your block, with the grain oriented as shown.</p>
+
+<p>My inner box is about 1/2”(1.25cm) from the edges. The thinner the faces, the deeper the sound of the wood block.</p>
+
+<h2 id="drill-depth">Drill Depth</h2>
+
+<a href="/assets/WoodBlocks/DrillDepth.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/DrillDepth.jpg" alt="DrillDepth">
+</a>
+<div class="image-caption">Drill Depth</div>
+
+<p>To remove most of the waste in the mortise, we’re going to drill it out. You don’t want to drill all the way through the back, so put a piece of tape on your drill bit to indicate the depth.</p>
+
+<p>I leave about 1”(2.5cm) in the back.</p>
+
+<h2 id="drill-holes">Drill Holes</h2>
+
+<a href="/assets/WoodBlocks/DrillHoles.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/DrillHoles.jpg" alt="DrillHoles">
+</a>
+<div class="image-caption">Drill Holes</div>
+
+<p>Drill the holes! Lots of them. Stay inside the lines and drill as much of the waste away as you can. Use whatever size drill bits you need to get the job done, but don’t go over your lines.</p>
+
+<h2 id="remove-waste">Remove Waste</h2>
+
+<a href="/assets/WoodBlocks/RemoveWaste.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/RemoveWaste.jpg" alt="RemoveWaste">
+</a>
+<div class="image-caption">Remove Waste</div>
+
+<p>Here’s the fun part. I remove the waste with a chisel, chopping perpendicular to the grain and moving in the direction of the bevel.</p>
+
+<p>You can do anything you want though. You can hack at it more with drill bits, use a flathead screwdriver and file or poke at it with a knife.</p>
+
+<p>Just get most of that wood out of there <em>safely</em>. Get close to your lines, but don’t be precise yet.</p>
+
+<h2 id="most-waste-gone">Most Waste Gone</h2>
+
+<a href="/assets/WoodBlocks/MostWaste.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MostWaste.jpg" alt="MostWaste">
+</a>
+<div class="image-caption">Most Waste</div>
+
+<p>Most of the waste is gone… Now I use a chisel and a <a href="https://en.wikipedia.org/wiki/Float_(woodworking)">float</a> to slowly get closer to my lines.</p>
+
+<p>You can see that I wasn’t very careful here and knocked out a bit of the wood. I just glued it back with some super glue and went back to work. After everything is sanded you’ll never notice it.</p>
+
+<h2 id="cleaned-a-bit">Cleaned A Bit</h2>
+
+<a href="/assets/WoodBlocks/CleanedABit.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/CleanedABit.jpg" alt="CleanedABit">
+</a>
+<div class="image-caption">Cleaned A Bit</div>
+
+<p>Here it is cleaned up a bit.</p>
+
+<p>The grain pattern really makes this look crooked, but I assure you that it’s not.</p>
+
+<h2 id="plane">Plane</h2>
+
+<a href="/assets/WoodBlocks/Plane.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Plane.jpg" alt="Plane">
+</a>
+<div class="image-caption">Plane</div>
+
+<p>I plane the surfaces smooth, but you can sand it or file it… or leave it. Who cares. Do what you like.</p>
+
+<h2 id="mark-depth">Mark Depth</h2>
+
+<a href="/assets/WoodBlocks/MakeDepth.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MakeDepth.jpg" alt="MakeDepth">
+</a>
+<div class="image-caption">Mark Depth</div>
+
+<p>Now I mark the depth so I can drill a mounting hole. I don’t want to cut in to the mortise, but I want some wood to support the hole.</p>
+
+<h2 id="drill-and-shape">Drill And Shape</h2>
+
+<a href="/assets/WoodBlocks/DrillAndShape.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/DrillAndShape.jpg" alt="DrillAndShape">
+</a>
+<div class="image-caption">Drill And Shape</div>
+
+<p>Now I drill the hole and shape the back.</p>
+
+<p>That’s it. It’s done.</p>
+
+<h1 id="no-tool-limit">No tool limit</h1>
+
+<h2 id="maple-board">Maple Board</h2>
+
+<a href="/assets/WoodBlocks/MapleWood.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MapleWood.jpg" alt="Maple Wood">
+</a>
+<div class="image-caption">Maple Wood</div>
+
+<p>I’m making a nicer wood block here with some <a href="http://www.wood-database.com/hard-maple/">Hard Maple</a>.</p>
+
+<h2 id="mark-maple">Mark Maple</h2>
+
+<a href="/assets/WoodBlocks/MarkMaple.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MarkMaple.jpg" alt="MarkMaple">
+</a>
+<div class="image-caption">Mark Maple</div>
+
+<p>I mark the cut, using the previous wood block as a basic template.</p>
+
+<h2 id="maple-cut">Maple Cut</h2>
+
+<a href="/assets/WoodBlocks/MapleCut.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MapleCut.jpg" alt="MapleCut">
+</a>
+<div class="image-caption">Maple Cut</div>
+
+<p>Here’s my pieces. I cut one extra piece for the sides in case I screw up later… (I don’t, but just in case!)</p>
+
+<h2 id="mark-center">Mark Center</h2>
+
+<a href="/assets/WoodBlocks/MarkCenter.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MarkCenter.jpg" alt="MarkCenter">
+</a>
+<div class="image-caption">Mark Center</div>
+
+<p>On the larger board that makes the top/bottom, I mark the center so that I can split it in two on my band saw.</p>
+
+<h2 id="rip-saw">Rip Saw</h2>
+
+<a href="/assets/WoodBlocks/RipSaw.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/RipSaw.jpg" alt="RipSaw">
+</a>
+<div class="image-caption">Rip Saw</div>
+
+<p>Here’s the fun part! I <a href="https://en.wikipedia.org/wiki/Resaw">Resaw</a> it in to two pieces.</p>
+
+<p>I the workpiece offset slightly so one side is thicker than the other. This gives me 2 different sounds.</p>
+
+<h2 id="sawn">Sawn</h2>
+
+<a href="/assets/WoodBlocks/Sawn.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Sawn.jpg" alt="Sawn">
+</a>
+<div class="image-caption">Sawn</div>
+
+<p>Sawn! I planed them as well to make everything tried and true.</p>
+
+<h2 id="prep-router">Prep Router</h2>
+
+<a href="/assets/WoodBlocks/PrepRouter.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/PrepRouter.jpg" alt="PrepRouter">
+</a>
+<div class="image-caption">Prep Router</div>
+
+<p>I’m going to cut <a href="https://en.wikipedia.org/wiki/Dado_(joinery)">dadoes</a> to hold the sides.</p>
+
+<p>I use a 1/4”(6mm) router bit on my router table. I’m also using a miter gauge for extra support</p>
+
+<h2 id="routed">Routed</h2>
+
+<a href="/assets/WoodBlocks/Routed.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Routed.jpg" alt="Routed">
+</a>
+<div class="image-caption">Routed</div>
+
+<p>Here’s the sides routed. The size is basically the same as the other wood block.</p>
+
+<h2 id="route-groove">Route Groove</h2>
+
+<a href="/assets/WoodBlocks/GrooveRoute.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/GrooveRoute.jpg" alt="Route Groove">
+</a>
+<div class="image-caption">Route Back Groove</div>
+
+<p>The back needs a groove routed, so I do that.</p>
+
+<p>Why a groove and not a dado? Grooves go with the grain and dadoes go against it. So this is a groove. The perpendicular cuts are dadoes.</p>
+
+<h2 id="cut-sides">Cut Sides</h2>
+
+<a href="/assets/WoodBlocks/CutSides.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/CutSides.jpg" alt="CutSides">
+</a>
+<div class="image-caption">Cut Sides</div>
+
+<p>I want 1/4”(6mm) thick sides. I do this on my table saw.</p>
+
+<p>I’m using a trick to set the fence where I grab a 1/4” drill bit and use that to set the cut to exactly 1/4” without much trouble.</p>
+
+<h2 id="sides-cut">Sides Cut</h2>
+
+<a href="/assets/WoodBlocks/SidesCut.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/SidesCut.jpg" alt="SidesCut">
+</a>
+<div class="image-caption">Sides Cut</div>
+
+<p>All cut. Perfect.</p>
+
+<h2 id="test-fit">Test Fit</h2>
+
+<a href="/assets/WoodBlocks/TestFit.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/TestFit.jpg" alt="TestFit">
+</a>
+<div class="image-caption">Test Fit</div>
+
+<p>A quick test fit and everything is nice and tight on the first try.</p>
+
+<h2 id="mark-side-cut">Mark Side Cut</h2>
+
+<a href="/assets/WoodBlocks/MarkSideCut.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MarkSideCut.jpg" alt="MarkSideCut">
+</a>
+<div class="image-caption">Mark Side Cut</div>
+
+<p>So I forgot to take a picture here… I made a back piece, and cut dadoes in it to match the top/bottom. Then…</p>
+
+<p>My side piece is too long so I fit it in and mark it to cut. I use the cutoff as the other side and make sure that is trimmed to size.</p>
+
+<h2 id="pre-glue-test-fit">Pre-glue Test Fit</h2>
+
+<a href="/assets/WoodBlocks/PreGlueTestFit.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/PreGlueTestFit.jpg" alt="PreGlueTestFit">
+</a>
+<div class="image-caption">Pre-glue Test Fit</div>
+
+<p>I fully fit everything together before gluing, which was a mistake. It took me forever to get the thing apart!</p>
+
+<h2 id="glue">Glue</h2>
+
+<a href="/assets/WoodBlocks/Glue.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Glue.jpg" alt="Glue">
+</a>
+<div class="image-caption">Glue</div>
+
+<p>Now I glue it with some wood glue. Any wood glue will do, but I’m using <a href="http://www.titebond.com/product.aspx?id=d4d28015-603f-4dfc-a7d9-f684acc71207">Titebond Original</a></p>
+
+<h2 id="clamp">Clamp</h2>
+
+<a href="/assets/WoodBlocks/Clamp.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Clamp.jpg" alt="Clamp">
+</a>
+<div class="image-caption">Clamp</div>
+
+<p>Clamped up…</p>
+
+<h2 id="glued">Glued</h2>
+
+<a href="/assets/WoodBlocks/Glued.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Glued.jpg" alt="Glued">
+</a>
+<div class="image-caption">Glued</div>
+
+<p>Glued up.</p>
+
+<h2 id="trim">Trim</h2>
+
+<a href="/assets/WoodBlocks/Trim.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Trim.jpg" alt="Trim">
+</a>
+<div class="image-caption">Trim</div>
+
+<p>Now I trim the back and front on the table saw. I leave a tiny bit of wood so the blade doesn’t accidentally cut in to a face.</p>
+
+<p>The sides are left on so I don’t blow out the end grain when planing.</p>
+
+<h2 id="plane-face">Plane Face</h2>
+
+<a href="/assets/WoodBlocks/PlaneFace.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/PlaneFace.jpg" alt="PlaneFace">
+</a>
+<div class="image-caption">Plane Face</div>
+
+<p>I plane the faces so they look nice.</p>
+
+<h2 id="plane-back">Plane Back</h2>
+
+<a href="/assets/WoodBlocks/PlaneBack.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/PlaneBack.jpg" alt="PlaneBack">
+</a>
+<div class="image-caption">PlaneBack</div>
+
+<p>The back is planed as well</p>
+
+<h2 id="trim-sides">Trim Sides</h2>
+
+<a href="/assets/WoodBlocks/TrimSides.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/TrimSides.jpg" alt="TrimSides">
+</a>
+<div class="image-caption">TrimSides</div>
+
+<p>Now I trim the sides, and subsequently plane them.</p>
+
+<h2 id="drill-center">Drill Center</h2>
+
+<a href="/assets/WoodBlocks/DrillCenter.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/DrillCenter.jpg" alt="DrillCenter">
+</a>
+<div class="image-caption">Drill Center</div>
+
+<p>I’m going to add a mounting point which is mortised in to place, but I want to use a screw to pull it in and add strength.</p>
+
+<p>So I drill a hole in the center of the back.</p>
+
+<h2 id="test-holder-setup">Test Holder Setup</h2>
+
+<a href="/assets/WoodBlocks/TestHolderSetup.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/TestHolderSetup.jpg" alt="TestHolderSetup">
+</a>
+<div class="image-caption">Test Holder Setup</div>
+
+<p>That wood piece will go over the hole centered.</p>
+
+<h2 id="drill-holder-center">Drill Holder Center</h2>
+
+<a href="/assets/WoodBlocks/DrillHolderCenter.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/DrillHolderCenter.jpg" alt="DrillHolderCenter">
+</a>
+<div class="image-caption">Drill Holder Center</div>
+
+<p>I drill a hole in the center of the holder.</p>
+
+<h2 id="tap-holder-center">Tap Holder Center</h2>
+
+<a href="/assets/WoodBlocks/TapHolderCenter.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/TapHolderCenter.jpg" alt="TapHolderCenter">
+</a>
+<div class="image-caption">Tap Holder Center</div>
+
+<p>Now I tap a hole for a 1/4-20 bolt. A 13mm bolt will be about the same.</p>
+
+<h2 id="mark-center-mortise">Mark Center Mortise</h2>
+
+<a href="/assets/WoodBlocks/MarkCenterMortise.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MarkCenterMortise.jpg" alt="MarkCenterMortise">
+</a>
+<div class="image-caption">Mark Center Mortise</div>
+
+<p>I want a mortise here so that the holder will have a nice squared place to seat. This will help stop it from spinning when hit hard.</p>
+
+<h2 id="chisel-mortise">Chisel Mortise</h2>
+
+<a href="/assets/WoodBlocks/ChiselMortise.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/ChiselMortise.jpg" alt="ChiselMortise">
+</a>
+<div class="image-caption">Chisel Mortise</div>
+
+<p>I chisel out the mortise.</p>
+
+<h2 id="glue-mortise">Glue Mortise</h2>
+
+<a href="/assets/WoodBlocks/GlueMortise.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/GlueMortise.jpg" alt="GlueMortise">
+</a>
+<div class="image-caption">Glue Mortise</div>
+
+<p>The holder is glued in to place. The mortise was about 3/16”(5mm) deep.</p>
+
+<h2 id="drill-holder-hole">Drill Holder Hole</h2>
+
+<a href="/assets/WoodBlocks/DrillHolderHole.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/DrillHolderHole.jpg" alt="DrillHolderHole">
+</a>
+<div class="image-caption">Drill Holder Hole</div>
+
+<p>I want to shape the holder and obviously drill a hole, so I mark that out.</p>
+
+<h2 id="shape-holder-hole">Shape Holder Hole</h2>
+
+<a href="/assets/WoodBlocks/ShapeHolderHole.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/ShapeHolderHole.jpg" alt="ShapeHolderHole">
+</a>
+<div class="image-caption">Shape Holder Hole</div>
+
+<p>Shaped and drilled.</p>
+
+<h2 id="maple-finished">Maple Finished</h2>
+
+<a href="/assets/WoodBlocks/MapleFinished.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MapleFinished.jpg" alt="MapleFinished">
+</a>
+<div class="image-caption">Maple Finished</div>
+
+<h1 id="finished">Finished</h1>
+
+<h2 id="simple-on-the-drums">Simple on the Drums</h2>
+
+<a href="/assets/WoodBlocks/SimpleFinished.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/SimpleFinished.jpg" alt="SimpleFinished">
+</a>
+<div class="image-caption">Simple on the Drums</div>
+
+<h2 id="maple-on-the-drums">Maple on the Drums</h2>
+
+<a href="/assets/WoodBlocks/MapleFinishedDrums.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/MapleFinishedDrums.jpg" alt="MapleFinished">
+</a>
+<div class="image-caption">Maple on the Drums</div>
+
+<h2 id="purpleheart-on-the-drums">Purpleheart on the Drums</h2>
+
+<a href="/assets/WoodBlocks/Purpleheart.jpg">
+<img src="/assets/WoodBlocks/Thumbnails/Purpleheart.jpg" alt="Purpleheart">
+</a>
+<div class="image-caption">Purpleheart on the drums</div>
+
+<p>I made another one that I’d probably use mainly. This is made from <a href="http://www.wood-database.com/purpleheart/">Purpleheart</a> with an <a href="http://www.wood-database.com/ipe/">Ipé</a> striking rod inlaid in the top.</p>
+
+<p>Unfortunately I think that the <a href="#no-tool-limit">Maple</a> version sounds better.</p>
+
+<p>I really should have had a thinner top on this, but that’s something I can adjust on my own in the future with a chisel.</p>
+
+<h1 id="sounds">Sounds</h1>
+
+<admc path="/assets/WoodBlocks/Sounds" title="Wood Blocks">
+	<file name="SimpleEdge.mp3" />
+	<file name="SimpleTop.mp3" />
+	<file name="Purpleheart.mp3" />
+	<file name="MapleEdge.mp3" />
+	<file name="MapleTop.mp3" />
+</admc>
+
+<p>So here’s the sounds of them. On the simple and Maple versions I show hitting the edge and the top. The <a href="#purpleheart-on-the-drums">Purpleheart</a> is only struck on the striking bar.</p>
+
+<p>The maple version sounds most like a wood block on its own without a doubt. However the purpleheart version cuts through a dense drum part better.</p>
+
+<p>The simple version likely suffers from the type of wood. If you make thinner walls and use a harder wood (maple or oak) then you will get a much more “wood blocky” sound. The point of making that one was to show how easy it can be.</p>
+
+<p>The simple version can be tuned by removing wood from the striking face until it sounds as “wood blocky” as you want.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It’s not hard. Make your own.</p>
+
+<p>Really. Do it.</p>
+
+<p>The only thing you need, is to be aware of failure modes when working with tools. Always keep in mind what could go wrong and seek be safe in that instance, or to avoid that totally.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 11 hours to make the things, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

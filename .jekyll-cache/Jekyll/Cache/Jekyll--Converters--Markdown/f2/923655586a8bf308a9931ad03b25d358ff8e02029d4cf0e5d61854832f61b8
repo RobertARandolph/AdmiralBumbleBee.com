@@ -1,0 +1,94 @@
+I"�<p>Here it is. After a number of posts going over <em>some</em> of the unique things about Mixbus, the final post in what was supposed to be a 30 day review.</p>
+
+<p>First check over the other posts I’ve written and then after the break I’ll give a summary of my feelings about Mixbus.</p>
+
+<ul>
+  <li><a href="/music/2017/08/16/Cool-things-in-Mixbus-Part-1.html">Cool things Part 1</a></li>
+  <li><a href="/music/2017/08/26/Cool-things-in-Mixbus-Part-2.html">Cool things Part 2</a></li>
+  <li><a href="/music/2017/09/01/Cool-things-in-Mixbus-Part-3.html">Cool things Part 3</a></li>
+  <li><a href="/music/2017/09/05/Cool-things-in-Mixbus-Part-4.html">Cool things Part 4</a></li>
+  <li><a href="/music/2017/09/18/Mixbus-32c-The-Mixer.html">Mixbus: The mixer</a></li>
+  <li><a href="/music/2017/09/25/Harrison-Mixbus-EQ-Revisited.html">Mixbus EQ Revisited</a></li>
+  <li><a href="/music/2017/09/30/Review-of-Mixbus-effect-plugins.html">Review of Mixbus effects</a></li>
+  <li><a href="/music/2017/10/06/Review-of-Mixbus-instrument-and-MIDI-plugins.html">Review of Mixbus instruments and MIDI plugins</a></li>
+  <li><a href="/music/2017/10/15/Mixbus-Midi-Editing.html">Mixbus MIDI</a></li>
+  <li><a href="/music/2017/10/18/Mixbus-Audio-Editing.html">Mixbus Audio editing</a></li>
+</ul>
+
+<p>Warning: No fancy pictures, just text today!</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#staff" id="markdown-toc-staff">Staff</a></li>
+  <li><a href="#features" id="markdown-toc-features">Features</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="staff">Staff</h1>
+
+<p>Let’s first talk about the most important asset of any software: the people. The folks behind Mixbus and Ardour are fantastic. I’ve worked with (and for) a variety of developers that make audio products, particularly DAWs, and largely they are all great people that love what they do.</p>
+
+<p>The people behind Mixbus and Ardour though, have been the most reasonable folks I’ve encountered. While writing reviews I’ve talked to people involved in the projects I’m critical of and the response is almost always some sort of defense or rationality. When speaking with the Mixbus folks, they’re more willing to explain the tradeoffs in the design and acknowledge their weaknesses. This signals to me a huge willingness to improve and embrace the user. Not one time in talking to any other company (of nearly every major DAW developer) has someone said to me, of something that’s not a bug, “You know what, I think we can do better.” That was until I spoke with the Mixbus team.</p>
+
+<p>Along with their willingness to approach their product with a genuine honesty, their support is fantastic. You can contact them via <a href="http://mixbus.harrisonconsoles.com/forum/index.php">the forum</a>, <a href="http://webchat.freenode.net/?channels=ardour-mixbus">irc</a> or <a href="mailto:mixbus@harrisonconsoles.com">email</a>. You will be acknowledged and your problem will very likely be dealt with by a real person that’s interested in you getting back to work. No bureaucracy. No blowing you off because you’re an idiot (and yes, sometimes we are idiots when we contact support!). Just helpful people that want their product to work for you more than you want it to work.</p>
+
+<h1 id="features">Features</h1>
+
+<p>Mixbus is <strong>not</strong> a feature-packed powerhouse. I’ve discussed many things it does have, but there’s a lot of things it doesn’t have.</p>
+
+<ul>
+  <li>No comping (think ‘swipe comping’)</li>
+  <li>No always recording</li>
+  <li>VCAs are strange from a DAW implementation perspective (though accurate to the harrison 32c console)</li>
+  <li>No audio warping</li>
+  <li>No notation</li>
+  <li>Midi editing is basic</li>
+  <li>Limited selection of free included processors</li>
+  <li>No pitch editing (inline pitch changing on monophonic sources)</li>
+  <li>No <a href="http://www.synchroarts.com/products/vocalign-pro/overview">vocalign-like</a> features</li>
+  <li>No spectral editing</li>
+  <li>No arrangement tools like <a href="https://www.bitwig.com/en/home.html">Bitwig</a> or <a href="https://www.ableton.com">Ableton Live</a></li>
+  <li>No modular environment</li>
+  <li>No modulation system</li>
+  <li>No hardware integration</li>
+  <li>No VST3 support</li>
+  <li>Minimal included sound content</li>
+</ul>
+
+<p>There’s more… but these are just things that I’ve been asked about or seen mentioned fairly frequently about features people enjoy in other products.</p>
+
+<p>That doesn’t mean Mixbus is bad by any means. In fact I would argue that the unique set of features it offers, along with a very fluid workflow, are more valuable than any single marketing buzz. The mixing workflow is fantastic (minus the VCA system which I personally don’t like). The basic editing workflow is fantastic (arguably the best I’ve used along with Pro Tools keyboard focus, and SAW Studio’s native editing). Setting up and recording audio is brilliant.</p>
+
+<p>If you sit back and think about what you spend the most time doing, I’m fairly certain that most folks will find that Mixbus excels at 95% of it. Yes that 5% remaining would be super easy to do in another DAW, but there’s no rules saying you couldn’t just pop that track in another product and go back to work in Mixbus.</p>
+
+<p>Selling products has always been about features, and even my own <a href="/DAW-Chart.html">DAW Chart</a> is about features. What really matters most of the time is how well something does its most common and basic task. Currently this is where Mixbus excels. If this is retained while they pile on marketable features then it will be a formidable product in the very near future.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>There really isn’t much to say as a conclusion. I think that Mixbus is a product nearly everyone should have.</p>
+
+<p>There’s a number of people that will require other software to create a full environment for their craft, but I think that at the core of any workflow, Mixbus is a strong option.</p>
+
+<p>Having worked extensively with a number of DAWs, this is the <em>first</em> time I think I would make such a recommendation. Pro Tools could fit this role, but I abhor Avid’s business decisions. SAWStudio could, but it’s basically dead. Reaper could if you spent ~80 hours setting it up (and probably forgetting half of what you did). Nearly every other product is interchangeable, just a jumble of features with no real strong sense of wholistic design.</p>
+
+<p>Mixbus, right now, offers exactly what every musician needs: a solid foundation.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 2 hours to write and edit. This series of blog posts on Mixbus took me 80 hours of writing, screenshotting, making graphs, editing, talking to folks and around 200 hours of using Mixbus. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

@@ -1,0 +1,811 @@
+I"��<img src="/assets/BlueCat/Axiom/Axiom.png" alt="Axiom">
+<div class="image-caption">Axiom</div>
+
+<p>Blue Cat is delivering their new product ‘Axiom’ soon and I’m here having a blast with it. This will be the first solo plugin review I’m doing, despite having reviewed 100s of plugins already (in DAW reviews).</p>
+
+<p>Axiom is mainly targeted as a guitar system, however it’s also an great multi-effects solution for any sort of sound.</p>
+
+<p>I was provided an early NFR (not for resale) review copy.</p>
+
+<p>As of this writing… this is the first review I know of about Axiom. It’s currently not released yet (and I do have permission to release this).</p>
+
+<p>Let’s get on with the review!</p>
+
+<p><strong>UPDATED</strong> Updated for Axiom 1.1.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#axiom-in-general" id="markdown-toc-axiom-in-general">Axiom in General</a>    <ul>
+      <li><a href="#midi-mapping" id="markdown-toc-midi-mapping">MIDI Mapping</a></li>
+      <li><a href="#routing" id="markdown-toc-routing">Routing</a></li>
+      <li><a href="#tuner" id="markdown-toc-tuner">Tuner</a></li>
+      <li><a href="#section-locking-and-loading" id="markdown-toc-section-locking-and-loading">Section locking and loading</a></li>
+    </ul>
+  </li>
+  <li><a href="#destructor" id="markdown-toc-destructor">Destructor</a>    <ul>
+      <li><a href="#gatecomp" id="markdown-toc-gatecomp">Gate/Comp</a></li>
+      <li><a href="#preamp" id="markdown-toc-preamp">Preamp</a></li>
+      <li><a href="#destruction" id="markdown-toc-destruction">Destruction</a></li>
+      <li><a href="#post-filter" id="markdown-toc-post-filter">Post-Filter</a></li>
+      <li><a href="#destructor-presets" id="markdown-toc-destructor-presets">Destructor Presets</a></li>
+      <li><a href="#destructor-easy-mode" id="markdown-toc-destructor-easy-mode">Destructor Easy Mode</a></li>
+      <li><a href="#destructor-midi" id="markdown-toc-destructor-midi">Destructor MIDI</a></li>
+    </ul>
+  </li>
+  <li><a href="#late-replies" id="markdown-toc-late-replies">Late Replies</a>    <ul>
+      <li><a href="#late-replies-routing" id="markdown-toc-late-replies-routing">Late Replies Routing</a></li>
+      <li><a href="#late-replies-input" id="markdown-toc-late-replies-input">Late Replies Input</a></li>
+      <li><a href="#multitaps" id="markdown-toc-multitaps">Multitaps</a></li>
+      <li><a href="#feedback-paths" id="markdown-toc-feedback-paths">Feedback paths</a></li>
+      <li><a href="#late-replies-output" id="markdown-toc-late-replies-output">Late Replies Output</a></li>
+      <li><a href="#presets" id="markdown-toc-presets">Presets</a></li>
+    </ul>
+  </li>
+  <li><a href="#builtin-effects" id="markdown-toc-builtin-effects">Builtin Effects</a>    <ul>
+      <li><a href="#delay--reverb" id="markdown-toc-delay--reverb">Delay &amp; Reverb</a>        <ul>
+          <li><a href="#echo" id="markdown-toc-echo">Echo</a></li>
+          <li><a href="#late-replies-1" id="markdown-toc-late-replies-1">Late Replies</a></li>
+          <li><a href="#multi-tap-delay" id="markdown-toc-multi-tap-delay">Multi Tap Delay</a></li>
+          <li><a href="#reverb" id="markdown-toc-reverb">Reverb</a></li>
+        </ul>
+      </li>
+      <li><a href="#distortion" id="markdown-toc-distortion">Distortion</a>        <ul>
+          <li><a href="#army-drive" id="markdown-toc-army-drive">Army Drive</a></li>
+          <li><a href="#blue-drive" id="markdown-toc-blue-drive">Blue Drive</a></li>
+          <li><a href="#crunch-booster" id="markdown-toc-crunch-booster">Crunch Booster</a></li>
+          <li><a href="#destructor-1" id="markdown-toc-destructor-1">Destructor</a></li>
+          <li><a href="#fuzzy-tone" id="markdown-toc-fuzzy-tone">Fuzzy Tone</a></li>
+          <li><a href="#green-dist" id="markdown-toc-green-dist">Green Dist</a></li>
+          <li><a href="#methal-drive" id="markdown-toc-methal-drive">Methal Drive</a></li>
+          <li><a href="#orange-dist" id="markdown-toc-orange-dist">Orange Dist</a></li>
+          <li><a href="#waveshaper" id="markdown-toc-waveshaper">Waveshaper</a></li>
+        </ul>
+      </li>
+      <li><a href="#dynamics" id="markdown-toc-dynamics">Dynamics</a>        <ul>
+          <li><a href="#compressor" id="markdown-toc-compressor">Compressor</a></li>
+          <li><a href="#destructor-2" id="markdown-toc-destructor-2">Destructor</a></li>
+          <li><a href="#ducker" id="markdown-toc-ducker">Ducker</a></li>
+          <li><a href="#gate" id="markdown-toc-gate">Gate</a></li>
+        </ul>
+      </li>
+      <li><a href="#eq-and-filters" id="markdown-toc-eq-and-filters">EQ and Filters</a>        <ul>
+          <li><a href="#comb-filter" id="markdown-toc-comb-filter">Comb Filter</a></li>
+          <li><a href="#comb-filter-iir" id="markdown-toc-comb-filter-iir">Comb Filter IIR</a></li>
+          <li><a href="#eq" id="markdown-toc-eq">EQ</a></li>
+          <li><a href="#filter" id="markdown-toc-filter">Filter</a></li>
+          <li><a href="#wah" id="markdown-toc-wah">Wah</a></li>
+        </ul>
+      </li>
+      <li><a href="#fx" id="markdown-toc-fx">FX</a>        <ul>
+          <li><a href="#bit-crusher" id="markdown-toc-bit-crusher">Bit Crusher</a></li>
+          <li><a href="#freq-shifter" id="markdown-toc-freq-shifter">Freq Shifter</a></li>
+          <li><a href="#harmonizer" id="markdown-toc-harmonizer">Harmonizer</a></li>
+          <li><a href="#phase-shifter" id="markdown-toc-phase-shifter">Phase Shifter</a></li>
+          <li><a href="#pitch-bender" id="markdown-toc-pitch-bender">Pitch Bender</a></li>
+          <li><a href="#pitch-shifter" id="markdown-toc-pitch-shifter">Pitch Shifter</a></li>
+          <li><a href="#waveshaper-1" id="markdown-toc-waveshaper-1">Waveshaper</a></li>
+        </ul>
+      </li>
+      <li><a href="#modulation" id="markdown-toc-modulation">Modulation</a>        <ul>
+          <li><a href="#chorus" id="markdown-toc-chorus">Chorus</a></li>
+          <li><a href="#flanger" id="markdown-toc-flanger">Flanger</a></li>
+          <li><a href="#phaser" id="markdown-toc-phaser">Phaser</a></li>
+          <li><a href="#sweep-filter" id="markdown-toc-sweep-filter">Sweep Filter</a></li>
+          <li><a href="#tremolo" id="markdown-toc-tremolo">Tremolo</a></li>
+        </ul>
+      </li>
+      <li><a href="#utilities" id="markdown-toc-utilities">Utilities</a>        <ul>
+          <li><a href="#gain" id="markdown-toc-gain">Gain</a></li>
+          <li><a href="#ms-decoder" id="markdown-toc-ms-decoder">MS Decoder</a></li>
+          <li><a href="#ms-encoder" id="markdown-toc-ms-encoder">MS Encoder</a></li>
+          <li><a href="#mute" id="markdown-toc-mute">Mute</a></li>
+          <li><a href="#pan" id="markdown-toc-pan">Pan</a></li>
+          <li><a href="#stereostrip" id="markdown-toc-stereostrip">StereoStrip</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#presets-1" id="markdown-toc-presets-1">Presets</a></li>
+  <li><a href="#sounds" id="markdown-toc-sounds">Sounds</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="axiom-in-general">Axiom in General</h1>
+
+<img src="/assets/BlueCat/Axiom/AxiomGeneral.png" alt="Axiom In General">
+<div class="image-caption">Axiom...</div>
+
+<p>So <em>what is Axiom</em>? It’s a 2 channel multi-effects plugin. <a href="https://www.bluecataudio.com/Products/Product_LateReplies/">Late Replies</a> is included and <a href="https://www.bluecataudio.com/Products/Product_Destructor/">Destructor</a> is included.</p>
+
+<p>The primary marketing focus appears to be guitar/bass amp simulation, which is understandable given that <a href="https://www.bluecataudio.com/Products/Product_Destructor/">Destructor</a> is smack dab in the center of the signal path. It can be bypassed though.</p>
+
+<p>Axiom comes with 38 effects builtin besides Late Replies and Destructor. There’s 23 effects slots available, however it’s practically unlimited since <em>each effect slot can host Axiom</em>. So each of the effects slots can host an Axiom with 23 more effects slots which can host <a href="#late-replies">Late Replies</a> with another 48 potential effects slots… and down the rabbit hole we go!</p>
+
+<p><strong>Even cooler still</strong>: Axiom can host VST, AU and VST3 plugins. So your entire plugin collection can be used in the signal path. Once you start loading up things like <a href="https://www.bluecataudio.com/Products/Product_PatchWork/">Patchwork</a>, <a href="https://ddmf.eu/metaplugin-chainer-vst-au-rtas-aax-wrapper/">Metaplugin</a> or <a href="http://www.mutools.com/mux-product.html">Mux</a> your brain will melt. You’ll also probably use up all of your CPU and ram… like I have multiple times now. (Axiom isn’t CPU hungry or a ram hog, but it’s easy to load up dozens of effects in it and quite frankly it’s fun to make your computer cry.)</p>
+
+<p>The main window is resizable from 70% to 200%, and it can be made transparent. The transparency is surprisingly useful, and it’s the only plugin that I’ve encountered where I wanted to use such a feature. When you have so many open effects windows it’s nice to know what’s potentially behind Axiom.</p>
+
+<h2 id="midi-mapping">MIDI Mapping</h2>
+
+<img src="/assets/BlueCat/Axiom/MIDIMapping.png" alt="MIDI Mapping">
+<div class="image-caption">MIDI Mapping</div>
+
+<p>Axiom has excellent MIDI CC mapping support. Nearly every single control can be mapped to MIDI CC values on any incoming MIDI channel.</p>
+
+<p>There’s multiple scaling values available for each control as well. This allows you to setup how the control responds to incoming messages. Perhaps you want a lot of control at the bottom of the range or you want to quickly sweep up to max value. You can do that easily.</p>
+
+<p>The image above shows the global panel, but you can access per-control mappings by clicking the gear icon in the upper left and then clicking the down arrow near the controller and selecting “Control Settings…”.</p>
+
+<p>Controls can be inverted by switching the ‘Control Min’ and ‘Control Max’ values.</p>
+
+<p>There’s 44 slots available for mapping to loaded plugins. The manual explains the procedure, but basically click on the plugin name, select the control from ‘Params Map’ and then a new control appears at the bottom of your screen. (You must have “Show Assigned Controls” on. It’s the 3 knobs icon at the top left). You can then assign MIDI directly to the controls at the bottom.</p>
+
+<p>Axiom has 16 internal busses. Each bus has 16 channels. When routing MIDI gets complex with multiple depths of plugins or complex rigs, then you can access these internal busses to aid you in your routing endeavors.</p>
+
+<p>I am a bit disappointed that there does not seem to be support for assigning MIDI Notes, NRPN or 14-bit CC. Depending on your DAW you may be able to manipulate incoming data to CC. I can do this easily in Reaper so I’m not bothered by it too much.</p>
+
+<p>It would be nice if Axiom supported 14-bit MIDI messages or NRPN. These allow more control resolution than the typical 7-bit CC. The concern is minimized by the fact that all of Axiom’s controls are de-zippered properly and you won’t hear any obvious stairstepping when modulating controls.</p>
+
+<h2 id="routing">Routing</h2>
+
+<img src="/assets/BlueCat/Axiom/AxiomRoute.png" alt="Axiom Routing">
+<div class="image-caption">Axiom Routing</div>
+
+<p>First I want you to marvel at my <em>amazing</em> vector graphics skills. Take a moment and bask in the glory of my hand drawn garbage. BASK I TELL YOU! Let yourself be slathered in the torrent of skill that I am unleashing on you.</p>
+
+<p>I screwed up that routing graph at least 3 times. I hope it’s right now. This is Axiom’s routing I’m pretty sure. It’s not shown in the manual at all so I’m just putting this here for you. I hope that this is self-explanatory.</p>
+
+<p>Amazingly, Axiom supports sidechaining. Internal plugin’s inputs and outputs are exposed externally, so if you want to put a compressor plugin somewhere and accept an external sidechain signal… you can do that!</p>
+
+<p>There’s also the Tools section</p>
+
+<h2 id="tuner">Tuner</h2>
+
+<p>Axiom has a builtin tuner. It’s pretty accurate but it’s very simple. There’s no display for how many cents you’re off directly. No support for microtuning or the like.</p>
+
+<p>Each vertical slot appears to be about 0.5cents. 2 vertical notches seems to be 1 cent.</p>
+
+<p>It works though, and as long as everyone in the band is tuning to that tuner you’ll be fine.</p>
+
+<p>That said, it doesn’t particularly agree with a <a href="https://www.petersontuners.com/products/autostrobe490/">Peterson 490</a>, <a href="https://www.tcelectronic.com/Categories/Tcelectronic/Guitar/Tuners/POLYTUNE-2/p/P0CZ4">Polytune</a> or <a href="https://www.boss.info/us/products/tu-2/">Boss Tu-2</a>.</p>
+
+<p>Axiom seems to settle on the pitch very slightly flatter. The initial pick onset matches up, but as the plucked note settles then Axiom favours showing the pitch ~half a cent flatter and the pitch decays faster than other tuners I tried. Perhaps Axiom is more accurate than these other products? Maybe it’s simply the averaging. It’s something to be aware of though.</p>
+
+<p>When recording in the studio, <strong>all instruments should be tuned to the same tuner</strong> anyways. This is a very simple rule to follow and it makes for audibly cleaner and tighter recordings. Variances in tuning averaging, dying batteries, tuning displays etc… can add up to everyone being ‘in-tune’, but slightly off from each other.</p>
+
+<h2 id="section-locking-and-loading">Section locking and loading</h2>
+
+<img src="/assets/BlueCat/Axiom/SectionLoad.png" alt="Section Loading">
+<div class="image-caption">Loading various sections</div>
+
+<p>Each section of Axiom can have presets loaded and saved. If you have a specific input set you like, you can save that and load only that. The same goes for each FX section, your Destructor instances, each A/B channel as a whole and the output section.</p>
+
+<p>Each section can be locked as well. Do you have a fantastic input chain you love, and you want to browse presets with that intact? Just click the lock icon in the upper left of that section and browse. It’s a great feature.</p>
+
+<p>These 2 features make for a more pleasant experience than simple preset browsing.</p>
+
+<p>Don’t forget as well that each FX slot’s plugins have their own Presets.</p>
+
+<h1 id="destructor">Destructor</h1>
+
+<img src="/assets/BlueCat/Axiom/Destructor.png" alt="Destructor">
+<div class="image-caption">Destructor</div>
+
+<p><a href="https://www.bluecataudio.com/Products/Product_Destructor/">Destructor</a> is a monster distortion/saturation/guitar amp sim. By itself it could take up an entire review space the size of this review. In fact… I have a draft of a review that I began writing for Destructor months ago and I gave up because I wrote so much about it. I doubt I’ll ever finish it.</p>
+
+<p>Destructor has 4 stages: Gate/Comp, Preamp, Destruction, Post-Filter. All except gate/comp are <a href="#section-locking-and-loading">lock and loadable</a> like Axiom. The Gate/Comp is lockable but not loadable.</p>
+
+<p>I’ll cover 4 of these independently, however the depth that I’ll cover will be limited. There’s a lot here, and Destructor alone is a fantastic product on its own.</p>
+
+<h2 id="gatecomp">Gate/Comp</h2>
+
+<img src="/assets/BlueCat/Axiom/GateComp.png" alt="Gate/Comp">
+<div class="image-caption">Gate/Comp</div>
+
+<p>On the way in the signal reaches a gate. Gates are important on guitar sims since many guitars are a tad bit noisy. (some guitars, looking at you vintage single-coil strat, are extremely noisy).</p>
+
+<p>The gate has the normal controls you’d expect, except with a fairly unusual ratio control. The ratio controls how much the signal is reduced when the signal is below the threshold. Careful use of the ratio and release time is the key to natural sounding gating.</p>
+
+<p>I’m not a big fan of Destructor’s gate. It lacks a hold control, the capability for a tiny-lookahead (to preserve transients) and the use of a ratio instead of a range control is unnatural to use for me. I’ve been using Destructor for months and I’ve put effort in to getting the gate to work for me, but it simply doesn’t. Nearly every other amp sim on the market has a more natural sounding gate. Even <a href="https://www.reaper.fm/reaplugs/">ReaGate</a> gets better results for me.</p>
+
+<p>The compressor is a standard affair. I like the control scaling in particular. I’ve harped on this before, but having a control where only 25% of it is normal usable values drives me insane. Destructor’s compressor is easier to use than most due to the excellent value scaling.</p>
+
+<p>I’ve found that gentle use of the compressor is essential for thick/heavy sounds. Lopping off the tops a bit and bringing up a bit of the tail of the sound allows the amp section to dig in to the <em>whole</em> sound.</p>
+
+<h2 id="preamp">Preamp</h2>
+
+<img src="/assets/BlueCat/Axiom/DPreamp.png" alt="Preamp">
+<div class="image-caption">Preamp Filter</div>
+
+<p>The preamp stage is an 8 band filter. You get low/high pass, high/low shelf, 3 peaking bands and a <em>comb filter</em>. There’s 3 analysis modes including the fantastic spectrogram (I love spectrograms).</p>
+
+<p>Use of the pre-amp filter allows you to adjust the signal going in to <a href="#destruction">the destruction</a> stage. So you can emphasize some frequencies and de-emphasize others.</p>
+
+<p>One of the neater functions is <a href="https://www.bluecataudio.com/Tutorials/Tutorial_EQ_Matching_Reaper/">the ability to load reference curves</a> that you’ve measured with <a href="https://www.bluecataudio.com/Products/Product_FreqAnalystMulti/">FreqAnalyst</a>. So you can measure software <em>or hardware</em> (using a hardware insert plugin). Then you load that curve in to the preamp stage, and you can match it by hand.</p>
+
+<p>The comb filter is an awesome addition. Once you begin measuring other products, or if you have any experience repairing amplifiers you’ll know how often there’s a comb filter like response in various stages of the design.</p>
+
+<h2 id="destruction">Destruction</h2>
+
+<img src="/assets/BlueCat/Axiom/Destruction.png" alt="Destruction">
+<div class="image-caption">Destruction, the core</div>
+
+<p>The core of Destructor. A variable dynamic wave shaper. I’m not going to go in to depth about this, as last time I attempted that I spent 4 days <em>just writing about it</em>.</p>
+
+<p>A waveshaper is a device that maps samples via a graph. So a 45° positive slope indicates a 1:1 mapping. Nothing happens. The X axis is the incoming signal and the Y axis is what it’s mapped to on output. As you can imagine, certain settings will allow for distorting/clipping of the signal.</p>
+
+<p>The waveshaper can affect both negative and positive values the same, or each ‘side’ of the signal can be acted on separately. Affecting positive and negative differently is what the asymmetric mode does. Generally tube amps tend to have slight asymmetric distortion, but there’s a fair number of solid-state devices used in guitar rigs that have asymmetric response as well.</p>
+
+<p>The real beauty in this device is that the waveshaping is dynamic. Imagine that you have a compressor, but instead of controlling the volume of a signal, it’s controlling the waveshaper. This allows the waveshaper to respond to input dynamics and vary the distortion accordingly. There’s a variety of controls available for the dynamic portion of the waveshaper. It acts very similarly to a compressor.</p>
+
+<p>There’s functions for smoothing the waveshaper, adding additional asymmetric processing (asymmetric rectification) and bitcrushing.</p>
+
+<p>Since saturation always causes harmonic creation (frequencies that are multiples of the input frequencies), it’s possible to introduce aliasing. The Destruction device has oversampling up to 4x that does a decent job of eliminating aliasing.</p>
+
+<p>One of my absolute favorite features of the destruction mode is the phase shift controls. <a href="/music/2018/02/16/Fixing-Phase-what-why-and-how.html">Read about phase in a post I wrote before</a>. As phase rotation can change the peaks and troughs in the signal, it can affect the response of the waveshaper and the dynamic portion of the waveshaper. It is a subtle effect sometimes, but in a mix it can help the guitar stand out more or sit further back in the mix. It can also be useful when mixing the effected and original signal. If you don’t understand why… just assume it’s magic (and read that post!)</p>
+
+<p>When you really crank the phase shift, you’ll get some smearing and potentially fun auto-filter type sounds.</p>
+
+<h2 id="post-filter">Post-Filter</h2>
+
+<img src="/assets/BlueCat/Axiom/DPostFilter.png" alt="Post Filter">
+<div class="image-caption">Post filter</div>
+
+<p>The Post-Filter is basically the same as the <a href="#preamp">Preamp</a>. There’s 2 considerations here.</p>
+
+<ul>
+  <li>
+    <p>Post-emphasis filtering - After using the preamp to control how the <a href="#destruction">Destruction</a> stage responds to the spectrum, it’s often useful to de-emphasize that output. Perhaps you wanted to really distort around 500hz so you boosted it to the sky. After the destruction stage you probably want to cut 500hz equally so that the sound is relatively balanced.</p>
+  </li>
+  <li>
+    <p>Cabinet simulation - Using Destructor as a guitar amp sim implies that you generally want some sort of speaker and cabinet simulation. Destructor does not load impulse responses of cabinets like other amp sims do. It relies instead on the post-filter EQ to simulate these responses. The net result can be very similar. (<strong>UPDATE</strong>: <a href="/music/2018/10/24/Blue-Cat-Axiom-Destructor-Update.html">This has been improved greatly!</a>)</p>
+
+    <p>Destructor comes with a number of post-filter presets that help you model various common cabinets.</p>
+  </li>
+</ul>
+
+<p>The downfall here is that I don’t know what the spectral response of my favorite cabinets and speakers is. I do know how to load an impulse of them though.</p>
+
+<p><del>If you have an idea of what you want, then you are either forced to spend a lot of time figuring out how to emulate it in the post-filter, or you will have to load your own IR loader inside Axiom.</del> (<strong>UPDATE</strong>: <a href="/music/2018/10/24/Blue-Cat-Axiom-Destructor-Update.html">This has been improved greatly!</a>) <del>Luckily Axiom lets you do this without much issue.</del></p>
+
+<h2 id="destructor-presets">Destructor Presets</h2>
+
+<img src="/assets/BlueCat/Axiom/DestructorPresets.png" alt="Presets">
+<div class="image-caption">Presets</div>
+
+<p>Destructor comes with a lot of presets. I’m not about to count them… There’s 100s.</p>
+
+<p>And you know what? I dislike damn near every single one. I have 3 reasons for this:</p>
+
+<ul>
+  <li>
+    <p>Descriptive names - The presets all have descriptive names rather than referential names. You have to find ‘Black Twang Crunch’ instead of ‘Blackface’ or ‘Hi Gain’ instead of… uh, no clue.</p>
+
+    <p>I usually know what type of amp I want. Having to browse through descriptive namings of someone’s idea of some amp doesn’t sit well with me. Then again, many amp sims don’t exactly nail the sound of the amp they are simulating so it’s never a sure thing. I rather work with referential names.</p>
+  </li>
+  <li>
+    <p>They are very forward sounding - Nearly all of the sounds are very forward and present. They sound like shoving your face in front of a guitar amp at stage volume (yes, I unfortunately know what this sounds like… many times). That feeling of a microphone in front of an amp in a room isn’t there in most of the presets. <em>You can tune that in yourself</em>, but most of the presets don’t have that feel. I find it difficult to fit any of the presets in to a mix without sounding unnatural.</p>
+  </li>
+  <li>
+    <p>I don’t like them. I just don’t like the sound of most of the presets. Nearly all of them require some tuning, which is generally expected. With other amp sims I can often get away with grabbing a ’60s Plexi’ preset and just get on with the session. I have never experienced that with Destructor.</p>
+  </li>
+</ul>
+
+<p>That doesn’t reflect on what’s possible with Destructor, but if you’re the type of person that wants to grab a preset and go, then please try the demo first. Maybe you disagree with me and maybe you don’t.</p>
+
+<h2 id="destructor-easy-mode">Destructor Easy Mode</h2>
+
+<img src="/assets/BlueCat/Axiom/DestructorEasyMode.png" alt="Easy Mode">
+<div class="image-caption">Easy Mode</div>
+
+<p>Do all of those controls seem overwhelming? Then you can drop in to ‘easy mode’ for any of the sections. Just click the <code class="highlighter-rouge">e</code> button in the upper right of the section.</p>
+
+<p>The easy-mode sections have dozens of available skins to help you create a look that mimics the sound you’re getting.</p>
+
+<h2 id="destructor-midi">Destructor MIDI</h2>
+
+<p>Destructor has MIDI Mapping just like <a href="#midi-mapping">Axiom does</a>. You can take advantage of this through Axiom’s system as needed.</p>
+
+<h1 id="late-replies">Late Replies</h1>
+
+<img src="/assets/BlueCat/Axiom/LateReplies.png" alt="Late Replies">
+<div class="image-caption">Late Replies</div>
+
+<p><a href="https://www.bluecataudio.com/Products/Product_LateReplies/">Late Replies</a> is a monster delay plugin. I could write a tome about the capabilities of it, but I’m just going to go over the basics here. Axiom includes Late Replies as a builtin effect.</p>
+
+<p>Late replies is a fully sequencable 8-tap delay with per-tap effects inserts, 2 feedback loops with effects inserts, pre-fx inserts, post-fx inserts and ducking.</p>
+
+<p>There are 24 included effects that can be used on the inserts, and each insert slot can host VST/VST3/AU effects. Of course you can have Late Replies inside of Late Replies inside of Late Replies inside of… <strong>Hooray! Rabbit Holes!</strong> My favorite.</p>
+
+<p>So let’s break down what’s here.</p>
+
+<h2 id="late-replies-routing">Late Replies Routing</h2>
+
+<img src="/assets/BlueCat/Axiom/LateRepliesRoute.png" alt="Routing in Late Replies">
+<div class="image-caption">Late Replies Routing... mostly</div>
+
+<p>Once again, another beautiful drawing. This is most of Late Replies routing scheme.</p>
+
+<p>You go through your 8 taps, then in to 2 feedback loops with crossfeed <em>and</em> crosstalk, out to more FX, spread, ducker, gain and a limiter.</p>
+
+<p>I left out the ‘In Mix’ path, which controls how much of the first input to the feedback loop is processed. Why did I leave this out? Because I have no clue how to represent that. Sorry.</p>
+
+<h2 id="late-replies-input">Late Replies Input</h2>
+
+<img src="/assets/BlueCat/Axiom/LateRepliesInput.png" alt="Late Replies Input">
+<div class="image-caption">Input</div>
+
+<p>The input stage is 4 effects. This is also where the Base delay parameter is. The Base delay is what the scale of the pattern sequencer is based off.</p>
+
+<h2 id="multitaps">Multitaps</h2>
+
+<img src="/assets/BlueCat/Axiom/Taps.png" alt="Multi Taps">
+<div class="image-caption">So many taps!</div>
+
+<p>Here is where the fun happens. A ‘tap’ is a single delay. The signal is delayed by the desired amount and that’s it. It doesn’t sound exciting until you start using multiple taps.</p>
+
+<p>There’s a pattern sequencer that allows you to see how each delay tap is placed in time relative to other taps. You can manually adjust these on a grid, and off the grid. The volume of each tap is indicated by the opacity of the tap’s node in the pattern graph. Each tap can be panned as desired, but this is not indicated in the pattern grab.</p>
+
+<p>The pattern sequencer allows the use of presets for that specific portion. If you end up with a pattern that you really like, you can save it and recall it later without affecting the rest of the plugin.</p>
+
+<p>Each delay tap allows you to insert up to 4 effects, from the included 24 effects or VST/VST3/AU effects.</p>
+
+<p>The sequence and/or volume can be randomized. You can choose to select one or both, and you can specify which taps are randomized by using the locks on the right. If you hit a creative roadblock this is a cheap way out. I like cheap ways out.</p>
+
+<p>There’s real sonic power in this section. Applying effects to each tap allows for a variety of effects from extreme to subtle. The fact that you can load Late Replies itself in these patch points expands the options as far as your CPU will allow you.</p>
+
+<h2 id="feedback-paths">Feedback paths</h2>
+
+<img src="/assets/BlueCat/Axiom/Feedback.png" alt="Feedback paths">
+<div class="image-caption">2 feedback paths</div>
+
+<p>Once your amazing effected multitap pattern is created, it is fed in to one or both feedback paths. Each feedback path has 4 effects slots where you can once again use the 24 builtin effects or VST/VST3/AU effects.</p>
+
+<p>There is an innovated loops graph that lets you add pre-delay to each path, and specify the length of the loop (This is how big of a block of audio happens before it’s fedback). Naturally the normal feedback and pan controls are available. There’s a great polarity inversion option that causes each successive loop to be polarity inverted, this can make for some neat modulated delay tails.</p>
+
+<p>The feedback loops can be crossfed, and the output can be crossed as well.</p>
+
+<p>The impulse response graph shows you exactly how your taps and feedback are going to play out. Height shows the pan, x-axis is time and opacity is volume. If you are having trouble hearing exactly what is happening in a complex multitap patch you can visualize it rather easily. All bets are off once you add effects though. Late Replies doesn’t take in to account effects.</p>
+
+<p>Once you start using filters and delays in your feedback loop, then you enter a world of <strong>ultra lush</strong> reverbs. Late Replies is an amazing reverb plugin once you start to dig in. This is owed largely to the feedback architecture.</p>
+
+<p>Each feedback path has an optional brickwall limiter for when you go nuts and create an ever-increasing feedback loop of ultimate glory. Limiters aren’t really the solution to this problem though, since the RMS level can still rise and blast your ears. Ideally I’d prefer that it had an auto-mute or a volume leveler instead.</p>
+
+<p>Lastly I want to mention the freeze control. Many delays have freeze. Other products let you freeze the feedback buffer and have it loop. Late Replies is way cooler.</p>
+
+<h2 id="late-replies-output">Late Replies Output</h2>
+
+<img src="/assets/BlueCat/Axiom/LateRepliesOutput.png" alt="Otupt">
+<div class="image-caption">Output path and ducker</div>
+
+<p>The output path has 4 more effects slots. Surprise!</p>
+
+<p>The cool bit here is the ducker. Often when you have a thick delay/reverb/whatever it can obscure your input signal. The ducker allows the input signal, or an external signal, to temporarily lower the volume of the delay signal.</p>
+
+<p>The ducker has typical compressor controls (since that’s what it is), except the amount control instead of a ratio.</p>
+
+<p>After all of that there’s a brickwall limiter.</p>
+
+<h2 id="presets">Presets</h2>
+
+<img src="/assets/BlueCat/Axiom/LateRepliesPresets.png" alt="Presets">
+<div class="image-caption">Presets</div>
+
+<p>Late Replies also comes with a bunch of presets. From crazy stereo effects to sci-fi modulations to reverbs to vanilla delays.</p>
+
+<p>I quite enjoy browsing the Late Replies presets because there’s so much variation there. Of the dozens of times that I’ve gone through the presets, I learn something new each time. Some sort of new concept or idea to try.</p>
+
+<h1 id="builtin-effects">Builtin Effects</h1>
+
+<img src="/assets/BlueCat/Axiom/Effects.png" alt="Effects">
+<div class="image-caption">Effects!</div>
+
+<p>Ok guys. Here we go. I’m going to screenshot and label every single builtin effect so you can see them all.</p>
+
+<p>I am <strong>not</strong> going to review all of them. If there is an effect that I find particularly notable or useful then I will write something about it. There’s just too much stuff for me here to properly evaluate and review every single one.</p>
+
+<p>Nearly every builtin effect has its own set of presets.</p>
+
+<p>If nothing tells you how much I love you, dear readers, this should. It’s a lot of work, <a href="/programming/2018/01/19/Creating-lists-of-plugins-with-Tesseract.html">even if I have some tricks up my sleeve</a>. It took me about 60 minutes just to set this up nicely.</p>
+
+<h3 id="delay--reverb">Delay &amp; Reverb</h3>
+
+<h4 id="echo">Echo</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Delay/Echo.png" alt="Echo">
+<div class="image-caption">Echo</div>
+
+<h4 id="late-replies-1">Late Replies</h4>
+
+<img src="/assets/BlueCat/Axiom/LateReplies.png" alt="Late Replies">
+<div class="image-caption">Late Replies</div>
+
+<p><a href="#late-replies">I already discussed this</a></p>
+
+<h4 id="multi-tap-delay">Multi Tap Delay</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Delay/MultiTapDelay.png" alt="Multi Tap Delay">
+<div class="image-caption">Multi Tap Delay</div>
+
+<h4 id="reverb">Reverb</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Delay/Reverb.png" alt="Reverb">
+<div class="image-caption">Reverb</div>
+
+<p>Reverb isn’t special, but it doesn’t suck either. I generally expect every reverb to be an awful metallic mess, but it’s not. I’d even be tempted to use this alone as a mix reverb if I didn’t already own far too many reverb plugins.</p>
+
+<p>That’s it. I’m just here to say that it isn’t awful. That’s a bold statement for an included reverb effect.</p>
+
+<h3 id="distortion">Distortion</h3>
+
+<h4 id="army-drive">Army Drive</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/ArmyDrive.png" alt="Army Drive">
+<div class="image-caption">ArmyDrive</div>
+
+<h4 id="blue-drive">Blue Drive</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/BlueDrive.png" alt="Blue Drive">
+<div class="image-caption">BlueDrive</div>
+
+<h4 id="crunch-booster">Crunch Booster</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/CrunchBooster.png" alt="Crunch Booster">
+<div class="image-caption">CrunchBooster</div>
+
+<h4 id="destructor-1">Destructor</h4>
+
+<img src="/assets/BlueCat/Axiom/Destructor.png" alt="Destructor">
+<div class="image-caption">Destructor</div>
+
+<p><a href="#destructor">Already covered.</a></p>
+
+<h4 id="fuzzy-tone">Fuzzy Tone</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/FuzzyTone.png" alt="Fuzzy Tone">
+<div class="image-caption">FuzzyTone</div>
+
+<h4 id="green-dist">Green Dist</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/GreenDist.png" alt="Green Dist">
+<div class="image-caption">GreenDist</div>
+
+<p>I am a <a href="https://en.wikipedia.org/wiki/Ibanez_Tube_Screamer">Tube Screamer</a> lover. This is disappointing. It’s kinda tube screamery, like a modern TS-9 in a way. I can’t really nail down what it reminds me of… but it’s none of my tube screamers.</p>
+
+<p>Luckily you can use VST/VST3/AU plugins and purchase <a href="https://cytomic.com/scream">the best tubescreamer emulation on the market</a>. The Scream is amazing, and you can mod the pedal <em>in realtime</em> across the whole schematic. Currently a new GUI is in the works that is just amazing.</p>
+
+<p>Do yourself a favour and buy The Scream.</p>
+
+<h4 id="methal-drive">Methal Drive</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/MethalDrive.png" alt="Methal Drive">
+<div class="image-caption">MethalDrive</div>
+
+<h4 id="orange-dist">Orange Dist</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/OrangeDist.png" alt="Orange Dist">
+<div class="image-caption">OrangeDist</div>
+
+<p>The <a href="https://www.boss.info/us/products/ds-1/">Boss DS-1</a> is arguably the most iconic pedal of 90s. I have a handful of them, with various mods, and I used them heavily for about a decade and a half.</p>
+
+<p>‘Orange Dist’ comes surprisingly close to a stock DS-1. The tone control sounds a bit off, but it’s not a big deal.</p>
+
+<p>Cool.</p>
+
+<h4 id="waveshaper">Waveshaper</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/WaveShaper.png" alt="Waveshaper">
+<div class="image-caption">WaveShaper</div>
+
+<h3 id="dynamics">Dynamics</h3>
+
+<h4 id="compressor">Compressor</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Dynamics/Compressor.png" alt="Compressor">
+<div class="image-caption">Compressor</div>
+
+<p>I haven’t dived in deep with this thing, but it’s surprisingly nice. I’ve tried it solo on bass guitar and on drums, and it’s quite good for soft compression.</p>
+
+<p>It does an excellent job in effects chains of doing light, barely audible compression. The type of compression that’s often necessary to keep certain bits under control.</p>
+
+<h4 id="destructor-2">Destructor</h4>
+
+<img src="/assets/BlueCat/Axiom/Destructor.png" alt="Destructor">
+<div class="image-caption">Destructor</div>
+
+<p><a href="#destructor">Already covered.</a></p>
+
+<h4 id="ducker">Ducker</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Dynamics/Ducker.png" alt="Ducker">
+<div class="image-caption">Ducker</div>
+
+<h4 id="gate">Gate</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Dynamics/Gate.png" alt="Gate">
+<div class="image-caption">Gate</div>
+
+<p>This gate is damn near useless. It has no hysteresis at all, which is a feature that allows the gate to close at a different level than it opens. There is also no hold, and the release shape seems aggressive.</p>
+
+<p>The result is that you get a chattery, sensitive gate that is difficult to use for anything musical.</p>
+
+<p>It is possible to use it on sources that are clearly ‘on’ or ‘off’, like metal guitars, but even then I rather use another product since this is still finicky to tune.</p>
+
+<h3 id="eq-and-filters">EQ and Filters</h3>
+
+<h4 id="comb-filter">Comb Filter</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Filters/CombFilter.png" alt="CombFilter">
+<div class="image-caption">CombFilter</div>
+
+<h4 id="comb-filter-iir">Comb Filter IIR</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Filters/CombFilterIIR.png" alt="CombFilterIIR">
+<div class="image-caption">CombFilterIIR</div>
+
+<p>Rather than implementing a combfilter as a simple delay + mix, this implements it as an <a href="https://en.wikipedia.org/wiki/Infinite_impulse_response">IIR filter</a>. Sometimes this is a more appropriate selection compared to <a href="#comb-filter">Comb Filter</a> due to the phase rotation that occurs. Often more appropriate in delay lines, but the sky is the limit.</p>
+
+<h4 id="eq">EQ</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Filters/EQ.png" alt="EQ">
+<div class="image-caption">EQ</div>
+
+<p>This EQ is similar to the <a href="#preamp">Preamp EQ in Destructor</a>. It has the same spectrogram capabilities, same <a href="https://www.bluecataudio.com/Tutorials/Tutorial_EQ_Matching_Reaper/">reference curve functionality</a>. It’s missing the comb filter, and that’s it.</p>
+
+<p>It’s a better EQ than some DAWs come with. (I’m looking at you <a href="/tags/#Tracktion+Waveform">Waveform</a>!)</p>
+
+<h4 id="filter">Filter</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Filters/Filter.png" alt="Filter">
+<div class="image-caption">Filter</div>
+
+<p>What a wimpy filter. BLERGH.</p>
+
+<p>It’s lucky that you can use 3rd party VST/VST3/AU plugins or I’d be throwing a tantrum that’d put any 2-year old to shame. I like my filter plugins, and this is a wussy filter.</p>
+
+<h4 id="wah">Wah</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Filters/Wah.png" alt="Wah">
+<div class="image-caption">Wah</div>
+
+<p>This is one of the standout effects. It’s an <em>excellent</em> wah pedal. It’s MIDI assignable to an expression pedal of course, and there’s an auto-wah section that allows the wah to respond automatically to input dynamics.</p>
+
+<p>The wah allows you to select the low and high positions for the wah movement. The bandwidth and gain are also selectable. You can get rather creative with it and make some mindwarping sounds in conjunction with other effects.</p>
+
+<h3 id="fx">FX</h3>
+
+<h4 id="bit-crusher">Bit Crusher</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/FX/BitCrusher.png" alt="BitCrusher">
+<div class="image-caption">BitCrusher</div>
+
+<p>Thank you Blue Cat for having a bit crusher/decimator that has <em>variable antialiasing</em>. Sometimes you want only a bit of grit and darkes, not a nails on the chalkboard sound.</p>
+
+<p>Old hardware designers weren’t stupid, and when you want to try to emulate old devices it’s sometimes necessary to have mild anti-aliasing. Bit Crusher provides it.</p>
+
+<h4 id="freq-shifter">Freq Shifter</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/FX/FreqShifter.png" alt="FreqShifter">
+<div class="image-caption">FreqShifter</div>
+
+<p>If you don’t know how a frequency shifter differs from a pitch shifter: <a href="/music/2017/06/27/Bitwig-Effects-review.html#freq-shifter">I explained it here</a></p>
+
+<h4 id="harmonizer">Harmonizer</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/FX/Harmonizer.png" alt="Harmonizer">
+<div class="image-caption">Harmonizer</div>
+
+<p>I have one thing to say about Harmonizer: no PDC.</p>
+
+<p>To get a decent sound, Harmonizer requires a lookahead. The larger the lookahead, the cleaner the sound. Obviously we can’t have realtime lookahead, since time travel doesn’t exist yet. So when playing live you get this echoed pitch shifted signal happening. It is what it is.</p>
+
+<p>The issue comes up when you want to use Axiom on a recording. I would like that delay compensated, ideally variably compensated. This effect would be far more useful with this capability.</p>
+
+<p>Strangely enough, Axiom does report latency for VST/AUs properly. It’s a bit weird that it’s unable to let you offset detection latency on Harmonizer.</p>
+
+<h4 id="phase-shifter">Phase Shifter</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/FX/PhaseShifter.png" alt="PhaseShifter">
+<div class="image-caption">PhaseShifter</div>
+
+<p>Phase shifter may seem somewhat useless, but herein lies the utility of kings. When working with dense modulation/delay/reverb effects or parallel effect chains, there’s often times where you get nasty frequency cancellations.</p>
+
+<p>Phase shifter lets you target an area and rotate the phase. Problem solved</p>
+
+<p>Of course this can be used prophylactically when creating reverb like effects.</p>
+
+<h4 id="pitch-bender">Pitch Bender</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/FX/PitchBender.png" alt="PitchBender">
+<div class="image-caption">PitchBender</div>
+
+<p><a href="#harmonizer">See Harmonizer</a> for why I dislike this effect.</p>
+
+<h4 id="pitch-shifter">Pitch Shifter</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/FX/PitchShifter.png" alt="PitchShifter">
+<div class="image-caption">PitchShifter</div>
+
+<h4 id="waveshaper-1">Waveshaper</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Distortion/WaveShaper.png" alt="Waveshaper">
+<div class="image-caption">WaveShaper</div>
+
+<h3 id="modulation">Modulation</h3>
+
+<h4 id="chorus">Chorus</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Modulation/Chorus.png" alt="Chorus">
+<div class="image-caption">Chorus</div>
+
+<h4 id="flanger">Flanger</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Modulation/Flanger.png" alt="Flanger">
+<div class="image-caption">Flanger</div>
+
+<h4 id="phaser">Phaser</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Modulation/Phaser.png" alt="Phaser">
+<div class="image-caption">Phaser</div>
+
+<h4 id="sweep-filter">Sweep Filter</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Modulation/SweepFilter.png" alt="SweepFilter">
+<div class="image-caption">SweepFilter</div>
+
+<p>Another weak filter. Ugh.</p>
+
+<h4 id="tremolo">Tremolo</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Modulation/Tremolo.png" alt="Tremolo">
+<div class="image-caption">Tremolo</div>
+
+<h3 id="utilities">Utilities</h3>
+
+<h4 id="gain">Gain</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Utilities/Gain.png" alt="Gain">
+<div class="image-caption">Gain</div>
+
+<p><a href="/music/2017/11/01/Gainstaging-for-the-modern-musician.html">Gain Staging matters!</a>! Gain is what you need to make sure the gain from processor to processor is appropriate.</p>
+
+<p>I love that they include these utility plugins. For advanced users they are arguably more exciting than the fancier looking bits. Some other products leave these out, and it can drive a working musician/engineer crazy.</p>
+
+<h4 id="ms-decoder">MS Decoder</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Utilities/MSDecoder.png" alt="MSDecoder">
+<div class="image-caption">MSDecoder</div>
+
+<h4 id="ms-encoder">MS Encoder</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Utilities/MSEncoder.png" alt="MSEncoder">
+<div class="image-caption">MSEncoder</div>
+
+<p>When working with stereo effects it’s often desirable to only affect the phantom center image, or only the side images.</p>
+
+<p>The combination of the MS Encoder and <a href="#ms-decoder">MS Decoder</a> allows you to do this. MS Encoder puts the mid signal on the left, and the side signal on the right. All further processing affects M/S where L/R would be processed. If you want to get back to a normal stereo signal, then you put the <a href="#ms-decoder">MS Decoder</a> in place to do that job.</p>
+
+<h4 id="mute">Mute</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Utilities/Mute.png" alt="Mute">
+<div class="image-caption">Mute</div>
+
+<p>Thank goodness! If you are using Axiom live then you will appreciate this. You can assign MIDI to Mute so that you can tune in silence or browse banks.</p>
+
+<p>It seems like a silly plugin, but for a performing musician it’s awesome.</p>
+
+<h4 id="pan">Pan</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Utilities/Pan.png" alt="Pan">
+<div class="image-caption">Pan</div>
+
+<h4 id="stereostrip">StereoStrip</h4>
+
+<img src="/assets/BlueCat/Axiom/Effects/Utilities/StereoStrip.png" alt="StereoStrip">
+<div class="image-caption">StereoStrip</div>
+
+<p>Stereo strip does the normal spread/level/pan type things, but it also has crosstalk. The crosstalk parameter lets you feed a bit of your Left channel to the right and vice versa. A great use for this is when you have an extreme ping pong delay that you don’t want so wide. You can feed in some crosstalk to narrow it back down a bit without affecting the total width.</p>
+
+<h1 id="presets-1">Presets</h1>
+
+<img src="/assets/BlueCat/Axiom/AxiomPresets.png" alt="Presets">
+<div class="image-caption">Presets</div>
+
+<p>Axiom comes with a ton of presets. Each section has presets. Each <a href="#destructor">Destructor</a> has presets. Each <a href="#late-replies">Late Replies</a> has presets. Each <a href="#builtin-effects">Builtin Effect</a> has presets.</p>
+
+<p>The included factory presets do a great injustice to Axiom. The have the same issue as <a href="#destructor-presets">the Destructor presets</a>, where the presets all sound too forward.</p>
+
+<p>The second layer of problem is that there’s only guitar presets. If you haven’t figured it out by now: Axiom is a multi-effects monster. There’s not a single preset that demonstrates this. I suspect that many people will totally gloss over Axiom because they don’t play guitar, and they will be missing out on an amazing product. Even if they buy the product they’ll be presented with no presets tailored to their non-guitar production tasks.</p>
+
+<p><a href="https://www.bluecataudio.com/Presets/Download/">Blue Cat does a great job of posting presets</a> for their plugins. I hope that they address the lack of non-guitar presets in future releases though.</p>
+
+<h1 id="sounds">Sounds</h1>
+
+<p>A plugin review wouldn’t be complete without some sound examples.</p>
+
+<p>The sound examples I’m providing are all 24-bit, 44.1khz in my <a href="/programming/2017/01/30/Comparator.html">Comparator browser app</a>.</p>
+
+<p>Since this requires a lot of data preloading, I’m putting it on a second page. That way you can choose to load this at your leisure.</p>
+
+<p><strong>This page loads 187mb of audio!</strong> If you are on a limited data plan, please be careful.</p>
+
+<p><a href="/music/2018/04/15/Axiom-Sound-Samples.html">Click here for sound examples</a></p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>So what do I think about all of this? Let’s start with some criticisms:</p>
+
+<ul>
+  <li>The presets suck IMO</li>
+  <li><del>Moving effects requires multiple clicks with a copy/paste method. I don’t see any way to drag things around.</del> Axiom 1.1 fixes this, you can now drag and drop!</li>
+  <li>There’s no clear references to known gear.</li>
+  <li>You often end up with dozens of windows littering your screen.</li>
+  <li>MIDI Mapping inside effects can be confusing at times
+    <ul>
+      <li>Keeping track of internal effect MIDI mapping can be very difficult at times.</li>
+    </ul>
+  </li>
+  <li><del>The post-filter section of Destructor requires a lot of experience and tuning.</del> (<strong>UPDATE</strong>: <a href="/music/2018/10/24/Blue-Cat-Axiom-Destructor-Update.html">This has been improved greatly!</a>)</li>
+  <li>For a complete guitar solution, you will want to rely on a variety of 3rd party FX.</li>
+  <li>Destructor knobs look awful at 200%.</li>
+  <li><del>No randomization features?</del> From the developer: “Global randomization at the Axiom level is tricky given the amount of variables, especially when taking into account external plug-ins, so we are not there yet (if it ever makes sense).”.</li>
+  <li>Destructor can’t be replaced without sacrificing pre/post slots.</li>
+  <li><del>It hosts instruments, and I have no clue why. If they were inserted before the input stage, it’d make sense, but they are not.</del> Instrument hosting makes sense for standalone mode, such as using a drum machine or similar.</li>
+  <li>In macOS, plugin windows are always on top no matter what? The settings checkbox does nothing. The plugin windows stay on top of <em>all</em> windows on the system.</li>
+  <li>That <strong>AWFUL</strong> www.bluecataudio.com link at the bottom of the GUI. While doing this review I must have accidentally clicked it 50 times. It’s on Destructor and Late Replies too, and I often click it there. Guys at Blue Cat, I know what your website is… I’m using your software. Please disable the link, even if you leave the text.</li>
+</ul>
+
+<p>And some notable positive things</p>
+
+<ul>
+  <li>Complete undo system in case your DAW doesn’t have it.</li>
+  <li>VST/VST3/AU hosting. This is really awesome.</li>
+  <li>Spread control is convenient and useful.</li>
+  <li>Destructor sounds awesome most of the time.
+    <ul>
+      <li>And it can be used solo without issues.</li>
+    </ul>
+  </li>
+  <li>Late Replies is maybe the best delay plugin out there.
+    <ul>
+      <li>And it can be used alone without much effort.</li>
+    </ul>
+  </li>
+  <li><em>Amazing value</em></li>
+  <li>Excellent selection of effects.</li>
+  <li>Channel strip/Effects Chain solution</li>
+  <li>Pleasant GUI</li>
+  <li>Quick Support</li>
+  <li>Tons of presets (even if I don’t like them… there’s plenty)</li>
+  <li>Dual channel support is implemented seamlessly.</li>
+  <li>MIDI mapping support is excellent despite some omissions.</li>
+</ul>
+
+<p>Overall I think this is a <em>must have</em> plugin for anyone. Guitarists and non-Guitarists alike.</p>
+
+<p>For guitarists/bassists that enjoy experimenting, there’s nothing comparable that’s targeted to you. If you’re a guitarist that knows <em>exactly</em> what amp setup you want, then you may want to look in to other products, since Axiom won’t make that easy for you.</p>
+
+<p>The capability to create effects chains and multi-effects setups that can be easily recalled makes Axiom a potential workflow boost.</p>
+
+<p>Just go and scroll back. Look how much you get, look at what you can do. Even if you totally ignore the built-in effects, it’s still a plugin that I’m sure almost anyone can find value in.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 19 hours to research, screenshot, record, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+:ET

@@ -1,0 +1,187 @@
+I"Q4<img src="/assets/FLStudio/FLLive.png" alt="FL Studio... Live">
+<div class="image-caption">FL Studio... Live</div>
+
+<p>Fans of <a href="https://ableton.com">Ableton Live</a> or <a href="/tags/#Bitwig">Bitwig</a> are going to like this one, as well as anyone that does live performance.</p>
+
+<p>I’ll be covering FLStudio’s “Performance Mode”, which is similar to Live/Bitwig’s <a href="https://www.ableton.com/en/manual/session-view/">session mode</a>, and I’ll be discussing the Video FX in FL.</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html"> Part 1: Introduction to FL</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/30/30-days-with-FLStudio-20-Piano-Roll-Tools.html"> Part 5: Piano Roll Tools</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html"> Part 7: Modulation</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html"> Part 9: Workflow</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/24/30-days-of-FLStudio-20-conclusion.html"> Part 12: Conclusion</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#performance-mode" id="markdown-toc-performance-mode">Performance Mode</a>    <ul>
+      <li><a href="#what-is-performance-mode" id="markdown-toc-what-is-performance-mode">What is Performance Mode</a></li>
+      <li><a href="#how-is-performance-mode" id="markdown-toc-how-is-performance-mode">How is Performance Mode?</a></li>
+    </ul>
+  </li>
+  <li><a href="#vfx" id="markdown-toc-vfx">VFX</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="performance-mode">Performance Mode</h1>
+
+<h2 id="what-is-performance-mode">What is Performance Mode</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/Performance.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Performance Mode (mini demo)</div>
+
+<p>In programs like Ableton Live you have what’s called “Session Mode”. You are given a grid instead of multiple rows of tracks. In Session MOde a <em>column</em> represents a track, and a row represents a “Scene”. Each cell contains an audio or MIDI clip. You can play these cells on their own or you can trigger a whole row (scene) to play multiple clips together.</p>
+
+<p>FLStudio rotates this by 90°. Your tracks are still horizontal, but your columns are your “scenes” so to say. You still get cells with clips to trigger.</p>
+
+<p>FL also treats scenes a bit differently. What a “scene” is slightly different. A scene is the first clip in the area that defines that scene. That is usually defined by time markers. If you have multiple clips between markers then everything after the first clip is a ‘sub-clip’, and subsequent presses of that track/scene will cycle to the next ‘sub-clip’ in the scene.</p>
+
+<p>There’s multiple ways to control what happens when a clip finishes. It can be one-shot, loop, march modes (goes to the next column on that track) or randomized.</p>
+
+<p><em>When</em> clips are triggered is configurable, so you can set up the trigger sync to quantize your triggering to the next bar, beat divisions, clip length, or a neat ‘tolerant’ mode. Tolerant mode lets you miss triggering a clip on time and will trigger it anyway in sync rather than waiting for the next quantized time.</p>
+
+<p>If you are used to Live or Bitwig there’s some things that you may find particularly interesting:</p>
+
+<ul>
+  <li>Each cell can have multiple clips (sub-clips), and you can cycle through these.</li>
+  <li>There’s more “time freedom”, so you can visually setup your clips in a manner that makes the most sense to you. Since your tracks are defined horizontally, and scene starts can be flexibly positioned, you can do some neat things with organization.</li>
+  <li>You can group clips to make them play together, even across scenes.</li>
+  <li>There is a default computer-keyboard launching method. This gives you 5 scenes and 8 tracks of easy clip launching without messing with a controller.</li>
+  <li>FL’s routing flexibility still applies. Since a playlist track <em>does not determine routing</em> you can have multiple clips on a single playlist track that go to separate mixer tracks. <a href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html#signal-flow">Read more about this here</a>
+    <ul>
+      <li><strong>REALLY</strong> this is a big deal. It greatly improves the flexibility of what you can do. This means you can have different clips/synths/effects on a single trigger scene that are sent to different mixer tracks. You could have all of your basses on a single playlist track, but each clip going to a different mixer track to help you seamlessly blend them and add clip-specific FX to them to add flair to your performance.</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="how-is-performance-mode">How is Performance Mode?</h2>
+
+<p>It’s great.</p>
+
+<p>I toured playing drums and percussion with a band, and using an <a href="http://www.akaipro.com/products/pad-controllers/apc-40">APC 40</a> with Ableton Live I triggered clips and handled lighting. I have spent 100s of hours with Live and a pad controller on stage.</p>
+
+<p>Let me tell you right now: I wish I had FLStudio back then. The flexibility of routing is a joy. The sub-clips (clips that trigger on next press of the cell) functionality is useful.</p>
+
+<p>The main downsides are:</p>
+
+<ul>
+  <li>The limited number of tracks/scenes. You just get 12x10 by default via MIDI, and setting up more is a hacky experience unless you have a supported controller. I was unable to find any ‘banks’ or ways to move around a grid larger than 16x16 unless using a specific controller, and this appears to be hit-or-miss.
+    <ul>
+      <li>The upside here is that some controllers have fantastic mapping. <a href="https://forum.image-line.com/viewtopic.php?t=87521">check out the launchpad mapping</a>, it’s really fantastic. Faders, XY control, multiple plugin controllers, tempo control, project commands and more. Unfortunately not everything has this, and setting this up yourself… well, good luck.</li>
+    </ul>
+  </li>
+  <li>Launch settings are per track, not per clip. If you want clips to have different launch modes or their ‘play next’ type behaviour to change, too bad. It’s per playlist track.</li>
+  <li>No <a href="https://www.ableton.com/en/manual/launching-clips/#13-6-follow-actions">follow actions</a>, which are a powerful part of a well-designed live set.</li>
+  <li><code class="highlighter-rouge">Tools-&gt;Macros-&gt;Prepare for performance mode</code> is not undoable. If you want to try something out or test some ideas, it’s not <em>nearly</em> as simple as Live or Bitwig for clip launching. However, if you <em>start</em> your project in a ‘performance mode’ setup then this is no longer an issue. It requires some forethought.</li>
+  <li>FLStudio needs to be playing for performance mode to work. This can cause some issues with <a href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html">any modulation you have</a> or automation you want to keep on a per-clip basis.</li>
+</ul>
+
+<p>The counterpoint to that last point is that automation clips are clips. You can trigger automation like it’s any other clip, so you can create effects breaks or transitions or turn on/off effects or anything you can think of! It’s surprising how awesome this can be.</p>
+
+<p>The clip grouping feature is fantastic too. No matter where two clips are on a track or scene, you can group them together and they will play when any of them is triggered. This lets you create more thematic elements in your performance that can be reused elsewhere.</p>
+
+<h1 id="vfx">VFX</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/FLStudio/ZGame.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">ZGameEditor Visualizer</div>
+
+<p>Live Video Generation brought to you courtesy of the <a href="http://www.zgameeditor.org">ZGameEditor</a>.</p>
+
+<p>You can do some amazing stuff with ZGameEditor, and subsequently import that in to FLStudio to use in the ZGE Visualizer. Obviously I don’t have much use for this, but having experimented with it I’m quite impressed with its existence.</p>
+
+<p>ZGameEditor Visualizer allows you to create video output that interacts with your project. Most of the controls are automatable (and thusly can be modulated). By utilizing things like <a href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html#envelope-controller">envelope controller</a> you could <em>easily</em> create a video that reacts to notes, velocity, peaks etc…</p>
+
+<p>There’s up to 70 cue points available that can be triggered via MIDI externally or from inside your project (which means it works with <a href="#what-is-performance-mode">performance mode</a> too)</p>
+
+<p>You can add up to 50 layers, all of which have a wide variety of presets (with automatable/modulatable controls!) that output video in some specific manner. ZGE also happily interfaces with <a href="https://en.wikipedia.org/wiki/DMX512">DMX</a> based hardware, which makes outputting or receiving data for an existing lighting setup easy.</p>
+
+<p>You can add text to your videos, which can be done via HTML to give you more control over formatting.</p>
+
+<p>Of course, if you don’t like what’s already available for you in FL, you can go and create your own things in <a href="http://www.zgameeditor.org">ZGameEditor</a>, and do some really complex stuff, afterall it’s basically a game engine.</p>
+
+<p>This isn’t just for live performances either! You’ve probably seen those music videos on Youtube with video moving to the music, just a simple ball or some visualization. ZGEV can export your video and project together to create your Youtube video. Work with some <a href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html">modulation</a>, some automation and layer things as you need to create a high quality video for your project.</p>
+
+<p>Even if you don’t use FLStudio for music creation at all, ZGameEditor Visualizer can be a powerful tool for creating algorithmic and responsive video for your music.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>If you’re a live musician, then you <em>really</em> should investigate FLStudio. If you just enjoy tinkering with things, then it’s even more fun.</p>
+
+<p>While FLStudio doesn’t have something like <a href="https://www.ableton.com/en/live/max-for-live/">max for live</a>, there’s a good deal of functionality here, especially combined with the controller linking.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 6 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

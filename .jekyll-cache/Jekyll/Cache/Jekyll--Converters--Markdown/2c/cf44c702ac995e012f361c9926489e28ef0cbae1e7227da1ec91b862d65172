@@ -1,0 +1,18 @@
+I"�<p>So I found out that you can download old versions of Studio One quite easily in your user account by clicking the “View Previous Versions” button right below the “Download Installer” button.</p>
+
+<p>So now I’m going to run 3.2.0 unless I find out there’s a solution to the bug I was dealing with. The bug I was dealing with is as follows:</p>
+
+<!--more-->
+
+<ol>
+  <li>Start a new project</li>
+  <li>Song Setup dialog</li>
+  <li>Audio I/O Setup tab</li>
+  <li>Double click to edit the name of an input (do not hit enter!)</li>
+  <li>Press the tab key. Arrow keys or page up/down</li>
+</ol>
+
+<p>For me this instantly crashes Studio One. It is an annoying bug because I like to name my inserts per project. I may simply go back to 3.2.1 and setup a template where I name stuff with the mouse (<em>gross!</em>), but we’ll see.</p>
+
+<p>I’ll keep the blog up to date with my experiences with Studio One as my month progresses.</p>
+:ET

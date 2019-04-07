@@ -1,0 +1,7 @@
+I"H<p>Recently I wanted to setup a program called ctags with <a href="https://en.wikipedia.org/wiki/Cascading_Style_Sheets">css</a> and <a href="https://sass-lang.com">SASS/scss</a></p>
+
+<p>This was incredibly frustrating, but with the help of <a href="https://framagit.org/gagbo/vim-setup">gagbo</a> on <a href="http://vim.wikia.com/wiki/Vim_on_Freenode">#vim</a> I was able to solve the issue.</p>
+
+<p>This is a mid-week post just to help people that have this issue and are googling for it. You will see that this has bearing on the post that will come out this weekend as well.</p>
+
+:ET

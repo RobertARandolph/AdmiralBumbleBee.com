@@ -1,0 +1,30 @@
+I"�<p>So a quick update on the Ardour adventure. I’ve become rather distracted and done absolutely zero music tasks. Why?</p>
+
+<ul>
+  <li>
+    <p>In OS X, many windows are <em>always on top of everything</em>. So I’ve been investigating this and discussing with the lead developer.</p>
+  </li>
+  <li>
+    <p>Figuring out why the preferences pane sometimes doesn’t draw at all… and only finding how to reproduce it, not how to fix it.</p>
+  </li>
+  <li>
+    <p>Trying to figure out why various windows don’t correctly place themselves with dual monitors.</p>
+  </li>
+  <li>
+    <p>Writing some lua-scripts to replace functionality that I’m used to in DP (or liked in Cubase).</p>
+
+    <p>Subsequently, I’ve ended up testing some new additions to the lua-api over the last few days.</p>
+  </li>
+  <li>
+    <p>Performance on my machine is unusually poor with more than 1 processor selected. I’ve spent a good deal of time trying to figure that out.</p>
+  </li>
+  <li>
+    <p>Learning to build/package the OS X version, which I have working nicely now.</p>
+  </li>
+  <li>
+    <p>Figuring out why some tooltips show shortcuts, and some don’t.</p>
+  </li>
+</ul>
+
+<p>Now you may think that this will reflect poorly on my ‘ratings’, but I’ve actually had quite a lot of fun. For a “normal” user that just wants things to work, Ardour would have been somewhat unpleasant so far. For me… it’s fun.</p>
+:ET

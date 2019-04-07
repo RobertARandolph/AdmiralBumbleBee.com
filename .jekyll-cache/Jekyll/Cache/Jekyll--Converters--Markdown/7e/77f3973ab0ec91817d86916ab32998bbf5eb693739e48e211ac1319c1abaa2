@@ -1,0 +1,108 @@
+I"<p><img src="/assets/Ardour/InlineVisualizers.gif" alt="Inline Visualization in Ardour" /></p>
+
+<p>So let’s quickly cover some relatively unique and cool features in Ardour 5.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#inline-plugins" id="markdown-toc-inline-plugins">Inline plugins</a></li>
+  <li><a href="#audio-connections-window" id="markdown-toc-audio-connections-window">Audio Connections Window</a></li>
+  <li><a href="#excellent-mouse-based-editing-tools" id="markdown-toc-excellent-mouse-based-editing-tools">Excellent mouse-based editing tools</a></li>
+  <li><a href="#group-creation" id="markdown-toc-group-creation">Group creation</a></li>
+  <li><a href="#scripting" id="markdown-toc-scripting">Scripting</a></li>
+  <li><a href="#zoom-focus-option" id="markdown-toc-zoom-focus-option">Zoom focus option(!)</a></li>
+  <li><a href="#balancepan-control-is-fantastic" id="markdown-toc-balancepan-control-is-fantastic">Balance/Pan control is fantastic.</a></li>
+  <li><a href="#metering-options" id="markdown-toc-metering-options">Metering options</a></li>
+  <li><a href="#great-routing-tofrom-plug-ins" id="markdown-toc-great-routing-tofrom-plug-ins">Great routing to/from plug-ins</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="inline-plugins">Inline plugins</h1>
+
+<p><img src="/assets/Ardour/InlineVisualizers.gif" alt="Inline Visualization in Ardour" /></p>
+
+<p>It’s now possible for developers to display a GUI inline in the mixer in Ardour. Currently there’s some included plugins that take advantage of this. Two of my favorites are the ‘a-Iline Scope’ and ‘a-Inline Spectrogram’. Depending on the circumstance, they can make for much quicker recognition of what sonic elements exist on the track than looking at the label or amplitude meters. Very cool feature.</p>
+
+<h1 id="audio-connections-window">Audio Connections Window</h1>
+
+<p><img src="/assets/Ardour/ACMwindow.gif" alt="Audio Connections Window" /></p>
+
+<p>Ardour allows users to do ‘traditional input assignment’ in the mixer or edit window (using the edit mixer), or you can take advantage of the very useful Audio Connections Window.</p>
+
+<p>You can easily assign tracks to tracks, hardware to tracks, various internal busses to hardware or tracks etc… It also has a handy line-drawing featurethat makes assigning sequential inputs very easy.</p>
+
+<p>Ardour isn’t the only DAW with this type of feature, but it is an extremely useful feature to have. Every DAW should have it!</p>
+
+<h1 id="excellent-mouse-based-editing-tools">Excellent mouse-based editing tools</h1>
+
+<p><img src="/assets/Ardour/MouseEditing.gif" alt="Mouse Editing in Ardour" /></p>
+
+<p>If you read my blog, you know how much I hate interfaces that use mouse-based control. It is a necessary evil, and as such it is very important to get this aspect of the GUI design correct.</p>
+
+<p>Ardour’s smart-tool behaviour is awesome. The cursor changes are large and very clear. The hot-spots are large and easy to hit.</p>
+
+<p>It’s sad that this is something worth considering as a ‘unique and cool feature’. Regardless, Ardour gets this very right, and that is very important.</p>
+
+<h1 id="group-creation">Group creation</h1>
+
+<p><img src="/assets/Ardour/GroupCreation.gif" alt="Ardour group creation" /></p>
+
+<p>Creating groups in Ardour is both cool and well-implemented. In the edit window you can just click-drag the strip to the left and you’re set. You can easily turn groups on and off there by clicking as well. You can also create a group from record-enabled tracks, selected tracks and soloed tracks.</p>
+
+<p>The downside is that it does not appear that you can have overlapping groups, and the options for group-control are fairly limited.</p>
+
+<h1 id="scripting">Scripting</h1>
+
+<p><img src="/assets/Ardour/Scripting.png" alt="Ardour scripting" /></p>
+
+<p>Ardour 5 has a well-implemented scripting interface that uses Lua. New bindings are getting added rather frequently, and what exists is pretty impressive already. The documentation is <em>currently</em> lacking, but I found it very easy to hop in and write some useful scripts that filled some functionality gaps for me.</p>
+
+<h1 id="zoom-focus-option">Zoom focus option(!)</h1>
+
+<p><img src="/assets/Ardour/ZoomFocus.png" alt="Zoom focus, thank goodness!" /></p>
+
+<p>Man. I can’t tell you how frustrating it is when switching between DAWs that handle zoom focus differently. Almost none of them always ‘do it right’. Sometimes you want the zoom to center on your mouse, sometimes on the playhead, sometimes on the left, etc…</p>
+
+<p>Ardour does this right, and despite other shortcomings Ardour has (which I will visit in another post), this is a feature that in my world makes it a top contender for doing fast and efficient work.</p>
+
+<h1 id="balancepan-control-is-fantastic">Balance/Pan control is fantastic.</h1>
+
+<p><img src="/assets/Ardour/PanBalance.gif" alt="Ardour's Awesome pan control" /></p>
+
+<p>Ardour’s control for pan and balance is fantastic. Just watch the GIF. This is how it should be done in every DAW. Pay attention folks!</p>
+
+<h1 id="metering-options">Metering options</h1>
+
+<p><img src="/assets/Ardour/MeteringOptions.png" alt="Meters are great in Ardour" /></p>
+
+<p>Ardour has a vast array of useful metering options. They can be assigned <em>per track</em>, to selected tracks and moved around easily. Metering is important!! Ardour gets this one very right again.</p>
+
+<h1 id="great-routing-tofrom-plug-ins">Great routing to/from plug-ins</h1>
+
+<p><img src="/assets/Ardour/Pinout.png" alt="Pinouts" /></p>
+
+<p>Routing things to/from plug-ins is very well done and easy. Getting midi or a sidechain to a plug-in is simple. Handling multiple outputs is simple. Plugins that output midi and audio are dealt with cleanly.</p>
+
+<p>Perfect.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>These aren’t all of the cool features in Ardour, just a selection of things that I’m <em>particularly</em> impressed with. Ardour has a lot of cool stuff going for it these days!</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

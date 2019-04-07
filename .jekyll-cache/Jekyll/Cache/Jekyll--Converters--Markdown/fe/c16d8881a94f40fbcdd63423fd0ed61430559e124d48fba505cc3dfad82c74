@@ -1,0 +1,165 @@
+I"�0  <img src="/assets/Bitwig/Logo.png" alt="bitwig!">
+  <div class="image-caption">Time is up!</div>
+
+<p>July 4th was my last day of of using Bitwig via the ‘30 days’ monicker.</p>
+
+<p>I’ve made my decision on whether I’m going to continue with it or fall back to <a href="http://www.renoise.com">Renoise</a>.</p>
+
+<p>Let’s see what I’ve decided and why…</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/07/Bitwig-first-impressions.html">Bitwig first impressions</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html">Bitwig feature review - Note Expression</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/23/Bitwig-Modulators.html">Bitwig Modulators - The coolest part of Bitwig</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/27/Bitwig-Effects-review.html">Bitwig Effects review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/29/Bitwig-Instruments-Review.html">Bitwig Instruments, Note Effects and Instrument Containers Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/07/02/Things-that-Bitwig-could-improve.html">Things that Bitwig could improve.</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/08/03/Bitwig-Review,-but-better.html">Bitwig Review, but better!</a></li>
+    
+
+</ul>
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#choice---uninstall" id="markdown-toc-choice---uninstall">Choice - Uninstall</a></li>
+  <li><a href="#reason" id="markdown-toc-reason">Reason</a>    <ul>
+      <li><a href="#editing" id="markdown-toc-editing">Editing</a></li>
+      <li><a href="#browser" id="markdown-toc-browser">Browser</a></li>
+      <li><a href="#responsiveness" id="markdown-toc-responsiveness">Responsiveness</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="choice---uninstall">Choice - Uninstall</h1>
+
+<p><del><strong>No, I will not be continuing to use Bitwig.</strong></del></p>
+
+<p><a href="/music/2018/08/18/Bitwig-24-the-early-edition.html#conclusion">That has changed</a></p>
+
+<h1 id="reason">Reason</h1>
+
+<p>There is no doubt that Bitwig is a fantastic product for a lot of people. However, I’m personally let down <em>largely</em> by the poor note editing, slow browser and overall responsiveness.</p>
+
+<p>To me these are the 3 core areas of productivity and Bitwig has yet to refine them in any meaningful way.</p>
+
+<h2 id="editing">Editing</h2>
+
+  <img src="/assets/Bitwig/MidiStuff.png" alt="Midi Stuff">
+  <div class="image-caption">Things you can do not in Bitwig</div>
+
+<p>Bitwig’s primary method of working is to present it with some data, then manipulation of the data in Realtime. The <a href="/music/2017/06/23/Bitwig-Modulators.html">Modulators</a> and <a href="/music/2017/06/29/Bitwig-Instruments-Review.html#note-effects">Note Effects</a> are clear evidence of this. The lack of destructive editing tools, like in the above pictured dialog, bear damning evidence to this.</p>
+
+<p>Even Bitwig’s basic note input is flawed in fundamental ways. Setting note-lengths is a pain, multi-track editing is difficult to use, there’s no actual drum editor, no notation, no quick way to investigate note values on a macro scale (event list), step entry, destructive note effects application, view filters, manual phase stretching, etc…</p>
+
+<p>It’s about as <em>basic</em> as you can get. You can enter notes manually, or record them. The notes can be copy/paste/duplicated, lengthened and moved. That’s it.</p>
+
+<p>Even trying to do automation in Bitwig is more work than elsewhere. For most workflows outside of Bitwig automation corresponds directly to the sounds occurring, and the occurring sounds are mostly correlated to the notes played. There is no recognition of this linkage in Bitwig. Automation/CC seems like an afterthought, it’s just a way to draw in movement. The design is an extension of the ‘manipulate data’ paradigm in Bitwig, rather than as an integral part of the note data itself.</p>
+
+  <img src="/assets/Bitwig/Graph.png" alt="Note Inspector">
+  <div class="image-caption">Humanize? Randomize?</div>
+
+<p>Yes there is the note-inspector, but it’s largely a gimmick and a bit of a workflow killer to constantly interact with it. Having to dart your eyes and mouse around to interact with the inspector is not good.</p>
+
+<p>The graph display for humanizing multiple selected notes is clever. It’s limited, it’s hidden, but it’s clever. It also doesn’t work very well if you’re trying to do any sort of intelligent humanization or randomization.</p>
+
+<p>Want to just shift randomize note-starts a few ticks biased in the same direction? That’s a bit of a chore actually, even if it’s a very basic method of adding some feel to a performance.</p>
+
+<p>Add some chaos to vary? Great, but it gets ruined if you hit any limits when adjusting mean/spread. Vary the mean then add chaos? Want to undo the chaos? Nope, it undoes everything. I could go on actually. It’s a poorly-thought out gimmick that will ‘Wow!’ Live users and basically nobody else.</p>
+
+<h2 id="browser">Browser</h2>
+
+  <img src="/assets/Bitwig/Browser.png" alt="Browser">
+  <div class="image-caption">Disappointment</div>
+
+<p>Bitwig’s browser tries to do too much, and like much of the program, overlooks really basic things.</p>
+
+<p>Yes, <strong>it is better than Ableton Live’s browser</strong>. I don’t care. I don’t use Live anymore, and the browser was definitely one of those reasons.</p>
+
+<p><a href="/music/2017/07/02/Things-that-Bitwig-could-improve.html#browser">I covered a lot of this before</a>. Since then I’ve realized that I also quite dislike how <em>everything</em> is tried to be presented in a single window with some sort of category pre-selection. Rarely does Bitwig ever pull up the right category for what I want so I end up having to click around to find things. Searching is awful. The ‘Category’ panel is useless in any pane it appears. Smart Collections are dumb. The Preset browser is almost totally useless because it’s missing so much. The sample browser is ruined by the ultra-basic search code. The sample browser is tedious to setup and requires you use <em>only</em> your OS’s basic file dialog to find locations. The sample browser doesn’t handle missing drives elegantly. There is <em>no file browser</em> in the browser.</p>
+
+<p>If, at the very least, Bitwig’s browser had these basic features I would perhaps find it useful:</p>
+
+<ul>
+  <li>Fuzzy Search - searching for ‘verb’ should find ‘reverb’, but searching ‘vrb’ should too.</li>
+  <li>A <em>real</em> file browser - The side-browser has a file-dialog, but it’s cramped and doesn’t even have basic location favorites or search! In the pop-up browser, having to setup all your sample locations through a ‘file dialog’ is painful. Even after setting all that up, you’re still put in the place of browsing like a file browser because the search is so awful. Just give us a normal file browser with favorites <em>and good search</em>. Bitwig doesn’t need to scan the whole directory and categorize everything, just let me see what’s on my hard drive with a decent file browser!</li>
+  <li>Search history - There’s so many times where I search for something, then within a short time period I want to search for it again. There should be an easy way to pull up the last search/location, or have the last location be the default when the browser is pulled up for samples. (optionally via some modifier key)</li>
+  <li>User modification of device categorization - Yes you can setup favorites, but then I have to remember what was a favorite or not. I want my ‘Rob Papen’ and ‘RCPX’ manufacturer devices in the same folder. I don’t want to have to remember that they are in a favorite folder everytime. I also should be able to tag devices with my own categories. The categorization panel is basically useless otherwise.</li>
+  <li>Project search - Let me search for things already in the project.
+    <ul>
+      <li>To select - firstly allow project search to selection so I can select any given samples/notes/devices/whatever and do what I want with them. I need note-search to selection at minimum. Being able to quickly replace all X samples with Y sample via the browser would be great too.</li>
+      <li>To re-use - Often if I’m using an EQ in a project, there’s a very high chance that I’m going to use that same EQ again. Make this easy.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>There’s plenty more that could be done, but Bitwig’s browser system really needs work.</p>
+
+<h2 id="responsiveness">Responsiveness</h2>
+
+<p><del>No image here.</del></p>
+
+<p><del>Bitwig’s just feels slow and sluggish. The metering looks great, the project display scrolls nicely and the controls move great. Things like inserting devices, moving notes, <strong>switching views</strong>, opening favorites folders, alt-tabbing to Bitwig and other simple things are often choppy or sluggish. Sample indexing is also a very frustrating process when a file-browser would suffice.</del></p>
+
+<p><del>Bitwig nearly has it here, but the slowdowns and choppiness make the otherwise smooth GUI a jarring experience rather than a pleasant one.</del></p>
+
+<p><del>Maybe it’s my system, but no other DAW that I use has this issue. Particularly in contrast to the consistently fast and smooth experience in <a href="http://www.renoise.com">Renoise</a>.</del></p>
+
+<p><strong>EDIT August 18th, 2018</strong> This is improved. Responsiveness is quick for me now.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>There’s a number of features I never really got to experience or cover. The inline session view, the controller-api, the detail editor, studio I/O (which isn’t even worth covering since it’s so limited), the weird and ultimately useless menu-pinning system, project panel (which is great for collab!), etc… I just spent so much time being annoyed by the basic experience of <em>working with music</em>.</p>
+
+<p>Bitwig has a lot of neat stuff, but in my experience it’s just tacked on features to mask a core-deficiency.</p>
+
+<p>Go open Bitwig and try to make a track without modulators or note expression. If you’re used to any other DAW (except maybe Live), then it’s going to be painful. The basic experience of just <em>making music</em> in Bitwig is flawed. <strong>I have 30 year old hardware sequencers that have a <em>significantly</em> more complete system for working with midi-based music</strong>. It’s 2017 Bitwig, why could I do step entry back in 1985 but I can’t even <em>select the note length</em> in your software?!?!</p>
+
+<p>I have no doubt that there’s a <em>huge</em> population of people that find value in Bitwig for what it offers. The concept of re-forming a small set of data to create music isn’t new, and it is a valuable idea, but it’s not how I work. I want to write music, not sculpt sounds.</p>
+
+<p><del>Bitwig isn’t for me.</del></p>
+
+<p><a href="/music/2018/08/18/Bitwig-24-the-early-edition.html#conclusion">Well, it is kinda</a>. Check out that update to see what has, and hasn’t changed.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 2 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

@@ -1,0 +1,86 @@
+I"`  <img src="/assets/Reaper/AntiReaper.png" alt="Not Reaper">
+  <div class="image-caption">Yeah, Screw this, I think?</div>
+
+<p>This is the second to last post about my <a href="/studio/2017/03/26/Reaper-Cheat-Sheet.html">1 month of using Reaper</a>. As such, I’d like to cover some other things that annoy me about Reaper.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#the-price" id="markdown-toc-the-price">The Price</a></li>
+  <li><a href="#the-development" id="markdown-toc-the-development">The development</a></li>
+  <li><a href="#the-community" id="markdown-toc-the-community">The community</a></li>
+  <li><a href="#the-learning" id="markdown-toc-the-learning">The learning</a></li>
+  <li><a href="#the-configurability" id="markdown-toc-the-configurability">The configurability</a></li>
+  <li><a href="#the-midi" id="markdown-toc-the-midi">The midi</a></li>
+  <li><a href="#the-conclusion" id="markdown-toc-the-conclusion">The conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="the-price">The Price</h1>
+
+<p>Seriously. $60 for hobbyists and $200 for professionals? No time limit demo that allows you to demo the software as you need?</p>
+
+<p>This is clearly an affront towards the established and <em>respected</em> industry stalwarts. By undercutting programs like Cubase Pro or Digital Performer by up to 90%, they are disrespecting the entire industry.</p>
+
+<h1 id="the-development">The development</h1>
+
+<p>I’ve made a few bug reports and they were fixed within <em>days</em>.</p>
+
+<p>There’s no way that the dev team can keep this up like they have for the last 10+ years. Soon they’ll settle down and realize the long-held wisdom of Avid and co; by keeping users in the dark, you further their reliance on your brand and further cement the cognitive imprint of your products.</p>
+
+<p>With development schedules and developer responsiveness like Cockos, the community will crumble. Soon.</p>
+
+<p>They should learn a thing or two from a company like Motu. <a href="http://cdn-data.motu.com/site/docs/dp/v9/DP913readme.pdf">Trickling updates</a> that fix few, if any, reported bugs allows the userbase to bond and share workarounds.</p>
+
+<p>Plus, there’s new features added frequently. I hardly think that overwhelming users with new functionality is the right way to grow a userbase that’s intimately familiar with the long-standing shortcomings of the software.</p>
+
+<h1 id="the-community">The community</h1>
+
+<p>Enough said. Especially the people modifying the functionality of the software to meet their own needs, then sharing these abhorations with the userbase.</p>
+
+<p>When something doesn’t work the way you need, instead of just pressing on and plowing through workaround after workaround, the Reaper community gives you the opportunity to turn your DAW in to a non-standard goo that’s incomprehensible to the other zero people that sit in front of your computer and work.</p>
+
+<h1 id="the-learning">The learning</h1>
+
+<p>If you want to learn Reaper, then you’re basically forced to use the software or resort to <a href="http://www.reaper.fm/videos.php">the free video series</a> available directly on their website.</p>
+
+<p>Other companies allow you to choose how you want to spend your money and which 3rd party learning platform you wish to support. This just falls back to my criticism about the price… they are undercutting the very industry that they are built on.</p>
+
+<p>I much prefer the method of companies like <a href="http://www.magix-audio.com/us/samplitude/">Magix</a> that publish a manual that’s like a mystery novel. Only through cryptic and incomplete instruction like this will the user ever learn to figure things out for themselves and stop relying on <a href="http://www.kvraudio.com/forum/viewtopic.php?f=7&amp;t=482730">the support that basically doesn’t exist anyway</a>.</p>
+
+<h1 id="the-configurability">The configurability</h1>
+
+<p>Avid has it right with <a href="http://www.avid.com/pro-tools">Pro Tools</a>. When I walk in to another studio, I know exactly what all the shortcuts and shortcomings of the software are. There’s no guessing.</p>
+
+<p>With Reaper you’d basically be forced to <a href="/studio/2017/03/30/Things-that-I-really-like-about-Reaper.html#portable-install">have a complete portable installation on a flash drive</a>.</p>
+
+<p>What sane studio is <em>ever</em> going to let you insert any sort of flash drive on their system? Unless it’s to transfer a project, install required plug-ins or authorization systems.</p>
+
+<p>Plus, the average user is a moron anyway. You don’t <em>actually</em> know what you want your software to do. Only the company that makes it does, they did make it afterall… and you think YOU know better?</p>
+
+<h1 id="the-midi">The midi</h1>
+
+<p>I heard Reaper’s midi sucks.</p>
+
+<p>I’ve never used it, but I strongly doubt anyone would lie to me about something <em>that serious</em>.</p>
+
+<p>Reaper’s midi is awful, I’m sure. I’ll use it one day and then I’ll just have to say “I told you so!”</p>
+
+<h1 id="the-conclusion">The conclusion</h1>
+
+<p>I have a lot of extra time after working on a project in Reaper today. I’m certain that if I did it in DP, I’d still be enjoying the satisfying process of flying audio back and forth between softwares to address the idio… uh, limita… uh… brilliant design of a program that I’ve used for 1000s of hours.</p>
+
+<p>Reaper. Pfft.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>This post took 45 minutes to research, laugh, write and edit. If you appreciate <strong>this satire</strong> then please donate!</p>
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+:ET

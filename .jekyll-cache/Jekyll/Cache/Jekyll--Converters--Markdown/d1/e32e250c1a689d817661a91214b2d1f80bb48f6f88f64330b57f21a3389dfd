@@ -1,0 +1,14 @@
+I"�  <img src="/assets/Ardour/Lv2vst.png" alt="LV2VST x42 EQ">
+  <div class="image-caption">x42 Equalizer in Studio One 3</div>
+
+<p>There’s some awesome <a href="http://lv2plug.in">LV2 plugins</a> out there for Macs, like the <a href="http://x42-plugins.com/x42/">X42 plugins</a>. Not everyone uses an LV2 host on macOS, but many people do use VST hosts. Even though mac-compatible LV2s, especially with GUIs, are rare, it’s likely that increased user interest will generate increased developer support.</p>
+
+<p><em>If you end up using an LV2 and enjoy it, please contact the developer and let them know that you appreciate their work!</em></p>
+
+<p>So here’s a short tutorial on how to use <a href="https://github.com/x42/lv2vst">lv2vst</a> to wrap your LV2 plugins to VST!</p>
+
+<p>First will be a run-down for moderately experienced users/developers. Then I’m going to assume that you are on 10.11+ and have a bare-bones installation and know basically nothing.</p>
+
+<p>This is written in my typical style rather than in a documentation format. <em>This is not documentation</em>. This is a how-to. If you have any questions, please post them in the comments.</p>
+
+:ET

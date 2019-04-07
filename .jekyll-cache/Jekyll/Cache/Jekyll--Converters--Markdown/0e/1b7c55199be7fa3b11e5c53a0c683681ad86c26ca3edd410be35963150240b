@@ -1,0 +1,113 @@
+I"|  <img src="/assets/Mixbus/Good/Part2.png" alt="Part 2">
+  <div class="image-caption">More cool features</div>
+
+<p><a href="/music/2017/08/16/Cool-things-in-Mixbus-Part-1.html">In part 1</a> I covered some cool features in Mixbus 4. Here in part 2 I’m going to cover three more awesome features in mixbus.</p>
+
+<ul>
+  <li>Loudness Analysis</li>
+  <li>Export Features</li>
+  <li>Persistent Undo</li>
+</ul>
+
+<p>Don’t forget <a href="/music/2017/08/16/Cool-things-in-Mixbus-Part-1.html">Part 1</a>, <a href="/music/2017/09/01/Cool-things-in-Mixbus-Part-3.html">Part 3</a> and <a href="/music/2017/09/05/Cool-things-in-Mixbus-Part-4.html">Part 4</a>.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#loudness-analysis" id="markdown-toc-loudness-analysis">Loudness Analysis</a></li>
+  <li><a href="#export-features" id="markdown-toc-export-features">Export Features</a>    <ul>
+      <li><a href="#multi-selection-export" id="markdown-toc-multi-selection-export">Multi-selection export</a></li>
+      <li><a href="#multi-format-export" id="markdown-toc-multi-format-export">Multi-format export</a></li>
+      <li><a href="#stem-export" id="markdown-toc-stem-export">Stem export</a></li>
+      <li><a href="#export-presets" id="markdown-toc-export-presets">Export Presets</a></li>
+    </ul>
+  </li>
+  <li><a href="#persistent-undo" id="markdown-toc-persistent-undo">Persistent Undo</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="loudness-analysis">Loudness Analysis</h1>
+
+  <img src="/assets/Mixbus/Good/LoudnessAnalysis.png" alt="Loudness Analysis">
+  <div class="image-caption">Loudness Analysis of a few tracks</div>
+
+<p>Mixbus allows you to select any region and perform a loudness analysis on it. Loudness analysis can also be automatically performed and shown after export. So any of the <a href="#export-features">export features</a> can generate a loudness window for each rendered file! You can also proof the files by playing back in the loudness analysis window as well.</p>
+
+<p>The loudness analysis window shows:</p>
+
+<ul>
+  <li>Peak - actual sample peak value</li>
+  <li>True Peak - oversampled peak value (important for intersample overs)</li>
+  <li>Integrated Loudness - <a href="https://www.itu.int/dms_pubrec/itu-r/rec/bs/R-REC-BS.1770-4-201510-I!!PDF-E.pdf">ITU-R BS.1770</a> loudness. Also known as lufs or lkfs.</li>
+  <li>Loudness Range - The range between the lowest lufs value and the highest.</li>
+  <li>Spectrogram - a display that shows time on the X axis, frequency on the Y axis and frequency amplitude on as a colour.</li>
+</ul>
+
+<p>The loudness analysis function is extremely useful when working with dialog and film. Monitoring region loudness can be the difference between dozens of send backs or first-acceptance on a dialogue edit. In other DAWs you have to rely on plug-in meters and realtime playback. Mixbus makes this workflow a breeze.</p>
+
+<h1 id="export-features">Export Features</h1>
+
+<p>Mixbus has a whole host of amazing export features. Here’s <em>some</em> of the features:</p>
+
+<h2 id="multi-selection-export">Multi-selection export</h2>
+
+  <img src="/assets/Mixbus/Good/TimeSpan.png" alt="Selection export">
+  <div class="image-caption">Selection Export</div>
+
+<p>You can have multiple selections exported. Range markers, time selection, loop selection and session start/end are available. You can batch export sections along with your full mix <em>with ease</em>.</p>
+
+<p>Selections can be rendered in realtime or faster-than-realtime, or both. If you are using various external hardware, dsp cards or certain video-specific tasks than this is a great feature.</p>
+
+<p>Some of you reading this will find this to be a ‘make it or break it’ feature, and it’s here. It works great.</p>
+
+<h2 id="multi-format-export">Multi-format export</h2>
+
+  <img src="/assets/Mixbus/Good/MultiFormat.png" alt="Multiformat Export">
+  <div class="image-caption">Multi-format Export</div>
+
+<p>For each selection export, you can generate multiple formats with specified naming schemes. Revision tags are available as well.</p>
+
+<p>Each ‘format’ selection can be optionally normalized (peak or lufs), trimmed, pads added, dithered and have cue/toc files generated.</p>
+
+<p>A killer feature for more advanced users is the ability to run command-line programs on the exported file. Perhaps you think that <a href="https://www.ffmpeg.org">ffmpeg</a> does a better job of loudness normalization, then you can easily pass your render through ffmpeg as part of the render process. Another fine example is using something like <a href="http://help.mp3tag.de/index.html">mp3Tag</a> to handle mp3 tagging and metadata directly in your export, thusly giving you control that you simply do not have with other DAWs.</p>
+
+<h2 id="stem-export">Stem export</h2>
+
+  <img src="/assets/Mixbus/Good/StemExport.png" alt="Stems Export">
+  <div class="image-caption">Stems Export</div>
+
+<p>Stems are basically exports of tracks or groups of tracks so that they can easily be imported in to another DAW or processed easily.</p>
+
+<p>If you wish to send tracks to a user of another DAW, you can export all of your tracks individually <em>with or without processing</em> in one easy step.</p>
+
+<p>Of course, stem exporting also stats with <a href="multi-format-export">multi-format exports</a> and <a href="multi-selection-export">multi-selection exports</a>, so you can have multiple format exports of each specific section of a session for each track.</p>
+
+<h2 id="export-presets">Export Presets</h2>
+
+<p>Mixbus’s powerful export features may allow you to setup complex exports that can prove useful in the future. Exports can be saved as presets to be called up easily for another session.</p>
+
+<p><strong>Very powerful</strong></p>
+
+<h1 id="persistent-undo">Persistent Undo</h1>
+
+<p>This one doesn’t really have a cool image or graphic, but it’s still a lifesaver. When you re-open your project you retain your whole undo stack. This is a feature that many DAWs still lack, but it’s an integral feature of a professional workflow.</p>
+
+<p>No matter how many times you open and close your project, you can still keep your whole list of undoable actions.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 2 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

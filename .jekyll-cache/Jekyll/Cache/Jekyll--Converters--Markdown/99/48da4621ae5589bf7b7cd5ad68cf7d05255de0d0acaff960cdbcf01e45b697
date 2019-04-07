@@ -1,0 +1,8 @@
+I"F  <img src="/assets/Reaper/LevelRoute.gif" alt="Level-based routing">
+  <div class="image-caption">Routing based on the incoming level</div>
+
+<p>There may be times where you want to affect a signal based on its current level. Usually this requires some sort of ducking or gating on the effect itself, but using <a href="/music/2017/04/18/Reapers-Amazing,-but-Awful,-Almost-Anything-to-Anywhere-Routing.html">Reaper’s Routing</a> you can do some pretty cool things.</p>
+
+<p>So here, let me explain to you how to route a signal in Reaper depending on the level of that signal.</p>
+
+:ET

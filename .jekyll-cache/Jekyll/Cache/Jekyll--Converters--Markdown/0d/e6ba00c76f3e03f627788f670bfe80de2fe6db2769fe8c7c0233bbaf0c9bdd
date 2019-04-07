@@ -1,0 +1,8 @@
+I"f  <img src="/assets/Blog/SourceTree.png" alt="SCM">
+  <div class="image-caption">SCM management</div>
+
+<p>I’ve received some questions over time about how I blog. What platform I use, how I manage dependencies, how I achieve certain effects, how I update, how I handle images etc…</p>
+
+<p>I primarily use <a href="https://www.docker.com">Docker</a>, <a href="https://jekyllrb.com">Jekyll</a>, <a href="https://www.mercurial-scm.org">Mercurial</a> and <a href="https://code.visualstudio.com">Visual Studio Code</a>. Click through to see how I use these things together to create what you’re reading now.</p>
+
+:ET

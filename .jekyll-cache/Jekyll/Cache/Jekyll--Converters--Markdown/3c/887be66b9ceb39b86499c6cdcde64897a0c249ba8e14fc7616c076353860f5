@@ -1,0 +1,485 @@
+I"�  <img src="/assets/Bitwig/Tooltips.png" alt="Tooltips">
+  <div class="image-caption">Tooltip... not very useful</div>
+
+<p>Bitwig is a cool DAW no doubt, but there’s a number of things that could be greatly improved.</p>
+
+<p>Here’s a non-exhaustive list of things that I’ve found problematic in my time with Bitwig so far…</p>
+
+<p>(Using BITWIG STUDIO 2.1.1 as of the time of this writing)</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/07/Bitwig-first-impressions.html">Bitwig first impressions</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html">Bitwig feature review - Note Expression</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/23/Bitwig-Modulators.html">Bitwig Modulators - The coolest part of Bitwig</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/27/Bitwig-Effects-review.html">Bitwig Effects review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/29/Bitwig-Instruments-Review.html">Bitwig Instruments, Note Effects and Instrument Containers Review</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/07/10/Bitwig-Conclusion.html">Bitwig Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/08/03/Bitwig-Review,-but-better.html">Bitwig Review, but better!</a></li>
+    
+
+</ul>
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#missing-features" id="markdown-toc-missing-features">Missing Features</a>    <ul>
+      <li><a href="#automatic-multi-out-and-multi-in-routing" id="markdown-toc-automatic-multi-out-and-multi-in-routing">Automatic multi-out and multi-in routing</a></li>
+      <li><a href="#freeze" id="markdown-toc-freeze">Freeze</a></li>
+      <li><a href="#stereo-panner" id="markdown-toc-stereo-panner">Stereo Panner</a></li>
+      <li><a href="#vca" id="markdown-toc-vca">VCA</a>        <ul>
+          <li><a href="#vca-save-1-the-runaway-reverb" id="markdown-toc-vca-save-1-the-runaway-reverb">VCA save #1: the runaway reverb</a></li>
+          <li><a href="#vca-save-2-the-picky-mixer" id="markdown-toc-vca-save-2-the-picky-mixer">VCA save #2: the picky mixer</a></li>
+        </ul>
+      </li>
+      <li><a href="#tempo-map" id="markdown-toc-tempo-map">Tempo Map</a></li>
+      <li><a href="#comping--loop-recording" id="markdown-toc-comping--loop-recording">Comping &amp; Loop recording</a></li>
+    </ul>
+  </li>
+  <li><a href="#manual" id="markdown-toc-manual">Manual</a>    <ul>
+      <li><a href="#tooltips" id="markdown-toc-tooltips">Tooltips</a></li>
+      <li><a href="#realtime-help" id="markdown-toc-realtime-help">Realtime help</a></li>
+    </ul>
+  </li>
+  <li><a href="#browser" id="markdown-toc-browser">Browser</a>    <ul>
+      <li><a href="#doesnt-remember-sizeposition" id="markdown-toc-doesnt-remember-sizeposition">Doesn’t remember size/position</a></li>
+      <li><a href="#slow-loading-some-samples" id="markdown-toc-slow-loading-some-samples">Slow loading some samples</a></li>
+      <li><a href="#side-browser-no-modulators" id="markdown-toc-side-browser-no-modulators">Side browser no modulators</a></li>
+      <li><a href="#no-fuzzy-search" id="markdown-toc-no-fuzzy-search">No fuzzy search</a></li>
+      <li><a href="#no-project-search" id="markdown-toc-no-project-search">No project search</a></li>
+      <li><a href="#one-result" id="markdown-toc-one-result">One result?</a></li>
+      <li><a href="#loses-focus-easily" id="markdown-toc-loses-focus-easily">Loses focus easily</a></li>
+    </ul>
+  </li>
+  <li><a href="#note-editor--arranging" id="markdown-toc-note-editor--arranging">Note editor &amp; Arranging</a>    <ul>
+      <li><a href="#drum-editor-names-cant-be-resized" id="markdown-toc-drum-editor-names-cant-be-resized">Drum editor names can’t be resized</a></li>
+      <li><a href="#constant-tool-changing" id="markdown-toc-constant-tool-changing">Constant tool changing</a></li>
+      <li><a href="#note-length-is-tied-to-your-last-note" id="markdown-toc-note-length-is-tied-to-your-last-note">Note length is tied to your last note</a></li>
+      <li><a href="#note-scaling" id="markdown-toc-note-scaling">Note scaling</a></li>
+      <li><a href="#notes-are-labelled-only-as-sharps" id="markdown-toc-notes-are-labelled-only-as-sharps">Notes are labelled only as sharps</a></li>
+      <li><a href="#no-zoom-to-selection" id="markdown-toc-no-zoom-to-selection">No zoom to selection</a></li>
+      <li><a href="#no-zoom-undo" id="markdown-toc-no-zoom-undo">No zoom undo</a></li>
+      <li><a href="#layered-editing-could-improve-a-lot" id="markdown-toc-layered-editing-could-improve-a-lot">Layered editing could improve a lot</a></li>
+      <li><a href="#one-lane-at-a-time" id="markdown-toc-one-lane-at-a-time">One lane at a time</a></li>
+      <li><a href="#limited-to-no-midi-tools" id="markdown-toc-limited-to-no-midi-tools">Limited to no midi tools</a></li>
+      <li><a href="#lacking-useful-automation-tools" id="markdown-toc-lacking-useful-automation-tools">Lacking useful automation tools</a></li>
+    </ul>
+  </li>
+  <li><a href="#3rd-party-plug-ins-load-slow-first-time" id="markdown-toc-3rd-party-plug-ins-load-slow-first-time">3rd party plug-ins load slow first time</a></li>
+  <li><a href="#only-sharps-in-value-entry" id="markdown-toc-only-sharps-in-value-entry">Only sharps in value entry</a></li>
+  <li><a href="#device-panel-doesnt-auto-scroll" id="markdown-toc-device-panel-doesnt-auto-scroll">Device panel doesn’t auto scroll</a></li>
+  <li><a href="#more-fx-flavours" id="markdown-toc-more-fx-flavours">More FX flavours</a></li>
+  <li><a href="#container-sends" id="markdown-toc-container-sends">Container sends</a></li>
+  <li><a href="#better-io-management" id="markdown-toc-better-io-management">Better I/O management</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="missing-features">Missing Features</h1>
+
+<h2 id="automatic-multi-out-and-multi-in-routing">Automatic multi-out and multi-in routing</h2>
+
+  <img src="/assets/Bitwig/Bad/AutoRoute.png" alt="Auto Route">
+  <div class="image-caption">Automatic multi-out Routing</div>
+
+<strike>Currently if you place a multi-output VSTi on a track in Bitwig, there's no simple or automatic way to assign the outputs to their own individual (optionally grouped) tracks. You can create an FX layer with its outputs, then manually create the tracks and add [Audio Receivers](/music/2017/06/27/Bitwig-Effects-review.html#audio-receiver)(or set input and activate monitoring) to each new track and take input from the specific channels of that FX Layer.
+
+This is really a major oversight. Tedious!</strike>
+
+<ul>
+  <li><strong>edit</strong>: I was mostly wrong with the above statement. First right-click the device and select “Add missing chains”, then in the mixer there’s a “↓↓” next to the name of the track at the top. This opens up the tracks for each FX/Instrument Layer. So it <em>is</em> possible to have tracks routed so each Instrument output is visible in the mixer. The only issue is that if you want the outputs as tracks in the <em>arranger</em>, then you have to deal with the tedium of manual routing.</li>
+</ul>
+
+<p>Another issue is how difficult it is to route multiple tracks to a single Multi-Out device. It’s a common workflow to have a single Kontakt instance with many instruments loaded, feed that single Kontakt instance with multiple midi tracks assigned to the in-Kontakt instruments, and working happily. Bitwig doesn’t offer a way to set this up easily or save this setup without requiring a template.</p>
+
+<h2 id="freeze">Freeze</h2>
+
+<iframe src="https://www.youtube.com/embed/BjsZWUpXHRA?ecver=2" width="640" height="360" frameborder="0" allowfullscreen=""></iframe>
+
+<p>Freeze is a feature that allows you to render a track and disable but not delete the effects on that track. It’s a massively useful feature, especially when you can select the point in the chain that can be frozen and freeze sends.</p>
+
+<p>The video above shows <a href="http://www.reaper.fm">Reaper’s</a> excellent freezing facilities.</p>
+
+<h2 id="stereo-panner">Stereo Panner</h2>
+
+  <img src="/assets/Bitwig/Bad/StereoPan.png" alt="Stereo Pan">
+  <div class="image-caption">Various Panning methods</div>
+
+<p>Bitwig only offers a balance control unless you insert <a href="/music/2017/06/27/Bitwig-Effects-review.html#dual-pan">dual pan</a> in to your device chain.</p>
+
+<p>This can be an issue because the default ‘pan’ knob in Bitwig simple fades in/out the left and right channels of a stereo signal. Full pan left simply mutes your right signal, and full pan right simply mutes your left signal.</p>
+
+<p>Selectable stereo panners, similar to what’s shown above, would be a great addition. Having to dive in to your device chain for something as basic as proper panning is pretty silly.</p>
+
+<h2 id="vca">VCA</h2>
+
+  <img src="/assets/StudioEvaluatione/VCA.png" alt="VCA">
+  <div class="image-caption">VCA</div>
+
+<p>VCAs are important for mixing, especially in Bitwig where all of your sends are post-fader by default. Yes, bitwig does have groups, but they do not solve some fairly major issues that VCAs do solve.</p>
+
+<p>Maybe you haven’t run in to, or noticed, the issues that VCAs solve. They do solve some common issues though.</p>
+
+<h3 id="vca-save-1-the-runaway-reverb">VCA save #1: the runaway reverb</h3>
+
+<p>Let’s say that you have 3 tracks: Kick, Snare, Clave. That is your entire drum kit.</p>
+
+<p>Snare is going to a reverb send with -15db send. Lots of reverb on that snare, but the balance with the other 2 kit elements is perfect!</p>
+
+<p>You’ve reached a point in your track where you need to turn your drum kit down. It’s way too loud. The balance of the elements is perfect, but everything needs to come down. Here’s where you have trouble:</p>
+
+<ul>
+  <li>
+    <p>Create a group and lower the group - A group lowers the <em>combined</em> value of all tracks sent to it. However, since the snare is sending to the reverb at -15db that is unchanged. Your send track’s reverb is still at the <em>exact same value</em>. Your dry drum sound is pulled down by the group, but all routing that <em>happens before the group</em> is unchanged. You are now left with proportionally much more reverb on your snare because the group never changes that send amount!</p>
+  </li>
+  <li>
+    <p>Create a VCA and lower it - A VCA affects the fader of each channel. Since the value of the fader is changed, then the audio going out of the post-fader send is also changed! VCAs attached to your whole kit will maintain the same proportions for the routing.</p>
+
+    <p>VCAs also have the bonus that they don’t interfere with automation. The VCA is like a second fader on top of each track’s fader, so if you have automation on those tracks they stay intact. They are simply scaled by the VCA amount.</p>
+  </li>
+</ul>
+
+<h3 id="vca-save-2-the-picky-mixer">VCA save #2: the picky mixer</h3>
+
+<p>Imagine you have complex automation on your drum kit. Hand-crafted with love to make your percussion sound like <a href="https://en.wikipedia.org/wiki/Peter_Erskine">Peter Erskine</a> himself took up playing breaks just for you.</p>
+
+<p>Later you device that for the chorus all your drums need to come down slightly. What do you do? Add a group and automate that? We already know of problems that causes, but groups also encapsulate everything inside them. If you want to separately affect A and C and A and B… there’s no way to do that.</p>
+
+<p>VCAs let you setup automation (or just simple fader changes) that simply scale the existing faders that they are tied to. VCAs can be attached to multiple tracks without defining a hierarchy, so you can have a VCA that controls A + B and A + C and then A + B + C all totally separately. You can not do that with groups!</p>
+
+<p>VCAs can also control other VCAs. So maybe you have a lead vocal that needs to come up with your whole drum section, a VCA can do that without having to group your vocals and drums together. It won’t affect your automation, it won’t screw up your sends or routing.</p>
+
+<p>VCA systems also have a way of combining the VCA data with what it controls. You can write a subtle VCA fade out then combine that with the automation of the tracks that it’s controlling. Now your crazy automation slowly fades out (or becomes crazier).</p>
+
+<h2 id="tempo-map">Tempo Map</h2>
+
+  <img src="/assets/Bitwig/Bad/TempoMap.png" alt="Tempo Map">
+  <div class="image-caption">Tempo Mapping</div>
+
+<p>Tempo mapping is basically automating the tempo and time signature of your track. I use this frequently to help give tracks more expressive feels, or to have the project follow the performer rather than ruining the performance’s groove by warping it to a fixed tempo.</p>
+
+<p>Many DAWs allow you to even automatically create tempo maps from performances in great detail, or apply a tempo map to a performance to conform it to a current tempo map.</p>
+
+<p>Bitwig has nothing of the sort.</p>
+
+<h2 id="comping--loop-recording">Comping &amp; Loop recording</h2>
+
+<iframe src="https://www.youtube.com/embed/pO0iJi4cqtQ?ecver=2" width="480" height="360" frameborder="0" allowfullscreen=""></iframe>
+
+<p>Comping allows you to take multiple audio (or midi!) parts, select the best parts, and <em>quickly</em> insert them in to the main performance. Most comping systems attach comps to each clip, so that a single clip may have 100s of different performances that can be composited to make a single great performance.</p>
+
+<p>A companion to comping is the ability to loop a section and repeatedly perform that part with each loop creating a new layer to the clip. These layers can be selected or comped as needed. Sometimes it’s even useful to dump your layers to new so they play at once for cool harmony effects, or lined up side-by-side for a more interest repeated progression.</p>
+
+<h1 id="manual">Manual</h1>
+
+  <img src="/assets/Bitwig/Bad/ManualVerb.png" alt="Manual">
+  <div class="image-caption">The manual doing work</div>
+
+<p>Bitwig’s manual needs some work.</p>
+
+<p>These problems persists around the manual as a whole, but I’ll provide 1-2 examples for each issue. It’s very easy to find more examples with just a cursory glance through though.</p>
+
+<ul>
+  <li>
+    <p>Terse descriptions - Most sections have very limited information (see graphic above). When writing the effects/instrument reviews I had to spend hours with a scope trying to figure out what specific parameters were doing.</p>
+  </li>
+  <li>
+    <p>Missing information - Often the manual doesn’t even <em>mention</em> functionality present in various areas (<a href="/music/2017/06/23/Bitwig-Modulators.html#math">Qua anyone?</a>)</p>
+  </li>
+  <li>
+    <p>Strange order - The manual explains automation and mixing before explaining how to work with audio or notes.</p>
+  </li>
+  <li>
+    <p>Information in odd places - Where do you think you learn to draw notes? The Note Event section? Nope… Arranger view section (where there’s no note editor!)</p>
+  </li>
+  <li>
+    <p>Missing information - What type of midi message does the ‘Fine’ pitch control of the <a href="/music/2017/06/29/Bitwig-Instruments-Review.html#note-pitch-shifter">Note Pitch Shifter</a> send? Which icon indicates VST 2 or 3?</p>
+  </li>
+</ul>
+
+<p>I’ve figured out these things (and a lot more) despite the manual, but a more comprehensive manual would help a lot.</p>
+
+<p><strong>EDIT August 10th, 2018</strong> The manual is improving. It’s still not great, but it’s getting better.</p>
+
+<h2 id="tooltips">Tooltips</h2>
+
+  <img src="/assets/Bitwig/Tooltips.png" alt="Tooltips">
+  <div class="image-caption">Tooltip... not very useful</div>
+
+<p>I <a href="/music/2017/06/07/Bitwig-first-impressions.html#tooltips">mentioned it before</a>, but it’s become even more annoying over time.</p>
+
+<ul>
+  <li>
+    <p>Tooltips aren’t consistent - some items have tooltips, some don’t. Of course it’s only that I notice the ones that don’t when I really need on-the-spot info about something.</p>
+  </li>
+  <li>
+    <p>Tooltips don’t show assignment - Most other productivity software shows the currently assigned shortcut in the Tooltip. Bitwig does not. Some software will even go as far as to show you what modifiers work and what they do as well.</p>
+  </li>
+  <li>
+    <p>Tooltips are misaligned - Tooltips often show near/by the wrong item. They are usually offset next to the GUI element, rather than the mouse. This could be improved a lot.</p>
+  </li>
+</ul>
+
+<h2 id="realtime-help">Realtime help</h2>
+
+  <img src="/assets/Bitwig/Bad/ZoomandPan.png" alt="Helpful?">
+  <div class="image-caption">Also super helpful</div>
+
+<p>Bitwig almost has realtime help, except apparently you can only Zoom and Pan.</p>
+
+<p><strong>EDIT August 10th, 2018</strong> This is improving, slowly.</p>
+
+<p>Logic let’s you mouse-over any item and, with the press of a key, open the manual to a description of what the thing does.</p>
+
+  <img src="/assets/Bitwig/Bad/HelpBar.png" alt="Actually Helpful">
+  <div class="image-caption">A helpful bar</div>
+
+<p>Studio One has a help bar that shows you all current modifiers and/or a description of what’s under the mouse. It changes in real-time as you move, as you press modifiers and as you change contexts.</p>
+
+<p>It’s actually very helpful, even when you know your way around quite well.</p>
+
+<h1 id="browser">Browser</h1>
+
+<h2 id="doesnt-remember-sizeposition">Doesn’t remember size/position</h2>
+
+<p>The pop-up browser does not remember its size and position. Every time I call it up, it plasters itself in a new place at the default size.</p>
+
+<p>I don’t need a large browser window, and I always want it in the upper right. It does not seem possible to make it always recall there.</p>
+
+<h2 id="slow-loading-some-samples">Slow loading some samples</h2>
+
+<p>A lot of .wav format samples preview rather slowly. I know this is not a system issue, since they load instantly in other DAWs. It’s actually rather slow trying to browse through a number of wav format samples. The delay is a bit less than half of a second (around 300ms), but that adds up and sullies the user experience.</p>
+
+<p>I don’t normally use <a href="https://xiph.org/flac/">FLAC</a>, however on the suggestion of a user I attempted to browse some FLAC samples. That’s <em>much worse</em> than waves.</p>
+
+<h2 id="side-browser-no-modulators">Side browser no modulators</h2>
+
+<p>The side browser doesn’t show modulators. I wouldn’t mind being able to <em>never use</em> the pop-up browser, but it’s required for modulators.</p>
+
+<p>I think that the side-browser should allow modulators to be shown so they can be drag&amp;dropped on to the appropriate slot.</p>
+
+<h2 id="no-fuzzy-search">No fuzzy search</h2>
+
+<p>“EQ5” wont find “EQ-5”. “Verb” won’t find “Reverb”</p>
+
+<p>Search could be greatly improved with some fuzzy-logic.</p>
+
+<p>I would also love to see a <a href="http://www.soundonsound.com/techniques/logical-editor">logical editor</a> or even basic <a href="https://en.wikipedia.org/wiki/Regular_expression">regular expression</a> support.</p>
+
+<h2 id="no-project-search">No project search</h2>
+
+<p>Bitwig has no way to search for things already in the project. It’s rather useful to be able to search and move-to or select ‘all of the 606 snare.wav’ or whatever.</p>
+
+<p>I use project searching constantly in other DAWs. It’s an excellent way to navigate, replace samples, extract parts, select areas, make large modifications to midi data etc…</p>
+
+<h2 id="one-result">One result?</h2>
+
+<p>When there’s only 1 result, hitting enter doesn’t select it. This means that there’s always an extra mouse/key movement necessary when there’s only 1 thing that hitting enter could possibly do.</p>
+
+<h2 id="loses-focus-easily">Loses focus easily</h2>
+
+<p>I frequently have trouble with the browser and browser search losing focus, then I begin typing and crazy stuff happens to the project. I’ve found a number of complaints about this as well.</p>
+
+<h1 id="note-editor--arranging">Note editor &amp; Arranging</h1>
+
+<h2 id="drum-editor-names-cant-be-resized">Drum editor names can’t be resized</h2>
+
+  <img src="/assets/Bitwig/Instruments/DrumAssign.png" alt="Drum Assignment">
+  <div class="image-caption">Automatic sample naming</div>
+
+<p>If your sample names are too long, then the drum editing mode is a bit useless unless you manually go and rename every thing.</p>
+
+<p>Being able to resize the name columns would really help.</p>
+
+<h2 id="constant-tool-changing">Constant tool changing</h2>
+
+<p>Bitwig uses the tool paradigm for editing. This means that something as simple as entering a note then making a time selection requires a full key-press and mental tracking of what tool is active.</p>
+
+<p>I really dislike this method of working.</p>
+
+<p>The most problems occur when I do something with a certain tool (pen/select/erase/knife), then go do something non-editing related. The first time I come back I <em>always</em> assume I’m back at the default cursor tool. Sure you could make a habit if always pressing ‘1’ to get back to the cursor tool, or pressing the appropriate tool every time you use it, but that’s just inefficient.</p>
+
+<p>I’m much more a fan of modifier and context related editing where you have a plethora of functions available based on the modifier key that’s held down and where you click. This means that there is always a reference function that the cursor that only changes at the time that you input an action.</p>
+
+<p>I’m not suggesting that the tool-paradigm be eliminated. I’m very used to using it in Cubase and Studio One, but they both have extended the usefulness of the tools through context-sensitive hotspots and a number of modifiers. They also have great features like ‘secondary tool’, ‘last tool’, and the always useful smart tool that works entirely contextually.</p>
+
+<h2 id="note-length-is-tied-to-your-last-note">Note length is tied to your last note</h2>
+
+<p>When you enter a 1/16th note, every subsequent note is a 1/16th note until you draw something else. It’s frustrating!</p>
+
+<p>Being able to use a hotkey to select note-length and quality (dotted/triplet) is much more productive and faster.</p>
+
+<p>I feel that this is a major issue in Bitwig’s note editor. It basically means that you often have to drag every single note to size, and sometimes scroll around just to input a note!</p>
+
+<h2 id="note-scaling">Note scaling</h2>
+
+<p>Being able to scale phrases would be very useful. Simply select a phrase scale it by a given %.</p>
+
+<p>You can currently do this to a clip, but not selected notes.</p>
+
+<h2 id="notes-are-labelled-only-as-sharps">Notes are labelled only as sharps</h2>
+
+<p>ARGH. I hate this. It’s so frustrating sometimes. Half the western keys <em>do not have sharps</em>, and most common pop chord modifications are <em>flats</em>. It’s a pain in the ass to transpose things mentally.</p>
+
+<p>Luckily it’s not too much of an issue in the piano roll, since I never really pay attention to the note names, but still… c’mon. B♭m7 is not spelt: A# C# F G#.</p>
+
+<h2 id="no-zoom-to-selection">No zoom to selection</h2>
+
+<p>Often when working there’s a small section that I want to focus on. Most other DAWs have a function that lets you select and area and have the screen zoomed to that selection.</p>
+
+<p>Bitwig makes you fiddle around with mouse-drag scrolling or a bunch of key presses to try and get close.</p>
+
+<h2 id="no-zoom-undo">No zoom undo</h2>
+
+<p>You’ve fiddle around to zoom in to that section you’re working on, and now you want to get back to what you were looking at before. Other DAWs? Zoom undo to back up zoom levels.</p>
+
+<p>Bitwig? <em>More fiddling with zoom</em></p>
+
+<h2 id="layered-editing-could-improve-a-lot">Layered editing could improve a lot</h2>
+
+  <img src="/assets/Bitwig/Bad/LayerComp.png" alt="Layered Editing">
+  <div class="image-caption">Layered editing</div>
+
+<p>This is a feature that will also make an appearance when discussing things about Bitwig that are cool.</p>
+
+<p>Bitwig allows you to view multiple clips that occur in the same time in your project. You can select which clips are visible, which clip is editable, what clips are always un-editable etc…</p>
+
+<p>Unfortunately, Layered editing is a mouse-fest. Everything is multiple clicks. There’s few shortcuts as well.</p>
+
+<p>Selecting what you want to see involves clicking lots of small ‘eye’ icons. You can’t drag-click locks/view buttons. Editing doesn’t follow track or clip selection. View doesn’t follow selection (or quickly view-only selected). No shortcuts to move current edit layer, switch layers, layer view presets,one-click selection and other usability improvements.</p>
+
+<p>A strange thing I continually experienced is that it’s possible to have something as the active edit layer, but not visible. I can imagine scenarios where this would be useful, however you can’t add any new notes when this happens. It’s confusing when it happens and once again makes for more mouse clicking.</p>
+
+<p>Another huge annoyance is that the buttons in the layer editor respond to mouse-up. That means that if you click the button then move it off the button’s rectangle, it won’t be triggered. I’ve had many times that I thought I locked a layer, but I didn’t because of this.</p>
+
+<h2 id="one-lane-at-a-time">One lane at a time</h2>
+
+<p>Often when writing midi automation (midi CC), there’s a number of automation moves that are dependent on each other <em>and the notes</em>. The obvious workflow is to be able to show/filter a number of CCs so you can see their relative position to each other.</p>
+
+<p>Bitwig only lets you show one lane at a time in the note editor. If you want to see multiple lanes, the you have to back up to the arrangement view.</p>
+
+<p>What if you are using clips that aren’t in the arrange view? Then you’re screwed. There’s no way to see multiple lanes at the same time in the editor.</p>
+
+<h2 id="limited-to-no-midi-tools">Limited to no midi tools</h2>
+
+  <img src="/assets/Bitwig/Bad/Humanize.png" alt="Humanize">
+  <div class="image-caption">DP's humanize dialog</div>
+
+<p>There’s a lot of different types of midi editing that can be automated. Humanize, randomize, de-flam, time scaling, inversion, filtering, selected transposition mapping, <a href="http://www.soundonsound.com/techniques/groove-quantise-part-1">groove quantize</a> and much more.</p>
+
+<p>AFAIK, Bitwig has none of these useful and awesome tools. You hack at it by hand, or you maybe setup some <a href="/music/2017/06/29/Bitwig-Instruments-Review.html#note-effects">note fx</a> that applies to the whole stream. You’re still missing about a dozen or more useful functions though!</p>
+
+<h2 id="lacking-useful-automation-tools">Lacking useful automation tools</h2>
+
+  <img src="/assets/StudioEvaluatione/transform.gif" alt="Scale!">
+  <div class="image-caption">Scale it!</div>
+
+<p>There’s so many cool ways to work with automation in other DAWs. Bitwig is really far behind in this regard.</p>
+
+<ul>
+  <li>Scaling and Reshaping - Other DAWs have tools to scale and reshape automation data as if you’re working in a photo editor. Very useful, and I use this often</li>
+  <li>Shapes - Yes, <a href="/music/2017/06/23/Bitwig-Modulators.html">Bitwig does have modulation</a> but often modulation needs to be changed over time manually. Bitwig’s modulator parameters can’t be edited, nor can their data be recorded as automation.</li>
+  <li>Thinning/interpolation - Controlling how often external data is sampled for automation, and optionally thinning it, is an important part of automation management</li>
+  <li>VCAs - <a href="#vcas">VCAs</a></li>
+  <li>Automation clips - Bitwig can have automation that’s assigned to a clip, however it does not have a way for automation to exist <em>only</em> as a clip that can be assigned or attached to an unrelated parameter at will.</li>
+  <li>Preview mode - <a href="/studio/2017/03/30/Things-that-I-really-like-about-Reaper.html#latch-preview">Latch preview automation</a> mode is exceptionally useful. This allows you to select an area, test changes and apply them at will. Current Bitwig does not have any facility for previewing automation.</li>
+  <li>Snapshot automation - <a href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html#snapshot-automation">Snapshot automation</a> is a feature that I use very often. It allows you to write the current settings of the selected parameters as automation to the current time or selection with options for how the data before/after is managed.</li>
+</ul>
+
+<p>All in all, Bitwig’s automation is very poor. There’s a number of DAWs that support <em>all</em> of these features each with their own additional twists and capabilities.</p>
+
+<h1 id="3rd-party-plug-ins-load-slow-first-time">3rd party plug-ins load slow first time</h1>
+
+<p>~~Non-bitwig devices load unusually slow here. 5+ seconds for any given first load of a VST.</p>
+
+<p>I understand that the instantiation is being done on-the-spot, rather than on-load of the DAW, however other DAWs both start faster <em>and</em> load VSTs faster.~~</p>
+
+<p><strong>EDIT August 10th, 2018</strong> This is fixed it seems.</p>
+
+<h1 id="only-sharps-in-value-entry">Only sharps in value entry</h1>
+
+<p>Bitwig allows you to enter note values for most knobs that accept a frequency value. Unfortunately you can only enter un-modified notes and sharps.</p>
+
+<p><a href="#notes-are-labelled-only-as-sharps">See this section for more</a></p>
+
+<h1 id="device-panel-doesnt-auto-scroll">Device panel doesn’t auto scroll</h1>
+
+  <video autoplay loop muted>
+    <source src="/assets/Bitwig/Bad/DPscroll.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Adding a new device to the right</div>
+
+<p>When adding a new device to the right in the device panel, the devices view does not scroll fully to the right.</p>
+
+<h1 id="more-fx-flavours">More FX flavours</h1>
+
+<p><a href="/music/2017/06/27/Bitwig-Effects-review.html#conclusion">As mentioned before</a>, I think Bitwig would benefit from some more variations of the effects that it offers.</p>
+
+<p>There is a great deal of flexibility offered with what is available, however there are a number of common ‘flavours’ of effects that Bitwig simply does not offer.</p>
+
+<p>Some suggestions:</p>
+
+<ul>
+  <li>Convolution reverb</li>
+  <li>Better <em>guitar</em> amp simulation</li>
+  <li>At least 1-2 popular analog compressor emulations</li>
+  <li>Dynamic equalizer (this can be done with modulators, but it’s a pain to setup and tune)</li>
+  <li>A simple analog EQ emulation - ~3 bands with gain dependent Q set on classic frequency centers.</li>
+</ul>
+
+<h1 id="container-sends">Container sends</h1>
+
+<p>Multi-device containers like <a href="/music/2017/06/29/Bitwig-Instruments-Review.html#drum-machine">the drum machine</a> really need a way to send their outputs to another track/device chain. Currently it’s not possible to group-process instruments from a Drum Machine unless you split out your samples/device to its own track.</p>
+
+<p>This could also be solved by a simple ‘send’ and ‘receive’ device pair that lets you send audio from one chain to another chain destination or track. This is possible currently in some regard, but you can’t reach inside of a container to take audio out.</p>
+
+<p>This could also be solved by just having FX sends inside the container.</p>
+
+<h1 id="better-io-management">Better I/O management</h1>
+
+<p><del><a href="/music/2017/06/07/Bitwig-first-impressions.html#setup">I mentioned before</a> what a pain Bitwig can be to setup I/O if you have anymore than 2-4 device I/O. Obviously I’d like to see that improved.</del></p>
+
+<p><strong>EDIT August 10th, 2018</strong> Fixed.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Bitwig has a long way to go in some regards, but it’s progressing. There’s a chance that very few of these things bother <em>you</em> and that would certainly make Bitwig a great choice for you.</p>
+
+<p>There’s still more to go though, I’ve yet to cover some of the cool things in Bitwig!</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 9 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+:ET

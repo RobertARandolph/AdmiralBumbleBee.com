@@ -1,0 +1,419 @@
+I"�h  <img src="/assets/Mixbus/Plugins/Instruments.png" alt="Instruments">
+  <div class="image-caption">Instruments!</div>
+
+<p>In this post I’ll be covering the instruments and midi effects included with Mixbus. The selection of instruments is rather limited, but there is quite some depth to the realtime midi manipulation. Let’s get started.</p>
+
+<p>Spoiler - Overall rating <strong>Instruments</strong>: <admrb rating="15"> </admrb></p>
+
+<p>Spoiler - Overall rating <strong>MIDI Plugins</strong>: <admrb rating="80"> </admrb></p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#rating" id="markdown-toc-rating">Rating</a></li>
+  <li><a href="#instruments" id="markdown-toc-instruments">Instruments</a>    <ul>
+      <li><a href="#a-fluid-synth" id="markdown-toc-a-fluid-synth">a-Fluid Synth</a></li>
+      <li><a href="#a-reasonable-synth" id="markdown-toc-a-reasonable-synth">a-Reasonable Synth</a></li>
+      <li><a href="#black-pearl-drumkit" id="markdown-toc-black-pearl-drumkit">Black Pearl Drumkit</a></li>
+      <li><a href="#red-zeppelin-drumkit" id="markdown-toc-red-zeppelin-drumkit">Red Zeppelin Drumkit</a></li>
+      <li><a href="#general-midi-synth" id="markdown-toc-general-midi-synth">General Midi Synth</a></li>
+      <li><a href="#setbfree-dsp-tonewheel-organ" id="markdown-toc-setbfree-dsp-tonewheel-organ">SetBfree DSP Tonewheel Organ</a></li>
+    </ul>
+  </li>
+  <li><a href="#robin-gareus-midi" id="markdown-toc-robin-gareus-midi">Robin Gareus Midi</a>    <ul>
+      <li><a href="#midi-mapping" id="markdown-toc-midi-mapping">Midi Mapping</a></li>
+      <li><a href="#midi-simple-channel-filter" id="markdown-toc-midi-simple-channel-filter">MIDI (Simple) Channel Filter</a></li>
+      <li><a href="#midi-channel-unisono" id="markdown-toc-midi-channel-unisono">MIDI Channel Unisono</a></li>
+      <li><a href="#midi-chord" id="markdown-toc-midi-chord">MIDI Chord</a></li>
+      <li><a href="#midi-chromatic-transpose" id="markdown-toc-midi-chromatic-transpose">MIDI Chromatic Transpose</a></li>
+      <li><a href="#midi-delayline" id="markdown-toc-midi-delayline">MIDI Delayline</a></li>
+      <li><a href="#midi-duplicate-blocker" id="markdown-toc-midi-duplicate-blocker">MIDI Duplicate Blocker</a></li>
+      <li><a href="#midi-enforce-scale" id="markdown-toc-midi-enforce-scale">MIDI Enforce Scale</a></li>
+      <li><a href="#midi-event-filter" id="markdown-toc-midi-event-filter">MIDI Event Filter</a></li>
+      <li><a href="#midi-key-range-filter" id="markdown-toc-midi-key-range-filter">MIDI Key-Range Filter</a></li>
+      <li><a href="#midi-keysplit" id="markdown-toc-midi-keysplit">MIDI Keysplit</a></li>
+      <li><a href="#midi-monophonic-legato" id="markdown-toc-midi-monophonic-legato">MIDI Monophonic Legato</a></li>
+      <li><a href="#midi-note-toggle" id="markdown-toc-midi-note-toggle">MIDI Note Toggle</a></li>
+      <li><a href="#midi-note-transpose" id="markdown-toc-midi-note-transpose">MIDI Note Transpose</a></li>
+      <li><a href="#midi-n-tap-delay" id="markdown-toc-midi-n-tap-delay">MIDI N-Tap Delay</a></li>
+      <li><a href="#midi-quantization" id="markdown-toc-midi-quantization">MIDI Quantization</a></li>
+      <li><a href="#midi-remove-active-sensing" id="markdown-toc-midi-remove-active-sensing">MIDI Remove Active Sensing</a></li>
+      <li><a href="#midi-scale-cc-value" id="markdown-toc-midi-scale-cc-value">MIDI Scale CC Value</a></li>
+      <li><a href="#midi-sostenuto" id="markdown-toc-midi-sostenuto">MIDI Sostenuto</a></li>
+      <li><a href="#midi-strum" id="markdown-toc-midi-strum">MIDI Strum</a></li>
+      <li><a href="#midi-thru" id="markdown-toc-midi-thru">MIDI Thru</a></li>
+      <li><a href="#midi-velocity-adjust" id="markdown-toc-midi-velocity-adjust">MIDI Velocity Adjust</a></li>
+      <li><a href="#midi-velocity-randomization" id="markdown-toc-midi-velocity-randomization">MIDI Velocity Randomization</a></li>
+      <li><a href="#midi-velocity-range-filter" id="markdown-toc-midi-velocity-range-filter">MIDI Velocity Range Filter</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="rating">Rating</h1>
+
+<p>1-100? Great. There’s going to be arbitrary ratings of ‘78’ or ‘33’ instead of ‘30’ or ‘80’.</p>
+
+<p>Nope.</p>
+
+<p>Well, yes. These are my subjective evaluations of these products, but the ratings are not random. First I start out with my rough rating on a piece of paper on a scale of 0-10. The scale roughly looks like this:</p>
+
+<ul>
+  <li>0-1: Garbage Tier plug-in that almost always does more harm than good. I may give a full point of ‘1’ if it seems like they put in some semblance of thought in to the concept. I also give this rating to things that should be part of the mixer, or things that are OK but lack options.</li>
+  <li>2-3: There might be a redeeming quality that is rarely useful, but mostly garbage tier or relatively useless.</li>
+  <li>4-6: Mostly usable. Whether it’s a 4, 5 or 6 depends largely on the GUI.</li>
+  <li>7-8: Good with some unique feature, great GUI or other area of excellence.</li>
+  <li>9: I often would select this over a paid plug-in of decent repute, OR a 7/8 with a <em>really</em> good GUI or some other very unique feature.</li>
+  <li>10: I would pay for this at competitive market price.</li>
+</ul>
+
+<p>So why don’t I just leave it at a scale of 0-10? Why good man, thank you for asking!</p>
+
+<p>I already have a good idea of what I think about these plug-ins from hours of use already, but while writing this up I am constantly checking the manual, videos and using them. Often I’ll learn something about them that I missed in my initial experience with the plug-in. Sometimes it’s something small that may make me want to knock down the rating a bit, or something fairly major that makes me wanna knock it up… but not a full point. So… I use a scale of 0-100, and I modify my base rating as I’m going.</p>
+
+<p>You may see me rate something that few people would use often as a 90, and another plug-in that’s very useful as a 48. This means that the ‘90 plug-in’ is fantastic <em>when you need it</em>, and the ‘48 plug-in’ is just good enough even if you use it constantly.</p>
+
+<p>The overall rating is based how well the full package of Mixbus fulfills the needs of a musician, producer or recordist. A 0 means that you’re on your own and need to buy entirely third-party products to complete a production, and a 100 means that you’d be a moron if you replaced any of these plug-ins without trying them out really well first.</p>
+
+<h1 id="instruments">Instruments</h1>
+
+<h2 id="a-fluid-synth">a-Fluid Synth</h2>
+
+  <img src="/assets/Mixbus/Plugins/a-FluidSynth.png" alt="a-Fluid Synth">
+  <div class="image-caption">a-Fluid Synth</div>
+
+<admrb rating="40"></admrb>
+
+<p>a-Fluid synth is an implementation of <a href="http://www.fluidsynth.org">FluidSynth</a> which is basically a Rompler. It loads <a href="https://en.wikipedia.org/wiki/SoundFont">Soundfount</a> files and offers you a very simple reverb and chorus to apply on top.</p>
+
+<p>The quality of the sound that you acheive from a-Fluid synth is totally dependent on the soundfont that is loaded. Even with the best soundfonts though, it rarely sounds particularly good. You are also limited to changing the sound through selecting a new soundfont or post-processing.</p>
+
+<p>I know a lot of people enjoy soundfonts, however I think that relative to the sampling options in other DAWs, a-Fluid Synth is a poor offering. If you <em>do</em> enjoy soundfonts though, it’s here.</p>
+
+<h2 id="a-reasonable-synth">a-Reasonable Synth</h2>
+
+  <img src="/assets/Mixbus/Plugins/a-ReasonableSynth.png" alt="a-Reasonable Synth">
+  <div class="image-caption">a-Reasonable Synth</div>
+
+<admrb rating="10"></admrb>
+
+<p>Alright uh… I don’t think this should be rated. It’s just a very basic clean sound. Polyphonic e-piano like synthesizer.</p>
+
+<p>There’s no settings, and there’s not supposed to be.</p>
+
+<p>I feel bad for rating it so lowly, since the purpose of this is just a placeholder, but it’s there and it’s not really useful in Mixbus unless you’re feeling like giving yourself a creative challenge.</p>
+
+<h2 id="black-pearl-drumkit">Black Pearl Drumkit</h2>
+
+  <img src="/assets/Mixbus/Plugins/BlackPearl.png" alt="Black Pearl Drumkit">
+  <div class="image-caption">Black Pearl Drumkit</div>
+
+<admrb rating="62"></admrb>
+
+<p>Black Pearl is one of the drumkits from <a href="http://www.bandshed.net/avldrumkits/">Glen MacArthur</a>. This is intended to be the ‘jazzier’ kit.</p>
+
+<p>Black Pearl sounds fairly decent, however it does lack features like round-robin playback and multiple samples per velocity layer. There are only 5 velocity layers, so trying to create more realistic sounds does limit you to certain phrasings where larger changes in velocity sound natural.</p>
+
+<p>It does come with some percussion sounds as well, like claps, maracas and a cowbell.</p>
+
+<p>The sampling is good. The drum sounds are good. For a small drum library, it’s not that bad. If you’re looking to create convincing drum sounds with a wide variety of phrasings then this might not be for you, but for quick ‘n’ dirty drum sounds it’s more than enough.</p>
+
+<h2 id="red-zeppelin-drumkit">Red Zeppelin Drumkit</h2>
+
+  <img src="/assets/Mixbus/Plugins/RedZeppelin.png" alt="Red Zepplelin Drumkit">
+  <div class="image-caption">Red Zeppelin Drumkit</div>
+
+<admrb rating="67"></admrb>
+
+<p>Red Zeppelin is one of the drumkits from <a href="http://www.bandshed.net/avldrumkits/">Glen MacArthur</a>. This is intended to be the ‘rock’ kit, specifically in the style of <a href="https://en.wikipedia.org/wiki/John_Bonham">John Bonham</a>.</p>
+
+<p>The same criticisms of the <a href="#black-pearl-drumkit">Black Pearl Drumkit</a> apply.</p>
+
+<p>Due to the ‘boomier’ nature of the samples, this kit responds really well to compression, and with some creative post processing it seems that more convincing sounds are possible simply by using the longer sustains to interact with dynamic processors for more liveliness.</p>
+
+<p>in the world of drum samples, this isn’t amazing, but once again it’s still a quality setup for quick composition and it can be quite satisfying to bang out some drums with.</p>
+
+<h2 id="general-midi-synth">General Midi Synth</h2>
+
+  <img src="/assets/Mixbus/Plugins/GeneralMidi.png" alt="General Midi Synth">
+  <div class="image-caption">General Midi Synth</div>
+
+<admrb rating="50"></admrb>
+
+<p>This is a simple <a href="https://en.wikipedia.org/wiki/General_MIDI">General Midi</a> synthesizer. It’s not bad, it’s not great. It’s just there, and it’s a quick shortcut when you just want a sound to try out an idea.</p>
+
+<h2 id="setbfree-dsp-tonewheel-organ">SetBfree DSP Tonewheel Organ</h2>
+
+  <img src="/assets/Mixbus/Plugins/Organ.png" alt="SetBfree DSP Tonewheel Organ">
+  <div class="image-caption">SetBfree DSP Tonewheel Organ</div>
+
+<admrb rating="80"></admrb>
+
+<p><a href="https://github.com/pantherb/setBfree">setBFree DSP Tonewheel Organ</a> is a project that appears to be intended to model a tonewheel organ with a leslie speaker emulation.</p>
+
+<p>It has a… <em>interesting</em> 3d GUI that’s rather difficult to read on my screen. The displayed organ can be moved around in 3d space, which is interesting. The controls all still work as you move around the GUI.</p>
+
+<p>The sound is quite decent. The leslie emulation sounds alright, however I’m in no place to judge the authenticity of it. There is a good deal of configuration of the parameters of the leslie, which makes it far more interesting to me than simply an accurate model of a specific device and its tuning. You can even get down and change the crosstalk between the different tonewheels and the connections of the strips!</p>
+
+<p>There is an advanced panel with a number of parameters for tuning the tuning, modulation, parameters of the model (say if you want to have the sound of a very old hammond or an oddly tuned one), configuration and tuning of the leslie.</p>
+
+<p>There is a surprising amount of depth to the setBfree DSP Tonewheel Organ.</p>
+
+<h1 id="robin-gareus-midi">Robin Gareus Midi</h1>
+
+<p>Mixbus comes with a suite of <a href="http://x42-plugins.com/x42/x42-midifilter">midi filters from x42</a>. I’ve rated these as a single set of plugins, since the utility of each is highly dependent on your needs.</p>
+
+<p>The variety and usefulness of these plugins is fantastic. Without them it would be nearly impossible to engage in a number of common MIDI-based workflows in Mixbus. However, they exist, and they are fantastic.</p>
+
+<admrb rating="80"></admrb>
+
+<h2 id="midi-mapping">Midi Mapping</h2>
+
+  <img src="/assets/Mixbus/Plugins/Mappers.png" alt="Midi Mappers">
+  <div class="image-caption">Midi Mappers</div>
+
+<p>CC to CC, Channel to Channel, Note to Channel, CC to Note, Note to CC and the wonderful <a href="https://raw.githubusercontent.com/x42/midimap.lv2/master/cfg/doc.cfg">Event Map</a> which basically lets you map almost any MIDI data to some other MIDI data.</p>
+
+<p>These are fairly self-explanatory so I have lumped them in to one category. I strongly suggest checking out the <a href="https://github.com/x42/midimap.lv2/tree/master/cfg">Docs and Example configuration</a> for Event Map. It’s a very powerful plugin, and fantastic for a variety of complex or experimental midi setups.</p>
+
+<h2 id="midi-simple-channel-filter">MIDI (Simple) Channel Filter</h2>
+
+  <img src="/assets/Mixbus/Plugins/ChannelFilter.png" alt="MIDI (Simple) Channel Filter">
+  <div class="image-caption">MIDI (Simple) Channel Filter</div>
+
+<p>Channel filter simply allows you to filter out data from MIDI channels of your choice.</p>
+
+<h2 id="midi-channel-unisono">MIDI Channel Unisono</h2>
+
+  <img src="/assets/Mixbus/Plugins/Unisono.png" alt="MIDI Channel Unisono">
+  <div class="image-caption">MIDI Channel Unisono</div>
+
+<p>Unisono simply duplicates data from one channel to another.</p>
+
+<h2 id="midi-chord">MIDI Chord</h2>
+
+  <img src="/assets/Mixbus/Plugins/MIDIChord.png" alt="MIDI Chord">
+  <div class="image-caption">MIDI Chord</div>
+
+<p>MIDI Chord is a chordizer plugin that harmonizes incoming notes if they are in the desired scale.</p>
+
+<p>If the incoming note is diatonic in the listed scale, then it’s harmonized. If it is not, then the note is simply passed through normally. Here’s an example.</p>
+
+<p>Set the plug-in to: Prime, 3rd, 5th. Scale: C Major:</p>
+
+<ul>
+  <li>If I play C and G - the output notes would be C E G B D. C+3+5 and G+3+5.</li>
+  <li>If I play C and Bb - the output notes would be C E G Bb. C+3+5 and Bb because Bb is not in the C major scale.</li>
+</ul>
+
+<p>Unfortunately there does not appear to be a way to add more scales to this plugin, which makes it not particularly useful at times. It lacks automatic additions of non-diatonic intervals as well, which means for a C7, you must always play the dominant 7th yourself, it can not be automatically added.</p>
+
+<h2 id="midi-chromatic-transpose">MIDI Chromatic Transpose</h2>
+
+  <img src="/assets/Mixbus/Plugins/ChromaticTranspose.png" alt="MIDI Chromatic Transpose">
+  <div class="image-caption">MIDI Chromatic Transpose</div>
+
+<p>Chromatic transpose is more than just transposing every note up or down by n semitones. It also has an inversion point function before the transposition.</p>
+
+<p>The inversion function determines the note’s distance from the inversion point, then plays the note the same distance from that note in the opposing direction.</p>
+
+<p>With my inversion point set to C3:</p>
+
+<ul>
+  <li>If I play G3 then F2 comes out - G3 is +7 semitones from C3, so the note -7 semitones from C3 is played: F2</li>
+</ul>
+
+<h2 id="midi-delayline">MIDI Delayline</h2>
+
+  <img src="/assets/Mixbus/Plugins/DelayLine.png" alt="MIDI Delayline">
+  <div class="image-caption">MIDI Delayline</div>
+
+<p>DelayLine moves the incoming notes forward in time by the set value, optionally randomized. Randomized notes are kept in order even if the randomization would incidentally change their positions.</p>
+
+<h2 id="midi-duplicate-blocker">MIDI Duplicate Blocker</h2>
+
+  <img src="/assets/Mixbus/Plugins/DuplicateBlocker.png" alt="MIDI Duplicate Blocker">
+  <div class="image-caption">MIDI Duplicate Blocker</div>
+
+<p>Duplicate blocker fixes overlapping note on/off messages and duplicate notes.</p>
+
+<p>I wish <em>every</em> DAW had this. It’s extremely useful when working with experimental midi input sources or even a sorta-broken controller.</p>
+
+<p>It’s also useful at times when combined with other MIDI filter plugins. It’s possible to come up with some interesting combinations of filters that make things go a <em>little bit</em> crazy.</p>
+
+<h2 id="midi-enforce-scale">MIDI Enforce Scale</h2>
+
+  <img src="/assets/Mixbus/Plugins/EnforceScale.png" alt="MIDI Enforce Scale">
+  <div class="image-caption">MIDI Enforce Scale</div>
+
+<p>Enforce Scale changes incoming note data to fit in to a specific major scale. Non-diatonic notes can be discarded, moved down or up.</p>
+
+<p>Unfortunately there does not appear to be a way to add more scales to this plugin, which makes it not particularly useful at times.</p>
+
+<h2 id="midi-event-filter">MIDI Event Filter</h2>
+
+  <img src="/assets/Mixbus/Plugins/EventFilter.png" alt="MIDI Event Filter">
+  <div class="image-caption">MIDI Event Filter</div>
+
+<p>Event filter allows you to block a wide variety of data in your MIDI data stream. The GUI is fairly self-explanatory</p>
+
+<h2 id="midi-key-range-filter">MIDI Key-Range Filter</h2>
+
+  <img src="/assets/Mixbus/Plugins/KeyRangeFilter.png" alt="MIDI Key-Range Filter">
+  <div class="image-caption">MIDI Key-Range Filter</div>
+
+<p>Key range simply filters notes inside or outside a specific range on a specific channel.</p>
+
+<h2 id="midi-keysplit">MIDI Keysplit</h2>
+
+  <img src="/assets/Mixbus/Plugins/KeySplit.png" alt="MIDI Keysplit">
+  <div class="image-caption">MIDI Keysplit</div>
+
+<p>Key split splits incoming notes in to 2 sections which can be sent to different channels after being transposed. This allows you to play 2 different sounds on different parts of your keyboard.</p>
+
+<p>Multiple key splits can be stacked to make for more complex splits.</p>
+
+<p>One of the better aspects of this is that changing the split point doesn’t leave you with hanging notes.</p>
+
+<h2 id="midi-monophonic-legato">MIDI Monophonic Legato</h2>
+
+  <img src="/assets/Mixbus/Plugins/Monophonic.png" alt="MIDI Monophonic Legato">
+  <div class="image-caption">MIDI Monophonic Legato</div>
+
+<p>This is a note latch. It lets one note play at a time and automatically holds the last note until it is repeated. <em>Any</em> new note cuts off all previous notes.</p>
+
+<h2 id="midi-note-toggle">MIDI Note Toggle</h2>
+
+  <img src="/assets/Mixbus/Plugins/NoteToggle.png" alt="MIDI Note Toggle">
+  <div class="image-caption">MIDI Note Toggle</div>
+
+<p>Note toggle is like Monophonic Legato, except a note is only turned off by playing the same note. Note Toggle can be used to slowly build large chords without holding your fingers down on the keyboard for instance.</p>
+
+<h2 id="midi-note-transpose">MIDI Note Transpose</h2>
+
+  <img src="/assets/Mixbus/Plugins/NoteTranspose.png" alt="MIDI Note Transpose">
+  <div class="image-caption">MIDI Note Transpose</div>
+
+<p>Note transpose allows you to individually transpose each pitch class by up to 12 semitones.</p>
+
+<p>The sorting of the semitone amounts is weird currently though. 1, 10, 11, 12, 2, 3, 4, etc… Still it works great.</p>
+
+<h2 id="midi-n-tap-delay">MIDI N-Tap Delay</h2>
+
+  <img src="/assets/Mixbus/Plugins/N-TapDelay.png" alt="MIDI N-Tap Delay">
+  <div class="image-caption">MIDI N-Tap Delay</div>
+
+<p>N-Tap delay is where the fun is. It plays the original note, plus a select number of repeats at the tempo and time division that you select. The velocity of the repeats is changed by the velocity ramp on each repeat.</p>
+
+<p>N-Tap Delay is a great deal of fun. It’s almost always worth trying a MIDI-based delay instead of an audio-based delay on your synths, since the effect of multiple notes feeding in to a synthesizer is often very different from the audio-based delay.</p>
+
+<p>Combined with some other MIDI filters, like Note Toggle, you can do some weird and interesting things.</p>
+
+<h2 id="midi-quantization">MIDI Quantization</h2>
+
+  <img src="/assets/Mixbus/Plugins/Quantization.png" alt="MIDI Quantization">
+  <div class="image-caption">MIDI Quantization</div>
+
+<p>Quantization is a <em>live</em> quantize plugin. It delays the incoming note, if necessary, to the nearest tick of the quantization grid that you set.</p>
+
+<p>This basically creates a fixed latency to the signal and aligns all notes to the nearest grid in realtime. <em>It does not move notes backwards in time</em> like some other DAW’s quantization plugins do, and likewise those do not work properly in realtime either.</p>
+
+<h2 id="midi-remove-active-sensing">MIDI Remove Active Sensing</h2>
+
+  <img src="/assets/Mixbus/Plugins/RemoveActive.png" alt="MIDI Remove Active Sensing">
+  <div class="image-caption">MIDI Remove Active Sensing</div>
+
+<p>Active sensing is a packet of midi data that is used to let a receiving device know that a connected device is ‘active’. It’s annoying. It clutters up your MIDI stream with lots of data that makes it difficult to read.</p>
+
+<p>This removes the Active Sensing data. Easy.</p>
+
+<h2 id="midi-scale-cc-value">MIDI Scale CC Value</h2>
+
+  <img src="/assets/Mixbus/Plugins/ScaleCC.png" alt="MIDI Scale CC Value">
+  <div class="image-caption">MIDI Scale CC Value</div>
+
+<p>Scale CC is a pretty cool and useful plugin. Not only does it <em>scale</em> midi CC data, but it can offset the value and limit the value (high and low).</p>
+
+<p>A fairly unique function is that offset or scaled values above 127 can be wrapped around to 1+ or truncated to 0. Surprisingly useful sometimes.</p>
+
+<h2 id="midi-sostenuto">MIDI Sostenuto</h2>
+
+  <img src="/assets/Mixbus/Plugins/Sostenuto.png" alt="MIDI Sostenuto">
+  <div class="image-caption">MIDI Sostenuto</div>
+
+<p>Sostenuto emulates a sustain pedal by delaying the note-offs of each incoming note by the sostenuto value when the “Pedal Mode” is set to on. Setting the “Pedal Mode” to off sends note offs immediately for non-held notes.</p>
+
+<h2 id="midi-strum">MIDI Strum</h2>
+
+  <img src="/assets/Mixbus/Plugins/Strum.png" alt="MIDI Strum">
+  <div class="image-caption">MIDI Strum</div>
+
+<p>Strum is simply a fast, non-repeating arpeggiator to simulate the struming of strings on a stringed instrument like a guitar. The parameters are fairly self-explanatory.</p>
+
+<p>This strum plugin has a ‘collect’ capability though. The collect system is a buffer that gathers the notes played for a set time before ‘strumming’ them. This allows the plugin to respond to non-ideal playing in a live environment.</p>
+
+<h2 id="midi-thru">MIDI Thru</h2>
+
+<p>No image. This is just an example plugin that does nothing except pass data.</p>
+
+<h2 id="midi-velocity-adjust">MIDI Velocity Adjust</h2>
+
+  <img src="/assets/Mixbus/Plugins/VelocityAdjust.png" alt="MIDI Velocity Adjust">
+  <div class="image-caption">MIDI Velocity Adjust</div>
+
+<p>Velocity adjust allows you to scale the incoming note velocities and optionally offset them.</p>
+
+<p>A neat function is that you can invert the note velocities by setting the min value to be higher than max.</p>
+
+<h2 id="midi-velocity-randomization">MIDI Velocity Randomization</h2>
+
+  <img src="/assets/Mixbus/Plugins/VelocityRandomize.png" alt="MIDI Velocity Randomization">
+  <div class="image-caption">MIDI Velocity Randomization</div>
+
+<p>Velocity Randomization randomizes the incoming midi note data, both note-on <em>and</em> note-off by a given amount with one of 2 randomization methods.</p>
+
+<p>Indispensable for drum programming when using with small amounts.</p>
+
+<h2 id="midi-velocity-range-filter">MIDI Velocity Range Filter</h2>
+
+  <img src="/assets/Mixbus/Plugins/VelocityRangeFilter.png" alt="MIDI Velocity Range Filter">
+  <div class="image-caption">MIDI Velocity Range Filter</div>
+
+<p>Velocity range filter simply discords notes outside the velocity range.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Spoiler - Overall rating <strong>Instruments</strong>: <admrb rating="15"> </admrb></p>
+
+<p>The instruments that Mixbus comes with aren’t awful. The issue is that Mixbus doesn’t come with much at all. There’s no sampler, no basic subtractive synth, no drum synth, not much.</p>
+
+<p>Compared to some of the amazing offerings from other DAW companies in the way of included instruments, Mixbus’s <em>overall</em> quantity or completeness of the offering is very poor.</p>
+
+<p>Hopefully this will be remedied in the future, but until then Mixbus still runs your third-party VST, AU and LV2 plug-ins just fine.</p>
+
+<p>Spoiler - Overall rating <strong>MIDI Plugins</strong>: <admrb rating="80"> </admrb></p>
+
+<p>The MIDI filters in Mixbus are fantastic. It’s 2017 and some DAWs still do not have this functionality, let alone an included set of realtime plugins for midi manipulation.</p>
+
+<p>I would have given this a higher rating, but there’s no <em>easy</em> way to setup up scale maps or scale constraints. The limitation to major scales in some of the plugins is fairly annoying, but with some effort you can write an <a href="#midi-mappers">Event Map</a> to do what you need.</p>
+
+<p>There’s also the strange absence of even a simple Arpeggiator plugin.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 6 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

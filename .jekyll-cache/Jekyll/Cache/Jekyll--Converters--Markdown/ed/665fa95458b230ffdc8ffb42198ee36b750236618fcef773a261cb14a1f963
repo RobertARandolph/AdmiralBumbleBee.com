@@ -1,0 +1,439 @@
+I"�e<img src="/assets/FLStudio/201/Statistics.png" alt="More stats!">
+<div class="image-caption">More stats!</div>
+
+<p>FLStudio 20.1 is out. <a href="https://www.image-line.com/documents/news.php?entry_id=1544400349&amp;title=fl-studio-2011-update">The official change page is here</a>. I’m going to be going over the changes, see if I notice anything extra, and wade through a bit of the hype to see how cool this update is.</p>
+
+<p>I wouldn’t call it ‘Exposed’ for no reason though…</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html"> Part 1: Introduction to FL</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/30/30-days-with-FLStudio-20-Piano-Roll-Tools.html"> Part 5: Piano Roll Tools</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html"> Part 7: Modulation</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/11/30-days-with-FLStudio-20-Performance-VFX.html"> Part 8: Performance mode and Video FX</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html"> Part 9: Workflow</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/24/30-days-of-FLStudio-20-conclusion.html"> Part 12: Conclusion</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a>    <ul>
+      <li><a href="#playlist-track-mode" id="markdown-toc-playlist-track-mode">Playlist Track Mode</a>        <ul>
+          <li><a href="#playlist-track-mode-problems" id="markdown-toc-playlist-track-mode-problems">Playlist track mode problems</a></li>
+        </ul>
+      </li>
+      <li><a href="#improved-audio-recording" id="markdown-toc-improved-audio-recording">Improved Audio Recording</a>        <ul>
+          <li><a href="#6-million-echo-slam" id="markdown-toc-6-million-echo-slam">6 million Echo Slam</a></li>
+          <li><a href="#takes" id="markdown-toc-takes">“Takes”</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#tools--macros--reset-empty-playlist-tracks" id="markdown-toc-tools--macros--reset-empty-playlist-tracks">Tools &gt; Macros &gt; Reset empty playlist tracks</a></li>
+  <li><a href="#channel-rack-improvements" id="markdown-toc-channel-rack-improvements">Channel Rack Improvements</a>    <ul>
+      <li><a href="#stepsequencer-channel-looping" id="markdown-toc-stepsequencer-channel-looping">Stepsequencer Channel Looping</a>        <ul>
+          <li><a href="#loop-all" id="markdown-toc-loop-all">Loop All</a></li>
+          <li><a href="#advanced-looping" id="markdown-toc-advanced-looping">Advanced Looping</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#show-complete-piano-roll-preview" id="markdown-toc-show-complete-piano-roll-preview">Show complete piano roll preview</a></li>
+  <li><a href="#plugin-window---mute-solo-and-mix" id="markdown-toc-plugin-window---mute-solo-and-mix">Plugin Window - Mute, Solo and Mix</a></li>
+  <li><a href="#sampler-channels--audio-clips-time-automation" id="markdown-toc-sampler-channels--audio-clips-time-automation">Sampler Channels &amp; Audio Clips time automation</a></li>
+  <li><a href="#update-checking" id="markdown-toc-update-checking">Update Checking</a></li>
+  <li><a href="#mono-export" id="markdown-toc-mono-export">Mono export</a></li>
+  <li><a href="#cpu--memory-panel---view-fps" id="markdown-toc-cpu--memory-panel---view-fps">CPU &amp; Memory Panel - View FPS</a></li>
+  <li><a href="#project-information---project-statistics" id="markdown-toc-project-information---project-statistics">Project Information - Project Statistics</a></li>
+  <li><a href="#55-x-minimal-kick-samples" id="markdown-toc-55-x-minimal-kick-samples">55 x “Minimal Kick” Samples</a></li>
+  <li><a href="#zgameeditor-visualizer-export-wizard" id="markdown-toc-zgameeditor-visualizer-export-wizard">ZGameEditor Visualizer Export Wizard</a></li>
+  <li><a href="#akai-fl-studio-fire-improvements" id="markdown-toc-akai-fl-studio-fire-improvements">Akai FL Studio FIRE Improvements</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="video">Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/U1cZxcnWBM8" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>MORE VIDEO CONTENT, NO MORE WINDOWS!!!!!!! HOOOORRRAAAYYYYY!!</p>
+
+<h1 id="introduction">Introduction</h1>
+
+<h2 id="playlist-track-mode">Playlist Track Mode</h2>
+
+<img src="/assets/FLStudio/201/TrackModeAudio.png" alt="Track Mode... the big feature">
+<div class="image-caption">Track Mode... the big feature</div>
+
+<p>You can now drag a sample or a generator directly to a playlist track, and then the channel rack, playlist and mixer are now ‘linked’. This <em>supposedly</em> should fix something <a href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html#the-great-confusion">that I complained about in a previous post</a>.</p>
+
+<p><strong>BUT IT DOESN’T</strong>.</p>
+
+<p>Before I get on with the part where this feature is not particularly useful, I would like to first list some of the benefits that it offers.</p>
+
+<ul>
+  <li>Add instruments directly from the playlist</li>
+  <li>Add effects directly on a playlist track</li>
+  <li>Adjusting channel route moves the linked channel along with all effects contents/routing.</li>
+  <li>Double-clicking playlist opens associated channel (channel properties or generator)</li>
+  <li>Automation clips automatically are grouped below the associated track</li>
+</ul>
+
+<p>These are quite cool things and it gives you a workflow that is somewhere to other DAWs.</p>
+
+<p>There is a fairly significant issue here if this was meant to give you a more linear workflow.</p>
+
+<h3 id="playlist-track-mode-problems">Playlist track mode problems</h3>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/MixedTracks.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">This isn't right...</div>
+
+<p>The #1 issue is that the <em>real</em> setup is this:</p>
+
+<ul>
+  <li>Channels are linked to mixer tracks, as usual.</li>
+  <li>Playlist tracks are linked to channels/mixer but <em>only</em> for colour, icon and name.</li>
+</ul>
+
+<p>So what does that mean? Let’s look at the video above.</p>
+
+<p>I have the track mode set up so that the Retro logue channel is linked to playlist track one which is linked to the mixer. So naturally you would think that if I have a clip corresponding to the Retroloue channel in the playlist on track 2, then it would naturally play to mixer track 2.</p>
+
+<p>Of course it doesn’t though! That would mean that clips need to automatically change their routing when they are moved in the playlist, but they do not. Not having this feature means that you do not have a linear-like workflow.</p>
+
+<p>Playlist tracks are only <em>superficially</em> linked to the mixer and channel. You can still place clips anywhere in the playlist</p>
+
+<p><strong>This does not mean that the track-mode feature is useless.</strong> It’s an incredibly useful feature for people that are used to FLStudio’s method of working. If you are a person who does not use FLStudio, or was partially interested in FLStudio but don’t use it because of the workflow, then this is not going to change a single thing for you. There is still a disconnect between the playlist and the channel rack/mixer.</p>
+
+<p>So what if clips did change their routing when you move them to a different playlist track?</p>
+
+<h2 id="improved-audio-recording">Improved Audio Recording</h2>
+
+<img src="/assets/FLStudio/201/TrackModeAudio.png" alt="Track mode for audio">
+<div class="image-caption">Track mode for audio</div>
+
+<p>Trackmode for audio does what you’d expect.</p>
+
+<ul>
+  <li>Mixer Channel is linked to Channel Rack</li>
+  <li>Playlist tracks are linked to mixer tracks</li>
+  <li><strong>Playlist tracks <em>are linked to channels</em></strong></li>
+</ul>
+
+<p>That last one is the big one. With the track list audio mode, if you move an audio clip to a new playlist track, the routing for the audio clip changes <em>if that playlist track is in audio track-mode</em>.</p>
+
+<p>This does give you the ‘linear DAW’ workflow.</p>
+
+<h3 id="6-million-echo-slam">6 million Echo Slam</h3>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/Disastah.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">CDEC, they're gonna get wiped from the face of the earth!</div>
+
+<p>Yes, I’m an EG fan. Love DOTA 2. Playing with the Audio Track mode made me think of the ‘It’s a Disastah!!!!!’ <a href="https://www.youtube.com/watch?v=N7ugBH39T8Y">line from TI6</a>.</p>
+
+<p>Anyways, as you can see in the video, if you rely on the audio-track “linking” (scare quotes), you’re in for a serious disaster.</p>
+
+<p>The feature is a great start to becoming more organized, but it is not the silver-bullet. It’s still possible to end up with a complete routing mess.</p>
+
+<p>There is also a bug currently…</p>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/SwitchBug.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Switching Bug?</div>
+
+<p>I’m fairly certain this is a bug. If you adjust the channel routing to an audio-track-mode clip, then move the clip around, it will reset the channel upon returning to the track.</p>
+
+<p>This means that as of 20.1.1, you can’t reliably change the channel routing of an audio-mode-track.</p>
+
+<h3 id="takes">“Takes”</h3>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/AudioTakes.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">"Takes" kinda.</div>
+
+<p>One of the benefits to the new audio-track–mode is that you can replicate a workflow that looks somewhat like recording takes in another DAW.</p>
+
+<p>FLStudio will automatically group tracks when recorded to the same playlist channel.</p>
+
+<p>There’s a few snafus here though:</p>
+
+<ol>
+  <li><em>EVERY</em> take in the “group” must be muted to record a new one. If you don’t mute all takes, then anything un-muted on that channel will be recorded in your new channel. FLStudio does not automatically assign newly recorded parts to a new channel and route it back.</li>
+  <li>This also means that you can’t listen to previous takes without spending time re-routing various parts so they don’t end up recorded.</li>
+  <li>FLStudio has no ‘comping’ tools for easy editing of takes.</li>
+  <li>Tracks are consumed by the process, and FLStudio has a fixed (limited) number of tracks.</li>
+  <li>Recorded parts still clutter up your channel rack with poorly named audio files.</li>
+  <li>If there are empty tracks in your “take group”, then those tracks will not be used for subsequent takes. You will need to use <code class="highlighter-rouge">the reset empty playlist tracks macro</code> to fix this, but it will also affect the rest of your project.</li>
+  <li>Colours only propogate when recording. If you decide to change the track information (colour, icon) for the parent track, it will only affect newly recorded tracks and not the grouped tracks by default.</li>
+  <li>When in record-mode, it’s easy to end up accidentally recording channel assignment information as you’re trying to fix the channel routing to deal with points 1 and 2.</li>
+  <li>Points 1, 2 and 4 mean that the 1:1 mapping of playlist tracks to mixer channels is likely no more. This is one of the benefits of the new mode (but certainly not the only benefit). This adds complexity to project setups rather than removing it.</li>
+</ol>
+
+<p>This is a feature that I think needs a lot more work to be useful. It’s easy to make mistakes (record channel assignment events, forget to mute a channel) and the workflow is too complex for something that should be as simple as “Assign input, Press Record”.</p>
+
+<h1 id="tools--macros--reset-empty-playlist-tracks">Tools &gt; Macros &gt; Reset empty playlist tracks</h1>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/ResetTracks.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Reset Tracks</div>
+
+<p>When working on a project is fairly common to try out ideas and decide that they do not work how you expected them to. You may have done a number of organizational tasks like changing the icon changing color or setting up groups and then decided that it was all unnecessary.</p>
+
+<p>Before FLStudio 20.1 this meant that you had to do some work resetting everything, and you are likely to end up still having those empty gaps.</p>
+
+<p>This new macro automatically resets mixer tracks and then shifts everything to take up that empty space, so the end result is that it appears that nothing ever happened.</p>
+
+<p>It is a small thing, but it is a huge feature for people that enjoy having their projects organized.</p>
+
+<h1 id="channel-rack-improvements">Channel Rack Improvements</h1>
+
+<img src="/assets/FLStudio/201/ChannelHeader.png" alt="Channel Rack Improvements">
+<div class="image-caption">Channel Rack Improvements</div>
+
+<ul>
+  <li>Step size is adjustable in the channel rack
+    <ul>
+      <li>Up to <strong>512</strong> steps now! WOOO!</li>
+    </ul>
+  </li>
+  <li>Swing knob added</li>
+  <li>Close button added</li>
+  <li>Channel Rack Menu &gt; Set swingmix - This allows you to set swing mix for multiple selected channels simultaneously.</li>
+</ul>
+
+<p>These are all nice features. In previous posts I did not discuss what “swing mix” is.</p>
+
+<p>Swing mix lets you apply a multiplier to individual channels that changes the amount of swing that is applied to that channel. Previously if you want to change the swing mix of various channels at once then you had to go through each channel and do it manually. As described above you can now change the swing mix value of multiple channels in a single swift move.</p>
+
+<h2 id="stepsequencer-channel-looping">Stepsequencer Channel Looping</h2>
+
+<h3 id="loop-all">Loop All</h3>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/LoopAll.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Loop All Channels</div>
+
+<p>The new “Loop All Channels” allows you to set a step size for your channel rack larger than what the loop sizes than independently choose which channels loop for the full channel rack step size.</p>
+
+<p>You can freely choose which channels loop, or have channels with longer step sizes and unique information.</p>
+
+<p>This could be a really neat feature…</p>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/LoopBug.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Loop Bugs (Watch with audio on)</div>
+
+<p>I found a good number of bugs with phantom notes, notes that wouldn’t play, loops that wouldn’t change and once I somehow managed to make my channel step size control do nothing.</p>
+
+<h3 id="advanced-looping">Advanced Looping</h3>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/AdvancedLooping.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Advanced Looping</div>
+
+<p>This is a feature that the FLStudio team got totally right (besides 2 bugs I found).</p>
+
+<p>Channels can now be individually looped, that is to say that they can have their own step sizes, and this allows you to create interesting rhythms.</p>
+
+<p>Not only does this allow you to create interesting rhythms, but also allows you to simplify creation of simple <a href="https://en.wikipedia.org/wiki/Ostinato">ostinatos</a>. If there is a rhythm that you would like to continually be played underneath your main pattern, you no longer need to program that entire thing. it is now possible to simply program the ostinato pattern and then set the step size to what the ostinato is encompassed by.</p>
+
+<p>This is a super cool feature, especially in the context of how FLStudio handles routing.</p>
+
+<h1 id="show-complete-piano-roll-preview">Show complete piano roll preview</h1>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/CompletePiano.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Show complete piano roll</div>
+
+<p>The previous default behavior was to show only the notes that would be visible for the amount of time the current channel step size would allow. This means that if you had a 12 bar part, but the channel rack was only displaying four bars, then you would only see four bars of your piano roll part.</p>
+
+<p>You can now optionally show the entire part no matter how big the channel rack is.</p>
+
+<h1 id="plugin-window---mute-solo-and-mix">Plugin Window - Mute, Solo and Mix</h1>
+
+<img src="/assets/FLStudio/201/NewEffect.png" alt="New Effect Options">
+<div class="image-caption">New Effect Options</div>
+
+<p>Having a mixed control for each effect is not the most revolutionary of features, but it is a feature that is incredibly useful. A mix control and in effect allows you to apply a volume reduced amount of the effect to the original signal passing through. This is like having a send per effect.</p>
+
+<p>Mute turns the effect on or off.</p>
+
+<p>Solo is the grouped inverse of mute. When you solo in effect than every other effect on the channel is muted. Not many products have a solo effect feature, and I love using this feature when it is available.</p>
+
+<h1 id="sampler-channels--audio-clips-time-automation">Sampler Channels &amp; Audio Clips time automation</h1>
+
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/FLStudio/201/FLTimeBug.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Time automation bugged</div>
+
+<p><del><a href="https://forum.image-line.com/viewtopic.php?f=100&amp;t=196504&amp;p=1359111#p1359275">This appears to be broken.</a> so I will not be reviewing it.</del></p>
+
+<p><strong>EDIT:</strong> This seems to be unrelated.</p>
+
+<p>The feature works for sampler channels, but not audio channels. So either the changelog is wrong or this is still bugged.</p>
+
+<h1 id="update-checking">Update Checking</h1>
+
+<img src="/assets/FLStudio/201/Updates.png" alt="Auto-Update Check">
+<div class="image-caption">Auto-Update Check</div>
+
+<p>FLStudio will know check for updates by default. This behavior can be turned off in the general section of your settings.</p>
+
+<h1 id="mono-export">Mono export</h1>
+
+<img src="/assets/FLStudio/201/MonoExport.png" alt="Mono Export in 3 forms">
+<div class="image-caption">Mono Export in 3 forms</div>
+
+<p>There are now three modes to export a mono mix: Left only, Right only and Left + Right.</p>
+
+<p>This feature doesn’t have too many uses, but it can be useful for podcast exports, post/dialog, and mono referencing on other systems. There’s possibly some other reasons I’m not thinking of as well.</p>
+
+<h1 id="cpu--memory-panel---view-fps">CPU &amp; Memory Panel - View FPS</h1>
+
+<img src="/assets/FLStudio/201/FPS.png" alt="FPS">
+<div class="image-caption">FPS</div>
+
+<p>You can now see the FPS of FLStudio. Unfortunately this is mutually exclusive with the “voice count” feature. If you wish to see both the FPS and the current voice count (the number of ‘things making sound’ currently) then you are out of luck.</p>
+
+<h1 id="project-information---project-statistics">Project Information - Project Statistics</h1>
+
+<img src="/assets/FLStudio/201/Statistics.png" alt="More stats!">
+<div class="image-caption">More stats!</div>
+
+<p>Projects to statistics has been expanded with information about the project itself:</p>
+
+<ul>
+  <li>Plugins</li>
+  <li>Channels</li>
+  <li>Mixer tracks used</li>
+  <li>Playlist tracks used</li>
+  <li>Playlist clips</li>
+  <li>Notes</li>
+</ul>
+
+<p>I wonder if this will be used for some sort of competition in the future.</p>
+
+<h1 id="55-x-minimal-kick-samples">55 x “Minimal Kick” Samples</h1>
+
+<p>Woop-de-doo.</p>
+
+<p>13 year olds rejoice!</p>
+
+<h1 id="zgameeditor-visualizer-export-wizard">ZGameEditor Visualizer Export Wizard</h1>
+
+<img src="/assets/FLStudio/201/ZGameExport.png" alt="ZGameEditor Auto-Youtube Track Maker">
+<div class="image-caption">ZGameEditor Auto-Youtube Track Maker</div>
+
+<p>Quick and easy export for making those youtube videos with an image that moves to the music.</p>
+
+<p>I can’t tell you how many 1,000s of times I’ve seen someone ask how to make these. This is going to be a beloved and overused feature for certain.</p>
+
+<p>(Pardon my tone, but I seriously get asked this <em>daily</em>.)</p>
+
+<h1 id="akai-fl-studio-fire-improvements">Akai FL Studio FIRE Improvements</h1>
+
+<p>You can <a href="https://forum.image-line.com/viewtopic.php?f=1914&amp;t=191060#fire_shortcuts_stepsequencer">read more about it here</a>, same link as you’d’ve found in the <a href="https://www.image-line.com/documents/news.php?entry_id=1544400349&amp;title=fl-studio-2011-update">Official Changes</a>.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>This update is a great push in the correct direction. It is only a “point one” release so expectations of flawless progress are likely unreasonable.</p>
+
+<p>Some of my issues are with how this was marketed in that it seemed that they were pushing this as a solution for FLStudio’s complex, and sometimes very confusing, workflow and routing.</p>
+
+<p>This update provides what we software developers call “<a href="https://en.wikipedia.org/wiki/Syntactic_sugar">syntactic sugar</a>”. Nothing is changed in the underlying software or with the natural workflow. There has been some things added that make it easier to start or to manage small things, but once you actually start working on a project you will seek quickly that the workflow is the same as it always always been.</p>
+
+<p>Hopefully the guys on the FLStudio team will iron out the bugs, and provide a way for clips to intelligently adjust their output as they move around the playlist. I suppose this should be an optional feature for all the people who enjoy the way it currently works, like me!</p>
+
+<p>I quite enjoy working in FLStudio the way it is now. I am usually willing to accept the wonderous complexity with the trade-off of easily making mistakes or becoming lost in your own project. My main concern with this update is seen new features that are marketed as workflow enhancements but are really just half-cooked sugar on a cake that was already plenty sweet.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 11 hours to research, screenshot, write and edit the post. The video took 8 hours to capture, edit, overdub, composite and upload. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

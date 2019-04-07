@@ -1,0 +1,468 @@
+I"c�<img src="/assets/AVA/MC/Compare.png" alt="Comparison to Market Leaders">
+<div class="image-caption">Comparison to Market Leaders</div>
+
+<p><a href="https://harrisonconsoles.com/site/ava-plugins.html">Harrison AVA Multiband Compressor</a> is out, and I spent some time looking over it and using it in some projects.</p>
+
+<p>What follows are the results of my investigation and general thoughts.</p>
+
+<p><strong>I DID NOT PAY FOR THIS PRODUCT</strong> I am both a beta tester and received an NFR review copy. If you feel that this has possibly coloured my review, please let me know.</p>
+
+<p><strong>IMPORTANT! IMPORTANT!</strong> After reading this article, please <a href="/music/2019/01/31/Harrison-AVA-MC-Part-2.html">read the followup article</a>.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#technical" id="markdown-toc-technical">Technical</a>    <ul>
+      <li><a href="#amplitude-response---all-bands---failed-attempt" id="markdown-toc-amplitude-response---all-bands---failed-attempt">Amplitude response - all bands - Failed attempt</a></li>
+      <li><a href="#amplitude-response---all-bands---second-attempt" id="markdown-toc-amplitude-response---all-bands---second-attempt">Amplitude response - all bands - Second attempt</a>        <ul>
+          <li><a href="#amplitude-response---all-bands---second-attempt---second-attempt" id="markdown-toc-amplitude-response---all-bands---second-attempt---second-attempt">Amplitude response - all bands - Second attempt - Second attempt</a></li>
+          <li><a href="#amplitude-response---all-bands---second-attempt---second-attempt---second-attempt" id="markdown-toc-amplitude-response---all-bands---second-attempt---second-attempt---second-attempt">Amplitude response - all bands - Second attempt - Second attempt - Second attempt</a></li>
+        </ul>
+      </li>
+      <li><a href="#amplitude-response---all-bands---third-attempt" id="markdown-toc-amplitude-response---all-bands---third-attempt">Amplitude response - all bands - Third attempt</a></li>
+      <li><a href="#phase-response" id="markdown-toc-phase-response">Phase response</a>        <ul>
+          <li><a href="#is-it-an-eq" id="markdown-toc-is-it-an-eq">Is it an EQ?</a></li>
+          <li><a href="#looking-deeper" id="markdown-toc-looking-deeper">Looking deeper</a></li>
+        </ul>
+      </li>
+      <li><a href="#just-a-sine-wave" id="markdown-toc-just-a-sine-wave">Just a sine wave</a></li>
+      <li><a href="#bypass" id="markdown-toc-bypass">Bypass</a></li>
+    </ul>
+  </li>
+  <li><a href="#multiband-vs-dynamic-eq" id="markdown-toc-multiband-vs-dynamic-eq">Multiband vs Dynamic EQ</a>    <ul>
+      <li><a href="#ava-mc-vs-everything-else" id="markdown-toc-ava-mc-vs-everything-else">AVA MC vs everything else</a></li>
+    </ul>
+  </li>
+  <li><a href="#technical-conclusion" id="markdown-toc-technical-conclusion">Technical conclusion</a></li>
+  <li><a href="#user-experience" id="markdown-toc-user-experience">USER Experience</a>    <ul>
+      <li><a href="#gui" id="markdown-toc-gui">GUI</a></li>
+      <li><a href="#interaction" id="markdown-toc-interaction">Interaction</a></li>
+      <li><a href="#analyzer" id="markdown-toc-analyzer">Analyzer</a></li>
+    </ul>
+  </li>
+  <li><a href="#market-comparison" id="markdown-toc-market-comparison">Market Comparison</a>    <ul>
+      <li><a href="#sidechain" id="markdown-toc-sidechain">Sidechain</a>        <ul>
+          <li><a href="#bugs-and-annoyances" id="markdown-toc-bugs-and-annoyances">Bugs and Annoyances</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="video">Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/fk1K1JXyLKw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>A video this week! Hooray!</p>
+
+<p>Share with your friends!</p>
+
+<p>(New camera and lighting too!)</p>
+
+<h1 id="technical">Technical</h1>
+
+<p>There are a few things we need to check first:</p>
+
+<ul>
+  <li>Phase response - does the plugin impart a “sound” due to the crossovers when it’s doing nothing?</li>
+  <li>Amplitude response - What is the plugin doing in general?</li>
+</ul>
+
+<p>A quick play with the controls shows no zipper noise and no major GUI glitches (besides tooltips sticking). The quick bypass works ok-ish.</p>
+
+<h2 id="amplitude-response---all-bands---failed-attempt">Amplitude response - all bands - Failed attempt</h2>
+
+<img src="/assets/AVA/MC/Amplitude1.png" alt="Amplitude response, all bands, INVALID TEST">
+<div class="image-caption">Amplitude response, all bands, INVALID TEST</div>
+
+<img src="/assets/AVA/MC/Amplitude1Setup.png" alt="AVA Setup for the above test">
+<div class="image-caption">AVA Setup for the above test</div>
+
+<p>This is testing AVA MC with all bands set equally so that they act equally. A sine sweep is sent through the product and the amplitude response is recorded. If there is some variation in how the bands react, such as some bands being ‘more sensitive’, then this will show it.</p>
+
+<p>AVA MC was set to 0dB threshold on each band, with crossovers at 100hz, 750hz and 5.5khz. Note the band crossovers.</p>
+
+<p>While doing this, I noticed something interesting… AVA seems to not split the signal into bands for detection, or if it does, then the envelope generators are all linked. The total input signal is what affects each band, so a 15khz signal will make ALL of the bands operate.</p>
+
+<p><strong>THIS TEST IS INVALID!</strong></p>
+
+<p>It’s invalid and doesn’t actually measure anything useful. It does offer some information that can be used though.</p>
+
+<h2 id="amplitude-response---all-bands---second-attempt">Amplitude response - all bands - Second attempt</h2>
+
+<img src="/assets/AVA/MC/Amplitude2.png" alt="Amplitude response, all bands">
+<div class="image-caption">Amplitude response, all bands</div>
+
+<img src="/assets/AVA/MC/Amplitude2Setup.png" alt="AVA Setup for the above test">
+<div class="image-caption">AVA Setup for the above test</div>
+
+<p>This time I’m running the same settings, but feeding pink noise and recording the max level of each frequency bin in an FFT analyzer.</p>
+
+<p>This time we can see some clear information. The bands in AVA do not respond equally. The high and low bands are more aggressive, and the low band appears to have a more aggressive slope.</p>
+
+<p>The result is strange to me. The captured results don’t match what’s shown in the GUI. The GUI shows that the high and low bands are more aggressive, but the results nearly the opposite.</p>
+
+<h3 id="amplitude-response---all-bands---second-attempt---second-attempt">Amplitude response - all bands - Second attempt - Second attempt</h3>
+
+<img src="/assets/AVA/MC/AmplitudeResults22.png" alt="Amplitude response, all bands, again... again.">
+<div class="image-caption">Amplitude response, all bands, again... again.</div>
+
+<p>Let’s try the second attempt again.</p>
+
+<p>I’m using a different measurement system here that utilizes an impulse for measurement. Since this is a dynamic processor, it may not be a valid way of measuring things. (Spoiler alert: it is. I added this test after discovering more about this product).</p>
+
+<p>The test here is using the same settings as previously.</p>
+
+<p>What have we learned from the test? Not much really. All of these tests are relatively unreliable other than looking at them relative to each other (does the testing method change the result?). It is clear here that the GUI’s display once again does not match what is measured.</p>
+
+<p>You may get the idea that it’s not using ‘dynamic filters’, but instead mixing in band-limited ‘bands’ of the original signal. That’s <em>exactly</em> what filters boil down to though, so you can dismiss that notion. (I’ve had someone ask this about another product)</p>
+
+<p>I did see something else interesting here though… Those two colours are left and right response. Is it processing the left/right differently or is that some sort of bug?</p>
+
+<h3 id="amplitude-response---all-bands---second-attempt---second-attempt---second-attempt">Amplitude response - all bands - Second attempt - Second attempt - Second attempt</h3>
+
+<img src="/assets/AVA/MC/Stereo.png" alt="Stereo test">
+<div class="image-caption">Stereo test</div>
+
+<p>This is my second attempt at the second attempt’s second attempt. This time I’m curious if there’s a bug with the previous testing, or if AVA MC is actually processing L/R differently.</p>
+
+<p>This is what I’m doing:</p>
+
+<ol>
+  <li>Send noise with the signal the same on both sides (mono noise)</li>
+  <li>Invert the left channel</li>
+  <li>Process with AVA MC</li>
+  <li>Invert the left channel (again)</li>
+  <li>Measure with stereoscope</li>
+</ol>
+
+<p>If AVA MC was processing the 2 channels differently in response to the same information, then the red line in the stereoscope would be anything but vertical. It <em>is vertical</em>, which tells us that the signal was not processed differently in response to a similar signal.</p>
+
+<p>So it doesn’t appear that there’s any tricks here, just a bug in PluginDoctor or AVA MC. Likely PluginDoctor?</p>
+
+<h2 id="amplitude-response---all-bands---third-attempt">Amplitude response - all bands - Third attempt</h2>
+
+<img src="/assets/AVA/MC/Amplitude3.png" alt="Amplitude response, all bands">
+<div class="image-caption">Amplitude response, all bands</div>
+
+<img src="/assets/AVA/MC/Amplitude3Setup.png" alt="AVA Setup for the above test">
+<div class="image-caption">AVA Setup for the above test</div>
+
+<p>This time I’m trying with guassian distributed white noise. The analyzer’s slope is compensated to appear “flat”.</p>
+
+<p>Once again the response does not look like what the GUI implies it will be. The low and high bands are shown in AVA MC to be compressed <em>more</em>, but in the measurement they clearly are not.</p>
+
+<p>Given that AVA MC responds different to white and pink noise, it appears that there’s some sort of pre-filter or potentially something in the design of the envelope generator causing a frequency dependent response to input level.</p>
+
+<p>It’s likely that this is a result of the envelope follower/generator used in AVA MC, and not anything of concern. White and Pink noise have different spectral profiles (and thusly densitities) so this result is expected with even a naive envelope section. It <em>does</em> appear that AVA MC’s results are different than what I’d expect. That could be a good thing.</p>
+
+<h2 id="phase-response">Phase response</h2>
+
+<a href="/assets/AVA/MC/PhaseResults1.png">
+<img src="/assets/AVA/MC/Thumbnails/PhaseResults1.jpg" alt="Phase Results (Click for larger image)">
+</a>
+<div class="image-caption">Phase Results (Click for larger image)</div>
+
+<a href="/assets/AVA/MC/PhaseComp1.png">
+<img src="/assets/AVA/MC/Thumbnails/PhaseComp1.jpg" alt="Competitor (click for larger image)">
+</a>
+<div class="image-caption">Competitor (click for larger image)</div>
+
+<p>The first thing here is a somewhat naive test. A sine wave is swept and the input and output are compared. Given what was seen in the amplitude tests, this won’t say much other than the existence of crossovers in the signal path.</p>
+
+<p>AVA MC is setup so that it has maximum range on each band, a threshold decreasing by 3dB for each subsequent band, a quick attack, quick release and no threshold.</p>
+
+<p>A competing multi-band compressor was setup with identical settings for band, range, attack, release and threshold. The results are <em>very</em> different.</p>
+
+<p>Even with some fairly extreme processing, the phase response of the product is consistently clean. In fact, it looks an <em>awful lot</em> like a minimum phase equalizer…</p>
+
+<h3 id="is-it-an-eq">Is it an EQ?</h3>
+
+<a href="/assets/AVA/MC/EQMatchAmp.png">
+<img src="/assets/AVA/MC/Thumbnails/EQMatchAmp.jpg" alt="EQ Match Amplitude (click for larger image)">
+</a>
+<div class="image-caption">EQ Match Amplitude (click for larger image)</div>
+
+<a href="/assets/AVA/MC/EQMatchPhase.png">
+<img src="/assets/AVA/MC/Thumbnails/EQMatchPhase.jpg" alt="EQ Phase Match (click for larger image)">
+</a>
+<div class="image-caption">EQ Phase Match (click for larger image)</div>
+
+<p>I took some time with a very well known Equalizer in minimum-phase mode to do a rough attempt at matching the response curve of AVA MC.</p>
+
+<p>With a <em>similar</em> curve, we get a similar phase response. When looking at the phase response of the competing multiband compressor, which clearly has crossovers in the signal path, it appears that AVA MC has no crossovers in the signal path.</p>
+
+<p>It seems from this cursory look that AVA MC feeds the signal to an envelope detector/generator, then manipulates the gain of filters in the signal path using that envelope. This method is generally called a dynamic equalizer (not a multiband compressor!).</p>
+
+<h3 id="looking-deeper">Looking deeper</h3>
+
+<img src="/assets/AVA/MC/SingleBandFreq.png" alt="Single Band Frequency Response">
+<div class="image-caption">Single Band Frequency Response</div>
+
+<img src="/assets/AVA/MC/SingleBandPhase.png" alt="Single Band Phase Response">
+<div class="image-caption">Single Band Phase Response</div>
+
+<p>Firstly, I purchased <a href="https://ddmf.eu/plugindoctor">the above product</a> specifically for this test. $19 for one section in an article.</p>
+
+<p>This time I used a different testing software which uses an impulse instead of a sweep to test AVA MC.</p>
+
+<p>I activated a single band in AVA MC, stored the results, then attempted to match the frequency response with a <a href="https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in">well known equalizer</a>. When the frequency response was matched, the phase response matched.</p>
+
+<p>There are very clearly no crossovers in the processing signal path. That would mean that any dynamic action is adjusting the amplitude (and potentially bandwidth/shape) of a filter.</p>
+
+<p>I’m fairly certain that AVA Multiband Compressor is a dynamic equalizer of some sort and <em>not</em> a multiband compressor.</p>
+
+<h2 id="just-a-sine-wave">Just a sine wave</h2>
+
+<img src="/assets/AVA/MC/IMD.png" alt="IMD likely">
+<div class="image-caption">IMD likely</div>
+
+<p>Passing a sinewave through AVA (while it’s active) shows what appears to be some <a href="https://en.wikipedia.org/wiki/Intermodulation">intermodulation distortion</a>. This is common in dynamic processors, but it is avoidable!</p>
+
+<p>Just how bad is it?</p>
+
+<img src="/assets/AVA/MC/IMD2.png" alt="IDM part deux">
+<div class="image-caption">IDM part deux</div>
+
+<p>Eh. It’s not that bad. -104dB down with attack at 1.5ms. I’m not going to sweat that. It could be improved, or nearly eliminated, but with sensible attack values (5ms+) it’s nearly gone anyway.</p>
+
+<h2 id="bypass">Bypass</h2>
+
+<img src="/assets/AVA/MC/Bypass.png" alt="Bypassing">
+<div class="image-caption">Bypassing</div>
+
+<p>You knew it was coming. What about bypass??</p>
+
+<p>The bypass still isn’t sufficiently crossfaded, but it’s better than a lot of plugins. If you want to see really awful results then <a href="/music/2017/11/21/What-do-I-want-in-an-EQ.html#bypass">look no further than Waves’ plugins</a>.</p>
+
+<p>AVA MC’s bypass only has a very faint audible click, which is more than fine for auditioning things. AVA MC’s bypass is about on par with <a href="https://www.fabfilter.com">Fabfilter’s</a> implementation.</p>
+
+<p>I’ll give this one a ‘pass’.</p>
+
+<h1 id="multiband-vs-dynamic-eq">Multiband vs Dynamic EQ</h1>
+
+<a href="/assets/AVA/MC/MBvDyn.png">
+<img src="/assets/AVA/MC/Thumbnails/MBvDyn.png" alt="Multiband Compressor vs Dynamic Equalizer">
+</a>
+<div class="image-caption">Multiband Compressor vs Dynamic Equalizer (Click for larger image)</div>
+
+<p>The above investigation is not an indicated of poor quality processing. It’s the opposite in fact. Let’s explore the difference between what’s generally called “Multiband compression” and “Dynamic Equalization”.</p>
+
+<p>Here are the main differences:</p>
+
+<ul>
+  <li>Multiband Compressor - Signal that passes through the crossovers is the same signal that passes through the output.</li>
+  <li>
+    <p>Dynamic Equalizer - Signal that passes through the crossovers does <strong>not pass</strong> to the output.</p>
+  </li>
+  <li>Multiband Compressor - The dynamic processors changes the amplitude of the signal that passes through.</li>
+  <li>
+    <p>Dynamic Equalizer - The dynamic processors adjust the amplitude of filters in the main signal path.</p>
+  </li>
+  <li>Multiband Compressor - Crossover filters always are in effect on the signal, even when the processor is ‘at rest’.</li>
+  <li>
+    <p>Dynamic Equalizer - Crossover filters never touch the signal. When the processor is at rest, the passing signal is untouched.</p>
+  </li>
+  <li>Multiband Compressor - Only one layer of interaction.</li>
+  <li>
+    <p>Dynamic Equalizer - Filters and bands in detection signal could be altered separately, if designed to allow that access.</p>
+  </li>
+  <li>Multiband Compressor - Steep crossovers impart a consistent, and audible, phase rotation at all times.</li>
+  <li>Dynamic Equalizer - Steep crossovers do not impart any ‘sound’. It is possible to have a precise</li>
+</ul>
+
+<p>“True” multiband compressors have their place. The ‘always active’ crossovers impart a sound that is desirable sometimes, but in the pursuit of ‘transparency’ this is clearly not an ideal signal path.</p>
+
+<p>Dynamic Equalizers instead pull the crossovers out of the signal path and only use them to determine signal level for a given band, then that level drives an envelope generator that adjusts the level of a filter. The result is cleaner, and potentially more flexible..</p>
+
+<p>Based upon my research, AVA MC is of the Dynamic Equalizer variety, but a unique variant. I personally feel that in the pursuit of relatively transparent processing, this is the better choice.</p>
+
+<h2 id="ava-mc-vs-everything-else">AVA MC vs everything else</h2>
+
+<a href="/assets/AVA/MC/AVADiag.png">
+<img src="/assets/AVA/MC/Thumbnails/AVADiag.png" alt="AVA signal flow guess">
+</a>
+<div class="image-caption">AVA signal flow guess</div>
+<p>I’m not <em>certain</em> this is how AVA MC operates, but based on the above testing this is my guess.</p>
+
+<p>AVA MC does not appear to have any crossovers or ‘bands’ in the detection path. It seems like the input signal is filtered and fed to 4 different envelope generators. Those envelope generators control the amplitude of 4 filters that are acting on the signal.</p>
+
+<p>This is in contrast to how either multiband compressors or dynamic equalizers work, making this a somewhat unique processor if I’m correct.</p>
+
+<p><strong>IMPORTANT! IMPORTANT!</strong> After reading this article, please <a href="/music/2019/01/31/Harrison-AVA-MC-Part-2.html">read the followup article</a>.</p>
+
+<h1 id="technical-conclusion">Technical conclusion</h1>
+
+<p>No conclusion here. I just prodded and poked.</p>
+
+<p>It’s most certainly not a ‘multiband compressor’ as nearly every other company defines it, but that’s a naming/marketing issue.</p>
+
+<h1 id="user-experience">USER Experience</h1>
+
+<h2 id="gui">GUI</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/AVA/MC/GUI.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">GUI themes</div>
+
+<p>The GUI is ok. It’s not remarkable by any standard, but it’s a step up from the original <a href="/music/2017/09/30/Review-of-Mixbus-effect-plugins.html#xt-mc-multiband-compressor">XT-MC</a> that was rather ugly.</p>
+
+<p>AVA MC has an alternate yellow skin that draws on the style of the original XT-MC.</p>
+
+<p>I don’t personally find the GUI exciting, but it’s difficult to find fault with it. Elements are proportionally spaced, I don’t notice any glaring misalignment.</p>
+
+<p>There is quite a bit of unnecessary empty space on the GUI, but I can’t think of how I would improve that without making it look cluttered. I’m certainly not a GUI designer, so perhaps someone else could improve on it.</p>
+
+<p>Thankfully it’s not skeuomorphic either.</p>
+
+<p>I found the interface easy to use, easy to identify what was going on and not fatiguing. It almost pains me to say it too, because at first glance I didn’t think it looked good at all.</p>
+
+<p>First glances aside, I still don’t think it looks that great, but it’s an improvement over XT-MC.</p>
+
+<h2 id="interaction">Interaction</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/AVA/MC/Interact.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Interaction</div>
+
+<p>AVA MC is one of the easiest to use “Multiband Compressors” (<strong>AHEM</strong> unique dynamic equalizers) out there.</p>
+
+<ul>
+  <li>Left Slider - This seems to increase the input gain, and simultaneously reduce the output gain.</li>
+  <li>Band controls - Threshold for each control, solo, in (mute), and frequency. The frequency control sets the left-most boundary of the filter</li>
+  <li>Global envelope - These controls change the envelope of the dynamic movement of the filter bands.</li>
+  <li>Sidechain - The entire process can be <em>controlled</em> by one signal (the sidechain signal), yet act on another. There is an internal filtered path for sidechaining, or you can use completely different audio.</li>
+  <li>Expand - Rather than <em>reducing</em> the filter bands, AVA MC can increase them.</li>
+</ul>
+
+<p>The global envelope controls are a bit of a disappointment. It’s generally desirable to have different envelope characteristics per band. High frequency sounds happen quicker than low-frequency sounds <em>generally</em>, and appropriate attack/release for that is desirable in many cases. <strong>HOWEVER</strong> AVA MC appears to work on the full input signal, so global controls almost make sense… but I still dislike it.</p>
+
+<p>Despite my dislike of the global envelope controls, I didn’t find many times where it was a major issue when considering how this thing works.</p>
+
+<h2 id="analyzer">Analyzer</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/AVA/MC/Analyzer.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Analyzer</div>
+
+<p>AVA MC has 2 analyzer modes, the first of which is rather unique.</p>
+
+<ul>
+  <li>Lightning - Lighting mode is a line-based FFT style analyzer with trim (increase/decrease level) and decay controls. The display is rather small though. It displays a very small range of audio. I tested and it appears to only show about 18dB of audio. The result of this is that you only see the peaks of the signal’s frequency spectrum. Since AVA MC maxes out at a 12dB range, I would consider this a smart design decision, even if it is annoying at first.</li>
+  <li>Scroll - This is a vertically scrolling spectrograph. Frequency is shown on the X axis, time on the Y axis (scrolling). The amplitude of a given frequency is communicated with an increasing intensity of the colour from black to red to yellow.</li>
+</ul>
+
+<p>This analyzer is in <a href="/music/2018/05/01/Harrison-AVA-Mastering-EQ-investigation.html">some other AVA products</a>, and I’m not a fan of it in that context at all.</p>
+
+<p>AVA MC using this style of analyzer works quite nicely. I’d say that it’s more effective than most of the competition, and once you learn to use the “Scroll” mode it’s easy to get what you want done quickly.</p>
+
+<p>I <em>really</em> like this analyzer style. The only company I know of with similarly capable analyzers in their products is <a href="https://www.meldaproduction.com">Melda Production</a>.</p>
+
+<h1 id="market-comparison">Market Comparison</h1>
+
+<img src="/assets/AVA/MC/Compare.png" alt="Comparison to Market Leaders">
+<div class="image-caption">Comparison to Market Leaders</div>
+
+<p>The primary competitor to AVA MC is likely the ubiquitous <a href="https://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in">Pro-MB</a> or <a href="https://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in">O8N2 Bundle</a>.</p>
+
+<p>AVA MC is much cheaper than these options. Surprisingly, <a href="https://www.fabfilter.com/help/pro-mb/">Pro-MB defaults to a dynamic EQ setup!</a>. This makes a direct comparison with AVA MC make more sense, even though AVA MC is somewhat different.</p>
+
+<p>Pro-MB has per-band envelope, knee, ratio and makeup controls and sidechain. The GUI is clearly fancier as well. Pro-MB lets you disconnect the “control band” (sound that’s used for a band’s detection) so that you can act on one frequency range, but the detection follows another.</p>
+
+<p>Pro-MB can also work like a traditional multi-band compressor with minimum-phase and linear-phase modes. It has compress and expand modes as well. It also has per-band look ahead, which is a fantastic feature.</p>
+
+<p>AVA MC stands up pretty well to the feature set. The most significant “missing” feature would be the ability to unlike the processing and detection bands and the inability to act like a traditional multiband compressor, or that it doesn’t appear to have internal crossovers per band.</p>
+
+<p>Another option would be <a href="https://www.tokyodawn.net/tdr-nova-ge/">TDR Nova GE</a>. Similar price and featureset given that it’s a Dynamic EQ. It has per-band envelope controls and ratio, unlike AVA MC. Nova also has a ‘match’ feature where Nova will listen to 2 signals and attempt to create a setup that matches the frequency response of signal 2 to signal 1.</p>
+
+<p>TDR Nova GE is a bit more difficult to use, given the number of parameters. It may seem like a ridiculous complaint, but I have seen a number of people confused as to how to utilize Nova GE. AVA MC is much, much simpler to operate.</p>
+
+<p>Yet another option is <a href="http://www.apulsoft.ch/apqualizr2/">apQualizr 2</a>. I was able to replicate AVA MC’s behaviour closely in apQualizr with some effort. The amount of effort that was necessary was somewhat prohibitive to be considered for general use (though you could save a preset). AVA MC loses out in sheer functionality, but is much easier to use <em>for this specific task</em>.</p>
+
+<p>AVA MC also scores some points due to it’s uniqueness in not having internal crossovers controlling each filter band (though this can be replicated in apQualizr).</p>
+
+<h2 id="sidechain">Sidechain</h2>
+
+<img src="/assets/AVA/MC/Sidechain.png" alt="Multiband Sidechaining">
+<div class="image-caption">Multiband Sidechaining</div>
+
+<p>AVA MC has the ability to accept an external sidechain, which is a feature missing from a number of Multiband Compressors and Dynamic Equalizers.</p>
+
+<p>I <a href="/music/2018/08/09/Sidechain-Better-with-dynamic-EQ-sidechaining.html">wrote about the uses for this in a previous post</a>, along with how to create your own.</p>
+
+<p>The gist of this is that you can utilize something like a kick drum to trigger compression on a bass guitar, <strong>except</strong> you would setup AVA MC so that only the low-end of the bass guitar is affect. Normal sidechaining would affect the <em>entire</em> signal. Sidechaining with AVA MC (or any other similar product) yeilds a cleaner signal and doesn’t create that temporary void.</p>
+
+<p>You could just as well use the expand mode to do the opposite. Put AVA MC on an ambient mic, feed it the signal from a lavalier, set AVA MC to expand mode and now you can tune in a more natural sounding dialog on a dry lavalier (but without the boominess! Just don’t expand the low end!).</p>
+
+<p>As seen in the image above, you can clean up a mix quite quick with this feature. X is time, Y is frequency and amplitude of each frequency band is colours. Green is low, yellow is mid, red is high.</p>
+
+<h3 id="bugs-and-annoyances">Bugs and Annoyances</h3>
+
+<p>As of this review there was a few issues with the Sidechain.</p>
+
+<ul>
+  <li>
+    <p>If you use VST3 in a host that doesn’t support ‘VST3 Sidechaining’, then you’re going to end up in a world of hurt. You can still send audio to the 3/4 input, but it will be mixed with the main input. Solo won’t work correctly, the EQ won’t work correctly. Nothing really works right.</p>
+
+    <p>That means that if you want some of the <a href="https://www.steinberg.net/en/company/technologies/vst3.html">benefits that VST3 offers</a>, then you’re out of luck unless your host <em>specifically</em> supports VST3 sidechaining.</p>
+  </li>
+  <li>
+    <p>The other problem is that some hosts don’t solo all dependent tracks. This can effectively make the key solo button useless. It also can make the sidechain totally useless itself. Many DAWs will mute ALL tracks, even your sidechain key track, when you solo something. So you need to hunt that down and solo it as well. This isn’t Harrison’s fault by any means, but it is annoying nonetheless.</p>
+  </li>
+  <li>
+    <p>The sidechain filter does not work alone. You can’t filter the detection signal itself like in most compressors. This isn’t <em>particularly</em> important since this is a multiband processor, as you can just <em>not effect that frequency area</em>. The GUI does seem to indicate that this behaviour would be possible, and it would effectively add you sort of a ‘half band’ of extra control.</p>
+  </li>
+  <li>
+    <p>Sometimes I would get some clicky behaviour when using the sidechain with kickdrums. Even when this happened, it sounded relatively pleasant.</p>
+  </li>
+  <li>
+    <p>As of this version, the RTA does not show the sidechain signal when it is present. That means that if you have a sidechain signal controlling your compressor, then you can not see the signal that is ‘doing the work’. I believe that the “pre” mode should show the sidechain, and the post mode should show the affected signal when sidechain is active.</p>
+  </li>
+</ul>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>The point of AVA MC isn’t to provide a giant of functionality and set ablaze with a canvas of controls. It’s a simple setup that’s made to help solve problems. If you have a part of your spectrum that peaks out sometimes, not always, then you can transparently tame it with AVA MC.</p>
+
+<p>I tried it on quite a few recordings and even with extreme settings it was easy to forget it was there at times.</p>
+
+<p>I <a href="/music/2017/09/30/Review-of-Mixbus-effect-plugins.html#xt-mc-multiband-compressor">reviewed the direct ancestor of AVA MC before</a>, and I was not kind to it. I found it exceedingly confusing to utilize it like I expected a Multiband Compressor to act, and thusly I wrote it off as inferior to other options.</p>
+
+<p>After spending significantly more time with AVA MC, I’ve realized that it’s not much like other multiband compressors, because <a href="#technical">it’s not one at all!</a>. With that knowledge in mind, I’ve found that it’s a surprisingly easy to use alternative to other more complex dynamic equalizers on the market.</p>
+
+<p>For the purpose of “Mastering” (as most people call it, the final processing of a track), AVA MC is a far better choice than multiband compressors as the crossovers are not in the signal path. Simply for this task alone it’s valuable.</p>
+
+<p>It is a unique enough product that I suspect it’d be valuable for even people with large plug-in collections. You <em>can</em> replicate AVA MC fairly closely with any modular-like environment, but then you lose a lot of the ease-of-use.</p>
+
+<p>There seem to be a few bugs (I was a beta tester too… blame this on me!), especially that the GUI’s gain reduction controls appear to be incorrect? Hopefully this will be fixed, or someone from Harrison will tell me I’m wrong and explain why.</p>
+
+<p>Buy or not? I’d say buy.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 15 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

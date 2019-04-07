@@ -1,0 +1,15 @@
+I"B<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Tutorial/Setup.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Everything setup</div>
+
+<p>In <a href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html#modifier-nitpicks">my previous Waveform Review</a> I talked about issues with the Envelope Follower modifier.</p>
+
+<p>The issue is that if you want to route audio from Track A to the modulate audio on Track B, <del>it requires a workaround with Racks</del></p>
+
+<p><strong>EDIT</strong>: Racks are NOT necessary unless you want the envelope to happen live. I updated this post on the 16th of March to reflection a correction by a reader. Thank you PierreG!</p>
+
+<p>Someone asked for instructions on how to do this. So here it is!</p>
+
+:ET

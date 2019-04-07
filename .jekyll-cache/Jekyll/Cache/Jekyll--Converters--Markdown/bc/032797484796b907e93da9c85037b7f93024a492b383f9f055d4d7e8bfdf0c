@@ -1,0 +1,92 @@
+I"4<p>I’m not going to make a normal post this week, but I’d like to let readers know what’s happening.</p>
+
+<p>It’s not exciting, just life things.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#stuff" id="markdown-toc-stuff">Stuff</a></li>
+  <li><a href="#health" id="markdown-toc-health">Health</a></li>
+  <li><a href="#plans" id="markdown-toc-plans">Plans</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="stuff">Stuff</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/vBJxJv0-cMo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>Here’s what I’ve been doing instead of spending 20-40 hours writing a post this week. It’s been letting me catch up with normal life.</p>
+
+<ul>
+  <li>I’ve been slowly working on my vegetable and wheat garden for the year.
+    <ul>
+      <li>I know all that grass is going to come back with a vengeance. We’re cover-cropping it out slowly over 2 growing seasons.</li>
+    </ul>
+  </li>
+  <li>Planning new backend features, such as a new DAW Chart based on a proper database.
+    <ul>
+      <li>(This needs to be more doing and less planning! I’m not sure how I want to integrate the backend into the static site cleanly)</li>
+    </ul>
+  </li>
+  <li>Switching to a <a href="https://www.uaudio.com/audio-interfaces/apollo-x8p.html">UA Apollo X</a> based interface system. I’ve doubled down on the UA stuff and also purchased an Octo Satellite and Apollo Twin.
+    <ul>
+      <li>Also selling stuff so I can afford that. (A lot of stuff) Contact me if you’re interested in Focusrite Clarett 8PreX’s! Fantastic product.</li>
+    </ul>
+  </li>
+  <li>Planning my next post/video on DAW Automation. Next one is a bit more difficult to present properly, and I want to make sure the information is accurate!</li>
+  <li>Working with two products so I can hopefully present a nice review.</li>
+  <li>Health… stupid health.</li>
+</ul>
+
+<h1 id="health">Health</h1>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Yr7jnmiF_0U" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p><strong>EDIT</strong>: Youtube flagged the video above as spam/scam (what?). <a href="https://streamable.com/u5yfq">You can see it here</a>.</p>
+
+<p>My health state has been less than stellar recently. Lately I’ve been dealing with these <a href="https://en.wikipedia.org/wiki/Fasciculation">fairly intense twitches</a> all over my body. Upper arms, thighs, cheeks, forearms, eyelids and chest. Every few hours, sometimes multiple happening at once.</p>
+
+<p>After a few minutes of that, there’s a dull pain left behind then intense cramping a few hours later.</p>
+
+<p><a href="https://en.wikipedia.org/wiki/Fasciculation">The twitches</a> are most likely benign and symptoms of/from <a href="https://en.wikipedia.org/wiki/Fibromyalgia">Fibromyalgia</a>, but man are they annoying, and the ones in my arms affect my ability to type for quite a period of time.</p>
+
+<p>I do take a magnesium supplement and eat spinach or kale daily, so <a href="https://en.wikipedia.org/wiki/Magnesium_deficiency">magnesium deficiency</a> is an unlikely cause.</p>
+
+<p>That’s on <a href="/general/2018/06/09/Lets-talk-about-me-and-my-future.html">top of my usual issues</a>.</p>
+
+<p>I’m trying to maintain a baseline level of capability so that I can work efficiently on other work that I’m <em>very</em> happy to be a part of. Time management is crucial! Maybe I should write a post about how I schedule/manage things… hmm.</p>
+
+<h1 id="plans">Plans</h1>
+
+<p>I’m working on various things for this site that you don’t get to see until they’re done. I’ve spent at least 10 hours this week working on backend bits, and writing new software for the site. (Yet another Clojure static site generator?? <a href="https://www.datomic.com"> DAWtomic </a>?)</p>
+
+<p>Unsure how much of that effort will yield fruit, but it’s happening!</p>
+
+<p>Two new software product reviews are coming as well, and of course new DAW v DAW content.</p>
+
+<p>I’m hoping to have more music-oriented workshop content again soon. Once I feel like I can safely operate my body in the shop for a major project, then I’m on it!</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Thanks for reading! I want to make sure that people know I’m still working hard on content!</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 1 hour to write.. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

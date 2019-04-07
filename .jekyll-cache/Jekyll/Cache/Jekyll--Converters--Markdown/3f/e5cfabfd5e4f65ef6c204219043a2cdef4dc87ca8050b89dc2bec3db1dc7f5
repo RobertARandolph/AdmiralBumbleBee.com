@@ -1,0 +1,32 @@
+I"$<p>I am not a web admin. I’m not a web guy. I’m not a network guy. There is one thing that I think I’m pretty good at though, and that’s responding to well-spoken criticism.</p>
+
+<p>So <a href="https://en.wikipedia.org/wiki/HTTPS">https is live</a> and <a href="https://doesmysiteneedhttps.com/">here is why it matters</a>. Please update your bookmarks to use <a href="https://www.admiralbumblebee.com">https://www.admiralbumblebee.com</a>!</p>
+
+<p><a href="https://www.digitalocean.com/community/tutorials/how-to-secure-apache-with-let-s-encrypt-on-ubuntu-16-04">Here is how</a> I set it up on <a href="https://www.digitalocean.com">my server</a> using <a href="https://certbot.eff.org">certbot</a> and <a href="https://httpd.apache.org">apache</a>. Type the commands in the boxes while ssh’d in to your server.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">sudo add-apt-repository ppa:certbot/certbot</code> - add the certbot repo</li>
+  <li><code class="highlighter-rouge">sudo apt-get update</code> - update your apt packages</li>
+  <li><code class="highlighter-rouge">sudo apt-get install python-certbot-apache</code> - install the certbot bot for apache</li>
+  <li><code class="highlighter-rouge">sudo certbot --apache -d admiralbumblebee.com -d www.admiralbumblebee.com -d admiralbubblebath.com -d www.admiralbubblebath.com</code> - setup the bot and acquire certificates for the domains associated with this website</li>
+  <li><code class="highlighter-rouge">1</code> - it asks if you wish to enable redirection. I have this turned <em>off</em> currently. I may change this in the future.</li>
+  <li><code class="highlighter-rouge">sudo certbot renew --dry-run</code> - This simply checks to make sure the certificate renewal process works correctly in 90 days when it expires.</li>
+</ul>
+
+<p>That’s all there was too it. It only took me a few minutes.</p>
+
+<p><strong>EDIT</strong> -</p>
+
+<p>Since this post I installed certbot-auto. This is as easy as navigating to the directory that you wish to install it in, and using the following 2 commands:</p>
+
+<ul>
+  <li><code class="highlighter-rouge">wget https://dl.eff.org/certbot-auto</code></li>
+  <li><code class="highlighter-rouge">chmod a+x certbot-auto</code></li>
+</ul>
+
+<p>Use <code class="highlighter-rouge">./path/to/certbot-auto</code> the same way as you use certbot in the above information. It automatically updates itself and generally works better.</p>
+
+<p>I also forgot to mention that I added a cronjob for renewing with the command <code class="highlighter-rouge">crontab -e</code> then adding the following line to the end of the file (this is for apache, which is what I run):</p>
+
+<p><code class="highlighter-rouge">52 0,12 * * * root /home/certbot-auto renew --quiet --pre-hook "sudo service apache2 stop" --post-hook "sudo service apache2 start"</code></p>
+:ET

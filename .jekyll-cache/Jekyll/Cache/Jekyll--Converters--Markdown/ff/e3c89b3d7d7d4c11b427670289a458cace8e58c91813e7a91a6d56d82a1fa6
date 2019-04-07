@@ -1,0 +1,155 @@
+I"N"  <img src="/assets/A7/Unscrew.jpg" alt="Take it apart">
+  <div class="image-caption">A7 front panel removed</div>
+
+<p>I love my Adam A7 monitors, but they have a known issue with the power switches ‘locking’ in the on or off position. This happened to me and the fuse also blew. I know this is a simple repair, but I thought I’d browse the web and see if anyone has explained how to do it. I found nothing except some somewhat poor videos on the topic.</p>
+
+<p>So I’m going to walk you through the process step-by-step.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#what-you-need" id="markdown-toc-what-you-need">What you need</a></li>
+  <li><a href="#unscrew" id="markdown-toc-unscrew">Unscrew</a></li>
+  <li><a href="#clip" id="markdown-toc-clip">Clip</a></li>
+  <li><a href="#remove-heat-shrink" id="markdown-toc-remove-heat-shrink">Remove heat shrink</a></li>
+  <li><a href="#remove-the-goop" id="markdown-toc-remove-the-goop">Remove the goop</a></li>
+  <li><a href="#clip-switch" id="markdown-toc-clip-switch">Clip switch</a></li>
+  <li><a href="#remove-switch" id="markdown-toc-remove-switch">Remove switch</a></li>
+  <li><a href="#test" id="markdown-toc-test">TEST!</a></li>
+  <li><a href="#re-assemble" id="markdown-toc-re-assemble">Re-assemble</a></li>
+  <li><a href="#replace-fuse" id="markdown-toc-replace-fuse">Replace fuse</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="what-you-need">What you need</h1>
+
+  <img src="/assets/A7/Supplies.jpg" alt="Supplies">
+  <div class="image-caption">The tools that you need</div>
+
+<p>Here’s the supplies that you need:</p>
+
+<ul>
+  <li><a href="https://www.amazon.com/OLFA-Cushion-Grip-Art-Knife/dp/B0006O87TQ/ref=sr_1_3?ie=UTF8&amp;qid=1511118307&amp;sr=8-3&amp;keywords=olfa+hobby+knife">Hobby knife</a> with a sharp blade (no 11)</li>
+  <li>Some sort of clippers, even nail clippers will work fine.</li>
+  <li><a href="https://www.amazon.com/Terminal-Black-Round-Rocker-Switch/dp/B0057M4J4E/ref=sr_1_5?keywords=spst+rocker+switch&amp;qid=1551821728&amp;s=gateway&amp;sr=8-5">Round 10a 125v Rocker switch</a></li>
+  <li>Flathead screw driver, small and thin tip if possible</li>
+  <li>FUSE - <a href="https://www.amazon.com/gp/product/B01ANBZV4U/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">5mm x 20mm 127v 2amp slow-blow fuse</a>.</li>
+</ul>
+
+<h1 id="unscrew">Unscrew</h1>
+
+  <img src="/assets/A7/Unscrew.jpg" alt="Unscrew">
+  <div class="image-caption">Unscrew the front assembly</div>
+
+<p><em><strong>UNPLUG THE MONITORS FIRST</strong></em></p>
+
+<p>The first part is simple, just unscrew the 4 screws on the front assembly and <em>gently</em> pull it out. Be careful to not disconnect any wires to the volume control.</p>
+
+<h1 id="clip">Clip</h1>
+
+  <img src="/assets/A7/Clip.jpg" alt="Clip">
+  <div class="image-caption">Clip the zip tie</div>
+
+<p>If there’s a zip tie, remove it.</p>
+
+<h1 id="remove-heat-shrink">Remove heat shrink</h1>
+
+  <img src="/assets/A7/HeatShrink.jpg" alt="Remove heat shrink">
+  <div class="image-caption">Remove Heatshrink</div>
+
+<p>Use your hobby knife to carefully cut a line down so that you can expose the wires, but do not yet remove the material! Just cut it as in the image to mostly unbundle the wires.</p>
+
+<h1 id="remove-the-goop">Remove the goop</h1>
+
+  <img src="/assets/A7/Around.jpg" alt="Around">
+  <div class="image-caption">Cut Around</div>
+
+<p>Now carefully cut around the switch, as close as you can to the faceplate. Don’t worry about cutting in to the switch. You want to cut away as much of the goop and heat shrink as you can.</p>
+
+<p>You <em>DO</em> need to be careful of the LED. I removed mine while working on this, and put it back with some tape after. Just be careful and think before you do things.</p>
+
+<h1 id="clip-switch">Clip switch</h1>
+
+  <img src="/assets/A7/ClipSwitch.jpg" alt="Clip The Switch">
+  <div class="image-caption">Clip the switch</div>
+
+<p>This isn’t 100% necessary, but it makes life a lot easier. Look at the switch and on the top/bottom you will see some arms. Cut them or clip them. These support the part that holds the switch in place, and cutting them makes it much easier to remove the switch.</p>
+
+<h1 id="remove-switch">Remove switch</h1>
+
+  <img src="/assets/A7/Remove.jpg" alt="Remove the switch">
+  <div class="image-caption">Remove the switch</div>
+
+<p>The easiest way I’ve seen to remove the switch is to press the switch arms (near what we just cut) and simultaneously <em>CAREFULLY</em> push a flathead screwdriver under the skirt of the switch. Switch the screw driver (do not try to lever it upwards).</p>
+
+<p>Work slowly and try not to scratch the faceplate.</p>
+
+<p>This takes some effort, but if you are careful and work slowly it will work out just fine.</p>
+
+<h1 id="test">TEST!</h1>
+
+  <img src="/assets/A7/Test.jpg" alt="Test!">
+  <div class="image-caption">Test the switch!</div>
+
+<p>Test the switch. <em>Make sure it works!</em> I checked before with a multimeter, and checked with power on. <strong>BE CAREFUL</strong> Do not let any metal contacts touch each other, and do not touch anything! You will get shocked if you bridge the switch leads. Ask me how I know, twice.</p>
+
+<p>You don’t want to be digging out your replacement switch because you got a bad switch. Test it before you re-assemble.</p>
+
+<p>If it doesn’t turn on, make sure you <a href="#replace-fuse">check the fuse</a>. My A7s fuse blew when my switch broke as well.</p>
+
+<h1 id="re-assemble">Re-assemble</h1>
+
+  <img src="/assets/A7/ReAssemble.jpg" alt="Re-assemble">
+  <div class="image-caption">Put it together</div>
+
+<table>
+  <tbody>
+    <tr>
+      <td>Re-assemble the switch and make sure you put it in the correct orientation. All A7s that I’ve seen have the ‘power on’ (the</td>
+      <td>or closed dot) on the top. The cables can be put on in any order, there’s no ‘right cable’ for either switch contact.</td>
+    </tr>
+  </tbody>
+</table>
+
+<p>Once again, you don’t want to be digging out a switch because you put it in wrong. That’s no fun.</p>
+
+<p>That’s it! Screw it back in and you’re done.</p>
+
+<h1 id="replace-fuse">Replace fuse</h1>
+
+  <img src="/assets/A7/Fuse.jpg" alt="Fuse replacement">
+  <div class="image-caption">Fuse place</div>
+
+<p>If your A7s do not turn on at all, and you are 100% sure the power switch is functional, then check the fuse.</p>
+
+<p>Simply place a flathead screwdriver in the notch under the power jack and pop out the fuse holder.</p>
+
+  <img src="/assets/A7/FuseHolder.jpg" alt="Fuse Holder">
+  <div class="image-caption">Fuse Holder</div>
+
+<p>Just pull the fuse out of the holder and replace with a <a href="https://www.amazon.com/gp/product/B01ANBZV4U/ref=oh_aui_detailpage_o00_s00?ie=UTF8&amp;psc=1">5mm x 20mm 127v 2amp slow-blow fuse</a>. It’s probably worth buying some extras if you plan on having your A7s for a while.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>That’s it. This repair should take about 15 minutes total. The hardest part is removing the original round rocker switch. Be patient and with every move you make, think of the worst possible outcome. If you think you may scratch the front plate or smash a tool in to your hand then <em>STOP</em>. Try something else.</p>
+
+<p><strong>REMINDER</strong>. Do not touch the switch leads while it’s plugged in. Don’t let them touch anything else either. I blew the <a href="https://en.wikipedia.org/wiki/Zero-ohm_link">Zero-Ohm Link</a> on one of my monitors doing that, because I’m an idiot. (I unplugged the wrong cord. Always unplug at the equipment, not the power source if you can!).</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 2 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

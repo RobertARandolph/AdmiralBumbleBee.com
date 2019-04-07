@@ -1,0 +1,129 @@
+I"r<p><img src="/assets/StudioEvaluatione/main.png" alt="Main image insert, go." /></p>
+
+<p>Ok, so here’s some things that I do and do not like so far.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#pros" id="markdown-toc-pros">Pros</a>    <ul>
+      <li><a href="#add-vca-is-awesome" id="markdown-toc-add-vca-is-awesome">Add VCA is awesome.</a></li>
+      <li><a href="#add-bus-for-selected-tracks-is-awesome" id="markdown-toc-add-bus-for-selected-tracks-is-awesome">Add Bus for selected Tracks is awesome.</a></li>
+      <li><a href="#folder-tracks-are-way-better-than-dp" id="markdown-toc-folder-tracks-are-way-better-than-dp">Folder tracks are way better than DP.</a></li>
+      <li><a href="#resizable-mixer-strips-are-amazing" id="markdown-toc-resizable-mixer-strips-are-amazing">Resizable Mixer Strips are amazing.</a></li>
+      <li><a href="#in-place-warping-is-fantastic" id="markdown-toc-in-place-warping-is-fantastic">In-place warping is fantastic.</a></li>
+    </ul>
+  </li>
+  <li><a href="#cons" id="markdown-toc-cons">Cons</a>    <ul>
+      <li><a href="#no-way-to-assign-io-to-multiple-tracks-at-once" id="markdown-toc-no-way-to-assign-io-to-multiple-tracks-at-once">No way to assign I/O to multiple tracks at once.</a></li>
+      <li><a href="#lack-of-convenient-mouse-zoom" id="markdown-toc-lack-of-convenient-mouse-zoom">Lack of convenient mouse zoom</a></li>
+      <li><a href="#drag-and-drop" id="markdown-toc-drag-and-drop">Drag and Drop</a></li>
+      <li><a href="#alternative-tool-functionality-is-inferior" id="markdown-toc-alternative-tool-functionality-is-inferior">Alternative tool functionality is inferior.</a></li>
+      <li><a href="#coalesce-vca-where-is-it" id="markdown-toc-coalesce-vca-where-is-it">Coalesce VCA? Where is it?</a></li>
+      <li><a href="#shortcuts-suck" id="markdown-toc-shortcuts-suck">Shortcuts <em><strong>SUCK</strong></em></a></li>
+      <li><a href="#no-zoom-tool" id="markdown-toc-no-zoom-tool">No zoom tool?!</a></li>
+      <li><a href="#a-single-zoom-state" id="markdown-toc-a-single-zoom-state">A single zoom state.</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="pros">Pros</h1>
+
+<h2 id="add-vca-is-awesome">Add VCA is awesome.</h2>
+
+<p><img src="/assets/StudioEvaluatione/VCA.png" alt="VCA Adding" /></p>
+
+<p>VCAs are awesome. They allow you to control the levels of various tracks while maintaining post-fader effect/send relative levels. They also give you another level of automation.</p>
+
+<p>DP does not have VCAs yet, so this is a big plus.</p>
+
+<h2 id="add-bus-for-selected-tracks-is-awesome">Add Bus for selected Tracks is awesome.</h2>
+
+<p><img src="/assets/StudioEvaluatione/bus.png" alt="Bus adding" /></p>
+
+<p>Adding a bus for selected tracks in DP is a 3 step process, and it’s a bit confusing with bundles. This is a swift and easy method that S1 uses. I like it.</p>
+
+<h2 id="folder-tracks-are-way-better-than-dp">Folder tracks are way better than DP.</h2>
+
+<p><img src="/assets/StudioEvaluatione/Folder.png" alt="Folders are great" /></p>
+
+<p>I’m not sure if this is a ‘pro’, since this something that other DAWs do right as welll. Reaper probably has the best folder track implementation <strong>by far</strong>, but DP’s is still somewhat immature.</p>
+
+<p>It’s quite useful that record enabling a folder enables all the included tracks.</p>
+
+<p>I’m happy that it is fully functional and operates intuitively in S1.</p>
+
+<h2 id="resizable-mixer-strips-are-amazing">Resizable Mixer Strips are amazing.</h2>
+
+<p><img src="/assets/StudioEvaluatione/resize.gif" alt="Resizeable mixer strips!" /></p>
+
+<p>I really wish this was standard in <em>all</em> DAWs, but it isn’t yet.</p>
+
+<p>Seriously. I love this.</p>
+
+<h2 id="in-place-warping-is-fantastic">In-place warping is fantastic.</h2>
+
+<p><img src="/assets/StudioEvaluatione/warp.gif" alt="Warping!" /></p>
+
+<p>AFAIK, only Pro Tools does this as well as S1. You can grab a bend handle and move a note where it needs to be rhythmically. It uses the timestretching stuff and resizes the rest of the note to sound pretty good in the time space between the start of the note that you are adjusting and the beginning of the next note.</p>
+
+<h1 id="cons">Cons</h1>
+
+<h2 id="no-way-to-assign-io-to-multiple-tracks-at-once">No way to assign I/O to multiple tracks at once.</h2>
+
+<p>I really dislike this. When doing lots of multitracked instruments with limited I/O, I often have to assign I/O to 16+ tracks. DP makes this easy with a dialog that lets you assign consecutive I/O to selected Tracks.</p>
+
+<p>Studio One has no such option.</p>
+
+<h2 id="lack-of-convenient-mouse-zoom">Lack of convenient mouse zoom</h2>
+
+<p>I really like to be able to zoom horizontal and vertically with the mouse when it is positioned anywhere near the sequencer area. Maybe there’s a good way to do this, but I haven’t figured out zooming too well in S1 yet. I will revisit this.</p>
+
+<h2 id="drag-and-drop">Drag and Drop</h2>
+
+<p>I hate drag and drop. Studio One uses it everywhere. The best way to add effects in S1 is to drag and drop from the Effects Browser, and I really dislike that workflow.</p>
+
+<h2 id="alternative-tool-functionality-is-inferior">Alternative tool functionality is inferior.</h2>
+
+<p>I know plenty of people probably think it’s great, but I do not like the ‘alternative tool’ functionality.</p>
+
+<p>Why? Because in DP, ANY tool is an alternative tool. You hold the tool key you want to temporarily use it, and double tap the key to make it permanent. This means that in DP all editing tools are ‘alternative tools’. In S1, you only get one.</p>
+
+<h2 id="coalesce-vca-where-is-it">Coalesce VCA? Where is it?</h2>
+
+<p>A bit strange that I can’t figure out how to coalesce VCA automation. This is really important for VCAs to be useful in some situations. Maybe this exists, but I haven’t figured it out yet.</p>
+
+<h2 id="shortcuts-suck">Shortcuts <em><strong>SUCK</strong></em></h2>
+
+<p>Seriously. The default shortcuts seem to not be thought out very well, and there’s a lot of useful keys that are not mapped by default.</p>
+
+<p>I don’t understand. They could have at least added more defaults with each version. This just seems like a huge oversight.</p>
+
+<p>The biggest annoyance is the default zoom keys as E/W. Cmd-+/- works now by default but the whole E/W thing is just really silly.</p>
+
+<h2 id="no-zoom-tool">No zoom tool?!</h2>
+
+<p>There doesn’t appear to be any way to quickly ‘grab’ an area of the sequence and zoom in. At least it has undo/redo zoom, which is helpful.</p>
+
+<h2 id="a-single-zoom-state">A single zoom state.</h2>
+
+<p>There’s 1 save zoom. Just one. Things like this do make me wonder how simple the projects that the developers work on. If a single zoom level is something they feel is reasonable then I can’t imagine that they work on particularly complex projects.</p>
+
+<p>Perhaps I’m just missing a workflow here somewhere. If I find something, I’ll obviously update.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

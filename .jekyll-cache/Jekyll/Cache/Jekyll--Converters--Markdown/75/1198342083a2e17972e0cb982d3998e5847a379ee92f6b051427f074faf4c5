@@ -1,0 +1,355 @@
+I"�C<video poster="/assets/iMacDrive/Video.jpg" controls muted preload="none">
+<source src="/assets/iMacDrive/Video.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Time Lapse Video (press play)</div>
+
+<p>I usually try to avoid duplicating information that you can easily find online other places. I want my website to be full of relatively <em>unique</em> content. This week I needed to change the hard drive in my iMac because it was failing and I wanted something better. <a href="https://www.ifixit.com/Guide/iMac+Intel+27-Inch+EMC+2309+and+2374+Hard+Drive+Replacement/1634">You can find out</a> how <a href="https://9to5mac.com/2015/02/13/how-to-swap-imac-hard-drive-for-ssd/">to do this</a> in <a href="https://www.youtube.com/watch?v=3w6E2_XqaBw">a number of places</a>, so I’m not really bringing in groundbreaking content here.</p>
+
+<p>I am doing the <a href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html">30 days with Waveform</a> right now though, and I’ve been unable to progress on this review due to the large number of studio changes and the necessity to upgrade my main studio system.</p>
+
+<p>Rather than having no posts for 7-8 days while I try to catch up, I’ve decided to show how I went about the process of changing my iMac’s 1tb <a href="https://en.wikipedia.org/wiki/Seagate_Barracuda">Seagate Barracude</a> to a <a href="http://www.samsung.com/semiconductor/minisite/ssd/product/consumer/850evo/">1tb Samsung EVO 850</a> <a href="https://en.wikipedia.org/wiki/Seagate_Barracuda">Solid State Drive</a>.</p>
+
+<p>This is also a great citation if you’re a non-Mac person and want to show people why macs are awful. Likewise it’s a great post if you’re a mac user and want to suffer along with me.</p>
+
+<p>Let’s get on with it.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#prepare" id="markdown-toc-prepare">Prepare</a></li>
+  <li><a href="#supplies" id="markdown-toc-supplies">Supplies</a></li>
+  <li><a href="#opening-the-thing" id="markdown-toc-opening-the-thing">Opening the thing</a></li>
+  <li><a href="#corner" id="markdown-toc-corner">Corner</a></li>
+  <li><a href="#put-in-the-drive" id="markdown-toc-put-in-the-drive">Put in the drive</a></li>
+  <li><a href="#open-carefully" id="markdown-toc-open-carefully">Open carefully</a></li>
+  <li><a href="#cut-more" id="markdown-toc-cut-more">Cut more</a></li>
+  <li><a href="#dusty" id="markdown-toc-dusty">Dusty</a></li>
+  <li><a href="#removing-2-cables" id="markdown-toc-removing-2-cables">Removing 2 cables</a></li>
+  <li><a href="#lift" id="markdown-toc-lift">Lift</a></li>
+  <li><a href="#long-peel" id="markdown-toc-long-peel">Long Peel</a></li>
+  <li><a href="#peel-part-2" id="markdown-toc-peel-part-2">Peel part 2</a></li>
+  <li><a href="#unscrew-the-speaker" id="markdown-toc-unscrew-the-speaker">Unscrew the Speaker</a></li>
+  <li><a href="#lift-the-speaker" id="markdown-toc-lift-the-speaker">Lift the speaker</a></li>
+  <li><a href="#display-adhesive" id="markdown-toc-display-adhesive">Display Adhesive</a></li>
+  <li><a href="#change-the-drive-pins" id="markdown-toc-change-the-drive-pins">Change the drive pins</a></li>
+  <li><a href="#drive-sensor" id="markdown-toc-drive-sensor">Drive Sensor</a></li>
+  <li><a href="#very-dusty" id="markdown-toc-very-dusty">Very dusty</a></li>
+  <li><a href="#cleaning" id="markdown-toc-cleaning">Cleaning</a></li>
+  <li><a href="#cleaned" id="markdown-toc-cleaned">Cleaned</a></li>
+  <li><a href="#cable-move" id="markdown-toc-cable-move">Cable Move</a></li>
+  <li><a href="#screw-the-speaker" id="markdown-toc-screw-the-speaker">Screw the speaker</a></li>
+  <li><a href="#adhesive-clean" id="markdown-toc-adhesive-clean">Adhesive Clean</a></li>
+  <li><a href="#adhesive-cleaning" id="markdown-toc-adhesive-cleaning">Adhesive Cleaning</a></li>
+  <li><a href="#tested" id="markdown-toc-tested">Tested</a></li>
+  <li><a href="#apply-adhesive" id="markdown-toc-apply-adhesive">Apply Adhesive</a></li>
+  <li><a href="#down" id="markdown-toc-down">Down</a></li>
+  <li><a href="#clean" id="markdown-toc-clean">Clean</a></li>
+  <li><a href="#done" id="markdown-toc-done">Done</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="prepare">Prepare</h1>
+
+<img src="/assets/iMacDrive/Restore.png" alt="Restoring">
+<div class="image-caption">Clone the drive</div>
+
+<p>The first thing I did was reboot in to <a href="https://support.apple.com/en-us/HT201314">macOS Recovery mode</a>.</p>
+
+<p>With my SSD hooked up, I cloned my ‘Macintosh HD’ partition to my SSD. This ensures that when I drop in the SSD, it will boot up and everything is great. There’s nothing to do beyond simply hooking up the drive and powering on.</p>
+
+<p>I do have a bootcamp Windows (and linux) partition. I attempted to use <a href="https://en.wikipedia.org/wiki/Dd_(Unix)">dd</a> to clone the whole drive, but that took <em>way too long</em> <a href="http://serenity.ee/post/82120938429/mac-os-dd-with-devdisk-vs-devrdisk">even when using rdisk</a> and a blocksize of 1m (which appeared optimal for my drive).</p>
+
+<p>So I just reinstalled Windows after. I’ll do Linux later.</p>
+
+<h1 id="supplies">Supplies</h1>
+
+<a href="/assets/iMacDrive/Starting.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Starting.jpg" alt="Starting">
+</a>
+<div class="image-caption">Supplies</div>
+
+<p>You’ll need some tools. I strongly suggesting just buying <a href="https://eshop.macsales.com/item/OWC/DIYIMACHDD12/">this pack right here</a>. This includes the adhesive strips that you need, a way of holding the display, a cutter and the thermal sensor.</p>
+
+<p>The iMac’s hard drive is a 3.5” drive. This means that I also needed to purchase a <a href="https://eshop.macsales.com/item/NewerTech/ADPTADRV/">drive converter bracket</a> as well.</p>
+
+<p>(in reality I only bought the sensor and bracket because my brother already had the tools)</p>
+
+<h1 id="opening-the-thing">Opening the thing</h1>
+
+<a href="/assets/iMacDrive/Open1.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Open1.jpg" alt="Open">
+</a>
+<div class="image-caption">Opening part 1</div>
+
+<p>To start the little plastic pizza cutter thing is placed behind the display and ran along the edge. This breaks the adhesive that holds the display to the chassis.</p>
+
+<h1 id="corner">Corner</h1>
+
+<a href="/assets/iMacDrive/Corner.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Corner.jpg" alt="Corner">
+</a>
+<div class="image-caption">Corner</div>
+
+<p>Here it is stuck in the corner.</p>
+
+<h1 id="put-in-the-drive">Put in the drive</h1>
+
+<a href="/assets/iMacDrive/Drive1.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Drive1.jpg" alt="Drive1">
+</a>
+<div class="image-caption">Put in the drive</div>
+
+<p>While my brother was cutting open the display, I put the SSD inside of the bracket.</p>
+
+<h1 id="open-carefully">Open carefully</h1>
+
+<a href="/assets/iMacDrive/Trim.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Trim.jpg" alt="Trim">
+</a>
+<div class="image-caption">Lifting the display</div>
+
+<p>The plastic pizza cutter doesn’t cut fully in to the adhesive. This requires that you use something else to slowly and carefully lift the display as you cut. The <a href="https://eshop.macsales.com/item/OWC/DIYIMACHDD12/">kit that I linked before</a> has a tool for this job.</p>
+
+<p>You can just use a credit card or a guitar pick though.</p>
+
+<h1 id="cut-more">Cut more</h1>
+
+<a href="/assets/iMacDrive/TrimMore.jpg">
+<img src="/assets/iMacDrive/Thumbnails/TrimMore.jpg" alt="TrimMore">
+</a>
+<div class="image-caption">More cutting</div>
+
+<p>The cutting takes a while. We also placed the suction cups in place to allow the screen to be pulled while cutting.</p>
+
+<p>Yes, <a href="http://www.thelostvertex.com">my brother</a> is wearing sunglasses indoors. He has <a href="https://en.wikipedia.org/wiki/Photophobia">photosensitive migraines</a> and usually exists in darkness.</p>
+
+<h1 id="dusty">Dusty</h1>
+
+<a href="/assets/iMacDrive/Dusty.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Dusty.jpg" alt="Dusty">
+</a>
+<div class="image-caption">Dusty</div>
+
+<p>Despite trying to clean the iMac 4 times a year, it’s still very dusty inside.</p>
+
+<h1 id="removing-2-cables">Removing 2 cables</h1>
+
+<a href="/assets/iMacDrive/DeCable.jpg">
+<img src="/assets/iMacDrive/Thumbnails/DeCable.jpg" alt="DeCable">
+</a>
+<div class="image-caption">Decabling</div>
+
+<p>There’s 2 cables to remove on this model. The cable closest to the center has a lift tab. The cable near the side is a pull cable. Careful with the pull cable. Try to use the tabs on the sides to leverage against rather than tugging on the cable.</p>
+
+<h1 id="lift">Lift</h1>
+
+<a href="/assets/iMacDrive/Lift.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Lift.jpg" alt="Lift">
+</a>
+<div class="image-caption">Lift</div>
+
+<p>The display is now lifted.</p>
+
+<p>There is adhesive on the bottom. That is removed by hinging the display back and forth, then pulling the adhesive out.</p>
+
+<h1 id="long-peel">Long Peel</h1>
+
+<a href="/assets/iMacDrive/LongPeel.jpg">
+<img src="/assets/iMacDrive/Thumbnails/LongPeel.jpg" alt="LongPeel">
+</a>
+<div class="image-caption">Long Peel</div>
+
+<p>The adhesive strips now need to me removed. Try to get as much as you can in one go.</p>
+
+<h1 id="peel-part-2">Peel part 2</h1>
+
+<a href="/assets/iMacDrive/Peel.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Peel.jpg" alt="Peel">
+</a>
+<div class="image-caption">Careful peel</div>
+
+<p>Some adhesive remains. I use a <a href="https://www.amazon.com/OLFA-Cushion-Grip-Art-Knife/dp/B0006O87TQ/ref=sr_1_2?ie=UTF8&amp;qid=1520193575&amp;sr=8-2&amp;keywords=olfa+hobby+knife">hobby knife</a> to get at the edge of the strip then try to lift it up.</p>
+
+<h1 id="unscrew-the-speaker">Unscrew the Speaker</h1>
+
+<a href="/assets/iMacDrive/UnscrewSpeaker.jpg">
+<img src="/assets/iMacDrive/Thumbnails/UnscrewSpeaker.jpg" alt="UnscrewSpeaker">
+</a>
+<div class="image-caption">Unscrew the speaker</div>
+
+<p>Many tutorials suggest fully removing this speaker, but we learned that this is not necessary. Just unscrew it for now. You can push it to the side slightly to get to the screws you need.</p>
+
+<h1 id="lift-the-speaker">Lift the speaker</h1>
+
+<a href="/assets/iMacDrive/LiftSpeaker.jpg">
+<img src="/assets/iMacDrive/Thumbnails/LiftSpeaker.jpg" alt="LiftSpeaker">
+</a>
+<div class="image-caption">Remove screws with the speaker moved</div>
+
+<p>There’s a mount that you need to remove so the hard drive can be removed. The mount screws are under the speaker. Just push the speaker to the side and remove the screws.</p>
+
+<h1 id="display-adhesive">Display Adhesive</h1>
+
+<a href="/assets/iMacDrive/DisplayAdhesive.jpg">
+<img src="/assets/iMacDrive/Thumbnails/DisplayAdhesive.jpg" alt="DisplayAdhesive">
+</a>
+<div class="image-caption">Remove the display adhesive</div>
+
+<p>The display has adhesive on it too. That is removed.</p>
+
+<h1 id="change-the-drive-pins">Change the drive pins</h1>
+
+<a href="/assets/iMacDrive/DriveSwitch.jpg">
+<img src="/assets/iMacDrive/Thumbnails/DriveSwitch.jpg" alt="DriveSwitch">
+</a>
+<div class="image-caption">Drive pin switch</div>
+
+<p>The hard drive has pins on the side. These pins are transferred to the bracket. These pins are what set in to the mounts that were just removed.</p>
+
+<h1 id="drive-sensor">Drive Sensor</h1>
+
+<a href="/assets/iMacDrive/DriveSensor.jpg">
+<img src="/assets/iMacDrive/Thumbnails/DriveSensor.jpg" alt="DriveSensor">
+</a>
+<div class="image-caption">Drive Sensor</div>
+
+<p>The thermal sensor is applied to the drive. There’s a nice little square on the ssd, which seems like a decent place to put it.</p>
+
+<p>As far as I know, the original drive has this sensor built in, which is why we need to add it to the new drive.</p>
+
+<h1 id="very-dusty">Very dusty</h1>
+
+<a href="/assets/iMacDrive/VeryDusty.jpg">
+<img src="/assets/iMacDrive/Thumbnails/VeryDusty.jpg" alt="VeryDusty">
+</a>
+<div class="image-caption">Very dusty inside!</div>
+
+<p>It’s nasty in there.</p>
+
+<h1 id="cleaning">Cleaning</h1>
+
+<a href="/assets/iMacDrive/Cleaning.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Cleaning.jpg" alt="Cleaning">
+</a>
+<div class="image-caption">Cleaning</div>
+
+<p>I took the iMac in to my shop. There I took an <a href="https://www.aircompressorsdirect.com">Air Compressor</a> and blew out the dust in to my <a href="http://www.rockler.com/dust-collection">dust collection system</a>.</p>
+
+<p>You can use canned air and a normal vacuum. I just use what I have.</p>
+
+<h1 id="cleaned">Cleaned</h1>
+
+<a href="/assets/iMacDrive/Cleaned.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Cleaned.jpg" alt="Cleaned">
+</a>
+<div class="image-caption">Cleaned</div>
+
+<p>Much cleaner.</p>
+
+<h1 id="cable-move">Cable Move</h1>
+
+<a href="/assets/iMacDrive/CableMove.jpg">
+<img src="/assets/iMacDrive/Thumbnails/CableMove.jpg" alt="CableMove">
+</a>
+<div class="image-caption">Making room for the new drive</div>
+
+<p>On the 2 systems I’ve done this two, the SATA cable is inside the mounting bracket. It’s easier to put in the new drive if you move this outside of the bracket.</p>
+
+<h1 id="screw-the-speaker">Screw the speaker</h1>
+
+<a href="/assets/iMacDrive/ResetSpeaker.jpg">
+<img src="/assets/iMacDrive/Thumbnails/ResetSpeaker.jpg" alt="ResetSpeaker">
+</a>
+<div class="image-caption">Putting the speaker, and new drive, back</div>
+
+<p>The new hard drive is put in, and the speaker is screwed back in.</p>
+
+<h1 id="adhesive-clean">Adhesive Clean</h1>
+
+<a href="/assets/iMacDrive/AdhesiveClean.jpg">
+<img src="/assets/iMacDrive/Thumbnails/AdhesiveClean.jpg" alt="AdhesiveClean">
+</a>
+<div class="image-caption">Adhesive Clean</div>
+
+<p>I use <a href="https://en.wikipedia.org/wiki/Isopropyl_alcohol">Isopropyl Alcohol</a> and <a href="https://www.fishersci.com/shop/products/kimberly-clark-kimtech-science-kimwipes-delicate-task-wipers-7/p-211240">Kimwipes</a> to clean the leftover adhesive bits.</p>
+
+<h1 id="adhesive-cleaning">Adhesive Cleaning</h1>
+
+<a href="/assets/iMacDrive/AdhesiveCleaning.jpg">
+<img src="/assets/iMacDrive/Thumbnails/AdhesiveCleaning.jpg" alt="AdhesiveCleaning">
+</a>
+<div class="image-caption">Adhesive Cleaning</div>
+
+<p>The cleaning is as simple as some alcohol and rubbing.</p>
+
+<h1 id="tested">Tested</h1>
+
+<a href="/assets/iMacDrive/Tested.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Tested.jpg" alt="Tested">
+</a>
+<div class="image-caption">Tested</div>
+
+<p>The display is hooked back up, with no adhesive applied, and the system is tested. You don’t want to close the thing up with something wrong! That adhesive ain’t cheap and shipping takes time.</p>
+
+<h1 id="apply-adhesive">Apply Adhesive</h1>
+
+<a href="/assets/iMacDrive/ApplyAdhesive.jpg">
+<img src="/assets/iMacDrive/Thumbnails/ApplyAdhesive.jpg" alt="ApplyAdhesive">
+</a>
+<div class="image-caption">Apply Adhesive</div>
+
+<p>The adhesive strips are applied according to the instructions.</p>
+
+<p>There’s little holes in the strips and the iMac that allow you to line things up, but I find it easier to manually line it up and pull the backing off slowly from the underside. You can see the method in the picture. I pull off the backing and with my other hand slowly align the edges.</p>
+
+<h1 id="down">Down</h1>
+
+<a href="/assets/iMacDrive/Down.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Down.jpg" alt="Down">
+</a>
+<div class="image-caption">Down</div>
+
+<p>The display is then set down on the chassis and the screen is aligned. We then removed the adhesive strip backing with the display in place. This procedure allowed the display to be aligned with no adhesive active and moved very slightly to get the adhesive ready.</p>
+
+<p>This is probably the scariest part, but if you work slowly with some help it’s not bad.</p>
+
+<h1 id="clean">Clean</h1>
+
+<a href="/assets/iMacDrive/Clean.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Clean.jpg" alt="Clean">
+</a>
+<div class="image-caption">Clean</div>
+
+<p>My brother the screen freak spent about 20 minutes cleaning the screen. Only water is used.</p>
+
+<p>Sunglasses still intact.</p>
+
+<h1 id="done">Done</h1>
+
+<a href="/assets/iMacDrive/Done.jpg">
+<img src="/assets/iMacDrive/Thumbnails/Done.jpg" alt="Done">
+</a>
+<div class="image-caption">Done</div>
+
+<p>Done!</p>
+
+<p>That’s it. Now I can get back to working on this review among other things.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 3 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

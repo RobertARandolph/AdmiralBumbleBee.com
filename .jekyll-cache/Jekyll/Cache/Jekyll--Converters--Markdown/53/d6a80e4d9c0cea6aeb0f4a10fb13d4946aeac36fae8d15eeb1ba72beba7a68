@@ -1,0 +1,10 @@
+I"�<img src="/assets/Studio One/AutomationRegion.png" alt="Automation Regions">
+<div class="image-caption">"Automation Regions"</div>
+
+<p>Automation Clips/Items/Regions/Whatever are a neat concept that some other DAWs have. It allows you to contain automation data in a region so it can be easily moved around and/or linked to other regions.</p>
+
+<p><a href="https://www.presonus.com/products/Studio-One">Studio One</a> doesn’t have this feature natively, but years ago I figured out a workaround. I just realized last night that I never wrote about it, so here we go!</p>
+
+<p>The following is a tutorial on how to emulate ‘Automation Clips’ or ‘Automation Items’ in Studio One.</p>
+
+:ET

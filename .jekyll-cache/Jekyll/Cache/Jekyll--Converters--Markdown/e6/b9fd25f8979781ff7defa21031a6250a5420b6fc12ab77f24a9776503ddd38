@@ -1,0 +1,555 @@
+I"	v  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Bitwig/Modulators/Modulators.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Simple synth made with modulators!</div>
+
+<p>Bitwig has what they call their unified modulation system. The modulation system is a set of modulation devices that can be applied to any visible parameter of any effect or instrument in Bitwig.</p>
+
+<p>Along with the capability of modulating existing parameters, Bitwig’s modulation system is capable of being a full-fledged digital modular synthesizer!</p>
+
+<p>Come with me as I walk you through probably the coolest feature in Bitwig, and perhaps a ‘killer feature’ if you’re looking to switch to Bitwig from another DAW</p>
+
+<p><strong>UPDATED FOR 2.3</strong></p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/07/Bitwig-first-impressions.html">Bitwig first impressions</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html">Bitwig feature review - Note Expression</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/27/Bitwig-Effects-review.html">Bitwig Effects review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/06/29/Bitwig-Instruments-Review.html">Bitwig Instruments, Note Effects and Instrument Containers Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/07/02/Things-that-Bitwig-could-improve.html">Things that Bitwig could improve.</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2017/07/10/Bitwig-Conclusion.html">Bitwig Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/08/03/Bitwig-Review,-but-better.html">Bitwig Review, but better!</a></li>
+    
+
+</ul>
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a>    <ul>
+      <li><a href="#adding-a-modulation-device" id="markdown-toc-adding-a-modulation-device">Adding a modulation device</a></li>
+      <li><a href="#setting-a-modulation-destination" id="markdown-toc-setting-a-modulation-destination">Setting a modulation destination.</a></li>
+      <li><a href="#editing" id="markdown-toc-editing">Editing</a></li>
+    </ul>
+  </li>
+  <li><a href="#modulators" id="markdown-toc-modulators">Modulators</a>    <ul>
+      <li><a href="#4-stage" id="markdown-toc-4-stage">4-Stage</a></li>
+      <li><a href="#adsr" id="markdown-toc-adsr">ADSR</a></li>
+      <li><a href="#adhdsr" id="markdown-toc-adhdsr">ADHDSR</a></li>
+      <li><a href="#audio-rate" id="markdown-toc-audio-rate">Audio Rate</a></li>
+      <li><a href="#audio-sidechain" id="markdown-toc-audio-sidechain">Audio Sidechain</a></li>
+      <li><a href="#beat-lfo" id="markdown-toc-beat-lfo">Beat LFO</a></li>
+      <li><a href="#button-and-buttons" id="markdown-toc-button-and-buttons">Button and Buttons</a></li>
+      <li><a href="#classic-lfo" id="markdown-toc-classic-lfo">Classic LFO</a></li>
+      <li><a href="#envelope-follower" id="markdown-toc-envelope-follower">Envelope Follower</a></li>
+      <li><a href="#expressions" id="markdown-toc-expressions">Expressions</a></li>
+      <li><a href="#hw-cv-in" id="markdown-toc-hw-cv-in">HW CV In</a></li>
+      <li><a href="#keytrack" id="markdown-toc-keytrack">Keytrack</a></li>
+      <li><a href="#lfo" id="markdown-toc-lfo">LFO</a></li>
+      <li><a href="#macro-and-macro-4" id="markdown-toc-macro-and-macro-4">Macro and Macro-4</a></li>
+      <li><a href="#math" id="markdown-toc-math">Math</a></li>
+      <li><a href="#midi" id="markdown-toc-midi">Midi</a></li>
+      <li><a href="#mix" id="markdown-toc-mix">Mix</a></li>
+      <li><a href="#note-counter" id="markdown-toc-note-counter">Note Counter</a></li>
+      <li><a href="#note-sidechain" id="markdown-toc-note-sidechain">Note Sidechain</a></li>
+      <li><a href="#parseq-8" id="markdown-toc-parseq-8">Parseq-8</a></li>
+      <li><a href="#polynom" id="markdown-toc-polynom">Polynom</a></li>
+      <li><a href="#quantize" id="markdown-toc-quantize">Quantize</a></li>
+      <li><a href="#random" id="markdown-toc-random">Random</a></li>
+      <li><a href="#sample-and-hold" id="markdown-toc-sample-and-hold">Sample and Hold</a></li>
+      <li><a href="#select-4" id="markdown-toc-select-4">Select-4</a></li>
+      <li><a href="#steps" id="markdown-toc-steps">Steps</a></li>
+      <li><a href="#voice-stack" id="markdown-toc-voice-stack">Voice Stack</a></li>
+      <li><a href="#xy-vector-4-and-vector-8" id="markdown-toc-xy-vector-4-and-vector-8">XY, Vector-4 and Vector-8</a></li>
+    </ul>
+  </li>
+  <li><a href="#modular-synthesis" id="markdown-toc-modular-synthesis">Modular Synthesis</a></li>
+  <li><a href="#complaints" id="markdown-toc-complaints">Complaints</a></li>
+  <li><a href="#roll-your-own" id="markdown-toc-roll-your-own">Roll your own</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>Besides the fact that you can modulate any parameter of any device, you can <em>also</em> modulate parameters of other modulators. Combinations of modulators modulating each other adds a nearly infinite pallette of functionality. The modulation of modulators also opens the door for the <a href="#modular-synthesis">Bitwig Modular Synth</a></p>
+
+<p>Bitwig’s modulation system is exceptionally easy to use. It’s so simple that I will now show you how to do it in 2 very short videos and accompanying explanations.</p>
+
+<p><strong>EDIT August 10th, 2018</strong> Updated for Bitwig 2.3</p>
+
+<h2 id="adding-a-modulation-device">Adding a modulation device</h2>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Bitwig/Modulators/AddMod.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Adding a Beat LFO to a DC Offset</div>
+
+<p>The modulation system in Bitwig consists of a small grid to the left of the effect/instrument device. In the lower left of each device there’s a O–&gt; looking button that you click to bring up a grid. You simply click a plus-sign in the grid then select your modulator.</p>
+
+<p>Mouse-hover over the modulation grid, an arrow appears. Clicking the arrow lets you access the parameters of the modulator.</p>
+
+<h2 id="setting-a-modulation-destination">Setting a modulation destination.</h2>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Bitwig/Modulators/SetMod.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Setting a modulation destination</div>
+
+<p>Next you need to set the destination. Click the O–&gt; button in the modulator so a flashing black square is the background.</p>
+
+<p>Modulation is assigned by moving the control that you wish modulated. The distance from the current value, in positive or negative values, is shown as a live-modulated blue outline.</p>
+
+<h2 id="editing">Editing</h2>
+
+  <img src="/assets/Bitwig/Modulators/ModInspector.png" alt="Device Info">
+  <div class="image-caption">Device panel</div>
+
+<p>The left inspector panel (‘i’ in the lower left) can be opened, and when you click on a device it shows you all of the current modulation mappings. Their strength can be edited, they can be delete and they can be activated for mapping. Nifty.</p>
+
+<h1 id="modulators">Modulators</h1>
+
+<h2 id="4-stage">4-Stage</h2>
+
+  <img src="/assets/Bitwig/Modulators/4-Stage.png" alt="4-Stage">
+  <div class="image-caption">4-Stage</div>
+
+<p>4-Stage is a looping envelope. It can be set in seconds or beats, it’s polar or bi-polar and can be set to loop after n-stages of the envelope.</p>
+
+<p>4-stage is always note triggered, and the loop will start on a note-one message.</p>
+
+<p>The controls for 4-stage are surprisingly well laid out and it’s easy to tweak it to what you need. Curves can be added to the envelope stages by dragging the orange ticks in the middle of the GUI (underneath the envelope display).</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="adsr">ADSR</h2>
+
+  <img src="/assets/Bitwig/Modulators/ADSR.png" alt="ADSR">
+  <div class="image-caption">ADSR</div>
+
+<p>ADSR is a simple one-shot note-triggered envelope with attack/decay/sustain/release.</p>
+
+<p>The envelopes are appear to be cubic, and I see no way to change their curve.</p>
+
+<p>The envelope points are labeled in %. Time and beat values would be much more useful.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="adhdsr">ADHDSR</h2>
+
+  <img src="/assets/Bitwig/Modulators/ADHSR.png" alt="ADHDSR">
+  <div class="image-caption">ADHDSR</div>
+
+<p>ADHSR is like <a href="#adsr">ADSR</a> with an added hold stage (time til the decay stage starts) and adjustable curves for the attack, hold and release stages.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="audio-rate">Audio Rate</h2>
+
+<img src="/assets/Bitwig/AudioRate.png" alt="Audio Rate">
+<div class="image-caption">Audio Rate</div>
+
+<p>Audio Rate modulation. Take any audio from any track in Bitwig and use that as modulation for anything you can modulate.</p>
+
+<p>It pretty intense. If you like making noise or extreme sounds then this is for you.</p>
+
+<p>There’s a low-pass filter that serves to slow down the speed of what’s coming in (less high frequencies = slower modulation) and a rectifier which makes it unidirectional.</p>
+
+<p>Best used with Bitwig devices, since many VSTs low-pass their parameter input anyway.</p>
+
+<p>I love it.
+G</p>
+<h2 id="audio-sidechain">Audio Sidechain</h2>
+
+  <img src="/assets/Bitwig/Modulators/AudioSidechain.png" alt="Audio Sidechain">
+  <div class="image-caption">Audio Sidechain</div>
+
+<p>Audio Sidechain takes the output of another track and allows you to apply that audio signal’s envelope as a modulator.</p>
+
+<p>Audio Sidechain allows you to take the signal from another track pre-fx or post-fx, which is a very nice addition. If you have reverb on your snare, but you want to side-chain something before that reverb muddies-up your transients then you have the option to take the signal pre-fx.</p>
+
+<p>Audio Sidechain has attack/release settings for the envelope follow that allow some very fast envelopes, slow or anything in between. Peak and RMS calculation for the envelope follower are also available.</p>
+
+<p>There’s a 4-pole high-pass and low-pass that allows you to fine tune the portion of the signal that is being fed to the envelope follower.</p>
+
+<p>Audio Sidechain is an <em>exceptionally</em> useful modulator in modern music production.</p>
+
+<p>Note: As of this writing, there’s display bug with the graph being drawn offset too low.</p>
+
+<h2 id="beat-lfo">Beat LFO</h2>
+
+  <img src="/assets/Bitwig/Modulators/BeatLFO.png" alt="Beat LFO">
+  <div class="image-caption">Beat LFO</div>
+
+<p>Beat LFO is a tempo-synced, optionally bi-polar LFO with offset.</p>
+
+<p>Simple.</p>
+
+<h2 id="button-and-buttons">Button and Buttons</h2>
+
+  <img src="/assets/Bitwig/Modulators/Button.png" alt="Button and Buttons">
+  <div class="image-caption">Button and Buttons</div>
+
+<p>Button is a single button, Buttons is 2 buttons. What do the buttons do? They allow you to set a specific parameter offset and when the button is pressed, the modulation destination is offset by that value.</p>
+
+<p>Button and Buttons <em>are</em> modulatable, so they can be used to turn a complex signal to a simple binary signal with corresponding exact offset values. The transitions can be smoothed or fast, selectable by right-clicking the modulator.</p>
+
+<p>You can think of them as Bitwig’s digital <a href="https://en.wikipedia.org/wiki/Schmitt_trigger">Schmitt triggers</a>.</p>
+
+<h2 id="classic-lfo">Classic LFO</h2>
+
+  <img src="/assets/Bitwig/Modulators/ClassicLFO.png" alt="Classic LFO">
+  <div class="image-caption">Classic LFO</div>
+
+<p>Classic LFO is just that. It’s a classic LFO with option beat-syncing, phase, bipolarity, shape, note trigger and <em>per voice trigger</em>.</p>
+
+<p>LFO values are available from 0.01hz to 50.1hz.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<p>Most of your LFO needs will be well served here.</p>
+
+<h2 id="envelope-follower">Envelope Follower</h2>
+
+  <img src="/assets/Bitwig/Modulators/EnvelopeFollower.png" alt="Envelope Follower">
+  <div class="image-caption">Envelope Follower</div>
+
+<p>Envelope Follower is similar to the <a href="#audio-sidechain">Audio Sidechain</a> device except it lacks high/low-pass filters and only acts on the signal in the device chain at the point of the modulator.</p>
+
+<p>Envelope Follower is your gateway to growly-basses, vocalized synth sounds and other expressive natural-sounding modulations.</p>
+
+<h2 id="expressions">Expressions</h2>
+
+  <img src="/assets/Bitwig/Modulators/Expressions.png" alt="Expressions">
+  <div class="image-caption">Expressions</div>
+
+<p>As discussed in the <a href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html">Note Expression post</a>, the Expression modulator allows you to assign note expression values directly to modulation destinations.</p>
+
+<p>Timbre can be mapped as a relative or absolute value modulation.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="hw-cv-in">HW CV In</h2>
+
+  <img src="/assets/Bitwig/Modulators/HWCVIn.png" alt="HW CV In">
+  <div class="image-caption">HW CV In</div>
+
+<p>CV Input in a DAW. Wow.</p>
+
+<p>The HW CV In modulator allows you to take common CV input (dc/ac) and apply it as a modulator to your devices in Bitwig. If you use any sort of hardware modular system then this should get you really excited. If you don’t then… buy some!</p>
+
+<h2 id="keytrack">Keytrack</h2>
+
+  <img src="/assets/Bitwig/Modulators/Keytrack.png" alt="Keytrack">
+  <div class="image-caption">Keytrack</div>
+
+<p>Key track takes a note-input and maps that note to a % of modulation. In short you can play modulation with your midi-device such as a piano.</p>
+
+<p>Key track is particularly useful for controlling LFO’s frequency or having a filter’s value follow your playing. Of course there’s many other things you can do like… make a vocoder.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="lfo">LFO</h2>
+
+  <img src="/assets/Bitwig/Modulators/LFO.png" alt="LFO">
+  <div class="image-caption">LFO</div>
+
+<p>LFO is the newer LFO modulator, where <a href="#classic-lfo">Classic LFO</a> is the LFO included in Bitwig 1.</p>
+
+<p>LFO’s main benefits over Classic LFO is that there’s more easily modulatable parameters, and it has more run-modes (free, note, sync, random).</p>
+
+<p>LFO also has a ‘Poly’ mode which is similar to the per-voice of the classic LFO.</p>
+
+<p>LFO can modulate from 0.02hz to 50khz!</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="macro-and-macro-4">Macro and Macro-4</h2>
+
+  <img src="/assets/Bitwig/Modulators/Macro.png" alt="Macro and Macro-4">
+  <div class="image-caption">Macro and Macro-4</div>
+
+<p>Macro is a single knob that you can assign to multiple parameters. Macro-4 is 4 knobs that can be assigned to multiple parameters. Both offer bi-polar modes.</p>
+
+<p>The Macro modulators are basically the <em>you</em> modulator.</p>
+
+<h2 id="math">Math</h2>
+
+  <img src="/assets/Bitwig/Modulators/Math.png" alt="Math">
+  <div class="image-caption">Math</div>
+
+<p>The point of the math modulator is that you have 2 knobs that you attach other modulation sources to, then it adds/subtracts/multiplies, takes min/max of the 2 signals or ‘qua’ (whatever that is?)</p>
+
+<p>edit: Qua will quantize A, with step size of B. I figured this out using <a href="#roll-your-own">some hacky trickery</a>.</p>
+
+<p>Math is a very useful meta device. An example of use would be maybe adding an LFO and an envelope follower attached to the frequency of a ladder filter. Now your filter will have a modulation that’s dependent on the input amplitude of the signal.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<p>Math is awesome.</p>
+
+<h2 id="midi">Midi</h2>
+
+  <img src="/assets/Bitwig/Modulators/MIDI.png" alt="Midi">
+  <div class="image-caption">Midi</div>
+
+<p>The MIDI modulator lets you take midi CC, Pressure and Pitch Bend information and apply it to any modulation destination.</p>
+
+<p>It even lets you select the channel! (That’s a jab at Ableton Live, in case you haven’t felt that pain yet)</p>
+
+<h2 id="mix">Mix</h2>
+
+  <img src="/assets/Bitwig/Modulators/Mix.png" alt="Mix">
+  <div class="image-caption">Mix</div>
+
+<p>Mix has 2 controls that you modulate and it allows you to weight one of the signals if desired. The output is the result of that weighted mixing.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<p>Yet another useful meta device.</p>
+
+<h2 id="note-counter">Note Counter</h2>
+
+<img src="/assets/Bitwig/Modulators/NoteCounter.png" alt="Note Counter">
+<div class="image-caption">Note Counter</div>
+
+<p>Every time a note is played, a counter increments and along with it a modulation value is output.</p>
+
+<p>You can change how a note increments the value, how many steps there are and make it uni/bipolar.</p>
+
+<p>I’ve come up with some interesting sounding ideas with cycling effects on/off or having a delay change delay time per-note or light filter modulation. I had to stop messing with it and keep writing this review, but I’m going back to it soon as I’m done. Maybe my favorite modulator right now.</p>
+
+<h2 id="note-sidechain">Note Sidechain</h2>
+
+  <img src="/assets/Bitwig/Modulators/NoteSideChain.png" alt="Note Sidechain">
+  <div class="image-caption">Note Sidechain</div>
+
+<p>Note Sidechain is the midi version of <a href="#audio-sidechain">Audio Sidechain</a>. It takes midi input and translates note velocity to a modulation signal using what appears to be an embedded <a href="#adsr">ADSR</a> device.</p>
+
+<p>The midi input can be from the track at the point in the signal chain, or taken from another track.</p>
+
+<p>The curves of the ADSR can’t be changed as far as I can tell, but this is still a very useful device.</p>
+
+<h2 id="parseq-8">Parseq-8</h2>
+
+<img src="/assets/Bitwig/Modulators/Parseq8.png" alt="Parseq8">
+<div class="image-caption">Parseq8</div>
+
+<p>This is a unique little guy.</p>
+
+<p>It’s 8 modulators in a row. A sequencer runs and triggers each modulator. It’s basically a step sequencer with each step having its own modulation output.</p>
+
+<p>You can run the sequencer in forward, reverse and pingpong, and it can cycle or ‘oneshot’. The oneshot mode is useful when you use the “note” modes (restart, random, advance), where a new incoming note is what triggers movement in the sequencer.</p>
+
+<p>Each step ‘turns off’ when it’s no longer its turn, but there’s a ‘hold’ which will make the previous step hold its value.</p>
+
+<p>So why would you use this? The most obvious example would be to sequence other modulators. You could turn on one LFO for a beat, then another LFO, then the next beat use a step sequencer (you would modulate the depth of these to do this). Likewise you can use it for any situation where you want something to change to a specific value for a set period of time, but at a regular rate or in response to note changes.</p>
+
+<p>I love that Bitwig is taking ideas like these from the modular synth community and applying them in a digital environment in ways that make sense.</p>
+
+<h2 id="polynom">Polynom</h2>
+
+<img src="/assets/Bitwig/Polynom.png" alt="Polynom">
+<div class="image-caption">Polynom</div>
+
+<p>This allows you to reshape a modulation signal using a polynomial equation. It’s basically a waveshaper for modulation.</p>
+
+<p>You modulate the X knob and then that signal is run through the polynomial equation. Here’s what the 4 parameters do in layman’s terms</p>
+
+<ul>
+  <li>X = Offsets the curve</li>
+  <li>X1 = Scales the size of the curve</li>
+  <li>X2 = Biases the curve in one direction, pulling it all up or down</li>
+  <li>X3 = The ‘curviness’ of the curve.</li>
+</ul>
+
+<p>It’s a cool modulator to have, especially when dealing with extreme modulation or to make tame modulation more extreme.</p>
+
+<h2 id="quantize">Quantize</h2>
+
+<img src="/assets/Bitwig/Quantize.png" alt="Quantize">
+<div class="image-caption">Quantize</div>
+
+<p>Quantize lets you modulate the input knob and then outputs a ‘stepped’ signal. It’s like bit-depth reduction or ‘bitcrushing’ for your modulation signal. There’s 4 shapes that determine how the quantization occurs.</p>
+
+<p>Another neat ‘meta-modulator’</p>
+
+<h2 id="random">Random</h2>
+
+  <img src="/assets/Bitwig/Modulators/Random.png" alt="Random">
+  <div class="image-caption">Random</div>
+
+<p>Random is a random LFO. It shares many of the features of <a href="#lfo">LFO</a> with added smoothing and feedback of the randomized signal.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<h2 id="sample-and-hold">Sample and Hold</h2>
+
+<img src="/assets/Bitwig/SnH.png" alt="Sample and Hold">
+<div class="image-caption">Sample and Hold</div>
+
+<p>With Sample and Hold you modulate the input knob, then it freeze the signal at specific intervals.</p>
+
+<p>The signal can be smoothed out so you don’t get a completely destroyed signal.</p>
+
+<p>S&amp;H is great for robotic style effects or the sound of broken equipment. It can also be used to just add some slight grit to something or a ‘vintage digital’ sound to parameter modulation.</p>
+
+<p>Yet another new modulator that I love.</p>
+
+<h2 id="select-4">Select-4</h2>
+
+  <img src="/assets/Bitwig/Modulators/Select4.png" alt="Select-4">
+  <div class="image-caption">Select-4</div>
+
+<p>Select 4 has a single modulatable input and it quantizes that input value to one of 4 assignable values.</p>
+
+<p>Select 4 is a 4 stage comparator. Each of the 4 stages (100%, 200%, 300% and 400% input value) is an individually assignable modulation source. As the input signal reaches a stage’s value it maxes out the modulation destination. The output value is then scaled down to 0 as it moves to the next stage.</p>
+
+<p>So an input of 0-100% sends a linear value out to output 1. A value of 100%-200% sends a value of 100%-&gt;0% (downward slope) to output 1 and a 0%-100% to output 2. Another way of saying it is that the value of the stage’s output is the distance from that stage’s trigger value.</p>
+
+<p>Select-4 also has a ‘Fill Mode’ (right-click the modulator and select ‘Fill Mode’). In Fill mode, the modulation output does not go from 0%-&gt;100%-0% as it reaches the next stage, it simply continues to increase as the input rises.</p>
+
+<p>When applicable (synth modulation), this modulator can be active per voice.</p>
+
+<p>It’s easier to see what’s happening if you simply try it. Try it.</p>
+
+<h2 id="steps">Steps</h2>
+
+  <img src="/assets/Bitwig/Modulators/Steps.png" alt="Steps">
+  <div class="image-caption">Steps</div>
+
+<p>Steps is a step sequencer that outputs modulation. It can be free running, note triggered, note triggered with random start or transport triggered. It has an adjustable speed based on note values that can be scaled by a play rate.</p>
+
+<p>There’s up to 64 steps that can be played forward or in reverse, randomized and the start point (phase) can be adjusted. There’s also a depth knob which is a global scaling of the output values.</p>
+
+<p>Step sequencer is your gateway to modulation heaven. Experiment with modulating the phase and play rate controls for some super neato effects.</p>
+
+<p>As of Bitwig 2.4 you can right click to add predefined shapes and transform the current shape with a number of “effects”. Cool feature. Really cool.</p>
+
+<h2 id="voice-stack">Voice Stack</h2>
+
+<img src="/assets/Bitwig/VoiceStack.png" alt="Voice Stack Modulation">
+<div class="image-caption">Voice Stack Modulation</div>
+
+<p>Each bitwig synth, all 4 of them, now has unison/voice stack modes.</p>
+
+<p>It’s not your average voice stacking though. <em>Each voice can modulate any parameter on onset</em>. So you’re not limited to pan/volume, you can basically re-program the entire patch for each voice if you want!</p>
+
+<p>Each voice has a modulator that sets a parameter to the value you set. That’s it. Really. You can use other modulators to do other fun things like “trigger” an LFO when a voice is active or be as clever as you want.</p>
+
+<p>This is really a killer feature, but Bitwig really needs more synths.</p>
+
+<h2 id="xy-vector-4-and-vector-8">XY, Vector-4 and Vector-8</h2>
+
+  <img src="/assets/Bitwig/Modulators/XYVec.png" alt="XY, Vector-4 and Vector-8">
+  <div class="image-caption">XY, Vector-4 and Vector-8</div>
+
+<p>XY, Vector-4 and Vector-8 are multi-dimensional pads with 2, 4 and 8 outputs.</p>
+
+<ul>
+  <li>
+    <p>XY has 2 outputs that correspond to X and Y positions.</p>
+  </li>
+  <li>
+    <p>Vector-4 has 4 outputs that correspond to the distance from the center to the corners.</p>
+  </li>
+  <li>
+    <p>Vector-8 has 8 outputs, 4 from Vector-4 plus 4 more points of -X/X and -Y/Y (cross axis).</p>
+  </li>
+</ul>
+
+<p>All 3 are great for performance or drawing automation. Toss on a MIDI control or CV control and transform your n-dimensional controller to modulation signal!</p>
+
+<h1 id="modular-synthesis">Modular Synthesis</h1>
+
+<p>Bitwigs modulators aren’t just for modulating/automating existing effects. The modulation system itself is a complete modular synthesizer!</p>
+
+<p>All the effects and modulators are available to do whatever you desire. Check out this video for more information and a tutorial</p>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/QbpFWEs6Mv0" frameborder="0" allowfullscreen=""></iframe>
+
+<h1 id="complaints">Complaints</h1>
+
+<p>Despite how awesome the Bitwig unified modular system is, I do have a few complaints.</p>
+
+<ul>
+  <li>
+    <p>There doesn’t seem to be a way to <em>easily</em> modulate a parameter on another track. Yes there are workarounds, but it’s a pain to setup and even harder to figure out what you did a week later.</p>
+  </li>
+  <li>
+    <p>Value labelling on most parameters is in percentage. It would be nice if the modulator could auto-sense when there’s a single connection and display the range of values in that parameter’s native label. When there’s multiple values, it would need to reset to percentage.</p>
+  </li>
+  <li>
+    <p>Modulators can’t work across devices. If you have a cool modulation setup that you want to affect multiple devices then you need to put all those devices in a chain, and transfer the modulation to the chain’s modulation section. It isn’t difficult to drag/drop modulators or devices in to a chain, but it is more work than should be necessary.</p>
+  </li>
+  <li>
+    <p><a href="#roll-your-own">No formula modulator?</a> Being able to enter a mathematical formula based on input is really useful. Compare to the <a href="https://www.image-line.com/support/FLHelp/html/plugins/Fruity%20Formula%20Controller.htm">FL Studio Formula Controller</a></p>
+  </li>
+  <li>
+    <p>Understanding existing modulation is time-consuming. Other than <a href="#editing">device inspector</a>, there’s no good way to see what goes where and what it’s doing. A graph display of the current routings would be useful.</p>
+  </li>
+  <li>
+    <p>It doesn’t seem that you can record modulation as automation. When using unpredictable or random modulation, it would be very useful to be able to capture that permanently as automation if you want. Same goes for things like XY.</p>
+  </li>
+  <li>
+    <p>Assigning modulation to VSTs often means browsing through 100s of parameters in the knobby-view. There is a parameter search to make it easier, but it’s still clumsy.</p>
+  </li>
+</ul>
+
+<h1 id="roll-your-own">Roll your own</h1>
+
+  <img src="/assets/Bitwig/Modulators/Hack.png" alt="Hacked">
+  <div class="image-caption">Add your own stuff!</div>
+
+<p>Bitwig has a secret. You can make your own modulators if you’re clever about it. <a href="http://www.itdadao.com/articles/c19a1369279p0.html">Here’s some more information</a>.</p>
+
+<p>Hopefully they open this up more.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Bitwig’s unified modulation system is fantastic, and one of the truly unique parts about Bitwig. Despite some flaws it makes sound design more fun and simultaneously extends the capability of your <strong>entire</strong> plug-in arsenal.</p>
+
+<p>If you’re thinking about switching to Bitwig and you focus heavily on sound-design or enjoy experimentation, then this may the one feature that brings you aboard.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>This post took <strong>17 hours</strong> to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

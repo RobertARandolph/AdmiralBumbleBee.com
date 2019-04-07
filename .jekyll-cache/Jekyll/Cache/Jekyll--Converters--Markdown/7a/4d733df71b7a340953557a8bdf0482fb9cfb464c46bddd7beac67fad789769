@@ -1,0 +1,131 @@
+I"?"<img src="/assets/Youtube/StatsForNerds.png" alt="Volume Normalization">
+<div class="image-caption">Volume Normalization</div>
+
+<p>This is a bit of a meta-video that I suspect 95% of my readers won’t care about.</p>
+
+<p>YouTube has a system of audio processing set up that is bewildering and annoying. I have figured out a system to process the audio of your videos so that they meet the YouTube audio standards about 95% of the time.</p>
+
+<p>This method will cost you about five euros at most, and the single necessary plug-in is often on sale for half price or less.</p>
+
+<p>I tested dozens of audio files from music to dialogue to various types of noise and various combinations of these. While my method will not always give you perfect results, it will get you close to the ideal results with minimal effort and minimal cost.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#whats-the-problem" id="markdown-toc-whats-the-problem">What’s the problem?</a></li>
+  <li><a href="#fix-it-fast-and-cheap" id="markdown-toc-fix-it-fast-and-cheap">Fix it… fast and cheap.</a>    <ul>
+      <li><a href="#limit" id="markdown-toc-limit">Limit</a></li>
+      <li><a href="#lumeter-setup" id="markdown-toc-lumeter-setup">LUMeter setup</a></li>
+      <li><a href="#optionally-compress" id="markdown-toc-optionally-compress">Optionally Compress</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="video">Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/rpfMXH6Y2yE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>This time I explain more in the video than in the text, so it may be worth watching the video as well.</p>
+
+<h1 id="whats-the-problem">What’s the problem?</h1>
+
+<img src="/assets/Youtube/StatsForNerds.png" alt="Volume Normalization">
+<div class="image-caption">Volume Normalization</div>
+
+<p>Pick a video on youtube, right click it and select “Stats for nerds”. A little informational window will pop up.</p>
+
+<p>There are two numbers that you need to care about and that line pointed two by the arrow. I have bolded them below.</p>
+
+<p>100% / <strong>100%</strong> (content loudness <strong>-3.0dB</strong>)</p>
+
+<ul>
+  <li>First number - The first number is nothing more than the volume you have set in the player, so you do not need to think about this.</li>
+  <li>Second number -  This is the percentage that YouTube has adjusted the volume when processing the video. YouTube will never turn up a video, so this value will never be higher than 100%. If the value is lower than 100% then your audio has been penalized.</li>
+  <li>Third number -  The third number gives you the decibel value of how much your video was penalized <em>OR</em> how much headroom you have left. This can be a positive value.</li>
+</ul>
+
+<p>The goal here is to have that reads <code class="highlighter-rouge">100% / 100% (content loudness 0.0dB)</code>.</p>
+
+<p>If the content loudness value is negative then your audio is too low and it will cause your viewers to turn up their viewing system or simply turn off the video.</p>
+
+<p>If the content loudness value is positive then your audio was penalized and that means that you have unnecessarily compressed or limited the audio. your audio will sound stuffy and somewhat weird compared to other properly prepared videos on YouTube.</p>
+
+<h1 id="fix-it-fast-and-cheap">Fix it… fast and cheap.</h1>
+
+<p>You will need a <a href="/DAW-Chart.html">DAW</a> and 2 plugins: <a href="https://www.hornetplugins.com/plugins/hornet-lu-meter/">Hornet LUMeter</a> and a limiter of your choice.</p>
+
+<p>Ideally your limiter will have ISP protection, but it’s not <em>strictly</em> necessary. The <a href="https://loudmax.blogspot.com">free limiter</a> I suggest below has ISP protection.</p>
+
+<p>I’m describing a method here that goes against what is traditionally known or mastering audio for YouTube. I have tested this method thoroughly confident that it works, but if someone attempts this and finds that it does not work I would love to know what your results were.</p>
+
+<h2 id="limit">Limit</h2>
+
+<img src="/assets/Youtube/Limiter.png" alt="Limiter Setup">
+<div class="image-caption">Limiter Setup</div>
+
+<p>You can get the free <a href="https://loudmax.blogspot.com">Loudmax Limiter</a> to use for this process if you don’t have anything. Your DAW’s built in Limiter plugin is likely sufficient.</p>
+
+<p>This is the <strong>FINAL</strong> plugin in the chain. It goes after the LUMeter plug-in described below.</p>
+
+<h2 id="lumeter-setup">LUMeter setup</h2>
+
+<img src="/assets/Youtube/LUMeter.png" alt="Hornet LUMeter">
+<div class="image-caption">Hornet LUMeter</div>
+
+<p>LUMeter will be the first plug-in in your chain. You need to have it set up as pictured above. The important settings are:</p>
+
+<ul>
+  <li>-11 LUFS reference - Even though I’ve read that YouTube uses -13LU integrated, I have found that using -11LUFS reference with momentary gives the best results.</li>
+  <li>Max Peak Off - We want as a limiter to do the work so make sure LUMeter does not factor in the Max Peak values.</li>
+  <li>Momentary - Once again it is assumed that YouTube uses integrated loudness, but I have found that using the momentary method gives the best results.</li>
+</ul>
+
+<p>Set up everything but the momentary auto gain before hitting play. Turn on the momentary auto game and hit play.</p>
+
+<p>Ideally you would play back the entire file, but it is only important to play at least the loudest section.</p>
+
+<p>When you hit stop the auto gain should turn to <strong>OFF</strong> and then you do not press it again unless you make changes to your audio.</p>
+
+<h2 id="optionally-compress">Optionally Compress</h2>
+
+<p>If your audio has large swings in dynamics then I strongly suggest using a compressor.</p>
+
+<ul>
+  <li>Ratio - Set this to 10:1</li>
+  <li>Threshold - Set this so that your average/normal audio level does not trigger the gain reduction</li>
+  <li>Attack - Set this to a low value. 0-1ms</li>
+  <li>Release - Set this to a ~500ms for most sources.</li>
+</ul>
+
+<p>When setup correctly the compressor will not be touching most of your audio (you can verify this with the compressor’s gain reduction meter). It should only be “working” on louder passages.</p>
+
+<p>If your audio is particularly dynamic then this method will not work. I tried to use integrated LUFS values from -10 to -20 with a wide range of sources, and youtube would still penalize or the audio would be too loud. The momentary solution I’ve presented appears to work the best for the widest range of sources.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>That is really all there is to it. When you upload your video you should get a second percentage of 98%-100% and a content loudness less than -1dB. Ideally it will be very slightly above 0.0dB.</p>
+
+<p>There are some types of audio that this does not work perfectly on, but if you find that you are having issues with this method then let me know. As long as your audio doesn’t have massive dynamic range, this works great in my experience.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 9 hours to research, test, write and edit. It also cost me $49 to purchase products to test. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

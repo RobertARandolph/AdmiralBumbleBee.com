@@ -1,0 +1,250 @@
+I"�)<img src="/assets/Differ/Automate1Header.png" alt="Which is it">
+<div class="image-caption">This is a simple automation fade of a test signal in a DAW... which is it?</div>
+
+<p><a href="/music/2019/02/17/Daw-V-Daw-Differ.html">Last time I set out to show that DAWs are different in common use</a>, and folks were curious about the automation part.</p>
+
+<p>So let’s dive deeper and let me show you how to replicate (or refute!) my tests.</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2019/02/17/Daw-V-Daw-Differ.html"> Part 1: Automation and Fades</a></li>
+    
+ 
+    
+
+</ul>
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#video" id="markdown-toc-video">Video</a></li>
+  <li><a href="#test-it-yourself" id="markdown-toc-test-it-yourself">Test it yourself</a></li>
+  <li><a href="#the-file" id="markdown-toc-the-file">The File</a></li>
+  <li><a href="#the-test" id="markdown-toc-the-test">The Test</a></li>
+  <li><a href="#results" id="markdown-toc-results">Results</a>    <ul>
+      <li><a href="#test-signal" id="markdown-toc-test-signal">Test Signal</a></li>
+      <li><a href="#digital-performer-100" id="markdown-toc-digital-performer-100">Digital Performer 10.0</a></li>
+      <li><a href="#flstudio-201" id="markdown-toc-flstudio-201">FLStudio 20.1</a></li>
+      <li><a href="#ardour-512" id="markdown-toc-ardour-512">Ardour 5.12</a></li>
+      <li><a href="#reaper-5972" id="markdown-toc-reaper-5972">Reaper 5.972</a></li>
+      <li><a href="#cakewalk-201811" id="markdown-toc-cakewalk-201811">Cakewalk 2018.11</a></li>
+      <li><a href="#cubase-10015" id="markdown-toc-cubase-10015">Cubase 10.0.15</a></li>
+      <li><a href="#pro-tools-201812" id="markdown-toc-pro-tools-201812">Pro Tools 2018.12</a></li>
+      <li><a href="#ableton-live-1006" id="markdown-toc-ableton-live-1006">Ableton Live 10.0.6</a></li>
+      <li><a href="#bitwig-25-beta" id="markdown-toc-bitwig-25-beta">Bitwig 2.5 Beta</a></li>
+      <li><a href="#reason-1022d1" id="markdown-toc-reason-1022d1">Reason 10.2.2d1</a></li>
+      <li><a href="#logic-1044" id="markdown-toc-logic-1044">Logic 10.4.4</a></li>
+      <li><a href="#studio-one-412" id="markdown-toc-studio-one-412">Studio One 4.1.2</a></li>
+      <li><a href="#waveform-10026" id="markdown-toc-waveform-10026">Waveform 10.0.26</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="video">Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/tXBRLdgzZ4s" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+
+<p>This time I did the video first because I thought the text article would be boring. I think I made the right choice.</p>
+
+<h1 id="test-it-yourself">Test it yourself</h1>
+
+<p>Head over to grab <a href="https://sonicvisualiser.org">Sonic Visualizer</a>.</p>
+
+<ul>
+  <li>Drop your file in it</li>
+  <li>Right click -&gt; Layers -&gt; Add Spectrogram</li>
+  <li>Scale dBV</li>
+  <li>Window 8192 or 4096 (Frequency resolution)</li>
+  <li>Overlap doesn’t matter (93.75% is important for some other tests though! This gives temporal resolution relative to the FFT size)</li>
+  <li>Log bins</li>
+</ul>
+
+<p>That’s it.</p>
+
+<h1 id="the-file">The File</h1>
+
+<p><a href="https://www.admiralbumblebee.com/assets/Differ/TestSine.wav">Here is the test file that I used</a>.</p>
+
+<h1 id="the-test">The Test</h1>
+
+<img src="/assets/Differ/Setup.png" alt="120bpm, 1 bar fade">
+<div class="image-caption">120bpm, 1 bar fade</div>
+
+<p>For my testing here I set the tempo to 120bpm and created a fade from the start of the project to bar 2. Then I rendered 2 full bars.</p>
+
+<p>That’s it.</p>
+
+<h1 id="results">Results</h1>
+
+<p>I’ve ordered my results from best to worst with commentary.</p>
+
+<h2 id="test-signal">Test Signal</h2>
+
+<a href="/assets/Differ/Automate/Test.png">
+<img src="/assets/Differ/Automate/Thumbnails/Test.png" alt="Test Signal">
+</a>
+<div class="image-caption">Test Signal (click for larger image)</div>
+
+<p>Reference for you.</p>
+
+<h2 id="digital-performer-100">Digital Performer 10.0</h2>
+
+<a href="/assets/Differ/Automate/DP.png">
+<img src="/assets/Differ/Automate/Thumbnails/DP.png" alt="DP">
+</a>
+<div class="image-caption">Digital Performer (click for larger image)</div>
+
+<p>Cleanest and fades to infinity nicely.</p>
+
+<p>This isn’t <em>necessarily</em> a better fade to zero than something like <a href="#reaper">Reaper</a>. It fades to zero in a less-than-linear fashion which results in the FFT showing a prettier result.</p>
+
+<p>Audibly, it does appear to be a nicer sounding fade to me.</p>
+
+<h2 id="flstudio-201">FLStudio 20.1</h2>
+
+<a href="/assets/Differ/Automate/FL.png">
+<img src="/assets/Differ/Automate/Thumbnails/FL.png" alt="FL">
+</a>
+<div class="image-caption">FLStudio 20.1 (click for larger image)</div>
+
+<p>Excellent result. That “poof” at the end is a result of the fade not completing within the FFT window.</p>
+
+<h2 id="ardour-512">Ardour 5.12</h2>
+
+<a href="/assets/Differ/Automate/Ardour.png">
+<img src="/assets/Differ/Automate/Thumbnails/Ardour.png" alt="Ardour">
+</a>
+<div class="image-caption">Ardour (click for larger image)</div>
+
+<p>Excellent result. Slightly more noise than the previous results.</p>
+
+<p>Note that there’s a fade at the beginning. That’s my fault.</p>
+
+<h2 id="reaper-5972">Reaper 5.972</h2>
+
+<a href="/assets/Differ/Automate/Reaper.png">
+<img src="/assets/Differ/Automate/Thumbnails/Reaper.png" alt="Reaper">
+</a>
+<div class="image-caption">Reaper 5.972 (click for larger image)</div>
+
+<p>Excellent result. The fade seems to drop to infinity rather abruptly.</p>
+
+<h2 id="cakewalk-201811">Cakewalk 2018.11</h2>
+
+<a href="/assets/Differ/Automate/Cakewalk.png">
+<img src="/assets/Differ/Automate/Thumbnails/Cakewalk.png" alt="Cakewalk">
+</a>
+<div class="image-caption">Cakewalk 2018.11 (click for larger image)</div>
+
+<p>Excellent result. Nearly identical to <a href="#reaper">Reaper</a></p>
+
+<h2 id="cubase-10015">Cubase 10.0.15</h2>
+
+<a href="/assets/Differ/Automate/Cubase.png">
+<img src="/assets/Differ/Automate/Thumbnails/Cubase.png" alt="Cubase">
+</a>
+<div class="image-caption">Cubase 10.0.15(click for larger image)</div>
+
+<p>Excellent result, except for barely audible noise during the fade.</p>
+
+<h2 id="pro-tools-201812">Pro Tools 2018.12</h2>
+
+<a href="/assets/Differ/Automate/PT.png">
+<img src="/assets/Differ/Automate/Thumbnails/PT.png" alt="PT">
+</a>
+<div class="image-caption">Pro Tools 2018.12 (click for larger image)</div>
+
+<p>Would be a great result, but I consistently get these light bursts of noise during automation. It’s around -50dBFS cumulatively.</p>
+
+<h2 id="ableton-live-1006">Ableton Live 10.0.6</h2>
+
+<a href="/assets/Differ/Automate/Ableton.png">
+<img src="/assets/Differ/Automate/Thumbnails/Ableton.png" alt="Ableton">
+</a>
+<div class="image-caption">Ableton Live 10.0.6 (click for larger image)</div>
+
+<p>OK modulation, as it is a bit noisy, but Live applies fades by default to all audio samples. <strong>GROSS</strong>.</p>
+
+<img src="/assets/Differ/LiveFades.png" alt="Live Fades">
+<div class="image-caption">Live Fades</div>
+
+<p>You can turn it off here.</p>
+
+<h2 id="bitwig-25-beta">Bitwig 2.5 Beta</h2>
+
+<a href="/assets/Differ/Automate/Bitwig.png">
+<img src="/assets/Differ/Automate/Thumbnails/Bitwig.png" alt="Bitwig">
+</a>
+<div class="image-caption">Bitwig 2.5 Beta(click for larger image)</div>
+
+<p>Some light distortion.</p>
+
+<h2 id="reason-1022d1">Reason 10.2.2d1</h2>
+
+<a href="/assets/Differ/Automate/Reason.png">
+<img src="/assets/Differ/Automate/Thumbnails/Reason.png" alt="Reason">
+</a>
+<div class="image-caption">Reason 10.2.2d1 (click for larger image)</div>
+
+<p><a href="https://en.wikipedia.org/wiki/Intermodulation">IMD</a>. Clearly audible.</p>
+
+<h2 id="logic-1044">Logic 10.4.4</h2>
+
+<a href="/assets/Differ/Automate/Logic.png">
+<img src="/assets/Differ/Automate/Thumbnails/Logic.png" alt="Logic">
+</a>
+<div class="image-caption">Logic 10.4.4 (click for larger image)</div>
+
+<p>Disgusting. This has been around since Logic 9.</p>
+
+<h2 id="studio-one-412">Studio One 4.1.2</h2>
+
+<a href="/assets/Differ/Automate/StudioOne.png">
+<img src="/assets/Differ/Automate/Thumbnails/StudioOne.png" alt="StudioOne">
+</a>
+<div class="image-caption">Studio One 4.1.2 (click for larger image)</div>
+
+<p>If you thought Logic was bad, just you wait! The folks at Presonus have some work to do.</p>
+
+<h2 id="waveform-10026">Waveform 10.0.26</h2>
+
+<a href="/assets/Differ/Automate/Waveform.png">
+<img src="/assets/Differ/Automate/Thumbnails/Waveform.png" alt="Waveform">
+</a>
+<div class="image-caption">Waveform 10.0.26 (click for larger image)</div>
+
+<p>As awesome as Waveform is, this was by far the worst DAW that I tested.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p><strong>DO NOT TRUST ME</strong>. Try this yourself. <a href="https://sonicvisualiser.org">The tools are free</a>.</p>
+
+<p>Should you care? Probably not. Is it interesting? I hope so.</p>
+
+<p>Should you drop your favorite software over this? Very unlikely.</p>
+
+<p>Some companies have some real issues though.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 13 hours to research, test, write and post. The video took 8 hours. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

@@ -1,0 +1,13 @@
+I"G  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Reaper/Click/Click.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">A real click track in Reaper</div>
+
+<p>I like to have a real click <strong>track</strong> in my project. That means that I want have a <strong>track</strong> with the click that I can put on effects or use as a sidechain source. I don’t want a phantom click source that just plays when the project plays. I want a track.</p>
+
+<p>Reaper allows you to do this, but if you want a button on your toolbar to control that track then you gotta write a script or two to make that work. So that’s what I’ve done.</p>
+
+<p>Click through to see how I setup a <em>real</em> click track, with effects, and a toolbar button that controls it.</p>
+
+:ET

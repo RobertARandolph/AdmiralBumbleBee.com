@@ -1,0 +1,670 @@
+I"��<img src="/assets/BlueCat/Axiom/AxiomGeneral.png" alt="Axiom">
+<div class="image-caption">Axiom</div>
+
+<p>In my <a href="/music/2018/04/15/Blue-Cat-Axiom-Plugin-Review.html">Axiom Review</a> I <a href="/music/2018/04/15/Blue-Cat-Axiom-Plugin-Review.html#presets-1">complained about the presets</a>. One of the fine fellows at Blue Cat more or less told me to “put up or shut up” in a <a href="https://www.gearslutz.com/board/showpost.php?p=13310362&amp;postcount=29">very kind way</a>, and (s)he was totally right in doing so.</p>
+
+<p>I didn’t actually give a good constructive summary of how to improve the presets, or how a user could create patches suited to their tracks.</p>
+
+<p><strong>Not all of these are guitar sounds!</strong></p>
+
+<p>So that’s what I’m doing today. I have 10 presets here for Axiom that I took from “real sessions”. I’m going to explain how to use them, how I came to the settings I used, and the tricks I use when utilizing Axiom.</p>
+
+<p>A lot of these tips apply directly to <a href="https://www.bluecataudio.com/Products/Product_Destructor/">Blue Cat Destructor</a> as well.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#introduction" id="markdown-toc-introduction">Introduction</a></li>
+  <li><a href="#pre-requisites" id="markdown-toc-pre-requisites">Pre-requisites</a>    <ul>
+      <li><a href="#vu" id="markdown-toc-vu">VU</a></li>
+      <li><a href="#guitar" id="markdown-toc-guitar">Guitar</a></li>
+      <li><a href="#for-the-record" id="markdown-toc-for-the-record">For the record…</a></li>
+    </ul>
+  </li>
+  <li><a href="#late-replies---early-reflections" id="markdown-toc-late-replies---early-reflections">Late Replies - Early Reflections</a></li>
+  <li><a href="#destructor-tricks" id="markdown-toc-destructor-tricks">Destructor Tricks</a>    <ul>
+      <li><a href="#gate" id="markdown-toc-gate">Gate</a></li>
+      <li><a href="#compressor" id="markdown-toc-compressor">Compressor</a>        <ul>
+          <li><a href="#makeup-gain" id="markdown-toc-makeup-gain">Makeup Gain</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#destruction" id="markdown-toc-destruction">Destruction</a>    <ul>
+      <li><a href="#range" id="markdown-toc-range">Range</a></li>
+      <li><a href="#source" id="markdown-toc-source">Source</a></li>
+      <li><a href="#threshold-and-ceiling" id="markdown-toc-threshold-and-ceiling">Threshold and Ceiling</a></li>
+      <li><a href="#phase-shift" id="markdown-toc-phase-shift">Phase Shift</a></li>
+      <li><a href="#preamp" id="markdown-toc-preamp">Preamp</a>        <ul>
+          <li><a href="#reset-easy-mode" id="markdown-toc-reset-easy-mode">Reset easy mode!</a></li>
+          <li><a href="#use-the-gain" id="markdown-toc-use-the-gain">Use the Gain!</a></li>
+        </ul>
+      </li>
+      <li><a href="#post-filter" id="markdown-toc-post-filter">Post-Filter</a>        <ul>
+          <li><a href="#easy-mode-again" id="markdown-toc-easy-mode-again">Easy Mode again…</a></li>
+          <li><a href="#use-the-gain-1" id="markdown-toc-use-the-gain-1">Use the Gain!</a></li>
+          <li><a href="#comb-filters" id="markdown-toc-comb-filters">Comb Filters</a></li>
+          <li><a href="#pre-and-post-emphasis" id="markdown-toc-pre-and-post-emphasis">Pre and Post emphasis</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#axiom-tricks" id="markdown-toc-axiom-tricks">Axiom Tricks</a>    <ul>
+      <li><a href="#gain-staging" id="markdown-toc-gain-staging">Gain staging</a></li>
+      <li><a href="#short-reverb" id="markdown-toc-short-reverb">Short Reverb</a></li>
+      <li><a href="#destructor" id="markdown-toc-destructor">Destructor</a></li>
+      <li><a href="#eqs" id="markdown-toc-eqs">EQs</a></li>
+      <li><a href="#comb-filter" id="markdown-toc-comb-filter">Comb filter</a></li>
+      <li><a href="#a-and-b" id="markdown-toc-a-and-b">A and B</a></li>
+    </ul>
+  </li>
+  <li><a href="#presets" id="markdown-toc-presets">Presets</a>    <ul>
+      <li><a href="#bass-guitar" id="markdown-toc-bass-guitar">Bass Guitar</a>        <ul>
+          <li><a href="#70sroundbass" id="markdown-toc-70sroundbass">70sRoundBass</a></li>
+        </ul>
+      </li>
+      <li><a href="#guitar-1" id="markdown-toc-guitar-1">Guitar</a>        <ul>
+          <li><a href="#basstouchycrunchy" id="markdown-toc-basstouchycrunchy">BassTouchyCrunchy</a></li>
+          <li><a href="#breakuptweed" id="markdown-toc-breakuptweed">BreakupTweed</a></li>
+          <li><a href="#heavy-1" id="markdown-toc-heavy-1">Heavy 1</a></li>
+          <li><a href="#heavy-2" id="markdown-toc-heavy-2">Heavy 2</a></li>
+          <li><a href="#pawnshop" id="markdown-toc-pawnshop">PawnShop</a></li>
+          <li><a href="#punk-crunch" id="markdown-toc-punk-crunch">Punk Crunch</a></li>
+          <li><a href="#rockwideab" id="markdown-toc-rockwideab">RockWideAB</a></li>
+        </ul>
+      </li>
+      <li><a href="#mix" id="markdown-toc-mix">Mix</a>        <ul>
+          <li><a href="#mix-thick" id="markdown-toc-mix-thick">Mix Thick</a></li>
+          <li><a href="#tape" id="markdown-toc-tape">Tape</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="introduction">Introduction</h1>
+
+<p>I’ve written this article somewhat backwards. Rather than diving in to the presets, I’m going to cover general usage and the basic ideas first.</p>
+
+<p>Then I’m going to walk you through the 10 presets one by one. I’ll refer to the previous sections as I go.</p>
+
+<p>The presets can be downloaded below. These can be used in the <a href="https://www.bluecataudio.com/Products/Product_Axiom/">Axiom Demo</a> as well as the full version.</p>
+
+<p>Here’s the <a href="/assets/BlueCat/Axiom/Presets/Presets.zip">presets by the way</a></p>
+
+<h1 id="pre-requisites">Pre-requisites</h1>
+
+<h2 id="vu">VU</h2>
+
+<img src="/assets/BlueCat/Axiom/VUMT.png" alt="VUMT">
+<div class="image-caption">VUMT In Action</div>
+
+<p>First, you must understand the concept of <a href="/music/2017/11/01/Gainstaging-for-the-modern-musician.html">gain staging</a>. Axiom and Destructor are <a href="https://en.wikipedia.org/wiki/Nonlinear_system">non-linear processors</a> at their heart. This means that if the input levels are not similar to what the preset designer used, then you won’t hear what the preset designer used.</p>
+
+<p>For all of these presets I used a very simple standard. 0VU=-18dbFS. That means that your input signal, whatever it is, is around 0<a href="https://en.wikipedia.org/wiki/VU_meter">VU</a> when played at its normal level.</p>
+
+<p>VU is not RMS. VU is not peak. VU is not <a href="https://en.wikipedia.org/wiki/Peak_programme_meter">DIN or EBU</a> or <a href="https://en.wikipedia.org/wiki/LKFS">LKFS</a>. VU is VU.</p>
+
+<p>If your DAW does not have a VU meter built-in, or if you do not already have an awesome meter <a href="https://klanghelm.com/contents/products/VUMTdeluxe/VUMTdeluxe.php">like VUMT Deluxe</a>, then you can download the <strong>FREE</strong> <a href="https://www.tb-software.com/TBProAudio/mvmeter2.html">mvMeter2</a>.</p>
+
+<p>I could have used some other metering standard for this, but VU is what I use when I mix, so this is what was used when these presets were created.</p>
+
+<p>If you don’t calibrate your input levels this way, then you’ll get a much different sound than me.</p>
+
+<h2 id="guitar">Guitar</h2>
+
+<img src="/assets/BlueCat/Axiom/Midtown.png" alt="alt-text">
+<div class="image-caption">Look at that pretty guitar</div>
+
+<p>For the Guitar presets, what guitar you use and what DI you use has a big influence on the sound.</p>
+
+<p>I did not keep track of <em>exactly</em> which setups were used for these, but I did double-check them all on my beloved <a href="https://shop.fender.com/en-US/electric-guitars/jazzmaster/">Fender Jazzmaster</a> and <a href="http://www.gibson.com/Products/Electric-Guitars/Designer/Gibson-USA/Midtown-Standard-P-90.aspx">Gibson Midtown</a>.</p>
+
+<p>Some of these presets were created with setups that I do not have access to, specifically active and/or humbucking pickups. All of my guitars have single coils of some sort (I <strong>love</strong> P90s). I can tell you that the difference in sound between the mixed track and my favorite guitars is <em>way</em> different.</p>
+
+<p>So your mileage may vary. Hopefully some of the tips and tricks will aide you towards tweaking my presets, or the huge variety of default Axiom/Destructor presets for your sound.</p>
+
+<h2 id="for-the-record">For the record…</h2>
+
+<p>All of the presets come from recordings in the context of a mix. This is my biggest problem with most of the default presets that come with Axiom/Destructor; they sound awesome on their own, but in a mix they are way too forward and two-dimensional.</p>
+
+<p>I think “two-dimensional” is a bit of a buzzword that gets thrown around too freely so let me expand on it. The default presets lack subtle reverb, comb filtering (from boundaries and multiple speakers), group delay (from microphone distance) and post-amp equalization (microphone) that help make a recorded amp sound like… well, a recorded amp.</p>
+
+<p>I understand that the folks making the presets need to create sounds that WOW people on first listen and excited guitarists, but the ultimate goal is to create a song right?</p>
+
+<p>A big part of this article is introducing some of these “three-dimensional” aspects to the sound. In fact, a lot of the default presets sound a lot better (I think, obviously) using some of these techniques.</p>
+
+<p>Or I could be full of it… you’ll just have to try it out and see.</p>
+
+<h1 id="late-replies---early-reflections">Late Replies - Early Reflections</h1>
+
+<img src="/assets/BlueCat/Axiom/LRER.png" alt="Late Replies, earlier reflecations">
+<div class="image-caption">Late replies, early reflections</div>
+
+<p>I don’t use this in any of the presets below, but it is something that I’ve begin doing recently.</p>
+
+<p>I setup <a href="https://www.bluecataudio.com/Products/Product_LateReplies/">Late Replies</a> with a selection of decaying replies, going from left to right, with light feedback. This simulates the concept of <a href="https://www.sweetwater.com/insync/early-reflections/">early reflections</a> that help aid in the illusion of ‘recording a guitar in a room’.</p>
+
+<p>Early reflections in reverbs can be rather complex, and the topic of creating <em>any</em> reverb elements in Late Replies would be a post of its own. The act of creating a few very quick and short delays at the beginning of the sound is easy though.</p>
+
+<p>Once you start exploring the use of Late Replies for creating early reflections, I’m sure you’ll slowly build up in to creating your own lush reverbs that don’t clutter up your mix. Late replies is fantastic for that.</p>
+
+<h1 id="destructor-tricks">Destructor Tricks</h1>
+
+<p><a href="https://www.bluecataudio.com/Products/Product_Destructor/">Destructor</a> is the core of Axiom, quite literally. It’s smack dab in the middle of the GUI.</p>
+
+<p>A lot of the sound that you get out of Axiom is going to come from Destructor, so it pays to spend a bit of extra time with Destructor and learn some of the tricks.</p>
+
+<h2 id="gate">Gate</h2>
+
+<img src="/assets/BlueCat/Axiom/Gate.png" alt="Gating">
+<div class="image-caption">Gating AND Expansion</div>
+
+<h2 id="compressor">Compressor</h2>
+
+<img src="/assets/BlueCat/Axiom/Comp.png" alt="Compressor">
+<div class="image-caption">Compress</div>
+
+<p>If you need the sound to have a rather static saturation profile, then compressing before the Destruction stage is what you need. If you want that ultra-dynamic feel, then don’t even bother.</p>
+
+<p>Compressing raw guitar sounds straight out of the DI is somewhat hit and miss. They are fairly anemic sounding instruments on their own. I suggest using very short release times and longer attack times (unlike what I’m showing above).</p>
+
+<p>Most of the time you can avoid using the compression stage entirely except for…</p>
+
+<h3 id="makeup-gain">Makeup Gain</h3>
+
+<img src="/assets/BlueCat/Axiom/Makeup.png" alt="Makeup Gain">
+<div class="image-caption">Use the makeup gain!</div>
+
+<p>This unassuming knob right here is one of your two best friends for any sort of high-gain or crunchy sound in Destructor.</p>
+
+<p>If you try to make sounds with Destructor just by fooling with the “Destruction” module then you will have knobs and sliders cramped way up near their maximums just trying to get enough grit out of your sound.</p>
+
+<p>Enter the Makeup Gain Knob. Use this to add gain before you get to the Preamp and Destruction stages. If you feel like you’re cranking the drive too much or the Range knob too far, or the threshold slider is too sensitive…. feed some more/less gain in to.</p>
+
+<p>If you’re a guitarist pedal-geek (like me), then you can think of this as your clean boost right before the amp. It’s that really simple little knob that’s the difference between tonal bliss and handheld-radio-like sounds.</p>
+
+<p>The <a href="#use-the-gain">Preamp gain</a> is another important gain stage as well, but with a less ‘clean’ function. To understand which to use, refer to the <a href="#threshold-and-ceiling">Threshold and Ceiling section</a>.</p>
+
+<h1 id="destruction">Destruction</h1>
+
+<h2 id="range">Range</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/BlueCat/Axiom/Range.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Range is how you get that dynamic touch</div>
+
+<p>The destruction section basically has 2 parts: a distortion module, and a “compressor” that affects the amount of distortion.</p>
+
+<p>The range knob is what affects how much dynamic changes occur to the amount of distortion. If you want that delicate tube-like touch or that blasted tape sound, then careful adjustment of the range knob is what you want.</p>
+
+<p>This much should be obvious if you <a href="https://www.bluecataudio.com//Vault/Products/Product_Destructor/manual.pdf">read the manual</a>. I’m bringing up the range control for a very specific reason:</p>
+
+<p><strong>Automate it.</strong></p>
+
+<p>You can give a chorus section that little extra boost by <em>decreasing</em> the range (which makes the distortion more consistent). You can make your solo more delicate and nuanced by <em>increasing</em> the range knob.</p>
+
+<p>Don’t be afraid of laying down a track with one sound, then going back and automating the range knob to adjust the ‘response’ of the amp to be more appropriate for the feel of the track. You can even simulate the sound of an amp warming up with a very light automation movement across the track on the range knob.</p>
+
+<p>It’s a small thing, but it can make a big difference.</p>
+
+<h2 id="source">Source</h2>
+
+<img src="/assets/BlueCat/Axiom/Source.png" alt="The source of all your troubles">
+<div class="image-caption">Source for the dynamic distortion</div>
+
+<p>If the default presets are anything to go by, these are probably the 3 most underused controls in Destructor.</p>
+
+<p>Let’s first cover the “Source” control. This is where in the signal flow that the dynamic distortion reacts to. You can use the input signal, the preamp signal, the gate signal, the compressor signal or an external signal.</p>
+
+<p>So here’s what happens when you use the various modes, and why you’d want to use them:</p>
+
+<ul>
+  <li>Input - This is probably the least “amp-like” or “tube-like” or “tape-like” or anything like. If you’re doing any sort of bitcrushing or creative effects then this is usually what you want.</li>
+  <li>Gate - In the chance that you are not using any compressor makeup gain or preamp gain, then this is the best place to work from. Often when using high gain sounds that are gated, you can end up with that subtle squeel when the gate opens/closes. Using the post-gate signal makes the dynamics section follow the gating, so the distortion responds to the gated signal instead of the input signal and you don’t get that messy gate open/close sound.</li>
+  <li>Comp - The compressor section is probably the most useful, at least I think it is. If you’re using compression on your input signal then you want the amp to respond to your lightly compressed input stage. This is also where you find a makeup gain control which lets you overdrive the Destruction section more.</li>
+  <li>Preamp - Using the post-preamp signal is important for a number of clean/crunchy sounds. When you have a preamp curve that accentuates the high-end in any way, you are also increasing the level of transients/peaks in the signal. Increasing the transient material in the sound can drastically change the envelope of the signal and will make your sound “more responsive”.</li>
+  <li>External - Not applicable in this article, but this can be useful when mixing. Maybe I’ll cover that another day.</li>
+</ul>
+
+<p>In my experience, comp and preamp are used usually. The only time that I use gate is on really high-gain sounds to help alleviate that gate open/close squeel.</p>
+
+<h2 id="threshold-and-ceiling">Threshold and Ceiling</h2>
+
+<img src="/assets/BlueCat/Axiom/TnC.png" alt="Threshold and Ceiling">
+<div class="image-caption">Threshold and Ceiling</div>
+
+<p>Now for the threshold and ceiling. These are the 2 things that your input <a href="#source">source</a> triggers, and the amount is dependent on the <a href="#range">range</a> control.</p>
+
+<p>So what’s happening here?</p>
+
+<ul>
+  <li>Threshold - This determines where the dynamic distortion effect switches on <em>or</em> off (I’ll explain shortly)</li>
+  <li>Ceiling - This determines where the dynamic distortion effect is maxed out.</li>
+</ul>
+
+<p>There’s 2 possible setups that you might use:</p>
+
+<ul>
+  <li>Threshold below the ceiling - The threshold controls when the dynamic behaviour starts. The ceiling determines when its maxed out. If you are using a <a href="#VU">properly gain staged signal</a> then you might notice that the threshold has to be <em>very low</em>. This is why using some sort of <a href="#makeup-gain">makeup gain</a> is so important. 
+The distance between the threshold and ceiling is “how dynamic” the response will be. The threshold determines when the breakup occurs.</li>
+  <li>Ceiling below the threshold - This makes the distortion maxed until the signal hits the ceiling. At the threshold, the distortion is totally off. The louder the signal, the less distortion. Not exactly useful for contemporary sounds, but a cool special effect.</li>
+</ul>
+
+<p>Proper setting of the threshold and ceiling is what lets the <a href="#range">range control</a> do its thing.</p>
+
+<p>For that subtle tube-like breakup, set the threshold somewhat low and the ceiling higher. The amount of distortion increases the louder you play and it’s really sensitive to your playing.</p>
+
+<p>If you want a solid-state like feeling then have the threshold below the ceiling, but put them close together. It will stay clean right up till you start to clip that transistor.</p>
+
+<p>A tape-like sound will be right in between the two. A higher threshold, but with the ceiling and threshold moderately close together.</p>
+
+<p>Modern high-gain sounds you’ll want the ceiling at the bottom and the threshold at the top. This setup will have the distortion model pegging the red the whole time. Silky smooth destruction is your reward.</p>
+
+<p><strong>REMEMBER</strong> These threshold and ceiling settings depend on the input gain. Gain staging is important. Use the <a href="#makeup-gain">compressor makeup gain</a> or <a href="#use-the-gain">preamp gain</a>. If those aren’t appropriate then load a gain plugin in Axiom before destructor. Be creative.</p>
+
+<h2 id="phase-shift">Phase Shift</h2>
+
+<img src="/assets/BlueCat/Axiom/PhaseShift.png" alt="Phase shift">
+<div class="image-caption">Phase Shift</div>
+
+<p>I think that a lot of people will totally overlook this control. It’s nearly as important as the <a href="#comb-filters">Comb Filters</a>.</p>
+
+<p>It has 3 situational uses:</p>
+
+<ul>
+  <li>To emulate distance - When complex sounds mode through the air, the phase relationship between the <a href="https://en.wikipedia.org/wiki/Fourier_series">frequencies that make up the sound</a> change. If you take a 100hz signal and a 157hz signal, at the start they line up. At 1second they have different relationships. At 1.5 seconds it’s different again, etc… As the sound propogates through the air this continues. The phase shift function can help emulate those extended phase relationships that occur as the sound moves through the air and components of the sound are attenuated at different rates. This effect can be very subtle.</li>
+  <li>To change the response of the destruction - Adjusting the phase of higher frequencies can have the effect of increasing transients or decreasing them. Lower frequency phase rotations can also have significant effects on the envelope of the signal.</li>
+  <li>To use with the mix control - This is the big one. Rotate the phase of <em>some</em> frequencies but not all of them. Then when you combine that with the original signal, you get a frequency dependent <a href="#comb-filters">comb filtering effect</a></li>
+</ul>
+
+<p>If the sound is of the type where mixing in the clean sound makes sense, then utilizing the phase shift can yield some extra realism.</p>
+
+<p>This is also an important control when emulating certain old processors that have preamplification that affected the phase of the input signal.</p>
+
+<h2 id="preamp">Preamp</h2>
+
+<h3 id="reset-easy-mode">Reset easy mode!</h3>
+
+<img src="/assets/BlueCat/Axiom/ResetEasy.png" alt="Reset Easy Mode">
+<div class="image-caption">Reset Easy</div>
+
+<p>This is something that I feel is a mistake in many of the default presets, but you may disagree with me.</p>
+
+<p>Many of the default Preamp curves are created using the pink nodes. These pink nodes correspond to the bass/mid/treble/tone knobs in the easy mode interface.</p>
+
+<p>The problem that I encounter is that these settings are <em>very</em> important to the overall tonality of the current amp model. If you move the knobs then the sound changes drastically. Most of the presets don’t let you use the tone knobs to ‘change the tone’, but they in fact tend to change the whole sound.</p>
+
+<p>So when you’re exploring Destructor for yourself I highly recommend resetting the Bass/Mid/Treble knobs to 0, and setting the Tone knob to 0.50.</p>
+
+<p>Then attempt to create the best sounding curve possible.</p>
+
+<p><em>Then</em> adjust the <em>position</em> of the pink nodes so that when you adjust them, they improve the sound without changing it drastically.</p>
+
+<p><strong>OR</strong></p>
+
+<p>Just use every available tool at your disposal and don’t use easy mode at all. That’s my favorite method :) Then you have a lot more options.</p>
+
+<h3 id="use-the-gain">Use the Gain!</h3>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/BlueCat/Axiom/PreGain.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Preamp Gain</div>
+
+<p>The preamp section has gain. This may seem like an overlap with the <a href="#makeup-gain">Makeup Gain</a> function, but there’s a subtle difference that occurs when you utilize the <a href="#threshold-and-ceiling">Shape Dynamics</a>.</p>
+
+<p>Be aware that this exists, and know how to use it.</p>
+
+<h2 id="post-filter">Post-Filter</h2>
+
+<h3 id="easy-mode-again">Easy Mode again…</h3>
+
+<p><a href="#reset-easy-mode">Read about Easy Mode</a>.</p>
+
+<p>Do it, it’s important.</p>
+
+<h3 id="use-the-gain-1">Use the Gain!</h3>
+
+<p>Just <a href="#use-the-gain">like in the preamp</a>, this is important for gain staging.</p>
+
+<h3 id="comb-filters">Comb Filters</h3>
+
+<img src="/assets/BlueCat/Axiom/CombFilter.png" alt="Comb filtering">
+<div class="image-caption">Comb Filters</div>
+
+<p>Both the <a href="#preamp">Preamp</a> and <a href="#post-filter">Post-Filter</a> sections have a combfilter. It’s the orange circle with a sine wave on it.</p>
+
+<p>Firstly, what does it doing? It takes a copy of the signal, delays it, adjust the gain, possibly inverts the polarity and combines it with the original signal. The gain/polarity of the duplicate is adjusted by moving the filter node up and down, and the amount of delay is adjusted by moving it left/right. Further left means more delay.</p>
+
+<p>Then what? Why would you want to mess up your signal like that?! <em>Because that’s what we’ve been doing to guitars for 80+ years!</em></p>
+
+<p>There’s 2 notable situations where comb filtering occurs when recording a guitar:</p>
+
+<ul>
+  <li>Near a boundary - If you record a guitar amp that’s on the floor and have the microphone back a bit, then the microphone picks up the direct signal and the signal reflected off the floor.</li>
+  <li>Multiple speakers - If you record a guitar amp with multiple speakers and the microphone is back a bit, then you get sound from multiple speakers colliding and causing comb filtering.</li>
+</ul>
+
+<p>I’m sure that most people have heard a guitar sound that just seems really up front, and likewise a similar sound that feels more natural despite having no obvious room sound. That more natural sound is largely from comb filtering (and group delay).</p>
+
+<p>Using the comb filter is something that is rare in the default presets, and I feel that many of them can be improved by either utilizing it lightly or shifting the enabled comb filter to the left.</p>
+
+<p>Give it a shot and listen to the before/after.</p>
+
+<h3 id="pre-and-post-emphasis">Pre and Post emphasis</h3>
+
+<img src="/assets/BlueCat/Axiom/PrePost.png" alt="Pre-emphasis">
+<div class="image-caption">Pre-emphasis</div>
+
+<p>This is a common “trick”. It’s so common that I can’t really call it a trick.</p>
+
+<p>Before some sort of non-linear process, you filter/EQ your signal to emphasize or de-emphasize parts of the signal that you want to be saturated the most… Then after the saturation stage, you reverse it.</p>
+
+<p>It’s almost obvious once you know about it. Emphasize the parts you want to be affected, then de-emphasize them after the effect.</p>
+
+<p>This is actually the core of how guitar amps work, but they don’t have symmetrical curves.</p>
+
+<h1 id="axiom-tricks">Axiom Tricks</h1>
+
+<h2 id="gain-staging">Gain staging</h2>
+
+<img src="/assets/BlueCat/Axiom/GainStaging.png" alt="Gain Staging">
+<div class="image-caption">Abuse those slots!</div>
+
+<p>There’s a gain plugin in Axiom. <strong>USE IT</strong>.</p>
+
+<p>Some of the pedal plugins can be quite useful with very low gain, but you need to feed it a reduced gain signal, then makeup for it after. Throw a -10db gain before, and a +10db after. Now you have a really subtle crunch being fed in to Destructor.</p>
+
+<p>Don’t be afraid to use the gain plugin!</p>
+
+<h2 id="short-reverb">Short Reverb</h2>
+
+<img src="/assets/BlueCat/Axiom/ShortReverb.png" alt="Short Reverb">
+<div class="image-caption">Short Reverbs add realism</div>
+
+<p>I’m a big fan of subtle, short reverbs on guitars. &lt;1second length, a short pre-delay and a very low wet amount (unlike what’s pictured).</p>
+
+<p>Even throwing on a short-reverb with a 5% wet can be the difference between a sound that just won’t fit in a mix, and a sound that sits <em>just right</em>.</p>
+
+<p>It’s just another tool to add some of that “three dimensional realism” to your sound.</p>
+
+<h2 id="destructor">Destructor</h2>
+
+<img src="/assets/BlueCat/Axiom/DinA.png" alt="Destructor in Axiom">
+<div class="image-caption">Destructor in Axiom</div>
+
+<p>Destructor isn’t just the center of Axiom, Destructor is <em>available in Axiom as a plugin!</em>.</p>
+
+<p>If you’re just not getting enough juice from your setup and you want more distortion (or anything Destructor provides), then throw another Destructor in there!</p>
+
+<p>Destructor is an <em>awesome</em> “pedal”.</p>
+
+<h2 id="eqs">EQs</h2>
+
+<img src="/assets/BlueCat/Axiom/AxEQ.png" alt="Axiom EQ">
+<div class="image-caption">Equalizer</div>
+
+<p>Doesn’t that look familiar? It’s just like the <a href="#preamp">preamp</a> or <a href="#post-filter">post-filter</a>. It’s just missing the comb filter.</p>
+
+<p>If you feel like you run out of bands, then you can utilize one of these guys. You can sandwich them between Destructor instances if you need a specific routing.</p>
+
+<p>Don’t be afraid of EQing.</p>
+
+<h2 id="comb-filter">Comb filter</h2>
+
+<img src="/assets/BlueCat/Axiom/CombFilterFX.png" alt="Comb Filter FX">
+<div class="image-caption">Comb Filter FX</div>
+
+<p>Axiom comes with 2 extra comb filters. <a href="#comb-filters">These can be really important</a> to creating a realistic ‘miked amp’ sound.</p>
+
+<p>The normal delay-and-mix comb filter is available and there’s also the <a href="/music/2018/04/15/Blue-Cat-Axiom-Plugin-Review.html#comb-filter-iir">IIR type</a>.</p>
+
+<p>I strongly suggest experimenting with these on the Post FX section if you’re feeling like the sound feels too “forward” or lacks a sense of realism.</p>
+
+<h2 id="a-and-b">A and B</h2>
+
+<img src="/assets/BlueCat/Axiom/AB.png" alt="AB">
+<div class="image-caption">A and B channels</div>
+
+<p>Axiom has 2 channels. These can be utilizes as ‘real’ A and B channels that you switch between, or they can be layered.</p>
+
+<p>If you’re not utilizing it for the typical A and B channels, then using them to layer is quite useful, especially to create subtle stereo effects. Use the same preset, but slightly modified on the B channel, then pan A and B to the sides. Now you have a cohesive, mono-compatible, wide guitar sound.</p>
+
+<p>Or pan them both center and layer 2 guitar sounds to create a veritable wall of sound.</p>
+
+<h1 id="presets">Presets</h1>
+
+<h2 id="bass-guitar">Bass Guitar</h2>
+
+<h3 id="70sroundbass">70sRoundBass</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/70sRoundBass.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/70sRoundBass.png" alt="70s Round Bass">
+</a>
+<div class="image-caption">70's Round Bass</div>
+
+<p>This is the only bass preset I decided to include. Nearly all of the others I have sound <em>vastly</em> different depending on the bass. This one sounds pretty good for most inputs.</p>
+
+<p>The main things of note here are:</p>
+
+<ul>
+  <li>I have a <a href="#destructor">destructor acting as a compressor</a>. A dirty compressor.</li>
+  <li>There’s 2 <a href="#comb-filters">Comb filters</a> in action.</li>
+  <li>The <a href="#threshold-and-ceiling">threshold and ceiling are really tight</a> to give that feeling of an older solid state amp.</li>
+  <li><a href="#phase-shift">Phase Shift</a> is being used. This creates some of that ‘roundness’ to the sound from a really lazy input stage.</li>
+</ul>
+
+<h2 id="guitar-1">Guitar</h2>
+
+<h3 id="basstouchycrunchy">BassTouchyCrunchy</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/BassTouchyCrunch.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/BassTouchyCrunch.png" alt="alt-text">
+</a>
+<div class="image-caption">Bass Touchy Crunch</div>
+
+<p>Some of that bassy <a href="https://en.wikipedia.org/wiki/Fender_Twin">Fender Twin</a> style sound, but a bit touchier and less bassy. Almost like there’s a starved distortion pedal in front of it, and maybe some of the tubes are a bit old.</p>
+
+<p>The things of note in this one…</p>
+
+<ul>
+  <li>A ‘Blues Driver’ distortion that’s disabled. Flip this on for some lead-like crunch.</li>
+  <li>The Preamp curve is really extreme in the high-end to bring out some of that chimey sound.</li>
+  <li>The post-filter compensates for that extreme boost in the preamp</li>
+  <li><a href="#comb-filters">Comb filter</a> on the post-filter</li>
+  <li>+18db gain on the <a href="#makeup-gain">compressor makeup gain</a></li>
+  <li><a href="#phase-shift">Phase Shift</a> at 1.3k and 29%. This preset sounds somewhat bare without it.</li>
+  <li>A light <a href="#short-reverb">short decay reverb</a>.</li>
+  <li>A post-EQ reverb that brings some of the bass back and compensates for that big preamp boost a bit more.</li>
+</ul>
+
+<h3 id="breakuptweed">BreakupTweed</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/BreakupTweed.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/BreakupTweed.png" alt="Breakup Tweed">
+</a>
+<div class="image-caption">Breakup Tweed</div>
+
+<p>This isn’t as “<a href="https://en.wikipedia.org/wiki/Fender_tweed">tweedy</a>” as the name implies. It’s actually closer to a small <a href="https://shop.fender.com/en-US/guitar-amplifiers/vintage-pro-tube/hot-rod-deville-212-iv/2231100000.html">Hotrod Deville</a> style sound.</p>
+
+<p>This was used in a <a href="https://en.wikipedia.org/wiki/Psychobilly">psychobilly</a> track. The idea was to have a really lively crunchy sound that feels like it’s on a stage in a barn.</p>
+
+<ul>
+  <li>Gain abuse with a Blue drive. I wanted only a very subtle distortion from it, so there’s -15db going in to it and +5db after it.</li>
+  <li>Minimal use of the <a href="#range">Range</a> control. Not particularly responsive. It’s more of a “modern tube sound”</li>
+  <li><a href="#comb-filters">Comb Filters</a> in both the pre-post stages. This adds to the feel of being in a room.</li>
+  <li>Rather extreme curves sucking out parts of the midrange. That 3.5khz notch was found by just sweeping it around till it sounded right.</li>
+  <li>The <a href="#threshold-and-ceiling">Threshold and ceiling</a> are inverted. When you hit a chord really hard it doesn’t breakup a lot. You get a lot of the breakup on the sustain.</li>
+  <li>Two <a href="#reverb">Reverbs</a>. A reverb with a 3.5 second decay that gives that big room sound, and a 0.65s reverb that makes it feel like you’re hearing the sound from the audience, rather than on stage.</li>
+</ul>
+
+<p>You have to really commit to the ‘on stage’ sound for the rest of the instruments for this to work, but it’s a neat sound. If you don’t like that sound then just cut out the 3.5s reverb.</p>
+
+<h3 id="heavy-1">Heavy 1</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/Heavy1.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/Heavy1.png" alt="Heavy 1">
+</a>
+<div class="image-caption">Heavy 1</div>
+
+<p>This is your straightforward solid-state heavy sound. More crunch and less wash.</p>
+
+<p>Here’s how I came to it:</p>
+
+<ul>
+  <li>Compressor on the input - I don’t want the amp being “reactive”. I want a solid, consistent distortion. It needs to add sound to the mix no matter how the guitarist plays. Faster (which are always softer) parts and heavy parts (which are usually louder) need to have the same impact.</li>
+  <li>Metal Drive - Adds some more fuzz. I’ve never found that I can get a proper high-gain sound with <em>just</em> destructor. A little help is useful. I also have the mids scooped out a bit, which is common in high-gain sounds.</li>
+  <li>The drive is maxxed. <em>HIGH GAIN</em></li>
+  <li>The <a href="#compressor">compressor</a> is being used, despite having a compressor earlier. There’s also +14db of <a href="#makeup-gain">makeup gain</a>. You can’t be afraid of adding gain in your signal chain. It is an <em>amplifier</em>, so amplify.</li>
+  <li>The <a href="#preamp">preamp</a> stage is fairly flat with a light comb filter on the top end. This was created with high output active pickups in mind, and the source signal was pretty excellent. It doesn’t need much other than some high-end rolloff.</li>
+  <li>Very light <a href="#range">Range</a> usage for the crunchiness, but the <a href="#threshold-and-ceiling">threshold and ceiling</a> are very close.</li>
+  <li>The <a href="#post-filter">post-filter</a> is basically just a <a href="#comb-filter">comb filter</a> with some mid cut. Scoop those mids!</li>
+</ul>
+
+<h3 id="heavy-2">Heavy 2</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/Heavy2.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/Heavy2.png" alt="Heavy 2">
+</a>
+<div class="image-caption">Heavy 2</div>
+
+<p>Heavy 2 is the washier version. This is from a death metal track that had a grindy feel. It’s that dense wall of sound. It sounds pretty neat with power chords too. If you want that chugga-chugga sound, it’s not for you. If you want blistering blast beats and a wall of sound, then this is what you want.</p>
+
+<ul>
+  <li>A gate at the beginning - This cuts out a lot of the guitar noise, but not <em>all</em> of it. This gate is a bit chattery, and I don’t use the default gate <em>at all</em> in Axiom. I only subbed this in for distribution of the presets. Replace it with something else, please.</li>
+  <li>Two waveshapers. Lots of distortion going in. LOTS of it.</li>
+  <li>I used the “Heavy and Loud” destructor preset here, with some modifications.</li>
+  <li>A second gate - This gate helps soften the on/off of the input gate. This happens after the waveshaping so it’s responding to the edges of the heavily distorted signal. Using 2 gates like this is a great way to get a more natural response.</li>
+  <li>Lots of low-end cut. Guitars in this style can cause a lot of low-end build up very quickly</li>
+  <li>You may be surprised that there’s a lot of <a href="#threshold-and-ceiling">threshold and ceiling</a> usage here. The default has no <a href="#range">range</a> control, so this is irrelevant. I automate the range control here, and the <a href="#makeup-gain">makeup gain</a> to create a less extreme sound for a solo.</li>
+</ul>
+
+<p>It’s a simple sound otherwise.</p>
+
+<h3 id="pawnshop">PawnShop</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/Pawnshop.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/Pawnshop.png" alt="Pawnshop">
+</a>
+<div class="image-caption">Pawnshop amp</div>
+
+<p>That 6” pawn shop amp that your father bought in the 50s. Someone thought it’d be funny to ram a pencil in the speaker. Still somehow made its way on to a number of hit records??</p>
+
+<ul>
+  <li>Very light “fuzz” pedal applied for that old amp sound.</li>
+  <li><a href="#range">Range</a> and <a href="#threshold-and-ceiling">threshold and ceiling</a> are fairly high. The distance between the threshold and ceiling is small, so while the sound is fairly clean, it breaks up quickly.</li>
+  <li>Lots of midrange pulled out with an aggressive <a href="#comb-filter">comb filter</a>.</li>
+</ul>
+
+<p>That’s it. Nothing fancy. Compare that to some of the other presets and you can see how extreme differences can be between sounds that “look” similar.</p>
+
+<h3 id="punk-crunch">Punk Crunch</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/PunchCrunch.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/PunchCrunch.png" alt="Punk Crunch">
+</a>
+<div class="image-caption">Punk Crunch</div>
+
+<p>The name is self-explanatory.</p>
+
+<ul>
+  <li>The ubiquitous <a href="https://en.wikipedia.org/wiki/Ibanez_Tube_Screamer">Tubescreamer clone</a>. I actually use <a href="https://cytomic.com/#scream">Cytomic’s The Scream</a> here. It’s an <em>amazing</em> plugin and it’s getting better soon!</li>
+  <li>To get that ultra-bright <a href="https://en.wikipedia.org/wiki/NOFX">NOFX</a> like punk sound there’s no filtering in the <a href="#preamp">preamp</a> section. Let it all loose in to the Destruction.</li>
+  <li>The waveshaper curve kicks in quite early here.</li>
+  <li>The <a href="#range">Range</a> knob is active with a moderate <a href="#threshold-and-ceiling">threshold and ceiling</a>. This is a rather subtle effect, but it’s necessary so the sound isn’t too screechy with those ultra bright steel strings.</li>
+  <li>+8db of <a href="#makeup-gain">makeup gain</a></li>
+  <li>The post-filter attenuates those high-frequencies now with a moderate <a href="#comb-filter">comb filter</a> being applied as well.</li>
+  <li>Theres <a href="#eqs">an EQ</a> to clean up some more of the high end and a slight mid scoop.</li>
+  <li>A post-amp compressor for that really tight sound.</li>
+  <li>A <a href="#short-reverb">short reverb</a> enhances the realism so it can fit in to the mix with miked drums and a miked bass.</li>
+</ul>
+
+<h3 id="rockwideab">RockWideAB</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/RockWideAB.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/RockWideAB.png" alt="Rock Wide">
+</a>
+<div class="image-caption">Rock Wide</div>
+
+<p>This is a really generic rock amp preset. There’s only one notable thing about it: A and B channels.</p>
+
+<p>Channel A is panned to the left. Channel B is panned to the right.</p>
+
+<p>Channel B has a slightly different <a href="#post-filter">post filter</a> with a more aggressive <a href="#comb-filter">Comb filter</a>. This creates enough of a difference that when panned opposite channel A you hear a pleasant stereo effect.</p>
+
+<p>When collapsed to mono you don’t get any <em>major</em> issues. Just a slight change in the sound, like any stereo effect.</p>
+
+<h2 id="mix">Mix</h2>
+
+<h3 id="mix-thick">Mix Thick</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/MixThick.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/MixThick.png" alt="Mix Thick">
+</a>
+<div class="image-caption">Mix Thickening</div>
+
+<p>Mix Thick is a 2 stage compression with some very light distortion.</p>
+
+<p>The preamp filter is used to emphasize the 250hz range, which goes in to some very subtle and highly dynamic distortion (<a href="#range">observe the range</a>). The post-filter compensates for that with an identical cut.</p>
+
+<p>We feed some heavy midrange to be saturated, then we remove that heavy midrange. We’re still left with the harmonics from the saturation. It’s that <a href="#pre-and-post-emphasis">Pre-emphasise</a> technique discussed earlier.</p>
+
+<p>After that there’s some fast release compression to help emphasize the sustain on the mix.</p>
+
+<h3 id="tape">Tape</h3>
+
+<a href="/assets/BlueCat/Axiom/Presets/Tape.png">
+<img src="/assets/BlueCat/Axiom/Presets/Thumbnails/Tape.png" alt="Tape">
+</a>
+<div class="image-caption">Tape-like</div>
+
+<p>This isn’t <em>really</em> a tape emulation. It’s a <em>tape like</em> emulation. Let me walk you through it:</p>
+
+<ul>
+  <li>A Mid/Side encoder is used. This puts the “mid” signal on the left, and the “side” signal on the right.</li>
+  <li>A pan skews it so that we have a lot of side signal, and not much mid.</li>
+  <li>Light compression is setup on the compressor. If you use <a href="#vu">the VU setup I described</a> then this will only be hitting on the loudest parts of your track.</li>
+  <li>Destructor is used with a high-end emphasizing <a href="#preamp">preamp</a> filter.</li>
+  <li>The <a href="#threshold-and-ceiling">threshold and ceiling</a> is set fairly far apart with low drive and a light waveshape.</li>
+  <li>The post-filter is basically an inverse of the preamp. It’s that <a href="#pre-and-post-emphasis">Pre-emphasise</a> technique discussed earlier…. again.</li>
+  <li>A pan “fixes” our mid/side skewing we did earlier</li>
+  <li>A mid-side decoder brings us back to a normal L/R signal.</li>
+</ul>
+
+<p>The result of this is that we add some distortion to the sides which adds a subtle width similar to tape. The very light compression and wide dynamic range of the destruction gives more of a tape-like vibe.</p>
+
+<p>It should sound pretty awesome on just about any mix.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>This is clearly not everything that Axiom is capable of. This is a somewhat large article, yet I’ve only covered maybe 1% of what’s possible with the default plugin. I didn’t even cover <a href="https://www.bluecataudio.com/Products/Product_LateReplies/">using Late Replies</a> or many of the other included products!</p>
+
+<p>Hopefully I’ve given you some ideas on how to use the product, or things to explore when you demo the product.</p>
+
+<p><a href="/assets/BlueCat/Axiom/Presets/Presets.zip">Here’s the presets again</a></p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 17 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

@@ -1,0 +1,245 @@
+I"�G<img src="/assets/Waveform/Good/Modifiers.png" alt="Modifiers">
+<div class="image-caption">Modifiers about to work</div>
+
+<p>Part 2 of <a href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html">30 days with Tracktion Waveform 9</a>. I’m trying to get these out every 3-4 days, but I was unable to last week so we ended up having that <a href="/music/2018/03/11/Interview-with-Ben-Loftis-of-Harrison-Consoles-about-Mixbus.html">interview with Ben Loftis of Harrison and Mixbus</a>.</p>
+
+<p>Today I’m going to cover some <em>really</em> cool things, some annoyances that seem minor (but really irk me!), and the weird core of Waveform’s design philosophy.</p>
+
+<ul>
+  <li>The Good
+    <ul>
+      <li>Modifiers</li>
+      <li>Plugin Selector</li>
+      <li>Plugin Thumbnails</li>
+    </ul>
+  </li>
+  <li>The Bad
+    <ul>
+      <li>Renaming tracks</li>
+      <li>Track Colouring</li>
+    </ul>
+  </li>
+  <li>The Weird
+    <ul>
+      <li>Single Pane Interface</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html"> Version 9, Part 0: Intro</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html"> Version 9.1.1, Part 1: Browser, Mixing, GUI, VCAs</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html"> Version 9.1.1, Part 3: Macros, UI design, Ghost tracks, Buying</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/21/Waveform-9-the-good-the-bad-the-weird-part-4.html"> Version 9.1.1, Part 4: Pattern Generator, Edit Clips, Folder editing, Chord Track</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html"> Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html"> Version 9.1.1, Part 6: MIDI Editing</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html"> Version 9.1.1, Part 7: Recording</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/03/Waveform-9-the-good-the-bad-the-weird-part-8.html"> Version 9.1.1, Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/08/Waveform-9-instruments-and-effect-review.html"> Version 9.1.1, Part 9: Instruments and Effect Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/11/Waveform-9-Conclusion.html"> Version 9.1.1, Part 10: Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/04/05/Tracktion-Waveform-10.html"> Version 10.1.0</a></li>
+    
+
+</ul>
+
+<p><strong>VERSION</strong> - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#the-good" id="markdown-toc-the-good">The Good</a>    <ul>
+      <li><a href="#modifiers" id="markdown-toc-modifiers">Modifiers</a></li>
+      <li><a href="#plugin-selector" id="markdown-toc-plugin-selector">Plugin Selector</a></li>
+      <li><a href="#plugin-thumbnails" id="markdown-toc-plugin-thumbnails">Plugin Thumbnails</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-bad" id="markdown-toc-the-bad">The bad</a>    <ul>
+      <li><a href="#renaming-tracks-and-importing" id="markdown-toc-renaming-tracks-and-importing">Renaming Tracks and importing</a></li>
+      <li><a href="#track-colouring" id="markdown-toc-track-colouring">Track colouring</a></li>
+      <li><a href="#modifier-nitpicks" id="markdown-toc-modifier-nitpicks">Modifier Nitpicks</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-weird" id="markdown-toc-the-weird">The Weird</a>    <ul>
+      <li><a href="#single-pane-interface" id="markdown-toc-single-pane-interface">Single Pane Interface</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="the-good">The Good</h1>
+
+<h2 id="modifiers">Modifiers</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/Modifiers.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Modifiers in action</div>
+
+<p>Waveform 9 introduced Modifiers. These are modulators, which means that they generate a signal that attaches to an automatable parameter and automatically automates it.</p>
+
+<p>Waveform has 6 modifiers currently:</p>
+
+<ul>
+  <li>LFO - LFO generates a waveform with variable offset, phase and depth. The LFO can run ‘free’, meaning that it’s not synced to the project, or it can be locked to project transport <em>or</em> note-on. The signal can be unipolar (always &gt; 0) or bipolar (-1 to +1).</li>
+  <li>Breakpoint - 1-4 points that can be moved. Selectable as unipolar/bipolar, freerunning/transport/note sync.</li>
+  <li>Step - A 2-64 step sequencer. Each step is assigned a value and it’s played back at the selected speed.</li>
+  <li>Envelope Follower - Maps incoming audio to a modulation signal. The signal can be low or high passed, with adjustable depth and offset. There’s a gain adjustment and adjustments for the attack/hold/release of the follower (this controls how aggressively it follows those portions of the input signal.)</li>
+  <li>Random - A randomized signal. Variable between square/triangle shapes with optional smoothing. Depth and polarity are controllable as well.</li>
+  <li>Midi Tracker - Midi tracker takes incoming MIDI note data and maps it to a modulation signal based on the mapping graph. Velocity and pitch are selectable and these are variable between absolute and relative modes.</li>
+</ul>
+
+<p>Adding a modifier isn’t too difficult. Drag the orange knob in the upper right to a ‘filter’ (or plugin as most of us call it). Select the parameter and setup your modifier.</p>
+
+<p>Modifiers output is assigned to other parameters by clicking the -&gt;O (knob) button, then you can drag the knob in the right hand column of the parameter you wish to modulate. The amount of modulation is shown by a light grey outline that indicates if it’s modulating by a positive or negative influence. All plugins on the track are selectable, <em>including other modifiers</em>. (Some of these routings, like envelope follower to its own release, will cause Waveform to crash! Oops! <strong>EDIT</strong> - This is fixed in Waveform 9.0.38 beta or higher)</p>
+
+<p>A nice feature of modulators is that you don’t have to select between beats and non-beats modes. It’s always beats multiplied by some factor. So you end up with a full range of motion that’s still relative to a musical value.</p>
+
+<p>Modifiers work with plugins. Any automatable parameter can be modulated by a modifier.</p>
+
+<p>Modifiers work with <a href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html#macro-parameters">macro parameters as well</a></p>
+
+<p>The modifier system is fun. It’s useful. It’d be a lot better if the envelope follower more easily took audio from other tracks.</p>
+
+<h2 id="plugin-selector">Plugin Selector</h2>
+
+<img src="/assets/Waveform/Good/PluginSelector.png" alt="plugin selector">
+<div class="image-caption">plugin Selector</div>
+
+<p>Somewhat hidden is Waveform’s plugin selector window. Right click the <code class="highlighter-rouge">+</code> inside the arrow box in the upper right and you’ll get a full screen plugin selector.</p>
+
+<p>Plugins are shown with their native GUI if you <a href="#plugin-thumbnails">created thumbnails for them</a>. You can search in the search box to narrow down the list. It appears that plugin tags are not searched unfortunately, which is a big miss. It’d be nice to search for your ‘compressor’ tagged plugins to only show those.</p>
+
+<p>To add a plugin you click and drag. The selector GUI disappears and you drag the plugin where you want it.</p>
+
+<p>The plugin selector is an inspiring way to browse your plugins.</p>
+
+<h2 id="plugin-thumbnails">Plugin Thumbnails</h2>
+
+<img src="/assets/Waveform/Good/Thumbnails.png" alt="Scan plugin thumbnails">
+<div class="image-caption">Scanning for plugin thumbnails</div>
+
+<p>To use the <a href="#plugin-selector">plugin Selector</a> in its optimal state you need to have images of every plugin. What a drag! Or is it?</p>
+
+<p>In the Settings tab under Plugins you can <code class="highlighter-rouge">Scan for plugin thumbnails</code>. This is a totally automatic process that opens each plugin and screencaptures a thumbnail of it.</p>
+
+<p>This process can take a while the first time you did it. I have <strong>A LOT</strong> of plugins and it took me nearly 80 minutes the first time. Luckily Waveform allows you to only scan new plugins or scan selected plugins. When a plugin is opened, there’s a camera icon in the upper right of the window title bar. So you can change the plugin’s GUI and take a new screenshot without much hassle if the automatic screenshot is subpar.</p>
+
+<p>Other DAWs have a similar feature, but it’s usually manual and doesn’t integrate as nicely as this does with the <a href="#plugin-selectoR">plugin selector</a></p>
+
+<p>It seems like a small thing, but these plugin thumbnails do a great job of jogging your memory when you’re trying to solve an issue and you’re not 100% sure of what product will do what you need.</p>
+
+<h1 id="the-bad">The bad</h1>
+
+<h2 id="renaming-tracks-and-importing">Renaming Tracks and importing</h2>
+
+<p>Renaming tracks is a bit of a pain. The default ‘best’ workflow is to hit tab, type the track name, alt/option-down, tab, type track name, etc…</p>
+
+<p>It’s a lot of hand moving around the keyboard when you have to rename 200 tracks (which I frequently do). The renaming method I outlined above only works if you have the bottom panel open too, so you may have to change your workflow depending on how you have Waveform setup. <strong>Waveform doesn’t name new tracks with the imported file</strong> when you import a new file. So anything that you import to a new track requires renaming.</p>
+
+<p>Other DAWs allow you to simply press tab for the next rename, or just the down arrow, or they have a special renaming functionality.</p>
+
+<p>I know this is a minor nitpick to a lot of people, but to me it’s a guaranteed hand cramp a couple times a week.</p>
+
+<h2 id="track-colouring">Track colouring</h2>
+
+<img src="/assets/Waveform/Bad/TrackColours.png" alt="Track Colour disappointment">
+<div class="image-caption">Track Colours... that's it</div>
+
+<p>I’m big on track colours. I think that it makes it much easier to visually locate items in large projects. I like to have a selection of bright coluors, muted colours and the capability to easily create colour gradients across tracks.</p>
+
+<p>Waveform doesn’t really do this very well.</p>
+
+<p>That image above is the colours you get to select. A handful of muted, low-contrast colours. You can select gradients for a selection of tracks either. Not only that, but there’s no way to set colours for a folder so any time that you add something to a submix or a folder you have to manually colours it.</p>
+
+<p>The colour system really needs an overhaul.</p>
+
+<h2 id="modifier-nitpicks">Modifier Nitpicks</h2>
+
+<ul>
+  <li>The rate knob doesn’t respond to any sort of ‘reset to default’ message! Annoying.</li>
+  <li>The Envelope Follower - This would <em>ideally</em> be the ultimate modifier. Anything you could make as an audio signal could be used as a modulator, but there’s <strong>a big issue</strong>. Envelope follower can’t specifically take in audio from another track at a specific point. It uses audio that’s currently fed to it at the end of the track. If you want to have audio from one track modulate a parameter on another track from a specific point, <a href="/music/2018/03/15/Routing-Audio-to-Envelope-Follower-with-Racks-in-Waveform.html">it requires a cumbersome work around</a> with using a <a href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html#racks">rack</a>. The envelope follower needs to be able to take in audio from other tracks, OR control parameters on other tracks <em>easily</em>. That would make this entire system better.</li>
+  <li>Midi Tracker also can’t select input. More cumbersome workarounds to make sure that the correct MIDI is getting to the modifier :(</li>
+  <li>It is a bit strange that you can’t simply drop a modifier on to a track without selecting a parameter, since this is possible to do when you move a modifier to a new track. Strange. (Actually, while writing this I discovered that sometimes you can… if there’s been a modifier there recently. This is just inconsistent)</li>
+  <li>Parameter search needs improvement - Searching for <code class="highlighter-rouge">Band Gain</code> on TEqualiser offers zero results even though there’s <code class="highlighter-rouge">Band 1 Gain</code> through <code class="highlighter-rouge">Band 2 Gain</code>. A ‘fuzzy search`, even if it just substituted spaces for wild cards, would be nice.</li>
+  <li><del>Modifiers modulating themselves is a quick way to get a crash . Goodbye Waveform. Poof. Gone. This is a useful functionality sometimes, but go ahead and save your project then have a modifier modulate its own rate. Waveform will do its best approximation of a Navy Landing. I’ve crashed Waveform probably a few 100 times while writing this… my curiousity got the best of me I think.</del> <strong>EDIT</strong> - This is fixed in Waveform 9.0.38 beta. A fix for this was posted 7 days after this blog post went up.</li>
+  <li>Meta modifiers - There needs to be a way to scale, split, add, subtract, etc… modifier signals. <a href="/music/2017/06/23/Bitwig-Modulators.html#math">Look at Bitwig’s Math modulator</a>. It’s just a modulator that you modulate a parameter of it by other modulators. It then outputs the mathematical result of those 2 inputs. See the whole <a href="/music/2017/06/23/Bitwig-Modulators.html">Bitwig Modulators Page</a> for more examples.</li>
+  <li>The Y axis of most modulators is unlabeled. Want to know what value or relative % your step is at? Too bad. Want to know what your breakpoint is doing? Tough luck.</li>
+  <li>The random modifier has no determinate mode. There is no way to make sure that every playback is ‘randomized the same’ so to say. This needs to be an option of the transport sync mode. It would be nice if the user could input or create their own random seed as well.</li>
+  <li>MIDI Assignment - You can assign MIDI CC to Modifier controls, but how do you adjust or change that?! I have no clue. I searched and I could not figure out how to adjust or delete those assignments.</li>
+</ul>
+
+<h1 id="the-weird">The Weird</h1>
+
+<h2 id="single-pane-interface">Single Pane Interface</h2>
+
+<img src="/assets/Waveform/TracktionIntro.png" alt="Tracktion">
+<div class="image-caption">Tracktion Waveform in one screen</div>
+
+<p>One of the main design aspects of Waveform is that basically everything is in one pane. Yes there’s a Projects tab. There’s a settings Tab. The mixer can go in to its own tab. The MIDI editor can spawn a new window. Plugins have their own windows.</p>
+
+<p>Wait a second. That’s not everything in one window?!</p>
+
+<p>It really confuses me when I use Waveform sometimes. There’s a lot of things on screen sometimes. It’s actually nice for a good portion of your average workflow, but at times it is rather overwhelming. I don’t need to see 26 (I counted) different widgets when I just want to change the colour of a MIDI item. That is a lot of clutter. I don’t want to see 25 widgets when I want to add a new tag to a track. I also don’t want to have to wait for a silly animation when I collapse that panel.</p>
+
+<p>Adding plugins is always a click-and-drag affair, <a href="/music/2016/06/15/Studio-PoisOne.html#drag-and-drop">which I hate</a>. There’s really no way around it because the interface is all smushed together to make space for <em>an entire DAW on one screen</em>.</p>
+
+<p>Some of these things go back <a href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html#non-native">to one of my earlier complaints as well</a>. Ctrl-tab doesn’t switch between tabs. Cmd-` (mac) and alt-tab (win) doesn’t cycle between the main pane and the midi editor. Tab doesn’t switch between pane focus. It’s strange man, strange.</p>
+
+<p>Of course I can’t label this as a <em>bad</em> thing. It’s unique and I can certainly see how this is a great GUI paradigm for certain workflows. I feel like it’s becoming clear that no amount of clever-thinking is going to allow the Waveform team to continue expanding the feature set of the product all on one screen. I’ve been following Tracktion since V1, and Version 8 was the first time I really started to feel like the single pane is just not enough space for the functionality confined in to it.</p>
+
+<p>And yeah… no other DAW really works exactly like this. It’s weird.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 9 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

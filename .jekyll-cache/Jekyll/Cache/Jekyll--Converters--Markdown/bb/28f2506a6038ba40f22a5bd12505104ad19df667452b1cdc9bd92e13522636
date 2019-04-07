@@ -1,0 +1,544 @@
+I"X�  <img src="/assets/Logic/LogicScreen.png" alt="Logic Pro X">
+  <div class="image-caption">Logic Pro X in action</div>
+
+<p>It’s time for the post that everyone seems to love: when I talk about the stuff I dislike about a DAW.</p>
+
+<p>First things first: If you see anything that’s wrong or know of a <em>great</em> work around then <strong>please leave a comment</strong>. I will gladly update the post with the information if it’s good.</p>
+
+<p>There won’t be too many images here, so be prepared for a bit of reading and not many eye-catching screenshots. I’ve split things in to categories as well so that you can see the portions that are of most interest to you.</p>
+
+<p>These grips apply to Logic 10.4. I wrote a good portion of this before 10.4, but I tried to make sure I erased anything that was improved with the update. If I missed something then that’s mea culpa, so please correct me.</p>
+
+<p><strong>Oh right, and this is the last post in the series</strong>! My ultimate conclusion is at the end!</p>
+
+<p>Let’s get on it.</p>
+
+<p><strong>Parts in this series</strong>:</p>
+<ul>
+  <li><a href="/music/2017/12/18/Cool-things-in-Logic-Pro-X-Part-1.html">Cool things in Logic Pro X Part 1</a></li>
+  <li><a href="/music/2017/12/23/Cool-things-in-Logic-Pro-X-Part-2.html">Cool things in Logic Pro X Part 2</a></li>
+  <li><a href="/music/2018/01/05/Cool-things-in-Logic-Pro-X-Part-3.html">Cool things in Logic Pro X Part 3</a></li>
+  <li><a href="/music/2018/01/09/Cool-things-in-Logic-Pro-X-Part-4.html">Cool things in Logic Pro X Part 4</a></li>
+  <li><a href="/music/2018/01/13/Cool-things-in-Logic-Pro-X-Part-5.html">Cool things in Logic Pro X Part 5</a></li>
+  <li><a href="/music/2018/01/16/Logic-Pro-X-Tips-and-Tricks.html">Logic Pro X Tips &amp; Tricks and more cool things</a></li>
+  <li><a href="/music/2018/01/22/Logic-Effects-Review.html">Logic Effects Review</a></li>
+  <li><a href="/music/2018/01/26/Cool-things-in-Logic-Pro-X-Part-10-4.html">Cool things in Logic Pro X Part 10.4</a></li>
+  <li><a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html">Logic Instruments and MIDI Effects Review</a></li>
+</ul>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#fx" id="markdown-toc-fx">FX</a>    <ul>
+      <li><a href="#no-search" id="markdown-toc-no-search">No Search</a></li>
+      <li><a href="#adding-plugins" id="markdown-toc-adding-plugins">Adding plugins</a></li>
+      <li><a href="#removing-plugins" id="markdown-toc-removing-plugins">Removing plugins</a></li>
+      <li><a href="#only-au" id="markdown-toc-only-au">Only AU</a></li>
+    </ul>
+  </li>
+  <li><a href="#audio-editor" id="markdown-toc-audio-editor">Audio Editor</a>    <ul>
+      <li><a href="#smart-tempo-multitrack" id="markdown-toc-smart-tempo-multitrack">Smart Tempo multitrack</a></li>
+      <li><a href="#de-reference-file-changes" id="markdown-toc-de-reference-file-changes">De-reference file changes</a></li>
+    </ul>
+  </li>
+  <li><a href="#piano-roll-editor" id="markdown-toc-piano-roll-editor">Piano Roll Editor</a>    <ul>
+      <li><a href="#single-midi-controller-lane" id="markdown-toc-single-midi-controller-lane">Single MIDI controller lane</a></li>
+      <li><a href="#menu-ized-controller-selection" id="markdown-toc-menu-ized-controller-selection">Menu-ized Controller selection</a></li>
+      <li><a href="#note-entry-snap" id="markdown-toc-note-entry-snap">Note entry snap</a></li>
+      <li><a href="#better-midi-manipulation-tools" id="markdown-toc-better-midi-manipulation-tools">Better MIDI manipulation tools</a></li>
+    </ul>
+  </li>
+  <li><a href="#key-commands" id="markdown-toc-key-commands">Key Commands</a>    <ul>
+      <li><a href="#macros" id="markdown-toc-macros">Macros</a></li>
+    </ul>
+  </li>
+  <li><a href="#track-organization" id="markdown-toc-track-organization">Track organization</a>    <ul>
+      <li><a href="#single-layer-track-stacks" id="markdown-toc-single-layer-track-stacks">Single layer Track Stacks</a></li>
+      <li><a href="#single-layer-summing-tracks" id="markdown-toc-single-layer-summing-tracks">Single layer Summing tracks</a></li>
+      <li><a href="#no-track-search" id="markdown-toc-no-track-search">No track search</a></li>
+      <li><a href="#track-view-sets" id="markdown-toc-track-view-sets">Track view sets</a></li>
+    </ul>
+  </li>
+  <li><a href="#mixer" id="markdown-toc-mixer">Mixer</a>    <ul>
+      <li><a href="#no-mixer-reset" id="markdown-toc-no-mixer-reset">No mixer reset</a></li>
+      <li><a href="#cant-move-mixer-channels" id="markdown-toc-cant-move-mixer-channels">Can’t move mixer channels</a></li>
+      <li><a href="#tiny-faders" id="markdown-toc-tiny-faders">Tiny faders</a></li>
+      <li><a href="#fader-quantized-values" id="markdown-toc-fader-quantized-values">Fader quantized values</a></li>
+      <li><a href="#automation-latency-compensation-issue" id="markdown-toc-automation-latency-compensation-issue">Automation latency compensation issue</a></li>
+      <li><a href="#automation-is-off-slightly" id="markdown-toc-automation-is-off-slightly">Automation is off slightly</a></li>
+      <li><a href="#solo-summing-stacks-doesnt-work-right" id="markdown-toc-solo-summing-stacks-doesnt-work-right">Solo summing stacks doesn’t work ‘right’</a></li>
+      <li><a href="#plugin-bypass" id="markdown-toc-plugin-bypass">Plugin bypass</a></li>
+      <li><a href="#clip-gain" id="markdown-toc-clip-gain">Clip gain</a></li>
+      <li><a href="#single-layer-vcas" id="markdown-toc-single-layer-vcas">Single layer VCAs</a></li>
+      <li><a href="#no-native-effect-modulation" id="markdown-toc-no-native-effect-modulation">No native effect modulation</a></li>
+      <li><a href="#channel-strip-polarity" id="markdown-toc-channel-strip-polarity">Channel Strip polarity</a></li>
+      <li><a href="#better-automation-tools" id="markdown-toc-better-automation-tools">Better automation tools</a></li>
+      <li><a href="#automation-parameter-selection" id="markdown-toc-automation-parameter-selection">Automation parameter selection</a></li>
+      <li><a href="#monitor-section" id="markdown-toc-monitor-section">Monitor section</a></li>
+      <li><a href="#metering-options" id="markdown-toc-metering-options">Metering options</a></li>
+      <li><a href="#better-freeze" id="markdown-toc-better-freeze">Better freeze</a></li>
+      <li><a href="#more-track-group-options" id="markdown-toc-more-track-group-options">More track group options</a></li>
+    </ul>
+  </li>
+  <li><a href="#gui" id="markdown-toc-gui">GUI</a>    <ul>
+      <li><a href="#plug-in-guis" id="markdown-toc-plug-in-guis">Plug-in GUIs</a></li>
+      <li><a href="#themes" id="markdown-toc-themes">Themes</a></li>
+      <li><a href="#screen-flash" id="markdown-toc-screen-flash">Screen Flash</a></li>
+    </ul>
+  </li>
+  <li><a href="#score-editor" id="markdown-toc-score-editor">Score Editor</a>    <ul>
+      <li><a href="#rest-placement" id="markdown-toc-rest-placement">Rest placement</a></li>
+      <li><a href="#magnetic-layout" id="markdown-toc-magnetic-layout">Magnetic Layout</a></li>
+      <li><a href="#improved-lyric-entering" id="markdown-toc-improved-lyric-entering">Improved lyric entering</a></li>
+      <li><a href="#edit-bar-lines" id="markdown-toc-edit-bar-lines">Edit bar lines</a></li>
+      <li><a href="#entry-of-tuplets" id="markdown-toc-entry-of-tuplets">Entry of tuplets</a></li>
+    </ul>
+  </li>
+  <li><a href="#extra-features" id="markdown-toc-extra-features">Extra features</a>    <ul>
+      <li><a href="#looper" id="markdown-toc-looper">Looper</a></li>
+      <li><a href="#chunks" id="markdown-toc-chunks">Chunks</a></li>
+      <li><a href="#logical-search" id="markdown-toc-logical-search">Logical Search</a></li>
+      <li><a href="#basically-everything-in-mixbus" id="markdown-toc-basically-everything-in-mixbus">Basically everything in Mixbus.</a></li>
+      <li><a href="#latch-preview-automation" id="markdown-toc-latch-preview-automation">Latch Preview automation</a></li>
+    </ul>
+  </li>
+  <li><a href="#meta" id="markdown-toc-meta">Meta</a>    <ul>
+      <li><a href="#no-third-party-beyond-au" id="markdown-toc-no-third-party-beyond-au">No third-party beyond AU</a></li>
+      <li><a href="#communication" id="markdown-toc-communication">Communication</a></li>
+    </ul>
+  </li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="fx">FX</h1>
+
+<h2 id="no-search">No Search</h2>
+
+<p>Adding FX in Logic is an exercise in menu diving. Even though you can <a href="/music/2018/01/09/Cool-things-in-Logic-Pro-X-Part-4.html#plugin-organization">organize plugins pretty nicely</a>, selecting those plugins requires visually parsing and navigating multi-tiered menus.</p>
+
+<p>I personally much prefer a search box. Another excellent option is the way that <a href="/update/2016/04/19/Studio-One.html#effects-organization">Studio One handles it</a> where there’s an organized browser with screenshots.</p>
+
+<p>Regardless of how it’s done, the way Logic does it is probably the worst.</p>
+
+<h2 id="adding-plugins">Adding plugins</h2>
+
+<img src="/assets/Logic/Bad/FXslot.png" alt="Tiny FX Slot">
+<div class="image-caption">Tiny FX Slot for adding in Logic</div>
+
+<p>When adding plugins there’s a very tiny bar for you to select. I’ve included a screenshot above with an arrow showing the tiny area.</p>
+
+<p>In order to add an FX when there’s an FX present you must click that tiny little bar. Yes, I’m talking about that space below the FX.</p>
+
+<p>It’s a <em>HUGE</em> pain. I think that I spend about 20% of my time mixing in Logic fumbling with that stupid little bar. Maybe that’s a bit hyperbolic, but it sure feels like it sometimes.</p>
+
+<h2 id="removing-plugins">Removing plugins</h2>
+
+<p>You must click that up/down arrow shown next to Chromaverb <a href="#adding-plugins">above</a> then click a menu item labeled ‘No Plug-in’ to remove a plugin.</p>
+
+<p>You can’t select it and hit delete. You can’t swipe it off. You can’t do anything except target a tiny little GUI widget and browse a menu.</p>
+
+<p>Blergh.</p>
+
+<h2 id="only-au">Only AU</h2>
+
+<p>This is a minor nitpick, but Logic only supports AU’s natively. There’s a <a href="https://www.fxpansion.com/products/vst-au-adapter/">VST to AU adapter</a> and the even better <a href="https://ddmf.eu/metaplugin-chainer-vst-au-rtas-aax-wrapper/">Metaplugin</a> that allow you to run VSTs in Logic, but it’d be nice if this was just integrated.</p>
+
+<p>Most plugins are available as Audio Units though, so it’s not a big deal.</p>
+
+<h1 id="audio-editor">Audio Editor</h1>
+
+<h2 id="smart-tempo-multitrack">Smart Tempo multitrack</h2>
+
+<p>Smart Tempo <a href="/music/2018/01/26/Cool-things-in-Logic-Pro-X-Part-10-4.html#smart-tempo">is awesome</a> but currently it can only be applied in the audio editor, and not to multitrack parts.</p>
+
+<p>That means that adjusting multitrack recordings to tempo is still the only manual method. Hopefully this is improved in the future.</p>
+
+<h2 id="de-reference-file-changes">De-reference file changes</h2>
+
+<p>There’s some functions that are only possible in the ‘File Editor’. If you make changes to a file, then all regions referencing that are changed.</p>
+
+<p>Certain actions like ‘Remove DC Offset’, ‘Reverse’ and ‘Normalize’ are only available in the file editor, but you may not want to modify all regions referencing that file. A feature is needed to create new a new region when doing certain actions.</p>
+
+<h1 id="piano-roll-editor">Piano Roll Editor</h1>
+
+<h2 id="single-midi-controller-lane">Single MIDI controller lane</h2>
+
+<p>There’s on a single controller lane in the MIDI editor. Often there’s times where various controller data need to line up or be synchronized in some way, and having only a single lane makes it rather difficult.</p>
+
+<p>If you work in the arrange view and set the track to <a href="/music/2017/12/18/Cool-things-in-Logic-Pro-X-Part-1.html#region-based-automation">region based automation</a> then you can access multiple MIDI data lanes at once. The issue is that the vertical resolution is somewhat limited and you lose a visual connection with the MIDI note data. Turning on automation mode in the Arranger area also increases the vertical space every track uses, which can be annoying for larger projects.</p>
+
+<h2 id="menu-ized-controller-selection">Menu-ized Controller selection</h2>
+
+<p>Want to select some MIDI data to edit? Get ready to menu dive! Not only that, but since the integrated editor is at the bottom of the screen you will also need to scroll the menu manually. If you use the pop-out editor <code class="highlighter-rouge">command-4</code> then that’s not as much of an issue.</p>
+
+<p>It’s just an unpleasant experience in general.</p>
+
+<h2 id="note-entry-snap">Note entry snap</h2>
+
+<p>As far as I can tell, there’s no way to easily select the length of the next inserted note. Logic uses the length of the previously inserted note when entering notes in the piano roll editor.</p>
+
+<p>The workaround is to select a note of the length you wish to insert, then insert a note. Logic uses the last selected note’s length as the inserted note’s length. You can also hold option when inserting the note to drag-adjust the length.</p>
+
+<p>I still much prefer to be able to press a hotkey to select the inserted note length, or constrain inserted notes to snap.</p>
+
+<h2 id="better-midi-manipulation-tools">Better MIDI manipulation tools</h2>
+
+<p>Logic has no easy ways to adjust butted midi notes, selections of midi notes or any other major ways to adjust MIDI data.</p>
+
+<p><a href="https://forum.cockos.com/showthread.php?t=176878">Go see what’s possible in Reaper</a>. I’m serious… go look. These tools can be quite the time saver.</p>
+
+<p>They also apply to MIDI CC.</p>
+
+<h1 id="key-commands">Key Commands</h1>
+
+<p>This section may look a bit bare. That’s because 10.4 fixed 6/7 of my issues with key commands. Hooray Apple?!</p>
+
+<h2 id="macros">Macros</h2>
+
+<p>Logic has no Macro facility. There’s no integrated way to chain commands together to be triggered by a single key press.</p>
+
+<p>Of course, you can use <a href="https://en.wikipedia.org/wiki/AppleScript">AppleScript</a> to do this, but who wants to mess with that?</p>
+
+<h1 id="track-organization">Track organization</h1>
+
+<h2 id="single-layer-track-stacks">Single layer Track Stacks</h2>
+
+<p>Track folders, which are purely organization tools, can only be 1 layer deep. That means you can have a folder with tracks. You can not have folders within folders.</p>
+
+<h2 id="single-layer-summing-tracks">Single layer Summing tracks</h2>
+
+<p>Summing stacks, which mix the audio of the containing folders, can only be 1 layer deep. You can not have summing stacks with summing stacks in them without some hacky workarounds that aren’t worth the effort.</p>
+
+<p>I butt heads with this one constantly when working in Logic. Especially so when dealing with drumkits where I want a ‘Drums’ summing stack, and then a summing stack for snare (top/bottom mic) and kick (kick in, kick beater, front-of-kick). I want those kick and snare summing stacks inside the drum summing stack. No can do in Logic.</p>
+
+<h2 id="no-track-search">No track search</h2>
+
+  <img src="/assets/Reaper/TrackMan.gif" alt="Track Manager">
+  <div class="image-caption">Track Management in Reaper</div>
+
+<p>There is no way to search for a track in a project. If you want to find a track in Logic then you have to <em>scroll</em>, <strong>scroll</strong>, <strong>AND SCROLL</strong>.</p>
+
+<p>Combine that with the fact that your track folders and summing stacks only being one layer deep, and flying around a large project becomes an exercise in speed reading.</p>
+
+<h2 id="track-view-sets">Track view sets</h2>
+
+  <img src="/assets/Reaper/TrackView.gif" alt="Track Views">
+  <div class="image-caption">Track view sets in Reaper</div>
+
+<p>Track view sets is an idea that allows you to setup a selection of tracks that you can instantly show/hide or jump to. This is an excellent feature for navigating large projects.</p>
+
+<h1 id="mixer">Mixer</h1>
+
+<h2 id="no-mixer-reset">No mixer reset</h2>
+
+<p>I really like the ability to reset the mixer. Click one button and all the effects are removed, all automation is removed, all faders are reset, all Aux routing are removed.</p>
+
+<p>You can’t do that in Logic very easily. There is <code class="highlighter-rouge">Mix-&gt;Delete Automation-&gt;Delete All Track Automation</code>, then you can select all the tracks and option click controls while manually removing each FX slot, deleting and re-adding auxes… but a simple button would be nice.</p>
+
+<h2 id="cant-move-mixer-channels">Can’t move mixer channels</h2>
+
+<p>I hear this complaint a lot, but it doesn’t really bother me that much.</p>
+
+<p>Logic doesn’t allow you to move Mixer channels in the mixer. At best you can change them in the Arranger area, and use the ‘Tracks’ view in the mixer. That’s what I do.</p>
+
+<p>This does seem to be an issue for a lot of Logic users though, so I am mentioning it.</p>
+
+<h2 id="tiny-faders">Tiny faders</h2>
+
+<img src="/assets/StudioEvaluatione/resize.gif" alt="Resizable mixer strips">
+<div class="image-caption">Resizable Mixer Strips In Studio One.</div>
+
+<p><a href="/music/2016/05/22/Studio-EvaluatiOne.html#resizable-mixer-strips-are-amazing">I love resizable mixer strips</a>. I <em>really dislike</em> tiny fader areas.</p>
+
+<p>Logic’s mixer is a fixed size. The faders on my screen are only 1.25”/31mm tall. That is so small!</p>
+
+<p>As far as I’m aware, there’s no fine control for the faders either. So you can’t press a modifier key and scale the cursor movement to make the fader control finer.</p>
+
+<h2 id="fader-quantized-values">Fader quantized values</h2>
+
+<p>Fader values are quantized somehow. I’ve heard that there’s only 128 values, but I don’t think that is correct.</p>
+
+<p>Regardless, if you want to enter a value of -34.6dbFS in to the fader, it gets changed to -34.5dbFS. If you click to enter again it may say -34.4dbFS.</p>
+
+<p>The quantization changes depending on how low the fader is. It’s also not consistent. Sometimes I can enter -40.3dbFS, and sometimes I can’t.</p>
+
+<p>These tiny values aren’t important to me. What is important is how inconsistent the data entry appears to be and how this could be solved with better faders and data entry.</p>
+
+<h2 id="automation-latency-compensation-issue">Automation latency compensation issue</h2>
+
+<p>If you use a plugin that causes excess latency, then Logic fixes this latency by compensating for it in playback.</p>
+
+<p>However, Logic does not appear to compensate this for automation correctly. If you have a plugin that causes latency and automate parameters on it, then all of the automation will be out of time for the previous plugins.</p>
+
+<p>It took me a while to track this one down. I suspect that if you encounter it then you may be in for a long search as well. It’s a subtle issue that can really screw up a mix.</p>
+
+<h2 id="automation-is-off-slightly">Automation is off slightly</h2>
+
+<p>I recently needed to have a very precise mute in a track. The visual automation line was perfectly lined up and I have <code class="highlighter-rouge">Preferences-&gt;Audio-&gt;General-&gt;Sample Accurate Automation-&gt;Volume, Pan, Sends, Plug-in Parameters</code> turned on.</p>
+
+<p>Except the automation was always slightly late!</p>
+
+<p>It turns out that for <em>very precise</em> automation, the automation needs to be slightly early. I can not figure out why this is, or what the exact value is to offset. I just know that it needs to be early.</p>
+
+<h2 id="solo-summing-stacks-doesnt-work-right">Solo summing stacks doesn’t work ‘right’</h2>
+
+<p>If you solo a track in a summing stack, then you hear all the tracks in the summing stack, not the track you soloed.</p>
+
+<p>The work around is to engage solo mode with <code class="highlighter-rouge">control-s</code> and use that for selecting tracks. The problem is that this causes a delay before the solo happens, so quickly soloing tracks is slow and awkward.</p>
+
+<h2 id="plugin-bypass">Plugin bypass</h2>
+
+<p>There’s no way quickly bypassing a row or column of plugins. There’s no way to bypass all plugins in a project either.</p>
+
+<h2 id="clip-gain">Clip gain</h2>
+
+<p>You can already adjust the gain of a clip by adjusting the ‘Gain’ box in the track inspector, but that is not very convenient.</p>
+
+<p>A number of other DAWs have a line, knob or similar on the region that lets you directly change the gain of the region. Much nicer than digging around in the track inspector, and it also lets you easily see the changes that you’ve already made.</p>
+
+<h2 id="single-layer-vcas">Single layer VCAs</h2>
+
+<p>VCAs can’t be assigned to VCAs. Trees of VCAs or using VCAs to adjust previous VCA automation is something I do often. You can not do this in Logic.</p>
+
+<p>VCAs are only one-to-many assignment.</p>
+
+<h2 id="no-native-effect-modulation">No native effect modulation</h2>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Bitwig/Modulators/Modulators.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Simple synth made with modulators in Bitwig!</div>
+
+<p>Instruments can easily use the <a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html#modulator">modulator</a> to modulate instrument parameters. I also described a hacky work around to use this on effects, but there’s no native modulation.</p>
+
+<p>If you don’t know what could be possible then go check out <a href="/music/2017/06/23/Bitwig-Modulators.html">how Bitwig does it</a>. When you realize how cool modulators can be on effects, Logic can seem a bit disappointing for the creative musician.</p>
+
+<h2 id="channel-strip-polarity">Channel Strip polarity</h2>
+
+<p>I want a polarity inversion control in the mixer! Always! There isn’t one in Logic. You have to use a plug-in.</p>
+
+<h2 id="better-automation-tools">Better automation tools</h2>
+
+<img src="/assets/StudioEvaluatione/transform.gif" alt="Studio One Automation Transform">
+<div class="image-caption">Studio One Automation Transform</div>
+
+<p>Look at the <a href="/music/2016/06/09/Studio-AutomatiOne.html#editing-automation">tools in Studio One</a>, especially the transform tool. <strong>THAT</strong> is how you handle automation.</p>
+
+<p>Logic seriously needs tools like this.</p>
+
+<h2 id="automation-parameter-selection">Automation parameter selection</h2>
+
+  <img src="/assets/Reaper/AutomationFilter.png" alt="Automation Highlight">
+  <div class="image-caption">Find Automation Stuff in Reaper</div>
+
+<p>Logic Pro X 10.4 added a feature that updates the current automation track to the last touched parameter. This is located in the menu <code class="highlighter-rouge">Mix-&gt;Autoselect Automation Parameter in Read Mode</code>. That is nice.</p>
+
+<p>However it would be much nicer if you could search the list of automatable parameters in a search box. I don’t want to have to go hunting around in menus or plugin GUIs to find a parameter sometimes. I just know what I want, and I know where I want to put it.</p>
+
+<h2 id="monitor-section">Monitor section</h2>
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/G_4NgjlAxH4" frameborder="0" allowfullscreen=""></iframe>
+
+<p>The <a href="/music/2017/09/18/Mixbus-32c-The-Mixer.html#monitor-section">monitor section in other DAWs</a> is very useful if you are working in an environment with more than 1 listening option, or if you have multi-channel output routing of any sort. It’s also nice for decoupling your master effects for rendering from the effects you may want simply for listening.</p>
+
+<p>I <em>really</em> like the monitor sections in DAWs like Mixbus <a href="/music/2016/07/11/CubaSerenity.html#control-room">and Cubase</a> and it’d be fantastic if Logic could include something similar.</p>
+
+<p>Just watch the video above to see how awesome this feature is.</p>
+
+<h2 id="metering-options">Metering options</h2>
+
+  <img src="/assets/DP/CubaseMeters.png" alt="Cubase meter options">
+  <div class="image-caption">Meter options in Cubase</div>
+
+<p>Logic only has peak meters in the mixer. At the very least it’d be nice to have RMS, but a variety of metering systems would be beneficial as well.</p>
+
+<h2 id="better-freeze">Better freeze</h2>
+
+<img src="/assets/Logic/Bad/FreezeOptions.png" alt="Freeze Options">
+<div class="image-caption">Freeze Options in Reaper</div>
+
+<p>Logic’s freeze is strange. You have 2 “points” where you can freeze: source and pre-fader. ‘Source’ means just the audio/instrument is frozen. ‘Pre-fader’ means the effects are <em>all</em> rendered.</p>
+
+<p>Then you hit play. Not sure why you hit play, but it’s strange to forget that you clicked to freeze, then you hit playback and the screen goes crazy while it freezes. Freezing should start automatically when pressing the button, and a cancel dialog should appear.</p>
+
+<p>The main issue though is that you can’t choose the point where to freeze. What if I don’t want to freeze ALL of my FX? Maybe I just want to freeze everything up to a certain point? What if I want to freeze an Aux track? (you can’t!).</p>
+
+<p>Freezing is very useful still for people using large instruments, but it could be more flexible.</p>
+
+<h2 id="more-track-group-options">More track group options</h2>
+
+<img src="/assets/Logic/Bad/TrackGroup.png" alt="Track Grouping Options">
+<div class="image-caption">Track Grouping options compared to Digital Performer</div>
+
+<p>Look at Logic’s (left) track grouping options compared to <a href="/music/2016/12/11/Cool-Features-in-Digital-Performer/.-Part-2.html#track-grouping">Digital Performer’s</a> (right). Logic could have so much more granularity in the available options.</p>
+
+<p>This may not seem like much, but when you’re working with a lot of tracks you begin to find similarities between them that should be synchronized. Having more selective granularity in the grouping options allows you to make things work ‘how they should’ without having to think about the context of the project and where you may need to make matching changes eleswhere.</p>
+
+<h1 id="gui">GUI</h1>
+
+<h2 id="plug-in-guis">Plug-in GUIs</h2>
+
+  <img src="/assets/Logic/Instruments/ESM.png" alt="ES M">
+  <div class="image-caption">ES M in Logic</div>
+
+<p>A lot of the plugins are very ugly. Go scroll <a href="/music/2018/01/22/Logic-Effects-Review.html">here</a> or <a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html">here</a> to see.</p>
+
+<h2 id="themes">Themes</h2>
+
+<p>Official themes or some way to colour Logic would be rad. I don’t like the default moderately dark colours and it’d be nice to have a way to change it.</p>
+
+<h2 id="screen-flash">Screen Flash</h2>
+
+<p>When you make an error in Logic, the whole screen flashes. Usually it’s annoying, but occasionally it’s rather startling. It’s just a quick flash of an all white screen.</p>
+
+<p>I can find no way to turn this off!</p>
+
+<h1 id="score-editor">Score Editor</h1>
+
+<p>I don’t use the score editor much in Logic Pro X, but the few times I’ve delved in to it I’ve found some bothersome things…</p>
+
+<h2 id="rest-placement">Rest placement</h2>
+
+<p>There doesn’t appear to be a way to easily change the vertical placement of rests. Often it’s necessary to have rests aligned to voices for easier reading.</p>
+
+<p>Logic sometimes puts rests in the wrong place so they collide with note heads. I haven’t been able to figure out how to fix this.</p>
+
+<h2 id="magnetic-layout">Magnetic Layout</h2>
+
+<p><a href="http://www.sibelius.com/products/sibeliusedu/features/magnetic_layout.html">Sibelius has a feature called Magnetic Layout</a> that makes placing markings much easier.</p>
+
+<p>Logic <em>almost</em> does this, except it’s very finicky. The alignment and placement of markings in Sibelius tends to be more intelligent and readable. Often in Logic I ended up with lots of overlapping markings, or having to retroactively adjust things across the whole score when making a minor adjustment elsewhere.</p>
+
+<h2 id="improved-lyric-entering">Improved lyric entering</h2>
+
+<p>Writing lyrics in Logic is a pain. I really don’t know what can be done <em>specifically</em> to improve it, but the way it is now requires constant adjustment of lyric position and spacing.</p>
+
+<p>The simple act of typing in Lyrics is also error-prone. A more intelligent lyrical editor with shortcuts that allow you to easily ‘attach’ lyrics to notes would be nice.</p>
+
+<h2 id="edit-bar-lines">Edit bar lines</h2>
+
+<p>I don’t know if this is possible, but I could not figure it out: editing bar lines by dragging.</p>
+
+<p>Sometimes uneven bar sizes are necessary, or manually spaced bar lines. Other programs allow you to simply move the bar line and things are spaced as necessary. I was unable to figure out how to reliably</p>
+
+<h2 id="entry-of-tuplets">Entry of tuplets</h2>
+
+<p>Triplets are easy to enter, but 5-6-7-9+ tuplets are notless easy. There’s a number of modern musical styles that rely on complex polyrythms or subdivisions, and I encountered this somewhat frequently.</p>
+
+<p>There is an ‘n-tuplet’ tool, but the process is a bit cumbersome. I feel like this could be improved with a simple shortcut to add tuples to a current note grouping. From there options could be accessed via a menu or pop-up dialog.</p>
+
+<h1 id="extra-features">Extra features</h1>
+
+<h2 id="looper">Looper</h2>
+
+<iframe src="https://www.youtube.com/embed/hiSTeVlinAg?ecver=2" width="560" height="315"></iframe>
+
+<p>I’d love to have a proper overdubbing looper like <a href="https://www.ableton.com/en/manual/live-audio-effect-reference/#looper">Ableton’s Looper</a> or better still, like <a href="/music/2016/12/10/Cool-Features-in-Digital-Performer/.-Part-1.html#polar">Digital Performer’s POLAR</a>.</p>
+
+<p>If you’re not familiar with loopers in this context, it’s a feature that allows you to record layers <em>while hearing the previous layers</em>. Logic’s cycle recording does not allow you to easily hear previous layers.</p>
+
+<p>When doing chorus parts, self-overdubbing guitar or other creative uses, it’s important that you hear previous passes. Logic does not have this ability natively.</p>
+
+<h2 id="chunks">Chunks</h2>
+
+	<img src="/assets/DP/DPSongSetup.png" alt="Chunks in Digital Performer">
+	<div class="image-caption">Chunks in Digital Perfomer</div>
+
+<p>Yeah, that DP feature. <a href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html#chunks">I wrote about chunks already before</a>, so please go read about that.</p>
+
+<p>Logic has a feature <a href="https://support.apple.com/kb/PH13058?locale=en_US">called folders</a> which offers a minor subset of sequence-chunk features, but it’s really not even close.</p>
+
+<p>If you do anything with film scoring, orchestral work, large SFX or Foley projects or large band records, then you would not stop until you had Chunks. It greatly simplifies the process of working with a large set of musical data that’s naturally part of a greater whole. <em>I LOVE CHUNKS</em>.</p>
+
+<h2 id="logical-search">Logical Search</h2>
+
+	<img src="/assets/DP/SearchWindow.png" alt="Digital Performer Search">
+	<div class="image-caption">Digital Performer Search</div>
+
+<p>Searching for data to act on is something that happens fairly frequently in most workflows. You may not realize that you do it, but you do. You know the routine: you scroll a bit, spin your cursor in circles, scroll some more, click an item, select a few notes, unselect a few notes, unselect the wrong notes, swing your cursor around in rage…</p>
+
+<p>Enter the logical search. This feature allows you to select data by its attributes. Once the data is selected then you can act on it as necessary.</p>
+
+<p>DP isn’t the only DAW with this feature btw, it’s just the image I grabbed.</p>
+
+<h2 id="basically-everything-in-mixbus">Basically everything in Mixbus.</h2>
+
+<p>I did a review of Mixbus and I covered some cool features in Mixbus:</p>
+
+<ul>
+  <li><a href="/music/2017/08/16/Cool-things-in-Mixbus-Part-1.html">Cool things Part 1</a></li>
+  <li><a href="/music/2017/08/26/Cool-things-in-Mixbus-Part-2.html">Cool things Part 2</a></li>
+  <li><a href="/music/2017/09/01/Cool-things-in-Mixbus-Part-3.html">Cool things Part 3</a></li>
+  <li><a href="/music/2017/09/05/Cool-things-in-Mixbus-Part-4.html">Cool things Part 4</a></li>
+</ul>
+
+<p>Every. Single. Thing. I want it all. Logic has nothing on Mixbus on any of these points, and they would all be excellent improvements and workflow enhancements.</p>
+
+<h2 id="latch-preview-automation">Latch Preview automation</h2>
+
+  <img src="/assets/Reaper/Automation.png" alt="Automation">
+  <div class="image-caption">Reaper Automation</div>
+
+<p>Latch preview automation allows you to select an area to ‘preview’ automation before it’s applied without messing with or using your existing automation.</p>
+
+<p>If you work with dialog then this is something that you’d love if you don’t have it already. It makes the process of automating sections of audio simple and pleasant.</p>
+
+<h1 id="meta">Meta</h1>
+
+<h2 id="no-third-party-beyond-au">No third-party beyond AU</h2>
+
+<p>There’s no official support for Themes, extension Scripts (outside of the <a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html#scripter">scripter</a>) or anything really in Logic.</p>
+
+<h2 id="communication">Communication</h2>
+
+<p>Communicating with Apple about issues with Logic is basically not possible unless you are a tester. You simply submit your issue in to a black box and wait. Rarely you may get a response, but that almost never happens.</p>
+
+<p>Meanwhile you can only sit there and wonder if anything will happen. Good luck!</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It’s been a long 7 weeks <a href="/music/2017/12/14/30-days-of-Apple-Logic-Pro-X.html">since I started</a>. This was only supposed to be a 30 day review, but some things got in the way.</p>
+
+<p>There’s really not much to say here. Logic is the king when it comes to:</p>
+
+<ul>
+  <li>Included content</li>
+  <li>Mac integration</li>
+  <li>Feature set to Ease-of-use ratio</li>
+</ul>
+
+<p>Logic also has fantastic communities throughout the web like <a href="https://www.logicprohelp.com">LogicPro Help</a>, <a href="https://logic-users-group.com/forums/">LUG</a> and others.</p>
+
+<p>I have zero plans to switch to Logic for my day to day work, because I <em>far prefer</em> the configurable workflow in Reaper, but I think that for the personality of the average musician that just “wants to get things done”; Logic is the ultimate choice on macOS.</p>
+
+<p>I could go on and list how basically every other DAW does a bunch of things better than Logic, but Logic does <em>most</em> things well enough. If I was working in a high-pressure live recording environment I’d probably use <a href="http://mixbus.harrisonconsoles.com">Mixbus</a> or <a href="http://www.avid.com/pro-tools">Pro Tools</a>. If I was working with complex scoring duties I’d use <a href="http://www.motu.com/products/software/dp">Digital Perfomer</a> or <a href="https://www.steinberg.net/en/products/cubase/start.html">Cubase</a>. If I was working heavily with electronic dance music and live performance then <a href="https://www.ableton.com">Ableton Live</a> or <a href="https://www.bitwig.com">Bitwig</a>. If I really loved flexible workflows and self-sufficiency then I use <a href="http://reaper.fm">Reaper</a> (and that <em>is me</em>).</p>
+
+<p>Let’s not ignore the elephant in the room though, you are tied to Apple now. You need a mac, <a href="https://www.tonymacx86.com">of some sort</a>, to run Logic. That means that you’re tied to their difficult-to-upgrade hardware. You’re tied to their aggressive OS updates and frequent breaking of backwards compatibility. You’re tied to all those things that make Apple evil in the eyes of many…</p>
+
+<p>Do <strong>I</strong> care? No. I love macOS. I like Apple products. I enjoy using the Apple ecosystem. This may not be for everyone though, since if you ever want to access your Logic projects after switching to another vendor then you will need a mac around somewhere.</p>
+
+<p>If you’ve paid the ‘Apple Tax’ though, that’s bought you access to Logic Pro X. Logic used to cost nearly $1k, and it was <em>far</em> less capable and came with <em>much</em> less. Now you can get it <a href="/music/2018/01/16/Logic-Pro-X-Tips-and-Tricks.html#purchasing-logic-pro-x-cheaply">for <strong>less</strong> than $199</a>. That’s an amazing deal. Logic has also had <a href="https://support.apple.com/en-us/HT203718">4 <strong>major</strong> updates</a> <em>for free</em>. Those updates would cost you around $150-200 each for another DAW. They were free for Logic users.</p>
+
+<p>I don’t think that there’s any compelling reason for a mac user, that does audio, to not own Logic. If you have a mac and you are looking for a DAW then it’s the de-facto starting point. You may not be perfectly happy with it over time and decide to choose another product that has more specialization, but there’s a very good chance that Logic is sufficient no matter what. I’ve also learned during this review, specifically while writing this post, that when Logic has a bunch of things you hate then you may be surprised by a large update. Logic is always improving and thusfar it’s been for only a single down payment.</p>
+
+<p>So if you’ve read these reviews and you’re not sure if you should own Logic, then you probably should. If you already know of a product that works how you want or if you’re mostly happy with what you’re using then I strongly doubt that Logic is going to totally WOW you. If you’re new to music or music production then just buy it.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 13 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

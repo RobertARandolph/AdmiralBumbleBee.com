@@ -1,0 +1,990 @@
+I"�<img src="/assets/Reaper/JSFX/Debug.png" alt="Debugging">
+<div class="image-caption">Debugging our plugin</div>
+
+<p>Today I’m going to show you how to write a MIDI plugin in <a href="https://www.reaper.fm">Reaper</a> using <a href="https://www.reaper.fm/sdk/js/js.php">JSFX</a>.</p>
+
+<p><strong>BUT WAIT!</strong> I’m going to assume that you are a total newb. I am going to walk you through every aspect of the process <em>including</em> <strong>how to find information</strong>.</p>
+
+<p>The following topics will be covered:</p>
+
+<ul>
+  <li>Basic JSFX MIDI programming</li>
+  <li>How MIDI works, and how to find out more</li>
+  <li>Simple Binary
+    <ul>
+      <li>Counting in Binary</li>
+      <li>Binary math</li>
+      <li>Binary operators</li>
+    </ul>
+  </li>
+  <li>Hexadecimal</li>
+  <li>Basic programming</li>
+  <li>Basic problem solving</li>
+</ul>
+
+<p>The only thing that you need for this is a computer with <a href="https://www.reaper.fm">Reaper</a> installed and a working internet connection. If you have any questions then please comment, I will happily answer to the best of my ability.</p>
+
+<p>Big shoutout to <a href="https://reaperblog.net">Jon at The Reaper Blog</a>. He brought up this question about a plugin that translated MIDI notes to CC on behalf of another user. That’s why I wrote this entire thing.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#for-programmers" id="markdown-toc-for-programmers">For programmers</a></li>
+  <li><a href="#what-is-jsfx" id="markdown-toc-what-is-jsfx">What is JSFX?</a></li>
+  <li><a href="#write-the-plugin---part-1" id="markdown-toc-write-the-plugin---part-1">Write the plugin - Part 1</a>    <ul>
+      <li><a href="#come-up-with-an-idea" id="markdown-toc-come-up-with-an-idea">Come up with an idea</a></li>
+      <li><a href="#write-it" id="markdown-toc-write-it">Write it!</a></li>
+    </ul>
+  </li>
+  <li><a href="#jsfx-basics" id="markdown-toc-jsfx-basics">JSFX basics</a>    <ul>
+      <li><a href="#programming-concepts" id="markdown-toc-programming-concepts">Programming concepts</a>        <ul>
+          <li><a href="#variables" id="markdown-toc-variables">Variables</a></li>
+          <li><a href="#statements" id="markdown-toc-statements">Statements</a></li>
+          <li><a href="#conditionals" id="markdown-toc-conditionals">Conditionals</a></li>
+          <li><a href="#looping" id="markdown-toc-looping">Looping</a></li>
+          <li><a href="#math" id="markdown-toc-math">Math</a></li>
+          <li><a href="#functions" id="markdown-toc-functions">Functions</a></li>
+          <li><a href="#order-of-operations" id="markdown-toc-order-of-operations">Order of operations</a></li>
+        </ul>
+      </li>
+      <li><a href="#create-the-plugin" id="markdown-toc-create-the-plugin">Create the plugin</a>        <ul>
+          <li><a href="#file" id="markdown-toc-file">File</a></li>
+          <li><a href="#editing-jsfx" id="markdown-toc-editing-jsfx">Editing JSFX</a></li>
+          <li><a href="#description" id="markdown-toc-description">Description</a></li>
+          <li><a href="#controls---part-1" id="markdown-toc-controls---part-1">Controls - Part 1</a></li>
+          <li><a href="#controls---part-2" id="markdown-toc-controls---part-2">Controls - Part 2</a></li>
+          <li><a href="#init" id="markdown-toc-init">Init</a></li>
+          <li><a href="#slider" id="markdown-toc-slider">Slider</a></li>
+          <li><a href="#block" id="markdown-toc-block">Block</a></li>
+        </ul>
+      </li>
+      <li><a href="#midi-concepts" id="markdown-toc-midi-concepts">MIDI Concepts</a>        <ul>
+          <li><a href="#binary" id="markdown-toc-binary">Binary</a></li>
+          <li><a href="#hex" id="markdown-toc-hex">Hex</a></li>
+          <li><a href="#binary-to-hex" id="markdown-toc-binary-to-hex">Binary to Hex</a></li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li><a href="#write-the-plugin---part-2" id="markdown-toc-write-the-plugin---part-2">Write the plugin - Part 2</a>    <ul>
+      <li><a href="#the-loop" id="markdown-toc-the-loop">The loop</a></li>
+      <li><a href="#first-init-value" id="markdown-toc-first-init-value">First Init value</a></li>
+      <li><a href="#finding-the-midi-channel" id="markdown-toc-finding-the-midi-channel">Finding the MIDI channel</a></li>
+      <li><a href="#filtering-the-midi-channel" id="markdown-toc-filtering-the-midi-channel">Filtering the MIDI Channel</a></li>
+      <li><a href="#reacting-to-the-correct-notes" id="markdown-toc-reacting-to-the-correct-notes">Reacting to the correct notes</a></li>
+      <li><a href="#made-the-plugin-do-something" id="markdown-toc-made-the-plugin-do-something">Made the plugin do something</a></li>
+      <li><a href="#invert" id="markdown-toc-invert">Invert</a></li>
+      <li><a href="#scaling" id="markdown-toc-scaling">Scaling</a></li>
+      <li><a href="#protection" id="markdown-toc-protection">Protection</a></li>
+      <li><a href="#finish-it-off" id="markdown-toc-finish-it-off">Finish it off</a></li>
+    </ul>
+  </li>
+  <li><a href="#result" id="markdown-toc-result">Result</a></li>
+  <li><a href="#how-do-i-use-it" id="markdown-toc-how-do-i-use-it">How do I use it?</a></li>
+  <li><a href="#-my--is-fd" id="markdown-toc--my--is-fd">$#!+! My $#!+ is F****D!</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="for-programmers">For programmers</h1>
+
+<p>This tutorial really isn’t for you, but <a href="#result">maybe you can skip to results</a> to see what happened.</p>
+
+<p>You may still enjoy reading this anyway, I hope!</p>
+
+<h1 id="what-is-jsfx">What is JSFX?</h1>
+
+<p>A long time ago on a planet.. uh, well.. right here, there was some monstrosity called <a href="https://www.cockos.com/jesusonic/">Jesusonic</a>. Go ahead and click that link. Bask in its glory.</p>
+
+<p>Keep basking…</p>
+
+<p>Ok. Done? From the lineage of Jesusonic came <a href="https://www.reaper.fm/sdk/js/js.php">JSFX</a> which is an integated programming language in Reaper. This language allows you to create realtime audio, MIDI <del><em>and video</em></del> effects. (I was wrong, JS FX doesn’t do video. Video is done in <a href="https://www.reaper.fm/sdk/reascript/reascript.php">EEL</a> which is very close to JS FX. The language is the same, but the ‘container’ is different so to say) These effects can be programmed in place during a session and the results experienced immediately after saving your file.</p>
+
+<p>A JSFX plugin works like any other VST/DX/AU plugin. You insert it on a track, the JSFX plugin accepts data and outputs data. The fun part is that we can output any data that we want!</p>
+
+<h1 id="write-the-plugin---part-1">Write the plugin - Part 1</h1>
+
+<p>Now we want to write a plugin. First I’m going to cover some concepts, then in <a href="#write-the-plugin-part-2">part 2</a> we’ll dive in.</p>
+
+<p>If you wish to just jump in you can simply skip to <a href="#write-the-plugin-part-2">part 2</a>. I will reference this pre-requisite information, and you can always jump back if you get lost.</p>
+
+<p>If any of part 1 doesn’t sink in, or if you feel confused then just skip to <a href="#write-the-plugin-part-2">part 2</a>. I’ll be walking you through the application of these concepts and you may find it easier to understand these concepts in a context.</p>
+
+<h2 id="come-up-with-an-idea">Come up with an idea</h2>
+
+<p>Generally the first thing that you need to do is come up with an idea. I already have an idea, so lets discuss that.</p>
+
+<p>I want a plugin that takes incoming MIDI notes and converts them to MIDI CC (controller change). This would allow someone to use their keyboard keys to change the values of something. For instance I could press the keys on my keyboard to adjust the value of a knob in another plugin.</p>
+
+<p>I’d like a few extra features as well:</p>
+
+<ul>
+  <li><strong>Limit the range</strong> - I want to limit the range of the incoming notes. There’s 128 possible MIDI notes, and I don’t have a 128 key keyboard. So ideally we want to limit the lowest note and the highest note that our plugin responds to.</li>
+  <li><strong>Scale the output</strong> - <em>OPTIONAL</em> sometimes I want the midi notes 1-128 to map directly to CC values 1-128 even if they are limited. Sometimes I want the notes to be scaled. Scaling means that if my lowest note is 1 and my highest note is 64 then each note is worth 2 CC values. So from 1-&gt;64 I would get a mapping of all 128 CC values.</li>
+  <li><strong>Channel selection</strong> - MIDI has 16 channels. Sometimes I may want to take MIDI notes from channel 1 and output MIDI cc to channel 10. Maybe some other combination. The plugin should allow you to select the input and output channel for the converted data</li>
+  <li><strong>Invert values</strong> - An option to invert the values output. This means that the first MIDI note would output a cc value of 127 and the last MIDI note would output a cc value of 0.</li>
+</ul>
+
+<p>We’ll cover adding these features one by one along with the logic for each one.</p>
+
+<h2 id="write-it">Write it!</h2>
+
+<p>I’m just kidding. You can’t write anything yet. First we need to cover some JSFX basics, and some programming basics.</p>
+
+<p>Most of these things won’t make immediate sense if you’ve never programmed before. You will have to reference back and forth as you go. Don’t be ashamed! That’s how we learn. Let the puzzle be built in your brain piece by piece. Each new piece put in place will help build a more recognizable picture, but only after much time spent digging through the unrecognizable pile of puzzle pieces!</p>
+
+<h1 id="jsfx-basics">JSFX basics</h1>
+
+<p>JSFX programming has a few basic things we need to cover. This section will allow you to read the code that’s presented in future sections. I’m going to explain each of these as if you have never programmed before.</p>
+
+<p>If you have programmed before then you can hop right over to <a href="https://www.reaper.fm/sdk/js/js.php">the JSFX page</a> and learn how things work.</p>
+
+<h2 id="programming-concepts">Programming concepts</h2>
+
+<h3 id="variables">Variables</h3>
+
+<p>A variable is just a word that references some data. There are various words in JSFX that <em>do something special</em>. The rest of the english language is ours to use.</p>
+
+<p>The first time that we use a word that’s not used by JSFX, then a new storage space is create for us. We can reference the data in that storage space using the name we give it. Like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>robert = 1;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Now anytime I use the word ‘robert’, it’s exactly as if I used the number 1. I can mutate (change) the value of ‘robert’ later too. If I do <code class="highlighter-rouge">robert = 36</code>, then any time after that ‘robert’ will be exactly like using the number 36.</p>
+
+<p>Variables give us an easy way to hold on to data, and to refer to that data later.</p>
+
+<p>We’ll be creating variables a lot.</p>
+
+<h3 id="statements">Statements</h3>
+
+<p>A statement is a thing that does something. Assigning a variable is a statement for instance.</p>
+
+<p>When we have a statement, we need to separate it from other statements. This is done with a <code class="highlighter-rouge">;</code>. After a statement we just put a <code class="highlighter-rouge">;</code> to say that we’re done with that.</p>
+
+<p>If you have any errors, the most likely situation is that you forgot a <code class="highlighter-rouge">;</code>. That goes even for the most experienced programmers.</p>
+
+<h3 id="conditionals">Conditionals</h3>
+
+<p>When programming we’re often stood at a crossroads. We’ll need to act based on something that has happened before. If X happened then we do Y, but if T happened then we do R.</p>
+
+<p>JSFX gives us a way of branching our program based on some value. It looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>value ? (
+	// do this if value is true
+) : (
+	// do this if value is false
+);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>First we need something to test. ‘value’ in the example above is something to test. A result of 0 is considered ‘False’. Anything other than 0 is considered true.</p>
+
+<p>We can test just a <a href="#variables">variable</a>, or we can test a comparison. We can compare 2 variables using operators like &gt; (greater than) and &lt; (less than). If we want to see if two things are equal then we use double equals signs like ==. If the comparison is correct then it is true, if the comparison is wrong then the value is false. So let’s try one:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+</pre></td><td class="rouge-code"><pre>robert = 1;
+
+robert == 2 ? (
+	john = 1;
+) : (
+	john = 2;
+);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<ul>
+  <li>First we assign ‘robert’ a value of 1.</li>
+  <li>Then we check if ‘robert’ equals 2.</li>
+  <li>If ‘robert’ equals 2 then we assign ‘john’ a value of 1.</li>
+  <li>Else we assign john a value of 2.</li>
+</ul>
+
+<p>What do you think ‘john’s value is?</p>
+
+<h3 id="looping">Looping</h3>
+
+<p>Another thing that we often need to do in programming is to repeat an action. JSFX has 2 methods of doing this, but we’ll only need one of them. <a href="https://www.reaper.fm/sdk/js/basiccode.php#js_basic">You can discover the second one here</a></p>
+
+<p>The construct we will use simply says, “While this variable/comparison is true, repeat this block of code. Check the variable/comparison each time we repeat to know if we should stop” It looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>while (thingToTest) (
+	// do stuff here
+);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Yeah, it’s that simple. The ‘while’ statement takes something to check, and then we have a bunch of code we put between () that’s executed. After the execution we check if our situation is still to our satisfaction. If it is then we repeat the code again.</p>
+
+<h3 id="math">Math</h3>
+
+<p>Math is simple. Just things like <code class="highlighter-rouge">1 + 1</code> or <code class="highlighter-rouge">4 - 3</code> work.</p>
+
+<p>If you need more complex facilities, then we use <em>functions</em>. A list of <a href="https://www.reaper.fm/sdk/js/basiccode.php#js_basicfunc">math functions is here</a>.</p>
+
+<p>These <em>functions</em> take some information, and they return a result for us. We usually need to do something with that value, such as assign it to a <a href="#variables">variable</a> or use it in a <a href="#conditionals">comparison</a>. Let’s give it a shot.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>robert = 1;
+
+john = min(robert, 0);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>We assign ‘robert’ a value of 1. Then we assign ‘john’ the result of <code class="highlighter-rouge">min(robert, 0)</code>. <code class="highlighter-rouge">min()</code> takes 2 values and it returns the smallest of the two values.</p>
+
+<p>What do you think the value of john is now?</p>
+
+<p>I can’t help you with your math, but luckily we won’t need anything fancier than basic addition and subtraction today.</p>
+
+<h3 id="functions">Functions</h3>
+
+<p>Sometimes we need to call another piece of code somewhere. We send it some data, and it gives us some data back. This is done with the syntax: <code class="highlighter-rouge">function(data, data2, data3);</code>. ‘data’, ‘data2’, ‘data3’ are any information that you want to send. They can be numbers, <a href="#variables">variables</a> or even other functions that return a value!</p>
+
+<p>From there we would assign that to a variable so we can use that value later. Like this <code class="highlighter-rouge">result = function(data, data2, data3);</code> Whatever ‘function’ returns is now stored inside of <code class="highlighter-rouge">result</code>.</p>
+
+<h3 id="order-of-operations">Order of operations</h3>
+
+<p>Often you may see things like this: <code class="highlighter-rouge">result = sqr(20 - ceil(9.8));</code> How do we interpret this?</p>
+
+<p>The rule is that we work from the most interior parenthesis outwards.</p>
+
+<ul>
+  <li>The right most thing is <code class="highlighter-rouge">sqr(20 - ceil(9.8));</code>.</li>
+  <li>Now we dive in to the parenthesis and find <code class="highlighter-rouge">20 - ceil(9.8)</code>.</li>
+  <li>The rightmost bit in there is <code class="highlighter-rouge">ceil(9.8)</code>. Calling the ‘Ceil’ function with ‘9.8’ returns ‘10’. Now it looks like <code class="highlighter-rouge">result = sqr(20 - 10)</code></li>
+  <li>Dive in to the parenthesis again and solve. We end up with <code class="highlighter-rouge">result = sqr(10);</code></li>
+  <li>Still working on the right, the function <code class="highlighter-rouge">sqr(10)</code> returns ‘100’.</li>
+  <li>Final result is <code class="highlighter-rouge">result = 100</code>.</li>
+</ul>
+
+<p>The variable ‘result’ now contains the data ‘100’.</p>
+
+<p>If you need to break it down visually, then open a text editor or a notebook and do it! Even the best programmers sometimes have to break down things in to their component pieces so they can understand it.</p>
+
+<h2 id="create-the-plugin">Create the plugin</h2>
+
+<p>Now that we have some basic programming knowledge, in the context of JSFX, under our belt we can create the plugin.</p>
+
+<p>Let’s start!</p>
+
+<h3 id="file">File</h3>
+
+<p>The first thing we need to know is where to put this file that contains our code, and how to access it.</p>
+
+<ul>
+  <li>Open Reaper.</li>
+  <li>Go to <code class="highlighter-rouge">Options-&gt;Show REAPER resource path in explorer/finder</code></li>
+  <li>Navigate to the ‘Effects’ folder.</li>
+</ul>
+
+<p>This is where JSFX files are stored. These are plaintext files, nothing special about them.</p>
+
+<p><del>Create a new folder for yourself inside the ‘Effects’ folder. Create a new file there with a text editor, and give it <em>no extension</em> (Actually, you can give it an extension if you want. <code class="highlighter-rouge">.jsfx</code> is fine. Most JSFX plugins don’t have an extension. It’s up to you!).</del> <strong>EDIT</strong> -I was made aware of a better way to do this_.</p>
+
+<p>To create a JSFX plugin:</p>
+
+<ul>
+  <li>Create a track</li>
+  <li>Open the FX browser (click the FX button on the track)</li>
+  <li>Navigate to the JS folder</li>
+  <li>Right click the JS folder and select <code class="highlighter-rouge">Create New JS FX...</code></li>
+  <li>Enter the name</li>
+</ul>
+
+<p>Now we need to give it a <a href="#description">Description</a> after we learn to <a href="#editing-jsfx">edit JSFX</a>.</p>
+
+<h3 id="editing-jsfx">Editing JSFX</h3>
+
+<img src="/assets/Reaper/JSFX/Edit.png" alt="Editing JSFX">
+<div class="image-caption">Editing JSFX</div>
+
+<p>Now open Reaper. Add a track then click the FX button. Find the JS plugin that you just created. I can search for ‘Robert’ and find it since it’s in the ‘Effects/Roberts’ folder.</p>
+
+<p>You will see the window on the left in the image above. Click that button that says ‘Edit’ and a text editor will open up in Reaper with our file.</p>
+
+<p>This is where we’ll do all of our work from now on. You can edit the plugin inside of Reaper, and on the right side of the editor we have a <em>realtime</em> list of everything that’s happening inside of our plugin. Don’t worry if this seems intimidating, we’re going to work through it!</p>
+
+<h3 id="description">Description</h3>
+
+<p>In order for Reaper to know that we have a JSFX and what it’s called, we need to give it a description. JSFX has a format for this.</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>desc: Description here
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Yeah, that’s it.</p>
+
+<p>So I’m going to add a description and some extra information to my plugin:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>desc: MIDI Note to CC value
+//author: Robert Randolph
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>You see that line with <code class="highlighter-rouge">//author</code>? Those first 2 slashes indicate that the line is a <em>comment</em>. Comments are not read by Reaper when running the effect. It’s just a way of communicating to the person reading the code.</p>
+
+<p>Save your file. Control-s (Windows) or Command-S (macOS).</p>
+
+<h3 id="controls---part-1">Controls - Part 1</h3>
+
+<img src="/assets/Reaper/JSFX/ControlsPart1.png" alt="Controls!">
+<div class="image-caption">Controls!</div>
+
+<p>The first thing we need to do is lay out some controls. The users needs a way to interact with our plugin. Since we already <a href="#come-up-with-an-idea">thought out our idea beforehand</a>, we can layout a set of controls based on that idea.</p>
+
+<p>So let’s explore how JSFX allows us to create controls. The format looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>slider1:5&lt;0,10,1&gt;slider description
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Let’s work through that line:</p>
+
+<ul>
+  <li>slider1 - this tells Reaper that this line contains info about a control, and that this is the first control</li>
+  <li>: - the colon indicates that the information about the slider is coming next</li>
+  <li>5 - this is the default parameter. When the user opens the plugin for the first time, the slider will have a value of 5 until they change it.</li>
+  <li>&lt;0,10,1&gt; - The part insides &lt;&gt; tell us about the min/mix and change size
+    <ul>
+      <li>0 - This is the lowest value of the slider</li>
+      <li>10 - This is the highest value of the slider</li>
+      <li>1 - This is the smallest change between values. Our slider will only adjust in increments of 1 whole number.</li>
+    </ul>
+  </li>
+  <li>slider description - this is the label on the slider in the GUI</li>
+</ul>
+
+<p>So let’s try to make our first slider. We need to know what MIDI CC value to send. There are 128 possible options from 0 to 127. We can only use whole numbers (increments of 1). The default value can be anything, but I’ll use 0. We want it to be called “CC to send”. Try this on your own first before you see the solution!</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>slider1:0&lt;0,127,1&gt;CC to send
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>There’s our first slider. It has a default value of 0, limits from 0 to 127 in increments of 1 with the label ‘CC to send’. Excellent!</p>
+
+<p>Now add controls for MIDI note (0-127) cutoffs for low and high note. Values from 0-127 in increments of 1. Remember these are new sliders, so we can’t reuse ‘slider1’.</p>
+
+<h3 id="controls---part-2">Controls - Part 2</h3>
+
+<img src="/assets/Reaper/JSFX/ControlsPart2.png" alt="Controls!">
+<div class="image-caption">More Controls!</div>
+
+<p>For some controls we don’t want a slider. We want the user to select from pre-defined values. Sliders can be turned in to checkboxes by adding {} after the increment value. It looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>slider2:0&lt;0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}&gt;Input Channel
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>The number 1 (after the 15) is our increment, but instead we create a list of values inside of curly braces {}. Each of these values inside of the curly braces is shown in a dropdown box.</p>
+
+<p>The preselected values can be text too. To let the user choose to turn on Scaling or Inversion <a href="#come-up-with-an-idea">as we decided before</a>, we can just use the words ‘Yes’ and ‘No’ like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>slider6:0&lt;0,1,1{No, Yes}&gt;Scale Values?
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>That gives us a box with just the values of No and Yes. The default value is 0, which means the <em>first</em> value we offer is the default. ‘1’ would mean that the second value is selected, etc…</p>
+
+<p>See if you can duplicate the controls I’ve laid out above. It shouldn’t be too difficult.</p>
+
+<h3 id="init">Init</h3>
+
+<img src="/assets/Reaper/JSFX/Init.png" alt="Init">
+<div class="image-caption">Init section</div>
+
+<p>When our plugin is loaded, there’s a few things that we may want to do first. Right now we have nothing, but we’ll add that block anyway.</p>
+
+<p>Simply add <code class="highlighter-rouge">@init</code> below your sliders. Later we’ll add some stuff here.</p>
+
+<h3 id="slider">Slider</h3>
+
+<img src="/assets/Reaper/JSFX/Slider.png" alt="Slider section">
+<div class="image-caption">Slider assignment</div>
+
+<p>When we want to know the value of a slider in our program we can simply refer to it as ‘slider1’. With the default setup if we did something like <code class="highlighter-rouge">slider1 + 2</code> then the result would be 2. The default slider1 value is 0. We add 2 to that, and we get 2.</p>
+
+<p>It’s really bothersome to have to remember that ‘slider1’ is “CC to Send” though. So JSFX gives us a place that we can create a new <em>variable</em> that references a slider’s value. It looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>@slider
+ccValue = slider1;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Things inside the <code class="highlighter-rouge">@slider</code> section happen when a slider changes. When the user moves a slider, then all of that code between <code class="highlighter-rouge">@slider</code> and the upcoming <code class="highlighter-rouge">@block</code> is called. It can be any code, but we’re only going to do variable assignments. So we create a new <em>variable</em> called ‘ccValue’ that is <em>assigned</em> the value of slider1.</p>
+
+<p>I’ve created a number of easy to remember variables that I can refer to the sliders by. Look at the screenshot above to see my setup.</p>
+
+<p><strong>EDIT</strong> Another option is to declare the slider with the variable that we want updated.</p>
+
+<p>It looks like this: <code class="highlighter-rouge">slider1:ccValue=0&lt;0,127,1&gt;CC to send</code>. We simply add <code class="highlighter-rouge">ccValue=</code> in front of the default value, and now our ‘ccValue’ variable is updated when the slider moves.</p>
+
+<h3 id="block">Block</h3>
+
+<img src="/assets/Reaper/JSFX/Block.png" alt="Block">
+<div class="image-caption">Block - where the work happens</div>
+
+<p>Eventually stuff needs to happen when our plugin receives data. <code class="highlighter-rouge">@block</code> is where that happens. The code in the <code class="highlighter-rouge">@block</code> section is called when our plugin needs to process some data.</p>
+
+<p>Why is it called ‘block’ though? Audio is processed in blocks. MIDI is processed in blocks too. They are actually processed in the same blocks, but we’re only working with MIDI today. The plugin receives a block of data, acts on it, outputs it, then waits for more data.</p>
+
+<p>If you’re paying attention you may realize that when we get a block of data, we’ll need to <a href="#looping">loop</a> over that data to act on each piece of data in the block. That is correct, and we’ll cover that soon.</p>
+
+<p>So just add a <code class="highlighter-rouge">@block</code> and we’re off to the races!</p>
+
+<h2 id="midi-concepts">MIDI Concepts</h2>
+
+<p>In order to process MIDI we need to know what MIDI is.</p>
+
+<p>I somewhat assume that you know what <a href="https://en.wikipedia.org/wiki/MIDI">MIDI</a> is if you’re reading this, but let’s go over some basics.</p>
+
+<p>MIDI is a standard that covers a plethora of specifications related to a communication protocol. This communications protocol is generally used in musical and A/V applications to communicate simple data between devices.</p>
+
+<p>This tutorial is only concerned with MIDI as a way of communicating data between devices. MIDI doesn’t actually <em>do</em> anything. It doesn’t make noises. It doesn’t make lights. It’s just the data that something else interprets, and that something else can do things based on that MIDI data.</p>
+
+<p>MIDI data consists of 8bit ‘words’, and the full message may be multiple words. A simple MIDI message may look like this <code class="highlighter-rouge">10010000 1000000 1000000</code>. That message says “Note E3 (64) on channel 1 with a velocity of 64”. By the end of this tutorial you’ll be able to <em>figure that out</em> on your own without any trouble.</p>
+
+<p>In this tutorial we are going to deal with 3 ‘word’ messages. Most MIDI messages are 3 ‘words’. The exception to the 3 ‘word’ scenario is a type of message called System, which we don’t care about today and you probably won’t encounter very often. These words will be called bytes from now on, as 8 bits = 1 byte. Here is a typical 3 byte message:</p>
+
+<ul>
+  <li>Status byte - this tells us what type of message the DATA represents so that we can interpret the rest of the message correctly, AND it tells us the channel. (MIDI has 16 ‘channels’ that we can communicate separately on)</li>
+  <li>Value byte - this tells us the ‘value’ of that type of message</li>
+  <li>Value byte #2 - this tells us the value of the first value.</li>
+</ul>
+
+<p>A typical musical scenario is the pressing of a piano key. The first byte communicates the channel and that ‘this is a key press’. The second byte communicates the note. The third byte communicates how hard the key was pressed.</p>
+
+<p><strong>DON’T BE SCARED!</strong> I’m going to teach you how to make sense of these bits, bytes and bagels.</p>
+
+<p><strong>How did I find this information?</strong></p>
+
+<p>I just googled for ‘MIDI specification’ and I got <a href="https://www.midi.org/specifications/item/table-1-summary-of-midi-message">this page</a>, which wasn’t helpful really.</p>
+
+<p>Then I found <a href="https://ccrma.stanford.edu/~craig/articles/linuxmidi/misc/essenmidi.html">this one</a>, which is a step up.</p>
+
+<p>So I thought maybe searching for “MIDI message programming”, and then I found <a href="https://www.cs.cmu.edu/~music/cmsip/readings/MIDI%20tutorial%20for%20programmers.html">this one</a>. Much better!</p>
+
+<p>Just continually searching and adjusting search teams until you find something that gives you more clues. This is a process of finding bits of information, then refining your search based on that information. Eventually you build up a pile of info in your brain that is what you need.</p>
+
+<p>It’s a process of refinement. If you don’t get it the first time, use the little knowledge that you have to get a <em>little bit</em> more knowledge. Now repeat!</p>
+
+<h3 id="binary">Binary</h3>
+
+<img src="/assets/Reaper/JSFX/Binary.png" alt="Binary">
+<div class="image-caption">Binary calculation</div>
+
+<p>Computers “speak” in binary. MIDI messages come in binary. So we need to understand binary. Luckily it’s not that hard!</p>
+
+<p>Binary is a different way of counting. In the form of counting that you are familiar with, each ‘place’ represents a multiple of 10. We have the 1’s place, 10’s place, 100’s place etc…</p>
+
+<p>With binary, each place is a “2’s exponent place”. Each place can either be there or not. The ‘on-ness’ of a place is indicated by a 1 for “on” and a 0 for “off”.</p>
+
+<p>Each place in binary is equivalent to 2^position. Our first position is 0, and we count up from there. So the first position is “two to the zero power”, either 1 or 0. The second position is “two to the first power”, either 2 or 0. The second position is “two to the second power”, either 4 or 0 etc…</p>
+
+<p>To determine the decimal value of a binary number, we take the value of each place and add them together.</p>
+
+<p>Let’s work through the image above.</p>
+
+<p>Our binary number is <code class="highlighter-rouge">01001011</code>. We work from right to left to figure this out (^implies that the next number is an exponent):</p>
+
+<ul>
+  <li>1 - the first bit on the right corresponds to 2^0. That bit is present, so that’s 1.</li>
+  <li>1 - the second bit is 2^1. That bit is present, so that’s 2.</li>
+  <li>0 - third bit is 2^2. We don’t use that position because it’s 0, so no calculation is needed.</li>
+  <li>1 - fourth bit is 2^3. That’s 8.</li>
+  <li>0 - fifth bit is 2^4. We don’t use that bit because it’s 0.</li>
+  <li>0 - sixth bit is 2^5. This bit is unused.</li>
+  <li>1 - seventh bit is 2^6. That’s a value of 64. We use this value.</li>
+  <li>0 - eighth bit is 2^7. That doesn’t matter because it’s 0.</li>
+</ul>
+
+<p>So now we take all the values of the bits that are turned on and add them. 64 + 8 + 2 + 1. That equals 75. <code class="highlighter-rouge">01001011</code> = 75 in decimal.</p>
+
+<p>So what have we learned? Next time you need to convert binary to decimal, all you have to do is google for “Binary to decimal converter”. I’m serious. Almost nobody does this in their head!</p>
+
+<p>Even <strong>more importantly</strong>, binary values are not always used to represent numeric values. Imagine this, I have 8 light switches. I want to communicate in the shortest possible way that I want light switches one, two, four and seven turned on downstairs. I can call downstairs and say “75”. That corresponds to 01001011 in binary… Which tells us exactly which light switches we want on and off!</p>
+
+<p>Often in software, numbers are used like this. They are called ‘flags’ or ‘bit fields’. We use numbers to communicate data other than numbers, we can communicate ‘state’ of simple on/off switches this way.</p>
+
+<p>There are special math operators for binary that allow us to operate on binary, these are called <a href="https://en.wikipedia.org/wiki/Bitwise_operation">‘bitwise operators’</a>. We will be using one of these in our plugin, and I will explain it later. It’s the ‘&amp;’ operator, which I suggest you research on your own for fun.</p>
+
+<p>We will also be using plain normal math to operate on our binary values. I will explain these as well. The only thing that you need to know is how to convert binary to decimal, and have a grasp of the idea that binary is often used to communicate data that doesn’t correspond to its numerical value.</p>
+
+<h3 id="hex">Hex</h3>
+
+<p>Binary is a pain to be typing out all the time. Hexidecimal is much easier. We’ll be using hexidecimal in our plugin.</p>
+
+<p>Binary is a ‘base 2’ system. Every place represents an exponential value of 2. Hexidecimal is a ‘base 16’ system. Every place represents an exponential value of 16.</p>
+
+<p>“But we only have 10 numbers!”, you exclaim! You’re right. So we use letters. Counting in hexidecimal goes like this: 0, 1, 2, 3, 4, 5, 6, 7, 8, 9, A, B, C, D, E, F. The letter ‘A’ corresponds to ‘10. ‘F’ is 15’.</p>
+
+<p>Just like binary, each place is an exponent. So 10 in hexidecimal is 1*16^1 + 0*16^0 == 16.</p>
+
+<p>33 in hexidecimal is 3*16^1 + 3*16^0 == 3*15 + 3*1 == 51.</p>
+
+<p>So let’s practice that again… Convert 7FB3E9AA to decimal.</p>
+
+<p>How’d you do? I sure hope you googled, “Hexidecimal to decimal calculator”, copy&amp;pasted and came up with “2,142,497,194”. If not, you’re crazy. <strong>USE TOOLS</strong>. <em>Don’t do any more work than you need to!</em></p>
+
+<p>In JSFX we denote that we’re using a hex value by prefixing our value with <code class="highlighter-rouge">$x</code>. That means that <code class="highlighter-rouge">$x0F</code> is a hexidecimal value of <code class="highlighter-rouge">0F</code>, which we know is ‘15’ in decimal. <strong>EDIT</strong> - As of Reaper 5.00+ you can simply use <code class="highlighter-rouge">0x0F</code> for hex values. The ‘$’ is not needed. I will be using the <code class="highlighter-rouge">$x0F</code> format for the rest of this post.</p>
+
+<h3 id="binary-to-hex">Binary to Hex</h3>
+
+<p>We’ll need to convert from binary to hex. The MIDI spec is often listed in binary, but we’ll be programming using hex. So let’s try this.</p>
+
+<p>Our value is <code class="highlighter-rouge">01001011</code> just like before. Before you try to convert this, even using google (or <a href="http://www.wolframalpha.com">WolframAlpha</a>), let’s cover a trick.</p>
+
+<p>You don’t actually need to convert the whole thing at once. Because 16 is the result of 2^4, we can cheat. We only need to work in chunks of 4 bits. Let’s split it up from right to left.</p>
+
+<ul>
+  <li><code class="highlighter-rouge">1011</code> - These are our rightmost 4 bits. You should be able to figure out pretty quick that this is 1 + 2 + 8 = 11 in decimal. We know that’s ‘B’ in hexidecimal.</li>
+  <li><code class="highlighter-rouge">0100</code> - These are the next series of bits. We’ll treat these like their own entity. This is simply 2^2 = 4. That’s a value of… ‘4’ in decimal.</li>
+</ul>
+
+<p>That’s it! Just combine those 2 values. <code class="highlighter-rouge">01001011</code> = <code class="highlighter-rouge">4B</code> in hex. No matter how big the binary number is, we can convert it in chunks of 4 bits.</p>
+
+<p>You may also <a href="#midi-concepts">recall from before</a> that the MIDI messages are 3 bytes. That’s 3 sets of 8 bits. We can think of each byte as 2 hexidecimal places. So a MIDI message in hex may look like <code class="highlighter-rouge">90 40 40</code> (which is <code class="highlighter-rouge">10010000 1000000 1000000</code> in binary). This is a much easier way to type the data and think of things.</p>
+
+<p>Don’t worry if this doesn’t make <em>total</em> sense yet. Just try to grasp the general idea. Once we start using this information, it should make more sense!</p>
+
+<h1 id="write-the-plugin---part-2">Write the plugin - Part 2</h1>
+
+<p>We are now fully armed with the <em>general idea</em> of the information we need to write this plugin. <strong>Don’t worry if everything doesn’t make sense yet!</strong>. This is an iterative process. You may need to try something, read about it, try it again, read about it some more… a dozen times.</p>
+
+<p><em>Every programmer</em> does this. All of us. It’s a process of trial and error. Even the super ultra smart geniuses went through this at some point.</p>
+
+<h2 id="the-loop">The loop</h2>
+
+<img src="/assets/Reaper/JSFX/TheLoop.png" alt="The Loop">
+<div class="image-caption">The start of the main loop</div>
+
+<p>We <a href="#block">already discussed</a> how JSFX sends us a block of data, and we need to process each piece of the block. To do that we write a loop.</p>
+
+<p>How do we write <a href="#looping">the loop</a>? We don’t! We use one that we found. Google “JSFX MIDI programming” and <a href="https://www.reaper.fm/sdk/js/midi.php">this is the first result</a>. Excellent. Let’s dig.</p>
+
+<p>We know that we need to receive MIDI data and process it. So let’s grab the first thing that looks like it receives and processes data which is <code class="highlighter-rouge">midirecv(offset,msg1,msg2,msg3) -- REAPER 4.60+</code>.</p>
+
+<p>The code is:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre>@block
+while (midirecv(offset,msg1,msg2,msg3)) ( // REAPER 4.59+ syntax while()
+   msg1==$x90 &amp;&amp; msg3!=0 ? (
+     noteon_cnt+=1; // count note-ons
+   ) : (
+     midisend(offset,msg1,msg2,msg3); // passthrough other events
+   )
+);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>That’s exactly what we need. We want to process only notes, and that’s what this does.</p>
+
+<p>The line <code class="highlighter-rouge">msg1==$x90 &amp;&amp; msg3!=0</code> says “If the first msg1 is a note <strong>and</strong> the velocity isn’t zero” then… we do stuff.</p>
+
+<p>How do we know that? Let’s head over <a href="https://www.cs.cmu.edu/~music/cmsip/readings/MIDI%20tutorial%20for%20programmers.html">to that page about MIDI for programmers</a>.</p>
+
+<p>In the ‘NOTE messages’ section it tells us that we have 3 bytes. A status byte, which is msg1. A data byte 1, which is msg2. A data byte 2, which is msg3. Let’s go over each thing listed on that web page.</p>
+
+<ul>
+  <li>“Status byte : 1001 CCCC” - The first 4 bits of the status byte indicate the type of event. Since we know that hex corresponds to 4 binary bits, the ‘9’ in <code class="highlighter-rouge">90</code> corresponds to the first 4 bits of the status byte. The next 4 bits tell us which MIDI channel the event is on. So <code class="highlighter-rouge">90</code> is a NOTE message on Channel 1. If our ‘msg1’ in JSFX == <code class="highlighter-rouge">$x90</code> then we know the data bytes refer to a note message on channel 1.</li>
+  <li>“Data byte 1 : 0PPP PPPP” - This is simply 7 bit data, values from 0-127. For MIDI notes this tells us which note. ‘msg2’ contains the information about which note number.</li>
+  <li>“Data byte 2 : 0VVV VVVV” - 7bits of data again, from 0-127. For MIDI notes this is the velocity, or how fast (or hard) the key was pressed.</li>
+</ul>
+
+<p>So this is how we figure out what the MIDI information is. We browse the spec (or google for more information), then we compare that information to the ‘msg1’, ‘msg2’ and ‘msg3’ that JSFX gives us.</p>
+
+<p>But what about that offset value? Well we’ve been given a block of data, and the time position of each event is stored as an offset. If we want events to have the same ‘timing’ on output as input, then we just pass the offset to <code class="highlighter-rouge">midisend()</code> without changing it. You can create other effects like delays by messing with that value.</p>
+
+<h2 id="first-init-value">First Init value</h2>
+
+<img src="/assets/Reaper/JSFX/NoteOn.png" alt="First Init Value">
+<div class="image-caption">Our first INIT value</div>
+
+<p>That <code class="highlighter-rouge">$x90</code> value is ugly. We don’t always want to remember that. So let’s create a variable that corresponds to that always.</p>
+
+<p>In our <code class="highlighter-rouge">@init</code> section, create a new variable like this <code class="highlighter-rouge">noteOn = $x90;</code>.</p>
+
+<p>From now on when we want to reference the concept of a MIDI note event, we can use the word ‘noteOn’ instead of having to remember that silly value.</p>
+
+<h2 id="finding-the-midi-channel">Finding the MIDI channel</h2>
+
+<img src="/assets/Reaper/JSFX/Mask.png" alt="Mask">
+<div class="image-caption">Bit masking</div>
+
+<p>We know that <code class="highlighter-rouge">90</code> in hex refers to a note on channel 1. But what if we receive a value of <code class="highlighter-rouge">91</code>?</p>
+
+<p>We don’t want to have to check for ‘90’, ‘91’, ‘92’, ‘93’ etc… to know if we have a note value! We need a way to split up the first 4 bits of the ‘status byte’ and the second 4 bits.</p>
+
+<p>This is where <a href="https://en.wikipedia.org/wiki/Bitwise_operation">bitwise operators</a> come in to play. We are going to use the ‘and’ operator. This specific operation is part of <a href="https://en.wikipedia.org/wiki/Mask_(computing)">bit masking</a>. These things may sound scary, but I assure you they are not that difficult!</p>
+
+<p>Let’s assume that we have a note message on channel 8. That value looks like <code class="highlighter-rouge">98</code>. It’s a combination of <code class="highlighter-rouge">90</code> and <code class="highlighter-rouge">08</code>. We want to ‘uncombine’ the <code class="highlighter-rouge">98</code>.</p>
+
+<p>Let’s first unpack that <code class="highlighter-rouge">98</code> to binary. Fire up google and you’ll convert your <code class="highlighter-rouge">98</code> hexidecimal to <code class="highlighter-rouge">1001 1000</code>. Having this in binary helps us think about the problem better because we are using <strong>bit</strong>wise operations, so it’s nicer to think in bits.</p>
+
+<p>The “and” bitwise operator takes 2 values. It compares the bits in each place. If both places have a 1, then the result is 1. If <em>either</em> places has a 0, then the result is 0. That’s where the trick lies. We can ‘turn off’ values by using a bitwise ‘and’ that has 0s in the place we want to cut off.</p>
+
+<p>So if we just want the first 4 bits, then we leave those and turn off the other 4. So look in the image above.</p>
+
+<p>We do the following operation: <code class="highlighter-rouge">1001 1000 &amp; 1111 0000</code>. From top to bottom the numbers are ‘anded’. If both numbers are 1 then the result is 1. If either number is 0 then the result is 0.</p>
+
+<p>Look at the result! It zero’d out the rightmost 4 bits. The result is only our leftmost bits. Now we have a value that <em>only</em> contains information about ‘what type of event’ we’re dealing with.</p>
+
+<p>We need to do this in hexidecimal though. Easily enough, we know that each hex place is 4 bits. ‘F’ is “all bits”, and ‘0’ is “no bits”. So to extract the event type and channel we do this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>noteStatus = msg1 &amp; $xF0;
+channel = msg1 &amp; $x0F;
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>We’ve taken the first message, zerod out the left most bits, and assigned that to <code class="highlighter-rouge">noteStatus</code>. Now we can use <code class="highlighter-rouge">noteStatus</code> to find out if our message is a note, and not worry about the channel.</p>
+
+<p>Then we took the first message and zerod out the left most bits. This contains the 4 bits that is our MIDI channel number.</p>
+
+<p>Now let’s add those variables <em>in to our loop</em> (since we need to extract these values for each piece of data in the block) and change our code to use the <code class="highlighter-rouge">noteStatus</code> variable to check if we are processing a note:</p>
+
+<img src="/assets/Reaper/JSFX/Masked.png" alt="Masked">
+<div class="image-caption">New code with bitmasks</div>
+
+<h2 id="filtering-the-midi-channel">Filtering the MIDI Channel</h2>
+
+<img src="/assets/Reaper/JSFX/InChannel.png" alt="In Channel">
+<div class="image-caption">Filtering the Input Channel</div>
+
+<p>Now we need to make sure that we only respond to messages on the MIDI channel that the user selected. This is as simple as using our <code class="highlighter-rouge">inChannel</code> variable in our conditional.</p>
+
+<p>I’m going to replace the <code class="highlighter-rouge">msg3!=0</code> with a check for the correct MIDI input channel. See the screenshot.</p>
+
+<h2 id="reacting-to-the-correct-notes">Reacting to the correct notes</h2>
+
+<img src="/assets/Reaper/JSFX/NoteFilter.png" alt="Note Filter">
+<div class="image-caption">Note Filtering</div>
+
+<p><a href="#come-up-with-an-idea">In our specification</a> we said that we wanted to only react to a range of notes. After we’re sure that we have a note message on the correct channel, we want to make sure that the note is in the range that we determined.</p>
+
+<p>In english we would say “If the input is greater than the lowNote AND the input is less than the highNote”.</p>
+
+<p>First thing I’ll do is assign <code class="highlighter-rouge">msg2</code> to something more readable. Inside the ‘while’ loop where we determined the <code class="highlighter-rouge">noteStatus</code> and <code class="highlighter-rouge">channel</code>, let’s assign <code class="highlighter-rouge">currentNote = msg2</code>. Now we can refer to <code class="highlighter-rouge">currentNote</code> when we want to know the note number.</p>
+
+<p>Then since we learned <a href="#conditionals">conditionals</a> already, so we can translate that to code to this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>notecurrentNote &gt;= lowNote &amp;&amp; notecurrentNote &lt;= highNote ? (
+
+);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>There’s no <code class="highlighter-rouge">: ( )</code> because we don’t care what happens if the note is out of range. We only act if the scenario is correct.</p>
+
+<p>Remember to indent your code as you go!</p>
+
+<h2 id="made-the-plugin-do-something">Made the plugin do something</h2>
+
+<img src="/assets/Reaper/JSFX/FirstWorking.png" alt="First working prototype!">
+<div class="image-caption">Our first working plugin</div>
+
+<p>Right now our plugin does nothing. Let’s make it work, but ignore the scaling and inversion.</p>
+
+<p>Let’s just make the plugin output the current MIDI note value as a CC message. First though, what is a CC message? We’ll visit <a href="https://www.cs.cmu.edu/~music/cmsip/readings/MIDI%20tutorial%20for%20programmers.html">the reference that I’ve been using most of this tutorial</a>, but you can find this information <a href="https://www.midi.org/specifications">directly in the specification</a>.</p>
+
+<p>MIDI CC messages are exactly like note messages. The first status byte is <code class="highlighter-rouge">B0</code> to signify a CC event plus the MIDI channel. The second byte selects which MIDI CC message, from 0-127. The third byte is the value of that CC from 0-127.</p>
+
+<p>First thing we need to do is create a variable that references that <code class="highlighter-rouge">B0</code>. In the <code class="highlighter-rouge">@init</code> section we’ll add <code class="highlighter-rouge">cc = $xB0;</code>.</p>
+
+<p>Next we want to use the <code class="highlighter-rouge">midisend</code> function to output our data, and we’ll do this in the section where we act if our note is in the correct range. It looks like this:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>midisend(offset, cc+outChannel, ccValue, ccMsg);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>We keep our offset the same. Then we combine the <code class="highlighter-rouge">B0</code> CC message with our channel. Simple addition works here, no bit math necessary. Next we send the <code class="highlighter-rouge">ccValue</code>, which is selected by the user in the GUI, as the CC number. Now we send the <code class="highlighter-rouge">ccMsg</code> value as the value of the midi CC. (The astute reader will notice that I created this variable and snuck it in… Look at the screenshot to see where it was created. Pay attention closely!)</p>
+
+<p>Your code should look just like in the screenshot so far.</p>
+
+<h2 id="invert">Invert</h2>
+
+<img src="/assets/Reaper/JSFX/Inversion.png" alt="Invert the values">
+<div class="image-caption">Optionally invert the output</div>
+
+<p>Now we need to implement the invert functions.</p>
+
+<p>The idea is that we want an input of 127 to come out as 0, and an input of 0 to come out as 127. We don’t want to create a massive map of values. That would be silly. Let’s abuse some math.</p>
+
+<p>What’s an easy way to turn 127 to 0? Just subtract 127! What if we subtract 127 when the value is already 0 though? We end up with -127. That’s very close to what we want. We want 0 to be 127, not to be -127. What we want is <em>the absolute value</em>. Let’s check the <a href="https://www.reaper.fm/sdk/js/basiccode.php#js_basicfunc">JSFX reference</a> and find the absolute value function. It’s <code class="highlighter-rouge">abs()</code>. Now let’s implement a new variable that contains our inverted value;</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>ccMsg = abs(ccMsg - 127);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>We only want to do this calculation when the inversion slider is active, so let’s surround that in a <a href="#conditionals">conditional</a></p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>invertVal ? ( ccMsg = abs(ccMsg - 127));
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>We’ll insert that code before we use <code class="highlighter-rouge">midisend()</code> when the note is in range. See the screenshot.</p>
+
+<h2 id="scaling">Scaling</h2>
+
+<img src="/assets/Reaper/JSFX/Scaling.png" alt="Scaling the values">
+<div class="image-caption">Scaling parameters</div>
+
+<p>Next we need to scale the values optionally. This is more complex. What we need to do is figure out the distance between lowNote and highNote, then figure out how to map that range to a range of 0-127.</p>
+
+<p>First thing is figure out the distance between the high and low note. <code class="highlighter-rouge">ccMsg = highNote - lowNote;</code>. Easy.</p>
+
+<p>Now we need to figure out how much ‘one value’ equals between our high/low notes. That’s defined as such <code class="highlighter-rouge">128 / (highNote - lowNote);</code>. So if our high note is 80, and our lowNote is 90 we have a distance of 10. That means each increase in note value will correspond to a <code class="highlighter-rouge">128 / 10</code> (12.8) increase in ccMsg. Each note increase changes the CC value by 12.8. We’ll call this our ‘scalar’ and define it like this <code class="highlighter-rouge">scalar = (128 / (highNote - lowNote));</code></p>
+
+<p>So now we know how much the distance between notes scales to CC values. We need to create real values out of this. We need to know how far we are from the low note. Our current distance from the low note is <code class="highlighter-rouge">currentNote - lowNote</code>. So if our currentNote is 55, and our lowNote is 50, then we know we’re a distance of 5 from our low note. We’ll call that our ‘distance’ and define it like this: <code class="highlighter-rouge">distance = (currentNote - lowNote);</code></p>
+
+<p>To get the CC value, we multiply the distance by the scaling value: <code class="highlighter-rouge">ccMsg = scalar * distance;</code>. The first part determines the scaling, then we multiply it by the distance.</p>
+
+<p>We have a problem here though! Our example before gave us a value of ‘12.8’. CC values are whole numbers. We need to make sure that the value we send is a whole number. We <em>only want an integer</em>. <a href="https://www.reaper.fm/sdk/js/basiccode.php#js_basicfunc">Check the JSFX reference</a> again to find something that makes sure we only have an integer.</p>
+
+<p><code class="highlighter-rouge">floor()</code> is an option. <code class="highlighter-rouge">ceil()</code> is an option too. I want to use floor, so let’s wrap our entire thing in a floor: <code class="highlighter-rouge">ccMsg = floor(scalar * distance);</code>.</p>
+
+<p>Once again, we also only want to do this if our <code class="highlighter-rouge">scaleVal</code> slider says ‘Yes’ (or is true). So we’ll wrap that in a <a href="#conditionals">conditional</a>, and our final code gets inserted after the inversion code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>scaleVal ? ( 
+  scalar = (128 / (highNote - lowNote));
+  distance = (currentNote - lowNote);
+  ccMsg = floor(scalar * distance); 
+);
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>It’s important here to know that this is how a lot of programming is done. You <em>slowly</em> solve the problem, piece by piece. We figured out the easiest part. Then we kept breaking it down until we assembled a fully working piece of code.</p>
+
+<h2 id="protection">Protection</h2>
+
+<img src="/assets/Reaper/JSFX/Protection.png" alt="Protection!">
+<div class="image-caption">Protection</div>
+
+<p>We’re limited to values of 0 to 127 for our <code class="highlighter-rouge">ccMsg</code>, and it’s possible that after scaling we may end up with a value that’s greater than 127!</p>
+
+<p>We need to add some protection code. There’s a few ways to do this, so I’m going to let you solve it yourself. You can of course see how I solved it in the screenshot.</p>
+
+<h2 id="finish-it-off">Finish it off</h2>
+
+<p>There’s a few last things here. The first issue is that for this plugin, I never want to send MIDI that isn’t part of the conversion. So I will remove the ‘else’ line from our biggest conditional. I took away this bit:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>: (
+     midisend(offset,msg1,msg2,msg3); // passthrough other events
+  );
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>Next is to <strong>COMMENT YOUR CODE</strong>. This should be done the whole time! I intentionally left comments out of this code so there was less visual clutter. I actually had to retake a number of screenshots because I instinctively commented something.</p>
+
+<p>Anytime you write something that isn’t entirely obvious, add a comment in plain english explaining it. Even if nobody ever looks at your code, it will <em>help you</em> while you’re working on the code. I can’t tell you how much time I’ve spent trying to understand my own code! It’s probably the biggest time sink in the industry. Do it for yourself, <strong>COMMENT YOUR CODE</strong>.</p>
+
+<h1 id="result">Result</h1>
+
+<p>Here is my resulting code:</p>
+
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+32
+33
+34
+35
+36
+37
+38
+39
+40
+41
+42
+43
+44
+45
+46
+47
+48
+49
+50
+</pre></td><td class="rouge-code"><pre>desc: MIDI Note to CC value
+//author: Robert Randolph
+
+slider1:0&lt;0,127,1&gt;CC to send
+slider2:0&lt;0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}&gt;Input Channel
+slider3:0&lt;0,15,1{1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16}&gt;Output Channel
+slider4:0&lt;0,127,1&gt;Low Note cutoff
+slider5:127&lt;0,127,1&gt;High Note cutoff
+slider6:0&lt;0,1,1{No, Yes}&gt;Scale Values?
+slider7:0&lt;0,1,1{No, Yes}&gt;Invert Values?
+
+@init
+
+noteOn = $x90; // note statusbyte
+cc = $xB0; // cc statusbyte
+
+@slider
+ccValue = slider1;
+inChannel = slider2;
+outChannel = slider3;
+lowNote = slider4;
+highNote = slider5;
+scaleVal = slider6;
+invertVal = slider7;
+
+@block
+while (midirecv(offset,msg1,msg2,msg3)) (
+  noteStatus = msg1 &amp; $xF0; // strip channel info
+  channel = msg1 &amp; $x0F; // strip event type
+  currentNote = msg2;
+  ccMsg = currentNote;
+  
+  noteStatus==noteOn &amp;&amp; channel==inChannel ? (
+    currentNote &gt;= lowNote &amp;&amp; currentNote &lt;= highNote ? (
+    
+      scaleVal ? ( 
+        scalar = (128 / (highNote - lowNote)); // determine scalar value
+        distance = (currentNote - lowNote); // determine distance from lowest note
+        ccMsg = floor(scalar * distance); // scale message
+        
+        ccMsg = min(ccMsg, 127); // protect against &gt;127 values
+      );
+      
+      invertVal ? ( ccMsg = abs(ccMsg - 127)); // invert values with subtraction
+                                               // take the absolute value after
+    
+      midisend(offset, cc+outChannel, ccValue, ccMsg);
+    );
+  );
+)
+</pre></td></tr></tbody></table></code></pre></div></div>
+
+<p>This code actually took me about a total of 25 minutes to write, including looking up the MIDI spec and testing things. For a total beginner, it may take you days!</p>
+
+<p>Programming takes practice like anything else.</p>
+
+<h1 id="how-do-i-use-it">How do I use it?</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Reaper/JSFX/NoteToCC.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Note to CC plugin in Action</div>
+
+<p>Using this JSFX plugin requires a keyboard and a plugin. Follow these steps to use it.</p>
+
+<ul>
+  <li>Create a track</li>
+  <li>Insert the JSFX plugin on the track</li>
+  <li>Insert ReaEQ on the track</li>
+  <li>Set the track input to your MIDI controller. A keyboard is necessary.</li>
+  <li>Turn on input monitoring</li>
+  <li>Record arm the track</li>
+  <li>Open ReaEQ</li>
+  <li>Move a slider (like the Frequency slider on band 2)</li>
+  <li>Go to the ‘Param’ button in the upper right of the ReaEQ window. It should say ‘Last touched [Freq-Band-2]’ at the top</li>
+  <li>Go to the ‘Midi CC’ window and select a MIDI cc.</li>
+  <li>Set your plugin to output to the same MIDI cc.</li>
+  <li>Play notes!</li>
+</ul>
+
+<p>The result should be just like in the video above.</p>
+
+<h1 id="-my--is-fd">$#!+! My $#!+ is F****D!</h1>
+
+<img src="/assets/Reaper/JSFX/Debug.png" alt="Debugging">
+<div class="image-caption">Debugging our plugin</div>
+
+<p>Yeah. That happens. Now we need to debug!</p>
+
+<p>I considered adding a purposeful error in this code so you would need to learn to debug, but I thought this may be discouraging.</p>
+
+<p>Debugging in JSFX is fairly easy though. Open up the editor and on the right side you can see all of your variables, and all of the system variables. If something is wrong, then assign it to a variable <em>and watch</em>. You can also put the cursor on a variable and press Control-k (Windows) or command-k (macOS) and the status line at the bottom will be updated with the current value of that variable.</p>
+
+<p>That’s really all there is to it. You develop an idea in your mind of what something should be, you find a way to see <em>what it actually is</em>, then you slowly work through the possibilities to how that isn’t happening.</p>
+
+<p>If you suspect that something is wrong, <em>don’t delete it until you are sure!</em>. Comment it out with <code class="highlighter-rouge">//</code> until you have confirmed that it should be deleted.</p>
+
+<p>If you can’t figure out what is wrong, then create a new plugin, and use the simplest portion of the code that you can. This method allows you to isolate portions of the code more easily so you can narrow down issues. Debugging is always the processing of <em>narrowing it down</em>. Everything you do is confirming parts of the code that <em>do work</em> until you narrow it down to an area that doesn’t work. Then you can fix that, hopefully!</p>
+
+<p>If you still can’t figure out what’s wrong, then <a href="https://forum.cockos.com/forumdisplay.php?f=3">go to the forum</a> and tell <a href="https://www.cockos.com/team.php">Justin</a> that it’s his fault. (I’m kidding… kinda).</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>Hopefully this has been somewhat helpful. I may or may not do a series on an audio plugin, it depends on how well this is received ($$$$).</p>
+
+<p>If you have any questions or error corrections then please leave a comment. I’m sure I made some errors, I always do! Everyone does! (is what I keep telling myself).</p>
+
+<p>Big shoutout to <a href="https://reaperblog.net">Jon at The Reaper Blog</a>. He brought up this question about a plugin that translated MIDI notes to CC on behalf of another user. That’s why I wrote this entire thing.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 8 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

@@ -1,0 +1,211 @@
+I"�><img src="/assets/FLStudio/PatternFlow.png" alt="Pattern Flow">
+<div class="image-caption">Pattern Flow</div>
+
+<p>This is something I rarely discuss, but since FLStudio is so different from other DAWs I want to talk about the topic of workflow.</p>
+
+<p>Make sure you’ve read the other 8 posts in this so far, since that information will be necessary to fully understand this discussion.</p>
+
+<p>Prepare for a wall of text, since there’s no need for many images here!</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/16/30-days-with-FLStudio-20-Introduction.html"> Part 1: Introduction to FL</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/30/30-days-with-FLStudio-20-Piano-Roll-Tools.html"> Part 5: Piano Roll Tools</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html"> Part 7: Modulation</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/11/30-days-with-FLStudio-20-Performance-VFX.html"> Part 8: Performance mode and Video FX</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/24/30-days-of-FLStudio-20-conclusion.html"> Part 12: Conclusion</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#step-sequencer" id="markdown-toc-step-sequencer">Step Sequencer</a></li>
+  <li><a href="#playlist" id="markdown-toc-playlist">Playlist</a></li>
+  <li><a href="#playlist-workflow" id="markdown-toc-playlist-workflow">Playlist Workflow</a></li>
+  <li><a href="#the-great-confusion" id="markdown-toc-the-great-confusion">The Great Confusion</a></li>
+  <li><a href="#the-great-freedom" id="markdown-toc-the-great-freedom">The Great Freedom</a></li>
+  <li><a href="#the-great-frustration" id="markdown-toc-the-great-frustration">The Great Frustration</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="step-sequencer">Step Sequencer</h1>
+
+<img src="/assets/FLStudio/StepSequencer.png" alt="Step Sequencer">
+<div class="image-caption">Step Sequencer</div>
+
+<p>This is where a lot of people start. It’s a fairly simple step sequencer that’s built in to the channel rack. The image above is showing the “Graph Editor” which gives you a drop down of various properties of each step (note, velocity, pan etc…)</p>
+
+<p>What you see here is your current pattern, unfortunately it also shows you <em>every single channel in your project</em>! So <strong>every</strong> single MIDI, Audio and Automation Clip is going to be here. Each pattern has access to every single channel, so you could feasibly just add all your MIDI/Audio/Automation here and write the song in one long pattern if you wanted.</p>
+
+<p>Very few people work that way though…</p>
+
+<h1 id="playlist">Playlist</h1>
+
+<p>The normal workflow is to add some asset to the project (Audio/MIDI/Automation) then open the editor for that type of asset and create what you want.</p>
+
+<p>That part is held in a pattern. Even though the pattern has <em>all</em> channels available, only one channel would generally be programmed.</p>
+
+<p>Now you add that pattern to your playlist. It plays only what you programmed in that pattern.</p>
+
+<p>So the idea here is that you treat each pattern like its own channel by only using that one channel in the pattern.</p>
+
+<p>This can get <em>quite</em> confusing… So let me try and clarify a bit.</p>
+
+<h1 id="playlist-workflow">Playlist Workflow</h1>
+
+<a href="/assets/FLStudio/PatternFlow.png">
+<img src="/assets/FLStudio/Thumbnails/PatternFlow.png" alt="Patterns">
+</a>
+<div class="image-caption">Patterns</div>
+
+<p>The image above is what you have. Each pattern contains <em>every</em> channel. You choose what happens in each pattern. You can do things to every channel if you want, or have each pattern correspond to a performance of a single channel.</p>
+
+<p>In the example above I have a single MIDI clip that is ‘doing things’ in each pattern. Then I’ve placed them in the ‘Playlist’ wherever I want.</p>
+
+<p>Remember, each channel is assigned to the mixer <em>directly</em>. The playlist doesn’t affect what mixer track things go to.</p>
+
+<p>In the <a href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html">Audio post</a> I covered how audio clips are treated specially. They can be just used ‘normally’ in the playlist, even though they still need to be assigned to the Mixer channel you want. Automation Clips are similar.</p>
+
+<p>Automation clips are particularly special because they allow you to encapsulate automation and use it wherever you want. There’s no ‘envelope’ that you need to fool with trying to get setup right.</p>
+
+<h1 id="the-great-confusion">The Great Confusion</h1>
+
+<p>If you haven’t thought about it by now, let me clue you in on something: This gets really confusing.</p>
+
+<p>It’s possible to have “Clips” that trigger dozens of channels, or perhaps only the channel you want plus something else accidentally. That clip can now be on playlist track one, but it’s actually routed to Mixer Track 7… and for some reason Mixer Track 19 is making noise too?!</p>
+
+<p>There <em>are</em> some functions to make this a bit easier. You can automatically assign channels to mixer tracks. You can create ‘Channel Groups’ to only see the channels a pattern should be using. You can colour things fairly nicely.</p>
+
+<p>Despite all of the functions FLStudio has, the problem remains that there’s 4 potential visual disconnects. Channel-&gt;Clip, Playlist-&gt;Mixer, Clip-&gt;Mixer and Channel-&gt;Playlist. You can never know what one of these things is connect to without thorough labeling or hitting play, then doing your best detective work.</p>
+
+<p>You can also imagine how this eats up channels and mixer tracks. It doesn’t appear to be uncommon in use (mine, demo projects or videos I’ve watched online) to have 50+ channels that you need to navigate, label, colour and recall. That isn’t much in a ‘normal’ DAW, but you also need to mentally track where that clip links to the mixer, and where it is in the playlist (it can be anywhere, at any time!)</p>
+
+<p>It doesn’t help that the search function is rather dumb. No fuzzy searching or smart searching. You can’t type ‘dlyv’ to find ‘delay vocals’. And if you type ‘delay’ you’ll get every track and effect with ‘delay’. That’d be great to have improved, as the current methods of navigating the project rely <em>heavily</em> on your own ability to group, label and colour things. This organization needs to happen in 3 different places too.</p>
+
+<p>Now throw in the new ability to have multiple playlist arrangements, which need not have any similarity to each other. One arrangement may have the bass on track 5, another on track 10. They both go to the same mixer channel though!</p>
+
+<p>In a ‘normal’ DAW, I can mentally map out what’s happening in a 250+ track project in about 15-20 minutes and navigate it confidently. In FLStudio it takes me just as long to figure out a 50 track project, and even then I frequently forget what’s going on when things get ‘creative’.</p>
+
+<p>Then again… you only have 125 mixer tracks in FLStudio and 500 Channels. For larger projects you have no choice to ‘get creative’ with it.</p>
+
+<p>We also can’t forget <a href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html">the frustration of working with audio</a>. I suspect very few FLStudio users deal with that though.</p>
+
+<h1 id="the-great-freedom">The Great Freedom</h1>
+
+<p>Are you scared yet? You should be, because freedom of choice awaits you, and that is a scary situation.</p>
+
+<p>In other ‘normal’ DAWs, if you have a vocal linethat you want to momentarily have a neat effect, you require at least 2 tracks. One for the normal vox, and one for the effected vox.</p>
+
+<p>FLStudio doesn’t trap you in to the ‘15 tracks for vocals’ conundrum that happens in nearly every other DAW. You can assign every vocal take to the same mixer track for easy mixing (or maybe 2-3). Then you can organize the vocal clips in the play list so they visually make sense with the music. No need for the playlist to follow the mixer or for the clips to go to different mixer channels.</p>
+
+<p>That 125 mixer channel limit is looking a bit less awful isn’t it?</p>
+
+<p>When you need to visually reorganize your clips so your automation clips are next to the clip they are affecting, you can do that. The playlist track doesn’t correspond to anything, so you are free to use it for visually organizing automation.</p>
+
+<p>What if you have a massive project and down on Playlist track 80 there’s a drum break, but you want to have a vocal track pop, normally on playlist track 1, in for a second? In other DAWs, you’d need to create a second track, but in FL you can just put your vox on Playlist Track 81 so they can be seen together. The vocals still go to their normal mixer track.</p>
+
+<p>There’s a great deal of freedom to handle issues that would require silly workarounds in other DAWs.</p>
+
+<h1 id="the-great-frustration">The Great Frustration</h1>
+
+<p>Just go ahead and browse some videos on Youtube, or head to a FLStudio forum/chat. Look at people’s projects.</p>
+
+<p>They are <em>rarely</em> organized. Watching videos often have moments of “Uh, where is, uh…”. Creating songs is a balance between having to label/colour/group 3 different sections of the project for a single part, or doing nothing and hoping you don’t have to find it later.</p>
+
+<p>Removing plugins requires clicking a small icon then navigating a large menu a layer deep to find <code class="highlighter-rouge">(delete)</code>. No post-fx slots though. Similar for adding inputs/outputs.</p>
+
+<p>Creating mixer groups is a weird modifier dance and a menu option.</p>
+
+<p>Routing Channels often means some fooling in the mixer to find the mixer track (you want to keep it organized, remember?). There is a “Assign to Free Mixer Track”, but that assumes you want your tracks ordered in the way you add them, which is rarely the case. Do you really want your mixer to be “Drums, Bass, Lead, Bass, Vox, Drums, Vox, Lead, Effects, Automation, Automation, Lead, Drums” because that’s the order you came up with ideas? I’d hope you want it to be more organized than that!</p>
+
+<p>Let’s not forget as well <a href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html#midi-cc">what a pain it is to deal with events</a>. FLStudio really wants you to use automation events, but there’s many times where they simply aren’t appropriate and you’re punished for wanting that. (Please improve the MIDI CC workflow IL!) It’s difficult to access and the editor itself is many generations behind what you can do with the automation clip editing.</p>
+
+<p>There’s no way to search your channel list, mixer or playlist. You <em>can</em> find patterns, but you’re left to your own devices to trace that out.</p>
+
+<p>Going through the demo projects, and various projects I found online, I can see these things in action. I’ve rarely found people taking advantage of what FLStudio’s workflow offers. Most people treat it like a ‘normal’ style DAW, except with 3x the work to get things setup.</p>
+
+<p>It seems like FL really needs some way to create a channel, pattern, assign to a <em>specific</em> mixer track and insert to the playlist… all this with matching colours and names. Despite the freedom you get otherwise, it’d greatly improve the organization and workflow.</p>
+
+<p>Let’s not forget the ‘Make Unique’ hell. If you want to have audio clips that have different edits, you have to <code class="highlighter-rouge">Make Unique</code> and you end up with yet another channel. The concept of just editing it on the same track doesn’t exist. If you edit something in Newtone or Edison then you also end up with a duplicate channel which you may or may not want.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>It’s not as bad as I make it sound, but it does become frustrating at times. As projects grow, the complexity increases much faster than with other DAW products. You pay for that with flexibility, but I’m not sure if it’s an even trade.</p>
+
+<p>Given how many projects I’ve seen with zero colouring, mis-matching playlist/channel/mixer naming and totally non-linear layouts… I’d argue that the tradeoff isn’t there.</p>
+
+<p>However I <em>do</em> enjoy using it sometimes. It allows you to solve problems that plague other DAWs where you end up with a 300 track project that’s really only 10 things playing at a given time. Lots of dupes for effects, small effects that really should be on the same track, and organization of sections.</p>
+
+<p>The concepts of media(channel), position(playlist) and output(track) are so intertwined that I feel there’s more benefit from combining them in to a single concept like ‘normal’ DAWs than separating them. There’s tradeoffs either way, but the tradeoffs in FL seem to exceed the benefits.</p>
+
+<p>I don’t think it’s fair to categorize the general workflow as ‘bad’, since it’s clearly produced a number of great tracks and helps support the livelihoods of many, many musicians. I do think it’s important to recognize the tradeoffs, and I hope that the Image-Line time takes some time to improve these things.</p>
+
+<p>That all said… you can make music in FLStudio and never realize the tradeoffs you’re making and only see the upsides. Lots of people do that.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 4 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

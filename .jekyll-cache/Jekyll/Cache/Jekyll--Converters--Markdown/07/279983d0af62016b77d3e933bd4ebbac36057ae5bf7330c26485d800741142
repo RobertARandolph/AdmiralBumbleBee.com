@@ -1,0 +1,90 @@
+I"  <img src="/assets/General/Retina.png" alt="Retina Display Speed ups!">
+  <div class="image-caption">Retina Display Speed ups! (the video thumbnail is even cringier... you're welcome)</div>
+
+<p>Do you have a <a href="https://en.wikipedia.org/wiki/Retina_display">Retina Display</a> and are constantly frustrated about low FPS desktop applications?</p>
+
+<p>This is a big issue if you’re a <a href="https://www.reaper.fm">Reaper</a> or <a href="https://www.tracktion.com/products/waveform">Waveform</a> user (as of the writing of this post).</p>
+
+<p>Let me show you how to get 10-15 extra FPS with little lost.</p>
+
+<p>(Rorry for the clickbait title, I think it’s funny.)</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#the-fix" id="markdown-toc-the-fix">The Fix</a></li>
+  <li><a href="#where" id="markdown-toc-where">Where</a></li>
+  <li><a href="#why" id="markdown-toc-why">Why?</a></li>
+  <li><a href="#does-it-work" id="markdown-toc-does-it-work">Does it work?</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="the-fix">The Fix</h1>
+
+<p>This only works on newer <em>native</em> Retina displays like what’s in the 2017 or newer Macbook Pro or iMac Pro. This does <em>not</em> apply to the 5k imacs (as of the writing of this post). It does not apply to most third-party displays.</p>
+
+<p>Usually I start with an explanation of why you should fix this, but we’ll jump to the fix then explain it, <em>and</em> we’ll prove that it works.</p>
+
+<ul>
+  <li>Go to System Preferences</li>
+  <li>Click “Displays”</li>
+  <li>Go to the “Color” tab</li>
+  <li>Select <code class="highlighter-rouge">sRGB IEC61955-2.1</code> or <code class="highlighter-rouge">Generic RGB Profile</code>. On my iMac Pro the sRGB profile retains the same visual look, so that’s what I’ll refer to the rest of this post (since that’s what I did the video on).</li>
+</ul>
+
+<p>The colour of your display will change very slightly.</p>
+
+<h1 id="where">Where</h1>
+
+<p>I got the idea for this from <a href="https://forum.cockos.com/showpost.php?p=1796064&amp;postcount=40">this post by the author of Reaper</a> and subsequently <a href="https://user.cockos.com/~deadbeef/index.php?article=697">this post on Justin’s website</a>.</p>
+
+<p>I did a good bit of testing beyond this to confirm when and that it works.</p>
+
+<h1 id="why">Why?</h1>
+
+<p>The 2017+ mbp and iMac Pro displays are 10-bit per-channel displays. The native colour profiles are 10-bit. Using the 10-bit colour profile causes drawing slowdowns that are inexplicably still present in macOS Mojave.</p>
+
+<p>It’s highly unlikely that you need 10-bit colour space if you’re reading this post. It can be mildly important when working with certain high end video cameras, and important when doing high-end camera RAW processing. I suggest that if you do these things that you compare using the native color profile against the <code class="highlighter-rouge">sRGB IEC61955-2.1</code> profile.</p>
+
+<h1 id="does-it-work">Does it work?</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/RZtfpfRYu4g" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>This is important. There’s plenty of advice out there claiming to fix retina issues, but I don’t aim on giving advice without discussing the cons and showing that it works. <a href="https://user.cockos.com/~deadbeef/index.php?article=697">The post I linked offers some benchmarks</a>, but since we’re talking visual performance I think some video evidence is in order.</p>
+
+<p>Check the video above for an A/B comparison of framerates when using the native profile compared to <code class="highlighter-rouge">sRGB IEC61955-2.1</code>.</p>
+
+<p>The screencapture did not have an affect on the FPS, so what you see is what I see. So… what <em>are</em> you seeing?</p>
+
+<ul>
+  <li>My Reaper setup with HiDPI theme and iMac default color profile - Adjusting track height drops to 29fps.</li>
+  <li>My Reaper setup with HiDPI theme and <code class="highlighter-rouge">sRGB IEC61955-2.1</code> color profile - Adjusting track heigh drops to 48fps.</li>
+  <li>Waveform 9.3.2 and iMac default color profile - Adjusting track height drops to 24fps.</li>
+  <li>Waveform 9.3.2 and <code class="highlighter-rouge">sRGB IEC61955-2.1</code> color profile - Adjusting track heigh drops to 39fps.</li>
+  <li>Logic 10.4.2 and iMac default color profile - Adjusting track height drops to 36fps.</li>
+  <li>Logic 10.4.2 and <code class="highlighter-rouge">sRGB IEC61955-2.1</code> color profile - Adjusting track heigh drops to 45fps.</li>
+  <li>Cubase 9.5.30 and iMac default color profile - Adjusting track height drops to 37fps.</li>
+  <li>Cubase 9.5.30 and <code class="highlighter-rouge">sRGB IEC61955-2.1</code> color profile - Adjusting track heigh drops to 55fps.</li>
+</ul>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 5 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<p><strong>WRITTEN IN</strong> <a href="https://macromates.com">TextMate</a>. <a href="/general/2018/10/06/Editor-Musings.html">See this post for more information</a>.</p>
+
+:ET

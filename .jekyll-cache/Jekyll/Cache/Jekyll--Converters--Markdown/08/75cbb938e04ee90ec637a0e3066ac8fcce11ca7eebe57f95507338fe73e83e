@@ -1,0 +1,111 @@
+I"!<p><img src="/assets/Studio One/MixerShot.png" alt="Doing stuff" /></p>
+
+<p>I’m still using Studio One 3.3 quite a lot. Here’s a quick update post on some of my opinions regarding it.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#zoom-is-massively-improved" id="markdown-toc-zoom-is-massively-improved">Zoom is massively improved.</a></li>
+  <li><a href="#the-smart-tool-is-better" id="markdown-toc-the-smart-tool-is-better">The smart tool is better.</a></li>
+  <li><a href="#coalesce-vca-exists" id="markdown-toc-coalesce-vca-exists">Coalesce VCA exists.</a></li>
+  <li><a href="#drag-and-drop-isnt-needed-usually" id="markdown-toc-drag-and-drop-isnt-needed-usually">Drag and Drop isn’t needed, usually.</a></li>
+  <li><a href="#the-scratchpad-still-kinda-sucks" id="markdown-toc-the-scratchpad-still-kinda-sucks">The scratchpad still kinda sucks.</a></li>
+  <li><a href="#mix-fx-an-unfulfilled-promise" id="markdown-toc-mix-fx-an-unfulfilled-promise">Mix FX, an unfulfilled promise.</a></li>
+  <li><a href="#the-arranger-track-hasnt-improved" id="markdown-toc-the-arranger-track-hasnt-improved">The arranger track hasn’t improved.</a></li>
+  <li><a href="#the-manual-is-somehow-even-worse-than-i-originally-thought" id="markdown-toc-the-manual-is-somehow-even-worse-than-i-originally-thought">The manual is somehow even worse than I originally thought.</a></li>
+  <li><a href="#trim-startend-exist" id="markdown-toc-trim-startend-exist">Trim Start/End exist.</a></li>
+  <li><a href="#studio-one-remote-is-amazing" id="markdown-toc-studio-one-remote-is-amazing"><strong>STUDIO ONE REMOTE IS AMAZING</strong></a></li>
+  <li><a href="#the-best-multi-track-editing-there-is" id="markdown-toc-the-best-multi-track-editing-there-is">The best multi-track editing there is.</a></li>
+  <li><a href="#disable-track" id="markdown-toc-disable-track">Disable Track.</a></li>
+  <li><a href="#conclusion" id="markdown-toc-conclusion">Conclusion</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="zoom-is-massively-improved">Zoom is massively improved.</h1>
+
+<p>One of my biggest complaints about Studio One was the zooming tools and how easy they are to use. Studio One 3.3 added some new Zoom tools and the smart tool has been extended with quick zoom options as well.</p>
+
+<p>As far as I am concerned, project navigation in the arranger view is <em>massively</em> improved. I would put this on par with my otherwise preferred <a href="http://motu.com/products/software/dp">Digital Performer</a> in this regard now. That is a very high complement.</p>
+
+<h1 id="the-smart-tool-is-better">The smart tool is better.</h1>
+
+<p>I complained about this in the past, but the smart tool is really good now. It’s definitely better than that kludge in Cubase.</p>
+
+<h1 id="coalesce-vca-exists">Coalesce VCA exists.</h1>
+
+<p>I think I did an update on this, but you <em>can</em> merge automation data from VCAs.</p>
+
+<h1 id="drag-and-drop-isnt-needed-usually">Drag and Drop isn’t needed, usually.</h1>
+
+<p>You may remember <a href="/music/2016/06/15/Studio-PoisOne.html">my scathing post about drag and drop</a>. I’ve since figured out how to do <em>nearly</em> everything that I want without drag&amp;drop. The only time I know of that I use drag&amp;drop now is to move effects around in the mixer.</p>
+
+<h1 id="the-scratchpad-still-kinda-sucks">The scratchpad still kinda sucks.</h1>
+
+<p>Yeah, I thought maybe <a href="/music/2016/06/02/Studio-OpiniOne.html">I’d warm up</a> to the scratchpad feature. I haven’t. There’s just never a time where I think to myself, “Oh, I bet I’d like to try out this new idea… but in only half the DAW!”. It’s almost always easier to just duplicate the project and have the full screen to mess with ideas, then import them later.</p>
+
+<p>Really, <a href="http://www.motu.com/newsitems/this-week-is-chunks-week">Chunks in Digital Performer</a> are light-years ahead of the scratchpad. I’m spoiled.</p>
+
+<h1 id="mix-fx-an-unfulfilled-promise">Mix FX, an unfulfilled promise.</h1>
+
+<p>I was jazzed about Mix FX. I thought it could be really cool maybe. I definitely didn’t like it as is, but there were promises of enhanced models from the likes of <a href="https://www.softube.com">Softube</a> and <a href="http://slatedigital.com">Slate Digital</a>. Nothing.</p>
+
+<p>In fact, I’ve tried the Mix FX many times and every single time I thought it sounded awful.</p>
+
+<h1 id="the-arranger-track-hasnt-improved">The arranger track hasn’t improved.</h1>
+
+<p>I <a href="/music/2016/06/02/Studio-OpiniOne.html">talked about the arranger track before</a> and I wasn’t exactly a fan of it. I’ve made some attempts to try and use it anyway.</p>
+
+<p>No Dice.</p>
+
+<p>Everything I wrote about it before is still what I think, and I’ve grown to love DP’s song mode <em>even more</em>. Chunks FTW.</p>
+
+<h1 id="the-manual-is-somehow-even-worse-than-i-originally-thought">The manual is somehow even worse than I originally thought.</h1>
+
+<p>Yeah. The worst manual on the planet is worse, somehow. <strong>Every. Single. Time</strong> I want to find some sort of information about Studio One in the manual, it is infuriatingly frustrating to find the information. Then <strong><em>IF</em></strong> I can find the information, it’s written poorly and incomplete.</p>
+
+<p>Really, if you’re like me and you frequently refer to the manual of a product to learn about the intricacies of its workings and suggested use, you will detest that experience in Studio One.</p>
+
+<h1 id="trim-startend-exist">Trim Start/End exist.</h1>
+
+<p>I don’t know when this happened, but I somehow missed it if it existed before. Really important tools to me. I wish they were more than shortcuts and somehow built in to the cursor-tools. Maybe they are, but you’d never know about it by looking in the manual.</p>
+
+<h1 id="studio-one-remote-is-amazing"><strong>STUDIO ONE REMOTE IS AMAZING</strong></h1>
+
+<p>I bought a new iPad Pro 9.7”. Subsequently I’ve tried every control app for DAWs out there. Pro Tools control is pretty legit. The rest are let downs…</p>
+
+<p>Except for <a href="https://presonus.com/products/Studio-One-Remote">Studio One Remote</a>.</p>
+
+<p>This application is the #1 reason that I’ve started using Studio One again. I often work alone and having such a comprehensive mobile control application available makes the creative and engineering process <strong>much</strong> easier for me. I can not emphasize how much this application has improved my life in the studio.</p>
+
+<p>It really is a game-changer.</p>
+
+<h1 id="the-best-multi-track-editing-there-is">The best multi-track editing there is.</h1>
+
+<p><a href="http://www.presonus.com/press/press-releases/PreSonus-Studio-One-3-3">Studio One 3.3 improved multi-track editing even more</a>. What was already the best experience for multi-track editing is just better.</p>
+
+<p>This is the sole reason I use Studio One over Digital Performer most of the time. DP’s multi-track editing is relatively poor. Studio One’s is just so fast and easy.</p>
+
+<h1 id="disable-track">Disable Track.</h1>
+
+<p>Disable track now exists. Yay.</p>
+
+<h1 id="conclusion">Conclusion</h1>
+
+<p>As of today, I’d give Studio One a solid 8.5/10, previously 4/10. With some improvements to automation, the manual, the channel editor and adding mixer undo; I would not hesitate to up that to a solid 9.5 or better.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

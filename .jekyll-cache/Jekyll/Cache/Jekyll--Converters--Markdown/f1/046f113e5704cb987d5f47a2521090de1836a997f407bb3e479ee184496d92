@@ -1,0 +1,221 @@
+I"�5<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/SubMenu.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Submenus work correctly!</div>
+
+<p>Part 3 is here. Today the main topic is how Waveform kicks Live and Bitwig’s ass in one major way.</p>
+
+<p>Today I’m covering:</p>
+
+<ul>
+  <li>The Good
+    <ul>
+      <li>Macro Parameters</li>
+      <li>Sub-menu Niceness</li>
+      <li>Ghost Tracks</li>
+    </ul>
+  </li>
+  <li>The Bad
+    <ul>
+      <li>The Store</li>
+    </ul>
+  </li>
+  <li>The Weird
+    <ul>
+      <li>Surprise!</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html"> Version 9, Part 0: Intro</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html"> Version 9.1.1, Part 1: Browser, Mixing, GUI, VCAs</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html"> Version 9.1.1, Part 2: Modulation, Plugin browsing, Annoyances, GUI</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/21/Waveform-9-the-good-the-bad-the-weird-part-4.html"> Version 9.1.1, Part 4: Pattern Generator, Edit Clips, Folder editing, Chord Track</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html"> Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/28/Waveform-9-the-good-the-bad-the-weird-part-6.html"> Version 9.1.1, Part 6: MIDI Editing</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html"> Version 9.1.1, Part 7: Recording</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/03/Waveform-9-the-good-the-bad-the-weird-part-8.html"> Version 9.1.1, Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/08/Waveform-9-instruments-and-effect-review.html"> Version 9.1.1, Part 9: Instruments and Effect Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/11/Waveform-9-Conclusion.html"> Version 9.1.1, Part 10: Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/04/05/Tracktion-Waveform-10.html"> Version 10.1.0</a></li>
+    
+
+</ul>
+
+<p><strong>VERSION</strong> - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#the-good" id="markdown-toc-the-good">The Good</a>    <ul>
+      <li><a href="#macro-parameters" id="markdown-toc-macro-parameters">Macro Parameters</a></li>
+      <li><a href="#sub-menu-niceness" id="markdown-toc-sub-menu-niceness">Sub-menu Niceness</a></li>
+      <li><a href="#ghost-tracks" id="markdown-toc-ghost-tracks">Ghost Tracks</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-bad" id="markdown-toc-the-bad">The Bad</a>    <ul>
+      <li><a href="#the-store" id="markdown-toc-the-store">The Store</a></li>
+    </ul>
+  </li>
+  <li><a href="#the-weird" id="markdown-toc-the-weird">The Weird</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="the-good">The Good</h1>
+
+<h2 id="macro-parameters">Macro Parameters</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/MacroParameter.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Macro Parameters in action</div>
+
+<p>Macro parameters is a feature that allows you to control multiple parameters with a single control. This feature is presented in the bottom panel under ‘Macro Parameters’ when you click a plugin or a track.</p>
+
+<p>I’ve created a simple <a href="https://www.edn.com/design/analog/4368935/Implement-an-audio-frequency-tilt-equalizer-filter">Tilt filter</a> of sorts in the animation above. As the low-end is boosted, the high-end is reduced and vice versa. There’s a single knob that adjusts the center frequency as well. This is achieved by having having a macro that is linked to the band 1 gain by 100% and band 2 gain by -100%. Another macro controls the frequency of both bands together.</p>
+
+<p>Macro Parameters are contained to each plugin or track, but <a href="/music/2018/03/15/Routing-Audio-to-Envelope-Follower-with-Racks-in-Waveform.html">Racks</a> are a ‘plugin’ and their own Macro Parameters that can work across tracks and control multiple plugins at once across tracks.</p>
+
+<p>Macro Parameters can be <a href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html#modifiers">modified/modulated</a> with allows for some complex and very fun results.</p>
+
+<p>My absolute favorite thing about Macro Parameters is how easy they are to setup…</p>
+
+<p>There’s 2 methods to assign parameters to a Macro. First you can create a Macro then click the ‘+’ on the assignment and select the parameter from a menu. BORING! The part that I love is that you can click the -&gt;O (a knob) to the left of the parameter name. Now you can use the right-hand search/parameter pane to find parameters. Left-drag the knob to assign positive or negative assignment to it. Done! Very easy to navigate a huge list of plugins. (Once again, I’d prefer to have a fuzzy search feature, but it’s still better than nothing).</p>
+
+<p>I would like if you could turn on the macro parameter assignment, then move a control on the plugin GUI to trigger selection. However I’m quite happy with how Macro Parameters are implemented regardless. <strong>EDIT</strong>: This does work, sort of. When you adjust a parameter in a plugin GUI, the parameter jumps to the top of the parameter list on the right side. From there you can adjust the value and offset.</p>
+
+<p>A super fantastic feature that other DAWs could learn from. When you include the capability of using Racks with Macro Parameters, then even <a href="https://www.ableton.com/en/">Ableton Live</a> and <a href="https://www.bitwig.com/en/home.html">Bitwig</a> could learn a thing or two from Waveform.</p>
+
+<h2 id="sub-menu-niceness">Sub-menu Niceness</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/SubMenu.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Submenus done right</div>
+
+<p>This is a ‘small thing’, but it’s really a major thing that a lot of software gets wrong.</p>
+
+<p>Watch the animation. When I move left to right, moving over a menu item does not trigger. Cursors selection of menu items only happens on mostly-vertical and on right to left movement. When you move your mouse to the right to select a submenu then you’ll probably get to the submenu and not trigger something else and make the submene disappear.</p>
+
+<p>Why does this matter? Because it disallows you from accidentally closing the sub-menu by selecting a menu item below it. Let’s look at it done <em>wrong</em>. (This example is from <a href="https://css-tricks.com/targetting-menu-elements-submenus-navigation-bar/">CSS Tricks</a>, it’s purposely a naive implementation and not an indication of their capability to implement GUI effectively)</p>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/SubMenuWrong.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Submenus done wrong</div>
+
+<p>In the example above, the split second that I move over a menu item it’s triggered. If I try to swipe to a submenu then my moving over a parent menu item makes the submenu disappear and I’m out of luck. <strong>VERY</strong> bothersome. Rage inducing! GRRRRRR!!!!!!</p>
+
+<p>Waveform does this right. Thank you guys.</p>
+
+<h2 id="ghost-tracks">Ghost Tracks</h2>
+
+<img src="/assets/Waveform/Good/GhostTrack.png" alt="Ghost Tracks">
+<div class="image-caption">Ghost Tracks</div>
+
+<p>Ghost tracks may not be what you think, but they are still mega-cool. Ghost tracks allow you to underlay another track’s data on your current track.</p>
+
+<p>In the image above I have the ‘Drum Overheads’ underlaid below my piano track. The ‘Vox Lead’ track has a MIDI piano melody underlaid below it. This works with MIDI under MIDI too.</p>
+
+<p>Gone are the days of trying to visually trace where things are, or trying to line up the playhead so you can edit things in time. Select your track, go to ‘Ghost Tracks’ and select the track that you want underlaid.</p>
+
+<p>But wait! There’s more!</p>
+
+<p>You can underlay as many tracks as you want. If you want the Kick, Snare, Bassline and some Shaker part all underlaid on your midi while you work, do it. If you want your entire string section underlaid below your Vox while you work? Do it.</p>
+
+<p>Really cool feature. I do wish that it wasn’t menu-based selection, because when you have 248 tracks… selecting tracks in a menu is somewhat unpleasant. (read: I rather squeeze grapefruit juice in my eyes). That doesn’t take away from how useful this feature is though. A++, would Ghost Track again.</p>
+
+<h1 id="the-bad">The Bad</h1>
+
+<h2 id="the-store">The Store</h2>
+
+<img src="/assets/Waveform/Bad/Store.png" alt="The Store">
+<div class="image-caption">The Store</div>
+
+<p>This evaluation of the store is current as of March 18, 2018. If you’re reading this a few weeks from now, many of these issues <em>might</em> be fixed.</p>
+
+<p>I get it. Tracktion isn’t an office of guys working all day. They’re making affordable software and they have a budget… but the web store is pretty awful.</p>
+
+<p>First you go to <a href="http://tracktion.com">Tracktion.com</a> and there’s no immediate link to the store on the first view. I can’t even cmd-f (find) for ‘Store’ or ‘Marketplace’ to find a link. That’s probably the best part about it in fact!</p>
+
+<ul>
+  <li>There’s a ‘Compare items’ function that I can’t figure out how to use at all.</li>
+  <li>It always says ‘Welcome -‘ (My name <em>IS</em> filled out in account information).</li>
+  <li>It consistently labels my cart with the wrong number of items (This is often because a ‘freebie’ that’s added, that I already own, but not shown in all windows).</li>
+  <li>Checking out hasn’t worked for 2 days :(</li>
+  <li>Products don’t link to a comparison chart. It can be difficult to figure out why one product is more $$ than another without multiple page switches. (The product pages themselves DO have this, but only when you click ‘Buy Now’)</li>
+  <li>Clicking ‘Buy’ on a product page doesn’t actually add the product to your cart, it takes you to the store where you have to ‘add to cart’ again.</li>
+  <li>The ‘Buy Now’ button on the page doesn’t buy it now. In fact it just pops up a menu where you’re <em>at least</em> 8 more clicks from buying it (4 of which are trying to get to checkout!)</li>
+  <li>It’s slow. The store is so very slow. It may be because there’s a sale going on right now, but that’s not a particularly good reason.</li>
+  <li>‘Apply Discount Code’ doesn’t apply a discount code. It pops up another section for you to enter a discount code <em>then you click again</em> to enter the code. Strange.</li>
+  <li>‘Sort By Position’ is the default sort. Interesting.</li>
+  <li>‘Hardware’ and ‘Learning’ are selectable categories, but they have nothing in them. It’s disappointing to click this and be presented with nothing. They shouldn’t show if they are empty.</li>
+  <li>Clicking ‘Edit’ in the cart just takes you to the store product page. Hmm. There’s a quantity button there in the cart already? What is it there for?</li>
+</ul>
+
+<p>Overall, the process of buying the product seems amateurish to me. It’s not <em>difficult</em> to purchase the product, but it’s not nearly as slick as it could be. When you depend on income from affordable software, then impulse purchases should be easy and not half a dozen extra clicks.</p>
+
+<p>Then again it’s not <em>all</em> bad. <em>Spoiler alert</em> Even though I’m reviewing an NFR, why do you think I’m even looking at the store right now? ;)</p>
+
+<h1 id="the-weird">The Weird</h1>
+
+<p>The weird thing is that I have nothing for this section today! The ratio of Good:Bad notes I’ve taken so far is nearly 20:1 too…</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 5 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

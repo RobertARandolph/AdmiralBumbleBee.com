@@ -1,0 +1,163 @@
+I"�<p><img src="/assets/Cubase/eye.jpg" alt="CubasEye, that's for you wendy." /></p>
+
+<p><strong>UPDATE</strong>: Please see the new <a href="/DAW-Chart.html"><strong>DAW Feature Chart</strong></a> for more up-to-date information and a way cooler chart.</p>
+
+<p>So I’ve been schooled in some Cubase things. Thusly I’ve updated my DAW Comparison chart rating, and what follows is some reasoning behind the changes.</p>
+
+<p>What does this new scoring mean? Well… I don’t know. DP is pretty cool, yo.</p>
+
+<!--more-->
+
+<iframe src="https://docs.google.com/spreadsheets/d/15Gvq6d4qXsxwpUmpZcCfpMF7Pt6zycktWr9wGb_SxRE/pubhtml?widget=true&amp;headers=false" height="1020" width="670"></iframe>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#editing-tools" id="markdown-toc-editing-tools">Editing Tools</a>    <ul>
+      <li><a href="#old-2---new-7" id="markdown-toc-old-2---new-7">Old: 2 - New: 7</a></li>
+    </ul>
+  </li>
+  <li><a href="#zoom-functionality" id="markdown-toc-zoom-functionality">Zoom Functionality</a>    <ul>
+      <li><a href="#old-3---new-6" id="markdown-toc-old-3---new-6">Old: 3 - New: 6</a></li>
+    </ul>
+  </li>
+  <li><a href="#multitrack-editing" id="markdown-toc-multitrack-editing">Multitrack editing</a>    <ul>
+      <li><a href="#old-4---new-5" id="markdown-toc-old-4---new-5">Old: 4 - New: 5</a></li>
+    </ul>
+  </li>
+  <li><a href="#io-map--rename" id="markdown-toc-io-map--rename">I/O Map &amp; Rename</a>    <ul>
+      <li><a href="#old-2---new-6" id="markdown-toc-old-2---new-6">Old: 2 - New: 6</a></li>
+    </ul>
+  </li>
+  <li><a href="#pdc" id="markdown-toc-pdc">PDC</a>    <ul>
+      <li><a href="#old-8---new-10" id="markdown-toc-old-8---new-10">Old: 8 - New 10</a></li>
+    </ul>
+  </li>
+  <li><a href="#key-commands" id="markdown-toc-key-commands">Key Commands</a>    <ul>
+      <li><a href="#old-3---new-6-1" id="markdown-toc-old-3---new-6-1">Old: 3 - New: 6</a></li>
+    </ul>
+  </li>
+  <li><a href="#multitrack-freewarp" id="markdown-toc-multitrack-freewarp">Multitrack Freewarp</a>    <ul>
+      <li><a href="#old-0---new-4" id="markdown-toc-old-0---new-4">Old: 0 - New: 4</a></li>
+      <li><a href="#groupbuss-creation" id="markdown-toc-groupbuss-creation">Group/Buss Creation</a></li>
+      <li><a href="#old-9---new-10" id="markdown-toc-old-9---new-10">Old: 9 - New: 10</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="editing-tools">Editing Tools</h1>
+
+<h2 id="old-2---new-7">Old: 2 - New: 7</h2>
+
+<ul>
+  <li>
+    <p>Divide Track list. What an exceptional useful command when editing various parts relative to a single part. How I missed this before I don’t know. <strong>Extremely useful</strong>. Worth 2 points alone.</p>
+  </li>
+  <li>
+    <p>Cmd-Shift + Range Tool - I missed this before. I frequently became annoyed having to drag across all tracks to make a full vertical time selection. This makes life way easier.</p>
+  </li>
+  <li>
+    <p>Understanding that audio editing in Cubase is largely about working with time-selections rather than object selections.</p>
+  </li>
+  <li>
+    <p>Always having undo history open helps. I’m very used to the undo window in DP and I didn’t adopt this workflow in Cubase, and thusly I became annoyed with constant cmd-z to undo edits I didn’t like.</p>
+  </li>
+</ul>
+
+<h1 id="zoom-functionality">Zoom Functionality</h1>
+
+<h2 id="old-3---new-6">Old: 3 - New: 6</h2>
+
+<ul>
+  <li>
+    <p>Zoom Tool Standard Mode: Horizontal Zooming Only - I much prefer the Zoom tool with this off. WAY better.</p>
+  </li>
+  <li>
+    <p>Assign cmd-[ to zoom undo, and cmd-] to zoom redo.</p>
+  </li>
+  <li>
+    <p>Zoom to project macro.</p>
+  </li>
+</ul>
+
+<h1 id="multitrack-editing">Multitrack editing</h1>
+
+<h2 id="old-4---new-5">Old: 4 - New: 5</h2>
+
+<ul>
+  <li>
+    <p>Still bothered by not having overlapping or nested groups!</p>
+  </li>
+  <li>
+    <p>Not being able to see a list of active edit groups sucks. It sucks a lot.</p>
+  </li>
+  <li>
+    <p>Using folders to control group editing is addictive. I came to miss this functionality when not using Cubase.</p>
+  </li>
+</ul>
+
+<h1 id="io-map--rename">I/O Map &amp; Rename</h1>
+
+<h2 id="old-2---new-6">Old: 2 - New: 6</h2>
+
+<ul>
+  <li>
+    <p>Discovered Presets. Much more useful now. Now I can have I/O setups that show correctly when using s/mux.</p>
+  </li>
+  <li>
+    <p>Old rating was based on me being an idiot and routing things in my interface’s control panel improperly.</p>
+  </li>
+</ul>
+
+<h1 id="pdc">PDC</h1>
+
+<h2 id="old-8---new-10">Old: 8 - New 10</h2>
+
+<ul>
+  <li>Cubase’s PDC is actually the best that I’ve seen. I’ve tortured it and it holds up.</li>
+</ul>
+
+<h1 id="key-commands">Key Commands</h1>
+
+<h2 id="old-3---new-6-1">Old: 3 - New: 6</h2>
+
+<ul>
+  <li>
+    <p>Macros make up for a lot of missing commands. This isn’t so bad.</p>
+  </li>
+  <li>
+    <p>I’ve found a lot more commands that are useful as I’ve grown used to Cubase’s terminology.</p>
+  </li>
+</ul>
+
+<h1 id="multitrack-freewarp">Multitrack Freewarp</h1>
+
+<h2 id="old-0---new-4">Old: 0 - New: 4</h2>
+
+<ul>
+  <li>Cubase supports the same method that I gave DP a 4 for.</li>
+</ul>
+
+<h2 id="groupbuss-creation">Group/Buss Creation</h2>
+
+<h2 id="old-9---new-10">Old: 9 - New: 10</h2>
+
+<ul>
+  <li>I discovered the “Selected tracks to new Folder and add Group channel” Macro. Macros aren’t so bad!</li>
+</ul>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET

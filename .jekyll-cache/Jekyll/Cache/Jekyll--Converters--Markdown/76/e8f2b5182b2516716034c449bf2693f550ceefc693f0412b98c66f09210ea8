@@ -1,0 +1,216 @@
+I"C9<a href="/assets/FLStudio/AudioExplain.png">
+<img src="/assets/FLStudio/Thumbnails/AudioExplain.png" alt="Audio Explanation">
+</a>
+<div class="image-caption">Audio workflow in FL</div>
+
+<p>FLStudio does things in a way which can seem a bit strange to anyone used to another DAW, so the very first thing in a review is to cover <em>how</em> FLStudio does things.</p>
+
+<p>FLStudio’s workflow is most certainly different, but I think that you’ll find that it offers a lot of flexibility that’s not present in other DAWs. The question is whether you’re willing to pay for that flexibility by having to re-arrange how your brain works…</p>
+
+<p>Or if you’re a new DAW user, there’s really no downside.</p>
+
+<p>p.s. I forgot to mention in the announcement (I’ve edited it now) that this review is being done with a free NFR copy of FLStudio and all Image Line products.</p>
+
+<p><strong>Other posts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/12/30-days-with-FLStudio-20.html"> Part 0: Introduction to this series</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/20/30-days-with-FLStudio-20-Audio.html"> Part 2: Recording and Editing Audio</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/24/30-days-with-FLStudio-20-Piano-Roll-Basics.html"> Part 3: Piano Roll basics</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/27/30-days-with-FLStudio-20-Piano-Roll-Advanced.html"> Part 4: Advanced Piano Roll</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/06/30/30-days-with-FLStudio-20-Piano-Roll-Tools.html"> Part 5: Piano Roll Tools</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/03/30-days-with-FLStudio-20-Controllers.html"> Part 6: MIDI Controllers</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/07/30-days-with-FLStudio-20-Modulation.html"> Part 7: Modulation</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/11/30-days-with-FLStudio-20-Performance-VFX.html"> Part 8: Performance mode and Video FX</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/15/30-days-with-FLStudio-20-Workflow.html"> Part 9: Workflow</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/18/30-days-with-FLStudio-20-Effects.html"> Part 10: Effects Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/22/30-days-with-FLStudio-20-Instruments.html"> Part 11: Instruments Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/07/24/30-days-of-FLStudio-20-conclusion.html"> Part 12: Conclusion</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#main-elements" id="markdown-toc-main-elements">Main Elements</a></li>
+  <li><a href="#signal-flow" id="markdown-toc-signal-flow">Signal Flow</a></li>
+  <li><a href="#audio" id="markdown-toc-audio">Audio</a></li>
+  <li><a href="#patterns" id="markdown-toc-patterns">Patterns</a></li>
+  <li><a href="#playlist" id="markdown-toc-playlist">Playlist</a></li>
+  <li><a href="#automation" id="markdown-toc-automation">Automation</a></li>
+  <li><a href="#what-do-i-think-about-all-of-this" id="markdown-toc-what-do-i-think-about-all-of-this">What do I think about all of this?</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="main-elements">Main Elements</h1>
+
+<img src="/assets/FLStudio/MainShot.png" alt="MainShot">
+<div class="image-caption">Main Elements</div>
+
+<p>FLStudio has 4 main elements:</p>
+
+<ul>
+  <li>Channel Rack - This is where all of your sound generators (instruments and samplers) are stored along with automation clips.</li>
+  <li>Patterns - A pattern contains information that controls the channel rack. I’ll explain this more later.</li>
+  <li>Playlist - this is where you sequence patterns.</li>
+  <li>Mixer - Channels are routed to the mixer.</li>
+</ul>
+
+<p>This may seem a bit confusing at first if you’re used to another DAW, but this is a more explicit method of representing how routing in DAWs happens.</p>
+
+<p>Let’s dive a bit deeper…</p>
+
+<h1 id="signal-flow">Signal Flow</h1>
+
+<a href="/assets/FLStudio/Routing.png">
+<img src="/assets/FLStudio/Thumbnails/Routing.png" alt="Routing">
+</a>
+<div class="image-caption">Main signal flow</div>
+
+<p>All of your sound generating data is stored in the channel rack. So each synth, each piece of audio (which is in samplers) and each automation clip permanently resides in the channel rack.</p>
+
+<p>From there you need a way to make those channels <em>do something</em>. That’s where patterns come in. A pattern is a set of data that tells each channel what to do. A pattern does not need to control <em>each</em> channel, but instead it can decide to only send data to a single channel. You could have a pattern that only sends data to the kick, or that sends data to the kick/snare/hats, or to all of the drums and bass etc…</p>
+
+<p>When a pattern triggers, the channels make noise, but the noise needs to go somewhere! Each channel can be assigned to a mixer routing. The channels do not need to be assigned to mixer channels in order, it’s totally arbitrary. Multiple channels can be assigned to the same mixer channel.</p>
+
+<p>Now we have a pattern that makes channels send data to the mixer, but how does a pattern know when to play? That’s what the playlist is for. The playlist is where you sequence patterns. Any pattern can go to any playlist track, and any pattern can trigger at any time, even multiple of the same pattern at the same time. There’s no real limits.</p>
+
+<p>However, take a look at Pattern 2 on the second and third playlist track. Patterns (but not audio) are monophonic, so when the overlapping Pattern 2 starts then the first Pattern 2 is muted. When Pattern 2 on the first track starts, Pattern 2 on track three is muted. This does not apply to audio clips though, as they can overlap without issue.</p>
+
+<h1 id="audio">Audio</h1>
+
+<a href="/assets/FLStudio/AudioExplain.png">
+<img src="/assets/FLStudio/Thumbnails/AudioExplain.png" alt="Audio Explanation">
+</a>
+<div class="image-caption">Audio Explained</div>
+
+<p>Audio is quite an interesting topic in FLStudio.</p>
+
+<p>In other DAWs, audio is placed inside items/regions/clips/soundbites/whatever and positioned in a track. The audio is triggered when the beginning of the clip is reached, and stops at the end of the clip.</p>
+
+<p>FLStudio takes the abstraction of audio out further a bit, and makes it <em>far</em> more flexible to work with. All audio in FLStudio is stored in samplers. There’s a couple samplers to work with, which I’ll cover at another time.</p>
+
+<p>So when you place audio in your playlist, it looks like any other DAW, but the audio is not <em>simply</em> playing at the start of the clip. The start of the clip is triggering a sampler. This is important to realize, you can treat audio clips just like any other DAW. They show on the track like a single clip, but <em>if you want</em> you can also treat the audio like it’s in a sampler… because it is.</p>
+
+<p>Other DAWs implicitly have your audio in a very simple sampler. The beginning of the clip triggers the audio and it plays output to the track.</p>
+
+<p>FLStudio <em>explicitly</em> has your audio in a sampler, which gives you all of the benefits of a sampler. The sound warping, editing, slicing, scripting etc.. features are all available without needing to jump to a sound-file editor of some sort. All of these capabilities are present <em>live</em> as well, and automatable because it’s in a sampler instrument!</p>
+
+<h1 id="patterns">Patterns</h1>
+
+<a href="/assets/FLStudio/Patterns.png">
+<img src="/assets/FLStudio/Thumbnails/Patterns.png" alt="Patterns">
+</a>
+<div class="image-caption">Patterns</div>
+
+<p>Patterns I think are probably the most confusing thing if you are coming from another DAW, but it’s actually rather simple.</p>
+
+<p>A pattern controls control data for each channel. A pattern can control every channel in the project as you wish. You can basically think of them as “mini-projects” where you have the whole arsenal of your project at your disposal if you wish.</p>
+
+<p>Most users will opt to use patterns to only use one or a few channels at a time though, like in the image above. In the displayed pattern, the only thing being controlled is the <code class="highlighter-rouge">Bassline</code> channel. When this pattern is played, the MIDI data in that pattern for that channel is activated and the Bassline is played.</p>
+
+<p>If you wanted, you could create your <em>entire track</em> in one pattern. You can split your drums out to multiple channels (and multiple mixer tracks), but program them all in a single pattern, or have a pattern for each element.</p>
+
+<h1 id="playlist">Playlist</h1>
+
+<img src="/assets/FLStudio/Playlist.png" alt="Playlist">
+<div class="image-caption">Playlist</div>
+
+<p>The playlist is where the action happens when you’re in “song mode”.</p>
+
+<p>In the playlist you sequence your <a href="#patterns">patterns</a>. Audio files are optionally treated similarly to patterns, so you can place them as you wish. <a href="#automation">Automation clips</a> can be sequenced here as well.</p>
+
+<p><em>Tracks in the playlist are not tied to mixer tracks</em>. The playlist does <em>nothing but sequence</em>. Your channels are assigned to mixer tracks. You can sequence patterns however you want, they will still output to the mixer track that the triggered channel outputs to.</p>
+
+<p>The playlist is where FLStudio gets a reputation for being a “beat oriented” or “electronic music oriented” DAW. Thusfar I feel that this is a strange reputation, largely because audio files can be placed and used on tracks how you may do it in a traditional linear DAW environment, except you have significantly more flexibility.</p>
+
+<p>Patterns and Audio Files and Automation Clips can have their lengths/starts adjusted how you may expect. You can slice them. You can quantize them. You can do most of the things that you’d expect.</p>
+
+<h1 id="automation">Automation</h1>
+
+<img src="/assets/FLStudio/AutomationExplain.png" alt="Automation...">
+<div class="image-caption">Automation, Hmm...</div>
+
+<p>Written automation in FLStudio takes 2 forms: Automation Clips and Event Data.</p>
+
+<p>Automation clips are like patterns, which have their own channels, that have control data for a parameter. You can paint this in the <a href="#playlist">playlist</a> just like a pattern. Automation clips are not <em>linked</em> to a pattern, so they can be used at any time in the playlist irrespective of the current playing pattern.</p>
+
+<p>Event data <em>is</em> linked to the current pattern. This is what you may think of as “traditional automation”. You write control data for a parameter and it’s part of the pattern, so it only acts when the pattern acts.</p>
+
+<p>There’s a problem here though: the event editor sucks.</p>
+
+<p>The most prominent issue is that it’s difficult to find automation. First you have to find the pattern that has the data (since multiple patterns may be controlling a channel at once!), then you have to hunt around to find the parameter’s event. You can do it from the browser (find the pattern, click, then find the parameter), or you can open the channel-&gt;synth/sampler with the parameter and access it via right click or ‘last tweaked parameter’.</p>
+
+<p>The second issue is that the event editor is pretty poor. It’s a bar-graph style editor, much unlike the line/bezier based automation clips. It’s difficult to set exact values, you can’t see the exact values, there’s very few tools for adjusting the curve and there’s no thinning control (but there is interpolation and auto smoothing).</p>
+
+<p>The event-based automation is the only way you can record automation, but if you wish to edit that data then you are in for a disappointment. You can convert event data to automation clips, but then you lose the pattern-link if you want that.</p>
+
+<p>There’s some other sore spots with automation if you don’t use automation clips, but I’ll probably get there later. There’s also another way to adjust controls automatically in realtime, and that’s something we’ll <em>definitely</em> get to.</p>
+
+<h1 id="what-do-i-think-about-all-of-this">What do I think about all of this?</h1>
+
+<p>Coming from a traditional linear DAW environment, FLStudio can be quite strange. Having to manually handle routing from sound generators to the mixer, and link MIDI data to sound generators seems weird. Other DAWs do this all automatically for you when you put data on a track.</p>
+
+<p>The complexity is managed by some shortcuts that make this routing nearly automatic, but you are still afforded a great deal of flexibility in how you utilize your data.</p>
+
+<p>This whole setup does complicate the process of recording data yourself, such as audio or MIDI or automation, but at most it’s one extra step. Once again this added movement is paid for by a lot of extra flexibility in how you route things, when things occur and where they are stored.</p>
+
+<p>And yeah… event editing (recorded automation). What a mess.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 7 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

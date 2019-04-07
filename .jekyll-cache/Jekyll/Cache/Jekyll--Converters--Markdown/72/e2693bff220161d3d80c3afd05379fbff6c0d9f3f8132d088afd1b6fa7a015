@@ -1,0 +1,113 @@
+I"r    <img src="/assets/Production/DynEQ/Header.png" alt="Why cut it all?">
+<div class="image-caption">Why cut it all?</div>
+
+<p>A typical scenario in mixing is that your kick drum and your bass, or some other similar elements, overlap spectrally. The ‘normal’ solution is a volume sidechain.</p>
+
+<p>There’s a better way though! Well, sometimes it’s better, but it’s worth knowing so you can learn when to use it.</p>
+
+<!--more-->
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#sidechaining" id="markdown-toc-sidechaining">Sidechaining</a></li>
+  <li><a href="#how-does-it-work" id="markdown-toc-how-does-it-work">How does it work?</a></li>
+  <li><a href="#so-if-its-so-cool-why-doesnt-everyone-do-it" id="markdown-toc-so-if-its-so-cool-why-doesnt-everyone-do-it">So if it’s so cool, why doesn’t everyone do it?</a></li>
+  <li><a href="#video" id="markdown-toc-video">Video</a>    <ul>
+      <li><a href="#setup-in-reaper" id="markdown-toc-setup-in-reaper">Setup in Reaper</a></li>
+      <li><a href="#setup-in-bitwig" id="markdown-toc-setup-in-bitwig">Setup in Bitwig</a></li>
+      <li><a href="#setup-in-waveform" id="markdown-toc-setup-in-waveform">Setup in Waveform</a></li>
+      <li><a href="#setup-in-flstudio" id="markdown-toc-setup-in-flstudio">Setup in FLStudio</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="sidechaining">Sidechaining</h1>
+
+    <img src="/assets/Production/DynEQ/Main.png" alt="Why cut it all?">
+<div class="image-caption">Why cut it all?</div>
+
+<p>The most common approach to solving issues with sounds that have a lot of overlapping frequencies is to turn setup a processor that turns the volume of one down while the other is loudest. This process is often called simply “Sidechaining”. Sidechaining refers to the routing method used where a compressor acts on one track, but makes its decisions based on the audio of another (the sidechain).</p>
+
+<p>Sidechaining is an important technique and it’s not directly replaceable. Some genres, like EDM, rely on the pumping effect of heavy sidechaining to create a signature sound.</p>
+
+<p>When the desire is to fix mix issues or to ‘create room’ in the mix, then using dynamic EQ sidechaining is often a better solution.</p>
+
+<p>Look at the graphic above. The Sub and Kick tracks have a significant amount of information in the same frequency range (represented on the vertical axis). However the sub has a lot of harmonic content that helps define its sound and presences. Wouldn’t it be nice if we could turn down only those overlapping frequencies in the sub, but let the character of the sub still be present when the kick hits?</p>
+
+<p>We can.</p>
+
+<h1 id="how-does-it-work">How does it work?</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Production/DynEQ/DynEQ.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Dynamic EQ in action</div>
+
+<p>The basic concept here is not complex. We setup an EQ band on the track we want to affect. The band is set to the frequency area that is causing the most trouble.</p>
+
+<p>Then some sort of routing, depending on the DAW, is setup so that the audio of another track (the Kick in this case) is turned in to a control signal and changes the gain of the EQ band on the other track in realtime.</p>
+
+<p>You don’t have to do a single band, nor must every band have the same setup. I have mixes with complex dynamic EQ and multiple bands acting in different ways based on different information. You can go wild with it.</p>
+
+<h1 id="so-if-its-so-cool-why-doesnt-everyone-do-it">So if it’s so cool, why doesn’t everyone do it?</h1>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Production/DynEQ/Noise.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Noise :(</div>
+
+<p>Firstly, a lot of people don’t realize it’s even a possibility.</p>
+
+<p>Secondly, many DAWs struggle with this sort of setup and you must purchase a third-party product that may not work with your DAW anyway.</p>
+
+<p>Thirdly…. noise.</p>
+
+<p>Look at that video above. I’m EQing an area not near the sine wave, but noise is produced. When EQs are modulated they are not silent. There are <em>some</em> filter designs that can be very quiet when modulated but they are rarely used in production EQ products. There is also an issue with when/how often DAWs send changes to the plugin and when the plugin wants them. Both of these things contribute to the noise.</p>
+
+<p>So utilizing this method will often add a small amount of noise depending on the EQ that you are using. The tradeoffs are often worth it, but you need to be aware that it is there and it’s inharmonic. The noise isn’t related to your audio and can sound a bit gross at times.</p>
+
+<p>Then again… repeatedly gain reducing your track repeatedly with classic sidechain compression can be more gross. You have to pick the tradeoff that yields the results that you want.</p>
+
+<h1 id="video">Video</h1>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/6NfMgBkcvdU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<p>Yes, I made a video for this too, along with 4 videos on how to set this up natively in 4 different DAWs.</p>
+
+<h2 id="setup-in-reaper">Setup in Reaper</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/Jq2nbb94ALY" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h2 id="setup-in-bitwig">Setup in Bitwig</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/IpWyQz-nXbU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h2 id="setup-in-waveform">Setup in Waveform</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/ooVzhzXxsEw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h2 id="setup-in-flstudio">Setup in FLStudio</h2>
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/q5fXg-dINpo" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen=""></iframe>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 7 hours to research, screencast, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p><strong>If you have any questions or comments, please comment below! I read every comment and respond to most.</strong> No registration is necessary to comment, so don’t be shy.</p>
+
+:ET

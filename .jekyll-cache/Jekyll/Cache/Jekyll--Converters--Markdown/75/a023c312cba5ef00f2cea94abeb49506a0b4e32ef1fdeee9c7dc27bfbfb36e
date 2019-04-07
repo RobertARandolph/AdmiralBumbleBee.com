@@ -1,0 +1,286 @@
+I"A<img src="/assets/Waveform/Weird/MultiEdit.png" alt="Multi-editing">
+<div class="image-caption">This isn't a good thing...</div>
+
+<p>It’s MIDI Day! Today I’m covering MIDI workflows specifically, even though I did that partially in <a href="/music/2018/03/21/Waveform-9-the-good-the-bad-the-weird-part-4.html">part 4</a> and <a href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html">part 5</a>.</p>
+
+<p>I know that it seems like there’s a lot of bad things today, and there is, but the core experience is decent. If you are a workflow-maven, a super MIDI nerd or you love exploring the depths of what can be done with MIDI, then you need to try the demo first.</p>
+
+<ul>
+  <li>Good
+    <ul>
+      <li>Basic MIDI Editing</li>
+    </ul>
+  </li>
+  <li>Bad
+    <ul>
+      <li>MPE</li>
+      <li>Notation</li>
+      <li>Advanced MIDI Editing</li>
+      <li>Default Shortcuts</li>
+      <li>Per-Note Colouring</li>
+      <li>Step Recording</li>
+    </ul>
+  </li>
+  <li>Weird
+    <ul>
+      <li>MIDI Multi-Editing</li>
+    </ul>
+  </li>
+</ul>
+
+<p><strong>Other parts in this series</strong>:</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2018/02/28/30-days-with-Tracktion-Waveform-9.html"> Version 9, Part 0: Intro</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/08/Waveform-9-the-good-the-bad-the-weird-part-1.html"> Version 9.1.1, Part 1: Browser, Mixing, GUI, VCAs</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/14/Waveform-9-the-good-the-bad-the-weird-part-2.html"> Version 9.1.1, Part 2: Modulation, Plugin browsing, Annoyances, GUI</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/18/Waveform-9-the-good-the-bad-the-weird-part-3.html"> Version 9.1.1, Part 3: Macros, UI design, Ghost tracks, Buying</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/21/Waveform-9-the-good-the-bad-the-weird-part-4.html"> Version 9.1.1, Part 4: Pattern Generator, Edit Clips, Folder editing, Chord Track</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/25/Waveform-9-the-good-the-bad-the-weird-part-5.html"> Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/03/31/Waveform-9-the-good-the-bad-the-weird-part-7.html"> Version 9.1.1, Part 7: Recording</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/03/Waveform-9-the-good-the-bad-the-weird-part-8.html"> Version 9.1.1, Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/08/Waveform-9-instruments-and-effect-review.html"> Version 9.1.1, Part 9: Instruments and Effect Review</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2018/04/11/Waveform-9-Conclusion.html"> Version 9.1.1, Part 10: Conclusion</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/04/05/Tracktion-Waveform-10.html"> Version 10.1.0</a></li>
+    
+
+</ul>
+
+<p><strong>VERSION</strong> - This review is (hopefully) accurate as of Waveform 9.1.1. Further versions may obsolete these views.</p>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#good" id="markdown-toc-good">Good</a>    <ul>
+      <li><a href="#basic-midi-editing" id="markdown-toc-basic-midi-editing">Basic MIDI Editing</a></li>
+    </ul>
+  </li>
+  <li><a href="#bad" id="markdown-toc-bad">Bad</a>    <ul>
+      <li><a href="#mpe" id="markdown-toc-mpe">MPE</a></li>
+      <li><a href="#notation" id="markdown-toc-notation">Notation</a></li>
+      <li><a href="#advanced-midi-editing" id="markdown-toc-advanced-midi-editing">Advanced MIDI Editing</a></li>
+      <li><a href="#default-shortcuts" id="markdown-toc-default-shortcuts">Default Shortcuts</a></li>
+      <li><a href="#per-note-colouring" id="markdown-toc-per-note-colouring">Per-Note Colouring</a></li>
+      <li><a href="#step-recording" id="markdown-toc-step-recording">Step Recording</a></li>
+    </ul>
+  </li>
+  <li><a href="#weird" id="markdown-toc-weird">Weird</a>    <ul>
+      <li><a href="#midi-multi-editing" id="markdown-toc-midi-multi-editing">MIDI Multi-Editing</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h1 id="good">Good</h1>
+
+<h2 id="basic-midi-editing">Basic MIDI Editing</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Good/MIDIEdit.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Basic MIDI Editing</div>
+
+<p>The process of entering and editing notes in Waveform 9 is nice. It’s quick, it’s easy and it’s pleasant.</p>
+
+<p>You click with the pencil tool. Horizontal movements adjust the note length, vertical movements adjust the velocity. You can shift-click a note to adjust the velocity. Ctrl/Cmd click copies notes.</p>
+
+<p>The pencil-entered note is entered as the last note-length (which many people seem to prefer).</p>
+
+<p>There’s a ‘Chords’ feature that lets you select a note and build a chord from it in a single click.</p>
+
+<p>You can select a group of notes and apply a groove to the selection in a single click.</p>
+
+<p>The ‘Select Notes’ menu in the bottom panel has a number of options to select notes with similar properties (pitch, mute-status, start time, velocity, etc…)</p>
+
+<p>There’s a variety of functions for editing note lengths, inverting pitches, modifying notes (like the legato command which adjust all note lengths to come up to the next note).</p>
+
+<p>Editing CC, velocity, pitchbend etc… at its core level is clear and simple. When you make a selection of data there’s a scaling box which is pretty neat.</p>
+
+<p>Render notes. Render notes allows you to select specific notes and quickly render a new audio clip with just those notes rendered. <strong>GENIUS</strong>. I’ve used this so much. It’s a great way to audition changes to midi in a new context, or to grab bits of a part to use elsewhere.</p>
+
+<p>A feature that’s rather unique that I like is that you can set the grid size in ticks. This allows you to work with odd polyrhythms or make ‘groove-oriented’ adjustments consistently across a part quickly.</p>
+
+<p>The ‘Line Tool’ lets you quickly edit a series of notes, based on the previous note length and current grid size, as a repetition along the drawn line. The Line tool also edits CC/Velocity/Pitch/etc… data too.</p>
+
+<p>The general process of <strong>basic</strong> MIDI editing in Waveform 9 is a total pleasure… and there’s an inline editor so you can do all of this right in the main view quickly.</p>
+
+<h1 id="bad">Bad</h1>
+
+<p>This section is accurate for Waveform 9.0.39b, hopefully.</p>
+
+<p>The Tracktion team may have changed these since I wrote this. During the course of this review I will try to maintain this, but after the review is over it’s unlikely I will keep this up to date. Please try the demo yourself first before becoming upset by these things!</p>
+
+<h2 id="mpe">MPE</h2>
+
+<video autoplay loop muted class="gifvid">
+<source src="/assets/Waveform/Bad/MPE.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">MPE :(</div>
+
+<p><a href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html#what-is-mpenote-expression">Read about what MPE is in my Bitwig post</a>. Read it. <strong>READ IT</strong>.</p>
+
+<p>It’s somewhat unsurprising that MPE works in Waveform since <a href="https://github.com/julianstorer">the original author of Tracktion</a> now works at <a href="https://roli.com">one of the premier makers of MPE capable instruments, Roli</a>.</p>
+
+<p>Does it stand up though? Look at <a href="/music/2017/06/16/Bitwig-feature-review-Note-Expression.html">how well Bitwig does it</a>. <a href="https://www.steinberg.net/en/company/technologies/vst_expression.html">Cubase does it quite well too</a>.</p>
+
+<p>It’s not very good.</p>
+
+<p>Editing MPE data is not fun. You only get ‘blocks’ of messages. You can enter ‘fine’ data and ‘coarse’ data. You can very clearly hear the steps on playback, which is particularly troubling with pitch bends.</p>
+
+<p>When you select a note, you get a per-note editing box. If you want to somehow select a note ‘behind’ that, then you have to click away.</p>
+
+<p>There’s no tools for curves, shapes or editing existing data.</p>
+
+<p>It’s about as basic as you can get. If you have an MPE capable controller then you can edit data alright, and it records the data fine (as most DAWs will!). If you want to enter your own MPE data then you may want to look at another DAW.</p>
+
+<h2 id="notation">Notation</h2>
+
+<p>Waveform has no notation capabilities. That’s all there is to it. It probably won’t have one for a long time, if at all.</p>
+
+<p>If you need this capability then you will need to be comfortable setting up a workflow using another Notation suite and operating that with Waveform 9 in some manner.</p>
+
+<p>This is a short section, but it’s surely a deal breaker for some people.</p>
+
+<p><a href="http://www.kvraudio.com/forum/viewtopic.php?f=22&amp;t=501918#p7038460">It is unlikely to happen for a while too</a>, so don’t hold your breath. I do admire the developers for recognizing their inability to do it right though.</p>
+
+<h2 id="advanced-midi-editing">Advanced MIDI Editing</h2>
+
+<img src="/assets/DP/Transpose.png" alt="Not Waveform">
+<div class="image-caption">This isn't Waveform, sorry</div>
+
+<p>If you want to <em>really</em> get in deep and edit your MIDI, you may want to export your MIDI to another DAW like <a href="https://www.steinberg.net/en/products/cubase/start.html">Cubase</a>, <a href="https://www.apple.com/logic-pro/">Logic</a>, <a href="http://www.motu.com/products/software/dp">Digital Performer</a> (my choice!) or <a href="https://www.reaper.fm">Reaper</a>.</p>
+
+<p>Waveform lacks most of the fancy MIDI tools that you may want. Data search? Transposition tools? CC curve tools? MIDI Scripting? CC thinning? Rubato work? Humanization tools? Advanced Quantization tools?</p>
+
+<p>Nope. You’re out of luck.</p>
+
+<p>This may seem like a big deal, but I caution the reader to do a bit of self-evaluation and think about how often you actually use many ‘advanced’ tools compared to basic MIDI data entry. I suspect for most people this isn’t a huge deal, especially since 2 of the most popular DAWs out there also lack a number of what I’d consider advanced MIDI tools.</p>
+
+<h2 id="default-shortcuts">Default Shortcuts</h2>
+
+<img src="/assets/Waveform/Bad/MIDIShortcuts.png" alt="MIDI Shortcuts">
+<div class="image-caption">Some shortcuts for MIDI</div>
+
+<p>The default shortcuts for the MIDI editor are pretty bad. There’s nothing available to change the grid size. No way to quick edit velocity or CC value. No way to adjust the current note’s length or pitch.</p>
+
+<p>Actually, there’s really not many at shortcuts for MIDI editing at all. I counted 15 things that affect notes, 4 are ‘nudge’ and 4 are up/down versions.</p>
+
+<p>The most important shortcuts IMO, the shortcuts to select tools, are cmd-option-number (mac) or ctrl-alt-number (win). Go ahead and try to hit cmd-option-4 or ctrl-alt-4. It’s not pleasant is it? You <em>can</em> change these to something easier like cmd-number or ctrl-number, but then you clobber other shortcuts that you must change now. It’s a bit strange to me really, you’d think that these would be better thought-out.</p>
+
+<p><em>By far</em> the most bothersome thing that I encounter is that I don’t see any way to change grid size with the keyboard. This is a ‘make or break’ thing for quick MIDI editing workflows.</p>
+
+<p>Compared to other DAWs, which I just checked, that have 100s of shortcuts available and the most basic tools are the easiest to press… it’s disappointing.</p>
+
+<p>(Also, the default Redo on macOS isn’t cmd-shift-z, which <strong>really</strong> bothered me until I changed it)</p>
+
+<h2 id="per-note-colouring">Per-Note Colouring</h2>
+
+<img src="/assets/Waveform/Bad/NoteColours.png" alt="Note Colours">
+<div class="image-caption">Note Colours</div>
+
+<p>Waveform 9 has per-note colouring! Cool!?</p>
+
+<p>Nope. There’s 5 colours. That 4 colour grid on the right recolours your notes based on if they are “in key” or note.</p>
+
+<p>Not cool. In fact, while trying to use this I found that it made things more difficult than working with a single colour.</p>
+
+<h2 id="step-recording">Step Recording</h2>
+
+<p>Many DAWs have step recording. Step recording allows you to enter MIDI notes one-by-one, on the grid, by playing the notes while playback isn’t active.</p>
+
+<p>Step recording is a wonderful feature normally. Waveform has made it so basic as to be not so wonderful.</p>
+
+<p>What’s missing?</p>
+
+<ul>
+  <li>No shortcuts to change grid size</li>
+  <li>No MIDI input to change grid size (some other products assign lower-octaves to change grid size, it’s very nice!)</li>
+  <li>No MIDI input to change anything… see above.</li>
+  <li>No obvious indication of current note length</li>
+  <li>Rest insertion relies on grid size</li>
+  <li>No Live Step (that plays other notes at the current time)</li>
+  <li>No backstep (to record over or <em>with</em> the last played note)</li>
+  <li>No adjustment of previous note without grabbing the mouse and messing up your current position</li>
+  <li>No Velocity selection for current note unless you grab the mouse and dive a menu (<strong>EDIT</strong> - In the options menu you can ‘Use incoming MIDI velocities for step entry’, however this is insufficient for unskilled performers, which is likely a reason they are using step recording to begin with)</li>
+  <li>Doesn’t respond to played velocity?!</li>
+  <li>No CC input</li>
+  <li>Doesn’t recognize pitch bend, which means that input notes may sound different than playback</li>
+  <li>Chord input frequently inputs multiple notes in succession. You have to be pretty close to perfect to input a chord.</li>
+</ul>
+
+<p>tldr; if you rely on step record, you may want to try the Waveform demo first. Waveform isn’t even what I’d consider a basic implementation of step record sadly.</p>
+
+<h1 id="weird">Weird</h1>
+
+<p>This section is accurate for Waveform 9.0.39b, hopefully.</p>
+
+<p>The Tracktion team may have changed these since I wrote this. During the course of this review I will try to maintain this, but after the review is over it’s unlikely I will keep this up to date. Please try the demo yourself first before becoming upset by these things!</p>
+
+<h2 id="midi-multi-editing">MIDI Multi-Editing</h2>
+
+<img src="/assets/Waveform/Weird/MultiEdit.png" alt="Multi Editing">
+<div class="image-caption">Multiple Clip Editing? Kinda?</div>
+
+<p>Waveform 9 has overlaid MIDI editing, where you can view multiple clips overlaid at once and edit them.</p>
+
+<p>Except… I think it’s broken?! The pencil doesn’t select which track to edit. The ‘eye’ doesn’t work. The manual shows a lock icon, but I don’t have a lock?</p>
+
+<p>It sorta works. You can overlay clips. You can select which one to edit (but not with the pencil icon?). The note overlays look nice.</p>
+
+<p>I’m confused. Is this bugged? Am I stupid? Is this just designed weirdly?</p>
+
+<p>I’ll update this if I find out anything, but I tried to figure it out for 3 hours and it just seems broken… or it’s awful. I’ll assume that it’s a bug, or series of bugs, for now.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 11 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

@@ -1,0 +1,13 @@
+I"�  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Reaper/MultiP/MultiControl.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Controlling parameters across tracks, and with a fader in the project!</div>
+
+<p>Some DAWs have macro controls that let you control many parameters with 1 control. Reaper has this capability, but with a lot more flexibility.</p>
+
+<p>In the following tutorial I’m going to show you how to control almost <em>any</em> parameter in your project with a single slider. Not only that, but you can setup a <em>fader</em> to control all those parameters too!</p>
+
+<p>Click through for the full tutorial…</p>
+
+:ET

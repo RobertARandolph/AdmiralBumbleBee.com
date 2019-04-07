@@ -1,0 +1,234 @@
+I"F  <img src="/assets/Logic/Tips/Part6.png" alt="Part 6">
+  <div class="image-caption">Save some money with one of these tips!</div>
+
+<p>I need a few extra days to work on the effects review like I’ve done for other products like: <a href="/music/2017/09/30/Review-of-Mixbus-effect-plugins.html">Mixbus Effects</a>, <a href="/music/2017/10/06/Review-of-Mixbus-instrument-and-MIDI-plugins.html">Mixbus Instruments</a>, <a href="/music/2017/06/27/Bitwig-Effects-review.html">Bitwig Effects</a>, <a href="/music/2017/06/29/Bitwig-Instruments-Review.html">Bitwig Instruments</a>, <a href="/studio/2017/02/08/Cubase-9-Audio-Effects-Review.html">Cubase Effects</a>, <a href="/music/2016/05/31/Studio-compOnents-review.html">Studio One Effects</a> and <a href="/music/2016/06/05/Studio-ContraptiOnes.html">Studio One Instruments</a>.</p>
+
+<p>I’m trying to improve each successive review, so this one is taking more time than any previously. Of course, I also hope to update previous reviews soon… maybe. The Studio One reviews particularly need an update.</p>
+
+<p>Anyway! Here’s some tips and tricks I’ve learned while writing this Logic review… and 5 more cool things about Logic Pro X!</p>
+
+<p><strong>P.S.</strong> Huge shoutout to <a href="http://www.dingdingmusic.com/DingDing/Home.html">Edgar Rothermich</a>, <a href="http://elikrantzberg.com/Home.html">Eli Krantzberg</a>, the aforementioned at <a href="http://logic-pro-expert.com">Logic Pro expert</a> and the staff at <a href="https://www.logicprohelp.com/forum/">Logic Pro Help</a>. Some of these tips come from their awesome resources. I also highly recommend Edgar’s <a href="http://www.dingdingmusic.com/DingDing/Manuals.html">Graphically Enhanced Manuals</a>. I’ve gone through the free selection and they are <em>awesome</em>. These guys all are ‘Cool things’ about Logic.</p>
+
+<p><strong>Parts in this series</strong>:</p>
+<ul>
+  <li><a href="/music/2017/12/18/Cool-things-in-Logic-Pro-X-Part-1.html">Cool things in Logic Pro X Part 1</a></li>
+  <li><a href="/music/2017/12/23/Cool-things-in-Logic-Pro-X-Part-2.html">Cool things in Logic Pro X Part 2</a></li>
+  <li><a href="/music/2018/01/05/Cool-things-in-Logic-Pro-X-Part-3.html">Cool things in Logic Pro X Part 3</a></li>
+  <li><a href="/music/2018/01/09/Cool-things-in-Logic-Pro-X-Part-4.html">Cool things in Logic Pro X Part 4</a></li>
+  <li><a href="/music/2018/01/13/Cool-things-in-Logic-Pro-X-Part-5.html">Cool things in Logic Pro X Part 5</a></li>
+  <li><a href="/music/2018/01/22/Logic-Effects-Review.html">Logic Effects Review</a></li>
+  <li><a href="/music/2018/01/26/Cool-things-in-Logic-Pro-X-Part-10-4.html">Cool things in Logic Pro X Part 10.4</a></li>
+  <li><a href="/music/2018/01/31/Logic-Instruments-and-MIDI-Effects-Review.html">Logic Instruments and MIDI Effects Review</a></li>
+  <li><a href="/music/2018/02/04/Things-I-hate-about-Logic-Pro-X.html">Things I hate about Logic Pro X and Conclusion!</a></li>
+</ul>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#purchasing-logic-pro-x-cheaply" id="markdown-toc-purchasing-logic-pro-x-cheaply">Purchasing Logic Pro X cheaply</a></li>
+  <li><a href="#themes" id="markdown-toc-themes">Themes</a></li>
+  <li><a href="#plugin-manager-tricks" id="markdown-toc-plugin-manager-tricks">Plugin manager tricks</a>    <ul>
+      <li><a href="#keep-track-of-unorganized-plugins" id="markdown-toc-keep-track-of-unorganized-plugins">Keep track of unorganized plugins</a></li>
+      <li><a href="#plugin-subfolders" id="markdown-toc-plugin-subfolders">Plugin Subfolders</a></li>
+      <li><a href="#a-better-organizer" id="markdown-toc-a-better-organizer">A Better organizer</a></li>
+    </ul>
+  </li>
+  <li><a href="#transfer-settings-between-systems" id="markdown-toc-transfer-settings-between-systems">Transfer settings between systems</a></li>
+  <li><a href="#sample-edit-stereo-files" id="markdown-toc-sample-edit-stereo-files">Sample edit stereo files</a></li>
+  <li><a href="#bonus-cool-features" id="markdown-toc-bonus-cool-features">Bonus cool features</a>    <ul>
+      <li><a href="#meta-events" id="markdown-toc-meta-events">Meta Events</a></li>
+      <li><a href="#automation-event-list" id="markdown-toc-automation-event-list">Automation Event List</a></li>
+      <li><a href="#producer-kits" id="markdown-toc-producer-kits">Producer Kits</a></li>
+      <li><a href="#smart-controls" id="markdown-toc-smart-controls">Smart Controls</a></li>
+      <li><a href="#aac-simulation" id="markdown-toc-aac-simulation">AAC Simulation</a></li>
+    </ul>
+  </li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support Me!</a></li>
+</ul>
+
+<h2 id="purchasing-logic-pro-x-cheaply">Purchasing Logic Pro X cheaply</h2>
+
+<p>When I purchased Logic, I paid $150 instead of the <a href="https://itunes.apple.com/us/app/logic-pro-x/id634148309?mt=12">normal $199</a>. How? Discounted gift cards.</p>
+
+<p>This is completely legitimate, and I strongly suggest that you <strong>only buy from reputable retailers</strong>. You can simply google search for ‘itunes discount gift card’ or similar, or follow a twitter like this one <a href="https://twitter.com/itunescarddeals?lang=en">https://twitter.com/itunescarddeals?lang=en</a>. <a href="https://www.samsclub.com/sams/homepage.jsp">Sam’s club</a> and <a href="https://www.costco.com">Costco</a> have frequent discounts assuming you have no ethical misgivings about purchasing from them.</p>
+
+<p>Discounts of 15% are very common (Logic total price of $170). You may not be able to get an awesome 25% off deal, but shoot for at least 15%.</p>
+
+<p>I purchased 2 $100 gift cards for $75 each at kroger.com. I then used those 2 gift cards to purchase Logic outright. Easy savings.</p>
+
+<h2 id="themes">Themes</h2>
+
+<p>Logic doesn’t <em>officially</em> support themes, but some folks have figured out clever ways of theming Logic.</p>
+
+<ul>
+  <li><a href="https://logicxinterfaces.wordpress.com">https://logicxinterfaces.wordpress.com</a></li>
+  <li><a href="https://logicxinterfaces.wordpress.com">https://logicxinterfaces.wordpress.com</a></li>
+  <li>Some info here: <a href="https://www.gearslutz.com/board/apple-logic-pro/904900-all-fcasoria-logic-x-themes.html">https://www.gearslutz.com/board/apple-logic-pro/904900-all-fcasoria-logic-x-themes.html</a></li>
+  <li>and here: <a href="https://www.gearslutz.com/board/apple-logic-pro/885002-logic-pro-x-quot-api-theme-pro-quot.html">https://www.gearslutz.com/board/apple-logic-pro/885002-logic-pro-x-quot-api-theme-pro-quot.html</a></li>
+</ul>
+
+<h2 id="plugin-manager-tricks">Plugin manager tricks</h2>
+
+  <img src="/assets/Logic/Good/PluginManager.png" alt="Plug-in Manager">
+  <div class="image-caption">Plug-in Manager</div>
+
+<p><a href="/music/2018/01/09/Cool-things-in-Logic-Pro-X-Part-4.html#plugin-organization">I already covered this one</a>, but I’ll paste it here again.</p>
+
+<h3 id="keep-track-of-unorganized-plugins">Keep track of unorganized plugins</h3>
+
+<p>Cubase and Reaper have an awesome feature that lets you see what plugins are not currently in a category. Logic does not have this… almost.</p>
+
+<p>When I organized my plugins I simply took everything and dragged it to a folder I called ‘Uncategorized’. Then I simply dragged plugins from ‘Uncategorized’ to the correct folder. The net result being that anything that wasn’t in a properly labelled folder was left in the ‘Uncategorized’ folder and I can easily see what I missed.</p>
+
+<p>Sometimes I amaze myself with the (admittedly somewhat small) amount of brain power I put towards such insignificant issues.</p>
+
+<h3 id="plugin-subfolders">Plugin Subfolders</h3>
+
+<p>I’ll let you in on a secret: you can create sub-folders in Logic’s Plug-in Manager easily. A sub-folder is indicated by a colon <code class="highlighter-rouge">:</code>.</p>
+
+<p>So <code class="highlighter-rouge">Guitar</code> is a folder, and <code class="highlighter-rouge">Guitar:Pedals</code> would create a sub-folder under Guitar with the name Pedals. Any level of sub-folder can contain effects. See my plug-in organizer screenshot above for this in action. (EQ, Dynamics, Guitar, Saturation)</p>
+
+<h3 id="a-better-organizer">A Better organizer</h3>
+
+<p>Want even more power over your plugin organization? Go purchase the awesome <a href="http://www.auganizer.com">Auganizer</a>. Even with Logic Pro X’s new plug-in manager, Auganizer offers you a number of features that aid in the organizational process. Particularly with more advanced filtering, search and the fact that it works with all AU hosts.</p>
+
+<h2 id="transfer-settings-between-systems">Transfer settings between systems</h2>
+
+<p>If you want your Logic installs on 2 systems to be identical, including plugin manager settings and strips then you need to copy these 2 files:</p>
+
+<ul>
+  <li>
+    <p><code class="highlighter-rouge">~/Music/Audio\ Music\ Apps/Databases</code> - transfer this entire folder.</p>
+  </li>
+  <li>
+    <p><code class="highlighter-rouge">~/Library/Preferences/com.apple.logic10.plist</code> - transfer just this file.</p>
+  </li>
+</ul>
+
+<p>You can get to these directories easily by opening Finder, <code class="highlighter-rouge">Go-&gt;Go to Folder</code> (cmd-shift-g) and typing the directory without the filename.</p>
+
+<h2 id="sample-edit-stereo-files">Sample edit stereo files</h2>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Logic/Tips/Draw.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Draw on stereo audio files</div>
+
+<p>You can zoom in on an audio file in the ‘Editor’ in ‘File’ mode and use the pencil to draw on the waveform. This is useful for fixing minor pops and crackles.</p>
+
+<p>The editor only draws on the left or right channel alone by default though. You can hold option and that will make the edit appear on both the left and right channels.</p>
+
+<h1 id="bonus-cool-features">Bonus cool features</h1>
+
+<h2 id="meta-events">Meta Events</h2>
+
+  <video autoplay loop muted class="gifvid">
+    <source src="/assets/Logic/Tips/Meta.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Meta Events</div>
+
+<p>Logic has events called ‘Meta Events’. These are <a href="https://help.apple.com/logicpro/mac/10.3/index.html#/lgcp2158b34e">described in the manual</a>, but it’s a very minor mention.</p>
+
+<p>Basically these are internal controls for Logic. You can create events that triggers actions in Logic like jumping to a marker, switching a screenset, stopping playback, etc…</p>
+
+<p>In the video above I have 2 meta events: <code class="highlighter-rouge">Go To Marker</code> and <code class="highlighter-rouge">Stop Playback</code>. If you watch the transport at the top you can see it jump from 2.1.1 straight to 6.1.1 (where the marker is). Then at 7.1.1 it stops where the marker is. Rather useful sometimes!</p>
+
+<p>You may note that the playhead doesn’t follow the <code class="highlighter-rouge">Go to Marker</code> action. This appears to be a bug.</p>
+
+<p><strong>BONUS</strong></p>
+
+<p>More information on Meta Events:</p>
+
+<ul>
+  <li><a href="https://www.logicprohelp.com/forum/viewtopic.php?t=715">Logic Pro Help</a></li>
+  <li><a href="https://www.logic-templates.com/logic-pro-x-fader-event.html">Logic Templates</a></li>
+</ul>
+
+<h2 id="automation-event-list">Automation Event List</h2>
+
+  <img src="/assets/Logic/Tips/AutomationEventList.png" alt="Automation Event List">
+  <div class="image-caption">The Automation Event List</div>
+
+<p>Logic has a hidden event list for fine-grained control of automation data. It’s not in a menu and it’s not a button. It’s only accessible via key-command. The default key is  <code class="highlighter-rouge">Command-Control-E</code>, and it’s listed in the ‘Key Commands’ window under <code class="highlighter-rouge">Track Automation Event List...</code>.</p>
+
+<p>This window allows you to see every single automation event in a spreadsheet-like manner.</p>
+
+<p>An interesting thing that I discovered is that you can insert midi data and meta events in your automation stream! What practical use this has, I’m not sure of yet, but it surely is something that could come in handy somehow maybe?</p>
+
+<h2 id="producer-kits">Producer Kits</h2>
+
+  <img src="/assets/Logic/Tips/ProducerKits.png" alt="Producer Kits">
+  <div class="image-caption">Producer Kits</div>
+
+<p>In <a href="/music/2018/01/05/Cool-things-in-Logic-Pro-X-Part-3.html#drummer">another post I talked about the Drummer</a> feature in Logic. I did not cover the bonus ‘Producer Kits’ that are available though.</p>
+
+<p>Logic comes with a number of multi-track sampled drumkits that can be used with the Drummer or naturally with your own MIDI.</p>
+
+<p>For using the ‘Producer Kits’ with a drummer (and assuming that you have the content installed), click the gear in the Drummer editor. It’s near ‘Beat Presets’ and select <code class="highlighter-rouge">Keep settings when changing drummers</code>. Now open the Library on the left (it’s the file folder looking icon in the upper left). Browse to <code class="highlighter-rouge">Drum Kit-&gt;Producer Kits</code>. Select one and go!</p>
+
+<p>In your mixer now you’ll see a little triangle in the lower left of your track. You can click that and expand the multi-channel folder that allows you to access each element of the drum kit. Most of the ‘Producer Kits’ come with a selection of FX already in place, and you can add/remove/adjust those as you wish too.</p>
+
+<p>Most of these actually sound quite decent too, especially for a free download with the software!</p>
+
+<h2 id="smart-controls">Smart Controls</h2>
+
+  <video poster="/assets/Logic/Tips/SmartControls.jpg" controls muted preload="none">
+    <source src="/assets/Logic/Tips/SmartControls.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-caption">Smart Controls in Action</div>
+
+<p>Logic’s Smart controls seem dopey at first, but they are far from it. You can assign any controls to one of the 8 available knobs. Multiple controls can be controlled by a single knob, and each mapped control can be scaled, inverted and has its own min/max range value! On top of all of that, smart controls can be automated too.</p>
+
+<p>So let me explain everything that’s happening in the video above…</p>
+
+<p>First some background. I have a plugin called <a href="https://blackroosteraudio.com/pluginstore/plugin/vpre73.html">BlackRooster VPR-73</a>. It’s a pre-amp simulation that sounds amazing (go buy it!), but when you turn up the input gain it gets very loud. Naturally you would want to adjust the output gain in reverse to counteract that effect. VPR-73 has this capability built-in by right-dragging the ‘Gain’ knob but…</p>
+
+<ul>
+  <li>There is a single smart control that controls -
+    <ul>
+      <li>Gain - the smart control is mapped 1:1 to the Gain knob.</li>
+      <li>Trim - the smart control is inverted to the trim knob.</li>
+      <li>High shelf - the highshelf is moved <em>slightly</em> by giving it only a +/- 1.5dot range. When the smart control is at max (overdriven preamp!), there’s a very light high shelf boost that makes it brighter. When the smart control is at the minimum value, there’s a high shelf cut that makes it duller.</li>
+      <li>Highpass - The highpass is set to turn on when the ‘Gain’ reaches about 70. With so much overdrive it starts to get a bit muddy, and this automatically highpasses at a certain value.</li>
+    </ul>
+  </li>
+  <li>I automate the single control then playback and you can see all of the parameters move in response to a single control!
+    <ul>
+      <li>The smart control automation stays static. You can change your mapped parameters without messing up your smart control automation.</li>
+    </ul>
+  </li>
+</ul>
+
+<p>All of this is done with a <em>single</em> smart control. You can easily map up a control panel for your track that lets you adjust common effects, or make your own complex macros, all from an easy to access panel.</p>
+
+<h2 id="aac-simulation">AAC Simulation</h2>
+
+  <img src="/assets/Logic/Tips/AACSim.png" alt="AAC Simulator">
+  <div class="image-caption">AAC Simulator</div>
+
+<p>Ever wanted to know what your project would sound like encoded to various AAC formats? Well every modern apple system comes with the ‘AARoundTripAAC’ plugin. You can use it in any AudioUnits host like Logic. It’s located in <code class="highlighter-rouge">Audio Units-&gt;Apple-&gt;AARoundTripAAC</code>.</p>
+
+<p>You can select which formats to preview in near-realtime and see information for clipping and intersample peaks.</p>
+
+<p>This isn’t a Logic-specific feature, but as Logic user you are guaranteed to have this capability.</p>
+
+<h1 id="support-me">Support Me!</h1>
+
+<p>This post took 8 hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+
+:ET

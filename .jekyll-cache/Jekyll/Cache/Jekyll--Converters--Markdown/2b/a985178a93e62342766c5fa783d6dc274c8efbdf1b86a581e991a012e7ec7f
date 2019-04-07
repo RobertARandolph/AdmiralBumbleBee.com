@@ -1,0 +1,28 @@
+I"
+  <img src="/assets/Random/VSCode.png" alt="VS Code">
+  <div class="image-caption">VS Code in action</div>
+
+<p>Firstly, I’ve added a Donate Button in the menu bar, and at the bottom of every new post. Some of these posts take me a lot of time, and I will also be relaying how much time it took me to create the post.</p>
+
+<p>On another topic, I have a thing I do called my “Monthly Challenge”. Once a month I purposely challenge myself to something new. It may be creating a new habit, changing a habit, trying new software etc… I’ve written about some of these in my DAW posts, but I will be trying to post about all of them on my blog now.</p>
+
+<p>This month I’ve decided to stop using <a href="http://www.vim.org">VIM</a> for text editing. I’ve decided to try the following editors in its place: <a href="https://www.sublimetext.com">Sublime Text</a>, <a href="https://atom.io">Atom</a>, <a href="https://macromates.com">TextMate</a>, <a href="https://code.visualstudio.com">VSCode</a> and <a href="http://brackets.io">Brackets</a>.</p>
+
+<p>I will tell you that off the bat, I absolutely <strong>LOVE</strong> <a href="https://code.visualstudio.com">VSCode</a>. I’ve written the last 2 components for this site and the last 2 posts with it. I’ve done a small C project and a few python scripts as well. It’s <em>FANTASTIC</em>. I may not even try the other editors! (Well that’s a lie. I triet Atom first, and it was slow as molasses, so I won’t be going back to that.)</p>
+
+<p>There might be a hint as to what I’m working on now in this post. It shouldn’t be difficult to spot :) It’s <em>A LOT</em> of work though, so give me a day or two to finish up.</p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>This post took 15 minutes to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+:ET

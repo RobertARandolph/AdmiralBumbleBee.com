@@ -1,0 +1,89 @@
+I")<p>Today we’re going to have a tutorial on how to replace the switches on the Yamaha RM1x. Why would you do this you may ask? There’s a few reasons:</p>
+
+<ul>
+  <li>The switches break. It’s fairly common for the switches on this machine to go bad and be very difficult to use.</li>
+  <li>You can have better feel on your switches. Switches with a tactile click are much better for this purpose.</li>
+  <li>Resale value! The RM1x is worth more when the most common problem and complaint is resolved.</li>
+</ul>
+
+<!--more-->
+
+<p>To begin with, let’s make another list! Supplies you will need!</p>
+
+<ul>
+  <li>Screwdriver</li>
+  <li>Tape</li>
+  <li>Marking device</li>
+  <li>Solder</li>
+  <li>Soldering iron</li>
+  <li>Some sort of desoldering device. I’m using braid in this tutorial for simplicity of demonstration.</li>
+  <li>New Switches: I suggest purchasing <a href="http://search.digikey.com/scripts/DkSearch/dksus.dll?lang=en&amp;site=US&amp;KeyWords=401-1796-ND&amp;x=0&amp;y=0">these switches</a></li>
+  <li>A good work space</li>
+</ul>
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#dissassemble" id="markdown-toc-dissassemble">Dissassemble!</a></li>
+  <li><a href="#prepare-for-re-assembly" id="markdown-toc-prepare-for-re-assembly">Prepare for re-assembly</a></li>
+  <li><a href="#dissassemble-more" id="markdown-toc-dissassemble-more">Dissassemble more</a></li>
+  <li><a href="#desolder" id="markdown-toc-desolder">Desolder</a></li>
+  <li><a href="#new-switches" id="markdown-toc-new-switches">New switches!</a></li>
+  <li><a href="#finished" id="markdown-toc-finished">Finished</a></li>
+</ul>
+
+<h1 id="dissassemble">Dissassemble!</h1>
+
+<p>First thing we need to do is disassemble this thing. Remove the knobs, then remove the screws.I suggest getting a few cups so you can keep the screws organized. It can be a pain to try and figure out which screws go where later.</p>
+
+<p><img src="/assets/Rm1x/wpid-P11104643.jpg" alt="Prepped" /></p>
+
+<p>Now take the top cover off. If it doesn’t come off then you forgot a screw.</p>
+
+<h1 id="prepare-for-re-assembly">Prepare for re-assembly</h1>
+
+<p>I’m sure people will think this is dumb, since you can’t reconnect these cables incorrectly, but take some tape and label all the blue cables!! It’s not so you remember where to plug them in. There are 2 layers to the RM1x and you will need to position the cables when putting on the top layer. The last thing you want is to screw through a cable or end up ripping something out because it’s not positioned properly beneath the board.</p>
+
+<p>Trust me, this is a good idea.</p>
+
+<p><img src="/assets/Rm1x/wpid-P11104682.jpg" alt="Half way in" /></p>
+
+<h1 id="dissassemble-more">Dissassemble more</h1>
+
+<p>Remove all the screws on the floppy drive, and the top circuit board. Once again try to keep things in well organized cups or ramequins, because screwing up the re-assembly sucks. Har har.</p>
+
+<p>Fully remove the top board and set it aside, preferably on something you know is non-static and clean.</p>
+
+<p>Unscrew the bottom board and do the same thing. We’ll be working on the bottom board.</p>
+
+<p><img src="/assets/Rm1x/wpid-P11104542.jpg" alt="The Insides!" /></p>
+
+<h1 id="desolder">Desolder</h1>
+
+<p>I’m using braid in this tutorial much to my chagrin, but I thought it would be easier to demonstrate, and easier for a newbie to use. I can assure you off camera this is not how I did it.</p>
+
+<p>When using desoldering braid, simply press the braid down against the solder and put your soldering iron on top of the braid. Once you see the solder wicked, move on.</p>
+
+<p><img src="/assets/Rm1x/wpid-P11104742.jpg" alt="Desolder" /></p>
+
+<p>We’re going to remove the bottom row of switches only for this. The keyboard section.</p>
+
+<h1 id="new-switches">New switches!</h1>
+
+<p>Now simply put on the new switches once the old ones are all gone!</p>
+
+<p>I put the switch into the holes, then press the legs out slightly so it sits in there tightly when I turn it upside down to solder.</p>
+
+<p>The proper procedure is to heat up the switch then apply solder. This makes sure you have a complete bond between the metal and solder.</p>
+
+<p><img src="/assets/Rm1x/wpid-P1110473.jpg" alt="New Switches" /></p>
+
+<h1 id="finished">Finished</h1>
+
+<p>New switches are on. You were patient and now you are rewarded. Carefully put the cables back and carefully put the top layer on. I can not emphasize how easy it is to put a screw through one of those cables. Don’t do it!</p>
+
+<p>Here’s a picture of the board half done with new switches, just for reference.</p>
+
+<p><img src="/assets/Rm1x/wpid-P11104762.jpg" alt="Done" /></p>
+
+<p>Wasn’t that easy? Remove screws, organize screws, brain on solder, iron on braid, switches in holes, legs bent, iron on switch, solder on switch, screws in holes, beats in brain. Done. Cool.</p>
+:ET

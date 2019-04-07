@@ -1,0 +1,153 @@
+I"9+<p><img src="/assets/DP/Featurespt2.png" alt="Features again!" /></p>
+
+<p>As part of this ongoing series showing some of the cool stuff in <a href="http://motu.com/products/software/dp">Digital Performer 9</a>, today I will discuss: Offline branching undo, Dynamic Equalizer, Spatial Maximizer and Track Grouping.</p>
+
+<p>Be sure to check out the other DP Features posts!</p>
+
+<ul>
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/10/Cool-Features-in-Digital-Performer/.-Part-1.html">Cool Features in Digital Performer... Part 1</a></li>
+    
+ 
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html">Cool Features in Digital Performer... Part 3</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/13/Cool-Features-in-Digital-Performer/.-Part-4.html">Cool Features in Digital Performer... Part 4</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html">Cool Features in Digital Performer... Part 5</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2016/12/16/Things-I-hate-about-Digital-Performer.html">Things I hate about Digital Performer...</a></li>
+    
+ 
+    
+        <li><a class="page-link" href="/music/2019/03/15/Things-I-dont-hate-about-Digital-Performer-10.html">Things I don't hate about Digital Performer: 10 edition</a></li>
+    
+
+</ul>
+
+<!--more-->
+
+<h1 class="no_toc" id="contents">Contents</h1>
+<ul id="markdown-toc">
+  <li><a href="#offline-branching-undo" id="markdown-toc-offline-branching-undo">Offline branching undo</a></li>
+  <li><a href="#plug-ins-part-2---dynamic-equalizer-x2" id="markdown-toc-plug-ins-part-2---dynamic-equalizer-x2">Plug-ins part 2 - Dynamic Equalizer x2</a>    <ul>
+      <li><a href="#dynamic-equalizer" id="markdown-toc-dynamic-equalizer">Dynamic Equalizer</a></li>
+      <li><a href="#spatial-maximizer" id="markdown-toc-spatial-maximizer">Spatial Maximizer</a></li>
+    </ul>
+  </li>
+  <li><a href="#track-grouping" id="markdown-toc-track-grouping">Track Grouping</a></li>
+  <li><a href="#notes" id="markdown-toc-notes">Notes</a></li>
+  <li><a href="#support-me" id="markdown-toc-support-me">Support me!</a></li>
+</ul>
+
+<h1 id="offline-branching-undo">Offline branching undo</h1>
+
+<p><img src="/assets/DP/Undo.png" alt="Branched Undo!" /></p>
+
+<p>This is a big one. What does that phrase, “Offline branching undo” mean? Let’s break it down.</p>
+
+<ul>
+  <li>
+    <p>Offline - This means that your undo history is saved and available even after you close your project. Note that I’m using a project from <strong><em>2008</em></strong>, created 3 versions ago, in these pictures!</p>
+  </li>
+  <li>
+    <p>Branching - Imagine you are at a point in your project that we’ll call X. Now you do actions “A B C”. Your history now looks like “X A B C”. In most DAWs, if you undo back to X then do actions “Q R S” now your undo history is overwritten to “X Q R S”. “A B C” will now be gone forever. In DP you retain <em>both histories</em>. That means if did “A B C”, then went back to X and did “Q R S”, if you go back to X again you can choose to redo “A B C” <strong>or</strong> “Q R S”. In DP your undo history retains these branches! The highlighted actions in the above image are potential branches you could take when redoing from a specific point.</p>
+  </li>
+</ul>
+
+<p>There is one caveat: Not everything in DP is undoable. Specifically you can not undo changes in the mixer. So as DP is right now, you can make some funky things happen if you have a lot of mixer changes and then you try to undo some edit changes done in between. If you keep your recording/editing/mixing separate then it works great.</p>
+
+<p>Despite the lack of mixer undo, <em>DP has separate undo stacks for soundfiles</em>, your main project and POLAR. Every soundfile has its own offline branching undo! This can be an <em>amazing</em> feature when working with post-production for film, or when working with heavily edited genres of music like IDM or DnB.</p>
+
+<p>Another thing is that DP’s undo is <em>unlimited</em>. Most other DAWs have a preference for setting the number of undo levels. This is not a thing in DP.</p>
+
+<p><img src="/assets/DP/UndoPref.png" alt="Undo Preferences" /></p>
+
+<p>Given that this could create a massive amount of data, you have pruning options as shown above.</p>
+
+<p><img src="/assets/DP/UndoTime.png" alt="Undo Timeline" /></p>
+
+<p>The Undo History window also has a navigatable display showing you a timeline of changes. You can go through this timeline and basically see what your undo stack looked like at a specific time and date if you want. It also gives you an overlook of the history of the undo stack.</p>
+
+<h1 id="plug-ins-part-2---dynamic-equalizer-x2">Plug-ins part 2 - Dynamic Equalizer x2</h1>
+
+<h2 id="dynamic-equalizer">Dynamic Equalizer</h2>
+
+<p><img src="/assets/DP/DynEQ.gif" alt="Dynamic Equalizer" /></p>
+
+<p>Dynamic Equalizers seem like a daunting effect, but if you understand what a compressor is then it’s very simple. A compressor acts on the gain of a signal as a whole. Dynamic equalizers have compressors (or expanders/gate/limiter etc..) that action the gain <em>of a filter band</em> instead of upon the gain of the whole signal.</p>
+
+<p>Dynamic equalizers are exceptionally useful tools. They allow you to make changes on the spectral content of a signal solely based upon the envelop of the signal. Maybe your singer gets a bit nasally in some shouty parts, but sounds great otherwise. Dynamic EQ is your saviour. Maybe the attack of your kick is amazing and you want it untouched, but you need some more mid-range on the ‘boom’ of it. Dynamic EQ will do it.</p>
+
+<p>Dynamic EQs aren’t difficult to find in the third-party world. Many products are available like: <a href="https://www.plugin-alliance.com/en/products/bx_dyneq_v2.html">bx_dynEQ v2</a>, <a href="http://www.voxengo.com/product/glisseq/">Voxengo GlissEQ</a>, <a href="http://bedroomproducersblog.com/2015/11/18/tdr-nova-dynamic-equalizer/">TDR Nova</a>, <a href="http://www.toneboosters.com/tb-flx/">Toneboosters FIX</a> and even <a href="http://www.fabfilter.com/products/pro-mb-multiband-compressor-plug-in">Fabfilter Pro-MB</a> is a dynamic EQ in its default mode.</p>
+
+<p>Despite owning a number of dynamic EQ plug-ins, I always grab the Motu Dynamic EQ first when I feel I need that type of process. It’s straightforward and competently designed. The inclusion of this plugin is another example of a stock processor that will easily save you $100+ by choosing DP over another product.</p>
+
+<h2 id="spatial-maximizer">Spatial Maximizer</h2>
+
+<p><img src="/assets/DP/SpatMax.gif" alt="Spatial Maximizer" /></p>
+
+<p>The Spatial Maximizer is 2 Dynamic EQs in one package. Each processor operates on either the Mid or Side signal.</p>
+
+<ul>
+  <li>
+    <p>Side - This is content that is exclusive to the Left and Right channels respectively.</p>
+  </li>
+  <li>
+    <p>Mid - This is content that is present in both the left and Right channels.</p>
+  </li>
+</ul>
+
+<p>By splitting the signal up in to the Mid and Side components, the Spatial maximizer allows for some rather creative processing. Once again this is something that you can get with many third-party products. Mid/Side dynamic EQ is a fairly rare process and by having this stock plugin available you don’t need to think about purchasing another tool on the rare occasions that you may require it.</p>
+
+<h1 id="track-grouping">Track Grouping</h1>
+
+<p><img src="/assets/DP/TrackGroup.png" alt="Track Grouping Preferences" /></p>
+
+<p>Track Grouping is something that most every DAW has. DP takes it a few steps further by giving you fine-grained control over what a group means.</p>
+
+<p>As you can see in the picture above, what specific aspects of the select tracks are grouped is definable. If you want a group that only controls the zoom level of the tracks then you can do it. If you want macro control of only sends for certain tracks and nothing else, you can do it. If you want some tracks to respond to take/comp commands but not anything else (such as mixer changes) then you can do it.</p>
+
+<p>Another aspect of this is that groups are not linked to any sort of hierarchy in DP. You can have a group of (Track 1, Track 2, Track 3) and another group of (Track 2, Track 7, Track 11) and yet another of (Track 1, Track 7 and Track 18). They can all overlap, and you have fine-grained control over what the group actually does.</p>
+
+<p>For me this a <em>huge</em> feature in DP. Many other DAWs have ‘dumb grouping’ where all aspects of tracks are grouped. Most DAWs also link grouping to a specific hierarchy, and this does not allow overlapping groups or groups that exist outside folders. With DP you can have anything grouped no matter where it is and it will stay group.</p>
+
+<p>DP also has a shortcut for very quickly suspending track groups. Press the shortcut, then the number of the track group and it’s disabled. There’s also a handy window that allows you to apply new group settings to a group, move groups, turn groups on/off and manage groups.</p>
+
+<p>A hidden grouping feature of DP is that you can temporarily make nearly any command apply as a grouped-command by holding down the T key when performing it. If you wish for an action to apply to All <strong>Visible</strong> Tracks then you can hold down the W key while performing your action. With DP’s track visibility features this can be a pretty convenient trick.</p>
+
+<h1 id="notes">Notes</h1>
+
+<p>Note: All images are taken with the ‘8 bit’ theme for DP9.</p>
+
+<p>Be sure to check out the other DP Features posts!</p>
+
+<p><a href="/music/2016/12/10/Cool-Features-in-Digital-Performer/.-Part-1.html">Part 1</a>
+<a href="/music/2016/12/12/Cool-Features-in-Digital-Performer/.-Part-3.html">Part 3</a>
+<a href="/music/2016/12/13/Cool-Features-in-Digital-Performer/.-Part-4.html">Part 4</a>
+<a href="/music/2016/12/14/Cool-Features-in-Digital-Performer/.-Part-5.html">Part 5</a></p>
+
+<h1 id="support-me">Support me!</h1>
+
+<p>If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a></p>
+
+<p><a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!" /></a></p>
+
+<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick" />
+<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ" />
+<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1" />
+</form>
+
+<p>If you have any questions or comments, please comment below! I read every comment and respond to most.</p>
+:ET
