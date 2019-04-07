@@ -1,15 +1,0 @@
-I"<img src="/assets/Reaper/DrumFreq/DrumFreq.png" alt="Drum Frequency Noise Gating">
-<div class="image-caption">Drum Frequency Noise Gating</div>
-
-<p>Noise Gates are a staple on multi-tracked drums. The gate turns off the volume until the drum hits and it’s near-instantly turned up for the duration of the drum hit.</p>
-
-<p>There’s 2 issues with this though:</p>
-
-<ul>
-  <li>It sounds unnatural - Having the drum suddenly pop in with whatever background noise is happening just doesn’t sound right. You get this weird blast of rumble and cymbals also messes up the mix slightly.</li>
-  <li>It messes with your mix - The drum mix is setup with the relationships of the sound setup somewhat statically. Having a sound pop in that completely messes with that balance <em>can</em> (but not always!) mess up those relationships for that split second.</li>
-</ul>
-
-<p>I have a method that can solve both of these things in some scenarios. It’s not a cure-all of course, and like with any production technique there are tradeoffs. Let’s explore…</p>
-
-:ET
