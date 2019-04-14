@@ -368,7 +368,8 @@ You hear each note as it's played if you have preview mode on.
 
 There are some significant omissions:
 
-* No velocity editing with input - There's no third dimension when inputting MIDI notes that allows you to simultaneously input the velocity.
+* ~No velocity editing with input - There's no third dimension when inputting MIDI notes that allows you to simultaneously input the velocity.~
+  * **EDIT** - I was totally wrong here. Apparently moving up/down after clicking in the note works to do this.
 * No Chord Input - The MIDI editor does not have chord input.
 * No Scale Input/Locking - Working to a defined scale is not easily possible.
 * No "paint" tool - Some DAWs have a tool that allows you to paint in patterns... not here. Live does have a 'cut/copy/paste time...' function that will work with a selection of time from start to end of the selection regardless of where the actual notes start. It's not a replacement for paint.
