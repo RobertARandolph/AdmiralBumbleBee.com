@@ -3,3 +3,4 @@
 /.bundle
 /bundler_stubs
 .sass-cache
+.jekyll-cache
