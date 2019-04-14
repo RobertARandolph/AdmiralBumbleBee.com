@@ -87,7 +87,7 @@ Search is fairly basic. It appears that spaces are wildcards, and anything else 
 
 Browsing is somewhat problematic as well. Given that you know you want an audio loop of an [amen break](https://en.wikipedia.org/wiki/Amen_break), where would you find it? It could potentially be in every single category listed above! Best of luck, and I hope your library is very well organized.
 
-Previews of samples are simple. You hear a sound. Live can attempt to warp the sample to the project tempo, or play it back "raw" without any warping. There is a small waveform of the preview that is non-interactive.
+Previews of samples are simple. You hear a sound. Live can attempt to warp the sample to the project tempo, or play it back "raw" without any warping. There is a small waveform of the preview that is non-interactive. (edit: I have been informed that you should be able to click on the overview to listen from a specific time. For some reason that isn't working for me, but it should apparently.)
 
 ## Synthesizers
 
