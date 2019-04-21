@@ -259,7 +259,7 @@ I'm not even sure I could begin to list the features missing from MIDI editing, 
 * No split/divide/scissors? - This is such an incredibly strange thing to be missing that I'm almost certain I just can't figure out how to do it. Can you really not split notes in Live?
 * No heal/glue? - Like split, I can't figure out how to join two notes. Someone please tell me this isn't missing.
 * No Solo - It does not appear that there is a way to solo the clip in the editor, instead you must utilize the track solo.
-  * No mute either.
+  * No mute either. (I'm talking about muting the clip from the clip editor)
 * No overlap fix - There are no tools for fixing or transforming note overlaps.
 * Legato is one button - The legato feature is almost interesting, but there is no scaling or overlap setting. Adjusting the amount of overlap can be important for certain parts and synthesizers.
 * Absolutely no tools for articulations/keyswitches - MIDI is MIDI in Live. There's no distinction between what may be 'music' and what might be 'data'. There's all sorts of weird labour intensive workarounds. Gross.
