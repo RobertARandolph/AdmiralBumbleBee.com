@@ -124,7 +124,8 @@ Here it comes... you knew it was coming.
 
 * No surround support
 * Small Faders - Live's faders do support holding shift for fine tuning parameters, however the fader size is relatively small which necessitates hold shift for most fader movements (unless you mix like a mongoloid... like me).
-* Only balance - Live does not have a pan control. It has _balance_. Balance changes the level of the left and right channels in proportion to each other. Pan allows you to change the output of any channel to any other channel. Pan and Balance are often used interchangeably and "Stereo Pan" or "Stereo Balance" being used in place of "Pan".
+* ~~Only balance - Live does not have a pan control. It has _balance_. Balance changes the level of the left and right channels in proportion to each other. Pan allows you to change the output of any channel to any other channel. Pan and Balance are often used interchangeably and "Stereo Pan" or "Stereo Balance" being used in place of "Pan".~~
+  * **EDIT** - Totally wrong there. Right click a balance control to switch to "Split stereo mode".
   * No surround pan either.
   * Likewise no width control.
 * No plugin display - Plugins are only displayed in the device area, which is _also_ the clip editing area. This makes mixing while composing a task compromised of many shift-tab keypresses.
