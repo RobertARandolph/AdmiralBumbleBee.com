@@ -280,7 +280,7 @@ There's one notable editing feature as shown in the video above. You can select 
 
 There are no features for thinning or interpolating automation data. No features for shaping existing data in any other way.
 
-One of the most annoying things is that I can't find anyway to clear all envelopes on a track. [Particularly useful after recording automation](#recording) and you're a few steps into you're project before you notice, thus making undo unpalatable.
+~~One of the most annoying things is that I can't find anyway to clear all envelopes on a track. [Particularly useful after recording automation](#recording) and you're a few steps into you're project before you notice, thus making undo unpalatable.~~ **EDIT** - Right click on the _track header_ to find this option. Right clicking on the envelope itself does not show this option. Glad this exists.
 
 ## MIDI CC/other
 
