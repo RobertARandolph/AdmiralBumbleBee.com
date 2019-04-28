@@ -80,7 +80,7 @@ There are a few notable features:
 
 And some gripes:
 
-* Sends are always visible - It seems that many modern producer/engineers don't utilize sends enough, but if you do then your mixer will be cluttered very quickly. Sends are always visible as a slider in the Arrangement or knob in the Session view.
+* Sends are always visible - It seems that many modern producer/engineers don't utilize sends enough, but if you do then your mixer will be cluttered very quickly. Sends are always visible as a slider in the Arrangement or knob in the Session view. (**EDIT** - To be clear, I mean that it's either _all sends visible_ or nothing. Incredibly annoying to show sends for everything when only a handful of tracks are using sends)
   * Sends are unlabeled in Arrangement - there's no way to know which send slider is which send in the Arrangement view without counting!
   * Sends are labeled by alphabet in Session - Sends are labeled with A B C D E etc... rather than their name in the Session view.
 * Sends are globally pre/post fader - It's desirable to make sense post-fader for things like reverbs, where you want your track fader to reduce the send level. Pre-fader is useful for level-dependent effects like saturation or compression. However, there's times where you may want the reverse. Live makes a given send/return path pre or post for _all_ tracks by clicking a button in the Master track.
