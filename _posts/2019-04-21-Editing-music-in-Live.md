@@ -19,6 +19,19 @@ It's time to cover what I consider "editing" in Ablteton Live, and by 'cover' I 
 
 Welp. On with it...
 
+**Other parts in this series**: 
+
+{% assign lives = site.posts | where: "series", "ableton" | sort: 'date' %}
+<ul>
+{% for my_page in lives %} 
+    {% if page.url != my_page.url  %}
+        <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
+    {% endif %}
+{% endfor %}
+</ul>
+
+**VALID FOR LIVE 10.1**. Future updates may render some of this information invalid.
+
 <!--more-->
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
@@ -65,7 +78,6 @@ There are some _notable and basic_ capabilities missing:
 * Boundaries adjustment - There is no way to move the clip boundaries while keeping the contents in the same place. Useful for content that is not perfectly timed to the grid, but you'd like to use clip boundaries to delineate the start stop. This is a two step procedure in Live currently.
 * Adjust edge/fade _to_ - There are no commands to pull a specific edge to the current place. You may be zoomed in where you can not see the left or right edge and desire to pull the edge to within your view. This currently requires a split, select and delete operation in Live. This is a very important feature for fast editing.
 * Split - Splitting audio is annoying. The split is at a point where you recently double clicked, which is shown by a thin colour shifting line. I was unable to figure out how to make this happen _not_ at a grid line. That makes any sort of precise edit require many steps.
-  * **EDIT** - Alt/Option seems to bypass the grid for this, instead of ctrl/command which bypasses the grid for everything else. Somehow more annoying than when I didn't know how.
 * Clip Volume/Automation - I'm considering this an edit feature as it's often used in place of split/delete. Live has no automation that attaches to the clip that's shown in the arrangement view. Clip envelopes do exist in the clip editor, as does clip volume.
 
 The amount of advanced functionality that's missing is a list that's likely larger than this entire article itself. The most flagrant exclusions:

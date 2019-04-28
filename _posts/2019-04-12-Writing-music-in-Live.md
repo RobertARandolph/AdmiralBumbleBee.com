@@ -31,6 +31,8 @@ It's a surprisingly large article for the topic, and surprisingly... well, you c
 {% endfor %}
 </ul>
 
+**VALID FOR LIVE 10.1**. Future updates may render some of this information invalid.
+
 <!--more-->
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.

@@ -35,3 +35,5 @@ I hope to make this an interesting series. I'm going into this with fewer positi
     {% endif %}
 {% endfor %}
 </ul>
+
+**VALID FOR LIVE 10.1**. Future updates may render some of this information invalid.
