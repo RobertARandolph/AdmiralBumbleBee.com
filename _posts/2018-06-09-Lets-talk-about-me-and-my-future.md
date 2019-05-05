@@ -178,7 +178,7 @@ Over the last few years I've had to change medication regimens that were working
 
 Our insurance changes their formulary (list of drugs that they cover) each year. Often requiring me to change medications.
 
-Currently I have _no treatment_ for narcolepsy. I have been offered a (heart medication)[https://en.wikipedia.org/wiki/Nadolol] that would assist with the fainting, and possibly panic, but that's not covered currently either.
+Currently I have _no treatment_ for narcolepsy. I have been offered a [heart medication](https://en.wikipedia.org/wiki/Nadolol) that would assist with the fainting, and possibly panic, but that's not covered currently either.
 
 There's 2 other treatments I could attempt, but it'd require changes of other medications which I have no alternatives for due to health insurance.
 
