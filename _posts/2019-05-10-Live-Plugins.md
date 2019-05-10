@@ -2,7 +2,7 @@
 layout: post
 title: "Live's Plugins: A series of mini-reviews" 
 comments: true
-date:   2019-05-08_15:49:48 
+date:   2019-05-10_12:49:48 
 categories: music
 tags: ['Ableton Live']
 image: /assets/Live/Plugins/Instruments/DrumRack.png
