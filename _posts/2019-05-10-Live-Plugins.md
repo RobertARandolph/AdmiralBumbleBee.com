@@ -95,7 +95,7 @@ It's cool. I like it.
 
 Beat Repeat is quite possibly the most overused effect in Ableton Live.
 
-Beat Reapet  samples a buffer of audio and then repeats parts of the buffer at a specific spacing, offset and with a chance for the effect to occur overall. The pitch can be changed, increasing in effect with repetitions by an amount.
+Beat Repeat  samples a buffer of audio and then repeats parts of the buffer at a specific spacing, offset and with a chance for the effect to occur overall. The pitch can be changed, increasing in effect with repetitions by an amount.
 
 Beat Repeat is incredibly fun to use. It can be used in a subtle fashion to add slight variation to drumbeats, or used on a wide variety of sources for that popular stuttering effect. I don't think that Ableton Live would be what it is now without Beat Repeat. It's made an incredibly popular effect, that used to take ages of hand editing, available to even the most novice of producers.
 
