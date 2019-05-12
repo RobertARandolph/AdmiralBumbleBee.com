@@ -137,6 +137,7 @@ That said, at least you can preview grooves at all, unlike many other DAWs.
 ## Criticisms
 
 * Speed - Live's browser ranges between mildly slow and incredibly slow for me on my 18-core system with 3,000mb/s disc read speed. Unacceptable! I initially thought this was an indexing issue, and that it would get faster over time, but in 2 weeks this has not happened. If finder/spotlight/explorer/cortana can find the file instantly, then so should Live.
+  * [See this reddit thread for more discussion on this point](https://www.reddit.com/r/ableton/comments/bnj5m3/thoughts_on_this_guys_critisims_of_ableton_live/en86m9j/?context=3)
 * Collapsed Results - Search results remember their collapsed/expanded state for folders. That means that it's highly likely that anything you haven't looked at recently will be hidden by default.
 * Sort - You can sort results by name/size/type/rank/place. Created, last used (global), last used (project), last modified and format would be useful. Type is just the extension. Format would be based on metadata inside the file ("Wav" can represent a variety of formats)
   * Type does not differentiate instrument/effect. Sorting by type won't save you when you want to browse for a VSTi in your folder.
