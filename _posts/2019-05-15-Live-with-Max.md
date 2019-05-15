@@ -5,13 +5,13 @@ comments: true
 date:   2019-05-15_10:12:34 
 categories: music
 tags: ['Ableton Live']
-image: /assets/Live/Max/MaxForLive.png
+image: /assets/Live/plugins/Max/MaxForLive.png
 description: Max for Live
 series: ableton
 ---
 
 {::nomarkdown}
-<img src="/assets/Live/Max/MaxForLive.png" alt="Max for Live">
+<img src="/assets/Live/plugins/Max/MaxForLive.png" alt="Max for Live">
 <div class="image-caption">Max for Live</div>
 {:/nomarkdown}
 
@@ -46,7 +46,7 @@ Max for Live is probably the most incredible value you can get as a Live user, s
 # Max
 
 {::nomarkdown}
-<img src="/assets/Live/Max/MaxForLive2.png" alt="Max for Live">
+<img src="/assets/Live/plugins/Max/MaxForLive2.png" alt="Max for Live">
 <div class="image-caption">Max for Live</div>
 {:/nomarkdown}
 
@@ -62,7 +62,7 @@ You move objects around, connect them, set parameters and that's it. Simple but 
 
 {::nomarkdown}
 <video autoplay loop muted class="gifvid">
-<source src="/assets/Live/Max/LFO.mp4" type="video/mp4">
+<source src="/assets/Live/plugins/Max/LFO.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <div class="video-caption">LFO for free</div>
@@ -83,7 +83,7 @@ There's plenty of incredible paid devices out there too, and quite often cheaper
 # Max as a Patch
 
 {::nomarkdown}
-<img src="/assets/Live/Max/Convolution.png" alt="Convolution Reverb Pro">
+<img src="/assets/Live/plugins/Max/Convolution.png" alt="Convolution Reverb Pro">
 <div class="image-caption">Convolution Reverb Pro</div>
 {:/nomarkdown}
 
@@ -140,7 +140,7 @@ If you can afford it, Max for Live brings live into the stratosphere of function
 
 # Support Me!
 
-This post took 5 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
+This post took 9 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
 
 <a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
