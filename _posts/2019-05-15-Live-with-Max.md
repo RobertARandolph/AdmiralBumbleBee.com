@@ -11,7 +11,7 @@ series: ableton
 ---
 
 {::nomarkdown}
-<img src="/assets/Live/plugins/Max/MaxForLive.png" alt="Max for Live">
+<img src="/assets/Live/Plugins/Max/MaxForLive.png" alt="Max for Live">
 <div class="image-caption">Max for Live</div>
 {:/nomarkdown}
 
@@ -46,7 +46,7 @@ Max for Live is probably the most incredible value you can get as a Live user, s
 # Max
 
 {::nomarkdown}
-<img src="/assets/Live/plugins/Max/MaxForLive2.png" alt="Max for Live">
+<img src="/assets/Live/Plugins/Max/MaxForLive2.png" alt="Max for Live">
 <div class="image-caption">Max for Live</div>
 {:/nomarkdown}
 
@@ -62,7 +62,7 @@ You move objects around, connect them, set parameters and that's it. Simple but 
 
 {::nomarkdown}
 <video autoplay loop muted class="gifvid">
-<source src="/assets/Live/plugins/Max/LFO.mp4" type="video/mp4">
+<source src="/assets/Live/Plugins/Max/LFO.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <div class="video-caption">LFO for free</div>
@@ -83,7 +83,7 @@ There's plenty of incredible paid devices out there too, and quite often cheaper
 # Max as a Patch
 
 {::nomarkdown}
-<img src="/assets/Live/plugins/Max/Convolution.png" alt="Convolution Reverb Pro">
+<img src="/assets/Live/Plugins/Max/Convolution.png" alt="Convolution Reverb Pro">
 <div class="image-caption">Convolution Reverb Pro</div>
 {:/nomarkdown}
 
