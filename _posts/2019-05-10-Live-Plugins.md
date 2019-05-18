@@ -119,7 +119,9 @@ The inability to load your own impulses is a criminal offense in some countries,
 	<div class="image-caption">Channel EQ</div>
 {:/nomarkdown}
 
-Channel EQ is an extremely simple three band equalizer that I would assume only exists for backwards compatibility, or for people on extremely limited systems.
+Channel EQ is an extremely simple three band equalizer ~~that I would assume only exists for backwards compatibility, or for people on extremely limited systems.~~
+
+**EDIT**: It was introduced in 10.1 as a simpler alternative EQ. I don't understand this decision.
 
 ## Chorus
 
