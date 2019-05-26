@@ -11,8 +11,8 @@ series: DAWDiffer
 ---
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Waveform.png">
-<img src="/assets/differ/Automation2/Thumbnails/Waveform.png" alt="Waveform">
+<a href="/assets/Differ/Automation2/Waveform.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Waveform.png" alt="Waveform">
 </a>
 <div class="image-caption">Waveform</div>
 {:/nomarkdown}
@@ -132,8 +132,8 @@ Reference for you.
 ## Pro Tools 2019.5.0
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/ProTools.png">
-<img src="/assets/differ/Automation2/Thumbnails/ProTools.png" alt="Pro Tools">
+<a href="/assets/Differ/Automation2/ProTools.png">
+<img src="/assets/Differ/Automation2/Thumbnails/ProTools.png" alt="Pro Tools">
 </a>
 <div class="image-caption">Pro Tools</div>
 {:/nomarkdown}
@@ -144,8 +144,8 @@ Once again Pro Tools is king. The fade is <0.5ms and it's a complete fade that e
 ## Reaper 5.978
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Reaper.png">
-<img src="/assets/differ/Automation2/Thumbnails/Reaper.png" alt="Reaper">
+<a href="/assets/Differ/Automation2/Reaper.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Reaper.png" alt="Reaper">
 </a>
 <div class="image-caption">Reaper</div>
 {:/nomarkdown}
@@ -155,16 +155,16 @@ Reaper is second place to PT only because of a slightly slower fade. Open the im
 ## Digital Performer 10.01
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/DPSmart.png">
-<img src="/assets/differ/Automation2/Thumbnails/DPSmart.png" alt="Digital Performer">
+<a href="/assets/Differ/Automation2/DPSmart.png">
+<img src="/assets/Differ/Automation2/Thumbnails/DPSmart.png" alt="Digital Performer">
 </a>
 <div class="image-caption">Digital Performer</div>
 {:/nomarkdown}
 
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/DPNaive.png">
-<img src="/assets/differ/Automation2/Thumbnails/DPNaive.png" alt="Digital Performer">
+<a href="/assets/Differ/Automation2/DPNaive.png">
+<img src="/assets/Differ/Automation2/Thumbnails/DPNaive.png" alt="Digital Performer">
 </a>
 <div class="image-caption">Digital Performer</div>
 {:/nomarkdown}
@@ -184,8 +184,8 @@ Open the Event List and make sure the automation points occur at the same time a
 ## Ableton Live 10.1b22
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Live.png">
-<img src="/assets/differ/Automation2/Thumbnails/Live.png" alt="Live">
+<a href="/assets/Differ/Automation2/Live.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Live.png" alt="Live">
 </a>
 <div class="image-caption">Live</div>
 {:/nomarkdown}
@@ -200,8 +200,8 @@ I believe that this is preferable to Cubase's method.
 ## Cubase 10.0.15
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Cubase.png">
-<img src="/assets/differ/Automation2/Thumbnails/Cubase.png" alt="Cubase">
+<a href="/assets/Differ/Automation2/Cubase.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Cubase.png" alt="Cubase">
 </a>
 <div class="image-caption">Cubase</div>
 {:/nomarkdown}
@@ -211,8 +211,8 @@ Cubase always fades from the previous value to the next. So if you were trying t
 ## Waveform 10.1.5
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Waveform.png">
-<img src="/assets/differ/Automation2/Thumbnails/Waveform.png" alt="Waveform">
+<a href="/assets/Differ/Automation2/Waveform.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Waveform.png" alt="Waveform">
 </a>
 <div class="image-caption">Waveform</div>
 {:/nomarkdown}
@@ -231,8 +231,8 @@ However, even though it's late, it's still better than everything below.
 ## Logic 10.4.4
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Logic.png">
-<img src="/assets/differ/Automation2/Thumbnails/Logic.png" alt="Logic">
+<a href="/assets/Differ/Automation2/Logic.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Logic.png" alt="Logic">
 </a>
 <div class="image-caption">Logic</div>
 {:/nomarkdown}
@@ -247,8 +247,8 @@ Annoying, but it's been like that for over a decade.
 ## Ardour 5.12
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Ardour.png">
-<img src="/assets/differ/Automation2/Thumbnails/Ardour.png" alt="Ardour">
+<a href="/assets/Differ/Automation2/Ardour.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Ardour.png" alt="Ardour">
 </a>
 <div class="image-caption">Ardour</div>
 {:/nomarkdown}
@@ -265,8 +265,8 @@ However, Ardour is _consistent_, and setting points to where you want isn't terr
 ## Bitwig 3.0 Beta 3
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/Bitwig.png">
-<img src="/assets/differ/Automation2/Thumbnails/Bitwig.png" alt="Bitwig">
+<a href="/assets/Differ/Automation2/Bitwig.png">
+<img src="/assets/Differ/Automation2/Thumbnails/Bitwig.png" alt="Bitwig">
 </a>
 <div class="image-caption">Bitwig</div>
 {:/nomarkdown}
@@ -281,8 +281,8 @@ I hope they notice this and get it fixed.
 ## FLStudio 20.1.2
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/FL.png">
-<img src="/assets/differ/Automation2/Thumbnails/FL.png" alt="FL Studio">
+<a href="/assets/Differ/Automation2/FL.png">
+<img src="/assets/Differ/Automation2/Thumbnails/FL.png" alt="FL Studio">
 </a>
 <div class="image-caption">FL Studio</div>
 {:/nomarkdown}
@@ -301,15 +301,15 @@ I'm fairly sure that this has to do with point priority regarding snapping. If t
 ## Studio One 4.5.0
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/StudioOne5.png">
-<img src="/assets/differ/Automation2/Thumbnails/StudioOne5.png" alt="Studio One">
+<a href="/assets/Differ/Automation2/StudioOne5.png">
+<img src="/assets/Differ/Automation2/Thumbnails/StudioOne5.png" alt="Studio One">
 </a>
 <div class="image-caption">Studio One</div>
 {:/nomarkdown}
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/ManS1SucksSometimes.png">
-<img src="/assets/differ/Automation2/Thumbnails/ManS1SucksSometimes.png" alt="Studio One Zoomed Out">
+<a href="/assets/Differ/Automation2/ManS1SucksSometimes.png">
+<img src="/assets/Differ/Automation2/Thumbnails/ManS1SucksSometimes.png" alt="Studio One Zoomed Out">
 </a>
 <div class="image-caption">Studio One Zoomed Out</div>
 {:/nomarkdown}
@@ -333,8 +333,8 @@ That's a 15,360 sample fade. 48 samples is 1ms. 320ms fade when then visual feed
 ## Studio One 4.1.4
 
 {::nomarkdown}
-<a href="/assets/differ/Automation2/StudioOne1.png">
-<img src="/assets/differ/Automation2/Thumbnails/StudioOne5.png" alt="Studio One">
+<a href="/assets/Differ/Automation2/StudioOne1.png">
+<img src="/assets/Differ/Automation2/Thumbnails/StudioOne5.png" alt="Studio One">
 </a>
 <div class="image-caption">Studio One</div>
 {:/nomarkdown}
