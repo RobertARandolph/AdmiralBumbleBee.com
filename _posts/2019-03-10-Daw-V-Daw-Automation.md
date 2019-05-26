@@ -230,7 +230,9 @@ Disgusting. This has been around since Logic 9.
 <div class="image-caption">Studio One 4.1.2 (click for larger image)</div>
 {:/nomarkdown}
 
-If you thought Logic was bad, just you wait! The folks at Presonus have some work to do.
+~~If you thought Logic was bad, just you wait! The folks at Presonus have some work to do.~~
+
+**EDIT**: And work they did. This is fixed in 4.5.
 
 ## Waveform 10.0.26
 
