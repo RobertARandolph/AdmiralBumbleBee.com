@@ -10,6 +10,13 @@ description: DAW Automation differences, part 2
 series: DAWDiffer
 ---
 
+{::nomarkdown}
+<a href="/assets/differ/Automation2/Waveform.png">
+<img src="/assets/differ/Automation2/Thumbnails/Waveform.png" alt="Waveform">
+</a>
+<div class="image-caption">Waveform</div>
+{:/nomarkdown}
+
 It's time for everyone's favorite DAW v DAW series!
 
 Today I'll be covering a difference that _really_ annoys me: Automation smoothing.
