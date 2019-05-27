@@ -334,7 +334,7 @@ That's a 15,360 sample fade. 48 samples is 1ms. 320ms fade when then visual feed
 
 {::nomarkdown}
 <a href="/assets/Differ/Automation2/StudioOne1.png">
-<img src="/assets/Differ/Automation2/Thumbnails/StudioOne5.png" alt="Studio One">
+<img src="/assets/Differ/Automation2/Thumbnails/StudioOne1.png" alt="Studio One">
 </a>
 <div class="image-caption">Studio One</div>
 {:/nomarkdown}
