@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAW v DAW - Part 2: Automation Speed"
+title: "DAW v DAW - Part 2: Fader Automation Speed"
 comments: true
 date:   2019-05-25_09:10:12 
 categories: Music
@@ -258,7 +258,7 @@ Annoying, but it's been like that for over a decade.
 <div class="image-caption">Ardour Setup</div>
 {:/nomarkdown}
 
-If you saw Bitwig's automation and thought it couldn't get worse then I have bad news. Ardour is equally as poor, but in _both_ situations. 20ms+ fade.
+Ardour is slow, but in _both_ situations. 20ms+ fade.
 
 However, Ardour is _consistent_, and setting points to where you want isn't terribly difficult.
 
