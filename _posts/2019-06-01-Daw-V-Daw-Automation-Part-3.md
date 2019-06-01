@@ -193,7 +193,7 @@ Fruity balance has a 300 sample transition (6.25ms). "Worse" [than Logic pro]({%
 <div class="image-caption">Bitwig automation with native Tool plugin</div>
 {:/nomarkdown}
 
-Some Bitwig users also think that (for reasons I _very much_ disagree with) that [make you should do automation with a plugin?](https://www.kvraudio.com/forum/viewtopic.php?f=259&t=526117).
+Some Bitwig users also think that (for reasons I _very much_ disagree with) [you should do automation with a plugin?](https://www.kvraudio.com/forum/viewtopic.php?f=259&t=526117).
 
 Let's give it a shot!
 
@@ -339,7 +339,7 @@ Even if you think that these things don't affect you, if your DAW isn't doing wh
 
 # Support Me!
 
-This post took XX hours to research, photograph, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
+This post took 19 hours to research, screensho t, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
 
 <a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
