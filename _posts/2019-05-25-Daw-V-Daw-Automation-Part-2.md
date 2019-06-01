@@ -68,6 +68,8 @@ All DAWs had their buffer size set to 64 samples. All other settings default.
 
 The goal is _not_ to abruptly jump. The goal is to do so without any significant artifacts such as pops/clicks. A fade is desirable, but a very quick interpolated fade.
 
+Why? Because no DAW in these tests shows a fade. It should render what you see.
+
 This can be verified with a high-overlap, large-window FFT as well as visual inspection.
 
 # Why?
