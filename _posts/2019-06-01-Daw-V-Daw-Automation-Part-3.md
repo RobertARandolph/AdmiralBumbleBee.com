@@ -142,6 +142,8 @@ What do we get? Some sort of monstrosity. There's multiple jumps, including a fa
 
 This is **VERY AUDIBLE** on any sort of automation fade. Please, go try it. Don't trust me. 
 
+**EDIT** - This is not a new thing apparently. I made a minor mistake here! This is the expected behaviour of Studio One. It's still ridiculous behaviour, for the reasons outlined in this article, but it's not a new bug. My mistake calling it a new bug!
+
 ### Clean
 
 {::nomarkdown}
