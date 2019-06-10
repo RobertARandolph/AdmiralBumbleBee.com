@@ -278,7 +278,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="7"> </daw>
 			<daw name="Cakewalk" rating="2"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
-            <daw name="Live" rating="2"> </daw>
+            <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
             <daw name="SawStudio" rating="3"> </daw>
@@ -294,7 +294,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="4"> </daw>
 			<daw name="Cakewalk" rating="5"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
-            <daw name="Live" rating="2"> </daw>
+            <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
             <daw name="SawStudio" rating="5"> </daw>
@@ -326,7 +326,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="1"> </daw>
 			<daw name="Cakewalk" rating="8"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="2"> </daw>
+            <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
             <daw name="SawStudio" rating="2"> </daw>
@@ -408,7 +408,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="0"> </daw>
 			<daw name="Cakewalk" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="8"> </daw>
+            <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
@@ -636,7 +636,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="0"> </daw>
 			<daw name="Cakewalk" rating="5" link="cakewalk-inserts"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="9"> </daw>
+            <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
             <daw name="SawStudio" rating="1"> </daw>
@@ -1076,7 +1076,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="5"> </daw>
 			<daw name="Cakewalk" rating="9"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
-            <daw name="Live" rating="5"> </daw>
+            <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
             <daw name="SawStudio" rating="3"> </daw>
@@ -1094,7 +1094,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="4"> </daw>
 			<daw name="Cakewalk" rating="5"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
-            <daw name="Live" rating="2"> </daw>
+            <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
@@ -1174,7 +1174,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="6"> </daw>
 			<daw name="Cakewalk" rating="7"> </daw>
 			<daw name="FLStudio" rating="5" link ="FLStudio-Step-Sequencer"> </daw>
-            <daw name="Live" rating="2"> </daw>
+            <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
@@ -1338,7 +1338,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="6"> </daw>
 			<daw name="Cakewalk" rating="4"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
-            <daw name="Live" rating="7"> </daw>
+            <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
@@ -1404,7 +1404,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="0"> </daw>
 			<daw name="Cakewalk" rating="8"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
-            <daw name="Live" rating="0"> </daw>
+            <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
@@ -1520,7 +1520,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="0"> </daw>
 			<daw name="Cakewalk" rating="8"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="2"> </daw>
+            <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
             <daw name="SawStudio" rating="7"> </daw>
@@ -1552,7 +1552,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="5"> </daw>
 			<daw name="Cakewalk" rating="3"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
-            <daw name="Live" rating="4"> </daw>
+            <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
             <daw name="SawStudio" rating="10"> </daw>
@@ -1732,7 +1732,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="7"> </daw>
 			<daw name="Cakewalk" rating="3"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
-            <daw name="Live" rating="5"> </daw>
+            <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
             <daw name="SawStudio" rating="10"> </daw>
