@@ -40,15 +40,15 @@ If you never do multitrack editing, give it a 0. Then DAWs that excel in this ar
 These are the versions that I have most recently evaluated the features (and stability) of:
 
 * Reaper 5.972
-* Digital Performer 10.0
+* Digital Performer 10.01
 * Cubase 10.0.15
-* Studio One 4.1.2
-* Pro Tools 2018.12
-* Logic 10.4.2
+* Studio One 4.5.1
+* Pro Tools 2019.5
+* Logic 10.4.4
 * Reason 10.2
 * Cakewalk 2018.11
 * FLStudio 20.2 Mac
-* Live 10.04
+* Live 10.1
 * Bitwig 2.5
 * Mixbus 32c 5.1
 * SawStudio 5.6
@@ -336,7 +336,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Digital Performer" rating="0"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
+            <daw name="Studio One" rating="8"> </daw>
             <daw name="Pro Tools" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="9"> </daw>
@@ -546,18 +546,18 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="SawStudio" rating="9"> </daw>
         </category>
         <category name="Group and Bus Creation">
-            <daw name="Reaper" rating="8"> </daw>
+            <daw name="Reaper" rating="5"> </daw>
             <daw name="Digital Performer" rating="4"> </daw>
-			<daw name="Cubase" rating="8"> </daw>
+			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
             <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="Pro Tools" rating="4"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="1"> </daw>
-			<daw name="Cakewalk" rating="9"> </daw>
+			<daw name="Cakewalk" rating="7"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="7"> </daw>
-			<daw name="Bitwig" rating="8"> </daw>
+			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
             <daw name="SawStudio" rating="0"> </daw>
         </category>
@@ -598,7 +598,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
+            <daw name="Studio One" rating="10"> </daw>
             <daw name="Pro Tools" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="8"> </daw>
@@ -646,7 +646,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
+            <daw name="Studio One" rating="6"> </daw>
             <daw name="Pro Tools" rating="10"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="2"> </daw>
@@ -1088,7 +1088,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Digital Performer" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
+            <daw name="Studio One" rating="8"> </daw>
             <daw name="Pro Tools" rating="5"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="4"> </daw>
@@ -1151,11 +1151,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reaper" rating="6"> </daw>
             <daw name="Digital Performer" rating="2"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
-			<daw name="Waveform" rating="9"> </daw>
+			<daw name="Waveform" rating="7"> </daw>
             <daw name="Studio One" rating="9"> </daw>
             <daw name="Pro Tools" rating="0"> </daw>
-            <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="6"> </daw>
+            <daw name="Logic" rating="5"> </daw>
+            <daw name="Reason" rating="4"> </daw>
 			<daw name="Cakewalk" rating="0"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="2"> </daw>
