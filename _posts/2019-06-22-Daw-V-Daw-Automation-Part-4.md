@@ -264,8 +264,8 @@ This is the resulting render and envelope. Offline render is identical every tim
 ## Digital Performer 10.0.1
 
 {::nomarkdown}
-<a href="/assets/Differ/Automation4/DPMUtility.png">
-<img src="/assets/Differ/Automation4/Thumbnails/DPMUtility.png" alt="Digital Performer">
+<a href="/assets/Differ/Automation4/DPMutility.png">
+<img src="/assets/Differ/Automation4/Thumbnails/DPMutility.png" alt="Digital Performer">
 </a>
 <div class="image-caption">Digital Performer (Click for larger image)</div>
 {:/nomarkdown}
