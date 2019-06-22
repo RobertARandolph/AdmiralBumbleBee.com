@@ -55,6 +55,12 @@ Some plugins will interact with different hosts in a different manner. Some plug
 
 Though... I do get excited when one product offers more sensible results then another. Make your own decisions based on your own testing!
 
+# Video
+
+<iframe width="800" height="400" src="https://www.youtube.com/embed/hPb1nVsi08E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+4k video, as usual. Experimenting with locations, mics, etc... Having fun, because making videos generally isn't fun.
+
 # Processing Types
 
 ## Blocks
