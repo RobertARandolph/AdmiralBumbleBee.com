@@ -11,8 +11,8 @@ series: DAWDiffer
 ---
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/PTWhat.png">
-<img src="/assets/differ/Automation4/Thumbnails/PTWhat.png" alt="Pro Tools?">
+<a href="/assets/Differ/Automation4/PTWhat.png">
+<img src="/assets/Differ/Automation4/Thumbnails/PTWhat.png" alt="Pro Tools?">
 </a>
 <div class="image-caption">Pro Tools? (Click for larger image)</div>
 {:/nomarkdown}
@@ -89,7 +89,7 @@ As you can see in the graphic above that leads to a 'steppy' result, and that wi
 
 {::nomarkdown}
 <video autoplay loop muted class="gifvid">
-<source src="/assets/differ/Automation4/BlockOffset.mp4" type="video/mp4">
+<source src="/assets/Differ/Automation4/BlockOffset.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <div class="video-caption">Start Offset wackiness</div>
@@ -154,7 +154,7 @@ However, if you're a results oriented person, then this is the optimal solution.
 # Testing
 
 {::nomarkdown}
-<img src="/assets/differ/Automation4/Testing.png" alt="Easy Testing Setup">
+<img src="/assets/Differ/Automation4/Testing.png" alt="Easy Testing Setup">
 <div class="image-caption">Easy Testing Setup</div>
 {:/nomarkdown}
 
@@ -227,8 +227,8 @@ What is important is if/that each DAW performs identically with the same plugin 
 ## Pro Tools???? 2019.05
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/PTWhat.png">
-<img src="/assets/differ/Automation4/Thumbnails/PTWhat.png" alt="Pro Tools?">
+<a href="/assets/Differ/Automation4/PTWhat.png">
+<img src="/assets/Differ/Automation4/Thumbnails/PTWhat.png" alt="Pro Tools?">
 </a>
 <div class="image-caption">Pro Tools? (Click for larger image)</div>
 {:/nomarkdown}
@@ -238,8 +238,8 @@ What is important is if/that each DAW performs identically with the same plugin 
 So I tested it.
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/PTMoreWhat.png">
-<img src="/assets/differ/Automation4/Thumbnails/PTMoreWhat.png" alt="Pro Tools? What is going on?">
+<a href="/assets/Differ/Automation4/PTMoreWhat.png">
+<img src="/assets/Differ/Automation4/Thumbnails/PTMoreWhat.png" alt="Pro Tools? What is going on?">
 </a>
 <div class="image-caption">Pro Tools? What is going on? (Click for larger image)</div>
 {:/nomarkdown}
@@ -253,8 +253,8 @@ The result is different 5/6 times! We're not talking some minor difference eithe
 Offline bounce renders the same every time.
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/PTConsistent.png">
-<img src="/assets/differ/Automation4/Thumbnails/PTConsistent.png" alt="Buffer size changes">
+<a href="/assets/Differ/Automation4/PTConsistent.png">
+<img src="/assets/Differ/Automation4/Thumbnails/PTConsistent.png" alt="Buffer size changes">
 </a>
 <div class="image-caption">Buffer size changes (Click for larger image)</div>
 {:/nomarkdown}
@@ -264,8 +264,8 @@ This is the resulting render and envelope. Offline render is identical every tim
 ## Digital Performer 10.0.1
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/DPMUtility.png">
-<img src="/assets/differ/Automation4/Thumbnails/DPMUtility.png" alt="Digital Performer">
+<a href="/assets/Differ/Automation4/DPMUtility.png">
+<img src="/assets/Differ/Automation4/Thumbnails/DPMUtility.png" alt="Digital Performer">
 </a>
 <div class="image-caption">Digital Performer (Click for larger image)</div>
 {:/nomarkdown}
@@ -275,8 +275,8 @@ This is the resulting render and envelope. Offline render is identical every tim
 However, VST3 automation looks a bit funky. I was _very_ careful with the setup of automation points and the render was both _off_ and with smoothing that is uncommon for MUtility.
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/DPAU.png">
-<img src="/assets/differ/Automation4/Thumbnails/DPAU.png" alt="This time with AudioUnits">
+<a href="/assets/Differ/Automation4/DPAU.png">
+<img src="/assets/Differ/Automation4/Thumbnails/DPAU.png" alt="This time with AudioUnits">
 </a>
 <div class="image-caption">This time with AudioUnits (Click for larger image)</div>
 {:/nomarkdown}
@@ -288,8 +288,8 @@ Similar enough results. Slightly different curve. Maybe the plugin? Maybe not?
 ## Logic 10.4.5
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/Logic.png">
-<img src="/assets/differ/Automation4/Thumbnails/Logic.png" alt="Logic Investigation">
+<a href="/assets/Differ/Automation4/Logic.png">
+<img src="/assets/Differ/Automation4/Thumbnails/Logic.png" alt="Logic Investigation">
 </a>
 <div class="image-caption">Logic Investigation (Click for larger image)</div>
 {:/nomarkdown}
@@ -305,8 +305,8 @@ With the "Large" process buffer range, the device buffer affects the result too.
 ## Cubase 10.0.30
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/Cubase.png">
-<img src="/assets/differ/Automation4/Thumbnails/Cubase.png" alt="Cubase">
+<a href="/assets/Differ/Automation4/Cubase.png">
+<img src="/assets/Differ/Automation4/Thumbnails/Cubase.png" alt="Cubase">
 </a>
 <div class="image-caption">Cubase (Click for larger image)</div>
 {:/nomarkdown}
@@ -316,8 +316,8 @@ Cubase clearly renders differently based on the buffer size here, in a more extr
 ## Ableton Live 10.1
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/LiveMUtility.png">
-<img src="/assets/differ/Automation4/Thumbnails/LiveMUtility.png" alt="Live">
+<a href="/assets/Differ/Automation4/LiveMUtility.png">
+<img src="/assets/Differ/Automation4/Thumbnails/LiveMUtility.png" alt="Live">
 </a>
 <div class="image-caption">Live (Click for larger image)</div>
 {:/nomarkdown}
@@ -329,8 +329,8 @@ As with ANY DAW, this may vary depending on the product used.
 ## FLStudio 20.1.2
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/FLMUtility.png">
-<img src="/assets/differ/Automation4/Thumbnails/FLMUtility.png" alt="FLStudio MUtility'd">
+<a href="/assets/Differ/Automation4/FLMUtility.png">
+<img src="/assets/Differ/Automation4/Thumbnails/FLMUtility.png" alt="FLStudio MUtility'd">
 </a>
 <div class="image-caption">FLStudio MUtility'd (Click for larger image)</div>
 {:/nomarkdown}
@@ -338,7 +338,7 @@ As with ANY DAW, this may vary depending on the product used.
 FL Renders the same regardless of the buffer size.
 
 {::nomarkdown}
-<img src="/assets/differ/Automation4/FLSettings.png" alt="FL Plugin Settings">
+<img src="/assets/Differ/Automation4/FLSettings.png" alt="FL Plugin Settings">
 <div class="image-caption">FL Plugin Settings</div>
 {:/nomarkdown}
 
@@ -353,8 +353,8 @@ This time I'll be taking the native "Utility" plugin included with each DAW and 
 ## Reaper 5.979
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/ReaperNative.png">
-<img src="/assets/differ/Automation4/Thumbnails/ReaperNative.png" alt="Reaper JS Volume">
+<a href="/assets/Differ/Automation4/ReaperNative.png">
+<img src="/assets/Differ/Automation4/Thumbnails/ReaperNative.png" alt="Reaper JS Volume">
 </a>
 <div class="image-caption">Reaper JS Volume (Click for larger image)</div>
 {:/nomarkdown}
@@ -391,8 +391,8 @@ I could have screwed this up of course. Maybe someone will chime in. (Justin? Ri
 ## Studio One 4.5.1
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/S1Native.png">
-<img src="/assets/differ/Automation4/Thumbnails/S1Native.png" alt="Studio One Mixtool">
+<a href="/assets/Differ/Automation4/S1Native.png">
+<img src="/assets/Differ/Automation4/Thumbnails/S1Native.png" alt="Studio One Mixtool">
 </a>
 <div class="image-caption">Studio One Mixtool (Click for larger image)</div>
 {:/nomarkdown}
@@ -406,8 +406,8 @@ So there's at least 40 different ways that your automation could be rendered dep
 ## Pro Tools 2019.05
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/PTNativeEQ.png">
-<img src="/assets/differ/Automation4/Thumbnails/PTNativeEQ.png" alt="PT EQ1">
+<a href="/assets/Differ/Automation4/PTNativeEQ.png">
+<img src="/assets/Differ/Automation4/Thumbnails/PTNativeEQ.png" alt="PT EQ1">
 </a>
 <div class="image-caption">PT EQ1 (Click for larger image)</div>
 {:/nomarkdown}
@@ -419,8 +419,8 @@ But holy cow! Look at that zipper noise, despite some drastic smoothing attempt?
 ## Digital Performer 10.0.1
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/DPNative.png">
-<img src="/assets/differ/Automation4/Thumbnails/DPNative.png" alt="Digital Performer Trim">
+<a href="/assets/Differ/Automation4/DPNative.png">
+<img src="/assets/Differ/Automation4/Thumbnails/DPNative.png" alt="Digital Performer Trim">
 </a>
 <div class="image-caption">Digital Performer Trim (Click for larger image)</div>
 {:/nomarkdown}
@@ -434,8 +434,8 @@ This is the best result of all products. I can also confirm that this behaviour 
 ## Logic 10.4.5
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/LogicNative.png">
-<img src="/assets/differ/Automation4/Thumbnails/LogicNative.png" alt="Logic Gain Tool">
+<a href="/assets/Differ/Automation4/LogicNative.png">
+<img src="/assets/Differ/Automation4/Thumbnails/LogicNative.png" alt="Logic Gain Tool">
 </a>
 <div class="image-caption">Logic Gain Tool (Click for larger image)</div>
 {:/nomarkdown}
@@ -445,8 +445,8 @@ Logic's gain tool renders the same for all 4 settings I tried. Large and small p
 ## Cubase 10.0.30
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/CubaseNative.png">
-<img src="/assets/differ/Automation4/Thumbnails/CubaseNative.png" alt="">
+<a href="/assets/Differ/Automation4/CubaseNative.png">
+<img src="/assets/Differ/Automation4/Thumbnails/CubaseNative.png" alt="">
 </a>
 <div class="image-caption"> (Click for larger image)</div>
 {:/nomarkdown}
@@ -460,8 +460,8 @@ Cubase not even support it's own VST3 sample-accurate automation (smoothed or no
 ## Ableton Live 10.1
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/LiveNative.png">
-<img src="/assets/differ/Automation4/Thumbnails/LiveNative.png" alt="Live Utility">
+<a href="/assets/Differ/Automation4/LiveNative.png">
+<img src="/assets/Differ/Automation4/Thumbnails/LiveNative.png" alt="Live Utility">
 </a>
 <div class="image-caption">Live Utility (Click for larger image)</div>
 {:/nomarkdown}
@@ -471,8 +471,8 @@ Live's Native Gain plugin behaves the same for all buffer sizes. (It also has a 
 ## FLStudio 20.1.2
 
 {::nomarkdown}
-<a href="/assets/differ/Automation4/FLBalance.png">
-<img src="/assets/differ/Automation4/Thumbnails/FLBalance.png" alt="FLStudio Balance">
+<a href="/assets/Differ/Automation4/FLBalance.png">
+<img src="/assets/Differ/Automation4/Thumbnails/FLBalance.png" alt="FLStudio Balance">
 </a>
 <div class="image-caption">FLStudio Balance (Click for larger image)</div>
 {:/nomarkdown}
@@ -485,7 +485,7 @@ This article wasn't meant to be a competition, but instead an exploration of dif
 
 {::nomarkdown}
 <video autoplay loop muted class="gifvid">
-<source src="/assets/differ/Automation4/BlockOffset.mp4" type="video/mp4">
+<source src="/assets/Differ/Automation4/BlockOffset.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <div class="video-caption">Offset</div>
