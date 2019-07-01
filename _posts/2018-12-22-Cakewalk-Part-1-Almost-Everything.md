@@ -1687,6 +1687,8 @@ There’s also a hidden scrub tool if you look for it.
 
 # Conclusion
 
+[See a dissenting opinion here](http://disq.us/p/22sydke) .
+
 If you've made it this far then you may think I have a poor view of the software. If you just skipped here then scroll up and start over. No cheating!
 
 Cakewalk is littered with half-finished features. I don't know if this is caused by various owners looking for marketable features or if it's endemic to the development of the software. I suspect that due to the strange over-use of buzzwords that this is driven by a marketting team that pulls the reins on a talented developer team.
