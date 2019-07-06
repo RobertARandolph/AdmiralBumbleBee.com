@@ -62,7 +62,7 @@ I also consider how easily it is to acquire your registration information.
 
 # Price
 
-## Initial Price
+## Initial Cost
 
 This is a relative rating like everything else. Unlike other ratings this is not subjective.
 
@@ -94,7 +94,6 @@ These are the prices I use:
 * Live - $449
 * Bitwig - $399
 * Mixbus - $79
-* SawStudio - $1250 (this is NOT used for the max value. It would throw everything off)
 
 ```clojure
 
@@ -132,7 +131,7 @@ These are the prices I use:
   [[daw val]]
     (format "%s: %d" daw (reverse-normalize val)))
 
-(map price-rating (assoc daws :Sawstudio 1250))
+; (map price-rating (assoc daws :Sawstudio 1250))
 ```
 
 ## Upgrade Costs
@@ -159,7 +158,6 @@ Here are the values I used:
 * Live - $45.80
 * Bitwig - $139
 * Mixbus - $19
-* SawStudio - $10
 
 ```clojure
 (def daws 
@@ -174,8 +172,7 @@ Here are the values I used:
      :FL 0
      :Live 46
      :Bitwig 139
-     :Mixbus 19
-     :Sawstudio 10})
+     :Mixbus 19})
 ```
 
 # General Workflow
@@ -233,6 +230,27 @@ Track Templates are a way of quickly inserting tracks with specific settings suc
 * Alternate methods of accessing functions without modifier functions (See: Pro Tools Keyboard Focus)
 
 This category does _not_ cover how "good" the default key commands are, only the flexibility of the command system.
+
+## Menus
+
+Top level and Context menus are a fact of life in modern software. This category focuses on the reliance, use and _management_ of menus in the software. Some considerations:
+
+* Utilization of menu layers
+* Ability to change menus (customization)
+* Menu pinning (ability to leave menus open)
+* Menu search - Notably this is a basic function in macOS, so for my purposes it is related to the number of searchable items or the adherence to macOS standards.
+* Exposure of common functions _outside_ of menus
+* Labelling of hotkeys in menus
+
+## Window Management
+
+How easy is it to manage windows that belong to the software?
+
+* Window cycling
+* Window Docking
+* Screensets - the ability to recall window positions
+* The lack of windows - this is considered a benefit.
+* Window pinning
 
 ## Macro Shortcut Support
 
@@ -871,7 +889,49 @@ A community with high-cohesion that is relatively unfriendly to newcomers will g
 
 Customization is how much of the DAW can be changed to user preference without requiring extended effort such as writing code or downloading third-party utilities.
 
+# Subjective
 
+## Weirdness
+
+How far the software differs from the general population in terms of common workflows. This can be a positive or negative attribute
+
+## Comprehensibility
+
+How easy is it to approach understanding the DAW at an advanced level.
+
+This has nothing to do with how quickly you can learn to use a DAW to make the music you want. It's about the difficulty of becoming an advanced user relative to what the product offers.
+
+## Fragility
+
+Some products are fragile: they release updates that break existing functionality, don't support backwards compatibility, release half-baked features etc...
+
+This rating considers how likely it is that the user of a given product will have to deal with an update introducing new problems, **OR** a product's _lack of updates_ causing the user to be unable to utilize an advertised feature.
+
+## Professionalism
+
+Every product allows you to make music to some degree. This category considers features relative to film scoring, dialogue editing, broadcast standard adherence, project interchange, turnkey support (can you get the product up and running quickly with a guarantee of no issues?), live support and other media-based features that are encountered by those utilizing the software to make a living beyond _just_ making music.
+
+## Simplicity
+
+How easy is it to understand the primary workflows in a product. **NOT** how easy is it to execute the workflows.
+
+Given an unaided person with minimal pre-requisite knowledge, how much effort would be required to gain an understanding of what is occurring in a project and/or how to achieve that goal.
+
+This could also be thought of as a rating for how few "Gotcha"s or "Dark Corners" there are.
+
+# Bias
+
+## Preference
+
+How much I personally enjoy using or reviewing the software.
+
+## History
+
+How long I've been using the software relative to its origins.
+
+## Connections
+
+How connected I am to the product in terms of personal relationships, testing, investment and income dependence.
 
 # Support Me!
 

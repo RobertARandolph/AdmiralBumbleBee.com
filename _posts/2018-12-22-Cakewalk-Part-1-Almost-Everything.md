@@ -1665,9 +1665,15 @@ I **LOVE** working with VCA faders. They make working with large complex arrange
 
 Crossfade options are simple and down 2 layers deep in a menu. If you want asymmetrical fades or custom fades or to do anything beyond simple crossfading of 2 adjacent clips then you're out of luck. For a DAW that has [mastering like features](#cd-burning) this is a strange omission.
 
-Let's not stop there though! Crossfading two clips is quite an endeavor. [Look at the manual](https://www.cakewalk.com/Documentation?product=SONAR%20X3&language=3&help=Arranging.61.html) to see the multi-step process of crossfading two clips.
+~~Let's not stop there though! Crossfading two clips is quite an endeavor. [Look at the manual](https://www.cakewalk.com/Documentation?product=SONAR%20X3&language=3&help=Arranging.61.html) to see the multi-step process of crossfading two clips.
 
-I'm somewhat baffled that people put up with this, but then again, Bitwig didn't have crossfades _at all_ for years and apparently most of their users didn't even understand what a crossfade is.
+I'm somewhat baffled that people put up with this, but then again, Bitwig didn't have crossfades _at all_ for years and apparently most of their users didn't even understand what a crossfade is.~~
+
+**UPDATE** July 2019 - It's possible to turn on "Auto Crossfade" in the Track View Options menu to easily crossfade overlapping clips **IF** `Preferences->Editing->"What to do with existing material:"` is set to "Blend Old and New".
+
+I still find this to be suboptimal behaviour because even though 2/3 of the editing preferences disable "Auto Crossfade", the option is still visible and toggleable.
+
+I also find it strange that "Auto Crossfade" isn't on by default, but that's a personal preference.
 
 ## Zoom Tool
 

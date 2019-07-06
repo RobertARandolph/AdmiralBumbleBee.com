@@ -124,7 +124,7 @@
         color: white;
         text-shadow: 1px 1px #000000;
         text-decoration: none;
-        background: lawngreen;
+        background: red;
     }
 
     @include media-query($on-palm) {
@@ -151,7 +151,7 @@
         color: white;
         text-shadow: 1px 1px #000000;
         text-decoration: none;
-        background: lawngreen;
+        background: red;
     }
 
     &,
@@ -167,7 +167,7 @@
 }
 
 .side-bar-box {
-    width: 16%;
+    width: 12%;
     position: absolute;
     float: left;
     margin-left: 0;
@@ -185,7 +185,7 @@
 
 .side-bar-box2 {
     position: fixed;
-    width: 16%;
+    width: 12%;
     position: relative;
     float: right;
     margin-right: 0;

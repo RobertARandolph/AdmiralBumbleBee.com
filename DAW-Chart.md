@@ -39,18 +39,18 @@ If you never do multitrack editing, give it a 0. Then DAWs that excel in this ar
 
 These are the versions that I have most recently evaluated the features (and stability) of:
 
-* Reaper 5.972
+* Reaper 5.979
 * Digital Performer 10.01
-* Cubase 10.0.15
+* Cubase 10.0.30
 * Studio One 4.5.1
-* Pro Tools 2019.5
-* Logic 10.4.4
-* Reason 10.2
+* Pro Tools 2019.6
+* Logic 10.4.5
+* Reason 10.4
 * Cakewalk 2018.11
-* FLStudio 20.2 Mac
+* FLStudio 20.5 Mac
 * Live 10.1
-* Bitwig 2.5
-* Mixbus 32c 5.1
+* Bitwig 2.5.1
+* Mixbus 32c 5.2
 * SawStudio 5.6
 
 # How recently was this update
@@ -144,7 +144,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 
 # The Chart
 <div class="admdc_box">
-    <admdc section="Installation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Installation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Installation Options">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="Digital Performer" rating="6"> </daw>
@@ -159,7 +159,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
         <category name="Ease of Download">
             <daw name="Reaper" rating="6" link="reaper-download"> </daw>
@@ -175,10 +174,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
-            <daw name="SawStudio" rating="6"> </daw>
         </category>
     </admdc>
-    <admdc section="User prefers dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="User prefers dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="With Dongle">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="Digital Performer" rating="0"> </daw>
@@ -193,10 +191,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0" link="mixbus-authorization"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-     <admdc section="User dislikes dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+     <admdc section="User dislikes dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         </category>
         <category name="No Dongle">
             <daw name="Reaper" rating="10"> </daw>
@@ -212,10 +209,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="10" link="mixbus-authorization"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
     </admdc>
-     <admdc section="Price" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+     <admdc section="Price" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         </category>
         <category name="Initial Cost">
             <daw name="Reaper" rating="100"> </daw>
@@ -231,7 +227,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="28"> </daw>
 			<daw name="Bitwig" rating="37"> </daw>
             <daw name="Mixbus" rating="96" link="mixbus-authorization"> </daw>
-            <daw name="SawStudio" rating="-118"> </daw>
         </category>
         <category name="Upgrade Costs">
             <daw name="Reaper" rating="9"> </daw>
@@ -247,10 +242,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-authorization"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
     </admdc>
-    <admdc section="General Workflow" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="General Workflow" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Stability">
             <daw name="Reaper" rating="9"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -265,7 +259,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Undo">
             <daw name="Reaper" rating="9"> </daw>
@@ -281,7 +274,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
-            <daw name="SawStudio" rating="3"> </daw>
         </category>
         <category name="Metering">
             <daw name="Reaper" rating="5"> </daw>
@@ -297,7 +289,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="5"> </daw>
         </category>
         <category name="Track Templates">
             <daw name="Reaper" rating="10"> </daw>
@@ -313,7 +304,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
         <category name="Key Commands">
             <daw name="Reaper" rating="10"> </daw>
@@ -329,7 +319,36 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
-            <daw name="SawStudio" rating="2"> </daw>
+        </category>
+        <category name="Menus">
+            <daw name="Reaper" rating="10"> </daw>
+            <daw name="Digital Performer" rating="3"> </daw>
+			<daw name="Cubase" rating="2"> </daw>
+			<daw name="Waveform" rating="9"> </daw>
+            <daw name="Studio One" rating="2"> </daw>
+            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="Logic" rating="2"> </daw>
+            <daw name="Reason" rating="1"> </daw>
+			<daw name="Cakewalk" rating="3"> </daw>
+			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="Live" rating="1"> </daw>
+			<daw name="Bitwig" rating="5"> </daw>
+            <daw name="Mixbus" rating="2"> </daw>
+        </category>
+        <category name="Window Management">
+            <daw name="Reaper" rating="6"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
+			<daw name="Cubase" rating="7"> </daw>
+			<daw name="Waveform" rating="6"> </daw>
+            <daw name="Studio One" rating="9"> </daw>
+            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="Logic" rating="7"> </daw>
+            <daw name="Reason" rating="1" link="reason-windows"> </daw>
+			<daw name="Cakewalk" rating="7"> </daw>
+			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="Live" rating="9"> </daw>
+			<daw name="Bitwig" rating="7"> </daw>
+            <daw name="Mixbus" rating="1"> </daw>
         </category>
         <category name="Macro Shortcut Support">
             <daw name="Reaper" rating="10"> </daw>
@@ -345,7 +364,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Remote Control">
             <daw name="Reaper" rating="8"> </daw>
@@ -361,10 +379,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-remote"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
     </admdc>
-    <admdc section="Sample and File Browsing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Sample and File Browsing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Sample and File Browsing">
             <daw name="Reaper" rating="5"> </daw>
             <daw name="Digital Performer" rating="4"> </daw>
@@ -379,7 +396,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
-            <daw name="SawStudio" rating="7"> </daw>
         </category>
         <category name="Preview">
             <daw name="Reaper" rating="5"> </daw>
@@ -395,7 +411,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Tagging">
             <daw name="Reaper" rating="0"> </daw>
@@ -411,7 +426,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Sample Search">
             <daw name="Reaper" rating="0"> </daw>
@@ -427,10 +441,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Project Navigation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Project Navigation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Zoom Functionality">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -445,7 +458,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
         <category name="Large Project Features">
             <daw name="Reaper" rating="9"> </daw>
@@ -461,7 +473,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Project Search">
             <daw name="Reaper" rating="10"> </daw>
@@ -477,7 +488,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Marker Features">
             <daw name="Reaper" rating="9"> </daw>
@@ -493,7 +503,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Arrangement tools">
             <daw name="Reaper" rating="6"> </daw>
@@ -509,10 +518,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Mixing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Mixing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="VCAs">
             <daw name="Reaper" rating="6" link="reaper-vca"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -527,7 +535,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="PDC">
             <daw name="Reaper" rating="9"> </daw>
@@ -543,7 +550,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="5" link="mixbus-pdc"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
         <category name="Group and Bus Creation">
             <daw name="Reaper" rating="5"> </daw>
@@ -559,7 +565,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Routing">
             <daw name="Reaper" rating="10"> </daw>
@@ -575,7 +580,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="4" link="live-routing"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="8"> </daw>
         </category>
         <category name="Mixer Channel Strip">
             <daw name="Reaper" rating="5" link="reaper-channel-strips"> </daw>
@@ -591,7 +595,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Plugin Organization">
             <daw name="Reaper" rating="8"> </daw>
@@ -607,7 +610,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="2"> </daw>
         </category>
         <category name="Fader and Meter Size">
             <daw name="Reaper" rating="10"> </daw>
@@ -623,7 +625,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Hardware Inserts">
             <daw name="Reaper" rating="10"> </daw>
@@ -639,7 +640,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
         <category name="Load Balancing Features">
             <daw name="Reaper" rating="10"> </daw>
@@ -648,18 +648,17 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Waveform" rating="3"> </daw>
             <daw name="Studio One" rating="6"> </daw>
             <daw name="Pro Tools" rating="10"> </daw>
-            <daw name="Logic" rating="4"> </daw>
+            <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="Cakewalk" rating="9"> </daw>
 			<daw name="FLStudio" rating="1"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
          <category name="Freeze">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
             <daw name="Studio One" rating="5"> </daw>
@@ -671,7 +670,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
        <category name="Monitor Section">
             <daw name="Reaper" rating="10"> </daw>
@@ -687,10 +685,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Included Content" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Included Content" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Included Effects Plugins">
             <daw name="Reaper" rating="7"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -705,14 +702,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="2"> </daw>
         </category>
         <category name="Included Synth Plugins">
             <daw name="Reaper" rating="1"> </daw>
             <daw name="Digital Performer" rating="5"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="9" link="waveform-included"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
+            <daw name="Studio One" rating="6"> </daw>
             <daw name="Pro Tools" rating="2"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="8"> </daw>
@@ -721,7 +717,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Included Sound Content">
             <daw name="Reaper" rating="0"> </daw>
@@ -737,10 +732,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Recording" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Recording" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Re-Record">
             <daw name="Reaper" rating="8"> </daw>
             <daw name="Digital Performer" rating="6"> </daw>
@@ -755,7 +749,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="5" link="bitwig-re-record"> </daw>
             <daw name="Mixbus" rating="5" link="mixbus-re-record"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Live Loop Recording">
             <daw name="Reaper" rating="9"> </daw>
@@ -771,7 +764,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="10" link-"live-loop-recording"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
-            <daw name="SawStudio" rating="5"> </daw>
         </category>
         <category name="IO Map and Rename">
             <daw name="Reaper" rating="7"> </daw>
@@ -787,7 +779,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="7"> </daw>
         </category>
         <category name="Input Metering">
             <daw name="Reaper" rating="3"> </daw>
@@ -803,10 +794,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-input-monitoring"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
     </admdc>
-    <admdc section="Automation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Automation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="General Automation">
             <daw name="Reaper" rating="8"> </daw>
             <daw name="Digital Performer" rating="8"> </daw>
@@ -821,7 +811,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
-            <daw name="SawStudio" rating="7"> </daw>
         </category> 
         <category name="Snapshot Automation">
             <daw name="Reaper" rating="9"> </daw>
@@ -837,7 +826,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Automation Tools">
             <daw name="Reaper" rating="9"> </daw>
@@ -853,7 +841,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
-            <daw name="SawStudio" rating="3"> </daw>
         </category>
         <category name="Automation Modes">
             <daw name="Reaper" rating="8"> </daw>
@@ -869,7 +856,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
         <category name="Automation Thinning">
             <daw name="Reaper" rating="8"> </daw>
@@ -885,7 +871,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Item-Based Automation">
             <daw name="Reaper" rating="10"> </daw>
@@ -901,7 +886,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Automation Clips">
             <daw name="Reaper" rating="10"> </daw>
@@ -917,7 +901,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Modulation">
             <daw name="Reaper" rating="7"> </daw>
@@ -933,10 +916,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Audio" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Audio" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Audio Editing Tools">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -951,7 +933,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="7"> </daw>
         </category> 
         <category name="Comping">
             <daw name="Reaper" rating="4"> </daw>
@@ -967,7 +948,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category> 
         <category name="Multitrack Audio Editing">
             <daw name="Reaper" rating="5"> </daw>
@@ -983,7 +963,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="8"> </daw>
         </category>
         <category name="Multitrack Freewarp">
             <daw name="Reaper" rating="8"> </daw>
@@ -999,7 +978,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Multitrack Takes">
             <daw name="Reaper" rating="5"> </daw>
@@ -1015,7 +993,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="6"> </daw>
         </category>
         <category name="Audio Bonuses">
             <daw name="Reaper" rating="10"> </daw>
@@ -1031,7 +1008,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
         <category name="Pitch Editing">
             <daw name="Reaper" rating="2"> </daw>
@@ -1047,7 +1023,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Pitch Shifting">
             <daw name="Reaper" rating="2"> </daw>
@@ -1063,7 +1038,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Time Stretching">
             <daw name="Reaper" rating="10"> </daw>
@@ -1079,10 +1053,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="3"> </daw>
         </category>
     </admdc>
-    <admdc section="Midi" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Midi" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Note Entry Flexibility">
             <daw name="Reaper" rating="8"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -1097,7 +1070,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Note Entry Tools">
             <daw name="Reaper" rating="9"> </daw>
@@ -1113,7 +1085,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Multitrack MIDI Editing">
             <daw name="Reaper" rating="9"> </daw>
@@ -1129,7 +1100,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="MIDI Manipulation Tools">
             <daw name="Reaper" rating="10"> </daw>
@@ -1138,14 +1108,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Waveform" rating="5"> </daw>
             <daw name="Studio One" rating="3"> </daw>
             <daw name="Pro Tools" rating="9"> </daw>
-            <daw name="Logic" rating="6"> </daw>
+            <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="Cakewalk" rating="2"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Chord input">
             <daw name="Reaper" rating="6"> </daw>
@@ -1161,7 +1130,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Step Sequencing">
             <daw name="Reaper" rating="9" link="Reaper-step-sequencer"> </daw>
@@ -1177,7 +1145,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Scale and Chord Tools">
             <daw name="Reaper" rating="0"> </daw>
@@ -1193,7 +1160,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Sysex and NRPN">
             <daw name="Reaper" rating="10"> </daw>
@@ -1209,7 +1175,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Articulation Management">
             <daw name="Reaper" rating="6" link="reaper-articulation-management"> </daw>
@@ -1225,10 +1190,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc> 
-     <admdc section="Scoring" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+     <admdc section="Scoring" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="General">
             <daw name="Reaper" rating="4"> </daw>
             <daw name="Digital Performer" rating="6"> </daw>
@@ -1243,7 +1207,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Printing">
             <daw name="Reaper" rating="1"> </daw>
@@ -1259,10 +1222,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
 	</admdc>
-        <admdc section="Live Performance" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+        <admdc section="Live Performance" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="First Party Controller Support">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="Digital Performer" rating="0"> </daw>
@@ -1277,7 +1239,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Third Party Controller Support">
             <daw name="Reaper" rating="2"> </daw>
@@ -1293,23 +1254,21 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Clip Launching">
             <daw name="Reaper" rating="0" link="reaper-clip-launching"> </daw>
-            <daw name="Digital Performer" rating="9" link="dp-clip-launching"> </daw>
+            <daw name="Digital Performer" rating="8" link="dp-clip-launching"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
             <daw name="Studio One" rating="0"> </daw>
             <daw name="Pro Tools" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
-			<daw name="Cakewalk" rating="6"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+			<daw name="Cakewalk" rating="5"> </daw>
+			<daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Cue Preview">
             <daw name="Reaper" rating="9"> </daw>
@@ -1325,7 +1284,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Controller Mapping">
             <daw name="Reaper" rating="1"> </daw>
@@ -1341,7 +1299,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
         <category name="Project Switching">
             <daw name="Reaper" rating="10"> </daw>
@@ -1357,10 +1314,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category> 
     </admdc>
-	<admdc section="Extensibility" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+	<admdc section="Extensibility" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Scripting">
             <daw name="Reaper" rating="9"> </daw>
             <daw name="Digital Performer" rating="0"> </daw>
@@ -1375,7 +1331,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="VST2">
             <daw name="Reaper" rating="10"> </daw>
@@ -1391,7 +1346,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="5" link="sawstudio-vst"> </daw>
         </category>
         <category name="VST3">
             <daw name="Reaper" rating="7"> </daw>
@@ -1407,7 +1361,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="LV2">
             <daw name="Reaper" rating="0"> </daw>
@@ -1423,7 +1376,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Audio Units">
             <daw name="Reaper" rating="8" link="reaper-audio-units"> </daw>
@@ -1439,7 +1391,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Other">
             <daw name="Reaper" rating="2"> </daw>
@@ -1455,10 +1406,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1" link="live-other"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
     </admdc> 
-    <admdc section="Collaboration" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Collaboration" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Remote Collaboration">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="Digital Performer" rating="0"> </daw>
@@ -1473,7 +1423,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0" link="Live-Collab"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Local Collaboration">
             <daw name="Reaper" rating="0"> </daw>
@@ -1489,7 +1438,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="Project Interchange">
             <daw name="Reaper" rating="6"> </daw>
@@ -1505,10 +1453,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
     </admdc>
-    <admdc section="Looks" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Looks" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Themes">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="Digital Performer" rating="6"> </daw>
@@ -1523,7 +1470,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
-            <daw name="SawStudio" rating="7"> </daw>
         </category>
         <category name="Themability">
             <daw name="Reaper" rating="10"> </daw>
@@ -1539,7 +1485,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
-            <daw name="SawStudio" rating="3"> </daw>
         </category>
         <category name="Responsiveness">
             <daw name="Reaper" rating="7"> </daw>
@@ -1555,7 +1500,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Zoom">
             <daw name="Reaper" rating="8"> </daw>
@@ -1571,7 +1515,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-zoom"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
         <category name="HDPI">
             <daw name="Reaper" rating="2"> </daw>
@@ -1587,10 +1530,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Learning" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Learning" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Manual">
             <daw name="Reaper" rating="2"> </daw>
             <daw name="Digital Performer" rating="8"> </daw>
@@ -1605,7 +1547,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-manual"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="First-Party Learning">
             <daw name="Reaper" rating="0"> </daw>
@@ -1621,7 +1562,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="8"> </daw>
         </category>
         <category name="Third-Party Learning">
             <daw name="Reaper" rating="10"> </daw>
@@ -1637,7 +1577,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Learning Curve">
             <daw name="Reaper" rating="0"> </daw>
@@ -1653,7 +1592,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="3"> </daw>
         </category>
         <category name="Software Defaults">
             <daw name="Reaper" rating="1"> </daw>
@@ -1669,10 +1607,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
-            <daw name="SawStudio" rating="9"> </daw>
         </category>
     </admdc>
-    <admdc section="Meta" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus,SawStudio" link="/DAW-Explain.html">
+    <admdc section="Meta" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
         <category name="Customer Support">
             <daw name="Reaper" rating="4"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
@@ -1687,7 +1624,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Software Updates">
             <daw name="Reaper" rating="9"> </daw>
@@ -1703,7 +1639,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
         <category name="Community Support">
             <daw name="Reaper" rating="10"> </daw>
@@ -1719,7 +1654,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Community Cohesion">
             <daw name="Reaper" rating="9"> </daw>
@@ -1735,7 +1669,6 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
-            <daw name="SawStudio" rating="10"> </daw>
         </category>
         <category name="Customization">
             <daw name="Reaper" rating="8"> </daw>
@@ -1751,9 +1684,132 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="7" link="bitwig-customization"> </daw>
             <daw name="Mixbus" rating="10" link="mixbus-customization"> </daw>
-            <daw name="SawStudio" rating="1"> </daw>
         </category>
     </admdc>
+    <admdc section="Subjective" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true">
+        <category name="Weirdness">
+            <daw name="Reaper" rating="2"> </daw>
+            <daw name="Digital Performer" rating="4"> </daw>
+			<daw name="Cubase" rating="1"> </daw>
+			<daw name="Waveform" rating="9"> </daw>
+            <daw name="Studio One" rating="2"> </daw>
+            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="Logic" rating="3"> </daw>
+            <daw name="Reason" rating="8"> </daw>
+			<daw name="Cakewalk" rating="1"> </daw>
+			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="Live" rating="5"> </daw>
+			<daw name="Bitwig" rating="6"> </daw>
+            <daw name="Mixbus" rating="1"> </daw>
+        </category>
+        <category name="Comprehensibility">
+            <daw name="Reaper" rating="2"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
+			<daw name="Cubase" rating="5"> </daw>
+			<daw name="Waveform" rating="2"> </daw>
+            <daw name="Studio One" rating="7"> </daw>
+            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="Logic" rating="8"> </daw>
+            <daw name="Reason" rating="2"> </daw>
+			<daw name="Cakewalk" rating="9"> </daw>
+			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="Live" rating="10"> </daw>
+			<daw name="Bitwig" rating="2"> </daw>
+            <daw name="Mixbus" rating="9"> </daw>
+        </category>
+        <category name="Fragility">
+            <daw name="Reaper" rating="0"> </daw>
+            <daw name="Digital Performer" rating="3"> </daw>
+			<daw name="Cubase" rating="0"> </daw>
+			<daw name="Waveform" rating="2"> </daw>
+            <daw name="Studio One" rating="5"> </daw>
+            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="Logic" rating="0"> </daw>
+            <daw name="Reason" rating="3"> </daw>
+			<daw name="Cakewalk" rating="0"> </daw>
+			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="Live" rating="4"> </daw>
+			<daw name="Bitwig" rating="9" link="bitwig-fragility"> </daw>
+            <daw name="Mixbus" rating="2"> </daw>
+        </category>
+        <category name="Professionalism">
+            <daw name="Reaper" rating="8"> </daw>
+            <daw name="Digital Performer" rating="8"> </daw>
+			<daw name="Cubase" rating="7"> </daw>
+			<daw name="Waveform" rating="3"> </daw>
+            <daw name="Studio One" rating="5"> </daw>
+            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="Logic" rating="7"> </daw>
+            <daw name="Reason" rating="0"> </daw>
+			<daw name="Cakewalk" rating="3"> </daw>
+			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="Live" rating="2"> </daw>
+			<daw name="Bitwig" rating="1"> </daw>
+            <daw name="Mixbus" rating="8"> </daw>
+        </category>
+        <category name="Simplicity">
+            <daw name="Reaper" rating="1"> </daw>
+            <daw name="Digital Performer" rating="1"> </daw>
+			<daw name="Cubase" rating="2"> </daw>
+			<daw name="Waveform" rating="8"> </daw>
+            <daw name="Studio One" rating="7"> </daw>
+            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="Logic" rating="8"> </daw>
+            <daw name="Reason" rating="2"> </daw>
+			<daw name="Cakewalk" rating="3"> </daw>
+			<daw name="FLStudio" rating="7"> </daw>
+            <daw name="Live" rating="7"> </daw>
+			<daw name="Bitwig" rating="3"> </daw>
+            <daw name="Mixbus" rating="4"> </daw>
+        </category>
+    </admdc>
+    <admdc section="Bias" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true">
+        <category name="Preference">
+            <daw name="Reaper" rating="8"> </daw>
+            <daw name="Digital Performer" rating="4"> </daw>
+			<daw name="Cubase" rating="10"> </daw>
+			<daw name="Waveform" rating="10"> </daw>
+            <daw name="Studio One" rating="0"> </daw>
+            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="Logic" rating="2"> </daw>
+            <daw name="Reason" rating="0"> </daw>
+			<daw name="Cakewalk" rating="0"> </daw>
+			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="Live" rating="0"> </daw>
+			<daw name="Bitwig" rating="8"> </daw>
+            <daw name="Mixbus" rating="7"> </daw>
+        </category>
+        <category name="History">
+            <daw name="Reaper" rating="1"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
+			<daw name="Cubase" rating="8"> </daw>
+			<daw name="Waveform" rating="10"> </daw>
+            <daw name="Studio One" rating="9"> </daw>
+            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="Logic" rating="3"> </daw>
+            <daw name="Reason" rating="10"> </daw>
+			<daw name="Cakewalk" rating="1"> </daw>
+			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="Live" rating="7"> </daw>
+			<daw name="Bitwig" rating="4"> </daw>
+            <daw name="Mixbus" rating="8"> </daw>
+        </category>
+        <category name="Connections">
+            <daw name="Reaper" rating="3"> </daw>
+            <daw name="Digital Performer" rating="8"> </daw>
+			<daw name="Cubase" rating="8"> </daw>
+			<daw name="Waveform" rating="9"> </daw>
+            <daw name="Studio One" rating="1"> </daw>
+            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="Logic" rating="3"> </daw>
+            <daw name="Reason" rating="0"> </daw>
+			<daw name="Cakewalk" rating="0"> </daw>
+			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="Live" rating="0"> </daw>
+			<daw name="Bitwig" rating="2"> </daw>
+            <daw name="Mixbus" rating="9"> </daw>
+        </category>
+    </admc>
 </div>
 
 # Reaper Notes
@@ -1881,6 +1937,10 @@ Logic's VCAs can not be stacked or chained. The current implementation is correc
 
 # Reason Notes
 
+## Reason Windows
+
+Reason relies heavily on the rack system, which is problematic to navigate. For the purposes of this rating I'm considering the ability to navigate the rack as 'window management'.
+
 # Cakewalk
 
 ## Cakewalk Inserts
@@ -1924,6 +1984,10 @@ With overdub turned off, Bitwig can emulate 're-record' by pressing the play/rec
 ## Bitwig Customization
 
 The community has done a fair job of unlocking various bits of Bitwig for customization. Since this is a free effort, and Bitwig hasn't actively hampered these efforts, I'm considering it.
+
+## Bitwig fragility
+
+The high rating is due to the Bitwig team announcing/promising features that _still_ have not been released to date. That is combined with existing core functionality being changed to support previously promised features.
 
 # Mixbus Notes
 

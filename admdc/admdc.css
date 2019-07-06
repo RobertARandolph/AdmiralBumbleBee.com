@@ -28,6 +28,7 @@
 }
 
 .section_title {
+    position: relative;
 	text-align: center;
 	font-size: 20pt;
 	border-bottom: 1px solid black;
@@ -112,4 +113,11 @@
 
 .complete_totals tr:nth-child(even) {
     background-color: #FFF;
+}
+
+.excluded-notifier {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    font-size: 14px;
 }
