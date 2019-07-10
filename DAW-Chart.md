@@ -1820,7 +1820,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 
 ## Reaper Download
 
-Reaper's download is small and compact, however a lot of the great functionality available in Reaper (for advanced users) comes from various scripts which must be downloaded separately.
+Reaper's download is small and compact, but a lot of the great functionality available in Reaper (for advanced users) comes from various scripts which must be downloaded separately.
 
 [SWS](http://www.sws-extension.org) and [ReaPack](https://reapack.com) are the bare minimum to get started for intermediate to advanced users.
 
