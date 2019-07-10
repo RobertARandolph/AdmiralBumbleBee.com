@@ -91,7 +91,11 @@ I am primarily a macOS user. Windows-only products require extra effort for me t
 
 I've been getting asked this a lot lately via e-mail/IRC/Discord, around 20+ times a week.
 
-I primarily use [Steinberg Cubase](https://www.steinberg.net/en/products/cubase/start.html) and [Cockos Reaper](https://www.reaper.fm). I do not think that either one is the best DAW. Digital performer has some glaring issues with certain modern workflows (that electronic musicians tend to use, or live recordists), and Reaper is just a total pain in the ass to learn for some people.
+I primarily use [Steinberg Cubase](https://www.steinberg.net/en/products/cubase/start.html) and [Cockos Reaper](https://www.reaper.fm). I do not think that either one is the best DAW. 
+
+I love [Digital Performer](https://motu.com/products/software/dp/), but it has some glaring issues with certain modern workflows (that electronic musicians tend to use, or live recordists). I also have some issues with certain GUI elements being ridiculously small. DP is still the cream of the crop for large MIDI composited projects, live backing tracks and large audio projects.
+
+[Reaper](https://www.reaper.fm) is just a total pain in the ass to learn for some people, but that pain comes with the ridiculously massive amount of functionality that it offers.
 
 I think that for the majority of music-based workflows, [Presonus Studio One](https://www.presonus.com/products/Studio-One) currently offers the most complete and sane set of defaults.
 
@@ -1809,7 +1813,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
         </category>
-    </admc>
+    </admdc>
 </div>
 
 # Reaper Notes
