@@ -87,7 +87,7 @@ Your browser does not support the video tag.
 
 Basically anything that outputs a signal can modify _nearly_ any control, **and** do it cleanly at audio-rate.
 
-It's almost always [animationd too](#visualiation). Good stuff.
+It's almost always [animated too](#visualiation). Good stuff.
 
 ## Automation
 
