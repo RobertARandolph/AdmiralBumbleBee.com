@@ -401,7 +401,7 @@ MIDI Pressure mapping, still needs scaling.
 
 Velocity to modulation. It suffers from the lack of easy scaling just like [MIDI Note](#midi-note).
 
-### Max and Max
+### Max and Min
 
 {::nomarkdown}
 	<img src="/assets/Khs/PhasePlant/Max.png" alt="Max">
