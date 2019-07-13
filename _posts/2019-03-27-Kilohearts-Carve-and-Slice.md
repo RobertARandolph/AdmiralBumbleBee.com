@@ -340,7 +340,7 @@ The benefit of the Snap Heap system is that you have a unified modulation system
 
 I know some people that absolutely love this system, and I can understand why.
 
-So you load Carve or Slice in and you want to use these awesome features and then... you can control the mix parameter???
+~~So you load Carve or Slice in and you want to use these awesome features and then... you can control the mix parameter???
 
 That's all?
 
@@ -352,7 +352,9 @@ Multipass is a multiband system, but once again there's products that offer you 
 
 I suppose if you're already using the snapin system then it's maybe worth it, and the Snap Heap system is pretty cool. There are other systems out there that give you similar benefits, but with any VST/AU you want.
 
-Hopefully they address this soon!
+Hopefully they address this soon!~~
+
+These things were addressed, and you can now modulate Carve and Slice as you may want to!
 
 ### Preset Browser
 

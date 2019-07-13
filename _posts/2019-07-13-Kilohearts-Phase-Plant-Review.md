@@ -43,7 +43,7 @@ Phase Plant is a modular synth with a carefully designed interface and a link to
 
 {::nomarkdown}
 <video autoplay loop muted class="gifvid">
-<source src="/assets/Khs/Phaseplant/Visualize.mp4" type="video/mp4">
+<source src="/assets/Khs/PhasePlant/Visualize.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
 <div class="video-caption">Visualize, man</div>
