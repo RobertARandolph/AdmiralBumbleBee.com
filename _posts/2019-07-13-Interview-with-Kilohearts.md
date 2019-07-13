@@ -283,7 +283,7 @@ Think of it as a guitar. Some people can create wonders with one guitarr, and no
 2) Yes, we have considered it and decided it was not worth our time, sadly
 3) I have some ideas for a new synthesis technique I'd like to explore actually
 
-### What lead you guys to develop the snapin ecosystem? Was it an early idea for the company? Was it based on any similar solutions by a competitor?
+### What lead you guys to develop the snapin ecosystem? Was it an early idea for the company? Was it based on any similar solutions by a competitor? Similarly for the subscription plan.
 
 **PerS**: Anders and PerL founded the company, and then I joined a little later. At that time they had some input from a major artist about a band splitter that should have a set effects list on each band. We came up with the idea of making those chains customizable. Then we thought: why not make them their own plugins as well? And Snapins were born. We had some basic idea of Phase Plant immidiately. It just took us many years to make it reality.
 
@@ -292,6 +292,16 @@ Think of it as a guitar. Some people can create wonders with one guitarr, and no
 We started making a multiband plugin loosely based on some youtube trick SeamlessR did. I think we called it NeuroChorus or something when working on it. Then at some point we felt "wait, wouldn't it be nice if we could move these around".
 
 And then yadda yadda snapins.
+
+About subscription: Not really.
+We have created som many plugins that the bundle is getting really expensive. We just wanted people to be able to get it without having to break the bank.
+
+
+### Some of us have a general idea of what to expect from possible snapins in the near future & feature additions due to the conversations in the KHS discord, but is there an official list you guys can confirm? If so, what are the snapins you guys as developers are most excited for? And maybe, if its not too much, what are the ones you're least looking forward to doing (cause of probable code nightmares?)
+
+**Anders**: We have been looking at making a convolution snapin, but the math owned us. Might return to that some day.
+
+Making a convolver is not that hard, making a super fast one is harder.
 
 * Conclusion
 
