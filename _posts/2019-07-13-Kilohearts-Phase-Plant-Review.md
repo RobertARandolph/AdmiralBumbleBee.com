@@ -87,7 +87,7 @@ Your browser does not support the video tag.
 
 Basically anything that outputs a signal can modify _nearly_ any control, **and** do it cleanly at audio-rate.
 
-It's almost always [animated too](#visualiation). Good stuff.
+It's almost always [animated too](#visualization). Good stuff.
 
 ## Automation
 
@@ -231,7 +231,7 @@ When you change the loop points or offset, there's a cool 'pop-in' zoom visualiz
 Then again the whole idea falls apart when you realize:
 
 * You can't change the zoom level
-* The amount of resolution available for adjusting offset/start/length is insufficient for anything but the tamest samples.
+* The amount of resolution available for adjusting offset/start/length is insufficient for anything but the tamest samples. Try a 1 minute long sample and now the coarse value jumps around multiple "windows". This leaves you to using multiple full-screen drag passes with shift-drag to get to where you may want to go.
 
 For playing samples that you don't need to fuss with much, it's _ok_. If you are someone that likes a sample-based workflow inside your monster synth... Phase Plant might disappoint you.
 
