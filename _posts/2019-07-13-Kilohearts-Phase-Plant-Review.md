@@ -2,11 +2,11 @@
 layout: post
 title: Kilohearts Phase Plant Review
 comments: true
-date:   2019-07-13_15:55:42 
+date:   2019-07-13_13:55:42 
 categories: music
 tags: ['Review']
-image:
-description:
+image: /assets/Khs/PhasePlant/WavetableEditor.png
+description: Phase Plant Review!
 ---
 
 {::nomarkdown}
@@ -679,7 +679,7 @@ Delay one channel. Makes things sound wider. Turns your signal into a comb filte
 
 The venerable [Moog Ladder Filter](http://www.uaudio.com/blog/moog-ladder-filter/). The DSP for this is described all over the internet, and I can't say that this sounds particularly unique.
 
-I'm not saying that it isn't a unique implementation, it very well may be, but it doesn't sound particularly unique to me when pushed to the extremes. Then again... it is a ladder filter, how unique can it be :)
+I'm not saying that it isn't a unique implementation, it very well may be, but it doesn't sound particularly unique to me.
 
 It's nice that they have at least one emulated filter though. (The Diode mode does sound pretty cool though)
 
@@ -709,7 +709,7 @@ Phase distortion as an effect is a unique addition. The idea is essentially like
 
 As interesting as it is, I rarely found use for it. You're basically forced to limit the bandwidth of your signal post-phase distortion with the tone knob, and most of the parameters sound strange when modulated.
 
-I did experiment with the sidechain to see if that helped any, and it still didn't yield particularly musical results. It does offer you some possibilities close to Phase Distortion Synthesis, which is not something I'm particularly awesome with... yet?
+I did experiment with the sidechain to see if that helped any, and it still didn't yield particularly musical results.
 
 I would suspect that phase distortion would be a key to getting more 'analog-like signals' with offset harmonics, but I just wasn't able to utilize this effect for that purpose successfully.
 
