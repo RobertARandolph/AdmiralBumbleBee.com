@@ -856,7 +856,7 @@ The sidechain parameter is even cooler still. You can craft your own sound to ad
 * Adding generators before existing generators is a pain. You have to add it at the bottom, then drag it up. Very annoying.
 * Lots of scrolling to deal with even a modest number of modules.
 * I dislike the generators automatically routing. I can appreciate that this makes things quicker to use, but removing a module from the signal path is 2 extra steps, and I find myself doing that more often than being happy with the implicit routing.
-* In the convert sample editor, it does not appear to be possible to change the 'source position' of a keyframe. From what I can tell, you need to delete the current keyframe and make a new one, which creates a mess of ghost keyframes. The UI gets cluttered really quick.
+* In the convert sample editor, ~~it does not appear to be possible to change the 'source position' of a keyframe. From what I can tell, you need to delete the current keyframe and make a new one, which creates a mess of ghost keyframes. The UI gets cluttered really quick.~~ **EDIT**: There is a "source" parameter that can be changed. I was expecting the bar to be draggable with the mouse, but it is not. Oops.
   * There's no easy way to transition/fade the edges of frames so that you can remove discontinuities without greatly affecting the current signal. Essentially I'd like a windowing function for the frames.
   * You can preview the resulting wavetable via MIDI input, however most converted samples will yield low amplitude wavetables. There really needs to be an 'auto-normalize' function in the wavetable editor so that you can preview the current sound.
     * Likewise a simple gain control would be nice if you wish to keep the inter-frame dynamics intact.
