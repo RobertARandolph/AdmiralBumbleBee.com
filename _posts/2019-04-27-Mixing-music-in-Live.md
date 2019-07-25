@@ -129,7 +129,8 @@ Here it comes... you knew it was coming.
   * No surround pan either.
   * Likewise no width control.
 * No plugin display - Plugins are only displayed in the device area, which is _also_ the clip editing area. This makes mixing while composing a task compromised of many shift-tab keypresses.
-  * The mixer in Live has _no_ plugin management features _at all_. You must switch to the device view at the bottom of the screen.
+  * **NOTE** - I'm referring to the GUI of the devices here.
+  * ~~The mixer in Live has _no_ plugin management features _at all_. You must switch to the device view at the bottom of the screen.~~ **EDIT** this is incorrect. You can open a plugin/device list in the Mixer using the little plug icon in the lower right of the mixer.
 * No fader throw adjustment - Half the fader in session view is -24dB. Half in the Arrangement view is -12dB. There's no way to adjust how this is scaled. Session view is particularly annoying because with [proper gain staging]({% post_url 2017-11-01-Gainstaging-for-the-modern-musician %}) having tracks at -24dB is rather rare. That means that you'll be mixing with <25% of the fader throw on already small faders. Ugh.
 * No fader value set - This is a feature I feel like has to be me missing something obvious. I don't see how to set a value for a fader/pan in Live to an absolute value. This is frequently useful when adjusting for gain from a plugin or a known input device level.
   * **EDIT** - A single click followed by typing does this. There's no visual feedback to let you know if/what/when you're editing until you start typing!
