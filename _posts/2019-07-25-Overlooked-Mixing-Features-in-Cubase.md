@@ -43,7 +43,7 @@ Here's some cool features that I've covered before:
 
 # Video
 
-<iframe width="1280" height="720" src="https://www.youtube.com/embed/Vv5UgRWb-Rs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="600" src="https://www.youtube.com/embed/Vv5UgRWb-Rs" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 # Mixconsoles - Plural
 
