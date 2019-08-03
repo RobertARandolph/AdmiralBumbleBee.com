@@ -18,7 +18,6 @@ permalink: categories.html
     <!-- `tag_words` is a sorted array of the tag names. -->
     {% assign tag_words = site_tags | split:',' | sort %}
 
-    <h1 class="page-heading"><a href="/tags/" target="_parent">Categories!</a></h1>
     {% for item in (0..site.tags.size) %}{% unless forloop.last %} {% capture this_word %}{{ tag_words[item] }}{% endcapture
     %}
     <div><a href="/tags/#{{ this_word | cgi_escape }}" target="_parent" class="tag">{{ this_word }}</a></div>

@@ -6,14 +6,15 @@
     position: -webkit-sticky;
     top: 0;
     background: $background-color;
-    border-top: 5px solid $grey-color-dark;
-    border-bottom: 2px solid $grey-color-light;
+    border-top: 2px solid $grey-color-dark;
+    border-bottom: 2px solid $grey-color-dark;
     padding-top: 3px;
+    padding-bottom: 3px;
     height: 50px;
     z-index: 1000;
 
     // Positioning context for the mobile navigation icon
-//    position: relative;
+    //    position: relative;
 }
 
 .site-title {
@@ -64,7 +65,7 @@
     }
 
     .dropdown-link {
-        color: $text-color;
+        color: $grey-color-dark;
         line-height: $base-line-height;
         font-size: 16px;
         margin-left: 10px;
@@ -101,23 +102,24 @@
 }
 
 .site-donate {
-    font-size: 19px;
-    font-weight: 300;
+    display: table;
+    font-size: 16pt;
+    font-weight: 500;
+    height: 50px;
     letter-spacing: 2px;
     text-align: center;
-    width: 15%;
+    width: $right-side-bar-width;
     position: relative;
     float: right;
-    margin-right: 1%;
+    margin-right: 0px;;
     margin-bottom: 5px;
     background-color: $container-background;
     color: $text-color;
     padding-right: 15px;
     padding-left: 15px;
-	border-radius: 5px;
-    border: 1px solid rgb(195,195,195);
+    border-radius: 5px;
+    //border: 1px solid rgb(195,195,195);
     box-shadow: 1px 1px 2px grey;
-
     text-decoration: none;
 
     &:hover {
@@ -133,71 +135,45 @@
         float: none;
         display: none;
     }
-}
 
-.donate-hard{
-    font-size: 10px;
-    font-weight: 200;
-    letter-spacing: 1px;
-    text-align: center;
-    width: 90%;
-    margin-left: 5%;
-    float: right;
-    color: $text-color;
-    padding-right: 15px;
-    padding-left: 15px;
-
-    &:hover {
-        color: white;
-        text-shadow: 1px 1px #000000;
-        text-decoration: none;
-        background: red;
-    }
-
-    &,
-    &:visited {
-        color: $text-color;;
-    }
-    @include media-query($on-palm) {
-        visibility: hidden;
-        width: 0%;
-        float: none;
-        display: none;
+    a {
+        display: table-cell;
+        vertical-align: middle;
     }
 }
 
 .side-bar-box {
-    width: 12%;
+    width: $left-side-bar-width;
     position: absolute;
     float: left;
     margin-left: 0;
     background-color: $container-background;
-    padding: 15px;
-	border: 1px solid #eee;
-	border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
     clear: both;
 
     @include media-query($on-palm) {
-       visibility: hidden;
-       width: 0%;
+        visibility: hidden;
+        width: 0%;
     }
 }
 
 .side-bar-box2 {
     position: fixed;
-    width: 12%;
+    width: $right-side-bar-width;
     position: relative;
     float: right;
     margin-right: 0;
     background-color: $container-background;
     padding: 15px;
-	border: 1px solid #eee;
-	border-radius: 5px;
+    border: 1px solid #eee;
+    border-radius: 5px;
     clear: both;
 
     @include media-query($on-palm) {
-       visibility: hidden;
-       width: 0%;
+        visibility: hidden;
+        width: 0%;
     }
 }
 
@@ -215,17 +191,29 @@
 }
 
 .recent-post {
-    width: 90%;
-    border-bottom: 1px solid $grey-color;
-    margin-bottom: 10px;
-    padding-bottom: 5px;
+    width: 100%;
+    border-bottom: 1px solid $grey-color-light;
+    border-left: 1px solid $grey-color-light;
+    box-shadow: -2px 2px 10px $grey-color-light;
+    margin-top: 15px;
+    margin-left: 3px;
+    border-radius: 0px 0px 0px 2px;
+
+    .recent-post-link {
+        padding: 3px;
+        display:block;
+    }
+    .recent-post-link:hover {
+        background-color: $grey-color-light;
+    }
+    
 }
 
 #mobile-search {
     display: none;
     
     @include media-query($on-palm) {
-	display: block;
+        display: block;
     }
 }
 
@@ -420,11 +408,11 @@
 
 .index-post {
     margin-left: 0;
-	margin-bottom: 2em;
-	background-color: $container-background;
-	padding: 1em;
-	border: 1px solid #eee;
-	border-radius: 5px;
+    margin-bottom: 2em;
+    background-color: $container-background;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 5px;
     list-style: none;
 
     iframe {
@@ -433,13 +421,14 @@
 }
 
 .post-list {
-	padding: 0px;
-	margin: 0px;
+    padding: 0px;
+    margin: 0px;
     list-style: none;
 
     > li {
         margin-bottom: $spacing-unit;
     }
+
 }
 
 .post-meta {
@@ -460,11 +449,11 @@
 
 .post {
     margin-left: 0;
-	margin-bottom: 2em;
-	background-color: $container-background;
-	padding: 1em;
-	border: 1px solid #eee;
-	border-radius: 5px;
+    margin-bottom: 2em;
+    background-color: $container-background;
+    padding: 1em;
+    border: 1px solid #eee;
+    border-radius: 5px;
 }
 
 .post-header {
@@ -486,8 +475,8 @@
 
     h1 {
         font-size: 40px;
-		border-bottom: 3px solid rgb(0,0,0);
-		padding-bottom: 5px;
+        border-bottom: 3px solid rgb(0,0,0);
+        padding-bottom: 5px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -496,8 +485,8 @@
 
     h2 {
         font-size: 30px;
-		border-bottom: 2px solid rgb(200,200,200);
-		padding-bottom: 5px;
+        border-bottom: 2px solid rgb(200,200,200);
+        padding-bottom: 5px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -506,8 +495,8 @@
 
     h3 {
         font-size: 20px;
-		border-bottom: 1px solid rgb(200,200,200);
-		padding-bottom: 5px;
+        border-bottom: 1px solid rgb(200,200,200);
+        padding-bottom: 5px;
 
         @include media-query($on-laptop) {
             font-size: 22px;
@@ -516,13 +505,14 @@
 
     h4 {
         font-size: 15px;
-		border-bottom: 1px solid rgb(200,200,200);
-		padding-bottom: 5px;
+        border-bottom: 1px solid rgb(200,200,200);
+        padding-bottom: 5px;
 
         @include media-query($on-laptop) {
             font-size: 15px;
         }
     }
+
 }
 
 .previous, .next {
@@ -534,8 +524,8 @@
 }
 
 .tags_footer {
-    font-size: 40px;
-    text-align: center;
+    font-size: 20px;
+    text-align: right;
 
     @include media-query($on-palm) {
         font-size: 20px;
@@ -543,6 +533,6 @@
 }
 
 #tags-list h2 {
-	margin-top: 25px;
-	margin-bottom: 5px;
+    margin-top: 25px;
+    margin-bottom: 5px;
 }

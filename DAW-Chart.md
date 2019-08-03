@@ -39,7 +39,7 @@ If you never do multitrack editing, give it a 0. Then DAWs that excel in this ar
 
 These are the versions that I have most recently evaluated the features (and stability) of:
 
-* Reaper 5.979
+* Reaper 5.981
 * Digital Performer 10.01
 * Cubase 10.0.30
 * Studio One 4.5.1
@@ -49,9 +49,8 @@ These are the versions that I have most recently evaluated the features (and sta
 * Cakewalk 2018.11
 * FLStudio 20.5 Mac
 * Live 10.1
-* Bitwig 2.5.1
+* Bitwig 3.0.1
 * Mixbus 32c 5.2
-* SawStudio 5.6
 
 # How recently was this update
 
@@ -291,7 +290,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="5"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="5"> </daw>
-			<daw name="Bitwig" rating="3"> </daw>
+			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
         </category>
         <category name="Track Templates">
@@ -689,6 +688,23 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
+        </category>
+    </admdc>
+    <admdc section="Modularity" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
+        <category name="Modularity">
+            <daw name="Reaper" rating="3"> </daw>
+            <daw name="Digital Performer" rating="0"> </daw>
+			<daw name="Cubase" rating="0"> </daw>
+			<daw name="Waveform" rating="7"> </daw>
+            <daw name="Studio One" rating="2"> </daw>
+            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="Logic" rating="0"> </daw>
+            <daw name="Reason" rating="7" link="Reason Modularity"> </daw>
+			<daw name="Cakewalk" rating="0"> </daw>
+			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="Live" rating="4" link="Live-Modularity"> </daw>
+			<daw name="Bitwig" rating="10"> </daw>
+            <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
     <admdc section="Included Content" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html">
@@ -1487,7 +1503,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="8"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="1"> </daw>
-			<daw name="Bitwig" rating="1"> </daw>
+			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
         </category>
         <category name="Responsiveness">
@@ -1722,19 +1738,19 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="9"> </daw>
         </category>
         <category name="Fragility">
-            <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
-			<daw name="Cubase" rating="0"> </daw>
-			<daw name="Waveform" rating="2"> </daw>
+            <daw name="Reaper" rating="10"> </daw>
+            <daw name="Digital Performer" rating="7"> </daw>
+			<daw name="Cubase" rating="10"> </daw>
+			<daw name="Waveform" rating="8"> </daw>
             <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
-            <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="Cakewalk" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="4"> </daw>
-			<daw name="Bitwig" rating="9" link="bitwig-fragility"> </daw>
-            <daw name="Mixbus" rating="2"> </daw>
+            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="Logic" rating="10"> </daw>
+            <daw name="Reason" rating="7"> </daw>
+			<daw name="Cakewalk" rating="10"> </daw>
+			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="Live" rating="6"> </daw>
+			<daw name="Bitwig" rating="1" link="bitwig-fragility"> </daw>
+            <daw name="Mixbus" rating="8"> </daw>
         </category>
         <category name="Professionalism">
             <daw name="Reaper" rating="8"> </daw>
@@ -1945,6 +1961,10 @@ Logic's VCAs can not be stacked or chained. The current implementation is correc
 
 Reason relies heavily on the rack system, which is problematic to navigate. For the purposes of this rating I'm considering the ability to navigate the rack as 'window management'.
 
+## Reason Modularity
+
+Reason does not have full audio rate parameter data, so it is docked points for this.
+
 # Cakewalk
 
 ## Cakewalk Inserts
@@ -1978,6 +1998,10 @@ Live's Routing is considered without M4L. M4L allows some really cool routing, b
 ## Live Collab
 
 Services link [Splice](https://splice.com) exist, but they are paid. Live does not get credit for these third party services unless/until it's integrated directly in to the software.
+
+## Live Modularity
+
+The rating does not consider [Max for Live](https://www.ableton.com/en/live/max-for-live/).
 
 # Bitwig Notes
 

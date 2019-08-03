@@ -8,14 +8,20 @@ permalink: recentposts.html
   <link rel="stylesheet" id="mainstyle" href="{{ "/css/main.css" | prepend: site.baseurl }}">
   <script type="text/javascript" src="/admt/admt.js"> </script>
   <script>
-  flexFont = function () {
-    var divs = document.getElementsByClassName("flexFont");
-    for(var i = 0; i < divs.length; i++) {
-    var charl = divs[i].childNodes[1].innerHTML.length;
-        var relFontsize = divs[i].offsetWidth / charl * 1.8;
-        divs[i].style.fontSize = relFontsize+'px';
-    }
-};
+//  up_fonto = function ( e ) {
+//  console.log("Hey!"); 
+//  e.target.style.fontSize = "20px";
+//  }
+//  flexFont = function () {
+//    var divs = document.getElementsByClassName("flexFont");
+//    for(var i = 0; i < divs.length; i++) {
+//    var charl = divs[i].childNodes[1].innerHTML.length;
+//        var relFontSize = divs[i].offsetWidth / charl * 2;
+//        var minSize = Math.min(relFontSize, 20);
+//        divs[i].style.fontSize = Math.floor(minSize) + 'px';
+//        //divs[i].addEventListener("mouseover", up_fonto);
+//    }
+//};
 
 window.onload = function(event) {
     //flexFont();
@@ -36,17 +42,12 @@ window.onresize = function(event) {
   <input type="submit" value="Go" style="width: 25%;" />
 </form>
 
-<h1 class="page-heading">Recent Posts!</h1>
 {% assign i = 0 %}
-{% for post in site.posts %}
+{% for post in site.posts limit:50 %}
   {% if post.visible != 0 %}
   <div class="recent-post flexFont">
-    <a href="{{ post.url }}" target="_parent">{{ post.title }}</a>
+    <a class="recent-post-link" href="{{ post.url }}" target="_parent">{{ post.title }}</a>
   </div>
- {% assign i = i | plus: 1 %}
-  {% endif %}
-  {% if i > 20 %}
-    {% break %}
   {% endif %}
 {% endfor %}
 </body>

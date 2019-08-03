@@ -347,6 +347,18 @@ If you've never used VCAs before then you probably think that you can live witho
 
 They are very useful and make mixing complex projects a breeze. No DAW should be without them.
 
+# Modularity
+
+## Modularity
+
+The ability to link primitive devices to other primitive devices.
+
+5 points are assigned for the non-linear routing of processing devices. 
+
+5 points are assigned for the ability to process metadata or parameter change data (modulation).
+
+A fully modular (10/10) system would have no distinction between audio and parameter change data, along with providing a selection of meta-devices to work with data in a generic manner.
+
 ## PDC
 
 Some plug-ins and processes require extra samples to do their work. This causes a delay before the output is heard.
@@ -906,6 +918,8 @@ This has nothing to do with how quickly you can learn to use a DAW to make the m
 Some products are fragile: they release updates that break existing functionality, don't support backwards compatibility, release half-baked features etc...
 
 This rating considers how likely it is that the user of a given product will have to deal with an update introducing new problems, **OR** a product's _lack of updates_ causing the user to be unable to utilize an advertised feature.
+
+Higher scores indicate _less_ fragility.
 
 ## Professionalism
 

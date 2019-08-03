@@ -170,6 +170,7 @@ These are plug-ins that you can acquire without needing to spend money.
     * [Overtone GEQ](https://www.voxengo.com/product/overtonegeq/) - this is not _just_ a graphical equalizer, it had some nice harmonics to you whatever you do.
     * [Luftikis](https://www.kvraudio.com/product/luftikus-by-lkjb) - german for “airhead”, it’s an apt name. Maag eq4 is the commercial equivalent, but Luftikis is a fine alternative.
     * [sTilt](https://www.tb-software.com/TBProAudio/stilt.html) - this is what's called a tilt-shift filter. It equally reduces high and low end inversely proportional to each other.
+    * [QRange](https://lkjbdsp.wordpress.com/qrange/) - Interesting linear phase equalizer having a bit of a laugh at [ThEQorange](https://www.maat.digital/theqorange/). However, it's still worth a try.
 
 ## Dynamics
 
