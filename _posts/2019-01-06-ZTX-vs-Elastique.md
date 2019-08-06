@@ -18,7 +18,7 @@ As you may know many people use timestretching software in their day to day oper
 
 However, not all timestretching systems are created equal. Some timestretching systems are significantly better than others, and this is evident if you have used something like [Sound](https://www.surina.net/soundtouch/) then you are fully aware of how terrible timestretching can _truly_ be. There are also other naive timestretching algorithms that are complete garbage.
 
-The most common timestretching algorithm is [Elastique](https://products.zplane.de/elastique-pitch-2) which is used all the way from the lowly [Bitwig](https://www.bitwig.com/en/home.html) up to [Cubase](https://new.steinberg.net/cubase/), [Logic Pro](https://www.apple.com/logic-pro/) and [Pro Tools](https://www.avid.com/pro-tools).
+The most common timestretching algorithm is [Elastique](https://products.zplane.de/elastique-pitch-2) which is used all the way from the lowly [Bitwig](https://www.bitwig.com/en/home.html) up to [Cubase](https://new.steinberg.net/cubase/) and [Pro Tools](https://www.avid.com/pro-tools).
 
 There is a new algorithm on the market when it comes to DAWs, and that is [ZTX](http://www.zynaptiq.com/ztx/). [Digital Perfomer](http://motu.com/newsitems/digital-performer-95-is-now-shipping) added ZTX and their 9.5 update recently, and it's interesting because it is the only DAW that currently uses this algorithm. They had a choice of many things and they chose ZTX over Elastique.
 
