@@ -114,6 +114,7 @@
     margin-right: 0px;;
     margin-bottom: 5px;
     background-color: $container-background;
+    background-color: $sidebar-background;
     color: $text-color;
     padding-right: 15px;
     padding-left: 15px;
@@ -147,7 +148,7 @@
     position: absolute;
     float: left;
     margin-left: 0;
-    background-color: $container-background;
+    background-color: $sidebar-background !important;
     padding: 5px;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -165,7 +166,7 @@
     position: relative;
     float: right;
     margin-right: 0;
-    background-color: $container-background;
+    background-color: $sidebar-background !important;
     padding: 15px;
     border: 1px solid #eee;
     border-radius: 5px;
@@ -192,9 +193,9 @@
 
 .recent-post {
     width: 100%;
-    border-bottom: 1px solid $grey-color-light;
-    border-left: 1px solid $grey-color-light;
-    box-shadow: -2px 2px 10px $grey-color-light;
+    border-bottom: 1px solid $link-shadow;
+    border-left: 1px solid $link-shadow;
+    box-shadow: -2px 2px 10px $link-shadow;
     margin-top: 15px;
     margin-left: 3px;
     border-radius: 0px 0px 0px 2px;

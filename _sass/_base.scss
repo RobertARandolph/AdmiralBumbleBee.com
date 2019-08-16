@@ -26,7 +26,11 @@ body {
 }
 
 .side-bar-body {
-    background-color: $container-background !important;
+    background-color: $sidebar-background !important;
+    div a {
+        font: $sidebar-font-weight #{$sidebar-font-size}/#{$base-line-height} $sidebar-font-family;
+    }
+
 }
 
 
@@ -41,6 +45,9 @@ ul, ol, dl, figure,
     margin-bottom: $spacing-unit / 2;
 } 
 
+p {
+    margin-block-end: 1.5em;
+}
 
 
 /**

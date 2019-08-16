@@ -13,11 +13,13 @@ $grey-color:       #828282;
 $grey-color-light: rgb(245, 245, 245);
 $grey-color-dark:  darken($grey-color, 25%);
 
-$container-background: white;
+$container-background: #f9f8ee;
+$link-shadow: rgb(245,245,245);
+$sidebar-background: white;
 
-$h2-background-color: darken($container-background, 10%);
-$h3-background-color: darken($h2-background-color, 10%);
-$h4-background-color: darken($h3-background-color, 10%);
+$h2-background-color: darken($container-background, 6%);
+$h3-background-color: darken($h2-background-color, 6%);
+$h4-background-color: darken($h3-background-color, 6%);
 
 $highlighter-background: rgb(245, 245, 245);;
 $highlighter-color: black;

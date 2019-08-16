@@ -1,9 +1,13 @@
 // Our variables
-$base-font-family: "CMUSansSerif", sans-serif;
-$base-font-size:   13pt;
+$base-font-family: "Computer Modern Sans", sans-serif;
+$base-font-size:   14pt;
 $base-font-weight: 400;
 $small-font-size:  $base-font-size * 0.875;
 $base-line-height: 1.5;
+
+$sidebar-font-family: "Arial", sans-serif;
+$sidebar-font-size:   12pt;
+$sidebar-font-weight: 400;
 
 $spacing-unit:     30px;
 
@@ -27,4 +31,15 @@ $on-laptop:        1439px;
     @media screen and (max-width: $device) {
         @content;
     }
+}
+
+@font-face {
+	font-family: 'Computer Modern Sans';
+	src: url('/fonts/cmunss.eot');
+	src: url('/fonts/cmunss.eot?#iefix') format('embedded-opentype'),
+		 url('/fonts/cmunss.woff') format('woff'),
+		 url('/fonts/cmunss.ttf') format('truetype'),
+		 url('/fonts/cmunss.svg#cmunss') format('svg');
+	font-weight: normal;
+	font-style: normal;
 }
