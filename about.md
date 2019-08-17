@@ -18,6 +18,7 @@ Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me
 	* [Clojure](https://clojure.org) and Java for desktop.
 	* ~~Haskell for fun.~~
         * I'm current playing with [Nim](https://nim-lang.org) for fun now.
+		* I've been adding cljs capability to my resumé recently.
 
 * Music...
 	* Electric and Double bass
@@ -32,14 +33,19 @@ Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me
 	
 * Software tinkering
 	* I just have a **really** big interest in DAWs, their workings and workflows.
-		* I currently primarily use Digital Performer and Reaper.
+		* I currently primarily use Cubase and Reaper.
 	* I really love [Omnifocus](https://www.omnigroup.com/omnifocus) and [Many products from ManyTricks Software](https://manytricks.com). Specifically [KeyMo](https://manytricks.com/keymo/), [Moom](https://manytricks.com/moom/) and [Time Sink](https://manytricks.com/timesink/).
+	* I design with [Omnigraffle](https://www.omnigroup.com/omnigraffle/), [Affinity Designer](https://affinity.serif.com/en-us/) and [Affinity Photo](https://affinity.serif.com/en-us/photo/).
+	* Videos are done with [Screenflow](http://www.telestream.net/screenflow/overview.htm) and [Resolve](https://www.blackmagicdesign.com/products/davinciresolve) using a [Panasonic G9](https://www.dpreview.com/reviews/panasonic-lumix-dc-g9) and various Logitech Webcams.
 	* ~~I was a __die-hard__ [emacs user](https://www.gnu.org/software/emacs/), but I tried to live without it for a month. It was successful and I continued using [Vim](http://www.vim.org) as I have for a long time, then I did a month without that and... now I use [VS Code](https://code.visualstudio.com) and [NetBeans](https://netbeans.org).~~
-	* Nope. As of February 2018 I'm back to using emacs and [Evil Mode](https://github.com/emacs-evil/evil). VS Code is awesome software, but the VIM layer is just not as good as I need. I also really miss things like [Ivy](https://github.com/abo-abo/swiper), [Key Chords](https://www.emacswiki.org/emacs/KeyChord) and having relative line numbers in normal mode, and absolute line numbers in insert mode. It's built in to my consciousness.
+	* ~~Nope. As of February 2018 I'm back to using emacs and [Evil Mode](https://github.com/emacs-evil/evil). VS Code is awesome software, but the VIM layer is just not as good as I need. I also really miss things like [Ivy](https://github.com/abo-abo/swiper), [Key Chords](https://www.emacswiki.org/emacs/KeyChord) and having relative line numbers in normal mode, and absolute line numbers in insert mode. It's built in to my consciousness.~~
+	* Nope... using VSCode again. Vim bindings don't seem to suck as much anymore, [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva) is pretty awesome. The 'out of the box' cross-language capabilities are just too good to ignore.
+
 * Tutorials!
 	* DAW tutorials
 	* Mechanics and efficiency tutorials for music
 	* Electronics repair
+
 * Workshop
 	* I have a pretty nice workshop where I build all sorts of things that you'll see here.
 * Cook
@@ -49,7 +55,7 @@ Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me
 
 * [youtube](http://youtube.com/admiralbumblebee) - I'm updating this regularly now!
 * [Freenode.net](https://freenode.net/) as AdmiralBumbleBee. I spend most of my time in #ardour, #lisp, #clojure and ##C
-	* I'm usually on other servers like thinstack, quaknet, rizon, efnet and more.
+	* I'm usually on other servers like thinstack, quakenet, rizon, efnet and more.
 * [EDMP Discord](http://edmpdiscord.com)
 * [WATMM](https://discord.gg/wearethemusicmakers)
 * Forums

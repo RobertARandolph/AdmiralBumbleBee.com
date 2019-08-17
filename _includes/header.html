@@ -27,6 +27,7 @@
       "I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces.",
       "\phi (t+T)=\phi (t)\phi ^{{-1}}(0)\phi (T).",
       "RFC 20 - Status Code 808: Too much bass.",
+      "Which way did he go, George?",
       "This site is tuned to 432hz for your enlightenment",
       "ISTJ-A - You can't argue, it's science.",
       "I remember when Common Lisp got that feature... in the 80s",
@@ -42,6 +43,7 @@
       "Peter Kirn is kinda cute.",
       "Visual programming... what a laugh.",
       "Another ALGOL syntax... alright, I guess. It worked the first time right?",
+      "I know you checked the page source, don't lie.",
       "Xah Lee, the most irritatingly useful person on the internet",
   ];
       document.getElementById("wisdom").innerHTML = randomSayingsFor_fun[Math.floor((Math.random() * randomSayingsFor_fun.length))];
@@ -54,7 +56,8 @@
   <div id="title-count">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <br />
-    <a href="/tags/" target="_parent"> <span class="post-count" id="wisdom"></span>
+    <a href="/tags/" target="_parent"> 
+      <div class="post-count" id="wisdom"></div>
     </a>
   </div>
 
@@ -130,7 +133,7 @@
          </script>
 
         <div class="dropdown">
-          <a class="page-link" onclick="toggle_visibility('feature-menu');">Features</a>
+          <a class="page-link" id="feature-text" onclick="toggle_visibility('feature-menu');">Features</a>
           <div class="dropdown-content" id="feature-menu">
             <a class="dropdown-link" href="/DAW-Chart.html">The DAW Feature Chart</a>
             <br />

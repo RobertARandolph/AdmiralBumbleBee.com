@@ -22,6 +22,7 @@
     font-weight: 300;
     margin-bottom: -15px;
     margin-left: 1%;
+    margin-top: -3px;
     padding-bottom: 0;
     float: left;
     color: $text-color;
@@ -34,6 +35,21 @@
         margin-left: 10%;
         margin-bottom: 1%;
     }
+}
+
+#feature-text {
+    color: rgba(31, 0, 0, 0.849);
+    padding: 3px 8px 3px 8px;
+    border: 1px solid darken($grey-color-light, 15%);
+
+    &:hover {
+        text-decoration: none !important;
+        background-color: darken($grey-color-light, 15%);
+    }
+}
+
+#feature-menu {
+    background-color: $grey-color-light;
 }
 
 .dropdown {
@@ -50,6 +66,7 @@
 .dropdown-content {
     display: none;
     position: absolute;
+    transform: translateX(30px);
     background-color: white;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     padding: 12px 16px;
@@ -67,7 +84,7 @@
     .dropdown-link {
         color: $grey-color-dark;
         line-height: $base-line-height;
-        font-size: 16px;
+        font-size: 18px;
         margin-left: 10px;
         margin-right: 10px;
     }
@@ -95,11 +112,17 @@
     }
 }
 
+#wisdom {
+    line-height: 0.9em;
+    width: 260px;
+}
+
 #title-count {
     float: left;
     text-align: center;
     margin-left: 5px;
 }
+
 
 .site-donate {
     display: table;
