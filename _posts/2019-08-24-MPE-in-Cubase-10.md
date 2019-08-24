@@ -2,18 +2,27 @@
 layout: post
 title: MPE in Cubase 10
 comments: true
-date:   2019-08-09_14:58:49 
+date:   2019-08-24_14:58:49 
 categories: music
 tags: ['Cubase', 'Review', 'Monthly']
-image:
-description:
+image: /assets/Cubase/MPE/Thumbnails/MPEParameters.png
+description: Using MPE in Cubase 10.
 ---
+
+{::nomarkdown}
+<img src="/assets/Cubase/MPE/Thumbnails/MPEParameters.png" alt="MPE Parameters">
+<div class="image-caption">MPE Parameters</div>
+{:/nomarkdown}
 
 Cubase 10 has MPE support...
 
 _sorta..._ well, somewhat. I guess.
 
 Let me walk you through the muck and wishiwashiness by explaining how MPE in Cubase 10 works.
+
+[Make sure you read the previous article about what MPE is!]({% post_url 2019-08-10-What-is-MPE %})
+
+**IMPORTANT** - This information is for Cubase 10.0. Future versions may improve this functionality. If you are running a newer version then please check the release notes and documentation to verify that this information is still relevant.
 
 <!--more-->
 
@@ -25,6 +34,8 @@ Let me walk you through the muck and wishiwashiness by explaining how MPE in Cub
 {:toc}
 
 # What is MPE
+
+<iframe width="800" height="600" src="https://www.youtube.com/embed/YEEE-Hjmpdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 MIDI is generally used to stream data across a channel. Channels are used to separate data streams, and you get 16 channels per port.
 
@@ -65,11 +76,16 @@ Note Expression operates quite differently than MIDI since it uses programmatic 
 
 Note Expression allows you to assign a variety of MIDI parameters to a single note, rather than to the entire channel.
 
-Note Expression is a less generalized implementation, but a near-superset of MPE. What you can do with MPE can be done with Note expression (except for the rarely used MPE Zones), and Note Expression can do _a lot_ more.
+Note Expression is a less generalized implementation, but functionally is a near-superset of MPE. What you can do with MPE can be done with Note expression (except for the rarely used MPE Zones), and Note Expression can do more.
 
 **NOTE** - VST Expression also encompasses [Expression Maps](https://steinberg.help/cubase_pro_artist/v9.5/en/cubase_nuendo/topics/expression_maps/expression_maps_c.html), but this is extraneous functionality for this topic. It is a cool feature in its own right (in theory!)
 
 # MPE to VST Expression
+
+{::nomarkdown}
+<img src="/assets/Cubase/MPE/NotMPE.png" alt="Not MPE, but VST Expression">
+<div class="image-caption">Not MPE, but VST Expression</div>
+{:/nomarkdown}
 
 Cubase **DOES NOT HAVE MPE EDITING**. Read that again.
 
@@ -101,41 +117,86 @@ So you certainly think, "Ok, but I can assign notes to channels easily in Cubase
 
 It's not that easy. Note allocation in MPE is mildly complex and you will have little success trying to manually select the correct channel for each note. **CUBASE DOES NOT PROVIDE** automatic MPE channel selection for mouse-based input.
 
+Each note that you wish to have individual expression characteristics must be put on its own channel (2-16 normally). There is currently no mechanism to automate this process.
+
+### Slightly better editing
+
+You can improve this poor editing experience by at least setting Cubase to colour notes by Channel.
+
+Unfortunately, you still must manually (with the mouse) select the note's channel. I am unable to find a keyboard shortcut to make this process easier.
+
 ## Doing it without a device
 
 {::nomarkdown}
-<img src="/assets/Cubase/MPE/NoteExpSetup.jpg" alt="Note Expression Setup for MPE use">
-<div class="image-caption">Note Expression Setup for MPE use</div>
+<a href="/assets/Cubase/MPE/MPEParameters.png">
+<img src="/assets/Cubase/MPE/Thumbnails/MPEParameters.png" alt="MPE Parameters">
+</a>
+<div class="image-caption">MPE Parameters (Click for larger image)</div>
 {:/nomarkdown}
 
 If you want to explore MPE-Note Expression without an MPE device then you can still do it.
 
-* Open the Key Editor
-* Open the Note Expression panel
-* Assign Pitchbend to Pitchbend
-* Assign Aftertouch to Aftertouch
-* Assign CC 74 to CC 74
-  * You may need to click the "Expression" header with the down triangle then:
-    * `MIDI Controller Setup`
-    * In the right panel select CC 74
-    * Click `<<` to move CC 74 to the left panel.
-    * Now you can assign CC 74 in the Expression list.
+* You may need to click the "Expression" header with the down triangle then:
+  * `MIDI Controller Setup`
+  * In the right panel select CC 74
+  * Click `<<` to move CC 74 to the left panel.
+  * Now you can assign CC 74 in the Expression list.
     
-After completing this setup you can double click a note to bring up the Expression Editor. The current Note Expression value being edited is based on your selection in the "Note Expression" panel.
+After completing this setup you can double click a note to bring up the Expression Editor. The current Note Expression value being edited is based on your selection in the "Note Expression" panel. MPE uses the following expression data:
+
+* CC #74
+* Pitchbend
+* Aftertouch
+* Note On Velocity
+* Note Off Velocity - Editable in the "Info Bar", not in the normal velocity editing area.
 
 From there explore clicking the various little widgets in the box to see what they do. The video above shows some of the capabilities.
 
+**NOTE 1**: [Remember to manage note channels](#why-use-an-mpe-controller). For two notes to have individual expression characteristics, they must be on a separate channel, and that channel must not be the MPE master (if the device utilizes that).
+
+**NOTE 2**: Many MPE Synths use Channel 1 as the MPE Master Channel. That means that no note data will be valid on that channel. If your MPE synth uses Channel 1 as the MPE Master Channel, then set your track's input channel to 2. That will make all entered notes default to Channel 2 instead of Channel 1
+
 # Editing "MPE" in Cubase
 
-Forget it. It just shows up as normal MIDI data and you're once again responsible for per-note channel selection. All of your events show up in a single cluster of nonsense that's basically not editable.
+{::nomarkdown}
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/Cubase/MPE/Editing.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Editing MPE (Video)</div>
+{:/nomarkdown}
 
-Not to mention that setting the current 'input channel' constantly, or editing the notes' channel afterwards, is a pain.
+Once you have everything setup, then you can use the VST Expression editor to draw your data just like it's automation. There's a few extra features as well:
 
+* Tilt Side
+* Compress Side
+* Scale Vertically
+* Move Vertically
+* Scale Around Absolute Center
+* Scale Around Relative Center
+* Stretch
 
+It's pretty cool as you can see in the video above.
+
+All the normal CC/Automation tools work as well.
+
+The _only_ not cool thing is that you have to manually assign MIDI channel to each note that you don't want to overlap.
+
+# Conclusion
+
+It took me a while to get my head around mapping MPE to Note Expression. I originally tried a number of unnecessary things, and walked away thinking Cubase was less functional than it really is. I wrote this entire article with incorrect information the first time around, and I'm not even completely certain that I'm 100% correct right now.
+
+However, once you get MPE->Note Expression->MPE working, Cubase's editing capabilities are _the best_ on the market... well, expect not automatically assigning note MIDI Channels. That makes the experience less than awesome for complex pieces.
+
+I found that in practice it's fairly rare to have more than 2-3 notes with individual expression data. That makes manually managing MIDI channels much easier. Cubase's colouring of notes by Channel further aids the process.
+
+For now, this is the future. May as well get on board?
+
+(That's what they said about Ruby on Rails though, and look where we are now)
 
 # Meta
 
-This post took XX hours to research, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
+This post took 31 hours to research, write and edit. I also totally screwed up _the entire article_ once and had to redo it all. (Cubase's MPE Documentation is not that awesome). The video took 8 hours. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
 
 <a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
