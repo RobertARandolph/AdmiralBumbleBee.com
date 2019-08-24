@@ -33,6 +33,12 @@ Let me walk you through the muck and wishiwashiness by explaining how MPE in Cub
 * TOC
 {:toc}
 
+# Video
+
+<iframe width="800" height="450" src="https://www.youtube.com/embed/N4Z0dPulgfc" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+This is the video explaining the steps for using MPE in Cubase 10 plainly.
+
 # What is MPE
 
 <iframe width="800" height="600" src="https://www.youtube.com/embed/YEEE-Hjmpdw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
