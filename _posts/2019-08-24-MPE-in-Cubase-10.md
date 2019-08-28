@@ -72,6 +72,12 @@ This totals 5 dimensions of expression.
 
 Why not every single CC/RPN? Well, some of those are used for controlling the MPE setup. The rest simply are not defined in the specification, and certainly could be used by a reckless developer. Future revisions of MPE would break those implementations though!
 
+**EDIT** Thanks to "Len" in the comments for providing extra information:
+
+~~~
+I can just imagine having to send an output level to each and every channel every every time I wanted to change the overall level. The same reasoning goes for using a bus for reverb rather than having a reverb in each track. So while having lots of CCs to use on each individual note sounds good, the reality is that the damper pedal, over all volume and many other things, need to be controlled the same for all notes to sound right... to sound like it is still all the same instrument. Splitting the CC range to give some per note and some overall just makes sense.
+ ~~~
+
 Regardless of the seemingly ridiculous limitations, MPE does give you 16 voices of MIDI with 3 independent parameters per voice as part of the data specification.
 
 # What is VST Expression - Note Expression
