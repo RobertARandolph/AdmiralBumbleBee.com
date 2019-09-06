@@ -4,10 +4,9 @@ title: Interview with Hunter Thompson
 comments: true
 date: 2019-01-12_15:57:40 
 categories: music
-tags: ['Interview']
+tags: ['Interviews']
 image:
 description: Interview with Hunter Thompson
-visible: 0
 ---
 
 Hunter has been an absolute titan and powerhouse in the EDM industry for many years. An original co-creator of the insanely successful blogs and networks [RUN THE TRAP](https://runthetrap.com) and [Too Future](https://soundcloud.com/toofutureshop), he has also been instrumental in building and supporting the growing careers of artists like [K?D](https://whoskid.com), [Autograf](https://leaveyourautograf.com) and [Medasin](https://medasinmusic.com) through his management agency and record label, ALT:VISION, which recently partnered with major label Republic/Casablanca.

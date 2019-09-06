@@ -4,7 +4,7 @@ title: "Let's Talk About Me and My Future"
 comments: true
 date:   2018-06-09_14:01:34 
 categories: general
-tags: ['Rant']
+tags: ['Rant', 'Health']
 image:
 description: A candid post about myself
 ---
