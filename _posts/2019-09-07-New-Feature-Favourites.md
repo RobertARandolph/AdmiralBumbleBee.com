@@ -25,6 +25,8 @@ I will be trying to keep the list up to date if/when these things changes.
 
 [I would also like if you read the header on the favourites page](/Favourites.html#what-this-is).
 
+<!--more-->
+
 # Meta
 
 The [favourites page](#Favourites) took me 13 hours to compile and proof. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
