@@ -44,7 +44,7 @@ Here are some ideas I thought of writing about, but presented by someone else:
 * Features
     * Audio Alignment - **PAID ARTICLE** [https://www.soundonsound.com/techniques/cubase-pro-audio-alignment-adr](https://www.soundonsound.com/techniques/cubase-pro-audio-alignment-adr)
     * 9.5 Metronome - _OFFICIAL VIDEO_ [https://www.youtube.com/watch?v=Zz87r0s05E8](https://www.youtube.com/watch?v=Zz87r0s05E8)
-    * Multiple Arrangement Views - [https://ask.audio/articles/working-with-multiple-arrangement-views-in-cubase-9 (This could be elaborated on, but it's not a substantial enough feature for a single article)](https://ask.audio/articles/working-with-multiple-arrangement-views-in-cubase-9 (This could be elaborated on, but it's not a substantial enough feature for a single article))
+    * Multiple Arrangement Views - [https://ask.audio/articles/working-with-multiple-arrangement-views-in-cubase-9](https://ask.audio/articles/working-with-multiple-arrangement-views-in-cubase-9 (This could be elaborated on, but it's not a substantial enough feature for a single article))
     * Multiple Marker tracks - _OFFICIAL VIDEO_ [https://www.youtube.com/watch?v=oP_uXMK3gqU - Amazing feature!](https://www.youtube.com/watch?v=oP_uXMK3gqU - Amazing feature!)
     * Chord Pad - _OFFICIAL VIDEO_ [https://www.youtube.com/watch?v=gzT6RCMwxNE](https://www.youtube.com/watch?v=gzT6RCMwxNE)
     * Sampler Track walkthrough - [https://www.youtube.com/watch?v=Zv27WLBjZbM](https://www.youtube.com/watch?v=Zv27WLBjZbM)
@@ -68,7 +68,7 @@ Here are some ideas I thought of writing about, but presented by someone else:
     * [Pro Tools Control](https://www.avid.com/products/pro-tools-control) works with Cubase _quite_ well. Beyond the simple setup there isn't much to write about.
     * Drum replacement - _OFFICIAL VIDEO_ German language - [https://www.youtube.com/watch?v=1gVWW2tKN8c](https://www.youtube.com/watch?v=1gVWW2tKN8c)
     * Media Bay Tips
-        * [https://www.reddit.com/r/cubase/comments/8d8efr/working_smarter_with_cubases_mediabay/ (Not everything I'd write about, but a great starter post with a clean workflow)](https://www.reddit.com/r/cubase/comments/8d8efr/working_smarter_with_cubases_mediabay/ (Not everything I'd write about, but a great starter post with a clean workflow))
+        * [https://www.reddit.com/r/cubase/comments/8d8efr/working_smarter_with_cubases_mediabay/](https://www.reddit.com/r/cubase/comments/8d8efr/working_smarter_with_cubases_mediabay/ (Not everything I'd write about, but a great starter post with a clean workflow))
         * _OFFICIAL VIDEOS_ - [https://www.youtube.com/watch?v=dV7yyWnMzk8 https://www.youtube.com/watch?v=KL6DVS-G2no](https://www.youtube.com/watch?v=dV7yyWnMzk8 https://www.youtube.com/watch?v=KL6DVS-G2no)
     * Extra Mixconsole as an Inspector - _OFFICIAL VIDEO_ German Language - [https://www.youtube.com/watch?v=M07A_m3X_Tk](https://www.youtube.com/watch?v=M07A_m3X_Tk)
 
