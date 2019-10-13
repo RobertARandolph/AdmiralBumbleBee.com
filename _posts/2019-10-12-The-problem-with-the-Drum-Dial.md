@@ -52,11 +52,11 @@ There are 3 main types of drum head hoops, all of which have particular attribut
 * Wood - Wood hoops present an uneven flexible force usually. The grain of the wood varies, along with the flexibility, across the hoop. This variance results in a single tension rod being cable of presenting force to a large part of the head (near stiff part of hoop) or a small part of the head (near a flexible part of the hoop). Some wood hoops are very stiff, and some are not, with the elastic modulus varying depending on the species and cut of the wood.
 * Die Cast - Die cast hoops are _usually_ the stiffest, and present a consistently even force given minimal input from the tension rods. With high-quality die cast hoops it's possible to _almost_ evenly stretch the entire drum head film with only two tension rods.
 
-Surely these differences do not matter, because the purpose of the drum dial is to tension the head based in the film's tension? RIGHT? **RIGHT??**
+Surely these differences do not matter, because the purpose of the Drum Dial is to tension the head based in the film's tension? RIGHT? **RIGHT??**
 
 Unfortunately not.
 
-The drum dial _does_ give you an indication of the current film tension, but it does not indicate _how_ to adjust it. The response to the data from the drum dial varies based on what is influencing the data, in this case: the drum hoop.
+The Drum Dial _does_ give you an indication of the current film tension, but it does not indicate _how_ to adjust it. The response to the data from the Drum Dial varies based on what is influencing the data, in this case: the drum hoop.
 
 Turning a single tension rod does more than increasing tension on a single point. Depending on the type of hoop a variety of things can happen:
 
@@ -139,7 +139,7 @@ There are no "solutions" here. There are 3 things to be aware of:
 
 To manage hoop variances, you can _always tune opposing rods together_. This process creates cross [bands](#bands) that you can track more easily.
 
-It's important to work in _small increments_ as well. It's easy to get carried away with half and full turns of your drum key to get the job done quickly, but the effect on the tension becomes difficult to track. You ideally want to tension the entire head as a single piece, but if you turn the tension rods too much at once then you are creating high tension bands. The higher the band tension, the more tension ripples you get parallel to the band and this can influence the readings of the drum dial.
+It's important to work in _small increments_ as well. It's easy to get carried away with half and full turns of your drum key to get the job done quickly, but the effect on the tension becomes difficult to track. You ideally want to tension the entire head as a single piece, but if you turn the tension rods too much at once then you are creating high tension bands. The higher the band tension, the more tension ripples you get parallel to the band and this can influence the readings of the Drum Dial.
 
 To put it another way: the goal is to have the least variation in tension across the head. This is most easily achieved by small increments of change and always working on opposing tension rods in tandem.
 
@@ -156,11 +156,11 @@ Creation of low tension bands is the process of tuning, it's unavoidable, but it
 
 It may not be _precise_, as I've shown in the image above, because heads/hoops/drums vary slightly, but it is possible to get a good idea of what's happening.
 
-As long as you create tension bands that cross the center of the drum, it's possible to make educated guesses about where (very) mild ripples may be occurring (always adjacent to the tension band). Knowing where these variations in tension exists allows the user to interpret the drum dial readings intelligently.
+As long as you create tension bands that cross the center of the drum, it's possible to make educated guesses about where (very) mild ripples may be occurring (always adjacent to the tension band). Knowing where these variations in tension exists allows the user to interpret the Drum Dial readings intelligently.
 
 The image above is a recreate of a real tension measurement, exaggerated, so that you can visualize what happens when opposing rods are tuned together. The tension is highest between the rods and becomes looser parallel to the line between them. The 'soft spots' and light ripples are easy to predict.
 
-When moving the drum dial over the head, you can anticipate where the highest tension and variances will be. Ideally you want to put the drum dial at the point where the tension rod has the most influence. If the tension bands are maintained to cross center, that point will always be nearest to the tension rod!
+When moving the Drum Dial over the head, you can anticipate where the highest tension and variances will be. Ideally you want to put the Drum Dial at the point where the tension rod has the most influence. If the tension bands are maintained to cross center, that point will always be nearest to the tension rod!
 
 ## Spots
 
@@ -226,7 +226,7 @@ Yep. That's really it. Spring loaded plunger, measures how far the plunger can p
 
 If you use the cross-tensioning method, the location of highest tension will be obvious. The caveat is that during the early stages of tuning there will be light ripples on each side of the tension band.
 
-**THE DRUM DIAL IS USELESS WHEN THERE ARE RIPPLES** Even tiny ones. 
+**THE Drum Dial IS USELESS WHEN THERE ARE RIPPLES** Even tiny ones. 
 
 Before you start making decisions based on the Drum Dial's measurements, the head needs to be mildly and evenly tensioned.
 
@@ -280,7 +280,7 @@ In the video above I tune a drum from the [setup stage](#setup) to fully tuned i
     * Stiff hoop - Try adjusting one of the two nearby rods, or the opposing rod, and see how it affects the tension of your target location.
     * Flexible hoop - With flexible hoops it's usually the opposing rod applying moderate tension and warping the entire hoop. You can fuss around with adjusting the target rod and opposing rod, but it's almost always easier to start over.
 * Dial's value does not increase - Your head is at uneven tension. There's a point where a single tension rod begins to spread its influence across the hoop rather than directly to the point in front of the rod. Work in small increments! If you reach this point, start over.
-* One position reads 'wrong' even though the drum passes the 'tap test' - The tap test is bad. Beyond the scope of this article, but it's inaccurate. Regardless of that, it's possible that variations in the head, such as logos or divots, may influence the drum dial's reading. Be careful to only place it on an even surface.
+* One position reads 'wrong' even though the drum passes the 'tap test' - The tap test is bad. Beyond the scope of this article, but it's inaccurate. Regardless of that, it's possible that variations in the head, such as logos or divots, may influence the Drum Dial's reading. Be careful to only place it on an even surface.
 * Drum sounds awful.
     * Your head is old, bad or a poor choice. Change it.
     * Your head tension is uneven, start over.
@@ -290,13 +290,15 @@ In the video above I tune a drum from the [setup stage](#setup) to fully tuned i
 
 # Conclusion
 
-With these concepts in hand, you can not only better use the drum dial, but better tune drums in general.
+With these concepts in hand, you can not only better use the Drum Dial, but better tune drums in general.
 
 Then again, if you want a _much_ more accurate method of tuning drums, then there's [even better avenues](http://circularscience.com).
 
-I spent this entire article talking about _drums_ and not the _drum dial_ because understanding how drum heads operate at a _basic_ level is integral to understanding what you're measuring. The drum dial gives you feedback about what the drum head is doing, but you need to be able to understand the origination of the measurement and its value to the process.
+I spent this entire article talking about _drums_ and not the _Drum Dial_ because understanding how drum heads operate at a _basic_ level is integral to understanding what you're measuring. The Drum Dial gives you feedback about what the drum head is doing, but you need to be able to understand the origination of the measurement and its value to the process.
 
 Then again... if you follow my advice, you'll outgrow the Drum Dial pretty quickly. You'll outgrow it faster if you use one though :)
+
+**NOTE** - Obviously not sponsored by any company. I paid for this silly thing myself.
 
 # Meta
 
