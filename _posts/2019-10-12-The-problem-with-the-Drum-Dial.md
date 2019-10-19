@@ -166,7 +166,7 @@ When moving the Drum Dial over the head, you can anticipate where the highest te
 
 {::nomarkdown}
     <video autoplay loop muted class="gifvid">
-        <source src="/assets/DrumStuff/Dial/Startension.mp4" type="video/mp4">
+        <source src="/assets/DrumStuff/Dial/StarTension.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
     <div class="video-caption">Star Tensioning is Bad (Video)</div>
