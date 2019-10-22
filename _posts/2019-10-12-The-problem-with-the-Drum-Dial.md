@@ -5,7 +5,7 @@ comments: true
 date:   2019-10-12_11:12:30 
 categories: musics
 tags: ['Drums', 'Studio Tips', 'Production Tips']
-image:
+image: /assets/DrumStuff/Dial/DialThumb.png
 description: A misunderstood tool, and I'm really teaching you about drum tuning anyway.
 ---
 
@@ -32,6 +32,8 @@ So... Here I am. Allow me some of your time to better understand drum tuning in 
 {:toc}
 
 # Video
+
+[**VIDEO HERE**:]({% post_url 2019-10-22-Drum-Dial-Video %})
 
 I'm going to try something new for a few articles and see how it goes. First I'll post the text article, then follow it with a video the next week.
 
@@ -132,7 +134,7 @@ Once again **THERE IS NO SOLUTION** to fix a bad bearing edge. It must be correc
 
 There are no "solutions" here. There are 3 things to be aware of:
 
-* Stiff hoops - Wen using a stiff hoop, if you tension a rod then nearby rods will become _looser_. Opposing rods will become _tighter_. As you're changing from tension rod to tension rod, it can become confusing to figure out which rod will influence the head. The general rule is that with stiffer hoops, you need to _always_ turn opposing tension rods at the same time.
+* Stiff hoops - When using a stiff hoop, if you tension a rod then nearby rods will become _looser_. Opposing rods will become _tighter_. As you're changing from tension rod to tension rod, it can become confusing to figure out which rod will influence the head. The general rule is that with stiffer hoops, you need to _always_ turn opposing tension rods at the same time.
     * Note - the stiffer the hoop, the less likely it is for a torque wrench to help you. A single tension rod influences a wide portion of the hoop, which reduces the tension of nearby rods. 
 * Flexible hoops - Flexible hoops allow more leeway. The hoop is more likely to deform than the head at common film tensions. This means that it's possible to maintain tension on all tension rods despite uneven film tension of the head. You can be more haphazard in your approach without much detriment.
 * Inconsistent - You simply have to learn how the hoop reacts. A single tension rod may exert very localized pressure, or wide-bearing pressure. Experiment and verify with your Drum Dial.
