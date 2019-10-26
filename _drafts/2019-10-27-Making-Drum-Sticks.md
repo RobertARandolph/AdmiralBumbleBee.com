@@ -2,11 +2,11 @@
 layout: post
 title: Making Drum Sticks
 comments: true
-date:   2019-09-21_10:01:44 
+date:   2019-10-27_10:01:44 
 categories: music
 tags: ['Workshop', 'Drums', 'Woodworking', 'Workshop Tips']
 image:
-description:
+description: Making Drumsticks cheaply, with only a large investment.
 ---
 
 
@@ -20,6 +20,24 @@ description:
 {:toc}
 
 # Why
+
+The math here is simple! 
+
+* A single drumstick is about 0.05 board feet.
+* A single board foot of maple is around $6.00usd
+* A single drumstick thereby costs $0.30
+
+Compare that to the $7-12 cost in store, plus the immense flexibility you have in wood selection, sizing, finish and more...
+
+It's a no brainer!
+
+Well, except the equipment. Here's the bare minimum that I'd suggest
+
+* [A cheap lathe](https://www.harborfreight.com/5-speed-bench-top-wood-lathe-65345.html) - I purchased one of these for drum stick turning for about $130.
+* [Veritas Dowel Maker](https://www.leevalley.com/en-us/shop/tools/hand-tools/dowel-and-tenon-cutters/42331-veritas-dowel-maker) - About $250
+* A lathe tool - This can vary.
+    * Make your own - [I wrote an article on how to make your own great tool for cheap]({% post_url 2016-04-26-Turning-Tools-on-the-Cheap %}) - $50 or so.
+    * [Lathe Chisels](https://www.leevalley.com/en-us/shop/tools/sets/100714-economy-turning-tools-set-and-tool-roll) - $100-$400
 
 # What I'm using
 
