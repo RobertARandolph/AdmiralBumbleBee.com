@@ -24,8 +24,9 @@ description: Making Drumsticks cheaply, with only a large investment.
 The math here is simple! 
 
 * A single drumstick is about 0.05 board feet.
+    * ((Stick blank size + kerf * 2)^2 * length) / 144
 * A single board foot of maple is around $6.00usd
-* A single drumstick thereby costs $0.30
+* A single drumstick made of maple thereby costs $0.30
 
 Compare that to the $7-12 cost in store, plus the immense flexibility you have in wood selection, sizing, finish and more...
 
@@ -34,10 +35,42 @@ It's a no brainer!
 Well, except the equipment. Here's the bare minimum that I'd suggest
 
 * [A cheap lathe](https://www.harborfreight.com/5-speed-bench-top-wood-lathe-65345.html) - I purchased one of these for drum stick turning for about $130.
-* [Veritas Dowel Maker](https://www.leevalley.com/en-us/shop/tools/hand-tools/dowel-and-tenon-cutters/42331-veritas-dowel-maker) - About $250
+    * Or a [DIY Drill Lathe](https://www.youtube.com/watch?v=7gTRuCgDSPc) 
+* *OPTIONAL* [A better chuck](https://www.rockler.com/nova-30th-anniversary-supernova-2-chuck-bundle-with-3-jaw-sets-and-case) - $200-$500
+* *OPTIONAL* [Veritas Dowel Maker](https://www.leevalley.com/en-us/shop/tools/hand-tools/dowel-and-tenon-cutters/42331-veritas-dowel-maker) - About $250. I feel that this is worth the price as it _greatly_ increases the speed and accuracy of the process.
 * A lathe tool - This can vary.
     * Make your own - [I wrote an article on how to make your own great tool for cheap]({% post_url 2016-04-26-Turning-Tools-on-the-Cheap %}) - $50 or so.
     * [Lathe Chisels](https://www.leevalley.com/en-us/shop/tools/sets/100714-economy-turning-tools-set-and-tool-roll) - $100-$400
+        * Sharpening Equipment - This can be as simple as a [cheap bench grinder](https://www.harborfreight.com/8-inch-bench-grinder-39798.html) and a [DIY Jig](https://www.youtube.com/watch?v=XcgHkiOGB6A).
+        * Or a [nicer bench grinder](https://www.amazon.com/Baldor-7306-7-Inch-1800-Grinder/dp/B0000224JR), some [CBN Wheels](https://woodturnerswonders.com/collections/4-in-1-cbn-wheels/products/cbn-wheel-pair-4-in-1-design-80-and-180-grit?variant=6078935040038), and a [Wolvering Jig](https://www.amazon.com/Oneway-2291-Wolverine-Grinding-Jig/dp/B000CSQONC). This is the setup I use.
+
+From scratch you're in for about $50 for the cheapest setup, which is where I started and achieved execllent results with practice and patience. I would recommend at least a cheap lathe, skew chisel and some sharpening stones, which comes to around $200.
+
+My current setup is around $1,900.
+
+To figure out how many pair drum sticks you'd have to make use the following formula:
+
+* 11x - 0.6x = y + t(rx)
+    * Solve for x (number of sticks to be made) where y is the cost of equipment, t is time spent per stick and r is your hourly rate.
+    * This assumes a retail value of $11 for a pair of sticks and $0.60 for DIY sticks at $0.30 each.
+    * Your _tr_ total value must be less than the cost of a pair of sticks or you will _always_ "lose money".
+
+* For example let's assume we spent $200 on equipment, assuming it takes half an hour to make a pair of sticks. and we're a super cheap $15/hr.
+    * 11x - 0.6x = 200 - 0.5(15x)
+    * 10.4x = 200 - 7.5x
+    * 2.9x = 200
+    * x ~= 68.966
+    * You'd need to make 69 pairs of sticks to cover costs and your time.
+
+So we'd be saving about 69 * $10.4 = **$717.60** by making 69 sticks. Our costs would be 200 + 69 * 7.5 = **717.50**.
+
+That seems like a poor value proposition at first, however I can make about 12 pairs of sticks in an hour at this point thereby putting "my cost" in this down to 22 pairs.
+
+The value proposition monetarily is only a small part of the story though! You can experiment with different woods, such as the venerable [Ash](https://www.wood-database.com/white-ash/) (frequently used in impact-based activities). You can't easily find Ash sticks anywhere, or any other wood except Hickory, Hard Maple and Japanese White Oak.
+
+Different tip shapes are easily accessible. Stick diameters. Stick Lengths. Stick Finishes. Etc...
+
+We could even modify the formula to factor in durability. My average self-made stick lasts around 70% longer than a store-bought hickory stick. I think it's a bit silly to utilize that in value calculations as it will take a lot of time and experimentation to determine a relative durability and that time/testing inflates your cost, so now we have to factor _that_ in some how and then what about the value of having _exactly_ what you want in a stick? Can you even quantify that?
 
 # What I'm using
 
