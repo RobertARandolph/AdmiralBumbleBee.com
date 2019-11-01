@@ -165,7 +165,25 @@ That's all of the setup.
 
 ## Dowel Maker Tips
 
+{::nomarkdown}
+<a href="/assets/DrumStickMachen/ManualWrong.png">
+<img src="/assets/DrumStickMachen/Thumbnails/ManualWrong.png" alt="Only follow half the instructions...">
+</a>
+<div class="image-caption">Only follow half the instructions... (Click for larger image)</div>
+{:/nomarkdown}
+
 The Dowel Maker (DM from here on out) instructions are clear. They're also wrong. I'm certain they're wrong and I'm flumoxxed as to how they think it's correct.
+
+### The Problem
+
+There are 2 stages to the device:
+
+* Front - This blade roughly shapes the wood to a dowel with a rough surface. It takes a fairly large cut, and since it's trimming the corners of the round stock it is constantly being 'hammered' rather than taking a long smooth cut.
+* Rear - Takes a long smooth cut to bring the rod to its final diameter.
+
+The settings in the manual above describe how far away the blade is pushed from the body of the device. Larger number means the blade is further away, thereby making that stage's cut result in a larger rod.
+
+In order for this to all work, the blade must be at an angle. 
 
 ## Lathe
 
