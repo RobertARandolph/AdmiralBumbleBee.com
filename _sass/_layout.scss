@@ -7,10 +7,10 @@
     top: 0;
     background: $background-color;
     border-top: 2px solid $grey-color-dark;
-    border-bottom: 2px solid $grey-color-dark;
-    padding-top: 3px;
+    box-shadow: 0px 2px 2px #DDD;
+    padding-top: 0px;
     padding-bottom: 3px;
-    height: 50px;
+    height: 65px;
     z-index: 1000;
 
     // Positioning context for the mobile navigation icon
@@ -20,9 +20,9 @@
 .site-title {
     font-size: 26px;
     font-weight: 300;
-    margin-bottom: -15px;
+    margin-bottom: -5px;
     margin-left: 1%;
-    margin-top: -3px;
+    margin-top: 5px;
     padding-bottom: 0;
     float: left;
     color: $text-color;
@@ -91,6 +91,26 @@
 
 }
 
+#underbar {
+    display: block;
+    position: sticky;
+    position: -webkit-sticky;
+    top: 28px;
+    background: transparent;
+    border-top: 1px solid darken($grey-color-light, 10%);
+    z-index: 1000;
+    margin: auto;
+    text-align: center;
+
+    .underbar-link {
+        color: $grey-color-dark;
+        line-height: $base-line-height;
+        font-size: 14px;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+
+}
 /*
 .dropdown:hover .dropdown-content {
     display: block;
@@ -113,7 +133,7 @@
 }
 
 #wisdom {
-    line-height: 0.9em;
+    line-height: 1.5em;
     width: 260px;
 }
 
@@ -126,32 +146,23 @@
 
 .site-donate {
     display: table;
-    font-size: 16pt;
-    font-weight: 500;
-    height: 50px;
-    letter-spacing: 2px;
+    font-size: 26px;
+    font-weight: 300;
+    top: 10px;
+    height: 35px;
+    letter-spacing: 3px;
     text-align: center;
-    width: $right-side-bar-width;
+    width: unquote("calc( #{$right-side-bar-width} - 5px )");
+    right: 5px;
     position: relative;
     float: right;
     margin-right: 0px;;
     margin-bottom: 5px;
-    background-color: $container-background;
-    background-color: $sidebar-background;
     color: $text-color;
     padding-right: 15px;
     padding-left: 15px;
-    border-radius: 5px;
     //border: 1px solid rgb(195,195,195);
-    box-shadow: 1px 1px 2px grey;
     text-decoration: none;
-
-    &:hover {
-        color: white;
-        text-shadow: 1px 1px #000000;
-        text-decoration: none;
-        background: red;
-    }
 
     @include media-query($on-palm) {
         visibility: hidden;
@@ -161,8 +172,18 @@
     }
 
     a {
+        text-decoration: none;
+        color: $text-color;
         display: table-cell;
         vertical-align: middle;
+    }
+
+    ::before {
+        content: "click here to";
+        display: block;
+        margin-bottom: -8px;
+        font-size: 14px;
+        font-variant: small-caps;
     }
 }
 

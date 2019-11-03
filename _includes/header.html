@@ -45,6 +45,10 @@
       "Another ALGOL syntax... alright, I guess. It worked the first time right?",
       "I know you checked the page source, don't lie.",
       "Xah Lee, the most irritatingly useful person on the internet",
+      "The plural of regex is regrets",
+      "My wife likes durian too much, it's a struggle for this dude.",
+      "Some days the sun sneaks up on you real quick.",
+      "Either you'll never be as good as you want to be, or you'll never be any good at all."
   ];
       document.getElementById("wisdom").innerHTML = randomSayingsFor_fun[Math.floor((Math.random() * randomSayingsFor_fun.length))];
   }
@@ -52,7 +56,7 @@
 </script>
 
 <header class="site-header">
-  <div class="site-donate"><a href="/DonateNow/" >Support Us!</a></div>
+  <div class="site-donate"><a href="/DonateNow/" >Help Us!</a></div>
   <div id="title-count">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
     <br />
@@ -68,9 +72,11 @@
       <input type="hidden" name="k9" value="#D51920" />
       <input type="hidden" name="kt" value="h" />
       <input type="text" name="q" maxlength="255" placeholder="Search AdmiralBumbleBee.com" style="margin-left: 5%; width: 60%;" />
-      <input type="submit" value="Go" style="width: 25%;" />
+      <input type="submit" value="Go"/>
     </form>
   </div>
+
+
 
   <div class="wrapper">
 
@@ -96,8 +102,6 @@
       </div> -->
       <div class="trigger">
 
-        <a class="page-link" href="https://www.youtube.com/admiralbumblebee">Youtube</a>
-
         <a class="page-link" href="/about/">About</a>
 
         <a class="page-link site-map-mobile" href="/tags/">Site Map</a>
@@ -105,7 +109,7 @@
         <a href="feed://admiralbumblebee.com/feed.xml" class="page-link">RSS</a>
 
         <!-- Mobile Links -->
-        <a class="page-link donate-mobile" href="/DonateNow/" >Support Me!</a>
+        <a class="page-link donate-mobile" href="/DonateNow/" >Help us!</a>
         <a class="page-link donate-mobile" href="/DAW-Chart.html">The DAW Feature Chart</a>
         <a class="page-link donate-mobile" href="/ReaperScripts.html">Reaper Script Showcase</a>
         <a class="page-link donate-mobile" href="/FreeBees.html">FreeBees</a>
@@ -133,6 +137,14 @@
         }
          </script>
 
+        <div id="underbar">
+          <a class="underbar-link" href="https://www.youtube.com/admiralbumblebee">Youtube</a>
+          <a class="underbar-link" href="/FreeBees.html">FreeBees</a>
+          <a class="underbar-link" href="/Favourites.html">Favourites</a>
+          <a class="underbar-link" href="/DAW-Chart.html">The DAW Feature Chart</a>
+          <a class="underbar-link" href="/ReaperScripts.html">Reaper Script Showcase</a>
+        </div>
+<!-- 
         <div class="dropdown">
           <a class="page-link" id="feature-text" onclick="toggle_visibility('feature-menu');">Features</a>
           <div class="dropdown-content" id="feature-menu">
@@ -144,8 +156,7 @@
               <br />
               <a class="dropdown-link" href="/Favourites.html">Favourites</a>
           </div>
-        </div>
-
+        </div> -->
         <!-- <a class="page-link hire-me" href="/HireMe/">Hire Me!</a> -->
       </div>
     </nav>
@@ -165,7 +176,6 @@
 
   </script>
 
-
   <script type="text/javascript" src="/admc/comparator.js"> </script>
   <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 
@@ -176,5 +186,4 @@
   <link rel="stylesheet" type="text/css" href="/admdc/admdc.css">
 
   <script type="text/javascript" src="/admt/admt.js"> </script>
-
 </header>
