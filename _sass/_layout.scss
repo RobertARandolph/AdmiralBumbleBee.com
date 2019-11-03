@@ -63,33 +63,6 @@
     }
 }
 
-.dropdown-content {
-    display: none;
-    position: absolute;
-    transform: translateX(30px);
-    background-color: white;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
-    padding: 12px 16px;
-    z-index: 1;
-
-    .page-link {
-        color: $text-color;
-        line-height: $base-line-height;
-        font-size: 20px;
-
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-    .dropdown-link {
-        color: $grey-color-dark;
-        line-height: $base-line-height;
-        font-size: 18px;
-        margin-left: 10px;
-        margin-right: 10px;
-    }
-
-}
 
 #underbar {
     display: block;
@@ -103,7 +76,7 @@
     text-align: center;
 
     .underbar-link {
-        color: $grey-color-dark;
+        color: $text-color;
         line-height: $base-line-height;
         font-size: 14px;
         margin-left: 10px;
@@ -152,8 +125,7 @@
     height: 35px;
     letter-spacing: 3px;
     text-align: center;
-    width: unquote("calc( #{$right-side-bar-width} - 5px )");
-    right: 5px;
+    width: $right-side-bar-width;
     position: relative;
     float: right;
     margin-right: 0px;;
