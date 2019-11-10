@@ -11,8 +11,8 @@ A simple open mortise and tenon joint that's been planed smooth by a 25° includ
 
 First what _you_ see...
 
-[![What it looks to the 'naked eye'](/assets/Macro/Thumbnails/CloseMaple.jpg)](/assets/Macro/CloseMaple.jpg)
+[![What it looks to the 'naked eye'](/assets/Macro/Thumbnails/FarMaple.jpg)](/assets/Macro/FarMaple.jpg)
 
 Then what a Canon T3i with a reversed 18-35mm lens sees...
 
-[![Up close and personal](/assets/Macro/Thumbnails/FarMaple.jpg)](/assets/Macro/FarMaple.jpg)
+[![Up close and personal](/assets/Macro/Thumbnails/CloseMaple.jpg)](/assets/Macro/CloseMaple.jpg)

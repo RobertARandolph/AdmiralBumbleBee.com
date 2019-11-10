@@ -18,6 +18,8 @@ description: Sample accurate JSFX in Reaper
 
 No text today. If you like text, then go read [the documentation](https://www.reaper.fm/sdk/js/js.php#js_intro).
 
+**THIS ARTICLE IS WRONG. IGNORE IT**
+
 <!--more-->
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
@@ -29,11 +31,15 @@ No text today. If you like text, then go read [the documentation](https://www.re
 
 # Video
 
+**THIS VIDEO IS WRONG. IGNORE IT**
+
 <iframe width="800" height="450" src="https://www.youtube.com/embed/6Yz2vWxhcbM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 You'll clearly want to research how to do a _bit more_ than having sample accurate parameter values. IMD and discontinuities await you with this naive code.
 
 I simply wanted to show what is possible, and how simple it can be.
+
+**THIS VIDEO IS WRONG. IGNORE IT**
 
 # Code
 
