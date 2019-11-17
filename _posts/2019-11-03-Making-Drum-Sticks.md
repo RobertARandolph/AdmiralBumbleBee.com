@@ -78,8 +78,8 @@ To figure out how many pair drum sticks you'd have to make use the following for
     * Your _tr_ total value must be less than the cost of a pair of sticks or you will _always_ "lose money".
 
 * For example let's assume we spent $200 on equipment, assuming it takes half an hour to make a pair of sticks. and we're a super cheap $15/hr.
-    * 11x - 0.6x = 200 - 0.5(15x)
-    * 10.4x = 200 - 7.5x
+    * 11x - 0.6x = 200 -+0.5(15x)
+    * 10.4x = 200 + 7.5x
     * 2.9x = 200
     * x ~= 68.966
     * You'd need to make 69 pairs of sticks to cover costs and your time.
