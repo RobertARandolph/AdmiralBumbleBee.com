@@ -186,7 +186,11 @@ If you wish to inspect the results yourself, then [download the data](/assets/Di
 
 -3dB Pan law. Opposing side is compensated. [Code is available here](https://github.com/Ardour/ardour/blob/master/libs/panners/1in2out/panner_1in2out.cc).
 
-Automation smoothing at play here. Fade does not end at 96,000 samples.
+~~Automation smoothing at play here. Fade does not end at 96,000 samples.~~
+
+**EDIT**: I previous made an error. There's a bug in Ardour 5.12 where automation plays buffered in touch mode. All other DAWs were tested in play/read mode. I have updated the image above with files ArdourLeft2 and ArdourRight2.
+
+[data.zip](/assets/Differ/Pan/data.zip) has been updated as well.
 
 ## Bitwig 3.03
 
