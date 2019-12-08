@@ -40,6 +40,8 @@ Text article has more information, but the video is faster and probably more fun
 
 **FUNNY** - I actually got bit by the difference between Logic Pro X default pan law and Final Cut Pro pan law. My first upload of this video was 3dB clipped. My first time using the two softwares together, and what an appropriate problem to have.
 
+**FUNNY 2** - It's not clipping in FCPX at all, but it does clip in a few places on youtube despite meeting their level requirements. Ugh.
+
 # Pan Law: Why?
 
 {::nomarkdown}
