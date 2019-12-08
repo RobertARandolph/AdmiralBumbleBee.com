@@ -34,7 +34,7 @@ This article is about a close cousin of the ubiquitously discussed "Pan Law". Ho
 
 # Video
 
-<iframe width="800" height="400" src="https://www.youtube.com/embed/QwRl_stpdwQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="800" height="400" src="https://www.youtube.com/embed/a3on4Q2Wg_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 Text article has more information, but the video is faster and probably more fun.
 
