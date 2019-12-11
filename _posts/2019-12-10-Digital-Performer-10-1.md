@@ -305,7 +305,7 @@ The contrast is still unpleasantly low on the default theme, but there are a num
 <div class="image-caption">Memory and Punch Markers</div>
 {:/nomarkdown}
 
-DP calls loop makers "Memory". It's used almost identically to "Loop markers" in other DAWs. Previously it was your normal repeat sign from music notation, and it was only visible when Memory was active. Now it's a more modern set of arrows that's always visible with a more clear indication of when active.
+DP calls loop markers "Memory". It's used almost identically to "Loop markers" in other DAWs. Previously it was your normal repeat sign from music notation, and it was only visible when Memory was active. Now it's a more modern set of arrows that's always visible with a more clear indication of when active.
 
 DP 10.0 did not have visible punch markers. Now it does.
 
