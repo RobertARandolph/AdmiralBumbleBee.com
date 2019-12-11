@@ -202,6 +202,11 @@ In this day of console and tape emulations I feel that this feature is very impo
 ## Stem export
 
 {::nomarkdown}
+<img src="/assets/General/Fixed.png" alt="Fixed">
+</br>
+{:/nomarkdown}
+
+{::nomarkdown}
   <img src="/assets/DP/CubaseStems.png" alt="Stem Export in Cubase">
   <div class="image-caption">Export dialong in Cubase</div>
 {:/nomarkdown}
@@ -214,7 +219,7 @@ Take note of the image above to see how easy it is to export stems and tracks in
 ## Larger GUI elements
 
 {::nomarkdown}
-<img src="/assets/General/Improved.png" alt="Improved">
+<img src="/assets/General/Fixed.png" alt="Fixed">
 </br>
 {:/nomarkdown}
 
