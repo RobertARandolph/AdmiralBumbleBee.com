@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAW v DAW - Part 3: More volume automation"
+title: "DAW v DAW - Part 4: More volume automation"
 comments: true
 date:   2019-06-01_11:04:42 
 categories: music

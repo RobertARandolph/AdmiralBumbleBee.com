@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAW v DAW - Part 2: Fader Automation Speed"
+title: "DAW v DAW - Part 3: Fader Automation Speed"
 comments: true
 date:   2019-05-25_09:10:12 
 categories: Music

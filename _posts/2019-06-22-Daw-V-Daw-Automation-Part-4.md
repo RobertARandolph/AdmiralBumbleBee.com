@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "DAW v DAW - Part 4: Plugin Automation"
+title: "DAW v DAW - Part 5: Plugin Automation"
 comments: true
 date:   2019-06-22_15:30:57 
 categories: music
