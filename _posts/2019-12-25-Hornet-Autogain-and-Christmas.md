@@ -42,7 +42,7 @@ Click through to see how I wrap Christmas presents ;)
 
 {::nomarkdown}
 <a href="/assets/General/Inside.jpg">
-<img src="/assets/General/Thumbnails/Box.png" alt="Click to see inside">
+<img src="/assets/General/Box.png" alt="Click to see inside">
 </a>
 <div class="image-caption">Click to see inside (Click for larger image)</div>
 {:/nomarkdown}
