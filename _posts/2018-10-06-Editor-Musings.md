@@ -693,7 +693,7 @@ None of this post is about replacing Vim, since it is not and never will be my p
 	* There are some IDE like setups for venom for specific languages, but you are out of luck for a complete omniglot experience. Trying to set up Vim so it works nicely with Lisp and C++ is a frustrating experience, if it's even possible. Doing this with other editors is not only possible, but often easy.
 * Scripting - writing your own extensions in Vim is not fun. [Even if you use Neovim](https://neovim.io) the API itself is strange and has a number of warts.
 	* However, you can make simple scripts that use only your basic editor knowledge. In my experience there is a huge leap between simple scripts and intermediate scripts. The level of difficulty goes from "Anybody can do it" to "Vim-Master" in the blink of an eye.
-* Vim isn't a good Vim - [Emacs is a better Vim]((https://github.com/emacs-evil/evil) and [NeoVim](https://neovim.io) is a better Vim. There's something clearly wrong when the software isn't even the best version of itself.
+* Vim isn't a good Vim - [Emacs is a better Vim](https://github.com/emacs-evil/evil) and [NeoVim](https://neovim.io) is a better Vim. There's something clearly wrong when the software isn't even the best version of itself.
 * [Colemak](https://colemak.com) - I do not use QWERTY, I use the [Colemak](https://colemak.com) keyboard layout when I type. The default then key layout is absolutely terrible when using Colemak. Switching to a "Colemak Layout" means that when I switch to another vim-like set up I am totally incapable of using it. I have to stick with the default Vim keys, ugh.
 * Ctags - For near-IDE like functionality you will need to get [ctags](https://ctags.io) set up and working. This is not always an easy task.
 

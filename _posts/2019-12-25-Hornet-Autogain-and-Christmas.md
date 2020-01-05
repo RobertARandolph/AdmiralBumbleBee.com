@@ -14,6 +14,8 @@ description: Merry Christmas
 <div class="image-caption">AutoGain Pro mk2</div>
 {:/nomarkdown}
 
+**NOTE**: The author replied in the comments asking me to make a support ticket, which I have done. I originally attempted to do this but it froze my browser. I have since found that my adblocking setup was causing this, which is clearly my issue.
+
 This week I was trying to write a review/how-to on using [Hornet AutoGain Pro mk2](https://www.hornetplugins.com/plugins/hornet-autogain-pro-mk2/), however I spent about 15 hours _just trying to get it to work_.
 
 I never managed to get it to work. Results were either:
@@ -30,6 +32,7 @@ I can't say it's a bad product, but I can say that the [video tutorial](https://
 I generally like Hornet products (like [LUMeter]({% post_url 2018-11-30-Fast-Cheap-Easy-Youtube %}) and I find [Spaces](https://www.hornetplugins.com/plugins/hornet-spaces/) to be quite useful at times), but AutoGain Pro mk2 just doesn't do it for me.
 
 Click through to see how I wrap Christmas presents ;)
+
 
 <!--more-->
 
