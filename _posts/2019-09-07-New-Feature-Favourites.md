@@ -4,7 +4,7 @@ title: New Feature Favourites
 comments: true
 date:   2019-09-07_10:30:21 
 categories: general
-tags: ['Genera']
+tags: ['General']
 image:
 description: These are a few of my favorite things.
 ---
