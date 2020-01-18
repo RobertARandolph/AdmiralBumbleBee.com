@@ -19,6 +19,7 @@ $content-left-margin:  calc(#{$left-side-bar-width} + 0.5% );
 
 $on-palm:          775px;
 $on-laptop:        1439px;
+$on-medium:        1200px;
 
 // Use media queries like this:
 // @include media-query($on-palm) {

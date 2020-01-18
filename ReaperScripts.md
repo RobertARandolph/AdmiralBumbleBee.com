@@ -455,6 +455,20 @@ Another must-have for every Reaper user.
 
 Ambisonics may not be for everyone, but if you're in to it then you're ready to work natively in Reaper with the Ambisonic Toolkit.
 
+## Saike's Workshop - [Homepage](https://forum.cockos.com/showthread.php?t=220277)
+
+
+<video poster="/assets/Reaper/Scripts/Saike.png" controls muted preload="none">
+	<source src="/assets/Reaper/Scripts/Saike.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="video-caption">Saike's Stuff</div>
+{:/nomarkdown}
+
+There's so much here, and it's some of the most advanced JSFX you can find. "Tight Compressor" sounds pretty cool on drums, ReflectoSaurus is extremely fun. Filther is nuts.
+
+Same hardworking hands that brought you [Hackey Tracker](#hackey-tracker---thread).
+
 # Analysis
 
 ## gfxanalyzer - [Thread](https://forum.cockos.com/showthread.php?p=1929087#post1929087)
@@ -624,6 +638,18 @@ Renaming tracks is time consuming. Renaming items is a horrifying experience. Wh
 
 Track/Item Manipulation let's you do that. Select your tracks _or_ items and easily batch adjust the naming to what you need.
 
+## Track Tags - [Thread](https://forum.cockos.com/showthread.php?t=203446)
+
+{::nomarkdown}
+<video poster="/assets/Reaper/Scripts/Tags.png" controls muted preload="none">
+	<source src="/assets/Reaper/Scripts/Tags.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="video-caption">Track Tags</div>
+{:/nomarkdown}
+
+Tag tracks and hide/show tracks based on tags. Fairly obvious use and workflow. Quite a time saver if you have many tracks.
+
 ## Track lists - [Thread](https://forum.cockos.com/showthread.php?t=176578)
 
 {::nomarkdown}
@@ -637,6 +663,17 @@ Track/Item Manipulation let's you do that. Select your tracks _or_ items and eas
 Reaper does offer Takes and Comps, but sometimes you want to have alternate edits or compositions or even recordings.
 
 Sexan's Track List script allows you to easily create, modify and save various edits of a track for easy recall.
+
+## FX List for TCP - [Thread](https://forum.cockos.com/showthread.php?t=210987)
+
+{::nomarkdown}
+<img src="/assets/Reaper/Scripts/FXList.png" alt="FX List for TCP">
+<div class="image-caption">FX List for TCP</div>
+{:/nomarkdown}
+
+Have you wanted a visible FX list in REAPER along side your tracks?
+
+Done. Amazing. I love it!
 
 ## Interactive Toolbar - [Thread](https://forum.cockos.com/showthread.php?t=203393)
 

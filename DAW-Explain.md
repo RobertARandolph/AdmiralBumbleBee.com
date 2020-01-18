@@ -847,9 +847,17 @@ Responsiveness is how quickly the GUI reacts to input. Most programs have excell
 
 Can the DAW have its elements zoomed to be larger or smaller? 
 
-## HDPI 
+## HiDPI 
 
 HDPI is the support the DAW has for very high resolution displays. All platforms the DAW supports are considered. This ties in with themability.
+
+## Fluidity
+
+How jarring transistions between various UI changes are. Modal dialogs reduce this score. _Quick_ and clean animations increase this score. Large full-screen changes that are necessary to access features reduce this score. Excessive animations reduce this score.
+
+A DAW with pretty, but long, animations will score poorly against a DAW that allows you to pull up precise ugly UIs without losing visual context.
+
+Another way of looking at this: the ability of a UI to present new information without instantly removing large amounts of information.
 
 # Learning
 
@@ -891,6 +899,12 @@ Some software may be updated more often, some may be updated less often. I take 
 
 Community support is a rating based on how friendly the non-officially-sanctioned communities are to people having issues. This is very subjective, but there are clear tendencies for some groups.
 
+## Bug Reporting
+
+The combined ease of filing a bug report, and finding other bug reports.
+
+A score of 5 indicates easy filing, but poor ability to find other bug reports.
+
 ## Community Cohesion
 
 Community Cohesion is how well the community works together and the general 'club-like' nature of the non-officially-sanctioned communities. Do many users know each other? Are there non-offensive in-jokes? Do the developers interact with people? Are there large support/tip threads? Are there users that scour the internet just to help people?
@@ -900,6 +914,10 @@ A community with high-cohesion that is relatively unfriendly to newcomers will g
 ## Customization
 
 Customization is how much of the DAW can be changed to user preference without requiring extended effort such as writing code or downloading third-party utilities.
+
+## Changelogs
+
+How complete change logs are combined with how easy they are to access.
 
 # Subjective
 
@@ -933,7 +951,15 @@ Given an unaided person with minimal pre-requisite knowledge, how much effort wo
 
 This could also be thought of as a rating for how few "Gotcha"s or "Dark Corners" there are.
 
+## Zealotry Inverted
+
+Zealotry: fanatical and uncompromising pursuit of religious, political, or other ideals; fanaticism.
+
+DAWs are a religion to some. How fanatical users are about their product. High ratings indicate rational behaviour, low ratings indicate a zealous and often irrational userbase.
+
 # Bias
+
+Suggested to set this to -100% or higher to adjust for my personal bias.
 
 ## Preference
 
@@ -946,6 +972,10 @@ How long I've been using the software relative to its origins.
 ## Connections
 
 How connected I am to the product in terms of personal relationships, testing, investment and income dependence.
+
+## Frustration
+
+How frustrated I get when using this software, regardless of capability or design.
 
 # Support Me!
 

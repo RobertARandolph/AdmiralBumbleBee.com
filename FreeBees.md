@@ -79,7 +79,7 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 
 **NOT ALL OF THESE ARE GRATIS**. Just because the source code is available and you may be offered freedom with it, that does not not mean that the author is not charging money for their work.
 
-# DAWs
+## DAWs
 
 * [Ardour](http://ardour.org) - The premier libre audio software.
 * [Q-Tractor](https://qtractor.sourceforge.io) - I used Q-tractor for a few hours and found it to be a surprisingly complete DAW for genearl purpose work.
@@ -133,6 +133,8 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 
 * VST
     * [zynaddsubfx](http://zynaddsubfx.sourceforge.net) - not only the best free software synthesizer, but one of the best synthesizers available on the market _period_.
+* VST/LV2
+    * [Ryukau plugins](https://github.com/ryukau/VSTPlugins/releases) - Enveloped Sine and Iterative SinCluster in particular are interesting.
 
 # Gratis
 
@@ -221,6 +223,7 @@ These are plug-ins that you can acquire without needing to spend money.
     * [OldSkoolVerb](https://www.voxengo.com/product/oldskoolverb/) - OldSKoolVerb isn't the best sounding reverb out there, but there's been a number of records made with a very similar sound, so now it has its place in the production world. It can be a great sound design tool as well.
     * [Ambience](http://www.smartelectronix.com/~magnus/) - This is in the lineage of [SparkVerb](https://www.uvi.net/en/effects/sparkverb.html). It’s a fantastic free reverb.
     * [Riviera](https://nuspaceaudio.com/2017/02/07/riviera-fast-hybrid-reverb-plugin-for-modeling-high-dimensional-spaces/) - I nearly didn’t list this because of how ugly it is, but it sounds nice.
+    * [Verbate Basic](https://acondigital.com/products/verberate-basic/) - One knob for a preset of a single algorithm, but it sounds great.
 
 ## Guitar and Bass
 

@@ -1,6 +1,8 @@
-  window.addEventListener('DOMContentLoaded', function(event) {
-  // If you came here to read this, consider how much fun you just deprived yourself of.
-  var randomSayingsFor_fun = [
+window.addEventListener(
+  "DOMContentLoaded",
+  function(event) {
+    // If you came here to read this, consider how much fun you just deprived yourself of.
+    var randomSayingsFor_fun = [
       "Spending too much time on things that don't matter",
       "Things that you want which you can't find anywhere else",
       "Another day, another DAWller...?",
@@ -24,7 +26,7 @@
       "The 100th commenter wins a Toy Yoda",
       "Dragon kings live beyond power laws",
       "I am trained in gorilla warfare and I’m the top sniper in the entire US armed forces.",
-      "\phi (t+T)=\phi (t)\phi ^{{-1}}(0)\phi (T).",
+      "phi (t+T)=phi (t)phi ^{{-1}}(0)phi (T).",
       "RFC 20 - Status Code 808: Too much bass.",
       "Which way did he go, George?",
       "This site is tuned to 432hz for your enlightenment",
@@ -51,8 +53,20 @@
       "If you told me 25 years ago I'd be playing Ibanez and MTD, I'd hit you.",
       "Let's go Gwang-ju.",
       "You're damn right I got a gun on me. Y'all going to steal my gun too?",
-      "I'm just a vacuum cleaner salesman with a psychology degree."
-  ];
-      document.getElementById("wisdom").innerHTML = randomSayingsFor_fun[Math.floor((Math.random() * randomSayingsFor_fun.length))];
-  }
-    , false);
+      "I'm just a vacuum cleaner salesman with a psychology degree.",
+      "My best career advice:",
+      "I used react once, thankfully the PET scan was clean after",
+      "Build systems make our lives easier by providing billable hours of zero productivity",
+      "What if 1800's ghosts were just broken home automation?",
+      "I dont even know what transitive means and ive watched all of rick and morty twice",
+      "The point is there ain't no point.",
+      "Well, that's all right. I laugh myself sometimes. Ain't a whole lot else you can do.",
+      "Never Rub Another Man's Rhubarb!"
+    ];
+    document.getElementById("wisdom").innerHTML =
+      randomSayingsFor_fun[
+        Math.floor(Math.random() * randomSayingsFor_fun.length)
+      ];
+  },
+  false
+);

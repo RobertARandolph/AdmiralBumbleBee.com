@@ -127,6 +127,10 @@
         color: $text-color;
         display: table-cell;
         vertical-align: middle;
+        @include media-query($on-medium) {
+            font-size: 16px !important;
+        }
+
     }
 
     ::before {
@@ -135,6 +139,10 @@
         margin-bottom: -8px;
         font-size: 14px;
         font-variant: small-caps;
+        @include media-query($on-medium) {
+            display: none;
+            content: "";
+        }
     }
 }
 
@@ -336,6 +344,7 @@
             display: block;
             padding-bottom: 5px;
         }
+
         .trigger {
             clear: both;
             display: none;
