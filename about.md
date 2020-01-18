@@ -56,6 +56,7 @@ Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me
 * [youtube](http://youtube.com/admiralbumblebee) - I'm updating this regularly now!
 * [Freenode.net](https://freenode.net/) as AdmiralBumbleBee. I spend most of my time in #ardour, #lisp, #clojure and ##C
 	* I'm usually on other servers like thinstack, quakenet, rizon, efnet and more.
+* [AdmiralBumbleBee Discord](https://discord.gg/34cFzVn)
 * [EDMP Discord](http://edmpdiscord.com)
 * [WATMM](https://discord.gg/wearethemusicmakers)
 * Forums
