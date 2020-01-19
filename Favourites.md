@@ -57,14 +57,24 @@ I like macOS, and [Ubuntu](https://www.ubuntu.com) with [dwm](https://dwm.suckle
 
 * [Omnifocus](https://www.omnigroup.com/omnifocus) - I use omnifocus to organize nearly every aspect of my life. It is central to my ability to function as a human.
 * [Omnigraffle](https://www.omnigroup.com/omnigraffle) - I use omnigraffle to organize my ideas before I execute them.
-* [Visual Studio Code](https://code.visualstudio.com) - I've been happily using VS Code for nearly 2 months now. Zero qualms [unlike last time]({% post_url 2018-10-06-Editor-Musings %}#vs-code). Main Extensions I use are as follows:
-    * [Vim](https://github.com/VSCodeVim/Vim) - I use Vim bindings no matter what editor I'm in. I'm a fairly advanced vim user and heavily rely on good vim emulation.
-    * [Calva](https://github.com/BetterThanTomorrow/calva) - Calva is pretty nice. Wish it didn't rely on [nrepl](https://nrepl.org/nrepl/0.6.0/index.html), but... whatever.
-    * [Gitlens](https://gitlens.amod.io) - Oh. My. Goodness. Gitlens is the coolest. It'd be an entire post in itself to explain why I love this so much. Gitlens alone is nearly a singular killer reason to try VSCode.
-    * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-    * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-    * [Bracket Pair Colourizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Yeah, I'm one of _those_ people. I've been using some form of this for over 25 years. I've always used the same colours and it's hardcoded into my brain for reading code now. I don't recommend it, but I can't work without it.
-    * A bunch of java crap that I'm not going to link.
+* **RETIRED**
+  * [Visual Studio Code](https://code.visualstudio.com) - I've been happily using VS Code for nearly 6 months now. Zero qualms [unlike last time]({% post_url 2018-10-06-Editor-Musings %}#vs-code). Main Extensions I use are as follows:
+      * [Vim](https://github.com/VSCodeVim/Vim) - I use Vim bindings no matter what editor I'm in. I'm a fairly advanced vim user and heavily rely on good vim emulation.
+* [Calva](https://github.com/BetterThanTomorrow/calva) - Calva is pretty nice. Wish it didn't rely on [nrepl](https://nrepl.org/nrepl/0.6.0/index.html), but... whatever.
+        * [Gitlens](https://gitlens.amod.io) - Oh. My. Goodness. Gitlens is the coolest. It'd be an entire post in itself to explain why I love this so much. Gitlens alone is nearly a singular killer reason to try VSCode.
+        * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+        * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+        * [Bracket Pair Colourizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Yeah, I'm one of _those_ people. I've been using some form of this for over 25 years. I've always used the same colours and it's hardcoded into my brain for reading code now. I don't recommend it, but I can't work without it.
+        * A bunch of java crap that I'm not going to link.
+* I love [Emacs](https://www.gnu.org/software/emacs/) and I can't live without the following packages:
+  * [Evil](https://github.com/emacs-evil/evil) - I prefer vim, Evil is better than vim.
+  * [Ivy/Swiper/Counsel](https://github.com/abo-abo/swiper) - I use this hundreds of times a day. If I ever develop dementia, I'm sure I'll forget my wife before I forget how to use it.
+  * [Dired Plus](https://www.emacswiki.org/emacs/DiredPlus) - The best file browser on ANY operating system.
+  * [CIDER](https://github.com/clojure-emacs/cider)
+  * [Visual Regexp Steroids](https://github.com/benma/visual-regexp-steroids.el) - Python backend regex for Emacs. More sane syntax, and expressions as replacements.
+  * [Org Mode](https://orgmode.org) - Spreadsheet, scheduling, timing, multi-language programming and more. I have 100s of org files on my system, most used weekly.
+  * [Ace Windows](https://github.com/abo-abo/ace-window) - Keyboard based window navigation. I can get to any window I want with my eyes closed using a set of static keys.
+  * [Company Mode](https://company-mode.github.io) - My preferred completion engine.
 * [Alfred](https://www.alfredapp.com) - I use Alfred for so much. I easily use it 100s of times a day. App Launching, App Switching, Math, Conversions, Clipboard Management, Itunes Control, General System Automation, Document Opening and more.
 
 ## Backup
@@ -73,7 +83,7 @@ I like macOS, and [Ubuntu](https://www.ubuntu.com) with [dwm](https://dwm.suckle
 
 ## Hardware
 
-* [Steel Series Sensei 310](https://steelseries.com/gaming-mice/sensei-310#sensei-310) - I have these scattered all over the house. I love this mouse.
+* [Steel Series Sensei Ten](https://steelseries.com/gaming-mice/sensei-ten) - Recently switched to this over the 310. Preferred.
 * [Filco Majestouch TKL](https://www.diatec.co.jp/en/det.php?prod_c=763) - Blue switches with 80g springs. No Dampers.
 
 # Language Learning
@@ -129,7 +139,9 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 ### Guitars
 
 * 2007 Fender Custom Shop Jaguar bass - My absolute favourite instrument. If my house was going to be levelled and I could only grab one thing. This is it.
+* MTD 534-24 Headless custom bass - My baby.
 * Fender 1952 Time Machine NOS Telecaster.
+* Suhr Classic S.
 
 ## Drums
 
@@ -143,13 +155,15 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 ## Accessories
 
 * [Rockslide Aged Nickel slide](https://www.therockslide.com/shop/aged-nickel-guitar-slide/)
-* [Nickel Silver Thumbpicks](https://www.jimdunlop.com/product/3040tls-7-10137-00964-6.do?sortby=ourPicksAscend&page=4&refType=&from=fn)
-* [Dunlop John Petrucci Jazz III](https://www.jimdunlop.com/product/427pjp-7-10137-05837-8.do)
+* ~~[Nickel Silver Thumbpicks](https://www.jimdunlop.com/product/3040tls-7-10137-00964-6.do?sortby=ourPicksAscend&page=4&refType=&from=fn)~~
+* ~~ [Dunlop John Petrucci Jazz III](https://www.jimdunlop.com/product/427pjp-7-10137-05837-8.do)~~
+* [Zookies 30deg](https://www.jimdunlop.com/product/z9002m30-7-10137-00717-8.do) - I now play guitar and bass exclusively with a 30deg zookies pick that's been ground to a Jazz III-like tip. Much easier on my hands/fingers.
 * [Dunlop Straplocks](https://www.jimdunlop.com/products/accessories/straplok) - I dislike any other strap locking system.
 
 ## Pedals
 
 * [Keeley Time Machine Boost](http://www.robertkeeley.com/manuals/time_machine_boost.pdf) - Ahhhhhhhhhhhhh. If I only had one pedal, this would be it.
+* [Keeley Compressor Prod](https://robertkeeley.com/product/keeley-compressor-pro-namm-2015/) - The least intrusive compressor I've found for both guitar _and_ bass guitar.
 * [Dual Utter Stutter](https://www.youtube.com/watch?v=WXc1YhyajXM) - Custom feedback pedal. 1/1, just for me.
 * [Darkglass Vintage Ultra](https://www.darkglass.com/creations/vintage-ultra-v2/)
 
@@ -195,6 +209,7 @@ I prefer to reach for a channel strip before anything else.
 
 * [Ocean Way Studios](https://www.uaudio.com/uad-plugins/reverbs/ocean-way-studios.html)
 * [EAReverb](https://www.eareckon.com/en/products/eareverb2-reverb-plug-in.html)
+* [Valhalla Delay](https://valhalladsp.com/shop/delay/valhalladelay/) - It's not a "reverb", but it has quickly become one of my favorite reverb tools.
 
 ## Delay
 
@@ -258,6 +273,7 @@ I prefer to reach for a channel strip before anything else.
 * [Incra Miter 1000HD](https://www.incra.com/miter_gauges-miter1000hd.html) - Forget having a shop-made wooden miter sled. I prefer this miter gauge for precision work.
 * [RabidModels Cyanoacrylate](https://www.ebay.com/str/rabidmodels) - Some of the best prices and value. I particularly like their "Flex" product.
 * [Veritas Honing Guide](http://www.veritastools.com/Products/Page.aspx?p=144) - Some tools need precise bevels, and this is the best honing jig on the market. I've tried them all. I hone by hand while "working" and finish my day with a precise bevel grind.
+* [GRR-Ripper](https://www.microjig.com/products/grr-ripper) - Two of these. Awesome. Easy to adjust to the work so that you can feel confident in the outcomes of the potential failures of a given operation. Better cut results through better work control as well.
 
 ## Knives
 
@@ -277,6 +293,7 @@ I prefer to reach for a channel strip before anything else.
 # Electronics
 
 * [Hakko 936](https://www.hakkousa.com/products/soldering/936-esd-soldering-station/hakko-936-esd-soldering-station-6586.html)
+* [Hakko FR-301 Desoldering Tool](http://www.hakko.com/english/products/hakko_fr301.html) - Until you have one, you can't understand how useful this darn thing is. I refused to by myself one because I though it was "too expensive". Got one for christmas and now I can't figure out how I lived without it.
 * [Klein Solid and Stranded Wire Stripper/Cutter](https://www.kleintools.com/catalog/adjustable-wire-stripperscutters/katapult-solid-and-stranded-wire-strippercutter) - This thing _rocks_.
 
 # Clothing
@@ -298,9 +315,11 @@ I'm keeping this relatively short. Note: I don't like Fiction.
 * [Advanced Cobol](https://www.amazon.com/Advanced-Cobol-S-Philippakis/dp/007049813X)
 * [The Seasoned Schemer](https://www.amazon.com/Seasoned-Schemer-MIT-Press/dp/026256100X)
 * [The C Programming Language](https://en.wikipedia.org/wiki/The_C_Programming_Language) - Not for the content, but for the impact this had on my life's trajectory.
+* [Eloquent Ruby](http://eloquentruby.com)
 * [The Ashley Book of Knots](https://www.amazon.com/Ashley-Book-Knots-Clifford-W/dp/0385040253)
 * [Structural Hearing](https://www.amazon.com/Structural-Hearing-Tonal-Coherence-Music/dp/0486222756)
 * [The Anarchist's Design Book](https://lostartpress.com/collections/books/products/the-anarchists-design-book)
+* [The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X) - I don't agree with everything in the book, but was a catalyst for me to rethink some presumptions I had about human motives and common assumptions.
 * [Roubo on Furniture](https://lostartpress.com/collections/roubo-translation/products/deluxe-roubo-on-furniture)
 * [Woodworking in Estonia](https://lostartpress.com/collections/books/products/woodworking-in-estonia)
 * [By Hand and Eye](https://lostartpress.com/collections/books/products/by-hand-eye-1)
@@ -319,6 +338,7 @@ Only what I've been listening to in the last ~2 years, not an exhaustive list of
 * Whatever the hippest K-pop is. Particularly Red Velvet.
 * Squarepusher/Shobaleader One
 * Vulfpeck
+* The Main Squeeze
 * Kamasi Washington
 
 # Software Development
