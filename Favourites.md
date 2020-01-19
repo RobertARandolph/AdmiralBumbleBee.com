@@ -60,12 +60,12 @@ I like macOS, and [Ubuntu](https://www.ubuntu.com) with [dwm](https://dwm.suckle
 * **RETIRED**
   * [Visual Studio Code](https://code.visualstudio.com) - I've been happily using VS Code for nearly 6 months now. Zero qualms [unlike last time]({% post_url 2018-10-06-Editor-Musings %}#vs-code). Main Extensions I use are as follows:
       * [Vim](https://github.com/VSCodeVim/Vim) - I use Vim bindings no matter what editor I'm in. I'm a fairly advanced vim user and heavily rely on good vim emulation.
-* [Calva](https://github.com/BetterThanTomorrow/calva) - Calva is pretty nice. Wish it didn't rely on [nrepl](https://nrepl.org/nrepl/0.6.0/index.html), but... whatever.
-        * [Gitlens](https://gitlens.amod.io) - Oh. My. Goodness. Gitlens is the coolest. It'd be an entire post in itself to explain why I love this so much. Gitlens alone is nearly a singular killer reason to try VSCode.
-        * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
-        * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
-        * [Bracket Pair Colourizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Yeah, I'm one of _those_ people. I've been using some form of this for over 25 years. I've always used the same colours and it's hardcoded into my brain for reading code now. I don't recommend it, but I can't work without it.
-        * A bunch of java crap that I'm not going to link.
+      * [Calva](https://github.com/BetterThanTomorrow/calva) - Calva is pretty nice. Wish it didn't rely on [nrepl](https://nrepl.org/nrepl/0.6.0/index.html), but... whatever.
+      * [Gitlens](https://gitlens.amod.io) - Oh. My. Goodness. Gitlens is the coolest. It'd be an entire post in itself to explain why I love this so much. Gitlens alone is nearly a singular killer reason to try VSCode.
+      * [Code Spell Checker](https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker)
+      * [Path Intellisense](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
+      * [Bracket Pair Colourizer](https://marketplace.visualstudio.com/items?itemName=CoenraadS.bracket-pair-colorizer) - Yeah, I'm one of _those_ people. I've been using some form of this for over 25 years. I've always used the same colours and it's hardcoded into my brain for reading code now. I don't recommend it, but I can't work without it.
+      * A bunch of java crap that I'm not going to link.
 * I love [Emacs](https://www.gnu.org/software/emacs/) and I can't live without the following packages:
   * [Evil](https://github.com/emacs-evil/evil) - I prefer vim, Evil is better than vim.
   * [Ivy/Swiper/Counsel](https://github.com/abo-abo/swiper) - I use this hundreds of times a day. If I ever develop dementia, I'm sure I'll forget my wife before I forget how to use it.
