@@ -1735,7 +1735,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Bitwig" rating="7" link="bitwig-customization"> </daw>
             <daw name="Mixbus" rating="10" link="mixbus-customization"> </daw>
         </category>
-        <category name="Customization">
+        <category name="Changelogs">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
