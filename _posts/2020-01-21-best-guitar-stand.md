@@ -5,10 +5,15 @@ comments: true
 date:   2020-01-21_13:08:00 
 categories: music
 tags: ['Guitar', 'Review']
-image:
-description:
-visible: false
+image: "/assets/zguitar/Bumper.png" 
+description: Z Guitar Stand - the best guitar stand?
+visible: 0
 ---
+
+{::nomarkdown}
+<img src="/assets/zguitar/Bumper.png" alt="The Z-Guitar Stand">
+<div class="image-caption">The Z-Guitar Stand</div>
+{:/nomarkdown}
 
 This is a review about an otherwise mundane item. Let's start with some meta-info and click through for the rest of the review:
 
@@ -28,7 +33,9 @@ This is a review about an otherwise mundane item. Let's start with some meta-inf
 
 # Video
 
-The video this week is under 3 minutes, so I chose to not include any graphics in the text post. It contains basically all of the information here, but in graphical form.
+<iframe width="800" height="480" src="https://www.youtube.com/embed/BNkCxG5iHps" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+The video this week is under 3 minutes. It contains basically all of the information here except the part about me stubbing my toe, but in graphical form.
 
 # K & M
 
@@ -39,6 +46,11 @@ The K&M 17540 is a great stand. _Nearly_ everything in this review applies (exce
 The Z-Guitar Stand has a trick up its sleeve, and if you're perceptive then you've figured it out by now. I can say that I would buy the Z-Guitar stand over the original K&M without a thought.
 
 # Data
+
+{::nomarkdown}
+<img src="/assets/zguitar/Data.png" alt="Data">
+<div class="image-caption">Data</div>
+{:/nomarkdown}
 
 * Weight - 67oz, 4lb 3oz, ~1900g
 * Dimensions
@@ -55,6 +67,14 @@ The Z-Guitar Stand has a trick up its sleeve, and if you're perceptive then you'
 
 ## Back
 
+{::nomarkdown}
+<video autoplay loop muted class="gifvid">
+<source src="/assets/zguitar/Rubbish.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">description</div>
+{:/nomarkdown}
+
 Impeding rearward motion is the one thing that most every guitar stand can handle.
 
 The Z-Guitar stand does not impede rearward motion better than most stands, but it _does_ do it more predictably than tripod based stands.
@@ -64,6 +84,11 @@ Watch the video above: knock the instrument on the tripod and it ends up going t
 I don't think this is a "win" for either stand, but I personally prefer that if I bump into something that I can quickly guess where it's going so I can catch it.
 
 ## Side
+
+{::nomarkdown}
+<img src="/assets/zguitar/Weight.png" alt="Force to Tumble">
+<div class="image-caption">Force to Tumble</div>
+{:/nomarkdown}
 
 Side influence is where the rubber, somewhat literally, meets the road. We've all bumped into a guitar and felt the adrenaline rush as a few paychecks rocket towards the ground.
 
@@ -75,7 +100,21 @@ There are tradeoffs when designing to mitigate the average musicians clumsiness 
 * Add protection to the side - increases difficulty of use by reducing the number of compatible instruments and making the stand more 'fiddly' to use.
 * Hold at the neck - increase the catastrophic results of a displacement incident. Does not work with headless instruments or may not with certain headstocks (I'm looking at you telecasters!)
 
+The Z-Guitar Stand and K&M 17540 get this pretty close to perfect. The lateral effort to pull a 10lb/4.5kg bass guitar off the stand with lateral force is about 4lb/1.8kg for the Z-Guitar Stand.
+
+The force required is about 2lb/0.9kg for the most popular, and one of the best reviewed, "quality" A-frame stand on the market.
+
+It takes about 2x as much force to knock an instrument off the Z-Guitar stand!
+
 ## Forward
+
+{::nomarkdown}
+<video autoplay loop muted class="gifvid">
+<source src="/assets/zguitar/Smack.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Smack it</div>
+{:/nomarkdown}
 
 Most every guitar stand fails if you knock it forward by the headstock. Crash. Bang. Boom.
 
@@ -87,6 +126,14 @@ I don't know about you, but for me this is the biggest win. I have my guitar fac
 
 ## Buttons and Side Jacks
 
+{::nomarkdown}
+<video autoplay loop muted class="gifvid">
+<source src="/assets/zguitar/Button.mp4" type="video/mp4">
+Your browser does not support the video tag.
+</video>
+<div class="video-caption">Why narrow the width?</div>
+{:/nomarkdown}
+
 If your instrument sits deep in the stand then there's a chance that the strap button or the bottom of the instrument contacts the floor. Due to how well the instrument is held by the stand, you can reduce the angle of the apex of the A to pull the instrument up off the ground.
 
 The adjustment is easily made with a locking mechanism. Note that you don't press the locking nub to release it, you press a secondary nub that's more pronounced and won't pinch your finger while you move the stand. Brilliant inclusion.
@@ -97,15 +144,23 @@ There's only minimal loss of stability when the A is closed up, and it allows th
 
 If the stand did not hold the instrument firmly then this type of adjustment would be all for naught. Luckily it does.
 
+# The bad things
+
+No stand is perfect, however I only have a single complaint about this stand: It really hurts if you stub your toe on it.
+
+I'm not joking. My toe is black and blue from stubbing it on this stand while shooting video. If you like to shuffle your stands around, especially on carpet, you'll hate this stand. It stays in place.
+
+It's likely that someone else may find faults with the stand, however it meets my needs without fault. Hopefully I've provided sufficient info and demonstration that you can find potential faults that I've either overlooked, or that don't affect me.
+
 # Conclusion
 
 Short review. Strange subject. It sounds product placement, but I purchased this stand when I was looking for a normal K&M 17540 on reverb at the suggestion of [Michael Tobias](http://www.mtdbass.com).
 
 I absolutely love this stand, and I wanted to share why.
 
-You can [order them directly from zachary guitars](https://zacharyguitars.com/stands/) **AND** if you [Join my Discord chat](https://discord.gg/34cFzVn) I will be giving one of these stands away free to a patreon, discord user or anyone interested in acquiring one. I'm paying for the stand out of my own pocket.
+You can [order them directly from zachary guitars](https://zacharyguitars.com/stands/) **AND** if you [Join my Discord chat](https://discord.gg/34cFzVn) I will be giving one of these stands away free to a patreon, discord user or anyone interested in acquiring one. **I'm paying for the stand out of my own pocket.**
 
-No e-mail necessary, all I need is a way to contact you. Discord, Patreon, or just send me an E-mail saying that you're interested (audiolabs gmail).
+No e-mail necessary, all I need is a way to contact you. Discord, Patreon, leave a comment, contact me [on twitter](https://twitter.com/AdmiralBee) or just send me an E-mail saying that you're interested (audiolabs gmail).
 
 I also use [Hercules stands](http://herculesstands.com/international/), but their footprint is ridiculously large _and_ if you bump into one it's nearly impossible to recover before the crash. They are nice for display and their retail products are great (you've seen the big stands in my videos).
 
@@ -115,7 +170,7 @@ Thanks for reading/watching!
 
 # Meta
 
-This post took XX hours to research, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
+This post took 15 hours to research, write and edit. The video took approximately 20 hours. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
 
 <a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
