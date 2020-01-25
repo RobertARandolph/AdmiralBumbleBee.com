@@ -26,6 +26,10 @@ This is a review about an otherwise mundane item. Let's start with some meta-inf
 * TOC
 {:toc}
 
+# Video
+
+The video this week is under 3 minutes, so I chose to not include any graphics in the text post. It contains basically all of the information here, but in graphical form.
+
 # K & M
 
 Let's start with some history. This stand is essentially a [K&M 17540](https://www.sweetwater.com/store/detail/KM17540B--k-and-m-17540-electric-guitar-stand-black). It is wholly made in Germany by one of the most respected manufacturers of music accessories in the world.
@@ -47,12 +51,17 @@ The Z-Guitar Stand has a trick up its sleeve, and if you're perceptive then you'
   * Typical Instrument Angle - 14°
 * Cost - ~$60usd with shipping.
 
-
 # Problems
 
 ## Back
 
-Impeding rearward motion is the one thing that most every guitar stand can handle. The Z-Stand just does it better.
+Impeding rearward motion is the one thing that most every guitar stand can handle.
+
+The Z-Guitar stand does not impede rearward motion better than most stands, but it _does_ do it more predictably than tripod based stands.
+
+Watch the video above: knock the instrument on the tripod and it ends up going to the side (sometimes randomly!), but the Z-Guitar stand predictably goes backwards.
+
+I don't think this is a "win" for either stand, but I personally prefer that if I bump into something that I can quickly guess where it's going so I can catch it.
 
 ## Side
 
@@ -76,19 +85,13 @@ Does it work? Watch the video above. **It works**
 
 I don't know about you, but for me this is the biggest win. I have my guitar facing my computer desk, so when I enter the room I see the back of my instrument. That's where accidents happen. That's where this guitar stand's value shines.
 
-## Protection
-
-The guitar contacts approximately 3 points (possibly up to 5, depending on your instrument). What happens if you drop your guitar into the stand? Throw it? Is that flash of nitrocellulose lacquer from 1958 going to survive?
-
-Above I've taken a finished surface, utilizing a nitro laquer, and had it "interact" with the Z-Guitar Stand in ways that I hope your instrument never has to.
-
-The results?
-
-## Buttons
+## Buttons and Side Jacks
 
 If your instrument sits deep in the stand then there's a chance that the strap button or the bottom of the instrument contacts the floor. Due to how well the instrument is held by the stand, you can reduce the angle of the apex of the A to pull the instrument up off the ground.
 
 The adjustment is easily made with a locking mechanism. Note that you don't press the locking nub to release it, you press a secondary nub that's more pronounced and won't pinch your finger while you move the stand. Brilliant inclusion.
+
+A secondary concern is if you have your jack on the side of the instrument. On nearly every A-style stand I've owned the jack gets in the way of one of the legs. The 17540/Z-Guitar stand alleviate this through adjusting the width of the A-frame.
 
 There's only minimal loss of stability when the A is closed up, and it allows the stand to handle instruments of a much wider variety of shapes than nearly any stand on the market.
 
@@ -103,6 +106,10 @@ I absolutely love this stand, and I wanted to share why.
 You can [order them directly from zachary guitars](https://zacharyguitars.com/stands/) **AND** if you [Join my Discord chat](https://discord.gg/34cFzVn) I will be giving one of these stands away free to a patreon, discord user or anyone interested in acquiring one. I'm paying for the stand out of my own pocket.
 
 No e-mail necessary, all I need is a way to contact you. Discord, Patreon, or just send me an E-mail saying that you're interested (audiolabs gmail).
+
+I also use [Hercules stands](http://herculesstands.com/international/), but their footprint is ridiculously large _and_ if you bump into one it's nearly impossible to recover before the crash. They are nice for display and their retail products are great (you've seen the big stands in my videos).
+
+I've packed away 4 other single-instrument stands because they are all inferior to the Z-Guitar Stand.
 
 Thanks for reading/watching!
 
