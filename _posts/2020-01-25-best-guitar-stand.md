@@ -7,7 +7,6 @@ categories: music
 tags: ['Guitar', 'Review']
 image: "/assets/zguitar/Bumper.png" 
 description: Z Guitar Stand - the best guitar stand?
-visible: 0
 ---
 
 {::nomarkdown}
@@ -72,7 +71,7 @@ The Z-Guitar Stand has a trick up its sleeve, and if you're perceptive then you'
 <source src="/assets/zguitar/Rubbish.mp4" type="video/mp4">
 Your browser does not support the video tag.
 </video>
-<div class="video-caption">description</div>
+<div class="video-caption">Can you predict where the guitar will fall?</div>
 {:/nomarkdown}
 
 Impeding rearward motion is the one thing that most every guitar stand can handle.
@@ -158,9 +157,9 @@ Short review. Strange subject. It sounds product placement, but I purchased this
 
 I absolutely love this stand, and I wanted to share why.
 
-You can [order them directly from zachary guitars](https://zacharyguitars.com/stands/) **AND** if you [Join my Discord chat](https://discord.gg/34cFzVn) I will be giving one of these stands away free to a patreon, discord user or anyone interested in acquiring one. **I'm paying for the stand out of my own pocket.**
+You can [order them directly from Zachary Guitars](https://zacharyguitars.com/stands/) **AND** if you [Join my Discord chat](https://discord.gg/34cFzVn) I will be giving one of these stands away free to a Patreon, Discord user or anyone interested in acquiring one. **I'm paying for the stand out of my own pocket.**
 
-No e-mail necessary, all I need is a way to contact you. Discord, Patreon, leave a comment, contact me [on twitter](https://twitter.com/AdmiralBee) or just send me an E-mail saying that you're interested (audiolabs gmail).
+No e-mail necessary, all I need is a way to contact you. Discord, Patreon, leave a comment, contact me [on Twitter](https://twitter.com/AdmiralBee) or just send me an E-mail saying that you're interested (audiolabs gmail).
 
 I also use [Hercules stands](http://herculesstands.com/international/), but their footprint is ridiculously large _and_ if you bump into one it's nearly impossible to recover before the crash. They are nice for display and their retail products are great (you've seen the big stands in my videos).
 
