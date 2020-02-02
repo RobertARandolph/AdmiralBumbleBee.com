@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Live's Plugins: A series of mini-reviews" 
+title: "Live's Plugins: A series of miniature reviews" 
 comments: true
 date:   2019-05-10_12:49:48 
 categories: music
