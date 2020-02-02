@@ -205,7 +205,7 @@ I was sent a project that had dozens of tracks of existing automation and ended 
 
 VCA Faders aren't everything. Simply having an automation stage (or two, or three!) that exist pre/post fader that allow you to automate without touching your mixer fader would be lovely.
 
-Adding a utility plugin gives you post-fader automation adjustment that's 2-3 clicks and possibly a click-drag away. Hooey.
+Adding a utility plugin gives you pre-fader automation adjustment that's 2-3 clicks and possibly a click-drag away. Hooey.
 
 # 10 Glitches if global latency is too high
 
@@ -235,6 +235,10 @@ When the oscilliscope's trace goes "flat", that means some audio was not rendere
 Sidechaining the [native compressor]({% post_url 2019-05-10-Live-Plugins %}#compressor) isn't complex. Finding the track that you wish to use as your sidechain source **IS** complex and disheartening if you have too many tracks in your project.
 
 You have to scroll though a list of track names. Heaven forbid you click the wrong track and have to repeat that, or even worse: you don't know the track name and have to find it (see other complaints).
+
+**EDIT** - I originally _did_ try typing, and it wasn't consistent. Someone suggested this, so I tried again and it's fairly inconsistent. Sometimes it goes to a track, sometimes it does nothing, sometimes the window closes. There's no way to see what you've typed or to correct a mistake in typing with backspace.
+
+Please Ableton: a normal search box.
 
 # 12 Can't jump to locators
 
@@ -371,7 +375,6 @@ It's about 22 pixels high. On my 27" screen that means that it's just about 1.5m
 Live uses peak metering _everywhere_, which is practically useless in the digital world. No good for [gainstaging]({% post_url 2017-11-01-Gainstaging-for-the-modern-musician %}) and no good for ... anything.
 
 Better options = better mixes.
-
 
 # Conclusion
 
