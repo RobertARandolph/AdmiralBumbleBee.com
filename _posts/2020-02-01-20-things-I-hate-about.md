@@ -255,6 +255,8 @@ What's the point of locators if you can't use them? [The shortcuts sheet](https:
 
 It's wonderful to be focused on the mixer and instantly jump to _exactly where you want_ in the song, without error and without listening or touching your mouse.
 
+**EDIT* - A user has pointed out that you can manual assign locators via Key/MIDI assignment. Great! Except it has to be done every time that you add a locator. If you delete a locator then the key assignment is deleted too.
+
 # 13 Setting playhead while automation is showing is a great way to accidentally create automation
 
 
@@ -364,6 +366,11 @@ I know this one isn't me. I've watched people live-streaming Live online, and wa
 
 It's about 22 pixels high. On my 27" screen that means that it's just about 1.5mm. Ick.
 
+**EDIT** - A user [has pointed out](https://twitter.com/WilliamS_mus/status/1224384664980336640) that you can use `ctrl/command l` to set the loop to the selection. The problem them becomes that you must redo any existing selections that you may be working on (which is a problem anyway because setting the loop **ALWAYS CHANGES THE SELECTION**).
+
+An example would be when I was trying to do a non-grid edit. I nearly had the edit right then wanted to set a short loop so I could hear my results as I worked. Setting the loops undid my carefully setup selection! Necessitating using the selection be used and be set for something that _doesn't select anything_ is a strange UI decision.
+
+However, since the loop and selection are intertwined as it is, the suggestion alleviates the problem as much as is currently possible.
 
 # 20 (Poor) Peak Meters
 
