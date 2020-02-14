@@ -159,7 +159,7 @@ These are plug-ins that you can acquire without needing to spend money.
     * [Hofa](https://hofa-plugins.de/en/plugins/4u/) - brilliant free tools. The Goniometer, Blindtest and Dynamic TiltEQ should be a stape in any studio.
     * [AuburnSounds](https://www.auburnsounds.com) - Graillon, Panagement and Couture have usable free versions. [I reviewed Couture here]({% post_url 2018-09-02-Couter-Review %})
     * [HY plugins](https://hy-plugins.com/plugins/vst/vst-effect/) - most of the commercial products have a free version that is worth downloading.
-    * [Socal Labs](https://socalabs.com) - THe GUIs aren't that great, but there's some unique things here that you won't find anywhere else.
+    * [SocaLabs](https://socalabs.com) - THe GUIs aren't that great, but there's some unique things here that you won't find anywhere else.
 
 ## Equalizers
 

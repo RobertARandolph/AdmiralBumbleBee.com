@@ -458,6 +458,7 @@ Ambisonics may not be for everyone, but if you're in to it then you're ready to 
 ## Saike's Workshop - [Homepage](https://forum.cockos.com/showthread.php?t=220277)
 
 
+{::nomarkdown}
 <video poster="/assets/Reaper/Scripts/Saike.png" controls muted preload="none">
 	<source src="/assets/Reaper/Scripts/Saike.mp4" type="video/mp4">
     Your browser does not support the video tag.
