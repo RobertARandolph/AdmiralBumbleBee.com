@@ -51,6 +51,8 @@ Strings: [Fender Pure Nickel 150s](https://shop.fender.com/en-US/accessories/str
 
 ## Funky
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/BlueCat/Axiom/Audio/Funk" title="Axiom Funk Guitar">
 	<file name="Dry.wav" />
 	<file name="Twang.wav" />

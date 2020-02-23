@@ -4,7 +4,7 @@ title: Cool things in Mixbus Part 1
 comments: true
 date:   2017-08-16_15:54:18 
 categories: music
-tags: ['Mixbus', 'DAW', 'Comparator']
+tags: ['Mixbus', 'DAW']
 image: /assets/Mixbus/Good/Part1.png
 description: Three awesome features in Mixbus 4
 ---

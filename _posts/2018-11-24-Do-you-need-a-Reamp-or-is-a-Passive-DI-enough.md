@@ -396,6 +396,8 @@ The _real_ takeaway here is that none of these were particularly similar to the 
 
 ## Bluesy
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Reamp/Audio/Blues" title="Bluesy Chord Examples">
     <file name="DirectGuitar.wav" />
     <file name="LiveAmp.wav" />

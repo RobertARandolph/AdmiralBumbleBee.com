@@ -453,6 +453,8 @@ That fuzziness on the blue line is an artifact of the testing. It's not indicate
 
 ## Real World
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Soothe/Audio" title="Soothe Common Attempts">
     <file name="Guitar.wav" />
     <file name="GuitarSoothe.wav" />

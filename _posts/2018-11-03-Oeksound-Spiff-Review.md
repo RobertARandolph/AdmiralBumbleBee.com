@@ -426,6 +426,8 @@ Scare-tactics aside it's unlikely that you'll need to ever run 20 Spiffs. Even r
 
 # Real World
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Spiff/audio" title="Vocal Samples">
     <file name="Voice.wav" />
     <file name="VoiceSpiffBoost.wav" />

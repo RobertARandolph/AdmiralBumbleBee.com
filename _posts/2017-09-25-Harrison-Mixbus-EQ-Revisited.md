@@ -4,7 +4,7 @@ title: Harrison Mixbus EQ Revisited, or how and why Digital EQs sound different
 comments: true
 date:   2017-09-25_15:00:05 
 categories: music
-tags: ['Mixbus', 'DAW', 'Tutorial', 'Studio Tips', 'Comparator']
+tags: ['Mixbus', 'DAW', 'Tutorial', 'Studio Tips']
 image: /assets/Mixbus/Phase/PhaseTitle)
 description: One major reason EQs can sound different and how it applies to Mixbus 32c
 ---

@@ -12,6 +12,8 @@ visible: 0
 
 # 105% stretch
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Stretch/105" title="105% stretch">
     <file name="ZTXVox105.aac" />
     <file name="ElastiqueVox105.aac" />

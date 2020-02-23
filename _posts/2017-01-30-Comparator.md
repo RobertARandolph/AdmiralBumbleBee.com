@@ -23,6 +23,8 @@ Hopefully you can figure out what it does by the UI, but consider this post the 
 
 # The Real Thing™
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Audio/FabfilterTwin/Filters" title="Fabfilter Twin 2 Filter Comparison">
 	<file name="One.mp3" />
 	<file name="Gentle.mp3" />

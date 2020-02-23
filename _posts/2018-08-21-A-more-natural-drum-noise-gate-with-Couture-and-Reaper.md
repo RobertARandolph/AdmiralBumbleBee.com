@@ -133,6 +133,8 @@ If you want to be extra fancy and make this whole thing sound even more natural 
 
 # Sound Examples
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Reaper/DrumFreq/Sound/Proc" title="Drum Gating Examples">
 	<file name="DrumsMain.wav" />
 	<file name="AllGate.wav" />

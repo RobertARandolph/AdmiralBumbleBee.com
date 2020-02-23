@@ -100,6 +100,8 @@ There's a list of MPE-capable synths at the [Linnstrument](http://www.rogerlinnd
   <div class="image-caption">Note Expression in action</div>
 {:/nomarkdown}
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Bitwig/Audio" title="With and Without MPE">
 	<file name="WithExpression.mp3" />
 	<file name="NoExpression.mp3" />

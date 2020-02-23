@@ -577,6 +577,8 @@ I really should have had a thinner top on this, but that's something I can adjus
 
 # Sounds
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/WoodBlocks/Sounds" title="Wood Blocks">
 	<file name="SimpleEdge.mp3" />
 	<file name="SimpleTop.mp3" />

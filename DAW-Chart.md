@@ -9,6 +9,9 @@ description:
 layout: "dawchart"
 ---
 
+  <script type="text/javascript" src="/admdc/admdc.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admdc/admdc.css">
+
 # Video Intro
 
 <iframe width="800" height="450" src="https://www.youtube.com/embed/5Qn5K3Wc92I" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>

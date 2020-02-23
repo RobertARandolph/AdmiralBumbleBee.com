@@ -69,6 +69,8 @@ Couture is the other files except Dry.
 
 **THESE ARE EXTREME EXAMPLES TO SHOW FUNCTION** This is **NOT** intended to demonstrate good sounding usage.
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/Couture/Drums/" title="Drum Transient Tests">
 	<file name="OHDry.wav" />
 	<file name="OHProcessedInverted.wav" />

@@ -356,6 +356,8 @@ Let me show you some examples of how nothing more than the Rotary speaker part c
 
 ## Examples
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/EARevolve/Rotary" title="Rotary Speaker">
     <file name="GuitarDry.mp3" />
     <file name="GuitarBig.mp3" />

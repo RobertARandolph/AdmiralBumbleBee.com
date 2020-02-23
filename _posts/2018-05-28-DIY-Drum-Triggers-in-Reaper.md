@@ -169,6 +169,8 @@ Check out this video discussing a very similar topic on REAPERBlog's youtube cha
 <div class="image-caption">The session in the audio below</div>
 {:/nomarkdown}
 
+  <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admc/admc.css">
 <admc path="/assets/DrumStuff/Trigger/Sounds/" title="Kick Drum Triggered">
 	<file name="NoTrigger.mp3" />
 	<file name="TriggerMix.mp3" />
