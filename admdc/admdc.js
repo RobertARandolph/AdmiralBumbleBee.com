@@ -209,6 +209,7 @@ var AdmiralChart = (function() {
     var section_link = e.getAttribute("link");
     var section_weight = e.getAttribute("Weight");
     var section_exclude = e.getAttribute("exclude");
+    var section_meta = e.getAttribute("meta");
 
     // stuff to add to sections_array
     var section_categories = {};
@@ -251,6 +252,7 @@ var AdmiralChart = (function() {
     input.value = parseInt(section_weight);
     input.type = "number";
     input.max = "300";
+    input.setAttribute("meta", section_meta);
     input.addEventListener("input", this.admdc_update_ratings);
     td.appendChild(input);
 
@@ -358,6 +360,75 @@ var AdmiralChart = (function() {
 
     return dc_section;
   };
+  set_zero = function(e) {
+    document.querySelectorAll("input[id^='section_weight']").forEach(e => {
+      let val = parseInt(e.value);
+      if (val != 0) {
+        e.value = 0;
+      }
+    });
+    admdc_update_ratings();
+  };
+  set_100 = function(e) {
+    document.querySelectorAll("input[id^='section_weight']").forEach(e => {
+      let val = parseInt(e.value);
+      if (val != 100) {
+        e.value = 100;
+      }
+    });
+    admdc_update_ratings();
+  };
+  plus_10 = function(e) {
+    document.querySelectorAll("input[id^='section_weight']").forEach(e => {
+      e.value = parseInt(e.value) + 10;
+    });
+    admdc_update_ratings();
+  };
+  minus_10 = function(e) {
+    document.querySelectorAll("input[id^='section_weight']").forEach(e => {
+      e.value = parseInt(e.value) - 10;
+    });
+    admdc_update_ratings();
+  };
+  dc_function = function(e) {
+    document
+      .querySelectorAll("input[id^='section_weight'][meta='function']")
+      .forEach(e => {
+        e.value = 100;
+      });
+    document
+      .querySelectorAll("input[id^='section_weight']:not([meta='function'])")
+      .forEach(e => {
+        e.value = 0;
+      });
+    admdc_update_ratings();
+  };
+  dc_opinion = function(e) {
+    document
+      .querySelectorAll("input[id^='section_weight'][meta='opinion']")
+      .forEach(e => {
+        e.value = 100;
+      });
+    document
+      .querySelectorAll("input[id^='section_weight']:not([meta='opinion'])")
+      .forEach(e => {
+        e.value = 0;
+      });
+    admdc_update_ratings();
+  };
+  dc_meta = function(e) {
+    document
+      .querySelectorAll("input[id^='section_weight'][meta='meta']")
+      .forEach(e => {
+        e.value = 100;
+      });
+    document
+      .querySelectorAll("input[id^='section_weight']:not([meta='meta'])")
+      .forEach(e => {
+        e.value = 0;
+      });
+    admdc_update_ratings();
+  };
 
   return {
     parseADMDC: function() {
@@ -396,6 +467,22 @@ var AdmiralChart = (function() {
 
         admdcs = document.getElementsByTagName("admdc");
       }
+
+      document
+        .getElementById("zero-percent")
+        .addEventListener("click", set_zero);
+      document
+        .getElementById("one-hundred-percent")
+        .addEventListener("click", set_100);
+      document.getElementById("plus-ten").addEventListener("click", plus_10);
+      document.getElementById("minus-ten").addEventListener("click", minus_10);
+      document
+        .getElementById("dc-function")
+        .addEventListener("click", dc_function);
+      document
+        .getElementById("dc-opinion")
+        .addEventListener("click", dc_opinion);
+      document.getElementById("dc-meta").addEventListener("click", dc_meta);
 
       admdc_update_ratings();
     }

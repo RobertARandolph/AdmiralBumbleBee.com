@@ -678,3 +678,81 @@
         color: block;
     }
 }
+
+#chart-weight-modifiers {
+    position: sticky;
+    top: 78px;
+    width: 100%;
+    border-radius: 5px;
+    cursor: pointer;
+    padding: 0px;
+    background: rgba(249, 248, 238, 0.9);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+    text-align: center;
+
+    @include media-query($on-palm) {
+        right: 5%;
+    }
+
+    .mod-button {
+	    display:inline-block;
+	    cursor:pointer;
+        position: relative;
+        top: 0px;
+        min-width: 55px;
+        height: 26px;
+        border: 2px solid #999;
+        border-radius: 3px;
+        margin: 3px;
+        padding: 3px 6px 3px 6px;
+        margin-right: -3px;
+        color: $text-color;
+        height: 30px;
+        text-align: center;
+        background-color: rgba(250, 249, 240, 1);
+        z-index: 10;
+    }
+
+    .mod-button:hover {
+        transition: background-color 200ms ease-out;
+        background-color: palegreen;
+    }
+
+    .mod-button:active {
+        transition: background-color 10ms ease-out;
+        background-color: limegreen;
+    }
+
+    .sort-radius-left {
+        border-top-left-radius: 4px;
+        border-bottom-left-radius: 4px;
+        border-right: 2px solid #999;
+    }
+    .sort-radius-right {
+        border-top-right-radius: 4px;
+        border-bottom-right-radius: 4px;
+        border-left: 2px solid #999;
+    }
+
+    #zero-percent {
+    }
+    #one-hundred-percent {
+    }
+    #plus-ten {
+    }
+    #minus-ten {
+    }
+    #dc-function {
+    }
+    #dc-opinion {
+    }
+
+    .sort-style:visited {
+        color: block;
+    }
+}

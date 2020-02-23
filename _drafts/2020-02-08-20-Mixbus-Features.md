@@ -2,7 +2,7 @@
 layout: post
 title: 20 Mixbus 6 Features I wish every DAW had
 comments: true
-date:   2020-02-08_20:44:35 
+date:   2020-02-22_10:44:35 
 categories: music
 tags: ['Mixbus', 'DAW']
 image:
@@ -11,7 +11,7 @@ description:
 
 With Mixbus 6 arriving on the scene, I decided I wanted to highlight some features that [Mixbus](https://harrisonconsoles.com/site/mixbus.html) has that I wish every DAW had.
 
-This is in stark contrast [to my previous article about Ableton Live]({% post_url 2020-02-01-20-things-I-hate-about.md %}). I originally wrote a "10 things about Mixbus" article in late December, but I decided to "wait until after [NAMM](https://www.namm.org)". The Live article was an extension of thought of _this original_ article.
+This is in stark contrast [to my previous article about Ableton Live]({% post_url 2020-02-01-20-things-I-hate-about %}). I originally wrote a "10 things about Mixbus" article in late December, but I decided to "wait until after [NAMM](https://www.namm.org)". The Live article was an extension of thought of _this original_ article.
 
 Hop on through for the fluff.
 
@@ -44,7 +44,7 @@ Here we go with another list! This article...
 * will mark features available in Ardour.
 * is **NOT** claiming that these features are not available elsewhere.
   * unless I note otherwise.
-* is **NOT** going to mention flaws of Mixbus, similar to how [the live article]({% post_url 2020-02-01-20-things-I-hate-about.md %}) didn't mention some of the awesome things about Live.
+* is **NOT** going to mention flaws of Mixbus, similar to how [the live article]({% post_url 2020-02-01-20-things-I-hate-about %}) didn't mention some of the awesome things about Live.
 
 I've been using Mixbus _almost_ exclusively for the last 70 days or so and I'm enjoying it quite a bit (as long as I don't expect to touch MIDI...), so I've built up quite the enthusiasm.
 
@@ -54,7 +54,9 @@ I use Logic for a major project every week, and I use Digital Performer for anot
 ##  1 CPU Profile
 ##  2 Plugin Analysis
 ##  3 Latency Compensation
-##  4
+##  4 Calibrate Audio
+
+Window->Audio/Midi Setup/Calibrate
 ##  5 Region Position Overlay
 ##  6 Analyze Exported Audio
 ##  7 Multiple Export Formats

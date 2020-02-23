@@ -95,7 +95,7 @@ There are criticisms to be made of the product, but currently I spend more than 
 
 I've worked on 7 significant projects in the last 2 weeks.
 
-* Mixing an album for a genre that I'm very unfamiliar track.
+* Mixing an album for a genre that I'm very unfamiliar with.
 * Mixing a track [in Ableton Live]({% post_url 2020-02-01-20-things-I-hate-about %})
 * Mastering 2 tracks
 * [Two hardware projects](#failure)
@@ -105,7 +105,7 @@ I've worked on 7 significant projects in the last 2 weeks.
 
 I've also been reading about various Lisp editing methods and the history of how people have worked with Lisps. I'm largely unhappy with [paredit](https://www.emacswiki.org/emacs/ParEdit), and despite being my main interface to editing Lisp; I've never liked it. What I really want is for someone to [add frame editing to Emacs](https://www.greenfoot.org/frames/) with a reasonable keyboard interface. It's a perfect fit for LISP.
 
-Changing metal contexts over and over has been difficult. I have no issues prioritizing and concentrating on projects, but the downtime between them increases with each context switch.
+Changing mental contexts over and over has been difficult. I have no issues prioritizing and concentrating on projects, but the downtime between them increases with each context switch.
 
 That's left me with little time to write and produce video.
 

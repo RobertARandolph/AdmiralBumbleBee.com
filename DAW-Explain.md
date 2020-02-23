@@ -26,6 +26,18 @@ A high _overall_ rating doesn't mean a product is good. It just means it's more 
 
 **note** I do not cover video features. I do very little video and feel very underqualified to rate things as such.
 
+# Setter Help
+
+That bar at the top of the chart sets all user weights.
+
+* 0% - Sets all weights to 0%
+* 100% - Sets all weights to 100%
+* +10% - Adds 10% to all values, allows values over 100%
+* -10% - Adds 10% to all values, allows values below 0%
+* Function - Sets all functionality-related sections to 100%. All other sections to 0%
+* Opinion - Sets all opinion-related sections to 100%. All other sections to 0%
+* Meta - Sets all Meta-related sections (Things related to, but not directly about the DAW) to 100%. All other sections to 0%. (I know this is an incorrect use of "Meta". Leave me alone :) )
+
 # Installation
 
 ## Installation options
@@ -100,7 +112,7 @@ These are the prices I use:
 ;; Code for reuse later
 
 (def daws 
-    {:Reaper 60
+    (array-map :Reaper 60
      :Waveform 159
      :DP 499
      :Cubase 552
@@ -111,7 +123,7 @@ These are the prices I use:
      :FL 199
      :Live 449
      :Bitwig 399
-     :Mixbus 79})
+     :Mixbus 79))
 
 (def min-val (val (apply min-key val daws)))
 (def max-val (val (apply max-key val daws)))
@@ -121,17 +133,20 @@ These are the prices I use:
 (defn reverse-normalize
   "Normalize daw rating value"
   [x]
-  (int (+ min-rating 
-          (* (- max-rating min-rating) 
-             (/ (- x max-val) 
-                (- min-val max-val))))))
+  (->> (- min-val max-val)
+       (/ (- x max-val))
+       (* (- max-rating min-rating))
+       (+ min-rating)
+       (* 0.1)
+       int))
 
 (defn price-rating
   "Print daw and rating"
   [[daw val]]
-    (format "%s: %d" daw (reverse-normalize val)))
+  (-> ["<daw name=\"" (name daw) "\" rating=\"" (reverse-normalize val) "\"> </daw>"]
+      (clojure.string/join)))
 
-; (map price-rating (assoc daws :Sawstudio 1250))
+(doseq [x (map price-rating daws)] (println x))
 ```
 
 ## Upgrade Costs
@@ -160,7 +175,7 @@ Here are the values I used:
 * Mixbus - $19
 
 ```clojure
-(def daws 
+(def daws-upgrade
     {:Reaper 5
      :Waveform 109
      :DP 100
@@ -959,7 +974,9 @@ DAWs are a religion to some. How fanatical users are about their product. High r
 
 # Bias
 
-Suggested to set this to -100% or higher to adjust for my personal bias.
+All values are negative by default. Weighting this by 100% or more will subtract my perceived bias from the weighted total.
+
+Lower values ("more negative") indicate more bias.
 
 ## Preference
 
@@ -976,6 +993,13 @@ How connected I am to the product in terms of personal relationships, testing, i
 ## Frustration
 
 How frustrated I get when using this software, regardless of capability or design.
+
+## Community Interactions
+
+My interactions with various communities surely affect my perception of the product. This rates the negativity of my personal interactions with the community. [community categories](#community-support) indicate my view of the community as a whole, and not based on my personal interactions
+
+Lower values ("More negative") indicate more positive interactions.
+
 
 # Support Me!
 
