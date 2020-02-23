@@ -25,22 +25,16 @@ Hopefully you can figure out what it does by the UI, but consider this post the 
 
   <script type="text/javascript" src="/admc/comparator.js?v={{ site.time | date:'%s' }}"> </script>
   <link rel="stylesheet" type="text/css" href="/admc/admc.css">
-<admc path="/assets/Audio/FabfilterTwin/Filters" title="Fabfilter Twin 2 Filter Comparison">
-	<file name="One.mp3" />
-	<file name="Gentle.mp3" />
-	<file name="Raw.mp3" />
-	<file name="Tube.mp3" />
-	<file name="Metal.mp3" />
-	<file name="EasyGoing.mp3" />
-	<file name="Smooth.mp3" />
-	<file name="Hard.mp3" />
-	<file name="Hollow.mp3" />
-	<file name="Extreme.mp3" />
-	<file name="Clean.mp3" />
+<admc path="/assets/Audio/Diva" title="Diva Filter Comparison">
+	<file name="Ladder.mp3" />
+	<file name="Cascade.mp3" />
+	<file name="Multimode.mp3" />
+	<file name="Bite.mp3" />
+	<file name="Uhbie.mp3" />
 	<jump name="Second Chord" time="0:0.750" />
-	<jump name="Third Chord" time="0:2.250" />
-	<jump name="50%" time="50%" />
-	<jump name="Last Chord" time="0:6.400" />
+	<jump name="Third Chord" time="0:2.000" />
+	<jump name="75%" time="50%" />
+	<jump name="Last Chord" time="0:4.000" />
 </admc>
 
 <br />
