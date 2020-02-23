@@ -598,9 +598,9 @@ Comping is the ability to take a bunch of layers of audio, likely loop recorded,
 
 Some DAWs allow you to manage takes in rather complex ways, and some have no comping features at all!
 
-## Multitrack Audio Editing
+## Grouped Audio Editing
 
-Multitrack Audio Editing consists of all of the [features in Audio Editing tools](#audio-editing-tools) but applied to multiple tracks or objects simultaneously.
+Grouped (further referred to as "Multitrack") Audio Editing consists of all of the [features in Audio Editing tools](#audio-editing-tools) but applied to multiple tracks or objects simultaneously.
 
 Multitrack Audio Editing also concerns features that are only applicable to multitrack audio.
 
@@ -678,9 +678,9 @@ Some basic Multitrack Midi Editing features I expect:
 * Ability to edit multiple streams, not just one at a time
 * Easy stream filtering - some way to quickly show/hide data streams without fiddling with checkboxes
 
-## Midi Manipulation Tools
+## Midi Tools
 
-Midi  Manipulation Tools is a selection of processes or tools that let you make algorithmic changes to a selection of data.
+Midi Tools are a selection of processes or tools that let you make algorithmic changes to a selection of data.
 
 I expect certain basic functions, but even within these some DAWs have much more advanced functionality:
 
@@ -720,7 +720,7 @@ Sysex means 'System Exclusive'. It's a method of sending data that doesn't fall 
 
 Nrpn and Sysex are very valuable when working with hardware synthesizes and controllers.
 
-## Articulation Management
+## Articulations
 
 Some sample libraries use MIDI data to trigger switching between sets of samples that express different instrument articulations. Keyswitches are a common method of achieving this (and often used interchangeably with the concept of articulations). You can thing of this as real-time metadata that's included in the stream of performance data. Perhaps a simpler way of saying it is "MIDI that change how the instrument sounds".
 
@@ -748,13 +748,13 @@ I don't consider how well these programs compare to 3rd party options. These are
 
 # Live Performance
 
-## First Party Controller Support
+## 1st Party Controllers
 
 The availability and support for controllers developed by the company that made the DAW.
 
 This generally provides excellent integration with the software that is unavailable to third-parties.
 
-## Third Party Controller Support
+## 3rd Party Controllers
 
 Support for controllers made by companies that are not the DAW developer.
 

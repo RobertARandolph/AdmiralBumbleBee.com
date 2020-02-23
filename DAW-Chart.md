@@ -982,7 +982,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
         </category> 
-        <category name="Multitrack Audio Editing">
+        <category name="Grouped Audio Editing">
             <daw name="Reaper" rating="5"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
@@ -1134,7 +1134,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
-        <category name="MIDI Manipulation Tools">
+        <category name="MIDI Tools">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="Digital Performer" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
@@ -1209,7 +1209,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
         </category>
-        <category name="Articulation Management">
+        <category name="Articulations">
             <daw name="Reaper" rating="6" link="reaper-articulation-management"> </daw>
             <daw name="Digital Performer" rating="2"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
@@ -1258,7 +1258,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
 	</admdc>
         <admdc section="Live Performance" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
-        <category name="First Party Controller Support">
+        <category name="1st Party Controllers">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="Digital Performer" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
@@ -1273,7 +1273,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category> 
-        <category name="Third Party Controller Support">
+        <category name="3rd Party Controllers">
             <daw name="Reaper" rating="2"> </daw>
             <daw name="Digital Performer" rating="3"> </daw>
 			<daw name="Cubase" rating="4"> </daw>

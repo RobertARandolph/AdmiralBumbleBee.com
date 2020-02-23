@@ -17,6 +17,7 @@ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND 
 
 var AdmiralChart = (function() {
   var main_sections_array = {};
+  var first_colspan = 3;
 
   /*
 	 * main_sections_array ("section":section_categories)
@@ -147,13 +148,14 @@ var AdmiralChart = (function() {
     // Section and Name Row
     var tr = complete_totals.insertRow();
     td = tr.insertCell();
-    td.colSpan = daw_array.length + 1;
+    td.colSpan = daw_array.length + first_colspan;
     td.className = "complete_totals_title";
     td.innerHTML = "Combined Totals";
 
     var tr = complete_totals.insertRow();
 
-    tr.insertCell();
+    var tempCell = tr.insertCell();
+    tempCell.setAttribute("colspan", first_colspan);
 
     // Section Weighting cell
     for (j = 0; j < daw_array.length; j++) {
@@ -166,7 +168,8 @@ var AdmiralChart = (function() {
     var tr = complete_totals.insertRow();
     td = tr.insertCell();
     td.className = "total_name";
-    td.innerHTML = "Weighted Totals";
+    td.innerHTML = "Weighted";
+    td.setAttribute("colspan", first_colspan);
 
     // Totals Cells
     for (j = 0; j < daw_array.length; j++) {
@@ -186,7 +189,8 @@ var AdmiralChart = (function() {
     var tr = complete_totals.insertRow();
     td = tr.insertCell();
     td.className = "total_name";
-    td.innerHTML = "True Totals";
+    td.innerHTML = "True";
+    td.setAttribute("colspan", first_colspan);
 
     for (j = 0; j < daw_array.length; j++) {
       // unweighted Total
@@ -226,7 +230,7 @@ var AdmiralChart = (function() {
     // Name Row
     var tr = dc_section.insertRow();
     td = tr.insertCell();
-    td.colSpan = daw_array.length + 1;
+    td.colSpan = daw_array.length + first_colspan;
     td.className = "section_title";
     td.innerHTML = section_name.link(
       section_link + "#" + section_name.toLowerCase().replace(/ /g, "-")
@@ -244,7 +248,8 @@ var AdmiralChart = (function() {
     // Section Weighting cell
     var td = tr.insertCell();
     td.className = "section_weight";
-    td.innerHTML = "Weight %: ";
+    td.innerHTML = "Weight: ";
+    td.setAttribute("colspan", first_colspan);
     var input = document.createElement("input");
     input.id =
       "section_weight" + "_" + section_name.toLowerCase().replace(/ /g, "_");
@@ -271,6 +276,7 @@ var AdmiralChart = (function() {
       // Category name cell
       var td = tr.insertCell();
       td.className = "cat_box";
+      td.setAttribute("colspan", first_colspan);
       td.innerHTML = cat_name.link(
         section_link + "#" + cat_name.toLowerCase().replace(/ /g, "-")
       );
@@ -316,7 +322,8 @@ var AdmiralChart = (function() {
     var tr = dc_section.insertRow();
     td = tr.insertCell();
     td.className = "total_name";
-    td.innerHTML = "Weighted Totals";
+    td.innerHTML = "Weighted";
+    td.setAttribute("colspan", first_colspan);
 
     // Totals Cells
     for (j = 0; j < daw_array.length; j++) {
@@ -338,7 +345,8 @@ var AdmiralChart = (function() {
     var tr = dc_section.insertRow();
     td = tr.insertCell();
     td.className = "total_name";
-    td.innerHTML = "True Totals";
+    td.innerHTML = "True";
+    td.setAttribute("colspan", first_colspan);
 
     for (j = 0; j < daw_array.length; j++) {
       // unweighted Total
