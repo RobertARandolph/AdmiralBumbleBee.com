@@ -694,6 +694,7 @@
     -ms-user-select: none;
     user-select: none; 
     text-align: center;
+    z-index: 100; // stupid chrome.
 
     @include media-query($on-palm) {
         right: 5%;
