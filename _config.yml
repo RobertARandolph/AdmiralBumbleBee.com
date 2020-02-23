@@ -7,14 +7,14 @@
 
 # Site settings
 title: AdmiralBumbleBee.com
-email:
+email: audiolabs@gmail.com
 description: Things that you want which you can't find anywhere else
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.admiralbumblebee.com" # the base hostname & protocol for your site
 comments: true
 host: 0.0.0.0
 highlighter: rouge
-keep_files: ['assets', 'admc', 'admdc', 'admt']
+keep_files: ['assets']
 exclude: ['bundler_stubs', '.jekyll-cache']
 
 # Build settings

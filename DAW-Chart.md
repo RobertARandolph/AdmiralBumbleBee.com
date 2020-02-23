@@ -207,7 +207,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-     <admdc section="User dislikes dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"meta="meta">
+     <admdc section="User dislikes dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,Cakewalk,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         </category>
         <category name="No Dongle">
             <daw name="Reaper" rating="10"> </daw>
