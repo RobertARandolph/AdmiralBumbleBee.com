@@ -67,6 +67,8 @@ I use Logic for a major project every week, and I use Digital Performer for anot
 <div class="image-caption">Monitor Channel</div>
 {:/nomarkdown}
 
+**Available in [Ardour](https://ardour.org)**
+
 The graphic above is fairly self-explanatory. You have a variety of buttons and knobs to change your output, and I think most of these are self-explanatory, and [I've covered them before]({% post_url 2017-09-18-Mixbus-32c-The-Mixer %}#monitor-section).
 
 The important part here is that these are not part of your render chain.
