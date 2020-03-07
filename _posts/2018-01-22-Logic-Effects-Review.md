@@ -9,6 +9,9 @@ image: /assets/Logic/Effects/LogicEffects.png
 description: A review of all of the effects plugins included in Logic Pro X
 ---
 
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
+
 {::nomarkdown}
 <img src="/assets/Logic/Effects/LogicEffects.png" alt="Logic Effects that are good">
 <div class="image-caption">A selection of some awesome effects in Logic Pro X</div>

@@ -10,6 +10,9 @@ description: Reviews of every single instrument in FLStudio
 series: FLStudio
 ---
 
+
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
 {::nomarkdown}
 <img src="/assets/FLStudio/Instruments/FLInstruments.png" alt="FLStudio Instruments">
 <div class="image-caption">FLStudio Instruments</div>

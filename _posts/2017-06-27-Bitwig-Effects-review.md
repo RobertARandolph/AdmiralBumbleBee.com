@@ -8,6 +8,9 @@ tags: ['DAW', 'Bitwig']
 series: Bitwig
 ---
 
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
+
 {::nomarkdown}
   <img src="/assets/Bitwig/Effects/Effects.png" alt="Effects!">
   <div class="image-caption">Bitwig's effects...</div>

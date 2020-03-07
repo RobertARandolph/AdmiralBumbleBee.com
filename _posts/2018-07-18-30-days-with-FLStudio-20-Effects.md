@@ -10,6 +10,9 @@ description: A review of every single effect in FLStudio. All of them.
 series: FLStudio
 ---
 
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
+
 {::nomarkdown}
 <img src="/assets/FLStudio/Effects/EffectsOverview.png" alt="Effects!">
 <div class="image-caption">Effects!</div>

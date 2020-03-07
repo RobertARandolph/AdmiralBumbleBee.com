@@ -7,6 +7,11 @@ categories: programming
 tags: ['Programming', 'General']
 ---
 
+
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
+
+
 <admrb rating="20"> </admrb>
 <admrb rating="73"> </admrb>
 <admrb rating="58"> </admrb>

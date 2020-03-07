@@ -9,6 +9,9 @@ image: /assets/Mixbus/Plugins/Plugins.png
 description: Mixbus plugins review
 ---
 
+
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
 {::nomarkdown}
   <img src="/assets/Mixbus/Plugins/Plugins.png" alt="Plugins">
   <div class="image-caption">A small selection of plugins</div>

@@ -9,6 +9,11 @@ image: /assets/Mixbus/Plugins/Instruments.png
 description: Review of Instruments and Midi plugins in Mixbus.
 ---
 
+
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
+
+
 {::nomarkdown}
   <img src="/assets/Mixbus/Plugins/Instruments.png" alt="Instruments">
   <div class="image-caption">Instruments!</div>

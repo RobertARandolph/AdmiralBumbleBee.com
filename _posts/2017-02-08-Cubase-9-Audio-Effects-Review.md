@@ -7,6 +7,10 @@ categories: studio
 tags: ['DAW', 'Cubase']
 ---
 
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
+
+
 {: cSpell:words Cubase Cubase's Steinberg Quadrafuzz Velation Tranceformer SMPTE admrb DAWs djent AutoPan Bitcrusher Brickwall Melda Izotope truncates intersample behaviour Esser vintagecompressor desser envelopeshaper cloner detuned Voxengo wowie detuning deesser shouty Scaleable tanh essers Presswerk squeeks essing sidechain Fabfilter lookahead Grungelizer Metalizer Convertv Multiband Octaver Verence xclick sidechainable sidechaining JAZBTUJJ Contrapti Onents SSSKK glitcher janky Studer smashy Opini squishiness multibandcompressor goniometer clichéd Autotune Steinberg's downmixed fanboyism DAWs Sysex Aftertouch Flam Lfos esque Featurespt multibandenvelopeshaper Morphe Soundwise roomworks Timecode waveshaper monodelay ringmodulator farty frankenmonster epiphone Plexi fretboard faceplate ewww bandaid stompboxes beltone Godhack Redwirez /}
 
 ![Frequency](/assets/Cubase/Effects/Frequency.png)

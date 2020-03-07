@@ -10,6 +10,9 @@ description: A review of every instrument and effect that can come with Waveform
 series: waveform
 ---
 
+
+  <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>
+  <link rel="stylesheet" type="text/css" href="/admrb/admrb.css">
 {::nomarkdown}
 <img src="/assets/Waveform/PluginReview.png" alt="Plugin Review time">
 <div class="image-caption">Plugin reviews</div>
