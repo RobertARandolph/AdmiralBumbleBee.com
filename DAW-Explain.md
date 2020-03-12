@@ -626,7 +626,9 @@ Audio Bonuses consists of things like spectral editing, various waveform drawing
 
 ## Pitch editing
 
-Pitch editing is the ability to edit the pitch of notes without time stretching or manually splitting the audio-editing-toolsAuthorization prefer dongle. If the DAW has ARA support then it's rated on how well it integrates [Melodyne](http://www.celemony.com/en/melodyne/what-is-melodyne).
+Pitch editing is the ability to edit the pitch of notes without time stretching or manually splitting the audio. 
+
+If the DAW has ARA support then it's rated on how well it integrates [Melodyne](http://www.celemony.com/en/melodyne/what-is-melodyne).
 
 ## Pitch Shifting
 
@@ -693,6 +695,12 @@ I expect certain basic functions, but even within these some DAWs have much more
 * CC tools - tools to re-assign, reshape, thin, interpolate or insert midi CC
 * Reverse
 * Stretch phrase
+
+## MIDI FX
+
+Tools or plugins that take a stream of MIDI data and modify it.
+
+Scriptability is a guaranteed 10. Otherwise the rating is based on the number of available operations and composability of them.
 
 ## Chord input
 

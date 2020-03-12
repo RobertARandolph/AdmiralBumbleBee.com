@@ -502,7 +502,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="0"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="2"> </daw>
-			<daw name="Bitwig" rating="0"> </daw>
+			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
         </category>
         <category name="Marker Features">
@@ -1083,8 +1083,8 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="5"> </daw>
 			<daw name="Cakewalk" rating="9"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
-            <daw name="Live" rating="7"> </daw>
-			<daw name="Bitwig" rating="5"> </daw>
+            <daw name="Live" rating="5"> </daw>
+			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
         </category>
     </admdc>
@@ -1148,6 +1148,21 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
+        </category>
+        <category name="MIDI FX">
+            <daw name="Reaper" rating="10"> </daw>
+            <daw name="Digital Performer" rating="4"> </daw>
+			<daw name="Cubase" rating="6"> </daw>
+			<daw name="Waveform" rating="5"> </daw>
+            <daw name="Studio One" rating="5"> </daw>
+            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="Logic" rating="10"> </daw>
+            <daw name="Reason" rating="9"> </daw>
+			<daw name="Cakewalk" rating="4"> </daw>
+			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="Live" rating="6"> </daw>
+			<daw name="Bitwig" rating="7"> </daw>
+            <daw name="Mixbus" rating="10"> </daw>
         </category>
         <category name="Chord input">
             <daw name="Reaper" rating="6"> </daw>
@@ -1345,7 +1360,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="2"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="1"> </daw>
-			<daw name="Bitwig" rating="1"> </daw>
+			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
         </category> 
     </admdc>
@@ -1468,7 +1483,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Reason" rating="9"> </daw>
 			<daw name="Cakewalk" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="0"> </daw>
+            <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
@@ -1608,7 +1623,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cakewalk" rating="0"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
-			<daw name="Bitwig" rating="4"> </daw>
+			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
         </category>
         <category name="Third-Party Learning">

@@ -102,8 +102,6 @@ Parallel is rather neat.
 
 Most EQs work by taking a number of filters, then feeding the result of each filter into the next. For most things they use a serial connection
 
-
-
 * FF-FB
 * LC Asy
 
@@ -114,6 +112,10 @@ Most EQs work by taking a number of filters, then feeding the result of each fil
 ## f Lock
 
 ## Sort
+
+## Oversampling
+
+With oversampling _off_ SCEQ shows the actual low-pass filter response.
 
 ## Autogain
 
