@@ -181,8 +181,6 @@ There is the option of writing in a VM, but that's quite a complex workaround wh
 
 Right now... it just sucks. The work I could get done in 8 hours 3 years ago takes me 12-16 hours now, while still being only 8 billable hours.
 
-It would be a help if you shared this on social media, [hacker news](https://news.ycombinator.com), [reddit](https://www.reddit.com) or tell your buddy that works at Apple. I would be grateful for any effort to spread the message.
-
 # Meta
 
 This post took 9 hours to research, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
