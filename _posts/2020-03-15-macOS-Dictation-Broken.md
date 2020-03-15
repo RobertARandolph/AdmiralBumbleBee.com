@@ -20,7 +20,7 @@ macOS Catalina made accessibility worse for users that utilize their voice to ty
 
 I'm still 3 music-based articles behind, so I spent portions of this weekend putting together this article while I revisit [Prolog](https://en.wikipedia.org/wiki/Prolog). Not much I can do when the software I'm reviewing is broken or suddenly has a major updating looming.
 
-I really show write more how-tos I suppose. Anyway, on to the rant.
+I really should write more how-tos I suppose. Anyway, on to the rant.
 
 <!--more-->
 
