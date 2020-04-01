@@ -2205,12 +2205,6 @@ The mixbus channel strips can be zoomed, which is very useful. The entire displa
 
 I am not taking off points for the mac change since it an OS-level limitation.
 
-# SawStudio Notes
-
-## SAWStudio VST
-
-SAWstudio's VST rating reflects that it _only_ supports 32-bit VSTs currently.
-
 # Support Me!
 
 This post took 100s of hours (literally months of man hours) to research, program, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
