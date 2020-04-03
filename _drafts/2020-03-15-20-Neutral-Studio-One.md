@@ -98,14 +98,31 @@ Interesting concept, but currently no automation encapsulation.
 
 NO SEARCH??
 
-Has Scenes, some filtering options
+Has Scenes, some filtering options. 
 
-# 11 -  
-# 12 -  
-# 13 -  
-# 14 -  
-# 15 -  
-# 16 -  
+# 11 - Input Monitoring
+
+Faders invisible sometimes (small width)
+
+# 12 -  Plugin Thumbnails
+
+Rarely have useful images, no automatic scan, still a cool feature
+
+# 13 - Automation Selection
+
+Selecting parameters to automate is easy, but 
+
+# 14 -  Splitter
+
+
+# 15 - Macro Knobs
+
+Good - has scaling, 8 knobs, 8 buttons, XY
+Bad - Parameter Selection... why not use automation selection?
+
+# 16 - Layers
+
+Remove only one at a time, Viral (records with accidental loops, partial loops always present)
 # 17 -  
 # 18 -  
 # 19 -  
