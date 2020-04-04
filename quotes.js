@@ -18,6 +18,7 @@ window.addEventListener(
       "AdmiralBumbleBee - what a silly name, ain't it?",
       "I once read part of a Nassim Nicholas Taleb book, so you know I'm probably smart",
       "Klicken Sie hier, bitte.",
+      " I know my behavior can be... *erratic* sometimes.",
       "Smalltalk did it 40 years ago, dude",
       "1c-b(1). Like, if you're about to pitch and then don't pitch, you have to still pitch. You cannot not pitch. Does that make any sense?",
       "Now on Twitter and Youtube!",
@@ -61,7 +62,11 @@ window.addEventListener(
       "I dont even know what transitive means and ive watched all of rick and morty twice",
       "The point is there ain't no point.",
       "Well, that's all right. I laugh myself sometimes. Ain't a whole lot else you can do.",
-      "Never Rub Another Man's Rhubarb!"
+      "Never Rub Another Man's Rhubarb!",
+      "Checking the Deal of the Day Daily, every Day",
+      "You haven't been to my website?",
+      "Why are there copies of the style section all over the place, d-do you have a dog? A little chow or something?",
+      "F4, best by test"
     ];
     document.getElementById("wisdom").innerHTML =
       randomSayingsFor_fun[
