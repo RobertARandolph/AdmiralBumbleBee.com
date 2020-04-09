@@ -4,7 +4,9 @@
 
 var admt = (function () {
 
-    var themes = ['main', 'dark', 'white']
+    var themes = [{ "name": 'main', "color": "#faf7eb" },
+    { "name": 'dark', "color": "black" },
+    { "name": 'white', "color": "white" }];
     var default_theme = "{{ site.main_theme }}";
 
     // cookie functions shamelessly stolen from https://www.w3schools.com/js/js_cookies.asp
@@ -37,7 +39,14 @@ var admt = (function () {
         show_name = theme_name.charAt(0).toUpperCase() + theme_name.slice(1);
 
         var button = document.getElementById("theme_button");
-        
+
+        // clear current theme marker
+        for (var i = 0; i < themes.length; i++) {
+            document.getElementsByName("theme_" + themes[i].name)[0].classList.remove("current-theme");
+        }
+
+        document.getElementsByName("theme_" + theme_name)[0].classList.add("current-theme");
+
         if (button)
             button.innerHTML = show_name + " theme";
     }
@@ -55,6 +64,17 @@ var admt = (function () {
         document.getElementById("sidebar2").contentWindow.document.getElementById("mainstyle").href = "{{ '/css/" + theme_name + ".css' | prepend: site.baseurl }}";
     }
 
+    var fill_boxes = function () {
+        var color_container = document.getElementById("theme-color-boxes");
+        for (var i = 0; i < themes.length; i++) {
+            var box = document.createElement("span");
+            box.classList.add("theme-color-box");
+            box.setAttribute("name", "theme_" + themes[i].name);
+            box.style.backgroundColor = themes[i].color;
+            color_container.appendChild(box);
+        }
+    }
+
     return {
         write_css: function () {
             var saved_theme = get_cookie("theme");
@@ -65,19 +85,19 @@ var admt = (function () {
             } else if (saved_theme != default_theme) {
                 document.getElementById("mainstyle").href = "{{ '/css/" + saved_theme + ".css' | prepend: site.baseurl }}";
             }
-
+            fill_boxes();
             update_nav(saved_theme);
         },
 
         switch_theme: function () {
             var main_theme = get_cookie("theme");
 
-            var current_index = themes.findIndex((x) => x == main_theme);
+            var current_index = themes.findIndex((x) => x.name == main_theme);
 
             if (current_index == themes.length - 1) {
-                change_theme(themes[0]);
+                change_theme(themes[0].name);
             } else {
-                change_theme(themes[current_index + 1]);
+                change_theme(themes[current_index + 1].name);
             }
 
             // if (main_theme === "dark") {

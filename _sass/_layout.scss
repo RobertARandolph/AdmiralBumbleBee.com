@@ -362,6 +362,24 @@
             }
         }
     }
+
+    #theme-color-boxes {
+        display: inline-block;
+        border: 1px solid grey;
+        text-align: center;
+        height: 20px;
+    }
+    .theme-color-box {
+        display: inline-block;
+        margin: auto;
+        height: 20px;
+        width: 20px;
+    }
+    .current-theme {
+        -webkit-box-shadow:inset 0px -4px 0px 0px lightgreen;
+        -moz-box-shadow:inset 0px -4px 0px 0px ligntgreen;
+        box-shadow:inset 0px -4px 0px 0px lightgreen;
+    }
 }
 
 
