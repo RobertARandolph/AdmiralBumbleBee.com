@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Donate Now!
+title: Help us!?
 permalink: /DonateNow/
 ---
 
@@ -16,15 +16,25 @@ permalink: /DonateNow/
 
 And maybe you like the content too...
 
-# Spread the Word
+# How?
+
+## Spread the Word
 
 I don't advertise my content anywhere but on my twitter, and two discord servers where users ask me to.
 
 If you want to help the site out, one of the best things you can do is point people to articles that may help them. If I have an article that might be beneficial to someone, then let them know.
 
-# Donate
+## Feedback
 
-**THANK YOU!!**
+Email me (audiolabs, gmail) or leave a comment on an article.
+
+Any and all feedback is appreciate.
+
+## Discord
+
+Join the [discord chat server](https://discord.gg/34cFzVn) and chat with us.
+
+## Donate
 
 I appreciate your desire to donate. This helps me greatly in financing hosting costs, my time and the software/tools I use to create these posts. I put a lot of effort and money in to this project, so every penny counts.
 
