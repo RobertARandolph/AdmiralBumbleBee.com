@@ -4,6 +4,9 @@
 
 var admt = (function () {
 
+    var themes = ['main', 'dark', 'white']
+    var default_theme = "{{ site.main_theme }}";
+
     // cookie functions shamelessly stolen from https://www.w3schools.com/js/js_cookies.asp
     // I have no shame.
 
@@ -31,8 +34,7 @@ var admt = (function () {
     };
 
     var update_nav = function (theme_name) {
-        // This is intentionally backwards. If we're using the 'main' theme, we want the button to say 'Dark' to switch to.
-        show_name = ((theme_name === "main") ? "Dark" : "Light");
+        show_name = theme_name.charAt(0).toUpperCase() + theme_name.slice(1);
 
         var button = document.getElementById("theme_button");
         
@@ -58,9 +60,9 @@ var admt = (function () {
             var saved_theme = get_cookie("theme");
 
             if (!saved_theme) {
-                saved_theme = "main";
-                set_cookie("theme", "main", 1000)
-            } else if (saved_theme != "main") {
+                saved_theme = default_theme;
+                set_cookie("theme", default_theme, 1000)
+            } else if (saved_theme != default_theme) {
                 document.getElementById("mainstyle").href = "{{ '/css/" + saved_theme + ".css' | prepend: site.baseurl }}";
             }
 
@@ -70,11 +72,19 @@ var admt = (function () {
         switch_theme: function () {
             var main_theme = get_cookie("theme");
 
-            if (main_theme === "dark") {
-                change_theme("main");
-            } else if (main_theme === "main") {
-                change_theme("dark");
+            var current_index = themes.findIndex((x) => x == main_theme);
+
+            if (current_index == themes.length - 1) {
+                change_theme(themes[0]);
+            } else {
+                change_theme(themes[current_index + 1]);
             }
+
+            // if (main_theme === "dark") {
+            //     change_theme("main");
+            // } else if (main_theme === "main") {
+            //     change_theme("dark");
+            //}
         }
     };
 })();

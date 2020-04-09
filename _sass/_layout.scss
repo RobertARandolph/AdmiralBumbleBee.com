@@ -156,6 +156,7 @@
     border: 1px solid #eee;
     border-radius: 5px;
     clear: both;
+    margin-top: 5px;
 
     @include media-query($on-palm) {
         visibility: hidden;
@@ -174,6 +175,7 @@
     border: 1px solid #eee;
     border-radius: 5px;
     clear: both;
+    margin-top: 5px;
 
     @include media-query($on-palm) {
         visibility: hidden;

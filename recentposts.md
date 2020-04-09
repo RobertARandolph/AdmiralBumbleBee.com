@@ -5,7 +5,7 @@ permalink: recentposts.html
 
 <html>
 <head>
-  <link rel="stylesheet" id="mainstyle" href="{{ "/css/main.css" | prepend: site.baseurl }}">
+  <link rel="stylesheet" id="mainstyle" href="/css/{{ site.main_theme }}.css?v={{ site.time | date:'%s' }}">
   <script type="text/javascript" src="/admt/admt.js"> </script>
 </head>
 <body class="side-bar-body">

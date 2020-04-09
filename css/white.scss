@@ -6,7 +6,7 @@
 
 
 $text-color:       #111;
-$background-color: rgb(250, 247, 235); 
+$background-color: white; 
 $brand-color:      #2a7ae2;
 
 $grey-color:       #828282;
@@ -15,9 +15,9 @@ $grey-color-dark:  darken($grey-color, 25%);
 $gradient-light: rgb(245, 245, 245);
 $gradient-dark:  rgb(150, 150, 150);
 
-$container-background: #f9f8ee9f;
-$link-shadow: rgb(235,235,235);
-$sidebar-background:  #f9f8ee9f;
+$container-background: white;
+$link-shadow: none;
+$sidebar-background:  white;
 
 $h2-background-color: darken($container-background, 6%);
 $h3-background-color: darken($h2-background-color, 6%);
