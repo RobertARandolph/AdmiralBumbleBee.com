@@ -4,7 +4,9 @@
 
 var admt = (function () {
 
-    var themes = [{ "name": 'main', "color": "#faf7eb" },
+    var themes = [{ "name": 'main', "color": "#e8e3a0" },
+    { "name": 'blue', "color": "#66b8d4"},
+    { "name": 'red', "color": "#f57f7f"},
     { "name": 'dark', "color": "black" },
     { "name": 'white', "color": "white" }];
     var default_theme = "{{ site.main_theme }}";

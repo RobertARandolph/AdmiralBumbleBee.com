@@ -1,0 +1,36 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+
+
+
+$text-color:       #111;
+$background-color: darken(rgb(204, 169, 169), 5%); 
+$brand-color:      #2a7ae2;
+
+$grey-color:       #7c7b83;
+$grey-color-light: rgba(245, 245, 245, 0.466);
+$grey-color-dark:  darken($grey-color, 25%);
+$gradient-light: rgb(245, 245, 245);
+$gradient-dark:  rgb(150, 150, 150);
+
+$container-background: #f0b7b7;
+$link-shadow: rgba(233, 180, 180, 0.185);
+$sidebar-background:  #e9b0b0;
+
+$h2-background-color: darken($container-background, 6%);
+$h3-background-color: darken($h2-background-color, 6%);
+$h4-background-color: darken($h3-background-color, 6%);
+
+$highlighter-background: rgb(245, 245, 245);;
+$highlighter-color: black;
+
+
+// Import partials from `sass_dir` (defaults to `_sass`)
+@import
+        "common",
+        "base",
+        "layout",
+        "syntax-highlighting"
+;
