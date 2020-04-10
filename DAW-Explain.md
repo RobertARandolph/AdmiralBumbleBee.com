@@ -344,13 +344,33 @@ For this category, a marker is considered some sort of visual flag that coincide
 
 The rating is based on how many marker types there are, the availability of multiple marker tracks, the integration of selection/rendering features with markers, marker manipulation tools and markers integration with tempo features.
 
-## Arrangement Tools
+## Information Hiding
 
-Arrangement tools are things that allow you to make large project-wide changes to the arrangement
+Hiding tracks (and easily finding them!), folders, and other features that allow you to reduce visual clutter by removing elements from display when they do not need to be shown.
 
-* Tools that move all parts of a project together. 
-* Tools that let you change the chord/scale of an entire project at once.
-* Allowing you to embed projects within projects
+Folder tracks are the largest portion of the score, and single layer folders detract from the rating heavily.
+
+The ability to easily find and unhide information is also considered, but only worth 1-2 points.
+
+# Arranging
+
+Capabilities that allow multiple entities (project, sequence, many tracks, many notes or slices of time) to be changed in a musical context easily.
+
+## Time
+
+Tools that move chunks of time together to a new time.
+
+## Harmony
+
+Tools that allow you to make wide-reaching changes to the harmonic structure. "Chord tracks" or similar.
+
+## Sequencing
+
+The ability to have sequencable containers. "Projects within Projects"
+
+## Key
+
+Transposition, key-changing and (semi-)intelligent tooling to make changes to tonality.
 
 # Mixing
 
