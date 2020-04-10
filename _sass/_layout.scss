@@ -95,57 +95,6 @@
     margin-left: 5px;
 }
 
-
-.site-donate {
-    display: table;
-    font-size: 26px;
-    font-weight: 300;
-    top: 10px;
-    height: 35px;
-    letter-spacing: 3px;
-    text-align: center;
-    width: $right-side-bar-width;
-    position: relative;
-    float: right;
-    margin-right: 0px;;
-    margin-bottom: 5px;
-    color: $text-color;
-    padding-right: 15px;
-    padding-left: 15px;
-    //border: 1px solid rgb(195,195,195);
-    text-decoration: none;
-
-    @include media-query($on-palm) {
-        visibility: hidden;
-        width: 0%;
-        float: none;
-        display: none;
-    }
-
-    a {
-        text-decoration: none;
-        color: $text-color;
-        display: table-cell;
-        vertical-align: middle;
-        @include media-query($on-medium) {
-            font-size: 16px !important;
-        }
-
-    }
-
-    ::before {
-        content: "click here to";
-        display: block;
-        margin-bottom: -8px;
-        font-size: 14px;
-        font-variant: small-caps;
-        @include media-query($on-medium) {
-            display: none;
-            content: "";
-        }
-    }
-}
-
 .side-bar-box {
     width: $left-side-bar-width;
     position: absolute;
@@ -238,13 +187,18 @@
     padding-top: 3px;
     text-align: center;
 
+    #underbar-top {
+        display: block;
+        height: 2px;
+        background: linear-gradient(90deg, rgba(255,255,255,0) 0%, darken($grey-color-light, 10%) 30%, darken($grey-color-light, 10%) 70%, rgba(255,255,255,0) 100%);
+    }
+
     #underbar {
         display: block;
         position: sticky;
         position: -webkit-sticky;
         top: 28px;
         background: transparent;
-        border-top: 1px solid darken($grey-color-light, 10%);
         z-index: 1000;
         margin: auto;
         text-align: center;
