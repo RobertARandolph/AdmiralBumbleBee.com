@@ -459,7 +459,7 @@ Ambisonics may not be for everyone, but if you're in to it then you're ready to 
 
 
 {::nomarkdown}
-<video poster="/assets/Reaper/Scripts/Saike.png" controls muted preload="none">
+<video poster="/assets/Reaper/Scripts/Saike.jpg" controls muted preload="none">
 	<source src="/assets/Reaper/Scripts/Saike.mp4" type="video/mp4">
     Your browser does not support the video tag.
 </video>
@@ -469,6 +469,20 @@ Ambisonics may not be for everyone, but if you're in to it then you're ready to 
 There's so much here, and it's some of the most advanced JSFX you can find. "Tight Compressor" sounds pretty cool on drums, ReflectoSaurus is extremely fun. Filther is nuts.
 
 Same hardworking hands that brought you [Hackey Tracker](#hackey-tracker---thread).
+
+##  Wayback - [Thread](https://forum.cockos.com/showthread.php?t=233734)
+
+{::nomarkdown}
+<video poster="/assets/Reaper/Scripts/Wayback.png" controls muted preload="none">
+	<source src="/assets/Reaper/Scripts/Wayback.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="video-caption">Wayback</div>
+{:/nomarkdown}
+
+One of the coolest delay plugins _and_ live looping plugins out there. I can't think of anything which has similar functionality anywhere.
+
+If you're into complex delay-based sound design or looping of any sort - this is it. **THIS IS IT**.
 
 # Analysis
 
@@ -597,6 +611,17 @@ This script allows you to easily export things like item names, position, length
 
 The HTML export outputs a beautiful table of data for easy browsing. A really amazing tool for a number of workflows.
 
+## Import Session Data - [Thread](https://forum.cockos.com/showthread.php?t=233358)
+
+{::nomarkdown}
+<img src="/assets/Reaper/Scripts/ImportSession.png" alt="Import Session data">
+<div class="image-caption">Import Session data</div>
+{:/nomarkdown}
+
+Have some data in another project that you want in your current one? Markers? Tempo? Items? Tracks? **WHATEVER**?
+
+This is it. This is how you do it, and it helps make sure you don't make a mess of your current project by trying to match tracks/folders or duplicate other data unnecessarily.
+
 ## Advanced Tempo Tool - [Thread](https://forum.cockos.com/showthread.php?t=170987)
 
 {::nomarkdown}
@@ -675,6 +700,30 @@ Sexan's Track List script allows you to easily create, modify and save various e
 Have you wanted a visible FX list in REAPER along side your tracks?
 
 Done. Amazing. I love it!
+
+## Quick Adder - [Thread](https://forum.cockos.com/showthread.php?t=232928)
+
+{::nomarkdown}
+<video poster="/assets/Reaper/Scripts/QuickAdder.png" controls muted preload="none">
+	<source src="/assets/Reaper/Scripts/QuickAdder.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="video-caption">Quick Adder</div>
+{:/nomarkdown}
+
+Fast FX finder. Configurable, decent looking, fast.
+
+## Fast FX Finder - [Thread](https://forum.cockos.com/showthread.php?t=229807)
+
+{::nomarkdown}
+<video poster="/assets/Reaper/Scripts/FastFX.png" controls muted preload="none">
+	<source src="/assets/Reaper/Scripts/FastFX.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+<div class="video-caption">Fast FX Finder</div>
+{:/nomarkdown}
+
+Reaper's FX list is pretty ok, and you can launch it with a shortcut, but Fast FX Finder is _faster_ with a better search and it sorts by most recently used.
 
 ## Interactive Toolbar - [Thread](https://forum.cockos.com/showthread.php?t=203393)
 
