@@ -780,13 +780,10 @@ You can hide/show in the arrange view (TCP) or mixer (MCP). Once you're happy wi
 
 Awesome script. Setup your own quick show/hide of tracks and get on with being awesome in REAPER.
 
-## Reverse order of selected tracks
-
-
 
 # Donate!!
 
-This post took dozens of hours to research, screencap, write and edit, **but If you appreciate the information presented then please donate to the script authors!**
+This post took hundreds of hours to research, screencap, testing, write and edit, **but If you appreciate the information presented then please donate to the script authors!**
 
 These scripts can take hundreds of hours of a person's free time. Many of them are written simply because someone had a problem on the forum, or mentioned some lacking functionality. 
 
