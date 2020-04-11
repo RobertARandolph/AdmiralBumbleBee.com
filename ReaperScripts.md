@@ -723,7 +723,7 @@ Fast FX finder. Configurable, decent looking, fast.
 <div class="video-caption">Fast FX Finder</div>
 {:/nomarkdown}
 
-Reaper's FX list is pretty ok, and you can launch it with a shortcut, but Fast FX Finder is _faster_ with a better search and it sorts by most recently used.
+Reaper's FX list is pretty ok, and you can launch it with a shortcut, but Fast FX Finder is _faster_ with a better search and it sorts by most used.
 
 ## Interactive Toolbar - [Thread](https://forum.cockos.com/showthread.php?t=203393)
 
