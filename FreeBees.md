@@ -133,6 +133,9 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 
 * VST
     * [zynaddsubfx](http://zynaddsubfx.sourceforge.net) - not only the best free software synthesizer, but one of the best synthesizers available on the market _period_.
+    * [dexed](https://asb2m10.github.io/dexed/) - [Yamaha DX-7 emulation](https://en.wikipedia.org/wiki/Yamaha_DX7) and it does it well.
+    * [Helm](https://tytel.org/helm/) - this is simply the best free synthesizer on the market in my opinion. It is a must-have for any one that uses software synthesizers.
+
 * VST/LV2
     * [Ryukau plugins](https://github.com/ryukau/VSTPlugins/releases) - Enveloped Sine and Iterative SinCluster in particular are interesting.
 
@@ -274,8 +277,6 @@ These are plug-ins that you can acquire without needing to spend money.
 ## Modern Synthesis
 
 * VST
-    * [dexed](https://asb2m10.github.io/dexed/) - [Yamaha DX-7 emulation](https://en.wikipedia.org/wiki/Yamaha_DX7) and it does it well.
-    * [Helm](https://tytel.org/helm/) - this is simply the best free synthesizer on the market in my opinion. It is a must-have for any one that uses software synthesizers.
     * [Ribs](https://www.kvraudio.com/forum/viewtopic.php?t=486995) - granular synthesis gone wild, download it.
     * [Crystal](http://www.greenoak.com/crystal/Crystal/Crystal.html) - The classic free soft synth.
     * [Kairatune](http://futucraft.com/kairatune) - VA-like design but with a somewhat shinier sound. Surprisingly fun!
