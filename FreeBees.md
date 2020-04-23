@@ -139,6 +139,11 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 * VST/LV2
     * [Ryukau plugins](https://github.com/ryukau/VSTPlugins/releases) - Enveloped Sine and Iterative SinCluster in particular are interesting.
 
+## Sampler
+
+* VST/LV2
+    * [sfizz](https://sfz.tools/sfizz/) - [SFZ format](https://sfzformat.com) player, of which there [are many](https://www.laptopmusician.net/2019/06/the-ultimate-free-sfz-instruments-list.html).
+
 # Gratis
 
 These are plug-ins that you can acquire without needing to spend money.
