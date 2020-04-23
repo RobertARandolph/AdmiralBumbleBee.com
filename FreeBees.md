@@ -142,7 +142,7 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 ## Sampler
 
 * VST/LV2
-    * [sfizz](https://sfz.tools/sfizz/) - [SFZ format](https://sfzformat.com) player, of which there [are many](https://www.laptopmusician.net/2019/06/the-ultimate-free-sfz-instruments-list.html).
+    * [sfizz](https://sfz.tools/sfizz/) - [SFZ format](https://sfzformat.com) player, of which there [are many](https://www.kvraudio.com/forum/viewtopic.php?t=526555).
 
 # Gratis
 
