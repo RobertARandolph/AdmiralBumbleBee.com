@@ -150,7 +150,7 @@ These are plug-ins that you can acquire without needing to spend money.
 
 ## DAWs
 
-* [Tracktion 7](https://www.tracktion.com/products/t7-daw) - The _best_ gratis DAW.
+* [Waveform Free](https://www.tracktion.com/products/waveform-free) - The _best_ gratis DAW that isn't libre.
 * [Cakewalk](https://cakewalk.bandlab.com) - **WINDOWS ONLY** I have included this because it is a great product despite being Windows only.
 
 ## Software
