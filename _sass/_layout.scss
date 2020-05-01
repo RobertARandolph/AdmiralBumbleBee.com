@@ -732,3 +732,15 @@
         color: block;
     }
 }
+
+.index-post iframe {
+        @include media-query($on-palm) {
+            width: 90%;
+        }
+}
+
+.index-post .audiojs {
+        @include media-query($on-palm) {
+            width: 90%;
+        }
+}
