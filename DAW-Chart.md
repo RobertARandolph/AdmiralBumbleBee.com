@@ -512,7 +512,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="4"> </daw>
         </category>
     </admdc>
-    <admdc section="Mixing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Arranging" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Time">
             <daw name="Reaper" rating="2"> </daw>
             <daw name="Digital Performer" rating="0"> </daw>
