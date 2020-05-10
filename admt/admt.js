@@ -73,8 +73,14 @@ var admt = (function () {
             box.classList.add("theme-color-box");
             box.setAttribute("name", "theme_" + themes[i].name);
             box.style.backgroundColor = themes[i].color;
+            box.style.cursor = "pointer";
+            box.addEventListener("click", switch_to_theme);
             color_container.appendChild(box);
         }
+    }
+
+    var switch_to_theme = function (e) {
+        change_theme(e.target.getAttribute("name").substr(6)); // remove "theme_" from name
     }
 
     return {
