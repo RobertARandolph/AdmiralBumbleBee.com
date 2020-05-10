@@ -7,12 +7,9 @@ categories: general
 tags: ['General']
 image:
 description:
+header: /assets/General/UpdateBee.png
+header-caption: Update Bee
 ---
-
-{::nomarkdown}
-<img src="/assets/General/UpdateBee.png" alt="Update Bee">
-<div class="image-caption">Update Bee</div>
-{:/nomarkdown}
 
 This week I've updated some site features:
 

@@ -7,12 +7,9 @@ categories: music
 tags: ['Melda', 'Studio Tips', 'Tutorial']
 image: /assets/Melda/Five/MFreeFX.png
 description: Five cool things about Melda's Free FX Bundle.
+header: /assets/Melda/Five/MFreeFX.png
+header-caption: MFreeFX Bundle Madness
 ---
-
-{::nomarkdown}
-<img src="/assets/Melda/Five/MFreeFX.png" alt="MFreeFX Bundle Madness">
-<div class="image-caption">MFreeFX Bundle Madness</div>
-{:/nomarkdown}
 
 I've spent some time working on music projects lately and I've found some interesting capabilities of the [MFreeFX Bundle](https://www.meldaproduction.com/MFreeFXBundle) by Melda Production.
 

@@ -7,12 +7,9 @@ categories: music
 tags: ['Guitar', 'Review']
 image: "/assets/zguitar/Bumper.png" 
 description: Z Guitar Stand - the best guitar stand?
+header: /assets/zguitar/Bumper.png
+header-caption: the Z-Guitar Stand
 ---
-
-{::nomarkdown}
-<img src="/assets/zguitar/Bumper.png" alt="The Z-Guitar Stand">
-<div class="image-caption">The Z-Guitar Stand</div>
-{:/nomarkdown}
 
 This is a review about an otherwise mundane item. Let's start with some meta-info and click through for the rest of the review:
 

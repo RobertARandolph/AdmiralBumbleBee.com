@@ -7,12 +7,9 @@ categories: music
 tags: ['Ableton Live']
 image: /assets/Live/Hate1/Banner.png
 description: I can't handle Ableton Live sometimes... here's why
+header: /assets/Live/Hate1/Banner.png
+header-caption: 20 things I HATE about Ableton Live
 ---
-
-{::nomarkdown}
-<img src="/assets/Live/Hate1/Banner.png" alt="20 things I HATE about Ableton Live">
-<div class="image-caption">20 things I HATE about Ableton Live</div>
-{:/nomarkdown}
 
 I was going to release a different article this week, but instead I was doing some mixing work in [Ableton Live](https://www.ableton.com/en/) for [Gater](https://soundcloud.com/gateraudio) (a young teen that makes fairly interesting music).
 

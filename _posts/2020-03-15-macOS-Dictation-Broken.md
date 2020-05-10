@@ -7,12 +7,9 @@ categories: general
 tags: ['Rant']
 image: /assets/General/Voice/Banner.png
 description: macOS sucks lately.
+header: /assets/General/Voice/Banner.png
+header-caption: Voice Control
 ---
-
-{::nomarkdown}
-<img src="/assets/General/Voice/Banner.png" alt="Voice Control">
-<div class="image-caption">Voice Control</div>
-{:/nomarkdown}
 
 macOS Catalina made accessibility worse for users that utilize their voice to type. This is a multi-faceted issue, and I will walk you through my daily hell.
 

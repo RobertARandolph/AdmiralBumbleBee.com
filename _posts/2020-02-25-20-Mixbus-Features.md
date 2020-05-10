@@ -7,12 +7,9 @@ categories: music
 tags: ['Mixbus', 'DAW']
 image: /assets/Mixbus/20Wish/Mixbus20.png
 description: 20 features from Ardour and/or Mixbus that I wish EVERY DAW had.
+header: /assets/Mixbus/20Wish/Mixbus20.png
+header-caption: The banner thing, these are fun to make
 ---
-
-{::nomarkdown}
-<img src="/assets/Mixbus/20Wish/Mixbus20.png" alt="The banner thing, these are fun to make">
-<div class="image-caption">The banner thing, these are fun to make</div>
-{:/nomarkdown}
 
 With Mixbus 6 arriving on the scene, I decided I wanted to highlight some features that [Mixbus](https://harrisonconsoles.com/site/mixbus.html) has that I wish every DAW had.
 

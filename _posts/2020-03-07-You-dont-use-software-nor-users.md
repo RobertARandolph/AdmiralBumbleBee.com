@@ -7,12 +7,9 @@ categories: general
 tags: ['Programming', 'Rant', 'General']
 image: /assets/General/NoSoftware.png
 description: A rant about software.
+header: /assets/General/NoSoftware.png
+header-caption: Nobody uses software?
 ---
-
-{::nomarkdown}
-<img src="/assets/General/NoSoftware.png" alt="Nobody uses software?">
-<div class="image-caption">Nobody uses software?</div>
-{:/nomarkdown}
 
 Developing, testing, documenting and reviewing software has led me to one inescapable conclusion:
 
