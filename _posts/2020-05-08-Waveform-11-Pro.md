@@ -15,6 +15,8 @@ header-caption: Waveform 11 pro
 
 I'm going to cover their highlighted features, and I won't be holding back on the criticism.
 
+This review is _only valid for_ *Waveform 11.0.26**. The team is responsive to feedback and it's likely that some complaints/criticisms will be rendered invalid over time.
+
 **DISCLOSURE** - I was given this copy of W11 Pro for free for the purposes of review. If you feel that the review was improperly biased, please leave a comment.
 
 <!--more-->
@@ -44,7 +46,9 @@ There's a track that contains blocks. You can draw blocks, called arranger clips
 
 Once a clip is present, it acts as a persistent time selection. You can grab a clip and move it, and anything in that time selection, to another spot. If the arranger clip overlaps with another then you can replace the "to" clip, or swap it with the original position of the clip that you're dragging.
 
-The only thing potentially interesting about the base functionality is the "Swap" feature, but there's a bit more to it, and they _nearly_ got this right... but didn't hit the mark.
+This is a welcome feature for simple block-like arrangements. In that regard it's better than what's offered by at least half the DAWs with this feature.
+
+From a wider perspective, the only thing potentially interesting about the base functionality is the "Swap" feature, but there's a bit more to it, and they _nearly_ got this right... but didn't hit the mark.
 
 ## Could be better...
 
@@ -127,13 +131,15 @@ Waveform has a fairly simple GUI Layout, but there are workflows where sometimes
 
 Layouts allow you to save those views. Whatever you can setup in the [UI Manager](#ui-manager-updates) can be saved as a recallable view preset.
 
-This feature _works_, but it's a usability disaster. You can't assign layouts to a hotkey, and loading a layout requires navigating **THREE** to **FOUR** layers. Click on the layouts button, then go 2-3 (delayed) sub-menus down.
+This feature _works_, but it's a usability disaster. You can't assign layouts to a hotkey, and loading a layout requires navigating **THREE** to **FOUR** layers. Click on the layouts button, then go 1-3 (delayed) sub-menus down.
 
 In the time it takes to load a layout, I can use the UI Manager or [quick action bar](#quick-action-bar) to setup what I want.
 
 The recall isn't fab either. It doesn't remember the "popout" behaviour of some windows, it doesn't recall the positions of windows, and it doesn't recall the displays windows are on. 
 
 I spent an hour with this feature trying to figure out how to make it work for me. It was consistently a bigger hassle than manually setting up what I wanted quickly.
+
+Hotkeys, Allow [Quick Action Bar](#quick-action-bar) use, improve menu delays.
 
 # Quick Action Bar
 
@@ -175,7 +181,9 @@ Despite these flaws I believe it's one of the cooler features added. Moving to a
 
 I have nothing on this. It was marketed, but it either doesn't work for me or I don't understand it.
 
-The layouts function was constantly buggy for me when trying to use multiple displays, and using multiple displays on macOS with Waveform 10 was simple as-is.
+The layouts function was constantly buggy for me when trying to use multiple displays, some windows were recalled correctly and some were not. Changing my display layout made it go nuts (and I go between 1-4 displays all day long).
+
+Using multiple displays on macOS with Waveform 10 was simple as-is.
 
 # MIDI Tools
 
@@ -208,6 +216,8 @@ You'll soon learn that I complain a lot about notes getting hung... Arpeggiator 
 
 Cool stuff.
 
+[See notes about randomization](#notes-about-randomness)
+
 ## Note Repeater
 
 {::nomarkdown}
@@ -220,6 +230,8 @@ Note Repeater is effectively a sequenced MIDI delay. MIDI input is repeated acco
 It's great fun, however like the other new MIDI effects, it's easy to end up with hung notes when Note Off messages are lost.
 
 I do wish there was a simple echo function with length/decay parameters, but it's not terribly difficult to create a pattern that simulates the sound of an echo.
+
+[See notes about randomization](#notes-about-randomness)
 
 ## Chord Companion
 
@@ -234,7 +246,7 @@ Chord Companion is _easily_ the best "Chording" _plugin_ I've seen in a DAW. A s
     * The blue dots indicate which Pitch+Tonality is completely diatonic (consisting of _only_ notes present in the selected scale)
     * Problem #1 - It shows _pitches_ rather than numeric values. This isn't a big deal until you start to use the Follow host key function. An option to show roman numerals for chords would be a welcome improvement.
     * Problem #2 - If you assign a C key triggered pad to a C chord, switching the tonic at the top to D will make your C key trigger a D chord. This becomes confusing quick. This once again could be alleviated by displaying in terms of "C key triggers the tonic chord of the current key" (e.g. C = I).
-* **Top Panel** - The top panel lets you select tonic pitch class, and one of [the greek modes](https://en.wikipedia.org/wiki/Mode_(music), [harmonic minor](https://en.wikipedia.org/wiki/Minor_scale#Harmonic_minor_scale) or [melodic minor](https://en.wikipedia.org/wiki/Minor_scale#Melodic_minor_scale).
+* **Top Panel** - The top panel lets you select tonic pitch class, and one of [the greek modes](https://en.wikipedia.org/wiki/Mode_(music)), [harmonic minor](https://en.wikipedia.org/wiki/Minor_scale#Harmonic_minor_scale) or [melodic minor](https://en.wikipedia.org/wiki/Minor_scale#Melodic_minor_scale).
     * It does lack some other mildly common modes, but this is more than sufficient for pop, rock, edm and most basic jazz styles. It would be cool if there was a way to set a mode, add accidentals and potentially change the number of notes.
 * **Right Panel**
     * **Arp** - Simple arpeggiator. Parameters should be self-explanatory except the "Pattern". Pattern works like [the arpeggiator](#arpeggiator) where the number is velocity (1-10), and placement is a note trigger. New patterns can be created in [Arpeggiator](#arpeggiator) and utilized in Chord Companion (however you must re-open Chord Companion to see newly saved patterns).
@@ -242,7 +254,7 @@ Chord Companion is _easily_ the best "Chording" _plugin_ I've seen in a DAW. A s
     * **Repeat** - It repeats the chord at a given interval (clock) using a pattern. New patterns can be made (then saved) in [Note Repeater](#note-repeater) then used in Chord Companion (cool! however you must re-open Chord Companion to see newly saved patterns).
     * **Random** - A randomizer that can control the parameters/position of either/both the Arp and Repeat sections.
 * **Bottom Panel**
-    * **A/B/C/D** - 4 layouts of the center 16 pads. Note - No two pads can correspond to the same key, even across pad layouts.
+    * **A/B/C/D** - 4 layouts of the center 16 pads. Note - No two pads can correspond to the same note, even across pad layouts (A/B/C/D).
     * **MIDI Icon** - This starts at the first pad and assigns the pad's trigger MIDI Note to the input. After assigning the pad it blinks a few times and automatically waits for input for the next pad. The "current" pad in this mode can be set with a click.
     * **Mixer Icon** (????) - This allows you to save/recall pad layouts. No idea why it's the icon used elsewhere to indicate "Mixer".
     * **Follow host key** - This is a perplexing option. Waveform supports key changes in the tempo track, so this will automatically change the tonic relative to _all chords_. Since the current key depends on the tempo track, the chord companion will change _depending on where your play cursor is_ if you have key changes! This confused me for 30 minutes when I was trying to work out an idea and the pitches were all wrong... I had accidentally clicked the wrong part of the timeline. (Alternative: turn off "Follow host key" when you want to freely experiment).
@@ -257,6 +269,8 @@ Chord Companion is _easily_ the best "Chording" _plugin_ I've seen in a DAW. A s
 The lack of roman numerals is an issue, but it's a minor one for basic use. Having to restart the plugin to see new patterns is annoying. Lack of visualization for random parameters is confusing (and is it deterministic or not?). A limited selection of modes drives me batty. Dragging a chord will _trigger_ the chord, sometimes blasting your ears (velocity 102 by default, unchangeable) when you just want to adjust your pads. **EVERYTHING IS IN SHARPS**, for the love of all that's good, I don't understand why companies do this!!!! **A#** - what is this even. WHAT WHY HOW. I know you guys aren't this dumb, ugh.
 
 After taking a walk and cooling down (A#... c'mon), I must say that this is a great addition. With a few _small_ changes it could be incredible. For the average musician many of these complaints won't even be noticed.
+
+[See notes about randomization](#notes-about-randomness)
 
 ## MIDI Monitor
 
@@ -308,6 +322,21 @@ How they could improve it:
 
 I think you know my opinion here.
 
+## Notes about Randomness
+
+{::nomarkdown}
+<img src="/assets/Waveform/11/Random.png" alt="Randomness">
+<div class="image-caption">Randomness</div>
+{:/nomarkdown}
+
+The random parameters have one glaring issue: They are non-deterministic.
+
+The [seed](https://en.wikipedia.org/wiki/Random_seed) used is not user controllable, recallable or repeatable.
+
+If you come upon a randomization that sounds awesome, then you better have been recording it.
+
+A common solution to this is to not randomize the parameters, but to explicitly generate the parameters from a _visible and settable_ seed value. The _seed can be randomized_. The result is that each playback is identical, but you can randomize how the generation occurs.
+
 # Plugin Sandboxing
 
 {::nomarkdown}
@@ -331,7 +360,7 @@ I understand the benefit here is that Waveform supposedly won't crash from an er
 
 The icing on the cake is that I had Waveform crash _more times with sandboxing on than with it off_, and it caused some plugins to crash more frequently.
 
-Sandboxing is a feature that every DAW needs, and this is listed as a _Beta_ feature. The indication that it might be improved is re-assuring, but there is a lot of work to do.
+Sandboxing is a feature that every DAW needs, and this is listed as a _Beta_ feature. Beta _usually_ implies that it will be improved, and I'm looking forward to when they get this down.
 
 ## Crash Reporting
 
@@ -355,7 +384,7 @@ The usefulness of this feature depends on how much time the devs spend utilizing
 <div class="image-caption">Audio Follows Chord Track</div>
 {:/nomarkdown}
 
-Don't get _too_ excited, it's monophonic and _dumb_.
+Don't get _too_ excited, it's monophonic and simple.
 
 The idea here is that you use Waveform's (pretty decent) Chord Track to map out your track. Assuming you have a bunch of MIDI in the project and you want your audio and MIDI to change when you change your chord progression, you'd use this...
 
@@ -363,13 +392,17 @@ Except it doesn't work that way. The Chord Track [only controls MIDI pattern gen
 
 The audio version of "Follow Chord Track" is similarly weird and limited. 
 
-I recorded the notes C then E monophonically and repeated. Then I set the clip to follow the chord track and had the chord track alternate between I and ii. I is C major (C-E-G), and ii is D Minor (D F A). The expectation is that the chord track would recognize that the C->E should be transposed to D->F on the ii chord. _It doesn't do that_. It transposed it to D->F#, a D Major chord.
+I recorded the notes C then E monophonically and repeated. Then I set the clip to follow the chord track and had the chord track alternate between I and ii. I is C major (C-E-G), and ii is D Minor (D F A). The expectation is that the chord track would recognize that the C->E (major third, for the I) should be transposed to D->F (minor third) on the ii chord. _It doesn't do that_. It transposed it to D->F#, a major interval.
 
 It correctly recognized the full step transition of the chord, but did not detect the tonality.
 
 Setting the chord track to I->i (C major to C Minor) didn't change the pitch of the audio at all. It should have adjusted the audio to C->E and C->E♭.
 
-The feature is a simple pitch shift. It detects the interval between the roots of the chords in the chord track, then naively shifts the _entire_ audio for that section by the distance.
+The feature is a simple pitch shift. The process is:
+
+* Detect the interval between the roots of the chords in the chord track.
+* Naively shifts the _entire_ audio for that section by that interval. 
+* Continue shifting the audio for the duration of the chord block for the duration of that chord block.
 
 This _does not_ "Follow Chord Track". It follows the distances between roots of the chords in the chord track.
 
@@ -384,11 +417,11 @@ Implementing this feature in a manner that's useful is quite the undertaking. I 
 <div class="image-caption">New Plugins</div>
 {:/nomarkdown}
 
-Waveform 11 Pro comes with 100+ new plugins. Apparently they're all [Air Windows](https://www.airwindows.com).
+Waveform 11 Pro comes with 100+ new plugins. Apparently they're all [Air Windows](https://www.airwindows.com) (maybe? I didn't check all of them).
 
 I tried about 2 dozen of them and I was not even remotely impressed. The names are confusing. The parameters are confusing. There's subtle duplicates of a variety of types of effects. Their interaction with modulation was often poor.
 
-I suppose this integration with Air Windows is just to beef up the marketing hype ("Now with a gazillion effects!"), but it's not much. Yes, you can probably find a few that are useful, but the time necessary to weed through what's there is enormous. The tradeoff might be good for users high on time and low on funding, but there's [a lot of free plugins](/FreeBees.html) that are fantastic and well designed.
+I suppose this integration with Air Windows is just to beef up the marketing hype ("Now with a gazillion effects!"), but it's not much. Yes, you can probably find a few that are useful, however the time necessary to weed through what's there is enormous. The tradeoff might be good for users that are high on time and low on funding, but there's [a lot of free plugins](/FreeBees.html) that are fantastic and well designed.
 
 Ultra Meh.
 
@@ -403,7 +436,7 @@ Waveform 11 Pro did not ship with an updated manual. **EXTREMELY ANNOYING**.
 <div class="image-caption">Purchasing</div>
 {:/nomarkdown}
 
-Trying to _buy_ Waveform is a frustrating experience. It's at least 3 clicks, wading through a frustrating sub-menu (or clicking a thing that doesn't look like you can click it), scrolling past a media-heavy page to find a difficult to read "Pricing" button (or find one of the other hidden "Pricing" buttons instead of **BUY**)...
+Trying to _buy_ Waveform is a frustrating experience. It's either 3 clicks, wading through a frustrating sub-menu, or clicking a thing that doesn't look like you can click it. Then sccrolling past a media-heavy page to find a difficult to read "Pricing" button, or find one of the other hidden "Pricing" buttons instead of **BUY**...
 
 Then you have 3 bundles. Now you have to browse through the included products to see which bundle is worth it (or create your own).
 
@@ -423,7 +456,11 @@ Let's try a "Custom Bundle". You get taken to a different site (the "store") whe
 
 I was given a copy of W11 Pro for review, and **if I feel like I enjoy the product I always purchase it normally**. I was split on the value of W11, but the store irritated me so much that I decided it's not worth using Waveform 11 as it would require using this awful store.
 
+[Don't even get me started on the rest of the website.](https://www.kvraudio.com/forum/viewtopic.php?f=22&t=460989). They've somehow made it _worse_ over time. Their marketing game is fantastic, but they let usability fall far by the wayside.
+
 # Conclusion
+
+This review is _only valid for_ *Waveform 11.0.26**. The team is responsive to feedback and it's likely that some complaints/criticisms will be rendered invalid over time.
 
 Waveform 11 has some cool additions, and some rather strange additions that seem half-baked.
 
@@ -437,9 +474,11 @@ If there is a similar improvement over time then W11 Pro is absolutely worth it.
 
 I really do wish they'd do less, and do it better. This is the 3rd version that feels like they thought of some cool ideas then rushed to get basic implementations ready to make headlines for NAMM, then release a month later.
 
-Take any 2 major features here. If they were _fully_ fleshed out to the level of, or exceeding the competition, then the update would be incredible.
+Take any 2 major features here. If they were _fully_ fleshed out to the level of, or exceeding the competition, then the update would be incredible. They fleshed things out somewhat with W10, hopefully it happens again.
 
-If you're new to Waveform this is **ABSOLUTELY WORTH LOOKING AT**. Waveform is an incredible product on many levels for the majority of music production workflows.
+If you're new to Waveform this is absolutely worth checking out (unless you do heavy MIDI or scoring work). Waveform is an incredible product on many levels for the majority of music production workflows.
+
+If you're a current Waveform user, then you may wish to spend some time with the demo.
 
 # Meta
 
