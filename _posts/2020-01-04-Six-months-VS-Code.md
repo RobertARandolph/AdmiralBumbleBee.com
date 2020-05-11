@@ -233,7 +233,7 @@ I've considered [Mitsuharu's Emacs](https://bitbucket.org/mituharu/emacs-mac/src
 <div class="image-caption">VS Code Terminal.</div>
 {:/nomarkdown}
 
-Emacs does not have a proper terminal. [There are some objective reasons](https://blog.aaronbieber.com/2016/12/29/don-t-use-terminal-emacs.html) and reasons that you can only comprehend if you actually try to use it term-mode, shell-mode, or eshell. No matter what you pick, there's little rats scurrying around in your editor just waiting to cross your feet when you least expect it.
+Emacs does not have a proper terminal. There are some objective reasons and reasons that you can only comprehend if you actually try to use it term-mode, shell-mode, or eshell. No matter what you pick, there's little rats scurrying around in your editor just waiting to cross your feet when you least expect it.
 
 VS Code _does_ have an [integrated terminal](https://code.visualstudio.com/docs/editor/integrated-terminal) that works exactly as you'd expect. There's no dark corners, rats or the subsequent [hantavirus](https://en.wikipedia.org/wiki/Orthohantavirus) waiting to suck 4 hours out of your day because `rvm` only worked in your normal terminal, but not your editor terminal. (I'm not bitter, I promise).
 
