@@ -202,12 +202,12 @@ Mixbus 32c's phase response is quite accurate to the analog EQ with very little 
 
 Let's take a short break here to clear something up. There are 2 ways to approach replicating an analog device in the digital world:
 
-* Emulation - Emulation is when you replicate the _behaviour_ of the device without concern for how individual components work, only the result of sections of components, or the whole result.
-* Modeling (simulation) - Modeling is attempting to simulate each component's input and output, then assemble these similar to how the analog device is emulated.
+* Modeling (Simulation) - Modeling is when you replicate the _behaviour_ of the device without concern for how individual components work, only the result of sections of components, or the whole result.
+* Emulation  - Emulation is attempting to simulate each component's input and output, then assemble these similar to how the analog device is emulated.
 
-Mixbus 32c, despite some of the marketing claims otherwise, is a **Digital Model** of the 32c channel strip. The designers of Mixbus 32c's channel had the goal of creating the original 32c console's designer's intentions when designing the EQ. Each component in the original was not simulated and combined to create a whole... that is extremely computationally expensive and impractical.
+Mixbus 32c, despite some of the marketing claims otherwise, is a **Digital Emulation** of the 32c channel strip. The designers of Mixbus 32c's channel had the goal of creating the original 32c console's designer's intentions when designing the EQ. Each component in the original was not simulated and combined to create a whole... that is extremely computationally expensive and impractical.
 
-The original designers of the 32c tried their best to avoid saturation, noise, crosstalk and other analog annoyances. The goal of the Mixbus 32c developers was to _model_ the design goals of the original 32c channel. To this end it is a success.
+The original designers of the 32c tried their best to avoid saturation, noise, crosstalk and other analog annoyances. The goal of the Mixbus 32c developers was to _emulate_ the design goals of the original 32c channel. To this end it is a success.
 
 However one does have to wonder if some of those unavoidable analog side-effects were part of the charm of the original? I guess you can always add your own noise and saturation if you want ;)
 
