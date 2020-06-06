@@ -227,14 +227,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Initial Cost">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Waveform" rating="8"> </daw>
             <daw name="DP" rating="1"> </daw>
             <daw name="Cubase" rating="0"> </daw>
-            <daw name="S1" rating="3"> </daw>
-            <daw name="PT" rating="0"> </daw>
+            <daw name="Waveform" rating="8"> </daw>
+            <daw name="Studio One" rating="3"> </daw>
+            <daw name="Pro Tools" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="3"> </daw>
-            <daw name="FL" rating="7"> </daw>
+            <daw name="FLStudio" rating="7"> </daw>
             <daw name="Live" rating="2"> </daw>
             <daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="9" link="mixbus-authorization"> </daw>
