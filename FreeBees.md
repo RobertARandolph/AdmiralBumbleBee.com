@@ -129,6 +129,9 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 * LV2
     * [setBFree](https://x42-plugins.com/x42/setBfree) - "Analog" I suppose. Beautiful [Hammond B3](https://en.wikipedia.org/wiki/Hammond_organ) emulation. You'd be hard pressed to find better options, though you may find products with a better GUI
 
+* VST
+    * [Surge](https://surge-synthesizer.github.io) - Easily the best open source synth on the market if you are looking for GUI-based options.
+
 ## Modern Synthesis
 
 * VST
