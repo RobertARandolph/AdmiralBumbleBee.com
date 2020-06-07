@@ -129,6 +129,8 @@ When in the shelf-move the EQ does not cramp, only when bell is used.
 
 Edit (October 26th, 2017) - Currently I'm still investigating the 'cramping' issue with the EQ. Harrison has been very accommodating and informative regarding this issue. I've received convincing evidence that the the EQ performs as expected, which goes against my own testing. So at this point I am assuming there is a bug that needs to be tracked down, since I can still replicate that behaviour.
 
+**EDIT** (June 7, 2020) - See [this article]({% post_url 2020-06-03-PSP-InfiniStrip-Review %}) for another view.
+
 ### High and low pass
 
 {::nomarkdown}
@@ -306,6 +308,8 @@ So this means that if you have the tape saturation knob at 0.0, then everything 
 You can also see that harmonic reflect off the nyquist frequency and move left as the input signal continues to move to the right. Both peaks should be moving together to the right, when one of them begins to diverse and move towards the left; **This is aliasing**. The effect is much less pronounced at higher sample rates.
 
 I do wish to make clear that the aliasing is **not the _fault_ of the developers**. I doubt that many users would want every single mixbus to be oversampled enough to handle that. It would require a ridiculous amount of CPU processing to handle that. I do think that if you use the tape saturation then it's reasonable to suggest running your sessions at 96khz+.
+
+**EDIT** (June 7, 2020) - See [this article]({% post_url 2020-06-03-PSP-InfiniStrip-Review %}) for another view.
 
 # Master
 
