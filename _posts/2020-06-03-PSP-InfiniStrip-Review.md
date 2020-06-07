@@ -63,7 +63,7 @@ It does pay off to know these deficiencies or caveats so that you can work aroun
 
 **If InfiniStsrip claimed to be a circuit model or emulation of a specific hardware product, then aliasing and filter cramping would be not only false advertising, but a sizeable detraction from the total review "score".**
 
-IfiniStrip does not claim to emulate or model any product. It's an original creation. Within that context the question becomes, "How audible is the aliasing and cramping"?
+InfiniStrip does not claim to emulate or model any product. It's an original creation. Within that context the question becomes, "How audible is the aliasing and cramping"?
 
 ## Aliasing Part 1
 
