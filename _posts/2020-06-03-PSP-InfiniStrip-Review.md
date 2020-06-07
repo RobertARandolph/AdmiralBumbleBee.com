@@ -19,6 +19,8 @@ _**READ ME**_
 **WARNING** This posts loads 45mb of media **WARNING**
 _**READ ME**_
 
+**DISCLOSURE** - PSP kindly provided this product to me for free as an NFR for review. If you believe this has biased this article, then I encourage you to call it out in the comments.
+
 <!--more-->
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
@@ -325,6 +327,8 @@ Accurate information interpreted correctly and applied to the right scenario is 
 
 
 # Meta
+
+If you feel this article was unfair in some way, please let me know!
 
 This post took 37 hours to research, write, program, test and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
 
