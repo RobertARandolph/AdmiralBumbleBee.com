@@ -1,11 +1,11 @@
 ---
 layout: post
-title: PSP InfiniStrip Review
+title: PSP InfiniStrip Review - Part 1
 comments: true
 date:   2020-06-03_14:10:00 
 categories: music
 tags: ['Review']
-image:
+image: /assets/InfiniStrip/Banner1.png
 description: Review of PSP's InfiniStrip
 header: /assets/InfiniStrip/Banner1.png
 header-caption: InfiniStrip Controversy...
