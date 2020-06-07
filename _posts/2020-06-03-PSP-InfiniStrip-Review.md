@@ -13,7 +13,7 @@ header-caption: InfiniStrip Controversy...
 
 I've been working with this plugin for about 7 weeks, foiled twice by circumstances while trying to get this review out.
 
-Wait no more. With part 1 of this review, I'll be reviewing some of the controversy surround it and other plugins.
+Wait no more. With part 1 of this review, I'll be reviewing some of the controversy surrounding it and other plugins.
 
 _**READ ME**_
 **WARNING** This posts loads 45mb of media **WARNING**
