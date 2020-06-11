@@ -15,6 +15,8 @@ series: Cakewalk
 <div class="image-caption">Cakewalk... in action</div>
 {:/nomarkdown}
 
+**READ** - This Review is _out of date_. I do not suggest viewing it as anything more than a historical artifact. Please [check the comments](#comment-4949239650) for potential corrections and criticisms.
+
 Ok, you should know by now that I [dislike Windows]({% post_url 2018-12-15-Why-I-hate-Windows %}). As such I decided to get this all out of the way as fast as possible.
 
 So what follows is my thoughts on _nearly_ every aspect of Cakewalk. I intentionally left out some parts that I didn't think warrant mention, and I'm certain I missed a few things.
@@ -26,6 +28,8 @@ There's some things [shaking up at Bandlab](https://discuss.cakewalk.com/), so t
 [The DAW Chart is updated with Cakewalk as well](/DAW-Chart.html). As of publishing this, I don't even know what the final score is (that's calculated client side). I avoid looking so I don't subconsciously try to smidge an overall rating ahead of another DAW.
 
 Without further ado let's hop into it.
+
+**READ** - This Review is _out of date_. I do not suggest viewing it as anything more than a historical artifact. Please [check the comments](#comment-4949239650) for potential corrections and criticisms.
 
 **Other posts in this series**:
 
