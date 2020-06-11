@@ -209,20 +209,6 @@ There's other considerations like:
 * Undo consistency - If you undo/redo multiple times, does the project return to the exact same state?
 * Third-party product undo - Can you undo third-party products changes?
 
-## Manual
-
-I am a proponent of good technical writing.
-
-* Clear descriptions of functionality - This includes technical details and design rationalizations.
-* Examples _along side_ explanations of functionality - Manuals that use examples in lieu of technical elaboration are infuriating.
-* Ease of finding information
-    * How easy is it to jump from software->information. Some programs have amazing tooltips or let you press a button to jump to a contextually related section in a manual
-    * Does the product lay out the terminology it uses? Does it use common terminology?
-    * Do hyperlinks work?
-    * Is there an index and a table of contents?
-* Proximity of information -  Is the information on a specific function located in a single place, or is it scattered throughout the document?
-* Grammar.
-
 ## Metering
 
 Metering is support for various metering standards like [LUFS](https://en.wikipedia.org/wiki/LKFS), [K-system](https://en.wikipedia.org/wiki/K-system)or [VU](https://en.wikipedia.org/wiki/VU_meter). There are many other standards.
@@ -382,18 +368,6 @@ If you've never used VCAs before then you probably think that you can live witho
 
 They are very useful and make mixing complex projects a breeze. No DAW should be without them.
 
-# Modularity
-
-## Modularity
-
-The ability to link primitive devices to other primitive devices.
-
-5 points are assigned for the non-linear routing of processing devices. 
-
-5 points are assigned for the ability to process metadata or parameter change data (modulation).
-
-A fully modular (10/10) system would have no distinction between audio and parameter change data, along with providing a selection of meta-devices to work with data in a generic manner.
-
 ## PDC
 
 Some plug-ins and processes require extra samples to do their work. This causes a delay before the output is heard.
@@ -454,6 +428,18 @@ Freeze features considered are: selecting point of freeze, aux freezing, audio/i
 Some DAWs have a second stage channel after the master channel that allows you to manage your monitoring environment without affecting the processes on the Master channel that would be rendered through.
 
 The monitors section consideration does _not_ consider if a DAW can simply add a buss after the master channel or alternate routing. This category is specifically for an integrated monitor section solution.
+
+# Modularity
+
+## Modularity
+
+The ability to link primitive devices to other primitive devices.
+
+5 points are assigned for the non-linear routing of processing devices. 
+
+5 points are assigned for the ability to process metadata or parameter change data (modulation).
+
+A fully modular (10/10) system would have no distinction between audio and parameter change data, along with providing a selection of meta-devices to work with data in a generic manner.
 
 # Included content
 
@@ -903,6 +889,20 @@ A DAW with pretty, but long, animations will score poorly against a DAW that all
 Another way of looking at this: the ability of a UI to present new information without instantly removing large amounts of information.
 
 # Learning
+
+## Manual
+
+I am a proponent of good technical writing.
+
+* Clear descriptions of functionality - This includes technical details and design rationalizations.
+* Examples _along side_ explanations of functionality - Manuals that use examples in lieu of technical elaboration are infuriating.
+* Ease of finding information
+    * How easy is it to jump from software->information. Some programs have amazing tooltips or let you press a button to jump to a contextually related section in a manual
+    * Does the product lay out the terminology it uses? Does it use common terminology?
+    * Do hyperlinks work?
+    * Is there an index and a table of contents?
+* Proximity of information -  Is the information on a specific function located in a single place, or is it scattered throughout the document?
+* Grammar.
 
 ## First-Party Learning
 
