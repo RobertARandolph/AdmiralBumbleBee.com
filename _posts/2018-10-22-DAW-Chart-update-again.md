@@ -4,7 +4,7 @@ title: DAW Chart update again
 comments: true
 date:   2018-10-22_17:11:20 
 categories: music
-tags: ['DAW Chart']
+tags: ['DAW Chart', 'Updates']
 image:
 description: DAW chart update
 ---

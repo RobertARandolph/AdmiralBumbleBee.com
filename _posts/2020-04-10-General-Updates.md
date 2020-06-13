@@ -4,7 +4,7 @@ title: General Updates
 comments: true
 date:   2020-04-10_10:14:21 
 categories: general
-tags: ['General']
+tags: ['Updates', 'DAW Chart']
 image:
 description:
 header: /assets/General/UpdateBee.png

@@ -265,6 +265,115 @@ For this rating I _only_ consider the native options or officially endorsed cont
 
 The ease of creating or editing controllers is also considered.
 
+# Ease of Use
+
+These categories are difficult to create objective ratings for. I've attempted to come up with categories that can be evaluated by simple counting of some form.
+
+All of these categories will naturally favour products with fewer features, since it is much easier to design an easy-to-use product with a fantastic out of the box experience if it has limited functionality.
+
+**THESE ARE NOT RATINGS OF FUNCTIONALITY**, but instead ratings of the effort necessary to access the functionality existing in the product. Assume that the product has the functionality that you need, how difficult _might_ it be to access it?
+
+I urge the reader to mentally weigh these ratings against the rated functionality in other categories.
+
+## UI Consistency
+
+Assume an abstract concept such as "Move a thing", how consistent is the software for that abstract concept.
+
+A concrete example would be if the DAW always uses the same modifier key for "fine tune" in various contexts.
+
+Major things considered in this section:
+* Scrolling
+* Zooming
+* Move thing
+* Fine Tune thing
+* Hotkey Associations - correlation between hotkey and a functionally related word/concept in english
+* Hotkey Consistency - e.g. given the hotkey `k`, is K overloaded for multiple meanings in the same context or across contexts.
+* GUI Consistency
+
+DAWs with less functionality may score higher in this category. Designing an application with a lot of functionality may result in overlapping interfaces, while having fewer features will allow for more consistency with less developer effort.
+
+## Immediacy
+
+How easy is it to do the following extremely common tasks assuming one hand on the mouse, and one hand on the keyboard:
+
+* Add a MIDI Note
+* Add a Clip (if applicable)
+* Add a track
+* Delete a thing
+* Routing a track to some destination
+
+I believe these are the 5 most common tasks in a DAW. The summed effort of these tasks over time likely outweighs the time gained by any number of features on this list.
+
+The ratings will be weighted to distribute towards the extremes.
+
+## OOTB Audio
+
+Given a generic workflow consisting of the following simple processes, how much configuration is the user likely to encounter:
+
+* Record audio.
+* Import audio.
+* Editing the resulting audio.
+    * Length Edits
+    * Stretching
+    * Fades/Crossfades
+    * Multi-Item/Track Editing
+* Loop record takes, and comp the takes.
+* Export audio to a variety of formats.
+
+Almost every application can accomplish these tasks with _zero_ configuration. This rating is my judgement (based on talking to tens of thousands of DAW users, and my own experience) and how much configuration the user is _likely_ to encounter.
+
+As this category assumes that the DAW is _capable_ of doing what you want, if a DAW has minimal configuration then it will default to scoring highly.
+
+High scores indicate a "good" experience with the assumption that the product is capable of your workflow. More functional DAWs will be predisposed to scoring lower as they are capable of more, often after added configuration.
+
+## OOTB MIDI
+
+Given a generic workflow consisting of the following simple processes, how much configuration is the user likely to encounter:
+
+* Record MIDI.
+* Import MIDI.
+* Editing the resulting MIDI.
+    * Clip Edits.
+    * Note Pitch Edits.
+    * Note Length Edits.
+    * Algorithmic note data adjustments (e.g. Humanize).
+    * Multi-Item/Track Editing.
+* Setup a Virtual Instrument and route MIDI to it.
+
+Many application can accomplish these tasks with _zero_ configuration. This rating is my judgement (based on talking to tens of thousands of DAW users, and my own experience) and how much configuration the user is _likely_ to encounter.
+
+As this category assumes that the DAW is _capable_ of doing what you want, if a DAW has minimal configuration then it will default to scoring highly.
+
+High scores indicate a "good" experience with the assumption that the product is capable of your workflow. More functional DAWs will be predisposed to scoring lower as they are capable of more, often after added configuration.
+
+## OOTB GUI
+
+The likelihood of the user _needing to_ re-organize the GUI.
+
+Rephrased - how many functions are hidden behind GUI elements that need to be moved/enabled. _Includes menus_.
+
+DAWs with simple GUIs will likely score higher in this category.
+
+## OOTB General
+
+This considers the number of _steps_ necessary to go from a fresh install to the following tasks:
+
+* Record an audio track (with accurate timing!)
+* Record MIDI
+* Load a Video if possible
+* Add automation for volume
+* Add automation for a plugin effect
+* Create an send/return routing (multiple audio tracks routed in parallel to a potential variety of busses)
+* Create a sub-group (multiple audio tracks routed serially to a single bus)
+
+In some instances one of these singular steps is _annoying_. That will not be counted in the rating.
+
+## OOTB Hardware
+
+How much setup is required for audio devices and integrating an external controller.
+
+If the software _requires_ you to setup I/O manually, it will not achieve a rating >2.
+
 # Sample and File Browsing
 
 ## Sample and File Browsing
