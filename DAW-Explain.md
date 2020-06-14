@@ -837,6 +837,8 @@ This rating specifically covers tools that let you change the entire arrangement
 
 ## Sysex and NRPN
 
+This section is for _editing_ and _modification_ of this data. Many DAWs can play back MIDI streams correctly if recorded or loaded, but few allow you to directly input and manipulate this data.
+
 NRPN means non-registered parameter number. It's a way of sending 14-bit data using 2 7-bit midi streams.
 
 Sysex means 'System Exclusive'. It's a method of sending data that doesn't fall in to the midi spec.
