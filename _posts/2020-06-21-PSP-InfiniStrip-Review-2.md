@@ -2,13 +2,13 @@
 layout: post
 title: PSP InfiniStrip Review 2
 comments: true
-date:   2020-06-18_08:05:12 
+date:   2020-06-21_08:05:12 
 categories: music
 tags: ['Review']
-image:
-description:
-header:
-header-caption:
+image: /assets/InfiniStrip/Banner2.png
+description: Everything about InfiniStrip... as far as I'm concerned.
+header: /assets/InfiniStrip/Banner2.png
+header-caption: InifiniStrip Review - Part 2
 ---
 
 This article marks part 2, and the conclusion of, this review of [PSP's InfiniStrip](http://www.pspaudioware.com/plugins/dynamic_processors/psp_infinistrip/).
@@ -58,6 +58,8 @@ There are 3 view modes available for the channel strip, the above image shows al
 * Resizeable - Only filled slots are show (oddly, this isn't resizable, it's automatically resized).
 * Mini - Available slots are shown on the left, and a single module is shown on the right. You select the slot on the left to view the module in the right pane.
 
+I almost exclusively use Resizable mode.
+
 ## A/B and Compare System
 
 {::nomarkdown}
@@ -67,7 +69,7 @@ There are 3 view modes available for the channel strip, the above image shows al
 
 InfiniStrip comes with an A/B system that allows you to quickly jump between 2 channel strip settings for comparison. This isn't a novel feature, and it's fairly common on modern plugins.
 
-The arrow pointing at A or B (the right pointing arrow to the left of each letter) will save the current setup to that slot. The right pointing arrow to the right of the arrow will recall it.
+The arrow pointing at A or B (the right pointing arrow to the left of each letter) will save the current setup to that slot. The right pointing arrow to the right of the A or B will recall it.
 
 The unusual and functionally fantastic bit here is that this is saved to persistent storage. If you open up another instance of InfiniStrip and want to pull up A or B, you can do so without messing with presets or other manual "Save to Disk" options.
 
@@ -97,7 +99,7 @@ Luckily, none of these things bothered me. I don't see any value in using preset
 ### Module Presets
 
 {::nomarkdown}
-<img src="/assets/InfiniStrip/Modules/ModulePresets.png" alt="Module Presets">
+<img src="/assets/InfiniStrip/Modules/ModulePreset.png" alt="Module Presets">
 <div class="image-caption">Module Presets</div>
 {:/nomarkdown}
 
@@ -177,11 +179,13 @@ InfiniStrip appears to maintain a single sidechain signal for all dynamics proce
 
 The sidechain signal is passed from left to right. If you use an [S.C. Filter](#sc-filters), then that filtered signal is passed in its filtered state to the next processor.
 
-The confusing part (at first!) is on the compressors that have their own sidechain filter. So if you use the HPF on a FET Pressor, that high passed sidechain is _not_ sent in its high-passed state to the next processor.
+The confusing part (at first!) is that the compressors have their own sidechain filters. So if you use the HPF on a FET Pressor, that high passed sidechain is _not_ sent in its high-passed state to the next processor.
 
 The sidechain signal routing behaviour makes sense. It allows you to manage each dynamics processor with its own high pass filter, but use S.C. Filters to make serial changes to the sidechain signal (useful when you are using some sort of Comp->EQ->Comp flow).
 
-Omitting any sort of explicit routing reduces UI clutter. I initially wished I could route things into the sidechain signal path, but while using the plugin in projects I never once stumbled across a scenario where that was necessary.
+Omitting any sort of explicit routing reduces UI clutter. I initially wished I could route things into the sidechain signal path, however I never once stumbled across a scenario where that was necessary.
+
+All of the dynamics modules have a "Mon" button that allows you to solo the sidechain at that point.
 
 ## Auto Gain
 
@@ -206,12 +210,10 @@ The concept is great, but there are a few workflow worms.
 * Gain is initially set by the current level, but gain is only _automatically_ reduced. This results in a few unfortunate circumstances:
     * Hitting auto during a quiet part will **MAX** the gain (+30dB). It's easy to uncheck "Auto", but forget to reset the gain. 
     * Hitting auto during a loud part will bias your gain setting low. Generally if you're looking to get some Mojo™ out of a module, you'll want to set it for the average level of the signal so that the louder parts get smashed a bit. Auto does not easily facilitate this. (You have to locate to another part of the track to use auto)
-* UP/DWN, DWN is confusing - This is a control that I don't know of on any other device, and naturally you would think that it changes how the auto-gain algorithm works.... but it does not. It changes how the reference knob works relative to the gain knob in the context of the auto-gain algorithm. It's a good idea, but even after using the plugin a few dozen hours I forgot what the switch did.
+* UP/DWN, DWN is confusing - This is a control that I've not seen on another device, and naturally you would think that it changes how the auto-gain algorithm works.... but it does not. It changes how turning the reference knob works relative to the gain knob in the context of the auto-gain algorithm. It's a good idea, but even after using the plugin a few dozen hours I forgot what the switch did.
 * RMS? - I find it strange that RMS is a selection, when ANSI or IEC VU spec is used for _so many other products_, software and hardware alike.
 
 These complaints are relatively minor. I can count on one hand the number of times that I reached for the auto circuit in the last 2 months. It's a great feature for learning how the modules react to input levels, but manually setting gain becomes second nature quickly.
-
- Modules
 
 # Chart Explanations
 
@@ -234,7 +236,7 @@ I've selected 4 types of measurements to give keen readers a quick overview of w
 	<div class="video-caption">Hammerstein (Video)</div>
 {:/nomarkdown}
 
-Generated with REW + Custom Software.
+Generated with [REW](https://www.roomeqwizard.com) + Custom Software.
 
 This plot shows the amplitude of each harmonic relative to frequency.
 
@@ -242,7 +244,7 @@ It presents an excellent method of determining the sonic 'flavour' of a saturati
 
 Translating the graph into mildly meaningful words to describe how the device may sound is a long article in its own right. So I will leave this as an exercise for the reader. (my favorite "screw you, that's too much work" term to put in papers.)
 
-Since some processors have saturation that reacts in a dynamic manner, I plotted the first 5 harmonics at with a test signal from -6dBFS peak to -18dbFS peak. None of these processors demonstrated meaningful information in this manner so I presented only the -12dBFS plot. (Or the information was so minimal that it was not communicated easily through the charts I created).
+Some processors have saturation that reacts in a dynamic manner. I plotted the first 5 harmonics at with a test signal from -6dBFS peak to -18dbFS peak. None of these processors demonstrated meaningful information in this manner. I did not present these tests since they were not informative (Or the information was so minimal that it was not communicated easily through the charts I created).
 
 All measurements were taken with the "analog" button on.
 
@@ -255,13 +257,15 @@ All measurements were taken with the "analog" button on.
 <div class="image-caption">Bode Plot</div>
 {:/nomarkdown}
 
-Generated with REW + Custom Software.
+Generated with [REW](https://www.roomeqwizard.com) + Custom Software.
 
 In graphs with 2 non-correlated looking lines, the plot shows frequency **and** phase response of the device for the given setting. Frequency is the darker line, phase is the lighter line.
 
 In graphs with multiple correlated looking lines, the plot shows multiple _frequency_ measurements using varying parameters of the plugin.
 
 All measurements are taken at 0 gain and "analog" mode turned on in the plugin, with a -12dBFS peak test signal.
+
+**NOTE**: I was careful with settings. If you see that I set a filter at +12dB setting, and the filter exceeds that, then that is the behaviour of the filter.
 
 ## Ramp
 
@@ -293,11 +297,11 @@ A "curve" near where the line begins to break indicates a knee. A knee changes t
 
 This plot shows the envelope characteristics of a processor.
 
-A 2 stage block of audio is sent through the processor. 
+A 3 stage block of audio is sent through the processor. 
 
 * The first 'spike' shows the shape of the attack.
 * The following block shows the action of the ratio (and related characteristics) relative to other parameters.
-* _After_ the previous chunk, the dip and ramp upward shows the release shape.
+* _After_ the middle chunk, the dip and ramp upward shows the release shape.
 
 Envelope characteristics tend to be the most audible and most varying behaviours of compressors, but regardless must be taken into account with the rest of the processor.
 
@@ -316,6 +320,8 @@ All of the preamp modules have [the auto gain circuit](#auto-gain), and individu
 
 Simple digital gain module. Similar to using a fader in your DAW.
 
+This is the top half of all of the Pre modules.
+
 ## Pre 60s
 
 {::nomarkdown}
@@ -327,7 +333,7 @@ Simple digital gain module. Similar to using a fader in your DAW.
 
 I'm not sure what I expected from the 60's preamp. I've not liked _any_ of the 60s era preamp models _or_ hardware that I've tried in the past. They tend to have what I would describe as a "dragging a table on a rough floor" type sound. Farty, if you will.
 
-Higher quality products don't have this character in a manner which is offputting by default, but it is a sound that I do not enjoy.
+Higher quality products' character isn't offputting by default, but it is a sound that I do not enjoy.
 
 The 60s preamp has that character. 
 
@@ -399,7 +405,7 @@ The aliasing in InfiniStrip with high-drive 70s preamp detracted from my excitem
 	<div class="image-caption">Pre 80s (Click for larger image)</div>
 {:/nomarkdown}
 
-My love affair with the SSL 4k (which I learned a good deal of my AE knowledge on) gave me the expectation that this would be _my_ preamp.
+My love affair with the SSL 4k gave me the expectation that this would be _my_ preamp.
 
 The SSL 4k was the defining console of the 80s. I use the emulations from [UA](https://www.uaudio.com/uad-plugins/channel-strips/ssl-4000-e-series-channel-strip-collection.html) and [PA](https://www.plugin-alliance.com/en/products/bx_console_ssl_4000_e.html) hundreds of times a week. It's plugin crack to me.
 
@@ -483,7 +489,7 @@ Did I want it? A few times, and I'm not sure if the mix benefited. I find it dif
 * Low pass - 6, 12 and 18 dB-per-octave slopes.
 * High pass - 12, 18 and 24 dB-per-octave slopes.
 
-I found myself mildly disappointed with the Basic Filters because I often wanted a shallower slope. I needed a steeper slope sometimes and that broke my "channel strip workflow". I had to use a different product any time I needed a gentler or more aggressive filter between stages, and that meant putting the secondary product between two instances of InfiniStrip or not using InfiniStrip at all.
+I found myself mildly disappointed with the Basic Filters because I often wanted a shallower or steeper slope. I needed a steeper slope sometimes and that broke my "channel strip workflow". I had to use a different product any time I needed a gentler or more aggressive filter between stages, and that meant putting the secondary product between two instances of InfiniStrip or not using InfiniStrip at all.
 
 I like to use high-pass filters with some resonance. Take away some of the low end, but add a bump just at the cutoff to compensate for the reduction in lower frequencies. I use a similar "trick" on guitars, bass and saw synths with low-passes. Basic Filters (and [Pro Filters](#pro-filters)) do not have a bump or resonance.
 
@@ -546,7 +552,7 @@ Some notes on the various filters:
 <div class="image-caption">High and Low Passes at 100hz and 15khz (18dB/oct) (Click for larger image)</div>
 {:/nomarkdown}
 
-Annoyingly I did ALL of these charts incorrectly originally because of the HPF/LFP defaulting to ON.
+Annoyingly I originally did ALL of these charts incorrectly because of the HPF/LFP defaulting to ON.
 
 * LPF - 10,000hz, 18dB/oct
 * LPF - 100hz, 12dB/oct
@@ -619,9 +625,21 @@ I am a firm believer that expansion should be liberally used when mixing _any_ g
 
 Downward expansion (as this processor is), lowers the amplitude of the signal by a ratio, according to the envelope, when it's below a threshold. It makes quiet things more quiet. There is an envelope though, so it doesn't simply map values via a ratio! When the threshold is violated, it _takes time_ to make the adjustment. When working in the opposite direction, it takes time to return to no adjustment.
 
-Well-designed expanders are functionally "density" EQs. They allow you to remove low-level signal that will likely be masked by other loud sources in your mix, but remove them in a manner respective to the envelope of the signal. Imagine if you could intelligently make things in your mix not exist when they don't need to, but without an abrupt change and relative to the signal's envelope... that's expansion. 
+Well-designed expanders are functionally "amplitude" EQs. They allow you to remove low-level signal that will likely be masked by other loud sources in your mix, but remove them in a manner respective to the envelope of the signal. Imagine if you could intelligently make things in your mix not exist when they don't need to, but without an abrupt change and relative to the signal's envelope... that's expansion. 
 
-Many mixers focus on spectral components of a mix to "clean up" the mix. It was practice for decades to have expansion and gates on nearly every channel in the mix even if by function of a tape machine or other processing. Common sense would indicate that this was purely done for noise concerns, but the definition of noise extends beyond hiss. Noise is anything that doesn't positively contribute to the end product, and that often is a natural part of the instrument(!)
+Many mixers focus on spectral components of a mix to "clean up" the mix. It was practice for decades to have expansion and gates on nearly every channel in the mix even if by function of a tape machine or other processing. Common sense would indicate that this was purely done for noise concerns, but the definition of noise extends beyond hiss. Noise is anything that doesn't positively contribute to the end product, and that often is a natural part of the instrument(!).
+
+A secondary effect is that highly rhythmic parts are exaggerated. A 16th note bassline with appropriate expansion makes the part bounce more. Stabbing chords have more impact. Rap vocals hit harder. Big orchestral chord hits smack you in the face and disappear into the urban wilderness. The distinction between soft and loud is made clearer.
+
+Expansion is that (historically implicit) secret weapon that doesn't get hyped, but ends up on nearly every great mix in some form. Even adjusting the S/R of the ADSR on your synth is even a form of expansion.
+
+So what about InfiniStrip's expander? It works just fine.
+
+I usually prefer a hysteresis control or open/close on my expanders. This type of control allows you to change the "on" and "off" thresholds so that the expander works more gently on low-frequency content and/or parts with frequent gaps that are important to retain.
+
+Expander instead has a shape control that adjusts between a logarithmic and linear release shape. The log shape is more apt to close quickly, and the linear shape is gentler and less likely to close. It works fine enough for me.
+
+I'm glad that they separate out the gate section from the compressors. If compression and expansion were part of the same slot type, I'd go crazy.
 
 ### Charts
 
@@ -646,6 +664,16 @@ I'm generally used to having hysteresis controls (expander opens/closes at diffe
 	<div class="image-caption">Gate (Click for larger image)</div>
 {:/nomarkdown}
 
+Gates... gross.
+
+Gates are essentially downward expanders with a very high ratio. Gates are to expanders as limiters are to compressors.
+
+The issue is that they _kill_ whatever they encounter. Variable ratio/range expansion allows you to make subtle adjustments that blend into the mix, but gates are killers. The range control helps, but it's still less natural sounding than an expander.
+
+I don't know of any gates that I'd prefer over a variable ratio/range downward expansion alternative, and InfiniStrip did not change that.
+
+It is one of the better gates I've encountered. It has a hold control, the lack of which irritates me in other products. The hold control combined with the gate gets you pretty close to a useable sound on sources like leaky drum mics and heavily distorted guitars. The gentler behaviour of the expander trumps the release shenanigans of the gate for me though.
+
 ### Charts
 
 {::nomarkdown}
@@ -664,6 +692,12 @@ I'm generally used to having hysteresis controls (expander opens/closes at diffe
 	</a>
 	<div class="image-caption">Ducker (Click for larger image)</div>
 {:/nomarkdown}
+
+The ducker is the same as the gate but it works in reverse. The main signal is gated when the detection signal _exceeds_ the threshold. The gate operates when the signal is _below_ the threshold.
+
+When the detection signal is too high, the signal is cut.
+
+I find the ducker to be nearly useless. The action is highly reliant on attack/release/shape settings which can change with the program material. If this had a variable ratio then it would be much more useful. A variable ratio would allow the detection signal's envelope to dynamically adjust the reduction. Such behaviour would allow for more relaxed release settings and a more natural result.
 
  
 # COMPRESSOR
@@ -686,6 +720,25 @@ I felt these settings most accurately demonstrated the differences between the p
 	</a>
 	<div class="image-caption">Opto Pressor (Click for larger image)</div>
 {:/nomarkdown}
+
+Opto!? I've owned a _few_ hardware optical compressors. I have at least 40 plugin emulations (that I can count).
+
+I don't get a strong opto vibe from Opto Pressor. The attack is relatively fast. The active (deep in compression) behaviour doesn't feel opto-like. The release stage feels like a VCA at fast settings.
+
+I sanity checked myself multiple times against my favorite optical compressor emulations and this doesn't pass for opto to my ears.
+
+That said - I don't care. **It's fun to use!** It does well at the tasks you would generally grab an opto compressor for: vocals, bass guitar.
+
+The value of it is dimished by the control scaling. 
+
+* About 75% of the attack knob is useless for an opto sound. The 75% position is about 20ms. Opto compressor vary greatly in their attacks (some are _very_ fast), but the general vibe of an opto compressor is historically a slower attack. I don't give much credence to using processors in a culturally acceptable manner, but I was frequently fiddling with a small amount of knob space to get the sounds I wanted.
+	* The module presets all use fast attack values that are unbecoming of an "opto" emulation.
+* Release knob - Same as above.
+* S.C. HPF - turned on at 100hz by default. I don't know who thought this was a good idea on EVERY compressor, but I object. I appreciate the presence of the HPF, but needing to constantly mess with it is a bummer.
+
+The Opto pressor has a slightly unpleasant fizzy sound if you push it hard. I did some measurements and it appears to be a higher than "normal" amount of IMD, but I was unable to confirm my results in a manner that I felt comfortable presenting.
+
+Now that I'm done complaining: I like it, but I don't like it as an opto-compressor.
 
 ### Charts
 
@@ -712,6 +765,14 @@ I felt these settings most accurately demonstrated the differences between the p
 	<div class="image-caption">FET Pressor (Click for larger image)</div>
 {:/nomarkdown}
 
+The FET Pressor is the only compressor that feels like the attack knob scaling makes sense, but the release knob scaling is odd! The last 50% of the control is essentially useless for most processing that you'd grab a FET based compressor for.
+
+Getting the release _just_ right to give you that FET sound is maddening. It seems to have a narrow range between 50-80 where it sounds "right" to me. I auditioned it against a number of FET-style emulations and a hardware 1176. It wasn't close.
+
+If you want that FET snap, the FET Pressor will get you there. It is a bit disappointing if you're looking for the classic FET sound, but that shouldn't be a consideration right? We should be looking for the processor that serves the mix.
+
+I didn't use the FET Pressor much when working with InfiniStrip. I was generally able to get the sound I needed from the Opto Pressor despite the fact that outside of InfiniStrip I use FET and VCA style compressors 90% of the time.
+
 ### Charts
 
 {::nomarkdown}
@@ -736,6 +797,18 @@ I felt these settings most accurately demonstrated the differences between the p
 	</a>
 	<div class="image-caption">VCA Pressor (Click for larger image)</div>
 {:/nomarkdown}
+
+VCA Pressor has a GUI that makes you think it's trying to be an SSL Bus Compressor. It gets the vibe down for it.
+
+The problem is that once again the Release knob's scaling makes it difficult to use. Only about 50% of the knob gives you that classic VCA sound, and the rest is far too aggressive for most signals. Compared to _any_ VCA style compressor, the first 50% or so of the release knob is too aggressive.
+
+Another missing attribute is the ratio behaviour. The classic SSL Bus compressor has a knee that's dependent on the ratio, which makes the 2:1 setting often sound more aggressive than the 10:1 setting. VCA Pressor is a fixed knee. It's not a problem per se, but it does detract from some of the charm that could be there.
+
+Taken as a "generic VCA-like dynamics device", VCA pressor is fine. It has the general functionality, but little of the charm. I compared it to some of the well-known VCA compressors on the market and I sorely missed the quirks of other processors. VCA Pressor is a bland imagining of the VCA concept.
+
+I really wish they'd adjust the scaling on the knobs to enforce control behaviour that's more apt for the type of processor!
+
+I suppose that I simply miss the quirkiness of other VCA comps on the market. VCA Pressor is simple and straightforward. That's great for some people... it just doesn't rock my boat.
 
 ### Charts
 
@@ -796,6 +869,26 @@ All tests are done with the "Analog" button in.
 	<div class="image-caption">ChannelQ (Click for larger image)</div>
 {:/nomarkdown}
 
+ChannelQ is initially somewhat unremarkable as a bunch of filters.
+
+After I used it for a while, I realized it had some mojo. It has some drive, the filters aren't as predictable as you would expect from the ubiquitous [Pro Q](https://www.fabfilter.com/products/pro-q-3-equalizer-plug-in) and the control scheme is deceptively conducive to my workflow.
+
+Criticisms:
+
+* Band frequency selection - I'm not a fan of the API style concentric knobs. It's easy to grab the module and move the module rather than changing the frequency of a band.
+* Q selection - The bandwidth switches are close together and evenly spaced. I clicked the wrong switch more times than I can count. It _seems_ like it would be easy, but if you have the plugin in the corner of your screen and try to glance-click... don't be surprised if you miss.
+* "Thins" some sources - Through use I realized that ChannelQ was doing something to make certain sounds thinner. After analysis I noticed that with all bands at 0, it has a ~0.7dB low shelf around 120hz. In use I found this to be _great_. I frequently prefer this shelf in place on most sources.
+* Aliasing - At 48khz, it's possible to inadvertently end up with that gritty aliased sound if you're driving your channel strip hard. I would say this happens in <1% of use cases, but I was confused by the behaviour a few times.
+* Cramping - The HM and HI bell filters cramp near nyquist. Completely inaudible to me.
+
+Good bits:
+
+* Sectioned bands - Thank goodness for range-limited bands! 100-2,000 and 500-10,000 bands make it easier to select the range that you want.
+* Low shelf - I don't know why, but I love the sound of the low-shelf on this EQ. After plotting it, I saw nothing particularly special about it. Might be the interaction with the drive.
+* Familiar control scheme - I don't like the concentric knobs, but it is familiar.
+
+If ChannelQ had a clearer interface, I would unabashedly praise it. Those concentric knobs nicked my self-esteem a bit too many times though. :)
+
 ### Charts
 
 {::nomarkdown}
@@ -806,17 +899,17 @@ All tests are done with the "Analog" button in.
 {:/nomarkdown}
 
 {::nomarkdown}
-<a href="/assets/InfiniStrip/Modules/Charts/ChannelQWide.png">
-<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/ChannelQWide.png" alt="ChannelQ Wide">
-</a>
-<div class="image-caption">ChannelQ Wide (Click for larger image)</div>
-{:/nomarkdown}
-
-{::nomarkdown}
 <a href="/assets/InfiniStrip/Modules/Charts/ChannelQMid.png">
 <img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/ChannelQMid.png" alt="ChannelQ Medium">
 </a>
 <div class="image-caption">ChannelQ Medium (Click for larger image)</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<a href="/assets/InfiniStrip/Modules/Charts/ChannelQWide.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/ChannelQWide.png" alt="ChannelQ Wide">
+</a>
+<div class="image-caption">ChannelQ Wide (Click for larger image)</div>
 {:/nomarkdown}
 
 {::nomarkdown}
@@ -849,6 +942,16 @@ All tests are done with the "Analog" button in.
 	<div class="image-caption">PreQursor (Click for larger image)</div>
 {:/nomarkdown}
 
+PreQursor is what you might consider as your "surgical" option. I said I'd avoid technical terms, but this is an asymmetrical EQ (and "progressive Q").  Cuts are narrower than boosts.
+
+I dislike the concentric knobs of [ChannelQ](#channelq), but the frequency selection sliders of PreQursor are a step worse. Geometrically there is simply less throw compared to a knob. Selecting frequency was a constant juggle between coarse and fine adjustments. Assuming that we accept this as the "surgical" option, the frequency selection workflow is disappointing.
+
+On the positive side, the saturation of this EQ is incredibly curious! I found myself just using PreQursor as a "colour box" on many occasions. If there was a time to call saturation "musical", this would be it. It almost sounds like it turns anything into a power chord (on a subtle level).
+
+As an EQ, I used PreQursor infrequently due to the frequency selection problem. It also does not have shelving options.
+
+As with all of the EQs, it does cramp near nyquist. As with all of the EQs, I can _barely_ hear the difference if I'm listening for it, and don't notice it at all otherwise. They're not claiming emulation of a specific non-cramped product, so if I don't hear it then I don't care.
+
 ### Charts
 
 {::nomarkdown}
@@ -859,17 +962,17 @@ All tests are done with the "Analog" button in.
 {:/nomarkdown}
 
 {::nomarkdown}
-<a href="/assets/InfiniStrip/Modules/Charts/PreQursorWide.png">
-<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/PreQursorWide.png" alt="PreQursor Wide">
-</a>
-<div class="image-caption">PreQursor Wide (Click for larger image)</div>
-{:/nomarkdown}
-
-{::nomarkdown}
 <a href="/assets/InfiniStrip/Modules/Charts/PreQursorMid.png">
 <img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/PreQursorMid.png" alt="PreQursor Medium">
 </a>
 <div class="image-caption">PreQursor Medium (Click for larger image)</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<a href="/assets/InfiniStrip/Modules/Charts/PreQursorWide.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/PreQursorWide.png" alt="PreQursor Wide">
+</a>
+<div class="image-caption">PreQursor Wide (Click for larger image)</div>
 {:/nomarkdown}
 
 {::nomarkdown}
@@ -888,7 +991,17 @@ All tests are done with the "Analog" button in.
 	<div class="image-caption">RetroQ (Click for larger image)</div>
 {:/nomarkdown}
 
-Smooth sounding
+_SMOOTH_.
+
+RetroQ is my go-to EQ in InfiniStrip. I can't quantify my feelings about it other than saying that it sounds good where other console-style EQs don't.
+
+I can do _almost_ anything I want with RetroQ and it sounds nice. Big boosts, big cuts, drive it, small adjustments... whatever.
+
+The Frequency slider is a semi-circle which gains some control room compared to [PreQursor](#preqursor). Still mildly bother some, but it is an improvement.
+
+The band indicating lights consistently confuse me. The dark yellow "blob" looks like it's an LED that's turned off, not an indicator that the band is ON. The whole band greys out when it's disabled which makes "OFF" obvious, but ON is conversely not as obvious unless you're familiar with the grey-out effect.
+
+RetroQ is one of the defining positive factors of InfiniStrip for me.
 
 ### Charts
 
@@ -900,17 +1013,17 @@ Smooth sounding
 {:/nomarkdown}
 
 {::nomarkdown}
-<a href="/assets/InfiniStrip/Modules/Charts/RetroQWide.png">
-<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/RetroQWide.png" alt="RetroQ Wide">
-</a>
-<div class="image-caption">RetroQ Wide (Click for larger image)</div>
-{:/nomarkdown}
-
-{::nomarkdown}
 <a href="/assets/InfiniStrip/Modules/Charts/RetroQMid.png">
 <img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/RetroQMid.png" alt="RetroQ Medium">
 </a>
 <div class="image-caption">RetroQ Medium (Click for larger image)</div>
+{:/nomarkdown}
+
+{::nomarkdown}
+<a href="/assets/InfiniStrip/Modules/Charts/RetroQWide.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/RetroQWide.png" alt="RetroQ Wide">
+</a>
+<div class="image-caption">RetroQ Wide (Click for larger image)</div>
 {:/nomarkdown}
 
 {::nomarkdown}
@@ -961,6 +1074,14 @@ I felt these settings most accurately demonstrated the differences between the p
 	<div class="image-caption">Opto Lim (Click for larger image)</div>
 {:/nomarkdown}
 
+Another Opto device that doesn't sound "Opto" to me, and yet again it's still my prefered device of this type of module.
+
+The exact same complaints are present from the [Opto Pressor](#opto-pressor). Attack/Release controls are weird. HPF on by default.
+
+The "Soft" mode sounds more similar to my idea of an Optical Limiter, but not-soft mode is too fun. It adds density to almost anything it touches. Electric Guitars, Bass, Saw Leads, Deep Sub-Basses, Male Vocals etc... Post-analysis, I didn't notice anything that stood out as particularly unique about it, but in use it manages to be one of the few dynamic processors that can take a deep and/or dense sound and make it _denser_ without crossing the line of obnoxiousness too easily.
+
+I really wish the release knob was biased towards higher values. It is annoying that about 30% of the knob is useful for 90% of use-cases.
+
 ## VCA Lim
 
 {::nomarkdown}
@@ -969,6 +1090,16 @@ I felt these settings most accurately demonstrated the differences between the p
 	</a>
 	<div class="image-caption">VCA Lim (Click for larger image)</div>
 {:/nomarkdown}
+
+Your typical "limiter".
+
+I tried VCA Lim on everything, and I did not experience a scenario where I preferred it over another option.
+
+The attack stage has a clickiness to it that I find unpleasant. The release stage sounds awkward at longer values (whhoooOOOOOMMPP). Soft mode sounds pillowy.
+
+The first 50% of the release knob almost exclusively sounds terrible. It gives sounds an unnatural tail that feels like you're being slapped with a stuffed animal. (did that make sense?) I hear this sound a lot of hip hop and surround styles though, so it might be the key for people deep into that culture.
+
+I spent some time attempting to come up with a contrived scenario where I would prefer the VCA Lim, but I failed. Everytime I tried it on something I was able to think of another ([Free](/FreeBees.html#dynamics)) product that fit the bill better.
 
 ## Comparison
 
@@ -987,6 +1118,8 @@ I felt these settings most accurately demonstrated the differences between the p
 	</video>
 	<div class="video-caption">Ramps (Video)</div>
 {:/nomarkdown}
+
+Comparisons made with the same settings.
  
 # CONTROL
  
@@ -999,6 +1132,9 @@ I felt these settings most accurately demonstrated the differences between the p
 	<div class="image-caption">Master Control (Click for larger image)</div>
 {:/nomarkdown}
 
+Volume control and meter.
+
+The width control (not displayed) is a nice touch on a channel strip.
  
 # SPECIAL
  
@@ -1010,6 +1146,17 @@ I felt these settings most accurately demonstrated the differences between the p
 	</a>
 	<div class="image-caption">De-Esser (Click for larger image)</div>
 {:/nomarkdown}
+
+De-Esser is somewhat interesting. It has two functioning modes:
+
+* Full-band - This acts like a compressor with the sidechain signal filtered to make the compressor react to sibilance. The amplitude of the whole signal is changed in response to sibilance (or whatever you tune it for). This is the "clean" mode if your signal has defined areas that need de-essing.
+* Split-Band - The signal is split into 2 bands, Low and High. The crossover is always present in the signal. The high band's amplitude is affected by the dynamics circuit.
+
+When I initially used this I expected a dynamic EQ circuit, but the split-band mode was rather interesting. It works magic on bright cymbals and woodwinds.
+
+I put de-essers in the same class as expanders in terms of "Tools that are exceedingly useful that nobody talks about". I do prefer to use dynamic-EQ style de-essers over what InfiniStrip's De-Esser provides, but it is a competent and useful addition to the channel strip as a whole. It's sufficient about half the time, exactly what I want about 10% of the time and the rest of the time I am conflicted if it's worth grabbing a more complex de-esser.
+
+De-Esser is easy to control, in contrast with some of the other modules in InfiniStrip. The knobs feel like they center around normally usable values, and their ranges are sane.
 
 ### Charts
 
@@ -1036,6 +1183,18 @@ I felt these settings most accurately demonstrated the differences between the p
 	<div class="image-caption">De-Hummer (Click for larger image)</div>
 {:/nomarkdown}
 
+A De-Hummer! Rare sight in a channel strip.
+
+De-Hummer is a series of harmonically related notch-like filters that are tuned to a base frequency that matches the mains fundamental common in most countries (50hz or 60hz).
+
+The brightness control affects the relative amplitude from each filter to the next. Brighter == higher harmonics reduce more. I thought this was a bit silly at first, since most hum is fairly consistent in profile, but after finding some humming sources it turned out to be a useful control!
+
+The harmonic selection allows you to bias the filters towards even or odd harmonics, which I didn't find useful for de-humming applications. It could have been useful for de-pinging percussion except the freq value isn't tunable. If freq was tunable then it'd be an indispensible tool for dealing with resonances in pitch-stable sources.
+
+A curious behaviour is that the harmonic relationships change if you switch between 50hz and 60z. I'm not familiar with 50hz mains, so perhaps the shape is slightly different?
+
+I'm happy to see this in InfiniStrip.
+
 ### Charts
 
 {::nomarkdown}
@@ -1048,6 +1207,25 @@ I felt these settings most accurately demonstrated the differences between the p
 
 Profile Changes depending on setting
 
+# Conclusion
+
+Reading back I've noticed that I'm about 50/50 complaining/praising in this review. The reality is that I've been happy with InfiniStrip.
+
+If they adjusted the scaling of controls to match the intended function or "vibe" or usable range of the module, and added oversampling then I would insist that this is the best channel strip product on the market that I've used.
+
+You may have also noticed in the images that the plugin is not (currently?) HiDPI compatible. On HiDPI monitors it looks somewhat ugly, and I don't think that this is acceptable in 2020.
+
+Despite my complaints I've happily used the product and discovered new things about it over the last 2 months that lead me to enjoy it even more. While working in a fast-paced mixing environment I didn't notice any of my complaints except the EQ frequency selection frustrations, so I have difficulty lending much credence to my own complaints.
+
+The price is a bit high at $199 when considering comparable products from other manufacturers. I have fewer complaints about many of those products, but I also have less praise for those products. I can't think of any product I've used where I experienced a similar sequence of pleasant surprises.
+
+If InfiniStrip was on sale for $99-139 then I would classify it as a "must buy" if you enjoy the channelstrip workflow.
+
+At the $199 price I would consider demoing it and making sure that you have a series of projects lined up or some time to screw around with it seriously. It's worth the price, but the value is now offset by the potential market of channel strips in that price range. InfiniStrip does not offer enough versatility for me to recommended it to anyone reading, but it's close.
+
+I like quirks. I like products with strange, but musical, behaviour. I like opinionated products. I like discovering new behaviours after using the product dozens/hundreds of hours. InfiniStrip offers all of these things _and_ is a functional product at a basic level.
+
+I like it.
  
 # Meta
 
@@ -1061,6 +1239,8 @@ This post took:
 * 2 hours double checking the manual and other product content.
 * 12 hours generating videos.
 * 17 hours of testing.
+
+Total of 62 hours + 94 hours of use.
 
  If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
 
