@@ -99,7 +99,7 @@ Certain actions like 'Remove DC Offset', 'Reverse' and 'Normalize' are only avai
 
 ## Single MIDI controller lane
 
-There's on a single controller lane in the MIDI editor. Often there's times where various controller data need to line up or be synchronized in some way, and having only a single lane makes it rather difficult.
+There's a single controller lane in the MIDI editor. Often there's times where various controller data need to line up or be synchronized in some way, and having only a single lane makes it rather difficult.
 
 If you work in the arrange view and set the track to [region based automation]({% post_url 2017-12-18-Cool-things-in-Logic-Pro-X-Part-1 %}#region-based-automation) then you can access multiple MIDI data lanes at once. The issue is that the vertical resolution is somewhat limited and you lose a visual connection with the MIDI note data. Turning on automation mode in the Arranger area also increases the vertical space every track uses, which can be annoying for larger projects.
 

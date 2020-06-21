@@ -20,7 +20,9 @@ _**READ ME**_
 _**READ ME**_
 
 **DISCLOSURE** - PSP kindly provided this product to me for free as an NFR for review. If you believe this has biased this article, then I encourage you to call it out in the comments.
+**Other posts in this series**
 
+* [InfiniStrip Part 2 - Everything Else]({% post_url 2020-06-18-PSP-InfiniStrip-Review-2 %})
 <!--more-->
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
