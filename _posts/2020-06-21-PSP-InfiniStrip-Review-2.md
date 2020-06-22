@@ -167,7 +167,7 @@ Infinistrip does all 3 of these functions nicely.
 ## Sidechain
 
 {::nomarkdown}
-<img src="/assets/InfiniStrip/Modules/SideChain.png" alt="Sidechain system">
+<img src="/assets/InfiniStrip/Modules/Sidechain.png" alt="Sidechain system">
 <div class="image-caption">Sidechain system</div>
 {:/nomarkdown}
 
@@ -191,7 +191,7 @@ All of the dynamics modules have a "Mon" button that allows you to solo the side
 
 {::nomarkdown}
 <img src="/assets/InfiniStrip/Modules/GainStage.png" alt="Gain Staging Toosl">
-<div class="image-caption">Gain Staging Toosl</div>
+<div class="image-caption">Gain Staging Tools</div>
 {:/nomarkdown}
 
 If you don't know what gain staging is, [first drop by here]({% post_url 2017-11-01-Gainstaging-for-the-modern-musician %}).
