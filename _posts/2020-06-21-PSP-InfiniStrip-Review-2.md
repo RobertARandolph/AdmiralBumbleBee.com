@@ -344,8 +344,8 @@ I ended up using this model the least. I can see value in it for those that want
 ### Charts
 
 {::nomarkdown}
-<a href="/assets/Infinistrip/Modules/Charts/60sBode.png">
-<img src="/assets/Infinistrip/Modules/Charts/Thumbnails/60sBode.png" alt="Bode Plot">
+<a href="/assets/InfiniStrip/Modules/Charts/60sBode.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/60sBode.png" alt="Bode Plot">
 </a>
 <div class="image-caption">60s Preamp Bode Plot (Click for larger image)</div>
 {:/nomarkdown}
@@ -383,8 +383,8 @@ The aliasing in InfiniStrip with high-drive 70s preamp detracted from my excitem
 ### Charts
 
 {::nomarkdown}
-<a href="/assets/Infinistrip/Modules/Charts/70sBode.png">
-<img src="/assets/Infinistrip/Modules/Charts/Thumbnails/70sBode.png" alt="Bode Plot">
+<a href="/assets/InfiniStrip/Modules/Charts/70sBode.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/70sBode.png" alt="Bode Plot">
 </a>
 <div class="image-caption">70s Preamp Bode Plot (Click for larger image)</div>
 {:/nomarkdown}
@@ -422,8 +422,8 @@ I wish InfiniStrip had a "global off" that allowed you to turn off all instance 
 ### Charts
 
 {::nomarkdown}
-<a href="/assets/Infinistrip/Modules/Charts/80sBode.png">
-<img src="/assets/Infinistrip/Modules/Charts/Thumbnails/80sBode.png" alt="Bode Plot">
+<a href="/assets/InfiniStrip/Modules/Charts/80sBode.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/80sBode.png" alt="Bode Plot">
 </a>
 <div class="image-caption">80s Preamp Bode Plot (Click for larger image)</div>
 {:/nomarkdown}
@@ -461,8 +461,8 @@ Did I want it? A few times, and I'm not sure if the mix benefited. I find it dif
 ### Charts
 
 {::nomarkdown}
-<a href="/assets/Infinistrip/Modules/Charts/90sBode.png">
-<img src="/assets/Infinistrip/Modules/Charts/Thumbnails/90sBode.png" alt="Bode Plot">
+<a href="/assets/InfiniStrip/Modules/Charts/90sBode.png">
+<img src="/assets/InfiniStrip/Modules/Charts/Thumbnails/90sBode.png" alt="Bode Plot">
 </a>
 <div class="image-caption">90s Preamp Bode Plot (Click for larger image)</div>
 {:/nomarkdown}
@@ -759,8 +759,8 @@ Now that I'm done complaining: I like it, but I don't like it as an opto-compres
 ## FET Pressor
 
 {::nomarkdown}
-	<a href="/assets/InfiniStrip/Modules/FETPressor.png">
-	<img src="/assets/InfiniStrip/Modules/Thumbnails/FETPressor.png" alt="FET Pressor">
+	<a href="/assets/InfiniStrip/Modules/FetPressor.png">
+	<img src="/assets/InfiniStrip/Modules/Thumbnails/FetPressor.png" alt="FET Pressor">
 	</a>
 	<div class="image-caption">FET Pressor (Click for larger image)</div>
 {:/nomarkdown}
