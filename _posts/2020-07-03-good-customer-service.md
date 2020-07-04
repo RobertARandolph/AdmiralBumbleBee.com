@@ -150,7 +150,7 @@ The single most important thing you can do to alleviate the potential effect of 
 * No "if you don't then I will...".
     * Emphathize - No matter the likelihood of you following through with an action, don't threaten it. There's a small chance that the CS rep might respond to a threat, but there's a larger chance that they know how to shut you down with a lesser resolution. CS reps deal with threats big and small _all day long_. You _never_ want to trigger an immediate thought of, "I know how to deal with you..." unless it's to fulfill your desired outcome.
 
-        If you must escalate then state your intention clearly with a positive acknowledgement of the process so far. "Thank you for your help so far. I think I need to speed to a supervisor".
+        If you must escalate then state your intention clearly with a positive acknowledgement of the process so far. "Thank you for your help so far. I think I need to speak to a supervisor".
 
 Let me review this again with a definition:
 
