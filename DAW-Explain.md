@@ -670,6 +670,8 @@ When automation is written it is often desirable to thin automation. This is the
 
 The rating considers the functional capability, options and resulting curve of such a feature.
 
+Some products do this automatically and will receive a low score based on their performance. Products with user accessible features will receive higher scores based on the functionality and outcomes.
+
 ## Clip-based automation
 
 Automation that is attached to a region/item/clip. Some DAWs only handle a set audio value, some allow full automation.

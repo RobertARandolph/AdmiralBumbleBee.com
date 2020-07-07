@@ -1015,7 +1015,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
-            <daw name="Mixbus" rating="0"> </daw>
+            <daw name="Mixbus" rating="2"> </daw>
         </category>
         <category name="Item-Based Automation">
             <daw name="Reaper" rating="10"> </daw>
