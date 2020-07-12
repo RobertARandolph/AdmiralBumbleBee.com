@@ -81,6 +81,8 @@ The audio is output _at the boundaries of the buffer_ rather than at the boundar
 
 I know someone will want to chime in with "BUT YOU CAN'T TELL THE DIFFERENCE ANYWAY" or "n-milliseconds isn't much". I can nip that in the bud easily.
 
+These samples are 2048 sample buffer, at a sample rate of 48,000z. Tempo is 180bpm and note onsets are quarter notes.
+
 Here are audio files from Studio One 5.0 and Ableton Live 10, performed on the _exact_ same test setup. The Live file was exported, imported into Studio One, and exported from Studio one in case some sort of resampling/audio rendering bug would be at play.
 
 The effect is reduced with lower buffer sizes [as described below](#test-results-version-3), but it is still audible in certain contexts. I encourage you to test yourself to see what the limits of your workflow are.
@@ -228,9 +230,9 @@ If the offset is not communicated then the note will be played back at the next 
 <div class="image-caption">The fix - Offset (Click for larger image)</div>
 {:/nomarkdown}
 
-If the hypothesis is correct, then the fix is to properly send offset data to the plugin.
+If the hypothesis is correct, then the fix is to properly send offset data.
 
-Send MIDI data in chunks, but include offset data so that the plugin can play the received notes at the appropriate time.
+Send MIDI data in chunks, but include offset data so that the downstream consumer can play the received notes at the appropriate time.
 
 # Considerations
 
