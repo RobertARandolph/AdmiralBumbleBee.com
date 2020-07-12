@@ -44,6 +44,8 @@ I want to be sure that it's understood that this is _by no means_ original work.
 
 I will be reproducing this work with some added information while using newer versions of the software.
 
+**EDIT** - After publishing this I found [this forum post which explores](https://forums.presonus.com/viewtopic.php?f=151&t=39625) the issue in a somewhat roundabout way:
+
 # Video
 
 <iframe width="800" height="400" src="https://www.youtube.com/embed/XgQpz-IygMQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
