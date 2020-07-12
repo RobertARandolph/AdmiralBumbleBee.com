@@ -169,7 +169,7 @@ var AdmiralComparator = (function() {
       wave_bar.classList.add("progress_wave_bar");
       wave_bar.id = "wave_bar" + comp_name + secs;
       wave_bar.style.backgroundImage =
-        "url(" + path + "/Thumbnails/" + comp_name + ".png)";
+        "url(" + encodeURI(path + "/Thumbnails/" + comp_name + ".png") + ")";
 
       // default to enabled
       wave_bar.enabled = true;
