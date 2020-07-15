@@ -19,6 +19,12 @@ Let's look at one of the _most irritating_ and [long standing](http://expressive
 
 This is part one of a multi-part article. A full comparison of other DAWs will follow this article. This article is an explanation of the phenomenon using Studio One 5 as the demonstration software.
 
+**IMPORTANT**
+
+There is [an on going discussion](https://forums.presonus.com/viewtopic.php?f=151&t=39625&sid=8dd1849d54a4cb4bdf76763cac4a75fd) where there are variances in test results. Those that agree with what's presented here, have the same behaviour but different values, and those that disagree entirely.
+
+Please check out that discussion for more information, sample projects and further discussion.
+
 <!--more-->
 
 **If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
