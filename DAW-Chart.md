@@ -720,7 +720,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Digital Performer" rating="3"> </daw>
 			<daw name="Cubase" rating="3"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
+            <daw name="Studio One" rating="3"> </daw>
             <daw name="Pro Tools" rating="1"> </daw>
             <daw name="Logic" rating="1"> </daw>
             <daw name="Reason" rating="10"> </daw>
