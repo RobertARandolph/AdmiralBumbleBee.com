@@ -508,6 +508,12 @@ Mixer Channel Strips allow you to quickly access common effects like EQ and Comp
 
 This rating covers whether this exists, how many options there are, if you can build your own and how good the included channel strip components are.
 
+## Mixer Snapshots
+
+Recalling a set of mixer settings to the whole project, parts of a project or copy/pasting between projects.
+
+**ONLY** the mixer. Methods that save the entire project will also change edits made during the process, which is an unacceptable workflow.
+
 ## Plugin Organization
 
 Plug-in organization is not only how easy it is to organize plug-ins, but find them. Saving chains, presets, banks and organizing those assets is considered as well.

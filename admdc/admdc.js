@@ -118,11 +118,9 @@ var AdmiralChart = (function() {
         // Add up totals, || 0 treats initial NaN as 0 for the start.
         weighted_complete_totals[daw_array[j]] =
           (weighted_complete_totals[daw_array[j]] || 0) + weighted_total;
+
         if (excluded) {
-          unweighted_complete_totals[daw_array[j]] =
-            (unweighted_complete_totals[daw_array[j]] || 0) +
-            total_rating -
-            parseInt(rating);
+          //unweighted_complete_totals[daw_array[j]] = (unweighted_complete_totals[daw_array[j]] || 0) + total_rating;
         } else {
           unweighted_complete_totals[daw_array[j]] =
             (unweighted_complete_totals[daw_array[j]] || 0) + total_rating;

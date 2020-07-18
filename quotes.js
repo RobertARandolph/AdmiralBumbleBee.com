@@ -21,6 +21,7 @@ window.addEventListener(
       " I know my behavior can be... *erratic* sometimes.",
       "Smalltalk did it 40 years ago, dude",
       "1c-b(1). Like, if you're about to pitch and then don't pitch, you have to still pitch. You cannot not pitch. Does that make any sense?",
+      "You forced that. Potentially confusing the person asking for help by filling the channel with things that don't matter to them, only you.",
       "Now on Twitter and Youtube!",
       "Ripped to shreds by REASON and LOGIC",
       "Thanks for reading! Sorry.",

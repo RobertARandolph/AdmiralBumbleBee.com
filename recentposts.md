@@ -19,8 +19,8 @@ permalink: recentposts.html
   <input type="submit" value="Go" style="width: 25%;" />
 </form>
 
-<h2>
-<a class="recent-post-link recent-post" href="/tags/?year=true" target="_parent">Recent Posts</a>
+<h2 class="recent-post-header">
+  <a href="/tags/?year=true" target="_parent">Recent Posts</a>
 </h2>
 {% assign i = 0 %}
 {% for post in site.posts limit:50 %}

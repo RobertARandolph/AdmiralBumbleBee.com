@@ -17,6 +17,12 @@ I've also changed the general site design to be a bit more responsive, and sligh
 
 <!--more-->
 
+# UPDATE
+
+**CHANGE REVERTED**.
+
+I received no response after this change, and I simply don't like reading the font.
+
 # Typography for the typographically challenged
 
 I've recently taken time to do research on font design for impaired readers. Specifically those with dyslexia.

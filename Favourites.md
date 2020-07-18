@@ -96,7 +96,7 @@ Specifically I study Korean and Vietnamese.
 
 # General Music Software
 
-* [Capo](https://supermegaultragroovy.com/products/capo/)
+* [Anytune](https://anytune.us) 
 * [Sonarworks Reference](https://www.sonarworks.com/reference) - It's not magic, but it does help enough to be worth the tradeoffs.
 * [Metronome Pro](https://apps.apple.com/us/app/pro-metronome-tempo-beat-subdivision-polyrhythm/id477960671) - iOS Only. Fantastic Metronome program.
 * [Sonic Visualizer](https://sonicvisualiser.org) - Amazing **FREE** audio analysis tool.
@@ -139,8 +139,8 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 ### Guitars
 
 * 2007 Fender Custom Shop Jaguar bass - My absolute favourite instrument. If my house was going to be levelled and I could only grab one thing. This is it.
-* MTD 534-24 Headless custom bass - My baby.
-* Fender 1952 Time Machine NOS Telecaster.
+* MTD 534-24 Headless Custom Bass, [Avidore](https://www.wood-database.com/avodire/) - My baby.
+* Fender 1952 Time Machine NOS Telecaster with Seymor Duncan Custom Pickups (stacks)
 * Suhr Classic S.
 
 ## Drums
@@ -155,15 +155,15 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 ## Accessories
 
 * [Rockslide Aged Nickel slide](https://www.therockslide.com/shop/aged-nickel-guitar-slide/)
-* ~~[Nickel Silver Thumbpicks](https://www.jimdunlop.com/product/3040tls-7-10137-00964-6.do?sortby=ourPicksAscend&page=4&refType=&from=fn)~~
-* ~~ [Dunlop John Petrucci Jazz III](https://www.jimdunlop.com/product/427pjp-7-10137-05837-8.do)~~
+* [Dunlop John Petrucci Jazz III](https://www.jimdunlop.com/product/427pjp-7-10137-05837-8.do)
 * [Zookies 30deg](https://www.jimdunlop.com/product/z9002m30-7-10137-00717-8.do) - I now play guitar and bass exclusively with a 30deg zookies pick that's been ground to a Jazz III-like tip. Much easier on my hands/fingers.
 * [Dunlop Straplocks](https://www.jimdunlop.com/products/accessories/straplok) - I dislike any other strap locking system.
 
 ## Pedals
 
+* [Peterson Strobostom HD](https://www.petersontuners.com/products/strobostomphd/) - Best tuner that I've used by a mile.
 * [Keeley Time Machine Boost](http://www.robertkeeley.com/manuals/time_machine_boost.pdf) - Ahhhhhhhhhhhhh. If I only had one pedal, this would be it.
-* [Keeley Compressor Prod](https://robertkeeley.com/product/keeley-compressor-pro-namm-2015/) - The least intrusive compressor I've found for both guitar _and_ bass guitar.
+* [Keeley Compressor Pro](https://robertkeeley.com/product/keeley-compressor-pro-namm-2015/) - The least intrusive compressor I've found for both guitar _and_ bass guitar.
 * [Dual Utter Stutter](https://www.youtube.com/watch?v=WXc1YhyajXM) - Custom feedback pedal. 1/1, just for me.
 * [Darkglass Vintage Ultra](https://www.darkglass.com/creations/vintage-ultra-v2/)
 
@@ -240,6 +240,7 @@ I prefer to reach for a channel strip before anything else.
 
 ## Other
 
+* [apUnmask](http://www.apulsoft.ch/apunmask/) - Unique and extremely effective.
 * [StandardClip](https://www.siraudiotools.com/StandardCLIP.php) - Clipping is _GOOD_, when done right. This is where you get it done right.
 * [Voxengo Soniformer](https://www.voxengo.com/product/soniformer/) - I consider this my "secret weapon". It's a 32-band multiband compressor, but the way you interact with the controls is unique, intuitive and appropriate.
 
@@ -287,7 +288,7 @@ I prefer to reach for a channel strip before anything else.
 * [Chefalarm](https://www.thermoworks.com/ChefAlarm) - Best on the market that I've found. Absolute essential kitchen tool. I prefer this over the Thermapen.
 * [IR Thermometer](https://www.thermoworks.com/IR-Gun) - I also believe this to be essential, particularly if you like to cook on Cast Iron and Carbon Steel like I do.
 * [Blue Breeze Vanilla Almond Milk](https://www.bluediamond.com/brand/almond-breeze/almondmilk/vanilla) - I'm allergic to dairy products, and Almonds are one of the few nuts that I'm not allergic to. For some reason I can't smell or taste almonds, so this just ends up being a pleasantly thick, slightly sweet vanilla drink.
-* [Phở](https://en.wikipedia.org/wiki/Pho) - I eat phở nearly every day for lunch. I make my own from scratch.
+* [Phở](https://en.wikipedia.org/wiki/Pho) - I eat phở frequently. I make my own from scratch.
 * [Earthgrown Veggie Patties](https://www.aldi.us/en/grocery-goods/quality-brands/earth-grown/) - Particularly the Kale ones. I eat these things bees eat sugar.
 
 # Electronics

@@ -8,6 +8,13 @@ dl, dd, ol, ul, figure {
     padding: 0;
 }
 
+/**
+ * Unreset this basic element
+ */
+hr {
+    margin: 10px;
+}
+
 
 
 /**
@@ -21,12 +28,23 @@ body {
     -webkit-font-feature-settings: "kern" 1;
     -moz-font-feature-settings: "kern" 1;
     -o-font-feature-settings: "kern" 1;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
     font-feature-settings: "kern" 1;
     font-kerning: normal;
+    line-height: 31px;
+    word-spacing: 0.26m;
+    letter-spacing: 0.003em;
+}
+
+.site-header {
+    font-family: $header-font-family;
+
 }
 
 .side-bar-body {
     background-color: $sidebar-background !important;
+    font-family: $sidebar-font-family;
     div a {
         font: $sidebar-font-weight #{$sidebar-font-size}/#{$base-line-height} $sidebar-font-family;
     }
@@ -129,11 +147,16 @@ ul, ol {
     }
 }
 
+ul {
+    margin-bottom: 1.5em;
+}
+
 li {
     > ul,
     > ol {
          margin-bottom: 0px;
     }
+    margin-bottom: 3px;
 }
 
 
@@ -142,6 +165,7 @@ li {
  */
 h1, h2, h3, h4, h5, h6 {
     font-weight: $base-font-weight;
+    margin-top: 20px;
 }
 
 
