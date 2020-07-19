@@ -2114,6 +2114,10 @@ Studio One 4 introduced import data from song. You can now import tracks from ot
 
 Between Studio One's [scratch pad](https://s1manual.presonus.com/Content/Arranging_Topics/ScratchPad.htm), ripple editing and Song Window, I believe there is an argument to be made that emulating the "Sequencing of sequences" workflow can be emulated satisfactorily for most users.
 
+# Studio One Automation Clips
+
+[Automation Clips can be emulated]({% post_url 2018-06-06-Automation-Regions-in-Studio-One %}) in Studio One, so I am counting that behaviour.
+
 # Pro Tools Notes
 
 ## Pro Tools Modes
