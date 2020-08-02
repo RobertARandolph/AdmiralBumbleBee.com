@@ -43,10 +43,10 @@ If you never do multitrack editing, give it a 0. Then DAWs that excel in this ar
 These are the versions that I have most recently evaluated the features (and stability) of:
 
 * Reaper 6.11
-* Digital Performer 10.1
+* DP 10.1
 * Cubase 10.5.12
-* Studio One 5.0.0
-* Pro Tools 2020.03
+* S1 5.0.0
+* PT 2020.03
 * Logic 10.5.1
 * Reason 11
 * FLStudio 20.7 Mac
@@ -94,11 +94,11 @@ I've been getting asked this a lot lately via e-mail/IRC/Discord, around 20+ tim
 
 I primarily use [Steinberg Cubase](https://www.steinberg.net/en/products/cubase/start.html) and [Logic Pro X](https://www.apple.com/logic-pro/). I do not think that either one is the best DAW. 
 
-I love [Digital Performer](https://motu.com/products/software/dp/). I have some issues with certain GUI elements being ridiculously small. DP is still the cream of the crop for large MIDI composited projects, live backing tracks and large audio projects. I use DP for all of my personal projects.
+I love [DP](https://motu.com/products/software/dp/). I have some issues with certain GUI elements being ridiculously small. DP is still the cream of the crop for large MIDI composited projects, live backing tracks and large audio projects. I use DP for all of my personal projects.
 
 [Reaper](https://www.reaper.fm) is just a total pain in the ass to learn for some people, but that pain comes with the ridiculously massive amount of functionality that it offers.
 
-I think that for the majority of music-based workflows, [Presonus Studio One](https://www.presonus.com/products/Studio-One) currently offers the most complete and sane set of defaults.
+I think that for the majority of music-based workflows, [Presonus S1](https://www.presonus.com/products/Studio-One) currently offers the most complete and sane set of defaults.
 
 If you largely work with recording musicians or mixing, then [Harrison Mixbus](http://harrisonconsoles.com/site/mixbus.html) is a very nice option.
 
@@ -106,7 +106,7 @@ If you are a fan of OSS, tinkerer or even moderately technically inclined then [
 
 [Steinberg Cubase](https://www.steinberg.net/en/products/cubase/start.html) has some amazing arrangement features that help differentiate it, and is an all-around great product for the composer, songwriter or musician that works alone.
 
-Pro Tools exists. It has that going for it, I guess. (That's a joke. I **love** Pro Tools and would without a doubt be using it as my only DAW if I didn't have so many issues with Avid as a company.)
+PT exists. It has that going for it, I guess. (That's a joke. I **love** PT and would without a doubt be using it as my only DAW if I didn't have so many issues with Avid as a company.)
 
 [Ableton Live](https://www.ableton.com) and [Bitwig](https://www.bitwig.com/en/home.html) are amazing tools for live performers, and both offer some cool options for creative sound design built right in to the product.
 
@@ -114,7 +114,7 @@ If you own a mac, then [Apple Logic](https://www.apple.com/logic-pro/) is the _a
 
 [Propellerheads Reason](https://www.propellerheads.se) is just super fun. If your workflow is fairly simple, but relies heavily on sound design or you enjoy the rack-based workflow then Reason is the only thing that will really satisfy you these days.
 
-So... yep. If someone were to just walk up to me and say "WHAT DAW?!?!?". I'd say Studio One or Logic if they had a mac. If I could get some more information out of them then I would suggest something else maybe. All of these products have demos, and they all work for making music. Getting the "right" DAW will help you make music faster and enjoy it more though!
+So... yep. If someone were to just walk up to me and say "WHAT DAW?!?!?". I'd say S1 or Logic if they had a mac. If I could get some more information out of them then I would suggest something else maybe. All of these products have demos, and they all work for making music. Getting the "right" DAW will help you make music faster and enjoy it more though!
 
 ## Why is Ableton Live rated so low?
 
@@ -159,17 +159,31 @@ I don't run a linux-based OS. If you are interested in information about Linux D
     <span id="dc-help" class="mod-button"><a href="/DAW-Explain.html#setter-help">Help!</a></span>
 </div>
 
+# KEY
+
+* [REAPER](https://www.reaper.fm)
+* DP - [Digital Performer](https://motu.com/en-us/products/software/dp/)
+* [Cubase](https://new.steinberg.net/cubase/)
+* [Waveform](https://www.tracktion.com/products/waveform-pro)
+* S1 - [Studio One](https://www.presonus.com/products/Studio-One)
+* PT - [Pro Tools](https://www.avid.com/pro-tools)
+* [Logic](https://www.apple.com/logic-pro/)
+* [Reason](https://www.reasonstudios.com/shop/product/reason-11-upgrade-for-introlite/)
+* [FLStudio](https://www.image-line.com/flstudio/)
+* [Live](https://www.ableton.com/en/)
+* [Bitwig](https://www.bitwig.com)
+* [Mixbus](https://harrisonconsoles.com/site/mixbus32c.html)
 
 # The Chart
 <div class="admdc_box">
-    <admdc section="Installation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+    <admdc section="Installation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         <category name="Installation Options">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="1"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -179,11 +193,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Ease of Download">
             <daw name="Reaper" rating="6" link="reaper-download"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -192,14 +206,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="3"> </daw>
         </category>
     </admdc>
-    <admdc section="User prefers dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+    <admdc section="User prefers dongle" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         <category name="With Dongle">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="10"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -208,15 +222,15 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-     <admdc section="User dislikes dongle" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+     <admdc section="User dislikes dongle" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         </category>
         <category name="No Dongle">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -225,15 +239,15 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="10" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-     <admdc section="Price" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+     <admdc section="Price" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         </category>
         <category name="Initial Cost">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="DP" rating="1"> </daw>
             <daw name="Cubase" rating="0"> </daw>
             <daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="3"> </daw>
             <daw name="FLStudio" rating="7"> </daw>
@@ -243,11 +257,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Upgrade Costs">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="3"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -256,14 +270,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="8" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-    <admdc section="General Workflow" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+    <admdc section="General Workflow" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="Stability">
             <daw name="Reaper" rating="3"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="9"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -273,11 +287,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Undo">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
@@ -287,11 +301,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Metering">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="1"> </daw>
+            <daw name="DP" rating="1"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -301,11 +315,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Track Templates">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="9" link="studio-one-track-templates"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="9" link="studio-one-track-templates"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -315,11 +329,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Key Commands">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="6" link="cubase-key-commands"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="3"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="6"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -329,11 +343,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Menus">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="2"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -343,11 +357,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Window Management">
             <daw name="Reaper" rating="6"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="1" link="reason-windows"> </daw>
 			<daw name="FLStudio" rating="1"> </daw>
@@ -357,11 +371,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Macro Shortcut Support">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="9"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -371,11 +385,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Remote Control">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="DP" rating="2"> </daw>
 			<daw name="Cubase" rating="3"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="10"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -384,14 +398,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="8" link="mixbus-remote"> </daw>
         </category>
     </admdc>
-        <admdc section="Ease of Use" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+        <admdc section="Ease of Use" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="UI Consistency">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="1"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="5" link="logic-ui-consistency"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -401,11 +415,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Immediacy">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="DP" rating="2"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="10"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -415,11 +429,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="OOTB Audio">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="10"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -429,11 +443,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="OOTB MIDI">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="2" link="dp-ootb-midi"> </daw>
+            <daw name="DP" rating="2" link="dp-ootb-midi"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="9"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -443,11 +457,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="OOTB GUI">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="DP" rating="2"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="1"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="6"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -457,11 +471,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="OOTB General">
             <daw name="Reaper" rating="3"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -471,11 +485,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="OOTB Hardware">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="DP" rating="2"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="0" link="waveform-hardware"> </daw>
-            <daw name="Studio One" rating="1"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="1"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="10"> </daw>
 			<daw name="FLStudio" rating="3" link="FL-hardware"> </daw>
@@ -484,14 +498,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="9"> </daw>
         </category>
     </admdc>
-    <admdc section="Sample and File Browsing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+    <admdc section="Sample and File Browsing" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="Sample and File Browsing">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -501,11 +515,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Preview">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -515,11 +529,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Tagging">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -529,11 +543,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Sample Search">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
@@ -542,14 +556,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Project Navigation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Project Navigation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Zoom Functionality">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -559,11 +573,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Large Project Features">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
@@ -573,11 +587,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Project Search">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
@@ -587,11 +601,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Marker Features">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="6"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
@@ -601,11 +615,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Information Hiding">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -614,14 +628,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="4"> </daw>
         </category>
     </admdc>
-    <admdc section="Arranging" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Arranging" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Time">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="3"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -631,11 +645,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Harmony">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="DP" rating="2"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -645,11 +659,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Sequencing">
             <daw name="Reaper" rating="6"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="6" link="studio-one-sequencing"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="6" link="studio-one-sequencing"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="9" link="reason-sequencing"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -659,11 +673,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Key">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="1"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="1"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -672,14 +686,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Mixing" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Mixing" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="VCAs">
             <daw name="Reaper" rating="6" link="reaper-vca"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="10"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="5" link="logic-vca"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -689,11 +703,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="PDC">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="7"> </daw>
@@ -703,11 +717,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Group and Bus Creation">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
@@ -717,11 +731,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Routing">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="3"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="1"> </daw>
             <daw name="Reason" rating="10"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -731,11 +745,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Mixer Channel Strip">
             <daw name="Reaper" rating="5" link="reaper-channel-strips"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -745,11 +759,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Mixer Snapshots">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -759,11 +773,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Plugin Organization">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="7"> </daw>
@@ -773,11 +787,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Fader and Meter Size">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="1"> </daw>
+            <daw name="DP" rating="1"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -787,11 +801,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Hardware Inserts">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="6" link="cubase-hardware"> </daw>
 			<daw name="Waveform" rating="0" link="waveform-inserts"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -801,11 +815,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Load Balancing Features">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="10"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="1"> </daw>
@@ -815,11 +829,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
          <category name="Freeze">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="3"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -829,11 +843,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
        <category name="Monitor Section">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="6" link="dp-monitor-section"> </daw>
+            <daw name="DP" rating="6" link="dp-monitor-section"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -842,14 +856,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="8"> </daw>
         </category>
     </admdc>
-    <admdc section="Modularity" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Modularity" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Modularity">
             <daw name="Reaper" rating="3"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="2"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="7" link="Reason Modularity"> </daw>
 			<daw name="FLStudio" rating="7"> </daw>
@@ -858,14 +872,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Included Content" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Included Content" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Included Effects Plugins">
             <daw name="Reaper" rating="6"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="6" link="waveform-included"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="9" link="flstudio-included"> </daw>
@@ -875,11 +889,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Included Synth Plugins">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="9" link="waveform-included"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="7" link="flstudio-included"> </daw>
@@ -889,11 +903,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Included Sound Content">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="7" link="flstudio-included"> </daw>
@@ -902,14 +916,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Recording" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Recording" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Re-Record">
             <daw name="Reaper" rating="0" link="reaper-re-record"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="1"> </daw>
@@ -919,11 +933,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Live Loop Recording">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="10" link="dp-loop-recording"> </daw>
+            <daw name="DP" rating="10" link="dp-loop-recording"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -933,11 +947,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="IO Map and Rename">
             <daw name="Reaper" rating="7"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="DP" rating="4"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -947,11 +961,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Input Metering">
             <daw name="Reaper" rating="3"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="3"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -960,14 +974,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="8" link="mixbus-input-monitoring"> </daw>
         </category>
     </admdc>
-    <admdc section="Automation" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Automation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="General Automation">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="6"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="4"> </daw>
@@ -977,11 +991,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Snapshot Automation">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -991,11 +1005,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Automation Tools">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -1005,11 +1019,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Automation Modes">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="5" link="pro-tools-modes"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="5" link="pro-tools-modes"> </daw>
             <daw name="Logic" rating="6"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -1019,11 +1033,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Automation Thinning">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1033,11 +1047,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Item-Based Automation">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="3"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="3"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -1047,11 +1061,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Automation Clips">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="3" link="studio-one-automation-clips"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="3" link="studio-one-automation-clips"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1061,11 +1075,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Modulation">
             <daw name="Reaper" rating="7"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="10"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1074,14 +1088,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Audio" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Audio" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Audio Editing Tools">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -1091,11 +1105,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Comping">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="6"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1105,11 +1119,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Grouped Audio Editing">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="1"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1119,11 +1133,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Multitrack Freewarp">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="DP" rating="4"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1133,11 +1147,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Multitrack Takes">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1147,11 +1161,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Audio Bonuses">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="4"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="4"> </daw>
@@ -1161,11 +1175,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Pitch Editing">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1175,11 +1189,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Pitch Shifting">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="2"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1189,11 +1203,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Time Stretching">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1202,14 +1216,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="7"> </daw>
         </category>
     </admdc>
-    <admdc section="Midi" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Midi" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Note Entry Flexibility">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1219,11 +1233,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Note Entry Tools">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1233,11 +1247,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Multitrack MIDI Editing">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
@@ -1247,11 +1261,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="MIDI Tools">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="6"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
@@ -1261,11 +1275,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="MIDI FX">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="DP" rating="4"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="9"> </daw>
 			<daw name="FLStudio" rating="6"> </daw>
@@ -1275,11 +1289,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Chord input">
             <daw name="Reaper" rating="6"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
+            <daw name="DP" rating="2"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="4"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
@@ -1289,11 +1303,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Step Sequencing">
             <daw name="Reaper" rating="9" link="Reaper-step-sequencer"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="DP" rating="4"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="6"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="5" link ="FLStudio-Step-Sequencer"> </daw>
@@ -1303,11 +1317,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Scale and Chord Tools">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="1"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1317,11 +1331,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Sysex and NRPN">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="5"> </daw>
@@ -1330,13 +1344,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="2"> </daw>
         </category>
         <category name="Articulations">
-            <daw name="Reaper" rating="6" link="reaper-articulation-management"> </daw>
-            <daw name="Digital Performer" rating="2"> </daw>
-			<daw name="Cubase" rating="10"> </daw>
+            <daw name="Reaper" rating="4" link="reaper-articulation-management"> </daw>
+            <daw name="DP" rating="2"> </daw>
+			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
-            <daw name="Logic" rating="9"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="0"> </daw>
+            <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
@@ -1344,14 +1358,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc> 
-     <admdc section="Scoring" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+     <admdc section="Scoring" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="General">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="4" link="pro-tools-scoring"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="4" link="pro-tools-scoring"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1361,11 +1375,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Printing">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0" link="studio-one-scoring"> </daw>
-            <daw name="Pro Tools" rating="3" link="pro-tools-scoring"> </daw>
+            <daw name="S1" rating="0" link="studio-one-scoring"> </daw>
+            <daw name="PT" rating="3" link="pro-tools-scoring"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1374,14 +1388,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category> 
 	</admdc>
-        <admdc section="Live Performance" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+        <admdc section="Live Performance" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="1st Party Controllers">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1391,11 +1405,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="3rd Party Controllers">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="3"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1405,11 +1419,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Clip Launching">
             <daw name="Reaper" rating="0" link="reaper-clip-launching"> </daw>
-            <daw name="Digital Performer" rating="8" link="dp-clip-launching"> </daw>
+            <daw name="DP" rating="8" link="dp-clip-launching"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1419,11 +1433,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Cue Preview">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1433,11 +1447,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Controller Mapping">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="4"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="2"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1447,11 +1461,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category> 
         <category name="Project Switching">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="2"> </daw>
@@ -1460,14 +1474,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="1"> </daw>
         </category> 
     </admdc>
-	<admdc section="Extensibility" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+	<admdc section="Extensibility" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Scripting">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="5"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
@@ -1477,11 +1491,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="VST2">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1491,11 +1505,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="VST3">
             <daw name="Reaper" rating="7"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1505,11 +1519,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="LV2">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1519,11 +1533,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Audio Units">
             <daw name="Reaper" rating="8" link="reaper-audio-units"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1533,11 +1547,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Other">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="1"> </daw>
+            <daw name="DP" rating="1"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="1"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="1"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1546,14 +1560,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc> 
-    <admdc section="Collaboration" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+    <admdc section="Collaboration" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="Remote Collaboration">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1563,11 +1577,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Local Collaboration">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="0"> </daw>
+            <daw name="DP" rating="0"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="9"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1577,11 +1591,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Project Interchange">
             <daw name="Reaper" rating="6"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="10"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1590,14 +1604,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="5"> </daw>
         </category>
     </admdc>
-    <admdc section="Looks" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Looks" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Themes">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1607,11 +1621,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Themability">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="2"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="1"> </daw>
@@ -1621,11 +1635,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Responsiveness">
             <daw name="Reaper" rating="7"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1635,11 +1649,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Zoom">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="10"> </daw>
+            <daw name="DP" rating="10"> </daw>
 			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
-            <daw name="Studio One" rating="0"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="0"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1649,11 +1663,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="HiDPI">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="10"> </daw>
-            <daw name="Pro Tools" rating="5"> </daw>
+            <daw name="S1" rating="10"> </daw>
+            <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1663,11 +1677,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Fluidity">
             <daw name="Reaper" rating="7"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="3"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="6"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1676,14 +1690,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="5"> </daw>
         </category>
     </admdc>
-    <admdc section="Learning" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Learning" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Manual">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="4"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="4"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1693,11 +1707,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="First-Party Learning">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1707,11 +1721,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Third-Party Learning">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="8"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="10"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="5"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1721,11 +1735,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Learning Curve">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="DP" rating="4"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="9"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1734,14 +1748,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="8"> </daw>
         </category>
     </admdc>
-    <admdc section="Meta" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="opinion">
+    <admdc section="Meta" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="opinion">
         <category name="Customer Support">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="10"> </daw>
-            <daw name="Studio One" rating="8"> </daw>
-            <daw name="Pro Tools" rating="10" link="pro-tools-support"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="10" link="pro-tools-support"> </daw>
             <daw name="Logic" rating="2"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="9"> </daw>
@@ -1751,11 +1765,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Software Updates">
             <daw name="Reaper" rating="9"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="10" link="cubase-updates"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="9"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="9"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1765,11 +1779,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Community Support">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="3" link="dp-support"> </daw>
+            <daw name="DP" rating="3" link="dp-support"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="5"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1779,11 +1793,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Community Cohesion">
             <daw name="Reaper" rating="4"> </daw>
-            <daw name="Digital Performer" rating="3"> </daw>
+            <daw name="DP" rating="3"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="7"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="9"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1793,11 +1807,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Bug Reporting">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="5"> </daw>
+            <daw name="DP" rating="5"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
-            <daw name="Pro Tools" rating="1"> </daw>
+            <daw name="S1" rating="2"> </daw>
+            <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="1"> </daw>
             <daw name="Reason" rating="3"> </daw>
 			<daw name="FLStudio" rating="8"> </daw>
@@ -1807,11 +1821,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Customization">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="6"> </daw>
+            <daw name="DP" rating="6"> </daw>
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="7"> </daw>
-            <daw name="Studio One" rating="3"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="3"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="1"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1821,11 +1835,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Changelogs">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="9"> </daw>
+            <daw name="DP" rating="9"> </daw>
 			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="3"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="7"> </daw>
@@ -1834,14 +1848,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="4"> </daw>
         </category>
     </admdc>
-    <admdc section="Subjective" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
+    <admdc section="Subjective" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
         <category name="Weirdness">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="4"> </daw>
+            <daw name="DP" rating="4"> </daw>
 			<daw name="Cubase" rating="1"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="2"> </daw>
-            <daw name="Pro Tools" rating="0"> </daw>
+            <daw name="S1" rating="2"> </daw>
+            <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="3"> </daw>
             <daw name="Reason" rating="8"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1851,11 +1865,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Comprehensibility">
             <daw name="Reaper" rating="2"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="5"> </daw>
 			<daw name="Waveform" rating="2"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="8"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="3"> </daw>
@@ -1865,11 +1879,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Fragility">
             <daw name="Reaper" rating="10"> </daw>
-            <daw name="Digital Performer" rating="7"> </daw>
+            <daw name="DP" rating="7"> </daw>
 			<daw name="Cubase" rating="10"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="7"> </daw>
 			<daw name="FLStudio" rating="10"> </daw>
@@ -1879,11 +1893,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Professionalism">
             <daw name="Reaper" rating="8"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="7"> </daw>
 			<daw name="Waveform" rating="3"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="7"> </daw>
             <daw name="Reason" rating="0"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1893,11 +1907,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Simplicity">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="1"> </daw>
+            <daw name="DP" rating="1"> </daw>
 			<daw name="Cubase" rating="2"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
-            <daw name="Studio One" rating="7"> </daw>
-            <daw name="Pro Tools" rating="4"> </daw>
+            <daw name="S1" rating="7"> </daw>
+            <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="8"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="7"> </daw>
@@ -1907,11 +1921,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Zealotry Inverted">
             <daw name="Reaper" rating="1"> </daw>
-            <daw name="Digital Performer" rating="8"> </daw>
+            <daw name="DP" rating="8"> </daw>
 			<daw name="Cubase" rating="6"> </daw>
 			<daw name="Waveform" rating="9"> </daw>
-            <daw name="Studio One" rating="6"> </daw>
-            <daw name="Pro Tools" rating="9"> </daw>
+            <daw name="S1" rating="6"> </daw>
+            <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
             <daw name="Reason" rating="2"> </daw>
 			<daw name="FLStudio" rating="0"> </daw>
@@ -1920,14 +1934,14 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="Mixbus" rating="9"> </daw>
         </category>
     </admdc>
-    <admdc section="Bias" weight="0" daws="Reaper,Digital Performer,Cubase,Waveform,Studio One,Pro Tools,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
+    <admdc section="Bias" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
         <category name="Preference">
             <daw name="Reaper" rating="-3"> </daw>
-            <daw name="Digital Performer" rating="-8"> </daw>
+            <daw name="DP" rating="-8"> </daw>
 			<daw name="Cubase" rating="-10"> </daw>
 			<daw name="Waveform" rating="-5"> </daw>
-            <daw name="Studio One" rating="-5"> </daw>
-            <daw name="Pro Tools" rating="-4"> </daw>
+            <daw name="S1" rating="-5"> </daw>
+            <daw name="PT" rating="-4"> </daw>
             <daw name="Logic" rating="-8"> </daw>
             <daw name="Reason" rating="-0"> </daw>
 			<daw name="FLStudio" rating="+1"> </daw>
@@ -1937,11 +1951,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="History">
             <daw name="Reaper" rating="-1"> </daw>
-            <daw name="Digital Performer" rating="-9"> </daw>
+            <daw name="DP" rating="-9"> </daw>
 			<daw name="Cubase" rating="-8"> </daw>
 			<daw name="Waveform" rating="-10"> </daw>
-            <daw name="Studio One" rating="-4"> </daw>
-            <daw name="Pro Tools" rating="-7"> </daw>
+            <daw name="S1" rating="-4"> </daw>
+            <daw name="PT" rating="-7"> </daw>
             <daw name="Logic" rating="-3"> </daw>
             <daw name="Reason" rating="-10"> </daw>
 			<daw name="FLStudio" rating="-1"> </daw>
@@ -1951,11 +1965,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Connections">
             <daw name="Reaper" rating="-3"> </daw>
-            <daw name="Digital Performer" rating="-8"> </daw>
+            <daw name="DP" rating="-8"> </daw>
 			<daw name="Cubase" rating="-8"> </daw>
 			<daw name="Waveform" rating="-6"> </daw>
-            <daw name="Studio One" rating="-1"> </daw>
-            <daw name="Pro Tools" rating="-2"> </daw>
+            <daw name="S1" rating="-1"> </daw>
+            <daw name="PT" rating="-2"> </daw>
             <daw name="Logic" rating="-3"> </daw>
             <daw name="Reason" rating="-5"> </daw>
 			<daw name="FLStudio" rating="-0"> </daw>
@@ -1965,11 +1979,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Frustration">
             <daw name="Reaper" rating="0"> </daw>
-            <daw name="Digital Performer" rating="-3"> </daw>
+            <daw name="DP" rating="-3"> </daw>
 			<daw name="Cubase" rating="-2"> </daw>
 			<daw name="Waveform" rating="-7"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="-1"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="-1"> </daw>
             <daw name="Logic" rating="-3"> </daw>
             <daw name="Reason" rating="-9"> </daw>
 			<daw name="FLStudio" rating="-5"> </daw>
@@ -1979,11 +1993,11 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         </category>
         <category name="Community Interactions">
             <daw name="Reaper" rating="5"> </daw>
-            <daw name="Digital Performer" rating="-4"> </daw>
+            <daw name="DP" rating="-4"> </daw>
 			<daw name="Cubase" rating="-2"> </daw>
 			<daw name="Waveform" rating="-3"> </daw>
-            <daw name="Studio One" rating="5"> </daw>
-            <daw name="Pro Tools" rating="-9"> </daw>
+            <daw name="S1" rating="5"> </daw>
+            <daw name="PT" rating="-9"> </daw>
             <daw name="Logic" rating="-20" link="logic-personal-community"> </daw>
             <daw name="Reason" rating="-5"> </daw>
 			<daw name="FLStudio" rating="-5"> </daw>
@@ -2038,7 +2052,7 @@ This rating includes the free scripts [Reaticulate](http://reaticulate.com) and 
 
 These are _free_ scripts that can be easily added to any Reaper installation.
 
-# Digital Performer Notes
+# DP Notes
 
 ## DP OOTB MIDI
 
@@ -2060,7 +2074,7 @@ DP doesn't have a dedicated monitor section, however it does have 'v-racks' whic
 
 ## DP Loop Recording
 
-Digital Performer gets a 10 for having both traditional loop/cycle recording _and_ [Polar](https://www.youtube.com/watch?v=D9EVgPdKIZ0).
+DP gets a 10 for having both traditional loop/cycle recording _and_ [Polar](https://www.youtube.com/watch?v=D9EVgPdKIZ0).
 
 [I also discuss Polar myself in another post]({% post_url 2016-12-10-Cool-Features-in-Digital-Performer...-Part-1 %}#polar)
 
@@ -2104,33 +2118,34 @@ As of Waveform 9.1.1, it appears that hardware inserts are bugged and do not ren
 
 I'm considering Waveform Ultimate for the included effects/synths rating.
 
-# Studio One Notes
+# S1 Notes
 
-## Studio One Track Templates
+## S1 Track Templates
 
-Studio One 4 introduced import data from song. You can now import tracks from other projects, or maintain a project with templates as you wish.
+S1 4 introduced import data from song. You can now import tracks from other projects, or maintain a project with templates as you wish.
 
-## Studio One Sequencing
+## S1 Sequencing
 
-Between Studio One's [scratch pad](https://s1manual.presonus.com/Content/Arranging_Topics/ScratchPad.htm), ripple editing and Song Window, I believe there is an argument to be made that emulating the "Sequencing of sequences" workflow can be emulated satisfactorily for most users.
+Between S1's [scratch pad](https://s1manual.presonus.com/Content/Arranging_Topics/ScratchPad.htm), ripple editing and Song Window, I believe there is an argument to be made that emulating the "Sequencing of sequences" workflow can be emulated satisfactorily for most users.
 
-# Studio One Automation Clips
 
-[Automation Clips can be emulated]({% post_url 2018-06-06-Automation-Regions-in-Studio-One %}) in Studio One, so I am counting that behaviour.
+# S1 Automation Clips
 
-# Pro Tools Notes
+[Automation Clips can be emulated]({% post_url 2018-06-06-Automation-Regions-in-Studio-One %}), so I am including that functionality in the rating.
 
-## Pro Tools Modes
+# PT Notes
 
-I am not considering extra automation features available in Pro Tools HD.
+## PT Modes
 
-## Pro Tools Support
+I am not considering extra automation features available in PT HD.
+
+## PT Support
 
 Since Avid offers paid support (which I have used a number of times), I am considering this for the rating. If you don't want to pay for support then Avid's support is fairly poor.
 
-## Pro Tools Scoring
+## PT Scoring
 
-Pro Tools has integration with [Sibelius](http://www.avid.com/en/sibelius), however that's a separate purchase. It is not considered in this rating.
+PT has integration with [Sibelius](http://www.avid.com/en/sibelius), however that's a separate purchase. It is not considered in this rating.
 # Logic Notes
 
 ## Logic UI Consistency

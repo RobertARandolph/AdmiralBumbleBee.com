@@ -106,9 +106,10 @@
     border: 1px solid #eee;
     border-radius: 5px;
     clear: both;
-    margin-top: 5px;
+    margin-top: 10px;
 
     @include media-query($on-palm) {
+        display: none;
         visibility: hidden;
         width: 0%;
     }
@@ -125,9 +126,10 @@
     border: 1px solid #eee;
     border-radius: 5px;
     clear: both;
-    margin-top: 5px;
+    margin-top: 10px;
 
     @include media-query($on-palm) {
+        display: none;
         visibility: hidden;
         width: 0%;
     }
@@ -436,24 +438,33 @@
     margin-left: 0;
     margin-bottom: 2em;
     background-color: $container-background;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
     border: 1px solid #eee;
     border-radius: 5px;
     list-style: none;
 
+    h2 {
+        margin-top: 0;
+    }
+
     iframe {
         max-width: 100%;
     }
+
 }
 
 .post-list {
     padding: 0px;
     margin: 0px;
-    margin-top: 5px;
+    margin-top: 10px;
     list-style: none;
 
     > li {
         margin-bottom: $spacing-unit;
+    }
+
+    .index-post img {
+        max-width: 850px;
     }
 
 }
@@ -461,11 +472,13 @@
 .post-meta {
     font-size: $small-font-size;
     color: $grey-color;
+    float: right;
 }
 
 .post-link {
     display: block;
     font-size: 24px;
+    float: left;
 }
 
 
@@ -477,10 +490,12 @@
 .post {
     margin-left: 0;
     margin-bottom: 2em;
+    margin-top: 10px;
     background-color: $container-background;
-    padding: 1em;
+    padding: 0 1em 1em 1em;
     border: 1px solid #eee;
     border-radius: 5px;
+    list-style: none;
 }
 
 .post-header {

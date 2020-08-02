@@ -13,7 +13,7 @@ header-caption: Live MIDI to Instrument Jitter
 
 [Studio One 5 is out!](https://www.presonus.com/press/press-releases/PreSonus-Studio-One-5) just came out!
 
-This would be an exciting day, if they managed to fix [one of the many **technical** issues](/tags.html#daw) with their product compared to the rest of the market, which they didn't.
+This would be an exciting day, if they managed to fix [one of the many **technical** issues](/tags/#DAW) with their product compared to the rest of the market, which they didn't.
 
 Let's look at one of the _most irritating_ and [long standing](http://expressiveness.org/2012/12/04/midi-jitter) audible, and testable problems with Studio One: MIDI Input Jitter.
 
