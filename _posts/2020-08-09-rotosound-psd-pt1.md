@@ -27,7 +27,7 @@ So let's get these strings on... **BUT DO NOT REMOVE YOUR OLD STRINGS YET**!
 
 # What are PSD
 
-o{::nomarkdown}
+{::nomarkdown}
 <a href="/assets/PianoStrings/PSD99.jpg">
 <img src="/assets/PianoStrings/Thumbnails/PSD99.jpg" alt="Rotosound PSD 98">
 </a>
