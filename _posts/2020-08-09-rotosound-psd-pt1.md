@@ -49,7 +49,7 @@ These strings do not have a ball end. One end is silked (the part that goes on y
 
 You certainly won't be _tying_ these on, so you you'll be constructing the ball end yourself.
 
-Why would you want to do this though? The gist of it is that strings are think. Thick things tend to have larger bend radiuses and resist movement. By reducing the bend radius at the saddle break point and reducing the damping effect of that thick string at the most important fulcrum, we can create a string with more high frequency harmonics, more sustain and a more stable pitch envelope.
+Why would you want to do this though? The gist of it is that strings are thick. Thick things tend to have larger bend radiuses and resist movement. By reducing the bend radius at the saddle break point and reducing the damping effect of that thick string at the most important fulcrum, we can create a string with more high frequency harmonics, more sustain and a more stable pitch envelope.
 
 # Tools
 
