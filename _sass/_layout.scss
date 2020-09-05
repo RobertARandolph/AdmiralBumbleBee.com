@@ -462,11 +462,6 @@
     > li {
         margin-bottom: $spacing-unit;
     }
-
-    .index-post img {
-        max-width: 850px;
-    }
-
 }
 
 .post-meta {
@@ -500,7 +495,16 @@
 
 .post-header {
     margin-bottom: $spacing-unit;
+    height: 3.2em;
 }
+
+.header-image a img {
+    max-width: 850px !important;
+    @include media-query($on-palm) {
+        max-width: 100% !important;
+    }
+}
+
 
 .post-title {
     font-size: 42px;
