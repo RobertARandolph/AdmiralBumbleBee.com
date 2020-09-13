@@ -1,9 +1,0 @@
-SetEnvIf Request_URI wp-login.php$ BackOffNow=1
-Order allow,deny
-Allow from all
-Deny from env=BackOffNow
-
-SetEnvIf Request_URI _/site/wp-login.php$ BackOffNow=1
-Order allow,deny
-Allow from all
-Deny from env=BackOffNow
