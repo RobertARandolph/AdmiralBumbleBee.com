@@ -7,3 +7,4 @@
 .jekyll-cache
 Main.code-workspace
 .vscode/settings.json
+_site/
