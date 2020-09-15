@@ -11,6 +11,17 @@ No Media. [See how to acquire the media assets](#media)
 * Run `bundle jekyll serve --livereload`
 * Go to [http://127.0.0.1:4000](http://127.0.0.1:4000) to enjoy the [media-less](#media) website.
 
+
+# How do I request a post/topic?
+
+You may create an [issue](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/issues) with your request. This will allow discussion, status updates and references to existing or finished articles.
+
+# There's a problem, and I don't want to fix it.
+
+That's cool. I dislike the pervasive "It's open source, fix it and submit a PR" mentality which expects consumers to become developers.
+
+[Create an issue](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/issues) and me or someone else will evaluate and take care of it as necessary.
+
 # How do I write a post?
 
 I use a script in the root called `create`. Use it as follows:
