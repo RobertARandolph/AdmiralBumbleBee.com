@@ -6,7 +6,7 @@ date:   2020-09-15_19:31:23
 categories: general
 tags: ['General']
 image:
-description:
+description: Open Source!
 header:
 header-caption:
 ---
@@ -46,21 +46,35 @@ This took almost 2 full weeks of evenings of git hackery. I had to:
   * This also means thinking about how to distribute the site to contributors once there's back and front end co-mingled.
 * Think about and select a license that I was happy with - It's not a permissive license, but it is sufficient for the purposes of the project.
 
+## Backend
+
+I'm still using some (even _more hacky than before_) scripts to post-process content before publish. I'll be slowly rewriting these tools and making them public.
+
+Maybe I'll even one day finish converting the site to my (still private) clojure-based static site system. The daunting task of changing over templating to a new system would be much easier with a few volunteers.
+
 # How do I...
 
 Hopefully all of your questions are [answered in the README](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/blob/master/README.md).
 
 If you have further questions then please [create an issue](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/issues) or [submit a pull request with your changes](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/pulls) (probably after discussing it with me or [on Discord](https://discord.gg/34cFzVn))
 
+# Does this mean that you expect **US** to write your articles?
 
+No. Though, I haven't put out anything substantive in a month, I don't expect anyone else to contribute. If you want to though... that'd be great. A style guide is something I'm thinking about to help facilitate this.
+
+# What about videos!
+
+I'm hoping that I can pre-publish scripts and some media assets for videos on github and get feedback.
+
+Otherwise, videos will still be something I do on my own.
 
 # Meta
 
 This post took:
 
-* 35 hours of screwing with git.
+* 35.5 hours of screwing with git and the wonderful [BFG](https://rtyley.github.io/bfg-repo-cleaner/)
 * 16 hours of re-planning future ideas (note taking, not 'real' planning)
-* 90 minutes writing this post.
+* 100 minutes writing this post.
 
  If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
 
