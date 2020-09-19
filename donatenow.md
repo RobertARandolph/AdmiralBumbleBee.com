@@ -24,6 +24,10 @@ I don't advertise my content anywhere but on my twitter, and two discord servers
 
 If you want to help the site out, one of the best things you can do is point people to articles that may help them. If I have an article that might be beneficial to someone, then let them know.
 
+## Contribute
+
+You can [create issues](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/issues) or contributed directly to the site [on Github](https://github.com/admiralbumblebee/AdmiralBumbleBee.com).
+
 ## Feedback
 
 Email me (audiolabs, gmail) or leave a comment on an article.
