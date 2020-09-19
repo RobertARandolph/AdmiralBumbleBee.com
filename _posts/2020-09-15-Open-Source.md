@@ -29,6 +29,12 @@ I get e-mails from developers and technical minded people that point out site is
 
 Github provides a better platform for these types of requests than private e-mails. It also allows consumers of the site to become developers and contributors _if they wish_. If you don't want to change anything, then you're free to simply [create an issue](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/issues) and walk away.
 
+## Yeah but... Why?
+
+The real reason is that I wanted some sort of platform for curious people to see what is happening on the site. Drafts in progress, changes in progress and a way for me to share content through some sort of sidechannel.
+
+It just so happens that open sourcing the site achieves this and a few other things that I realized are more valuable than my original goal.
+
 # Where
 
 [On Github](https://github.com/admiralbumblebee/AdmiralBumbleBee.com)
@@ -50,17 +56,19 @@ This took almost 2 full weeks of evenings of git hackery. I had to:
 
 I'm still using some (even _more hacky than before_) scripts to post-process content before publish. I'll be slowly rewriting these tools and making them public.
 
-Maybe I'll even one day finish converting the site to my (still private) clojure-based static site system. The daunting task of changing over templating to a new system would be much easier with a few volunteers.
+Maybe I'll even one day finish converting the site to my (still private) clojure-based static site system...
 
 # How do I...
 
-Hopefully all of your questions are [answered in the README](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/blob/master/README.md).
+Hopefully all of your questions are [answered in the README](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/blob/master/README.md). (They won't be, so... ask me!)
 
 If you have further questions then please [create an issue](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/issues) or [submit a pull request with your changes](https://github.com/admiralbumblebee/AdmiralBumbleBee.com/pulls) (probably after discussing it with me or [on Discord](https://discord.gg/34cFzVn))
 
+**NOTE** - I still manually deploy the site. I'll be investigating options for automatic deployment.
+
 # Does this mean that you expect **US** to write your articles?
 
-No. Though, I haven't put out anything substantive in a month, I don't expect anyone else to contribute. If you want to though... that'd be great. A style guide is something I'm thinking about to help facilitate this.
+No. Even though I haven't put out anything substantive in a month, I don't expect anyone else to contribute. If you want to though... that'd be great. A style guide is something I'm thinking about to help facilitate this.
 
 # What about videos!
 
@@ -74,7 +82,7 @@ This post took:
 
 * 35.5 hours of screwing with git and the wonderful [BFG](https://rtyley.github.io/bfg-repo-cleaner/)
 * 16 hours of re-planning future ideas (note taking, not 'real' planning)
-* 100 minutes writing this post.
+* 120 minutes writing this post.
 
  If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying us for the time spent bringing you quality content!</a>
 
