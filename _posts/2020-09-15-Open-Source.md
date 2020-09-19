@@ -7,8 +7,8 @@ categories: general
 tags: ['General']
 image:
 description: Open Source!
-header:
-header-caption:
+header: /assets/General/BeeDoor.png
+header-caption: I honestly have no clue what I'm doing here, I just wanted to make a cute image.
 ---
 
 [AdmiralBumbleBee.com is now Open Source!](https://github.com/admiralbumblebee/AdmiralBumbleBee.com)
@@ -32,6 +32,8 @@ Github provides a better platform for these types of requests than private e-mai
 ## Yeah but... Why?
 
 The real reason is that I wanted some sort of platform for curious people to see what is happening on the site. Drafts in progress, changes in progress and a way for me to share content through some sort of sidechannel.
+
+(**NOTE** - I removed about a dozen drafts that potentially violate NDAs or similar agreements. Some of the drafts published to the repo have more fleshed out versions on my disk that I haven't committed. _Don't expect the drafts folder to have anything meaningful yet!_ )
 
 It just so happens that open sourcing the site achieves this and a few other things that I realized are more valuable than my original goal.
 
