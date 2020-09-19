@@ -20,7 +20,7 @@ permalink: recentposts.html
 </form>
 
 <h2 class="recent-post-header">
-  <a href="/tags/?year=true" target="_parent">Recent Posts</a>
+  <a href="/tags/?year=true" target="_parent">Recent</a>
 </h2>
 {% assign i = 0 %}
 {% for post in site.posts limit:50 %}

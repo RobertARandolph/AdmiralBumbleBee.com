@@ -11,7 +11,7 @@ permalink: categories.html
 <body class="side-bar-body">
 
 <h2>
-<a class="tag" href="/tags/?tags=true" target="_parent">Categories</a>
+<a class="tag" href="/tags/?tags=true" target="_parent">Tags</a>
 </h2>
     <!-- Get the tag name for every tag on the site and set the to the `site_tags` variable. -->
     {% capture site_tags %}{% for tag in site.tags %}{{ tag | first }}{% unless forloop.last %},{% endunless %}{% endfor %}{%
