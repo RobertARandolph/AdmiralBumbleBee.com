@@ -234,6 +234,6 @@ This interview took 3 hours to do, 2 hours to edit and many hours of research to
 
 You know my donation options already, so go check out what they are doing!
 
-If you have any questions or comments, please comment below! I read every comment and respond to most.
+
 
 

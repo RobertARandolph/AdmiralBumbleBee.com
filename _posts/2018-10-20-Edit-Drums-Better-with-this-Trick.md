@@ -24,7 +24,7 @@ This process will work in nearly any DAW that allows you to stretch or warp audi
 
 <!--more-->
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 
 # Contents
 {:.no_toc}
@@ -215,5 +215,5 @@ If you can afford it, [then please support his fantastic work](https://www.paypa
 
 **WRITTEN IN** [VS Code](https://code.visualstudio.com). [See this post for more information]({% post_url 2018-10-06-Editor-Musings %}).
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 

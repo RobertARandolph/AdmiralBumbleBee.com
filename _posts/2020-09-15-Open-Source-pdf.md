@@ -1,5 +1,5 @@
 ---
-layout: pdf
+layout: post
 title: Open Source
 comments: true
 date:   2020-09-15_19:31:23 
@@ -85,3 +85,11 @@ This post took:
 * 35.5 hours of screwing with git and the wonderful [BFG](https://rtyley.github.io/bfg-repo-cleaner/)
 * 16 hours of re-planning future ideas (note taking, not 'real' planning)
 * 120 minutes writing this post.
+
+
+
+
+
+
+
+

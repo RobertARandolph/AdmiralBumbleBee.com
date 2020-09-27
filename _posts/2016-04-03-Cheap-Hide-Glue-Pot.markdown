@@ -41,13 +41,6 @@ Bonus tip #2: A 2:1 ratio of water to glue **by weight** offers an excellent wor
 
 If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992" data-patreon-widget-type="become-patron-button">Become a Patron!</a><script async src="https://c6.patreon.com/becomePatronButton.bundle.js"></script>
- 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-If you have any questions or comments, please comment below! I read every comment and respond to most.
+ 
+
