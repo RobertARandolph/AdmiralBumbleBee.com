@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/MIDIAdvanced.png
 description: A discussion of some advanced MIDI features in FLStudio.
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

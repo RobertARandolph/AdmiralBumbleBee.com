@@ -7,6 +7,7 @@ categories: music
 tags: ['DAW']
 image:
 description: How I write a review post.
+pdf: true
 ---
 
 In the comments section of [the last article]({% post_url 2019-04-12-Writing-music-in-Live %}), someone asked: "How do you spend the 45 days? How much of it is by-the-books feature evaluation and how much is actual real-life music making scenarios?"

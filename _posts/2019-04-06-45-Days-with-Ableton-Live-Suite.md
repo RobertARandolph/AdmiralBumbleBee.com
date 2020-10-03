@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Ableton/Intro.png
 description: 45 days or more with Ableton Live
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

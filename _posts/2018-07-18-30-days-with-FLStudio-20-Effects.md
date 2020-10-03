@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/Effects/EffectsOverview.png
 description: A review of every single effect in FLStudio. All of them.
 series: FLStudio
+pdf: true
 ---
 
   <script type="text/javascript" src="/admrb/admrb.js?v={{ site.time | date:'%s' }}"> </script>

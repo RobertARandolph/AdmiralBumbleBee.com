@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/VelocityMap.png
 description: MIDI controllers in FLStudio
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

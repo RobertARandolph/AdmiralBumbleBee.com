@@ -9,6 +9,7 @@ image: /assets/InfiniStrip/Banner2.png
 description: Everything about InfiniStrip... as far as I'm concerned.
 header: /assets/InfiniStrip/Banner2.png
 header-caption: InifiniStrip Review - Part 2
+pdf: true
 ---
 
 This article marks part 2, and the conclusion of, this review of [PSP's InfiniStrip](http://www.pspaudioware.com/plugins/dynamic_processors/psp_infinistrip/).

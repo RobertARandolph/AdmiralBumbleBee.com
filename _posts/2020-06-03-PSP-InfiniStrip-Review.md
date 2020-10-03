@@ -9,6 +9,7 @@ image: /assets/InfiniStrip/Banner1.png
 description: Review of PSP's InfiniStrip
 header: /assets/InfiniStrip/Banner1.png
 header-caption: InfiniStrip Controversy...
+pdf: true
 ---
 
 I've been working with this plugin for about 7 weeks, foiled twice by circumstances while trying to get this review out.

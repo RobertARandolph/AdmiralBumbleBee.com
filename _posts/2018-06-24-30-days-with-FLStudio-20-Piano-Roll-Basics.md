@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/FLPianoDrums.png
 description: Going through the basics of FLStudio's Piano roll
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

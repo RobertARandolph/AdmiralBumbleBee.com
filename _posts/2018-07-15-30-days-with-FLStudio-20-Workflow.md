@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/PatternFlow.png
 description: Discussing the FLStudio Workflow
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

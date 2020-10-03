@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Live/MIDIClip.png
 description: Editing in Ableton Live
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

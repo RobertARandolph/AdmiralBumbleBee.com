@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Live/Plugins/Instruments/DrumRack.png
 description: a bunch of mini-reviews on Live's stock plugins.
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

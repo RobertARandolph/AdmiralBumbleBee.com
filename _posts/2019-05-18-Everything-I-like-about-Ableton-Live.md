@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Live/Hardware.png
 description: Conclusion of the Live review series
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

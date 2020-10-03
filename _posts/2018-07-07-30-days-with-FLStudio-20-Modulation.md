@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/PeakController.png
 description: Making parameters move on their own in FLStudio
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

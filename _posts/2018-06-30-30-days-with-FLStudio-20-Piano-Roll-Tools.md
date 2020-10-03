@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image:
 description: Exploring the tools availabe in and with FLStudio's Piano Roll
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

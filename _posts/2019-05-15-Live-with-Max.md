@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Live/plugins/Max/MaxForLive.png
 description: Max for Live
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

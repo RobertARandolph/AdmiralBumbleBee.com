@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/FLLive.png
 description: A look at some live-performance features of FLStudio
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

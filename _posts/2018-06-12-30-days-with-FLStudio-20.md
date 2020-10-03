@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image:
 description: FLStudio 20 Review is coming!
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

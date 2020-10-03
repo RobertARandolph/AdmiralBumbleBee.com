@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image:
 description: FLStudio can be weird... let's get that sorted.
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

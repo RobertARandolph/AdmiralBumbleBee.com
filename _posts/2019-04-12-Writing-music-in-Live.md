@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Live/Looper.png
 description: Writing music with Ableton Live 10.1
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

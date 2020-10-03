@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/Instruments/FLInstruments.png
 description: Reviews of every single instrument in FLStudio
 series: FLStudio
+pdf: true
 ---
 
 

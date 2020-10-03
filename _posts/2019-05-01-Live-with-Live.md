@@ -8,6 +8,7 @@ tags: ['Ableton Live']
 image: /assets/Live/SmallSet.png
 description: Live for live use, a no-brainer... or is it?
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}

@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image:
 description: The last post in the FLStudio series.
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

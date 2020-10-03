@@ -8,6 +8,7 @@ tags: ['FLStudio', 'DAW']
 image: /assets/FLStudio/AudioExplain.png
 description: Audio Recording in FLStudio
 series: FLStudio
+pdf: true
 ---
 
 {::nomarkdown}

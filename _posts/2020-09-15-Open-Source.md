@@ -9,6 +9,7 @@ image:
 description: Open Source!
 header: /assets/General/BeeDoor.png
 header-caption: I honestly have no clue what I'm doing here, I just wanted to make a cute image.
+pdf: true
 ---
 
 [AdmiralBumbleBee.com is now Open Source!](https://github.com/admiralbumblebee/AdmiralBumbleBee.com)

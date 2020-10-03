@@ -8,6 +8,7 @@ categories: music
 image: /assets/Live/Mixer.png
 description: Mixing in Ableton Live
 series: ableton
+pdf: true
 ---
 
 {::nomarkdown}
