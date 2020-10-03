@@ -24,7 +24,7 @@ permalink: recentposts.html
 </h2>
 {% assign i = 0 %}
 {% for post in site.posts limit:50 %}
-  {% if post.visible != 0 %}
+  {% if post.visible != 0 and post.visible != false %}
   <div class="recent-post">
     <a class="recent-post-link" href="{{ post.url }}" target="_parent">{{ post.title }}</a>
   </div>

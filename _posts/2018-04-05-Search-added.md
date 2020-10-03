@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Search added
 comments: true
 date:   2018-04-05_11:15:36 

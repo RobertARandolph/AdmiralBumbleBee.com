@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The penultimate post of perturbances pertaining to Reaper
 comments: true
 date:   2017-04-20_14:23:20 
@@ -80,11 +80,5 @@ Reaper. Pfft.
 # Support me!
 
 This post took 45 minutes to research, laugh, write and edit. If you appreciate **this satire** then please donate! 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
 

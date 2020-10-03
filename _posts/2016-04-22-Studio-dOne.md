@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Giving Up on S1
 comments: true
 date:   2016-04-22_17:50:52 

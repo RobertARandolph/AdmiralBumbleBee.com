@@ -3,7 +3,7 @@ id: 402
 title: Sampling guitar with the Elektron Octatrack!
 date: 2014-04-23 08:56:28 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: music
 tags: Tutorial Octatrack

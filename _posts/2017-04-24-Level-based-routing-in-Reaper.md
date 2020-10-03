@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Level-based routing in Reaper
 comments: true
 date:   2017-04-24_16:57:46 
@@ -192,13 +192,7 @@ Of course you can also do some crazy things with LFO modulation, >4 channel rout
 
 This post took 4 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+
 
 

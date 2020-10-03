@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 1 more month of DAW Puns, Ardour
 comments: true
 date:   2016-08-21_08:01:30 

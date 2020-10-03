@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Walnut Combs
 comments: true
 date:   2016-07-16_14:26:09 

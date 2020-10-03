@@ -16,6 +16,7 @@ host: 0.0.0.0
 highlighter: rouge
 keep_files: ['assets']
 exclude: ['bundler_stubs', '.jekyll-cache']
+main_post_layout: post
 
 main_theme: main
 

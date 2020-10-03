@@ -1,0 +1,38 @@
+body {
+    background-color: $grey-color-dark;
+}
+.post-content {
+    margin-left: 20px;
+    h1,h2,h3,h4 {
+        display: inline-block;
+        border-bottom: 2px solid grey !important;
+        padding-bottom: 15px !important;
+        margin-top: 0px !important;
+        margin-bottom: 1em !important;
+    }
+}
+
+ul li {
+    padding-bottom: 10px;
+}
+
+#markdown-toc li {
+    padding-bottom: 0px;
+}
+
+.h1-style {
+  // Top level uses 20px margin-left
+  padding: 20px 20px 20px 0;
+
+  .h2-style {
+    padding: 20px;
+
+    .h3-style {
+      padding: 20px;
+
+      .h4-style {
+        padding: 20px;
+      }
+    }
+  }
+}

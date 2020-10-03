@@ -3,7 +3,7 @@ id: 409
 title: 'Tutorial: Live VST Effect performance in Renoise 3.0 with Glitch 2'
 date: 2014-04-27 17:28:25 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: music
 tags: Tutorial Renoise

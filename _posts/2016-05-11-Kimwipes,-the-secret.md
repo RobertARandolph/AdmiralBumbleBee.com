@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Kimwipes, the secret
 comments: true
 date:   2016-05-11_09:59:47 

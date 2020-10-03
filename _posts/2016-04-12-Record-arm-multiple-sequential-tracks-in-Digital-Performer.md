@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Record arm multiple sequential tracks in Digital Performer
 comments: true
 date:   2016-04-12_17:59:04 

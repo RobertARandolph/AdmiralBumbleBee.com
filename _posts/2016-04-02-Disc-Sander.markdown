@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "Simple lathe-based disc sander"
 date:   2016-04-02 14:43:21 -05:00
 comments: true

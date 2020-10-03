@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Interview with KiloHearts
 comments: true
 date:   2019-07-13_13:23:10 
@@ -18,7 +18,7 @@ We recently had an interview session with the fine people at [KiloHearts](https:
 
 <!--more-->
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 
 # Contents
 {:.no_toc}

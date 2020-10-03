@@ -3,7 +3,7 @@ id: 435
 title: Counterfeit Arduino nano fix(es)!
 date: 2014-12-15 20:44:37 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: Programming
 tags: Electronics Tutorial Programming
@@ -28,17 +28,8 @@ If you are getting the &#8220;avrdude: ser_recv(): programmer is not responding 
 
 Update: Amazon refunded the money for all my counterfeit TinkerVault Nanos even outside of the return time. Good going Amazon! (and thanks to &#8216;Calvin&#8217; from the India call center for his fast, polite and efficient help).
 
-# Support
 
-If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-If you have any questions or comments, please comment below! I read every comment and respond to most.
+

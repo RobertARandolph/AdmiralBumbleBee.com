@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Hurrican Irma
 comments: true
 date:   2017-09-09_10:38:16 

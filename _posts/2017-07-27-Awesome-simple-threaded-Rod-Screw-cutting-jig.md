@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Awesome yet simple Threaded Rod/Screw cutting jig
 comments: true
 date:   2017-07-27_11:40:05 
@@ -129,15 +129,9 @@ This jig takes about 2 minutes to make and allows you to accurately cut threaded
 
 This post took 45 minutes to research, photograph, write and edit. Probably because this jig is so easy and simple. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-If you have any questions or comments, please comment below! I read every comment and respond to most.
+
+
 
 

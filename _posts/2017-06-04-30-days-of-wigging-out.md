@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 days of wigging out
 comments: true
 date:   2017-06-04_11:55:15 

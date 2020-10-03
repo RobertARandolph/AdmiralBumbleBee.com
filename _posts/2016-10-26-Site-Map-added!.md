@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Site Map added!
 comments: true
 date:   2016-10-26_20:51:54 

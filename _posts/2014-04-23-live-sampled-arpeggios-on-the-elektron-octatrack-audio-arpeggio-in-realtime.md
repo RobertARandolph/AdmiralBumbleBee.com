@@ -3,7 +3,7 @@ id: 404
 title: 'Tutorial: Live sampled arpeggios on the Elektron Octatrack!'
 date: 2014-04-23 08:57:20 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: Music
 tags: Tutorial Octatrack

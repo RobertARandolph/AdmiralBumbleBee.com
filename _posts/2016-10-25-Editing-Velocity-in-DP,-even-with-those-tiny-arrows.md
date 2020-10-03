@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Editing Velocity in DP, even with those tiny arrows
 comments: true
 date:   2016-10-25_15:15:08 

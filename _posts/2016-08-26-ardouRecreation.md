@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Ardour review update
 comments: true
 date:   2016-08-26_14:17:49 

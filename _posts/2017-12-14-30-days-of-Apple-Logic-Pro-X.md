@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 days of Apple Logic Pro X
 comments: true
 date:   2017-12-14_14:36:06 

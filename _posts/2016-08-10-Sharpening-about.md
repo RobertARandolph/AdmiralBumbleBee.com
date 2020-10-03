@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Sharpening about
 comments: true
 date:   2016-08-10_15:37:22 

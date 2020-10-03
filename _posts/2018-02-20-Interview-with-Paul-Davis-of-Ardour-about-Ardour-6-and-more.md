@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Interview with Paul Davis of Ardour about Ardour 6.0 and more
 comments: true
 date:   2018-02-20_17:54:38 
@@ -234,6 +234,6 @@ This interview took 3 hours to do, 2 hours to edit and many hours of research to
 
 You know my donation options already, so go check out what they are doing!
 
-If you have any questions or comments, please comment below! I read every comment and respond to most.
+
 
 

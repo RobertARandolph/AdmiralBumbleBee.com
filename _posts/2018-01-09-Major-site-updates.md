@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Major site updates
 comments: true
 date:   2018-01-09_14:54:15 

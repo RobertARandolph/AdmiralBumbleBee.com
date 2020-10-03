@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: rapid environment for audio production, engineering, and recording
 comments: true
 date:   2016-10-24_12:26:54 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 3 Steps to clean paint and finish cans
 comments: true
 date:   2016-11-06_20:42:31 

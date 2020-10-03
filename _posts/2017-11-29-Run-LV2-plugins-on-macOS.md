@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Run LV2 plugins on macOS
 comments: true
 date:   2017-11-29_14:18:23 
@@ -219,6 +219,6 @@ Currently there aren't too many mac-compatible LV2 plugins. The [awesome x42 plu
 
 This post took 9 hours to research, test, write and edit. [Robin Gareus](https://github.com/x42) was extremely helpful during this time in helping tracking down a bug in lv2vst as well as helping me understand how to operate it. If you appreciate the information presented then please donate or drop a line to Robin to let him know that you appreciate his work! 
 
-If you have any questions or comments, please comment below! I read every comment and respond to most.
+
 
 

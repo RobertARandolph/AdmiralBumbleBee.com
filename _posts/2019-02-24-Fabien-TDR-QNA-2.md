@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Question and Answer with Fabien Schivre from Tokyo Dawn, Again!
 comments: true
 date:   2019-02-24_15:08:35 
@@ -30,7 +30,7 @@ Click through for the whole Q&A as I've transcribed it.
 
 <!--more-->
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 
 # Contents
 {:.no_toc}
@@ -284,16 +284,10 @@ But field testing is mostly compensated in a symbolic manner, nobody gets forced
 
 This post took 2.5 hours to transcribe and host the Q&A. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or paying me for my time spent bringing you quality content!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
+
 
 Please check out [TokyoDawn](https://www.tokyodawn.net) as well! Great music and great software.
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 

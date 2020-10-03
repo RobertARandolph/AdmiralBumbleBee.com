@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: First Topwater Lure
 comments: true
 date:   2016-06-27_08:52:59 

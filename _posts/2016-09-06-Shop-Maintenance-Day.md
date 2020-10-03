@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Shop Maintenance Day
 comments: true
 date:   2016-09-06_09:50:17 

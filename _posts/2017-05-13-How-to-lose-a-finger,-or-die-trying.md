@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How to lose a finger, or die trying
 comments: true
 date:   2017-05-13_09:11:57 

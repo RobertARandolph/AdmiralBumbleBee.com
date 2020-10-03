@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: And the winner is.
 comments: true
 date:   2016-08-03_18:20:39 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reaper - When does Stockholm Syndrome kick in?
 comments: true
 date:   2016-10-24_14:49:03 

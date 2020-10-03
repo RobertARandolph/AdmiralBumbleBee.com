@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Free Bandsaw Tire Brush
 comments: true
 date:   2016-11-25_14:43:10 

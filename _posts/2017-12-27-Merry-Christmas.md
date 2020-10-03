@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Merry Christmas!
 comments: true
 date: 2017-12-27_11:24:27 

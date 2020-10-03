@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Waveform: the good, the bad, the weird. - Version 9.1.1, Part 10: Conclusion"
 comments: true
 date:   2018-04-11_10:23:06 
@@ -34,7 +34,7 @@ I'm done with my Waveform Review. So now it's time for me to publish my final th
 
 <!--more-->
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 
 # Contents
 {:.no_toc}
@@ -97,14 +97,8 @@ I'm adding Waveform to my arsenal. Replacing Renoise. Will add more Waveform con
 
 This series took 89 hours to write, research, edit and screenshot. It took 356 hours total to put together including time using the software. (8 hours a day for 42 days straight!) If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
+
 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DAW Chart Update
 comments: true
 date:   2018-07-30_14:31:46 

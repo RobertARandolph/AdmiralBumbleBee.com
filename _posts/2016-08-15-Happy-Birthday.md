@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Happy Birthday
 comments: true
 date:   2016-08-15_08:37:43 

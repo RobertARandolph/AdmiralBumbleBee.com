@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 days of Mixbus 32c 4.1
 comments: true
 date:   2017-08-02_20:24:29 

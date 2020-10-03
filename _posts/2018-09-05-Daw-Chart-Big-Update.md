@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Daw Chart Big Update
 comments: true
 date:   2018-09-05_20:14:01 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 4: Advanced Piano Roll"
 comments: true
 date:   2018-06-27_15:00:54 
@@ -34,7 +34,7 @@ There's still another post to go in this mini-series though, so don't think this
 
 <!--more-->
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
 
 # Contents
 {:.no_toc}
@@ -363,14 +363,8 @@ There's still one more part to go in the MIDI mini-series: MIDI Tools.
 
 This post took 11 hours to research, screenshot, write and edit. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
 
-<a href="https://www.patreon.com/bePatron?u=7465992"> <img class="patreon-button" src="/assets/Patreon.png" alt="Be a Patreon!"></a>
 
-<form style="text-align: center;" action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-<input type="hidden" name="cmd" value="_s-xclick">
-<input type="hidden" name="hosted_button_id" value="BR247JAZBTUJJ">
-<input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
-<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
-</form>
 
-**If you have any questions or comments, please comment below! I read every comment and respond to most.** No registration is necessary to comment, so don't be shy.
+
+
 

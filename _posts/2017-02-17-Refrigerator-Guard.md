@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Refrigerator Guard
 comments: true
 date:   2017-02-17_08:04:41 
