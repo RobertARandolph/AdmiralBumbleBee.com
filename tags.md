@@ -71,7 +71,7 @@ to the `site_tags` variable. -->
            <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
            {% for post in site.tags[this_word] reversed %}
            {% if post.title != null %}
-             {% if post.visible != 0 %}
+             {% if post.visible != 0 and post.visible != false %}
              <div>
                <span>
                 {{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a>

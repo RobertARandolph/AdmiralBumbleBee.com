@@ -6,7 +6,7 @@ layout: default
   <div class="post-list">
     {% for i in (0..10) %}
     {% assign post = site.posts[i] %}
-      {% if post.visible != 0 %}
+      {% if post.visible != 0 and post.visible != false %}
      <div class="index-post">
       <header class="post-header">
           <span class="post-meta">{{ post.date | date: "%c" }}</span>
