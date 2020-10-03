@@ -1,0 +1,9 @@
+!#/bin/bash
+
+# Builds the site and generates PDFs for articles
+generate-pdfs
+
+# upload the site to the server
+# Shell alias for the below command
+# "rsync -aP -e 'ssh -p 32000' /my/local/path/AdmiralBumbleBee.com/_site/ uesr@myserver.com:/var/www/admiralbumblebee.com/"
+upload
