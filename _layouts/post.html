@@ -49,7 +49,12 @@ function func1 () {
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <span class="post-meta">{{ page.date | date: "%c" }}</span>
+    <span class="post-meta">{{ page.date | date: "%c" }}
+      <br/>
+        <span class="post-versions">
+          <a href="{{ page.slug }}_reader.html">Reader</a> — <a href="{{ page.slug }}.pdf">PDF</a>
+        </span>
+    </span>
     <h2 class="no-container">
       <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ page.title }}</a>
     </h2>
@@ -64,6 +69,7 @@ function func1 () {
     <div class="image-caption">{{ page.header-caption }}</div>
   </span>
   {% endif %}
+
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
