@@ -1,0 +1,31 @@
+#!/bin/bash
+
+if ! [ -x "$(command -v wkhtmltopdf)" ];then
+  echo "wkhtmltopdf is needed. Get it, ya dork."
+  exit 1
+else
+  jekyll build
+  pushd _site/
+  tput setaf 2;echo "New Server.";tput setaf 7;
+  nohup python -m SimpleHTTPServer 8000 &
+  
+  
+  input="pdf.log"
+  while IFS= read -r line
+  do
+    clean=${line//\_reader/}
+    input=http://127.0.0.1:8000/$line
+    output=${clean%.*}.pdf
+    tput setaf 5;echo "Generating $output from $input";tput setaf 7;
+    cmd="wkhtmltopdf $input $output"
+    eval "$cmd"
+  done < "$input"
+fi
+
+function clean {
+  lsof -t -i tcp:8000 | xargs kill -9
+  unset -f restartlivedatomicdocs
+  tput setaf 6;echo "Cleanup Complete"
+}
+
+trap clean EXIT
