@@ -6,7 +6,7 @@ require 'open3'
 
 Jekyll::Hooks.register :posts, :post_write do |post|
   if post.data["pdf"]
-    if post.data["layout"] == "reader"
+    if post.data["layout"] == "reader" and post.data["pdf"] == true
       filename = "_site" + post.url
       dirname = File.dirname(filename)
       unless File.directory?(dirname)

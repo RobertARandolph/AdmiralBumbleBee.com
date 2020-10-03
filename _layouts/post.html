@@ -52,7 +52,10 @@ function func1 () {
     <span class="post-meta">{{ page.date | date: "%c" }}
       <br/>
         <span class="post-versions">
-          <a href="{{ page.slug }}_reader.html">Reader</a> — <a href="{{ page.slug }}.pdf">PDF</a>
+          <a href="{{ page.slug }}_reader.html">Reader</a>
+          {% if page.pdf %}
+           — <a href="{{ page.slug }}.pdf">PDF</a>
+          {% endif %}
         </span>
     </span>
     <h2 class="no-container">
