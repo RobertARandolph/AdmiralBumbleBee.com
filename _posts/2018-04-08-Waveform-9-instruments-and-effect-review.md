@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 9: Instruments and Effect Review'
 comments: true
 date:   2018-04-08_09:36:28 

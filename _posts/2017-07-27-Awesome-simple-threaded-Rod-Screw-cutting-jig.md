@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Awesome yet simple Threaded Rod/Screw cutting jig
 comments: true
 date:   2017-07-27_11:40:05 

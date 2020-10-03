@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How to easily hold threaded rod for cutting and filing
 comments: true
 date:   2016-10-09_16:10:43 

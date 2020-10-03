@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Mastering QNA Justin
 comments: true
 date:   2018-10-06_17:44:14 

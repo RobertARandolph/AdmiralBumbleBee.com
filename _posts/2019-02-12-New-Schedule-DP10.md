@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: New Schedule and DP10
 comments: true
 date:   2019-02-12_16:14:15 

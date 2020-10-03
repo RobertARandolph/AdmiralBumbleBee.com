@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Changing Rotosound PSD Bass Strings - Part 1?
 comments: true
 date:   2020-08-09_10:16:28 

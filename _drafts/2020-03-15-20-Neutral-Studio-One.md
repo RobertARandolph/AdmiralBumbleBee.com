@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 20 Lukewarm Things about Studio One
 comments: true
 date:   2020-03-15_07:27:39 

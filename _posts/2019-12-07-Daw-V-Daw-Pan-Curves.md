@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "DAW v DAW - Part 6: Pan Laws and Pan Curves"
 comments: true
 date:   2019-12-08_07:19:32 

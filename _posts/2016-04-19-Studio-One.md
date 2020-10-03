@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One initial impressions
 comments: true
 date:   2016-04-19_15:03:50 

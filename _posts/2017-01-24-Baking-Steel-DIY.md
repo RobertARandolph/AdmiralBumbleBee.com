@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Baking Steel DIY
 comments: true
 date:   2017-01-24_13:26:56 

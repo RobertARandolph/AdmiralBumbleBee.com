@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 8: Clip Layer FX, Multisampler, Scripting, Project Management and more'
 comments: true
 date:   2018-04-03_07:44:20 

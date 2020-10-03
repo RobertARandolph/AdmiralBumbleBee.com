@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The Great DAW Neurosis
 comments: true
 date:   2016-08-04_11:00:37 

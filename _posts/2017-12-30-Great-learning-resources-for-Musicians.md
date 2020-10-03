@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Great learning resources for Musicians
 comments: true
 date:   2017-12-30_10:31:24 

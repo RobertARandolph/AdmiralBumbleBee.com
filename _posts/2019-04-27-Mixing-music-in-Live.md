@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Mixing music in Ableton Live: An Overview"
 comments: true
 date:   2019-04-27_09:06:51 

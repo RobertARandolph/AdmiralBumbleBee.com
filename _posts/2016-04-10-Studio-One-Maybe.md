@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Trying Studio One for a month, maybe? 
 comments: true
 date: 2016-04-10 10:27:49 -05:00

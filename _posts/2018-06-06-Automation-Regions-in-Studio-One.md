@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Automation Regions in Studio One
 comments: true
 date:   2018-06-06_09:17:54 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Drum sticks exotic
 comments: true
 date:   2016-12-26_14:17:24 

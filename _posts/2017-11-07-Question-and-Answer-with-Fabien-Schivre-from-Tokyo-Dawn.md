@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Question and Answer with Fabien Schivre from Tokyo Dawn
 comments: true
 date:   2017-11-07_11:16:09 

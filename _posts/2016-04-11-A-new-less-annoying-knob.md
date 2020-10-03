@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: A new less annoying knob
 comments: true
 date:   2016-04-11_15:00:50 

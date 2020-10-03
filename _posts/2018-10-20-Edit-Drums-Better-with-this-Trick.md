@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Edit Drums Better with this Trick"
 comments: true
 date:   2018-10-20_02:06:21 

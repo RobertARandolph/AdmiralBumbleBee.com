@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Axiom Sound Samples
 comments: true
 date:   2018-04-15_09:55:20 

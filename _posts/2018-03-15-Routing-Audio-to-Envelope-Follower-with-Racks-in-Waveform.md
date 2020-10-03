@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Routing Audio to Envelope Follower with Racks in Waveform
 comments: true
 date:   2018-03-15_10:56:48 

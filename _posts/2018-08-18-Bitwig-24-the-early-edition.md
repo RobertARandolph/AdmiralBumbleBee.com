@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Bitwig 2.4 - The Early Edition - and conclusions"
 comments: true
 date:   2018-08-18_10:46:26 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: One drill press insert trick you must know to impress your friends!
 comments: true
 date:   2016-05-19_08:39:01 

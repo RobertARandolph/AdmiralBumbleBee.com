@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Site Updates
 comments: true
 date:   2020-05-09_10:25:33 

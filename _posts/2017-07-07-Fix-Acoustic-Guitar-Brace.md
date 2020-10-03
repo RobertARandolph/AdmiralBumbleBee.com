@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DIY Fix or re-glue Acoustic Guitar Brace
 comments: true
 date:   2017-07-07_15:02:26 

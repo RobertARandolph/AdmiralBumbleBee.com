@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: macOS Catalina Speech to Text
 comments: true
 date:   2020-03-15_10:27:49 

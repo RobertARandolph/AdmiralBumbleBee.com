@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Bitwig first impressions"
 comments: true
 date:   2017-06-07_14:43:10 

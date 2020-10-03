@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One effects review
 comments: true
 date:   2016-05-31_07:44:47 

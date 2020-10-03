@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Check out this one little hack that "Big Drumming" doesn't want you to know about.
 comments: true
 date:   2016-06-24_10:53:00 

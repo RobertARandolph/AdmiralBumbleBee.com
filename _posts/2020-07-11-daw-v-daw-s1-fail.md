@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "DAW v DAW - Part 7.1: Studio One 5 Live Jitter"
 comments: true
 date:   2020-07-11_10:06:08 

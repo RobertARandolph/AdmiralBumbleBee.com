@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 Days with Ardour, again. Version 5.12
 comments: true
 date:   2017-10-26_11:38:08 

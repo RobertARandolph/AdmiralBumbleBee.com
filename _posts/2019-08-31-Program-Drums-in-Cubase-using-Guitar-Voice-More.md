@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Program Drums in Cubase using guitar, voice and more'
 comments: true
 date:   2019-08-31_08:24:40 

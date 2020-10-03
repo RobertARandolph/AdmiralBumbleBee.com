@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Design Update
 comments: true
 date:   2019-08-03_13:49:22 

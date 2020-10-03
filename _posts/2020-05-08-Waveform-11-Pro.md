@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Waveform 11 Pro Review
 comments: true
 date:   2020-05-09_15:30:38 

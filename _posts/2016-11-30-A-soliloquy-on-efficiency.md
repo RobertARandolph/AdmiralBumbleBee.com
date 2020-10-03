@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: A soliloquy on efficiency
 comments: true
 date:   2016-11-30_13:29:49 

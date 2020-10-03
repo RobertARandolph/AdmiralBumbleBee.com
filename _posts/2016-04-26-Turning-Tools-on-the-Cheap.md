@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Turning Tools on the Cheap
 comments: true
 date:   2016-04-26_06:37:03 

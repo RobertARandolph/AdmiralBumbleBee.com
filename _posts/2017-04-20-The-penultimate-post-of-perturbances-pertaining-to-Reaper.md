@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The penultimate post of perturbances pertaining to Reaper
 comments: true
 date:   2017-04-20_14:23:20 

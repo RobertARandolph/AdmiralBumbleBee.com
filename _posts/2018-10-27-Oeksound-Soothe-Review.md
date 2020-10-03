@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Oeksound Soothe Review
 comments: true
 date:   2018-10-27_08:23:21 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reaper's Amazing, and Awful, Almost Anything to Anywhere Avenues (routing)
 comments: true
 date:   2017-04-18_08:30:08 

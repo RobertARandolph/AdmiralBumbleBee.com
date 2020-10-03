@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Mobile Updates
 comments: true
 date:   2017-06-27_17:42:22 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Mixing in Reaper Review
 comments: true
 date:   2018-08-01_09:37:54 

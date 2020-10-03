@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Review of Mixbus Effect Plugins
 comments: true
 date:   2017-09-30_10:04:32 

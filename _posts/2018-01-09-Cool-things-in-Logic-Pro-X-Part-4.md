@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cool things in Logic Pro X Part 4
 comments: true
 date:   2018-01-09_09:39:48 

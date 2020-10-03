@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Bitwig Instruments, Note Effects and Instrument Containers Review"
 comments: true
 date:   2017-06-29_06:04:16 

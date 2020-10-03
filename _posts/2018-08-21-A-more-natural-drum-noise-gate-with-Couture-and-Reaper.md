@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: A more natural drum noise gate with Couture and Reaper
 comments: true
 date:   2018-08-21_10:30:46 

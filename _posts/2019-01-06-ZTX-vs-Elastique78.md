@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'ZTX vs. Elastique AKA Digital Performer vs. THE WORLD. 78%'
 comments: true
 date:   2019-01-06_15:14:07 

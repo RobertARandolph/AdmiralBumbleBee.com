@@ -3,7 +3,7 @@ id: 424
 title: 'Tutorial: The LFO Meta Device in Renoise 3.0'
 date: 2014-04-27 17:30:57 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: Music
 tags: Tutorial Renoise

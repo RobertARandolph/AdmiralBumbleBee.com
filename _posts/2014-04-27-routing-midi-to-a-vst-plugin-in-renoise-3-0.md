@@ -3,7 +3,7 @@ id: 407
 title: 'Tutorial: Routing midi to a VST Plugin in Renoise 3.0'
 date: 2014-04-27 17:27:48 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: Music
 tags: Tutorial Renoise

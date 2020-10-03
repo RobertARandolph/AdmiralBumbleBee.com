@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Things that Bitwig could improve."
 comments: true
 date:   2017-07-02_09:54:26 

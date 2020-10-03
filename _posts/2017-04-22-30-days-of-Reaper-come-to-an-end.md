@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 days of Reaper come to an end
 comments: true
 date:   2017-04-22_14:39:32 

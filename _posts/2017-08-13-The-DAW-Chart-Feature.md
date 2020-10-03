@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The DAW Chart Feature
 comments: true
 date:   2017-08-13_15:38:13 

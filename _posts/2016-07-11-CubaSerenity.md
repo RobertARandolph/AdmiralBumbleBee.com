@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: More features I like in Cubase 8.5
 comments: true
 date:   2016-07-11_11:17:28 

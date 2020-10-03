@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 20 features from Ardour/Mixbus 6 that I wish every DAW had.
 comments: true
 date:   2020-02-25_10:44:35 

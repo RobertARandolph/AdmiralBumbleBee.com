@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Another new feature
 comments: true
 date:   2017-02-02_14:11:14 

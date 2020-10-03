@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Knots for Drum Mic Setup - Recorderman, Glyn Johns and Bumblebee methods
 comments: true
 date:   2018-11-06_12:37:07 

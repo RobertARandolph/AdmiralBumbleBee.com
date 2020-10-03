@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The Great Flood
 comments: true
 date:   2019-09-29_12:00:30 

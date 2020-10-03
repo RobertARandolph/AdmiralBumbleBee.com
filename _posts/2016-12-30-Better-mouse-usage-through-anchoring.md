@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Better mouse usage through anchoring
 comments: true
 date:   2016-12-30_14:01:40 

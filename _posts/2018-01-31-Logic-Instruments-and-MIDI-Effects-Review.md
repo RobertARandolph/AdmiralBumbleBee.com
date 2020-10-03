@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Logic Instruments and MIDI Effects Review
 comments: true
 date:   2018-01-31_16:17:23 

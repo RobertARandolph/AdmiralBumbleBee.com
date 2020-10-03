@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Mixbus MIDI Editing
 comments: true
 date:   2017-10-15_14:22:05 

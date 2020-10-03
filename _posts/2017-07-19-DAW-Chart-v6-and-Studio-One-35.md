@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DAW Chart v6 and Studio One 3.5
 comments: true
 date:   2017-07-19_12:59:22 

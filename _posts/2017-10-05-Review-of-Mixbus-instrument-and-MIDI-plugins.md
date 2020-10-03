@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Review of Mixbus instrument and MIDI plugins
 comments: true
 date:   2017-10-06_14:44:25 

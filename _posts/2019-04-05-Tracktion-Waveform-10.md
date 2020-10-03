@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Tracktion Waveform - Version 10.1.0'
 comments: true
 date:   2019-04-05_14:28:59 

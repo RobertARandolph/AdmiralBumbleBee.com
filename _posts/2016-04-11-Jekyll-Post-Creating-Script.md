@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Jekyll Post Creating Script
 comments: true
 date:   2016-04-11_11:00:50
@@ -27,7 +27,7 @@ done
 
 cat <<EOF > _posts/$_filename.md
 ---
-layout: post
+layout: ['post', 'reader']
 title: $_postname
 comments: true
 date:   $(date +%F_%T) 

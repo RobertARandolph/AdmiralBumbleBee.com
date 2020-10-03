@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Hornet Autogain and Christmas
 comments: true
 date:   2019-12-25_11:14:19 

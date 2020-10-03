@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Level-based routing in Reaper
 comments: true
 date:   2017-04-24_16:57:46 

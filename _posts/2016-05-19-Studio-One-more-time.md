@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One more time
 comments: true
 date:   2016-05-19_20:10:25 

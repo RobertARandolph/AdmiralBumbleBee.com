@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Another tale of fantastic customer interaction - TBProAudio
 comments: true
 date:   2017-12-11_11:36:04 

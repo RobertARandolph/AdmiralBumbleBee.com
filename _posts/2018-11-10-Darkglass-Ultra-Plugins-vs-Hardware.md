@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Darkglass Ultra Plugins vs Hardware
 comments: true
 date:   2018-11-10_10:10:43 

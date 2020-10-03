@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 4: Pattern Generator, Edit Clips, Folder editing, Chord Track'
 comments: true
 date:   2018-03-21_11:59:48 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "REAPER's amazing menu system, Really!"
 comments: true
 date:   2018-10-13_12:21:20 

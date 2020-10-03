@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Things that I really dislike about Reaper
 comments: true
 date:   2017-04-04_08:14:06 

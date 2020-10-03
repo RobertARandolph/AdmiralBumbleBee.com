@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Cut size - a rant about getting things done'
 comments: true
 date:   2018-09-11_11:27:15 

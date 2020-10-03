@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "The top 10: Overlooked Mixing Features in Cubase"
 comments: true
 date:   2019-07-25_15:23:19 

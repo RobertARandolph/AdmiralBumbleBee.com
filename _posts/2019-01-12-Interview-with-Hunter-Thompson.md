@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Interview with Hunter Thompson
 comments: true
 date: 2019-01-12_15:57:40 

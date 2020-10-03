@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reaper macro controls, the cool way
 comments: true
 date:   2017-11-30_14:01:32 

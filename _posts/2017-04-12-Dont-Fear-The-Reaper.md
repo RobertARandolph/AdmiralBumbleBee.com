@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Don't fear the Reaper
 comments: true
 date:   2017-04-12_12:14:17 

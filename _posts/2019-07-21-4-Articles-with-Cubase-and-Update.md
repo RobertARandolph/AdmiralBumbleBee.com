@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 4 Articles with Cubase and General Update
 comments: true
 date:   2019-07-21_14:32:03 

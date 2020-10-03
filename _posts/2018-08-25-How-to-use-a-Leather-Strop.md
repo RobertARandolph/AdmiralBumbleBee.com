@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'How to use, and buy, a Leather Strop'
 comments: true
 date:   2018-08-25_12:40:43 

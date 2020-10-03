@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Wood cutting macro photographs
 comments: true
 date:   2017-09-22_10:02:50 

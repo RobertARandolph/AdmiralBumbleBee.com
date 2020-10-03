@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reminders save the environment
 comments: true
 date:   2016-11-15_13:30:00 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Blue Cat Axiom Plugin Review
 comments: true
 date:   2018-04-15_12:03:37 

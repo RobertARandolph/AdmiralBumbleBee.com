@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 3: Piano Roll basics"
 comments: true
 date:   2018-06-24_09:46:03 

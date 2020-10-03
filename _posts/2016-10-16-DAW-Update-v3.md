@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DAW Update v3
 comments: true
 date:   2016-10-16_15:55:44 

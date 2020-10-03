@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Right in the Bunghole with Kali Audio LP8s"
 comments: true
 date:   2019-06-15_15:22:20 

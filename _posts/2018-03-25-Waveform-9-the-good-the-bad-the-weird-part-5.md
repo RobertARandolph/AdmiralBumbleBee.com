@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 5: Step Clips, Loops, Clip Linking, Loop Recording, Track Presets'
 comments: true
 date:   2018-03-25_09:25:17 

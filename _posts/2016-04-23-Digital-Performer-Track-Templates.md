@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Digital Performer Track Templates
 comments: true
 date:   2016-04-23_20:13:47 

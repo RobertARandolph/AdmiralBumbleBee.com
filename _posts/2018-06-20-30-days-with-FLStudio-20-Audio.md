@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 2: Recording and Editing Audio"
 comments: true
 date:   2018-06-20_11:29:05 

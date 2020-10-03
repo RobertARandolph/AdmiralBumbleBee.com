@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: PSP InfiniStrip Review - Part 1
 comments: true
 date:   2020-06-03_14:10:00 

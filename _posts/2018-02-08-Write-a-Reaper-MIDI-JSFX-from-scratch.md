@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How to write a Reaper MIDI JSFX from scratch - A guide for the COMPLETE newbie
 comments: true
 date:   2018-02-08_11:22:16 

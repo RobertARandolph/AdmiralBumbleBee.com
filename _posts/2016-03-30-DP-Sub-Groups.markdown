@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "How to easily create sub-groups in Digital Performer"
 date:   2016-03-30 8:32:51 -05:00
 comments: true

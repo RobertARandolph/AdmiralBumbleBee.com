@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Digital Performer 10.1
 comments: true
 date:   2019-12-10_17:33:20 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Bitwig feature review - Note Expression"
 comments: true
 date:   2017-06-16_11:37:41 

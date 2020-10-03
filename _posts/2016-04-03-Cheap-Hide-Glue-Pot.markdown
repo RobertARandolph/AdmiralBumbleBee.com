@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "A cheap, and very good, hide glue pot"
 comments: true
 date:   2016-04-03 12:30:21 -05:00

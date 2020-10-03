@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Line6 Helix Native - Reviewed"
 comments: true
 date:   2018-09-07_11:16:48 

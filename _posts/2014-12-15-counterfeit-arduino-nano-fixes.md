@@ -3,7 +3,7 @@ id: 435
 title: Counterfeit Arduino nano fix(es)!
 date: 2014-12-15 20:44:37 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: Programming
 tags: Electronics Tutorial Programming

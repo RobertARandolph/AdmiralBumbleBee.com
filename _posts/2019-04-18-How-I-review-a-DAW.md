@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How I review a DAW
 comments: true
 date:   2019-04-18_09:46:48 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Kilohearts Phase Plant Review
 comments: true
 date:   2019-07-13_13:55:42 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One instruments review
 comments: true
 date:   2016-06-05_09:42:32 

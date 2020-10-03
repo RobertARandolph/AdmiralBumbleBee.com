@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: QnA with Asaf Peres
 comments: true
 date:   2018-10-28_14:37:00 

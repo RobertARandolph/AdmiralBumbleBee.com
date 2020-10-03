@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Vintage Scrub Plane
 comments: true
 date:   2017-01-05_14:27:39 

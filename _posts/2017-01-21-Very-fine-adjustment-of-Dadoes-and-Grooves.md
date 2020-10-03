@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Very fine adjustment of Dadoes and Grooves
 comments: true
 date:   2017-01-21_09:41:01 

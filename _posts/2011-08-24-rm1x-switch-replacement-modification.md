@@ -3,7 +3,7 @@ id: 360
 title: RM1x switch replacement modification
 date: 2011-08-24 13:22:00 -05:00
 author: Robert
-layout: post
+layout: ['post', 'reader']
 comments: true
 categories: Tutorials
 tags: Electronics Tutorial Repair

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Digital Performer 9.1 Latency Test
 comments: true
 date:   2016-07-31_11:11:59 

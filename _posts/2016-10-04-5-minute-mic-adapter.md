@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 5 minute mic adapter
 comments: true
 date:   2016-10-04_06:32:16 

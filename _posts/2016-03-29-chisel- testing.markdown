@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "A test of cheap chisels!"
 date:   2016-03-29 15:39:48 -05:00
 comments: true

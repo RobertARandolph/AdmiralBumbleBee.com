@@ -18,7 +18,7 @@ done
 
 cat <<EOF > _posts/$_filename.md
 ---
-layout: post
+layout: ['post', 'reader']
 title: $_postname
 comments: true
 date:   $(date +%F_%T) 

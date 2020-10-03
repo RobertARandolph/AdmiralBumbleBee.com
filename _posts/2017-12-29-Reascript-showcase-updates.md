@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reascript showcase updates and DAW Chart discussions/updates.
 comments: true
 date:   2017-12-29_15:47:24 

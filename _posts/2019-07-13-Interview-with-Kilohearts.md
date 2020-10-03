@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Interview with KiloHearts
 comments: true
 date:   2019-07-13_13:23:10 

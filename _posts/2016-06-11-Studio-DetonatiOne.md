@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One crashing..
 comments: true
 date:   2016-06-11_17:29:30 

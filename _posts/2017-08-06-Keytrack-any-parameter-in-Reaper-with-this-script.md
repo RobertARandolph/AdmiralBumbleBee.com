@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Keytrack any parameter in Reaper with this script
 comments: true
 date:   2017-08-06_13:16:27 

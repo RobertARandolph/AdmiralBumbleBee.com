@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 6: MIDI Controllers"
 comments: true
 date:   2018-07-03_12:42:04 

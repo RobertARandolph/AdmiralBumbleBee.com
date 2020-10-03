@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: MFreeFXBundle Tricks
 comments: true
 date:   2020-04-03_12:13:50 

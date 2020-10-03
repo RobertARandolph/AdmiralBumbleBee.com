@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: maat santacruz eq
 comments: true
 date:   2020-03-07_19:36:04 

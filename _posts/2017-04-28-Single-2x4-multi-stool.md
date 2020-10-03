@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Single 2x4 multi-stool
 comments: true
 date:   2017-04-28_13:39:17 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Drum Stick Making Video
 comments: true
 date:   2019-11-17_18:04:07 

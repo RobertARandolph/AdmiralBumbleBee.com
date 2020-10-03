@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cool features in Ardour pt. 1
 comments: true
 date:   2016-09-01_18:39:00 

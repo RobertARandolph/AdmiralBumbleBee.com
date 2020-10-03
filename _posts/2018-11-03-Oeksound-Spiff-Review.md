@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Oeksound Spiff Review
 comments: true
 date:   2018-11-03_13:32:04 

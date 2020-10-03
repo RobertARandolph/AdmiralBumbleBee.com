@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cubase 9 Audio Effects Review
 comments: true
 date:   2017-02-08_11:15:58 

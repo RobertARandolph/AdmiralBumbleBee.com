@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DAW Chart update Logic 10.4
 comments: true
 date:   2018-01-28_11:09:04 

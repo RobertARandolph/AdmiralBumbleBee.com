@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: spacemacs Round 1
 comments: true
 date:   2016-12-06_07:08:08 

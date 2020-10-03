@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Melda Freeform: Part 1"
 comments: true
 date:   2018-05-11_07:59:24 

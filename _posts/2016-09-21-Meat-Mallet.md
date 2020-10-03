@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Meat Mallet
 comments: true
 date:   2016-09-21_14:03:47 

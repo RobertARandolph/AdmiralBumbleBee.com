@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Interview with Rob Stenson of Goodhertz, and of Rob Stenson.
 comments: true
 date:   2019-01-12_09:23:10 

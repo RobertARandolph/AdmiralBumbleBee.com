@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 12: Conclusion"
 comments: true
 date:   2018-07-24_08:57:37 

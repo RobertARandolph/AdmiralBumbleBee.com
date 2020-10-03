@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Logic Effects Review
 comments: true
 date:   2018-01-22_10:39:37 

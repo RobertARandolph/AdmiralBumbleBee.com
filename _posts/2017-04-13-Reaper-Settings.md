@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: My Reaper Settings
 comments: true
 date:   2017-04-13_20:03:00 

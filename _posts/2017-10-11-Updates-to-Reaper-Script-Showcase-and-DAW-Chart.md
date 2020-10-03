@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Updates to Reaper Script Showcase and DAW Chart
 comments: true
 date:   2017-10-11_13:50:18 

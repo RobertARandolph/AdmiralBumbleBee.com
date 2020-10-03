@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Run LV2 plugins on macOS
 comments: true
 date:   2017-11-29_14:18:23 

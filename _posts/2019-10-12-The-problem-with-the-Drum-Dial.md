@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The problem with the Drum Dial, and how to fix it.
 comments: true
 date:   2019-10-12_11:12:30 

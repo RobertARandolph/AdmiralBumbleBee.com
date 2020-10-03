@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Daw V Daw progress
 comments: true
 date:   2020-08-02_12:11:20 

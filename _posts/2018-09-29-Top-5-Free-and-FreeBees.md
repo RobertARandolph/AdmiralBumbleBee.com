@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Top 5 Free Plugins and FreeBees Feature!'
 comments: true
 date:   2018-09-29_12:06:17 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "Tying a ludwig supraphonic strainer the best way"
 date:   2016-03-31 16:52:11 -05:00
 comments: true

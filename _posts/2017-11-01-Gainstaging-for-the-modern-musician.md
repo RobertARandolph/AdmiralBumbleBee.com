@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Gainstaging for the modern musician
 comments: true
 date:   2017-11-01_10:37:50 

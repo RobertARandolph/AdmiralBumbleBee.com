@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Vanessa Heinl Interview
 comments: true
 date:   2019-01-02_12:17:31 

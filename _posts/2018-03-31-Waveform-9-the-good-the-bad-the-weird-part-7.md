@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 7: Recording'
 comments: true
 date:   2018-03-31_08:43:26 

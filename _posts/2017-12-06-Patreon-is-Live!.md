@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Patreon is Live!
 comments: true
 date:   2017-12-06_18:02:28 

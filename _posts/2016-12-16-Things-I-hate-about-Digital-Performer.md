@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Things I hate about Digital Performer...
 comments: true
 date:   2016-12-16_08:56:38 

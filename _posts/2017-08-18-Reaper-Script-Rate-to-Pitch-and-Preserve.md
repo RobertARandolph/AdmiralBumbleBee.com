@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reaper Script Rate to Pitch and Preserve
 comments: true
 date:   2017-08-18_15:29:43 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: HTTPS is live
 comments: true
 date:   2017-12-20_11:20:05 

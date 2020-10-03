@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One's deplorable manual
 comments: true
 date:   2016-06-07_11:21:29 

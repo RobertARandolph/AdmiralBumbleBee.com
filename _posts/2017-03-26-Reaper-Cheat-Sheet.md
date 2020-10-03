@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reaper Cheat Sheet
 comments: true
 date:   2017-03-26_14:56:28 

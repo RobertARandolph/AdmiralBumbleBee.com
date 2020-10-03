@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Text Editor Musings'
 comments: true
 date:   2018-10-06_13:00:51

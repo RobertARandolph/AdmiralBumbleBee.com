@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Mixbus 32c - The Mixer
 comments: true
 date:   2017-09-18_10:56:38 

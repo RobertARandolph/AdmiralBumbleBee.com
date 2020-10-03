@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Tracktion Retromod review
 comments: true
 date:   2018-08-08_10:10:44 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Mixbus 5 32c - Reviewed!"
 comments: true
 date:   2018-08-14_11:31:06 

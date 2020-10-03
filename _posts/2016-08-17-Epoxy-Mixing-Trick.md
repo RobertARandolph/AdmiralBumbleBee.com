@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Epoxy Mixing Trick
 comments: true
 date:   2016-08-17_12:01:32 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Fast, Cheap and Easy Youtube Mastering
 comments: true
 date:   2018-11-30_09:19:26 

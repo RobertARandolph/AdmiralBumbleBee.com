@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Interview with Ben Loftis of Harrison Consoles about Mixbus
 comments: true
 date:  2018-03-11_17:23:37 

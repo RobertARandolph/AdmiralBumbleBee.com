@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Control multiple parameters across tracks in Reaper with faders
 comments: true
 date:   2017-07-25_13:57:21 

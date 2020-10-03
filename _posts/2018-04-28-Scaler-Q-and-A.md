@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Scaler Q&A
 comments: true
 date:   2018-04-28_14:27:43 

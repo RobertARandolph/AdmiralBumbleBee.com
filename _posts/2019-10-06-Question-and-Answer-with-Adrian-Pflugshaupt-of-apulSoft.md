@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Question and Answer with Adrian Pflugshaupt of apulSoft
 comments: true
 date:   2019-10-06_12:13:58 

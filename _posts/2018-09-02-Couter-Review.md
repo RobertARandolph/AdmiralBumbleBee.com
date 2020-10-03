@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Couture Transient Shaper And Distortion Review"
 comments: true
 date:   2018-09-01_09:44:05 

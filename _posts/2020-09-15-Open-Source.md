@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Open Source
 comments: true
 date:   2020-09-15_19:31:23 

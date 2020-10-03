@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Sidechain Better with dynamic EQ sidechaining
 comments: true
 date:   2018-08-09_18:34:15 

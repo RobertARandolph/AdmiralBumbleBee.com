@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio life in detail
 comments: true
 date:   2019-01-19_13:31:06 

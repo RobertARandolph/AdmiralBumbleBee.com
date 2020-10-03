@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Making a Headphone Holder for my Desk from $2usd of Pine
 comments: true
 date:   2018-02-12_15:08:23 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Do you need a Reamp or is a Passive DI enough'
 comments: true
 date:   2018-11-24_11:55:14 

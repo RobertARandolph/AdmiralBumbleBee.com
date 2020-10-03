@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Let's Talk About Me and My Future"
 comments: true
 date:   2018-06-09_14:01:34 

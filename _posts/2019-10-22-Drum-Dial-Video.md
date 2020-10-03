@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Drum Dial Video
 comments: true
 date:   2019-10-22_01:49:13 

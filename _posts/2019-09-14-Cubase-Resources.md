@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cubase Resources
 comments: true
 date:   2019-09-14_20:25:36 

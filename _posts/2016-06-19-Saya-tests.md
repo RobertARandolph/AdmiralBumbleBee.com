@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Saya tests
 comments: true
 date:   2016-06-19_09:04:30 

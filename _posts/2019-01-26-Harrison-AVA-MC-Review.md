@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Harrison AVA Multiband Compressor review
 comments: true
 date:   2019-01-26_13:19:23 

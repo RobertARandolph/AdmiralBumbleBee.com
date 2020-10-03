@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Transfer mouse DPI/CPI settings to a different resolution device
 comments: true
 date:   2017-12-08_14:21:24 

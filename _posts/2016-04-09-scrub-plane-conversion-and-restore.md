@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Scrub Plane Conversion and Restore
 comments: true
 date:   2016-04-09 01:25:11 -05:00

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Things I hate about Logic Pro X and Conclusion!
 comments: true
 date:   2018-02-04_09:44:36 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Are you having Retina FPS issues? Check out this One Quick Fix that Apple doesn't want you to know about!"
 comments: true
 date:   2018-10-09_12:01:01 

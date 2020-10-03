@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Reaper Script Showcase
 comments: true
 date:   2017-08-22_16:04:45 

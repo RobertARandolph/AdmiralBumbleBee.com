@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: More Health
 comments: true
 date:   2019-09-06_10:29:13 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 10 Axiom Presets and how I made them
 comments: true
 date:   2018-05-20_15:36:02 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Simple joint macro
 comments: true
 date:   2016-10-15_11:55:13 

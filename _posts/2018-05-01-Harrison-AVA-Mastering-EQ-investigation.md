@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Harrison AVA Mastering EQ: An Investigation"
 comments: true
 date:   2018-05-01_10:34:27 

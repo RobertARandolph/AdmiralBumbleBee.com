@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'My favorite plug-in of 2018 - Earevolve'
 comments: true
 date:   2018-09-15_10:47:48 

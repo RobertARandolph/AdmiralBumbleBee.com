@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Themes have been added!
 comments: true
 date:   2018-01-11_17:21:14 

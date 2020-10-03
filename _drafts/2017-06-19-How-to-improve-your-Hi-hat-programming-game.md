@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How to improve your Hi-hat programming game - Part 1 The Real World
 comments: true
 date:   2017-06-22_13:17:45 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Fred Kelly Thumb Pick resize modification
 comments: true
 date:   2016-11-07_14:40:46 

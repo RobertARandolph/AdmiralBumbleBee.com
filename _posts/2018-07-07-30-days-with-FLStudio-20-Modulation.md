@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 7: Modulation"
 comments: true
 date:   2018-07-07_14:44:06 

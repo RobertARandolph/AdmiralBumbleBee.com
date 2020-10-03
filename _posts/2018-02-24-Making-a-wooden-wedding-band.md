@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Making a wooden wedding band
 comments: true
 date:   2018-02-24_11:57:46 

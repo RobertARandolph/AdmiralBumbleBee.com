@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Adam A7 switch and fuse replacement
 comments: true
 date:   2017-11-19_12:06:57 

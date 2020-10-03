@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: What is MPE
 comments: true
 date:   2019-08-10_17:12:37 

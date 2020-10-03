@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Studio One's biggest flaw
 comments: true
 date:   2016-06-15_12:55:05 

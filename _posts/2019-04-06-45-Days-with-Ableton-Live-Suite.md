@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 45 Days with Ableton Live Suite
 comments: true
 date:   2019-04-06_16:48:40 

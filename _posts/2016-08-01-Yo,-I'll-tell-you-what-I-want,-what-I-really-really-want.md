@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Yo, I'll tell you what I want, what I really really want
 comments: true
 date:   2016-08-01_09:10:19 

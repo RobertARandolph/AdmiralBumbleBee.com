@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Waveform: the good, the bad, the weird. - Version 9.1.1, Part 6: MIDI Editing'
 comments: true
 date:   2018-03-28_09:33:10 

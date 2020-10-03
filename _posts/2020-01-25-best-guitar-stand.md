@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Z-Guitar Stand - The Best Guitar Stand
 comments: true
 date:   2020-01-25_13:08:00 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Making Drum Sticks, and using the Veritas Dowel Maker.
 comments: true
 date:   2019-11-03_06:01:44 

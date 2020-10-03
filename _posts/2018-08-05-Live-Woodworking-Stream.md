@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Live Woodworking Stream
 comments: true
 date:   2018-08-05_13:13:49 

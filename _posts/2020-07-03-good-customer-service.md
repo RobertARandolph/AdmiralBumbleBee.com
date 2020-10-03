@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How to get good customer service
 comments: true
 date:   2020-07-03_18:27:38 

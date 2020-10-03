@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Sharpening Station
 comments: true
 date:   2017-03-17_08:46:05 

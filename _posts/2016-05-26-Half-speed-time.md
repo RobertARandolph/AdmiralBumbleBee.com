@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Half-speed time
 comments: true
 date:   2016-05-26_10:57:34 

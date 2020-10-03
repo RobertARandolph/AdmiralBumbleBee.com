@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Fixing Phase... What, Why, When and How
 comments: true
 date:   2018-02-16_09:19:19 

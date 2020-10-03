@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cool Features in Digital Performer... Part 2
 comments: true
 date:   2016-12-11_14:47:57 

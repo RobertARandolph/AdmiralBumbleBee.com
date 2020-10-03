@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 Days without Fabfilter products - The Conclusion
 comments: true
 date:   2017-12-05_11:06:36 

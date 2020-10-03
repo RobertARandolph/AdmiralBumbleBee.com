@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 30 days with Cakewalk
 comments: true
 date:   2018-12-05_19:36:13 

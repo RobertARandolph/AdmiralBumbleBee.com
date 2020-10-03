@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DIY Drum Triggers in Reaper
 comments: true
 date:   2018-05-28_08:21:05 

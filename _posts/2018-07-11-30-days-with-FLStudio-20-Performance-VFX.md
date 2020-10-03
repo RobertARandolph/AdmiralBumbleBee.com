@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "30 days with FLStudio 20 - Part 8: Performance mode and Video FX"
 comments: true
 date:   2018-07-11_09:01:01 

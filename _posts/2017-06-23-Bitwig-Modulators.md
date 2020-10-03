@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Bitwig Modulators - The coolest part of Bitwig"
 comments: true
 date:   2017-06-23_10:10:20 

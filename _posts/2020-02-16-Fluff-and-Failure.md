@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Fluff and Failure
 comments: true
 date:   2020-02-16_09:07:05 

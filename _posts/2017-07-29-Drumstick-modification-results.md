@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Drumstick modification results
 comments: true
 date:   2017-07-29_14:11:40 

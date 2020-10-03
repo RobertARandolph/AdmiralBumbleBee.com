@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Ardour first impressions
 comments: true
 date:   2016-08-23_08:04:08 

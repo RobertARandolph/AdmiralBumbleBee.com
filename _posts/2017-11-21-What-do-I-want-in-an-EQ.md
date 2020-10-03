@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: What do I want in an EQ (and some tricks!)
 comments: true
 date:   2017-11-21_11:01:58 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Comparator
 comments: true
 date:   2017-01-30_13:04:25 

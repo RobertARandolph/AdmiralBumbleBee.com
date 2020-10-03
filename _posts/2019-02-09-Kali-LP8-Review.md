@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Kali LP8 Review
 comments: true
 date:   2019-02-09_11:15:10 

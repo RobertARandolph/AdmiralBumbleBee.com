@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cleaning Moongels or nipple covers, and alternatives (to the moongels)
 comments: true
 date: 2017-11-11_11:02:10 

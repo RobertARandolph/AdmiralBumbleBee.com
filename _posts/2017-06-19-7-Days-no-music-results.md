@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 7 Days no music results
 comments: true
 date:   2017-06-19_10:16:56 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Waveform Racks as VCAs and Fader Groups
 comments: true
 date:   2018-04-19_07:51:28 

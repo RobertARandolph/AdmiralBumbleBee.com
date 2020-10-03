@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Why I hate Windows
 comments: true
 date:   2018-12-15_13:13:20 

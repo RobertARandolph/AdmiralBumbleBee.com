@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: You don't use your software, and neither do your users.
 comments: true
 date:   2020-03-07_09:59:31 

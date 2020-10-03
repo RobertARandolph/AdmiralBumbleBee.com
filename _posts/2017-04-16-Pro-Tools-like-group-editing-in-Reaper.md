@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Pro Tools-like group editing in Reaper
 comments: true
 date:   2017-04-16_07:34:01 

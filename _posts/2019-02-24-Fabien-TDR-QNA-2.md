@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Question and Answer with Fabien Schivre from Tokyo Dawn, Again!
 comments: true
 date:   2019-02-24_15:08:35 

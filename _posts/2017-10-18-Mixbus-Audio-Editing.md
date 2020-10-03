@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Mixbus Audio Editing
 comments: true
 date:   2017-10-18_09:13:56 

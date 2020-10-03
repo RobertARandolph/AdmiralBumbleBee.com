@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Improve your Double Bass Pedal's Feel
 comments: true
 date:   2017-06-13_10:16:33 

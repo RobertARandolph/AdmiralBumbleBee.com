@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: The problem with drum torque wrenches
 comments: true
 date:   2016-11-13_12:46:07 

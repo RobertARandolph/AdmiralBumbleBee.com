@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Whats new in Bitwig 2.2 and 2.3 - The late edition"
 comments: true
 date:   2018-08-10_08:45:57 

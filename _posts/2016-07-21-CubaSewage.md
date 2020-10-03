@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Issues with Cubase 8.5
 comments: true
 date:   2016-07-21_16:27:17 

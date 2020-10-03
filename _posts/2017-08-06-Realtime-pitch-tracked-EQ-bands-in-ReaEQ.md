@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Realtime pitch-tracked EQ bands in ReaEQ
 comments: true
 date:   2017-08-06_15:27:41 

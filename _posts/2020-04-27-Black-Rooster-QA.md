@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Black Rooster Audio QA with André Kirchner
 comments: true
 date:   2020-04-27_13:33:52 

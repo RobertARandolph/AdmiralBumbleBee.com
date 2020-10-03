@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Bitwig Effects review"
 comments: true
 date:   2017-06-27_08:11:00 

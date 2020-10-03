@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Cubase 10: Is it worth it?'
 comments: true
 date:   2018-11-14_08:01:14 

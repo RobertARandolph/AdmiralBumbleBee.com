@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "Welcome to AdmiralBumbleBee.com!"
 date:   2016-03-25 19:39:48 -05:00
 categories: jekyll update

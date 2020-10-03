@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Eve SC307 & TS112 Setup and Testing
 comments: true
 date:   2019-06-08_10:31:30 

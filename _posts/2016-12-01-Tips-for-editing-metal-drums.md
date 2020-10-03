@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Tips for editing metal drums
 comments: true
 date:   2016-12-01_13:37:31 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 20 things I hate about Ableton Live
 comments: true
 date:   2020-02-01_16:23:05 

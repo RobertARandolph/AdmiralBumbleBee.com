@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Ctags, CSS and SASS/scss'
 comments: true
 date:   2018-10-02_12:43:20 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Adventures in the Outdoors
 comments: true
 date:   2016-12-22_13:29:50 

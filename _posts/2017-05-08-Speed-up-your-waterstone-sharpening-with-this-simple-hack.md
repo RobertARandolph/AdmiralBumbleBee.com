@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Speed up your water stone sharpening with this simple hack
 comments: true
 date:   2017-05-08_10:17:39 

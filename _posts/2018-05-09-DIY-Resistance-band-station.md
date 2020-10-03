@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: DIY Resistance band station
 comments: true
 date:   2018-05-09_09:29:09 

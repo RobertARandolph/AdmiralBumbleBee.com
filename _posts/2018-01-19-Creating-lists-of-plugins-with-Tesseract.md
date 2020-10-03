@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Creating lists of plugins with Tesseract
 comments: true
 date:   2018-01-19_11:32:11 

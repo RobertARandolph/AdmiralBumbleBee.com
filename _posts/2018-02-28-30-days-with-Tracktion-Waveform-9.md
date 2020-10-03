@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: '30 days with Tracktion Waveform 9.1.1 - Version 9, Part 0: Intro'
 comments: true
 date:   2018-02-28_12:27:51 

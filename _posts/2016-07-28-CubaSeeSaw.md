@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cubase 8.5 vs. Digital Performer 8.5
 comments: true
 date:   2016-07-28_14:30:50 

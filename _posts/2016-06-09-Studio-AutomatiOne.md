@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Automation in Studio One
 comments: true
 date:   2016-06-09_08:34:50 

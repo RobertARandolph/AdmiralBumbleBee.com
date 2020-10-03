@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Digital Performer's Chunks Will Blow Your Mind
 comments: true
 date: 2019-11-23_10:42:01 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "What I learned from 6 months with VS Code"
 comments: true
 date:   2020-01-04_10:27:47 

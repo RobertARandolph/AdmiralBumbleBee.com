@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Make your own Wood Block
 comments: true
 date:   2018-06-02_12:19:53 

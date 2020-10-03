@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: On Content Creation
 comments: true
 date:   2019-11-09_17:34:03 

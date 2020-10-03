@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Max for Live"
 comments: true
 date:   2019-05-15_10:12:34 

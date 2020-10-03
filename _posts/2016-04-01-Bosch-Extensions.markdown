@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title:  "Making a Bosch TS1002 TS1003 TS1008 TS1016 extension fence"
 date:   2016-04-01 8:32:51 -05:00
 comments: true

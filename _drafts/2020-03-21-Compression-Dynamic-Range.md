@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Compression does NOT Reduce Dynamic Range
 comments: true
 date:   2020-03-21_08:37:24 

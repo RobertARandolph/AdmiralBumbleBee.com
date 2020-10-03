@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Harrison AVA Multiband Compressor Review: Part 2"
 comments: true
 date:   2019-01-31_08:43:50 

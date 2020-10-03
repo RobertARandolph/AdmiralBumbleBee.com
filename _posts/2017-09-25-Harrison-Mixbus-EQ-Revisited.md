@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Harrison Mixbus EQ Revisited, or how and why Digital EQs sound different
 comments: true
 date:   2017-09-25_15:00:05 

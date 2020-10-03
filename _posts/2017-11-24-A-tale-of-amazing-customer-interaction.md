@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: A tale of amazing customer interaction - Sonimus
 comments: true
 date:   2017-11-24_15:09:03 

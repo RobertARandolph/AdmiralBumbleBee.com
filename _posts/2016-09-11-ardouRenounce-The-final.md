@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Giving up on Ardour
 comments: true
 date:   2016-09-11_10:04:22 

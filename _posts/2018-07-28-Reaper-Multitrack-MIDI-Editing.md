@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: 'Reaper Multitrack MIDI - Editing multiple MIDI items as one'
 comments: true
 date:   2018-07-28_12:15:32 

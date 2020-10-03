@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: A real Metronome or Click track in Reaper with toolbar button
 comments: true
 date:   2017-07-22_13:17:20 

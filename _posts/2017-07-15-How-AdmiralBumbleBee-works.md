@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: How this site works - The technologies behind it
 comments: true
 date:   2017-07-15_11:55:47 

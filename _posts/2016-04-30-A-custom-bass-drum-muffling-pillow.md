@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: A custom bass drum muffling pillow with a hidden zipper
 comments: true
 date:   2016-04-30_09:15:36 

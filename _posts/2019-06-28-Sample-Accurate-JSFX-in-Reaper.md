@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Sample Accurate JSFX in Reaper
 comments: true
 date:   2019-06-29_08:21:11 

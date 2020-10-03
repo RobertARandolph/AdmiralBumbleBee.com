@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Reascript tutorial - From total beginner to working GUI-based Script"
 comments: true
 date: 2018-09-22_14:45:44 

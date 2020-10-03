@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "DAW v DAW - Part 4: More volume automation"
 comments: true
 date:   2019-06-01_11:04:42 

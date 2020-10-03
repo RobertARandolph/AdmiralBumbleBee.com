@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cool things in Mixbus Part 2
 comments: true
 date:   2017-08-26_10:57:39 

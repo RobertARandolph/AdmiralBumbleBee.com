@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Repair an Ice Cream Scoop
 comments: true
 date:   2018-04-19_15:07:49 

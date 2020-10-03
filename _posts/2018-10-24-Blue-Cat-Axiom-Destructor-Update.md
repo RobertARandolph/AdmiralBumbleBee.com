@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "Blue Cat Axiom and Destructor 1.1 Update: IR Loader"
 comments: true
 date:   2018-10-24_10:08:35 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Upcoming because sick
 comments: true
 date:   2017-05-24_15:53:31 

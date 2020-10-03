@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Replacing a 2013-2017 iMac hard drive
 comments: true
 date:   2018-03-04_14:08:16 

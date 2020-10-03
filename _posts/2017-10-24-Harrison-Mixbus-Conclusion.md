@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Harrison Mixbus Conclusion
 comments: true
 date:   2017-10-24_11:10:31 

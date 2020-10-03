@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: QA with Adrian Alexander, A&R rep, of Elliptical Sun Recordings
 comments: true
 date:   2017-12-02_14:05:53 

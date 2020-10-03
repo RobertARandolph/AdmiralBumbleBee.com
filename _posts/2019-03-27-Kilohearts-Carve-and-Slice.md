@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Kilohearts Carve and Slice
 comments: true
 date:   2019-03-27_11:28:47 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: MPE in Cubase 10
 comments: true
 date:   2019-08-24_14:58:49 

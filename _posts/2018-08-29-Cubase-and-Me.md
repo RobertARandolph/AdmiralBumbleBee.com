@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: Cubase and Me
 comments: true
 date:   2018-08-29_14:27:13 

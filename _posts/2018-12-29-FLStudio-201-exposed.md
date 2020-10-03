@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "FLStudio 20.1... Exposed!"
 comments: true
 date:   2018-12-29_10:09:57 

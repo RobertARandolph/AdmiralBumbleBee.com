@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: ['post', 'reader']
 title: "You're probably miking drums wrong, and how to fix it: Part 2"
 comments: true
 date:   2018-04-27_08:39:08 
