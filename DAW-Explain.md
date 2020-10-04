@@ -1083,9 +1083,11 @@ How complete change logs are combined with how easy they are to access.
 
 # Subjective
 
-## Weirdness
+## Weirdness Inverted
 
 How far the software differs from the general population in terms of common workflows. This can be a positive or negative attribute
+
+A high score implies straightforward software. A low score indicates weirdness.
 
 ## Comprehensibility
 

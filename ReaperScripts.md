@@ -225,6 +225,20 @@ Stretch marker guard easily allows you to place new stretch markers around the e
 
 This is an _exceptionally_ useful tool and can make a huge difference in the impact and fidelity of your drum sounds.
 
+## MK Slicer - [Thread](https://forum.cockos.com/showthread.php?t=232672)
+
+{::nomarkdown}
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/Reaper/Scripts/MKSlicer.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">MK Slicer (Video)</div>
+{:/nomarkdown}
+
+REAPER's missing slicing tool. Fast, effective and easy to use.
+
+It puts other DAWs' integrated audio slicing to shame despite being a user-made script.
+
 # Midi tools
 
 ## Articulation Manager - [Thread](https://forum.cockos.com/showthread.php?t=183669)
@@ -483,6 +497,17 @@ Same hardworking hands that brought you [Hackey Tracker](#hackey-tracker---threa
 One of the coolest delay plugins _and_ live looping plugins out there. I can't think of anything which has similar functionality anywhere.
 
 If you're into complex delay-based sound design or looping of any sort - this is it. **THIS IS IT**.
+
+## LiveBeatRepeater - [Thread](https://forum.cockos.com/showthread.php?t=211834)
+
+{::nomarkdown}
+<img src="/assets/Reaper/Scripts/LiveBeatRepeater.png" alt="LiveBeatRepeater">
+<div class="image-caption">LiveBeatRepeater</div>
+{:/nomarkdown}
+
+Fun effect plugin in the style of [Stutter Edit](https://www.izotope.com/en/products/stutter-edit.html) or [Artillery](https://sugar-bytes.de/artillery2).
+
+As indicated in [The Thread](https://forum.cockos.com/showthread.php?t=211834), it's much more fun when you attach some knobs to it.
 
 # Analysis
 

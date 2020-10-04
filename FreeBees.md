@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Free and decent crossplatform Plug-ins!
+title: Free and decent plug-ins!
 comments: true
 date: 2018-09-25_11:56:11
 categories: music
@@ -47,6 +47,8 @@ I do not aim to list every single free plug-in on this page. This plug-in list i
 ## No, but really X plug-in is amazing! I use it all the time!
 
 If you told me about it than I gave it a second look, and if it is still not here and I'm sorry it will not be here unless it is updated in the future.
+
+I do keep track of all requests, and my turnaround time is about 1 week.
 
 ## What does "free" mean?
 

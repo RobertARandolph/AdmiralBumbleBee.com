@@ -42,17 +42,16 @@ If you never do multitrack editing, give it a 0. Then DAWs that excel in this ar
 
 These are the versions that I have most recently evaluated the features (and stability) of:
 
-* Reaper 6.11
+* Reaper 6.14
 * DP 10.1
 * Cubase 10.5.12
-* S1 5.0.0
-* PT 2020.03
+* S1 5.0.1
+* PT 2020.9.1
 * Logic 10.5.1
-* Reason 11
 * FLStudio 20.7 Mac
 * Live 10.1.9
-* Bitwig 3.2.5
-* Mixbus 32c 6.0
+* Bitwig 3.2.8
+* Mixbus 32c 6.1
 
 # How recently was this update
 
@@ -176,7 +175,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 
 # The Chart
 <div class="admdc_box">
-    <admdc section="Installation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+    <admdc section="Installation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         <category name="Installation Options">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="DP" rating="6"> </daw>
@@ -185,8 +184,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="1"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -199,14 +197,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
         </category>
     </admdc>
-    <admdc section="User prefers dongle" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+    <admdc section="User prefers dongle" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         <category name="With Dongle">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="DP" rating="0"> </daw>
@@ -215,14 +212,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-     <admdc section="User dislikes dongle" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+     <admdc section="User dislikes dongle" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         </category>
         <category name="No Dongle">
             <daw name="Reaper" rating="10"> </daw>
@@ -232,14 +228,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="10" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-     <admdc section="Price" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
+     <admdc section="Price" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         </category>
         <category name="Initial Cost">
             <daw name="Reaper" rating="10"> </daw>
@@ -263,14 +258,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-authorization"> </daw>
         </category>
     </admdc>
-    <admdc section="General Workflow" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+    <admdc section="General Workflow" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="Stability">
             <daw name="Reaper" rating="3"> </daw>
             <daw name="DP" rating="9"> </daw>
@@ -279,8 +273,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="9"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -293,8 +286,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="5"> </daw>
+            <daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -307,8 +299,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="4"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -321,8 +312,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9" link="studio-one-track-templates"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -335,8 +325,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="6"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
@@ -349,8 +338,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="2"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
@@ -363,8 +351,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="1" link="reason-windows"> </daw>
-			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="FLStudio" rating="1"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
@@ -377,8 +364,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="9"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -391,14 +377,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-remote"> </daw>
         </category>
     </admdc>
-        <admdc section="Ease of Use" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+        <admdc section="Ease of Use" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="UI Consistency">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="DP" rating="6"> </daw>
@@ -407,8 +392,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="5" link="logic-ui-consistency"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
@@ -421,8 +405,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="10"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
@@ -435,8 +418,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="10"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -449,8 +431,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="4"> </daw>
-            <daw name="Reason" rating="9"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -463,8 +444,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="6"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
@@ -477,8 +457,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
@@ -491,14 +470,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="1"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="10"> </daw>
-			<daw name="FLStudio" rating="3" link="FL-hardware"> </daw>
+            <daw name="FLStudio" rating="3" link="FL-hardware"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
         </category>
     </admdc>
-    <admdc section="Sample and File Browsing" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+    <admdc section="Sample and File Browsing" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="Sample and File Browsing">
             <daw name="Reaper" rating="5"> </daw>
             <daw name="DP" rating="7"> </daw>
@@ -507,8 +485,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
@@ -521,8 +498,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -535,8 +511,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -549,14 +524,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="4"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Project Navigation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Project Navigation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Zoom Functionality">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="DP" rating="9"> </daw>
@@ -565,8 +539,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -579,8 +552,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="5"> </daw>
+            <daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -593,8 +565,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="5"> </daw>
+            <daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
@@ -607,8 +578,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="6"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -621,14 +591,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="4"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
         </category>
     </admdc>
-    <admdc section="Arranging" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Arranging" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Time">
             <daw name="Reaper" rating="2"> </daw>
             <daw name="DP" rating="0"> </daw>
@@ -637,8 +606,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="3"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
@@ -651,8 +619,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -665,8 +632,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6" link="studio-one-sequencing"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="9" link="reason-sequencing"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="1" link="live-bitwig-sequencing"> </daw>
 			<daw name="Bitwig" rating="1" link="live-bitwig-sequencing"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -679,14 +645,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="1"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Mixing" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Mixing" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="VCAs">
             <daw name="Reaper" rating="6" link="reaper-vca"> </daw>
             <daw name="DP" rating="9"> </daw>
@@ -695,8 +660,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="5" link="logic-vca"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -709,8 +673,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="7"> </daw>
+            <daw name="FLStudio" rating="7"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="5" link="mixbus-pdc"> </daw>
@@ -723,8 +686,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -737,8 +699,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="1"> </daw>
-            <daw name="Reason" rating="10"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="4" link="live-routing"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -751,8 +712,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
@@ -765,8 +725,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -779,8 +738,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="7"> </daw>
+            <daw name="FLStudio" rating="7"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -793,8 +751,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -807,8 +764,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -821,8 +777,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="FLStudio" rating="1"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -835,8 +790,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="3"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -849,14 +803,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
         </category>
     </admdc>
-    <admdc section="Modularity" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Modularity" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Modularity">
             <daw name="Reaper" rating="3"> </daw>
             <daw name="DP" rating="0"> </daw>
@@ -865,14 +818,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="2"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="7" link="Reason Modularity"> </daw>
-			<daw name="FLStudio" rating="7"> </daw>
+            <daw name="FLStudio" rating="7"> </daw>
             <daw name="Live" rating="4" link="Live-Modularity"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Included Content" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Included Content" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Included Effects Plugins">
             <daw name="Reaper" rating="6"> </daw>
             <daw name="DP" rating="8"> </daw>
@@ -881,8 +833,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="9" link="flstudio-included"> </daw>
+            <daw name="FLStudio" rating="9" link="flstudio-included"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -895,8 +846,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="7" link="flstudio-included"> </daw>
+            <daw name="FLStudio" rating="7" link="flstudio-included"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
@@ -909,14 +859,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="7" link="flstudio-included"> </daw>
+            <daw name="FLStudio" rating="7" link="flstudio-included"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Recording" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Recording" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Re-Record">
             <daw name="Reaper" rating="0" link="reaper-re-record"> </daw>
             <daw name="DP" rating="6"> </daw>
@@ -925,8 +874,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="FLStudio" rating="1"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="5" link="bitwig-re-record"> </daw>
             <daw name="Mixbus" rating="5" link="mixbus-re-record"> </daw>
@@ -939,8 +887,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="10" link-"live-loop-recording"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
@@ -953,8 +900,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -967,14 +913,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-input-monitoring"> </daw>
         </category>
     </admdc>
-    <admdc section="Automation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Automation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="General Automation">
             <daw name="Reaper" rating="8"> </daw>
             <daw name="DP" rating="8"> </daw>
@@ -983,8 +928,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="6"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="4"> </daw>
+            <daw name="FLStudio" rating="4"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="6"> </daw>
@@ -997,8 +941,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1011,8 +954,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -1025,8 +967,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="5" link="pro-tools-modes"> </daw>
             <daw name="Logic" rating="6"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -1039,8 +980,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
@@ -1053,8 +993,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="3"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1067,8 +1006,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3" link="studio-one-automation-clips"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1081,14 +1019,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="4"> </daw>
-            <daw name="Reason" rating="10"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc>
-    <admdc section="Audio" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Audio" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Audio Editing Tools">
             <daw name="Reaper" rating="10"> </daw>
             <daw name="DP" rating="9"> </daw>
@@ -1097,8 +1034,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -1111,8 +1047,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -1125,8 +1060,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -1139,8 +1073,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1153,8 +1086,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -1167,8 +1099,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="4"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="4"> </daw>
+            <daw name="FLStudio" rating="4"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -1181,8 +1112,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1195,8 +1125,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="2"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="3"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1209,14 +1138,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
         </category>
     </admdc>
-    <admdc section="Midi" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Midi" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Note Entry Flexibility">
             <daw name="Reaper" rating="8"> </daw>
             <daw name="DP" rating="9"> </daw>
@@ -1225,8 +1153,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
@@ -1239,8 +1166,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -1253,8 +1179,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="5"> </daw>
+            <daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1267,8 +1192,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="6"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="6"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -1281,8 +1205,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="9"> </daw>
-			<daw name="FLStudio" rating="6"> </daw>
+            <daw name="FLStudio" rating="6"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
@@ -1295,8 +1218,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="4"> </daw>
-			<daw name="FLStudio" rating="5"> </daw>
+            <daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1309,8 +1231,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="6"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="5" link ="FLStudio-Step-Sequencer"> </daw>
+            <daw name="FLStudio" rating="5" link ="FLStudio-Step-Sequencer"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1323,8 +1244,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="1"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1337,8 +1257,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="5"> </daw>
+            <daw name="FLStudio" rating="5"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
@@ -1351,14 +1270,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc> 
-     <admdc section="Scoring" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+     <admdc section="Scoring" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="General">
             <daw name="Reaper" rating="4"> </daw>
             <daw name="DP" rating="6"> </daw>
@@ -1367,8 +1285,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="4" link="pro-tools-scoring"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1381,14 +1298,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0" link="studio-one-scoring"> </daw>
             <daw name="PT" rating="3" link="pro-tools-scoring"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category> 
 	</admdc>
-        <admdc section="Live Performance" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+        <admdc section="Live Performance" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="1st Party Controllers">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="DP" rating="7"> </daw>
@@ -1397,8 +1313,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1411,8 +1326,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="3"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
@@ -1425,8 +1339,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1439,8 +1352,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1453,8 +1365,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="2"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="3"> </daw>
@@ -1467,14 +1378,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="2"> </daw>
+            <daw name="FLStudio" rating="2"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="1"> </daw>
         </category> 
     </admdc>
-	<admdc section="Extensibility" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+	<admdc section="Extensibility" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Scripting">
             <daw name="Reaper" rating="9"> </daw>
             <daw name="DP" rating="0"> </daw>
@@ -1483,8 +1393,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="5"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="5"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -1497,8 +1406,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="10"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1511,8 +1419,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1525,8 +1432,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
@@ -1539,8 +1445,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="7"> </daw>
@@ -1553,14 +1458,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="1"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="1" link="live-other"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
     </admdc> 
-    <admdc section="Collaboration" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
+    <admdc section="Collaboration" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="function">
         <category name="Remote Collaboration">
             <daw name="Reaper" rating="0"> </daw>
             <daw name="DP" rating="0"> </daw>
@@ -1569,9 +1473,8 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
-            <daw name="Live" rating="0" link="Live-Collab"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
+            <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="0"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
         </category>
@@ -1581,10 +1484,9 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 			<daw name="Cubase" rating="4"> </daw>
 			<daw name="Waveform" rating="0"> </daw>
             <daw name="S1" rating="8"> </daw>
-            <daw name="PT" rating="0"> </daw>
+            <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="9"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1597,14 +1499,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
         </category>
     </admdc>
-    <admdc section="Looks" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Looks" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Themes">
             <daw name="Reaper" rating="4"> </daw>
             <daw name="DP" rating="6"> </daw>
@@ -1613,8 +1514,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="0"> </daw>
@@ -1627,8 +1527,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="2"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="1"> </daw>
+            <daw name="FLStudio" rating="1"> </daw>
             <daw name="Live" rating="1"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -1641,8 +1540,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="2"> </daw>
@@ -1655,8 +1553,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="0"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="0"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-zoom"> </daw>
@@ -1669,8 +1566,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="5"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1683,14 +1579,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="6"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="5"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
         </category>
     </admdc>
-    <admdc section="Learning" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
+    <admdc section="Learning" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html"  meta="function">
         <category name="Manual">
             <daw name="Reaper" rating="2"> </daw>
             <daw name="DP" rating="8"> </daw>
@@ -1699,8 +1594,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="4"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8" link="mixbus-manual"> </daw>
@@ -1713,8 +1607,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1727,8 +1620,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="10"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="5"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="7"> </daw>
             <daw name="Mixbus" rating="5"> </daw>
@@ -1741,14 +1633,13 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="9"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
         </category>
     </admdc>
-    <admdc section="Meta" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="opinion">
+    <admdc section="Meta" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="opinion">
         <category name="Customer Support">
             <daw name="Reaper" rating="4"> </daw>
             <daw name="DP" rating="9"> </daw>
@@ -1757,8 +1648,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="8"> </daw>
             <daw name="PT" rating="10" link="pro-tools-support"> </daw>
             <daw name="Logic" rating="2"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="9"> </daw>
+            <daw name="FLStudio" rating="9"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="10"> </daw>
@@ -1771,8 +1661,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="9"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="9"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1785,8 +1674,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1799,8 +1687,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="7"> </daw>
             <daw name="Logic" rating="9"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="10"> </daw>
             <daw name="Live" rating="9"> </daw>
 			<daw name="Bitwig" rating="4"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1813,8 +1700,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="2"> </daw>
             <daw name="PT" rating="1"> </daw>
             <daw name="Logic" rating="1"> </daw>
-            <daw name="Reason" rating="3"> </daw>
-			<daw name="FLStudio" rating="8"> </daw>
+            <daw name="FLStudio" rating="8"> </daw>
             <daw name="Live" rating="9" link="live-bugs"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -1827,8 +1713,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="3"> </daw>
             <daw name="PT" rating="0"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="1"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="7" link="bitwig-customization"> </daw>
             <daw name="Mixbus" rating="10" link="mixbus-customization"> </daw>
@@ -1841,27 +1726,25 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="3"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="7"> </daw>
+            <daw name="FLStudio" rating="7"> </daw>
             <daw name="Live" rating="8"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
         </category>
     </admdc>
-    <admdc section="Subjective" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
-        <category name="Weirdness">
+    <admdc section="Subjective" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
+        <category name="Weirdness Inverted">
             <daw name="Reaper" rating="2"> </daw>
             <daw name="DP" rating="4"> </daw>
-			<daw name="Cubase" rating="1"> </daw>
-			<daw name="Waveform" rating="9"> </daw>
-            <daw name="S1" rating="2"> </daw>
-            <daw name="PT" rating="0"> </daw>
-            <daw name="Logic" rating="3"> </daw>
-            <daw name="Reason" rating="8"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+			<daw name="Cubase" rating="9"> </daw>
+			<daw name="Waveform" rating="1"> </daw>
+            <daw name="S1" rating="8"> </daw>
+            <daw name="PT" rating="10"> </daw>
+            <daw name="Logic" rating="7"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="5"> </daw>
-			<daw name="Bitwig" rating="6"> </daw>
-            <daw name="Mixbus" rating="1"> </daw>
+			<daw name="Bitwig" rating="4"> </daw>
+            <daw name="Mixbus" rating="9"> </daw>
         </category>
         <category name="Comprehensibility">
             <daw name="Reaper" rating="2"> </daw>
@@ -1871,8 +1754,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="8"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="3"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="2"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
@@ -1885,8 +1767,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="7"> </daw>
-			<daw name="FLStudio" rating="10"> </daw>
+            <daw name="FLStudio" rating="3"> </daw>
             <daw name="Live" rating="6"> </daw>
 			<daw name="Bitwig" rating="1" link="bitwig-fragility"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -1899,8 +1780,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="5"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="7"> </daw>
-            <daw name="Reason" rating="0"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="2"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="8"> </daw>
@@ -1908,13 +1788,12 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         <category name="Simplicity">
             <daw name="Reaper" rating="1"> </daw>
             <daw name="DP" rating="1"> </daw>
-			<daw name="Cubase" rating="2"> </daw>
+			<daw name="Cubase" rating="9"> </daw>
 			<daw name="Waveform" rating="8"> </daw>
             <daw name="S1" rating="7"> </daw>
             <daw name="PT" rating="4"> </daw>
             <daw name="Logic" rating="8"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="7"> </daw>
+            <daw name="FLStudio" rating="7"> </daw>
             <daw name="Live" rating="7"> </daw>
 			<daw name="Bitwig" rating="3"> </daw>
             <daw name="Mixbus" rating="4"> </daw>
@@ -1927,24 +1806,22 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="6"> </daw>
             <daw name="PT" rating="9"> </daw>
             <daw name="Logic" rating="10"> </daw>
-            <daw name="Reason" rating="2"> </daw>
-			<daw name="FLStudio" rating="0"> </daw>
+            <daw name="FLStudio" rating="0"> </daw>
             <daw name="Live" rating="4"> </daw>
 			<daw name="Bitwig" rating="8"> </daw>
             <daw name="Mixbus" rating="9"> </daw>
         </category>
     </admdc>
-    <admdc section="Bias" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,Reason,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
+    <admdc section="Bias" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" exclude="true" meta="opinion">
         <category name="Preference">
             <daw name="Reaper" rating="-3"> </daw>
             <daw name="DP" rating="-8"> </daw>
-			<daw name="Cubase" rating="-10"> </daw>
+			<daw name="Cubase" rating="0"> </daw>
 			<daw name="Waveform" rating="-5"> </daw>
-            <daw name="S1" rating="-5"> </daw>
+            <daw name="S1" rating="-10"> </daw>
             <daw name="PT" rating="-4"> </daw>
             <daw name="Logic" rating="-8"> </daw>
-            <daw name="Reason" rating="-0"> </daw>
-			<daw name="FLStudio" rating="+1"> </daw>
+            <daw name="FLStudio" rating="+1"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="-2"> </daw>
             <daw name="Mixbus" rating="-8"> </daw>
@@ -1957,8 +1834,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="-4"> </daw>
             <daw name="PT" rating="-7"> </daw>
             <daw name="Logic" rating="-3"> </daw>
-            <daw name="Reason" rating="-10"> </daw>
-			<daw name="FLStudio" rating="-1"> </daw>
+            <daw name="FLStudio" rating="-1"> </daw>
             <daw name="Live" rating="-7"> </daw>
 			<daw name="Bitwig" rating="-4"> </daw>
             <daw name="Mixbus" rating="-8"> </daw>
@@ -1971,8 +1847,7 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="S1" rating="-1"> </daw>
             <daw name="PT" rating="-2"> </daw>
             <daw name="Logic" rating="-3"> </daw>
-            <daw name="Reason" rating="-5"> </daw>
-			<daw name="FLStudio" rating="-0"> </daw>
+            <daw name="FLStudio" rating="-0"> </daw>
             <daw name="Live" rating="-0"> </daw>
 			<daw name="Bitwig" rating="-2"> </daw>
             <daw name="Mixbus" rating="-10"> </daw>
@@ -1982,11 +1857,10 @@ I don't run a linux-based OS. If you are interested in information about Linux D
             <daw name="DP" rating="-3"> </daw>
 			<daw name="Cubase" rating="-2"> </daw>
 			<daw name="Waveform" rating="-7"> </daw>
-            <daw name="S1" rating="5"> </daw>
+            <daw name="S1" rating="-8"> </daw>
             <daw name="PT" rating="-1"> </daw>
             <daw name="Logic" rating="-3"> </daw>
-            <daw name="Reason" rating="-9"> </daw>
-			<daw name="FLStudio" rating="-5"> </daw>
+            <daw name="FLStudio" rating="-5"> </daw>
             <daw name="Live" rating="10"> </daw>
 			<daw name="Bitwig" rating="-8"> </daw>
             <daw name="Mixbus" rating="-3"> </daw>
@@ -1994,13 +1868,12 @@ I don't run a linux-based OS. If you are interested in information about Linux D
         <category name="Community Interactions">
             <daw name="Reaper" rating="5"> </daw>
             <daw name="DP" rating="-4"> </daw>
-			<daw name="Cubase" rating="-2"> </daw>
+			<daw name="Cubase" rating="-10"> </daw>
 			<daw name="Waveform" rating="-3"> </daw>
-            <daw name="S1" rating="5"> </daw>
+            <daw name="S1" rating="10"> </daw>
             <daw name="PT" rating="-9"> </daw>
             <daw name="Logic" rating="-20" link="logic-personal-community"> </daw>
-            <daw name="Reason" rating="-5"> </daw>
-			<daw name="FLStudio" rating="-5"> </daw>
+            <daw name="FLStudio" rating="-5"> </daw>
             <daw name="Live" rating="0"> </daw>
 			<daw name="Bitwig" rating="1"> </daw>
             <daw name="Mixbus" rating="-10"> </daw>

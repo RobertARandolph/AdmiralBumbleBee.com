@@ -102,6 +102,7 @@ Specifically I study Korean and Vietnamese.
 * [Sonic Visualizer](https://sonicvisualiser.org) - Amazing **FREE** audio analysis tool.
 * [Loopback](https://rogueamoeba.com/loopback/) - I use this **SO MUCH**. I love this program.
 * [Audio Hijack](https://rogueamoeba.com/audiohijack/) - Also used quite a bit.
+* [iReal Pro](https://irealpro.com) - Lots of chord charts. Excellent practice tool.
 
 # Music Production
 
@@ -139,7 +140,8 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 ### Guitars
 
 * 2007 Fender Custom Shop Jaguar bass - My absolute favourite instrument. If my house was going to be levelled and I could only grab one thing. This is it.
-* MTD 534-24 Headless Custom Bass, [Avidore](https://www.wood-database.com/avodire/) - My baby.
+* MTD HD34 Custom Bass, [Avidore](https://www.wood-database.com/avodire/) - My baby.
+* MTD 534-34 - Incredible instrument
 * Fender 1952 Time Machine NOS Telecaster with Seymor Duncan Custom Pickups (stacks)
 * Suhr Classic S.
 
@@ -155,7 +157,8 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 ## Accessories
 
 * [Rockslide Aged Nickel slide](https://www.therockslide.com/shop/aged-nickel-guitar-slide/)
-* [Dunlop John Petrucci Jazz III](https://www.jimdunlop.com/product/427pjp-7-10137-05837-8.do)
+* [Blue Chip Jazz 80 Large](https://shop.bluechippick.net/products/Jazz80-LG.html) - You probably think I'm crazy right now. $50 for a pick!?!?!? **IS IT MADE OF GOLD???**. No, it's made of [Vespel](https://www.dupont.com/products/vespel-polyimide.html). The material alone for the pick is worth ~$10-$15, and it's difficult to work to the level of the Blue Chip products.
+    * I have difficulty holding a pick due to health issues, and this material is practically magic. I'm able to keep it in my fingers, but it feels glassy smooth on the strings. I've tried 100s of picks and this _is it_ for me. Smooth on the strings, stays in my hand.
 * [Zookies 30deg](https://www.jimdunlop.com/product/z9002m30-7-10137-00717-8.do) - I now play guitar and bass exclusively with a 30deg zookies pick that's been ground to a Jazz III-like tip. Much easier on my hands/fingers.
 * [Dunlop Straplocks](https://www.jimdunlop.com/products/accessories/straplok) - I dislike any other strap locking system.
 
@@ -165,14 +168,12 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 * [Keeley Time Machine Boost](http://www.robertkeeley.com/manuals/time_machine_boost.pdf) - Ahhhhhhhhhhhhh. If I only had one pedal, this would be it.
 * [Keeley Compressor Pro](https://robertkeeley.com/product/keeley-compressor-pro-namm-2015/) - The least intrusive compressor I've found for both guitar _and_ bass guitar.
 * [Dual Utter Stutter](https://www.youtube.com/watch?v=WXc1YhyajXM) - Custom feedback pedal. 1/1, just for me.
-* [Darkglass Vintage Ultra](https://www.darkglass.com/creations/vintage-ultra-v2/)
 
 # Computer Music Production
 
 ## DAW
 
 * [Waveform](https://www.tracktion.com/products/waveform) - Not the DAW that I _use_ the most. I think that the Waveform team is doing some of the coolest stuff and improving their software faster than any other company.
-* [Bitwig](https://www.bitwig.com) - Similar to Waveform. Fast moving. They have a vision. It's unique.
 
 Reminder: What I _use_ and what's my _favourite_ aren't the same things. My primary DAW isn't necessarily my favourite, and I may use it because of necessary functionality rather than a desire to enjoy the product.
 
@@ -187,6 +188,7 @@ I prefer to reach for a channel strip before anything else.
 ## EQ
 
 * [apQualizr](http://www.apulsoft.ch/apqualizr2/) - If I can't channel strip it, apQualizr is what I always reach for [I've changed my preferences since an older post]({% post_url 2017-12-05-30-days-without-Fabfilter-products-pt2 %})
+* Added [SlickEQ](https://www.tokyodawn.net/tdr-vos-slickeq/) - I've used slickEQ nearly exclusively in 2020. It was not a conscious decision. I grabbed it once and have reached for it ever since.
 
 ## Compression
 
@@ -213,7 +215,7 @@ I prefer to reach for a channel strip before anything else.
 
 ## Delay
 
-* [Late Replies](https://www.bluecataudio.com/Products/Product_LateReplies/)
+* None.
 
 ## Spatial
 
@@ -249,7 +251,7 @@ I prefer to reach for a channel strip before anything else.
 ## Electrically Powered Blades
 
 * [Spectrum Supply KERFMaster](http://www.spectrumsupply.com/kerfmaster-2.aspx) - Fantastic for resawing. Nearly identical (if not OEM  ) to the [Woodslicer](https://www.highlandwoodworking.com/woodslicer-resaw-bandsaw-blades.aspx), which I also like.
-* [Freud Circular Blades](https://www.freudtools.com/explore/saw-blades) - The cost, availability and selection make this my preferred product line over the otherwise excellent [Woodworker Then Kerf Line](https://www.forrestblades.com/woodworker-ii-thin-kerf/).
+* [Freud 10" Think Kerf Rip](https://www.freudtools.com/products/LU87R010) - Fast and clean rip, 8/10 crosscut. The best multipurpose blade that I've used to date.
 
 ## Hand Tool Blades
 
@@ -288,7 +290,6 @@ I prefer to reach for a channel strip before anything else.
 * [Chefalarm](https://www.thermoworks.com/ChefAlarm) - Best on the market that I've found. Absolute essential kitchen tool. I prefer this over the Thermapen.
 * [IR Thermometer](https://www.thermoworks.com/IR-Gun) - I also believe this to be essential, particularly if you like to cook on Cast Iron and Carbon Steel like I do.
 * [Blue Breeze Vanilla Almond Milk](https://www.bluediamond.com/brand/almond-breeze/almondmilk/vanilla) - I'm allergic to dairy products, and Almonds are one of the few nuts that I'm not allergic to. For some reason I can't smell or taste almonds, so this just ends up being a pleasantly thick, slightly sweet vanilla drink.
-* [Phở](https://en.wikipedia.org/wiki/Pho) - I eat phở frequently. I make my own from scratch.
 * [Earthgrown Veggie Patties](https://www.aldi.us/en/grocery-goods/quality-brands/earth-grown/) - Particularly the Kale ones. I eat these things bees eat sugar.
 
 # Electronics
@@ -320,6 +321,7 @@ I'm keeping this relatively short. Note: I don't like Fiction.
 * [The Ashley Book of Knots](https://www.amazon.com/Ashley-Book-Knots-Clifford-W/dp/0385040253)
 * [Structural Hearing](https://www.amazon.com/Structural-Hearing-Tonal-Coherence-Music/dp/0486222756)
 * [The Anarchist's Design Book](https://lostartpress.com/collections/books/products/the-anarchists-design-book)
+* [The Anarchist's Workbenc](https://lostartpress.com/products/the-anarchists-workbench) - It's a woodworking book as much as it is a book about practical decision making and learning from experience.
 * [The Black Swan](https://www.amazon.com/Black-Swan-Improbable-Robustness-Fragility/dp/081297381X) - I don't agree with everything in the book, but was a catalyst for me to rethink some presumptions I had about human motives and common assumptions.
 * [Roubo on Furniture](https://lostartpress.com/collections/roubo-translation/products/deluxe-roubo-on-furniture)
 * [Woodworking in Estonia](https://lostartpress.com/collections/books/products/woodworking-in-estonia)
@@ -345,8 +347,6 @@ Only what I've been listening to in the last ~2 years, not an exhaustive list of
 # Software Development
 
 * [Clojure](https://clojure.org) - Clojure saved me from leaving the software development world entirely. I love working with it. I don't necessarily agree with every aspect of it, but I value that there is a clear thread of intention and architecture.
-* [Calva](https://github.com/BetterThanTomorrow/calva) - I've been using Calva for nearly 3 months now. It's not the most advanced CLJ/CLJS environment, but it works simply. I've grown to prefer Calva + VSCode over the wasteland of Emacs' package ecosystem. All I need is a send to repl and some structural editing tools. Clojure makes the rest pretty simple.
 * [Cider](https://github.com/clojure-emacs/cider) and [nRepl](https://nrepl.org/nrepl/0.6.0/index.html) - I actually don't like Cider _or_ nRepl as software. In fact, I rather despise nRepl. What I love is the push to develop better tooling and the passion behind the projects. I monetarily support these projects even though I do not enjoy using them.
-* [nim](https://nim-lang.org) - Rust is clearly trying to be a better C++. Nim is trying to be _a better language_. Nim is an interesting exploration into what a systems language can be if you stop trying to be C++. (and it has _proper_ lisp-like macros.)
-    * I can't stand the indentation thing... but you can't get everything right I guess.
 * [zsh](http://zsh.sourceforge.net) - Big fan of ZSH. Used to prefer fish, but I was constantly dealing with bash-incompatibilities.
+* [Fira Code](https://github.com/tonsky/FiraCode) - I've been using Fira Code for a while now, and it's only when I move away from it do I realize how much I rely on it. I prefer ligatures as well.
