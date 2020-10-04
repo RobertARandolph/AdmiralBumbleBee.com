@@ -228,7 +228,7 @@ This is an _exceptionally_ useful tool and can make a huge difference in the imp
 ## MK Slicer - [Thread](https://forum.cockos.com/showthread.php?t=232672)
 
 {::nomarkdown}
-    <video autoplay loop muted class="gifvid">
+<video poster="/assets/Reaper/Scripts/MKSlicer.png" controls muted preload="none">
         <source src="/assets/Reaper/Scripts/MKSlicer.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
@@ -321,6 +321,20 @@ Articulations are ways of varying performance attributes when using large and co
 As you can imagine, managing this data can be problematic, and very few DAWs have solutions to this problem. Enter Reaticulate.
 
 Reaticulate gives you a simple GUI for managing articulation data in your MIDI based performances. I suggest watching the video above to get a better idea of what Reaticulate offers. If you are someone that often uses large orchestral libraries then I think you will be very pleased.
+
+## MIDI CC Mapper X - [Thread](https://forum.cockos.com/showthread.php?t=172630)
+
+{::nomarkdown}
+<video poster="/assets/Reaper/Scripts/MIDIx.png" controls muted preload="none">
+        <source src="/assets/Reaper/Scripts/MIDIx.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">MIDI CC Mapper X (Video)</div>
+{:/nomarkdown}
+
+Fantastic MIDI information mapping tool. Note splits, transpost and a wide variety of CC mapping/morphing tools.
+
+Just the CC mapping alone should make other DAW companies shudder in their boots.
 
 # Composition tools
 
