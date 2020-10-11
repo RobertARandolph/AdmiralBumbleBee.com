@@ -7,14 +7,12 @@ description:
 layout: "dawchart"
 ---
 
+{% include harmonics.html %}
+
 # Contents
 {:.no_toc}
 * TOC
 {:toc}
-
-# Chart
-
-{% include harmonics.html %}
 
 # What is this
 

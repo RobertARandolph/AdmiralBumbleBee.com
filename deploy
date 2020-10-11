@@ -6,4 +6,4 @@
 # upload the site to the server
 # Shell alias for the below command
 # "rsync -aP -e 'ssh -p 32000' /my/local/path/AdmiralBumbleBee.com/_site/ uesr@myserver.com:/var/www/admiralbumblebee.com/"
-upload
+uploarsync -aP -e 'ssh -p 32000' /Users/robertrandolph/Documents/AdmiralBumbleBee.com/_site/ bumbly@68.183.125.7:/var/www/admiralbumblebee.com/d
