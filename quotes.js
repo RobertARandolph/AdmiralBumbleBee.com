@@ -67,7 +67,11 @@ window.addEventListener(
       "Checking the Deal of the Day Daily, every Day",
       "You haven't been to my website?",
       "Why are there copies of the style section all over the place, d-do you have a dog? A little chow or something?",
-      "F4, best by test"
+      "F4, best by test",
+      "I have an idea, let's name this after an anime!",
+      "AWS has made it so much easier to not understand your stack.",
+      "ToNeWoOd",
+      "Emacs is life."
     ];
     document.getElementById("wisdom").innerHTML =
       randomSayingsFor_fun[
