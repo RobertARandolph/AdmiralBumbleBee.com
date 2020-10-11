@@ -1,0 +1,40 @@
+<div id="h-chart">
+    <img src="/assets/Harmonics/AllMarkers.png">
+</div>
+    
+<span id="h-selector">
+<span class="h-button" harmonic="1">1st</span>
+<span class="h-button" harmonic="2">2nd</span>
+<span class="h-button" harmonic="3">3rd</span>
+<span class="h-button" harmonic="4">4th</span>
+<span class="h-button" harmonic="5">5th</span>
+<span class="h-button" harmonic="6">6th</span>
+<span class="h-button" harmonic="7">7th</span>
+<span class="h-button" harmonic="8">8th</span>
+<span class="h-button" harmonic="9">9th</span>
+<span class="h-button" harmonic="10">10th</span>
+<span class="h-button" harmonic="all">All</span>
+<span>
+    
+<script>
+    window.addEventListener('DOMContentLoaded', (event) => {
+        var h_buttons = document.querySelectorAll(".h-button");
+        for(i = 0; i < h_buttons.length;i++ ) {
+            h_buttons[i].addEventListener('click', switch_harmonic)
+        }
+        scale = 34;
+        number_of_frets = 24;
+        for (let i = 0; i < number_of_frets; i++) {
+            d = scale - (scale / (Math.pow(2, (i / 12))));
+            console.log(`Fret ${i}: ${d} from nut`)
+        }
+    });
+    
+    function switch_harmonic(e) {
+        h = e.target.getAttribute("harmonic");
+        if (h == "all")
+            document.querySelector("#h-chart img").setAttribute("src", "/assets/Harmonics/AllMarkers.png");
+        else
+            document.querySelector("#h-chart img").setAttribute("src", "/assets/Harmonics/" + h + ".png");
+    }
+</script>
