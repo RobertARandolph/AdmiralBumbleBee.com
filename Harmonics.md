@@ -9,6 +9,8 @@ layout: "dawchart"
 
 {% include harmonics.html %}
 
+**IT ONLY WORKS ON MOBILE IN LANDSCAPE**
+
 # Contents
 {:.no_toc}
 * TOC

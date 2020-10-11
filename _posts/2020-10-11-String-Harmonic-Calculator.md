@@ -13,6 +13,8 @@ header-caption:
 
 {% include harmonics.html %}
 
+**IT ONLY WORKS ON MOBILE IN LANDSCAPE**
+
 I was working on a transcribing a song and arranging for electric bass. I needed to know some harmonics and all of the charts out there suck.
 
 So I started writing a thing to generate a chart of all harmonics and their nearest equal temperament equivalents... There's a story here, but above is a working chart. [It is also a 'site feature' now](/Harmonics.html).
