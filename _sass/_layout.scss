@@ -18,7 +18,7 @@
 }
 
 .site-title {
-  font-size: 26px;
+  font-size: 22px;
   font-weight: 300;
   margin-bottom: -5px;
   margin-left: 1%;
@@ -75,6 +75,7 @@
   margin-left: 1%;
   text-decoration: none;
   color: $grey-color;
+  float: right;
 
   @include media-query($on-palm) {
     visibility: hidden;
@@ -86,7 +87,8 @@
 
 #wisdom {
   line-height: 1.5em;
-  width: 260px;
+  width: 10%;
+  height: 100%;
   color: $grey-color-dark;
 }
 
@@ -207,7 +209,7 @@
   }
 
   #underbar {
-    display: block;
+    display: flex;
     position: sticky;
     position: -webkit-sticky;
     top: 28px;
@@ -215,6 +217,7 @@
     z-index: 1000;
     margin: auto;
     text-align: center;
+    justify-content: space-evenly;
 
     .underbar-link {
       color: $text-color;
@@ -463,7 +466,7 @@
 .post-meta {
   font-size: $small-font-size;
   color: $grey-color;
-  float: right;
+  float: left;
 }
 
 .post-versions {
@@ -789,6 +792,7 @@
     width: 100%;
     height: 100%;
 }
+
 #h-selector {
   display: flex;
   width: 100%;
