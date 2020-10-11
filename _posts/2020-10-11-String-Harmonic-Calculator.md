@@ -39,7 +39,7 @@ Formatting it visually was much less fun. I spent about 10 hours fiddling with d
 
 About 2:15 to go from clojure->svg->pngs->what you see above.
 
-Now, the downside is that I can't do something crafty like arbitrarily generate harmonics. But why? At the 10th harmonic we're already _way_ past the boundaries of what is feasible to use on your average guitar, and just ono the edge of what can be used on electric bass guitar.
+Now, the downside is that I can't do something crafty like arbitrarily generate harmonics. But why? At the 10th harmonic we're already _way_ past the boundaries of what is feasible to use on your average guitar, and just ono the edge of what can be used on electric bass guitar. Another potential downside in the manual generation of things is that I may have made a mechanical error (mistype).
 
 I probably would have spent another 10-20 hours putting together a fully extensive generated chart for zero benefit, and I think that's an generous estimate.
 
