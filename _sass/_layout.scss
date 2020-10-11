@@ -792,7 +792,7 @@
   border: 1px solid black;
   border-radius: 3px;
   margin: 0 5px 0 5px;
-  width: 8%;
+  width: 7%;
   text-align: center;
   // background:linear-gradient(to bottom, #77b55a 5%, #72b352 100%);
   border-radius: 4px;
@@ -808,9 +808,9 @@
 }
 
 $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
-  #00ff19, #8dbd42, #bdb342, #d4440b;
+  #00ff19, #8dbd42, #bdb342, #d4440b, #444;
 
-@for $i from 1 through 11 {
+@for $i from 1 through 12 {
   .h-button:nth-child(#{$i}) {
     background-color: nth($h-colours, $i);
     background:linear-gradient(to bottom, nth($h-colours, $i), lighten(nth($h-colours, $i), 15%) 100%);
@@ -826,8 +826,19 @@ $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
   }
 }
 
+.h-border {
+    border-top: 2px solid black;
+}
+
 .h-button:active {
   position: relative;
   top: 3px;
   left: 3px;
+}
+
+.h-visible {
+    display: inline;
+}
+.h-invisible {
+    display: none;
 }

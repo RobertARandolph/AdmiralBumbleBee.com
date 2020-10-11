@@ -1,5 +1,15 @@
 <div id="h-chart">
-    <img src="/assets/Harmonics/AllMarkers.png">
+    <img harmonic="all" class="h-visible" src="/assets/Harmonics/AllMarkers.png">
+    <img harmonic="1" class="h-invisible" src="/assets/Harmonics/1.png">
+    <img harmonic="2" class="h-invisible" src="/assets/Harmonics/2.png">
+    <img harmonic="3" class="h-invisible" src="/assets/Harmonics/3.png">
+    <img harmonic="4" class="h-invisible" src="/assets/Harmonics/4.png">
+    <img harmonic="5" class="h-invisible" src="/assets/Harmonics/5.png">
+    <img harmonic="6" class="h-invisible" src="/assets/Harmonics/6.png">
+    <img harmonic="7" class="h-invisible" src="/assets/Harmonics/7.png">
+    <img harmonic="8" class="h-invisible" src="/assets/Harmonics/8.png">
+    <img harmonic="9" class="h-invisible" src="/assets/Harmonics/9.png">
+    <img harmonic="10" class="h-invisible" src="/assets/Harmonics/10.png">
 </div>
     
 <span id="h-selector">
@@ -14,9 +24,13 @@
 <span class="h-button" harmonic="9">9th</span>
 <span class="h-button" harmonic="10">10th</span>
 <span class="h-button" harmonic="all">All</span>
+<span class="h-button" harmonic="expand">Expand</span>
 <span>
     
 <script>
+
+    var h_expanded;
+
     window.addEventListener('DOMContentLoaded', (event) => {
         var h_buttons = document.querySelectorAll(".h-button");
         for(i = 0; i < h_buttons.length;i++ ) {
@@ -29,12 +43,37 @@
             console.log(`Fret ${i}: ${d} from nut`)
         }
     });
+
+    function clear_all_harmonics() {
+        var h_imgs = document.querySelectorAll("#h-chart img");
+        for(i = 0; i < h_imgs.length;i++ ) {
+            h_imgs[i].classList.remove("h-visible");
+            h_imgs[i].classList.remove("h-border");
+            h_imgs[i].classList.add("h-invisible");
+        }
+    }
+    function show_all_harmonics() {
+        var h_imgs = document.querySelectorAll("#h-chart img");
+        for(i = 0; i < h_imgs.length;i++ ) {
+            h_imgs[i].classList.remove("h-invisible");
+            h_imgs[i].classList.add("h-visible");
+            h_imgs[i].classList.add("h-border");
+        }
+    }
     
     function switch_harmonic(e) {
         h = e.target.getAttribute("harmonic");
-        if (h == "all")
-            document.querySelector("#h-chart img").setAttribute("src", "/assets/Harmonics/AllMarkers.png");
-        else
-            document.querySelector("#h-chart img").setAttribute("src", "/assets/Harmonics/" + h + ".png");
+        if (h !== "expand") {
+            clear_all_harmonics();
+            document.querySelector("#h-chart img[harmonic='" + h + "']").classList.add("h-visible");
+            document.querySelector("#h-chart img[harmonic='" + h + "']").classList.remove("h-invisible");
+            if (h_expanded == true) {
+                e.target.scrollIntoView({behavior: "smooth", block: "end", inline: "nearest"});
+                h_expanded = false;
+            }
+        } else {
+            show_all_harmonics();
+            h_expanded = true;
+        }
     }
 </script>
