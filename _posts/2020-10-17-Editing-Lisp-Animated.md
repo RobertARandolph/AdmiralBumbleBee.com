@@ -28,6 +28,10 @@ I get a bit hand-wavy when describing concepts to make this consumable by beginn
 * TOC
 {:toc}
 
+# TO THE IMAMGES!!
+
+I don't need to know about Lisp or your incoherent ramblings. [**TAKE ME TO THE VISUALIZATIONS!**](#visualizations)
+
 # Lisp
 
 ``` Lisp
@@ -51,16 +55,12 @@ The point here is that Lisp is pretty simple, and if you're having trouble under
 
 For the purpose of this article I'm going to say that Lisp has 3 distinct parts of its syntax:
 
-* An **Atom** - a "word", or anything where you use a space to separate entities[^3]. `do thing` is 2 atoms: `do` and `thing`. `do-thing` is one atom: `do-thing`.[^2]
-* Data **structures** - Specifically _lists_ in your average lisp. `(do thing)` is a data structure. It's a list of the atoms `do` and `thing`.[^1]
-    * I will be giving examples with [Clojure](https://clojure.org), which has a few other types of things: `[]` for vectors (what you may think of as 'arrays'), `{}` for maps (associative structures, or dictionaries), and `#{}` for sets. These imply semantics of the data structure, but for this article you can think of them as 'a sexp of atoms'.
+* An **Atom** - a single "thing" that isn't _literally_ a collection. `do thing` is 2 atoms: `do` and `thing`. `do-thing` is one atom: `do-thing`.  What a "thing" is depends on the Lisp, but you can generally assume that an atom is anything that isn't a data structure.
+* Collections of atoms - Specifically _lists_ and _strings_ in your average lisp. `(do thing)` is a list of the atoms `do` and `thing`. `"Do Thing"` is a string of "D",  "o",  " ",  "T",  "h" etc...
+    * I will be giving examples with [Clojure](https://clojure.org), which has a few other types of collections: `[]` for vectors (what you may think of as 'arrays'), `{}` for maps (associative structures, or dictionaries), and `#{}` for sets. These imply semantics of the data structure, but for this article you can think of them as 'a sexp of atoms'.
 * S-Expressions or **sexps** - either of those above.
 
-That's it. Everything you see is going to be a sexp, and that sexp is going to be an atom or a list.
-
-[^3]: A common exception being strings. Inside a string, a space becomes an atom, and the boundary becomes what defines a character. This is more obvious in some languages than others.
-[^1]: I'm avoiding varieties of quoting to simplify. Lispers know, non-lispers don't need to care yet.
-[^2]: Yeah yeah. There are exceptions depending on the Lisp that you're using. I'm assuming that you, the reader, are not a monster and use spaces. (I don't care what anyone says, `{:key,val}` is not valid code)
+That's it. `(do thing)` is a sexp that contains the sexps `do` and `thing`.
 
 ## Not-Lisp
 
@@ -68,23 +68,23 @@ In the context of editing and navigating code, we can think in these exact same 
 
 The major difference is that _which_ editing commands you use will vary greatly depending on your language. Let's take "Splice" as an example.
 
-With lisp, this takes `(function1 |(function2) arg)` (where | is the cursor) and removes the nearest surrounded parens, thus turning our code into `(function1 function2 arg)`. Both of these are potentially valid code. 
+With lisp, this takes `(function1 █(function2) arg)` (where `█` is the cursor) and removes the nearest surrounded parens, thus turning our code into `(function1 function2 arg)`. Both of these are potentially valid code. 
 
-* `(function1 |(function2) arg)` - _calls_ function2 and passes the result as an argument to function1.
-* `(function1 |function2 arg)` - passes _the function_ named function2 to function1.
+* `(function1 █(function2) arg)` - _calls_ function2 and passes the result as an argument to function1.
+* `(function1 █function2 arg)` - passes _the function_ named function2 to function1.
 
 Let's try the same in javascript.
 
-* `function1(function2(|), arg)`->`function1(function2|, arg)` - Hey, that works!
+* `function1(function2(█), arg)`->`function1(function2█, arg)` - Hey, that works!
 
 Let's add an argument to function2:
 
-* Lisp `(function1 (function2 |arg1) arg2)`->`(function1 function2 |arg1 arg2)` - This might make sense.
-* Javascript `function1(function2(|arg1), arg2)`->`function1(function2|arg1, arg2)` - This does _not_ make sense. The command would need to know to remove the `()` and add a comma. There _are_ refactoring tools that will do this, but not [paredit](#paredit).
+* Lisp `(function1 (function2 █arg1) arg2)`->`(function1 function2 █arg1 arg2)` - This might make sense.
+* Javascript `function1(function2(█arg1), arg2)`->`function1(function2█arg1, arg2)` - This does _not_ make sense. The command would need to know to remove the `()` and add a comma. There _are_ refactoring tools that will do this, but not [paredit](#paredit).
 
 I use [Paredit](#paredit) with every language I work in. It's uniquely suited to lisps, but I believe you'll find that many of the commands bring unique value to each language syntax.
 
-# Visualization
+# Visualization #1
 
 I wrote at the top of this article that I don't think of lisp in terms of text, but shapes and colors. The following code:
 
@@ -97,12 +97,15 @@ I wrote at the top of this article that I don't think of lisp in terms of text, 
 Looks like this to me:
 
 {::nomarkdown}
-<img src="/assets/Paredit/Example.png" alt="Code">
-<div class="image-caption">Code</div>
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/Paredit/Example.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Example (Video)</div>
 {:/nomarkdown}
 
-* Atoms are solid boxes.
-* Data structures are boxes.
+* Atoms are filled boxes with no borders.
+* Data structures are bordered boxes with no fill.
 * Some things I keep track of what they are.
     * The box representing "Name" is kept track of with a unique representation.
 * Some things are 'generic' to me.
@@ -116,6 +119,29 @@ Is this important? **NO**. Do I think that _you_ need to think about code this w
 
 Why show it to you then? Bear with me and all soon will be clear.
 
+# Visualization #2
+
+Lisp can be represented as a tree structure. There's some debate on how to represent these trees, particularly the the idea of showing literal [cons cells](https://en.wikipedia.org/wiki/Cons) as a tree, and showing the literal _syntax_ as a tree.
+
+Abstractions are nice, but the _right_ level of abstraction is nicer. So our function:
+
+~~~ Clojure
+(defn print-and-say-hello [name]
+  (print "Saying hello to " name)
+  (str "Hello " name))
+~~~
+
+Can be represented like this:
+
+{::nomarkdown}
+<img src="/assets/Paredit/AST.png" alt="A Tree">
+<div class="image-caption">A Tree</div>
+{:/nomarkdown}
+
+To evaluate this code, you would evaluate the leaves from left to right, bottom up. The children are arguments to their parent node. `()` define a new sub-tree.
+
+Yes, that would mean that `[]` is a function that takes `name` as an argument then creates a vector with `name` in it. (This is somewhat of a clojure-ism, not a general lispism). .
+
 # Paredit
 
 The technology I'll be demonstrating is called [Paredit](http://wikemacs.org/wiki/Paredit-mode). It allows you to edit parenthesis, which for Lisp means that you're directly adjusting the [AST](https://en.wikipedia.org/wiki/Abstract_syntax_tree).
@@ -126,9 +152,23 @@ I will be adding in some navigation commands from [emacs](https://www.gnu.org/so
 
 # Navigation
 
-This is where the func starts, and why I think how **I** think about code potentially becomes valuable.
+This is where the fun starts, and why I think how **I** think about lisp code potentially becomes valuable.
+
+I'll be using the following Clojure function, and the subsequent 'visualization' of that function:
+
+``` Clojure
+(defn print-and-say-hello [name]
+  (print "Saying hello to " name)
+  (str "Hello " name))
+```
+
+The cursor will be a solid block.
+
+All 3 representations of the code will be presented at once: Text, Blocks, Tree.
 
 ## forward-list
+
+
 
 ## backward-list
 ## up-list
