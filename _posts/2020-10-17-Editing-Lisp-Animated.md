@@ -236,13 +236,24 @@ Tree Explanation: "Move the cursor to the right of the top of the tree"
 
 ## paredit-add-to-next-list
 
-Text Explanation: If the cursor is before a collection, add the previous sexp to that collection. If the cursor is after a collection, add the next sexp to the collection.
+Text Explanation: Move right and find a sexp to the left of a collection. Add that sexp to the beginning of the subsequent collection.
 
-Tree Explanation: If the node before the cursor is a collection, make the next sibling the rightmost child of node before the cursor. If the node after the cursor is a collection, make the previous sibling the leftmost child of the node after the cursor.
+Tree Explanation: "Move right across siblings until a collection is reached. Make the sexp before the collection the first child of that collection". 
 
 ## paredit-add-to-previous-list
+
+Text Explanation: Move left and find a sexp to the right of a collection. Add that sexp to the end of the collection.
+
+Tree Explanation: "Move left across siblings until a collection is reached. Make the sexp after the collection the last child of that collection". 
+
 ## paredit-backslash
+
+Text Explanation: Inserts a backslash. (Very useful if your backslash key is broken.)
+
+Tree Explanation: "Adds a sibling to the right with the value of a backslash."
+
 ## paredit-backward
+
 ## paredit-backward-barf-sexp
 ## paredit-backward-delete
 ## paredit-backward-down
