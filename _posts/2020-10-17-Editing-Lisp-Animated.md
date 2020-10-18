@@ -121,7 +121,7 @@ Why show it to you then? Bear with me and all soon will be clear.
 
 # Visualization #2
 
-Lisp can be represented as a tree structure. There's some debate on how to represent these trees, particularly the the idea of showing literal [cons cells](https://en.wikipedia.org/wiki/Cons) as a tree, and showing the literal _syntax_ as a tree.
+Lisp can be represented as a tree structure. There's some debate on how to represent these trees, particularly the the idea of showing literal [cons cells](https://en.wikipedia.org/wiki/Cons) as a tree, or showing the literal _syntax_ as a tree.
 
 Abstractions are nice, but the _right_ level of abstraction is nicer. So our function:
 
@@ -164,24 +164,82 @@ I'll be using the following Clojure function, and the subsequent 'visualization'
 
 The cursor will be a solid block.
 
+There is a "Do" button. This indicates when the command is executed.
+
+* A single press executes the action.
+* Three quick presses indicates that subsequent commands will not do anything.
+
+Watch the button! When a command stops doing anything is equally as important as when it does something.
+
 All 3 representations of the code will be presented at once: Text, Blocks, Tree.
+
+These are emacs functions, but they often exist in other editors.
 
 ## forward-list
 
+Text Explanation: `forward-list` moves to the next collection in the current level of the tree. 
 
+* It will not move up a level.
+* It will not move down a level.
+
+Tree Explanation: "Move to the right of the rightmost sibling if it's a collection."
 
 ## backward-list
+
+Text Explanation: `backward-list` moves to the previous collection in the current level of the tree.
+
+Tree Explanation: "Move to the left of the leftmost sibling if it's a collection."
+
 ## up-list
+
+Text Explanation: `up-list` moves the cursor outside the current list, and after it.
+
+Tree Explanation: "Move to the right of the parent".
+
 ## backward-up-list
+
+Text Explanation: `backward-up-list` moves the cursor outside the current list, and after it.
+
+Tree Explanation: "Move to the left of the parent".
+
 ## down-list
+
+Text Explanation: `down-list` moves the cursor to the beginning of the sexp inside the next list.
+
+Tree Explanation: "Move to the first sexp in the next collection".
+
 ## forward-sexp
+
+Text Explanation: `forward-sexp` moves the cursor to the next sexp in the current collection.
+
+Tree Explanation: "Move to the next sibling at the current level"
+
 ## backward-sexp
+
+Text Explanation: `backward-sexp` moves the cursor to the previous sexp in the current collection.
+
+Tree Explanation: "Move to the previous sibling at the current level"
+
 ## beginning-of-defun
+
+Text Explanation: `beginning-of-defun` moves the cursor to the left of the top level form.
+
+Tree Explanation: "Move the cursor to the left of the top of the tree"
+
 ## end-of-defun
+
+Text Explanation: `beginning-of-defun` moves the cursor to the right of the matching paren of the top level form.
+
+Tree Explanation: "Move the cursor to the right of the top of the tree"
 
 # Editing
 
 ## paredit-add-to-next-list
+
+Text Explanation: If the cursor is before a collection, add the previous sexp to that collection. If the cursor is after a collection, add the next sexp to the collection.
+
+Tree Explanation: If the node before the cursor is a collection, make the next sibling the rightmost child of node before the cursor. If the node after the cursor is a collection, make the previous sibling the leftmost child of the node after the cursor.
+
 ## paredit-add-to-previous-list
 ## paredit-backslash
 ## paredit-backward
