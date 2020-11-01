@@ -96,7 +96,7 @@ Reported Latency
         <source src="/assets/DVD72/Live/Live1024.mp4" type="video/mp4">
         Your browser does not support the video tag.
     </video>
-    <div class="video-caption">Live - 20489 Sample Buffer (Video)</div>
+    <div class="video-caption">Live - 1024 Sample Buffer (Video)</div>
 {:/nomarkdown}
 
 # Data
