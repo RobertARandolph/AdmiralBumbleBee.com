@@ -28,7 +28,7 @@ If you control for all variables that may invalidate your result, then the stati
 {% assign differ = site.posts | where: "series", "DAWDiffer" | sort: 'date' %}
 <ul>
 {% for my_page in differ %} 
-    {% if page.url != my_page.url  %}
+    {% if page.url != my_page.url and my_page.layout != "reader" %}
         <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
     {% endif %}
 {% endfor %}

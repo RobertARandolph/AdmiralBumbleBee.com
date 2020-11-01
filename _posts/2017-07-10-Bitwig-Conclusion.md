@@ -24,7 +24,7 @@ Let's see what I've decided and why...
 {% assign bits = site.posts | where: "series", "Bitwig" | sort: 'date' %}
 <ul>
 {% for my_page in bits %} 
-    {% if page.url != my_page.url  %}
+    {% if page.url != my_page.url and my_page.layout != "reader" %}
         <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title}}</a></li>
     {% endif %}
 {% endfor %}

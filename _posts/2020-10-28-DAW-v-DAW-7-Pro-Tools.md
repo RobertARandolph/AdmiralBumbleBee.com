@@ -16,9 +16,9 @@ First up in the latency/jitter testing is Pro Tools!
 
 If you don't understand what this is, please [read the introduction post]({% post_url 2020-10-25-daw-v-daw-721 %}) (This article is being updated if/when changes are made!).
 
-{% assign lives = site.posts | where: "series", "latency" | sort: 'date' %}
+{% assign latency = site.posts | where: "series", "latency" | sort: 'date' %}
 <ul>
-{% for my_page in lives %} 
+{% for my_page in latency %} 
     {% if page.url != my_page.url  %}
         <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
     {% endif %}
@@ -43,7 +43,7 @@ The only setting I found that changed results was `Settings->Playback Engine->Mi
 
 Reminder, don't trust dweebs on the internet. Do the tests yourself, or at least double check my [data](#data).
 
-# 63 sample buffer - NO Minimize Additional I/O Latency
+## 64 sample buffer - NO Minimize Additional I/O Latency
 
 {::nomarkdown}
     <video autoplay loop muted class="gifvid">
@@ -53,27 +53,11 @@ Reminder, don't trust dweebs on the internet. Do the tests yourself, or at least
     <div class="video-caption">Pro Tools - 64 Sample Buffer - No Minimize I/O Latency (Video)</div>
 {:/nomarkdown}
 
-# 256 sample buffer - NO Minimize Additional I/O Latency
+# 64 sample buffer
 
-{::nomarkdown}
-    <video autoplay loop muted class="gifvid">
-        <source src="/assets/DVD72/ProTools/ProTools256NoMinimum.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <div class="video-caption">Pro Tools - 256 Sample Buffer - No Minimize I/O Latency (Video)</div>
-{:/nomarkdown}
+* Reported Latency - N/A
 
-# 1024 sample buffer - NO Minimize Additional I/O Latency
-
-{::nomarkdown}
-    <video autoplay loop muted class="gifvid">
-        <source src="/assets/DVD72/ProTools/ProTools1024NoMinimum.mp4" type="video/mp4">
-        Your browser does not support the video tag.
-    </video>
-    <div class="video-caption">Pro Tools - 20489 Sample Buffer - No Minimize I/O Latency (Video)</div>
-{:/nomarkdown}
-
-# 64 sample buffer - Minimize Additional I/O Latency
+## 64 sample buffer - Minimize Additional I/O Latency
 
 {::nomarkdown}
     <video autoplay loop muted class="gifvid">
@@ -83,7 +67,21 @@ Reminder, don't trust dweebs on the internet. Do the tests yourself, or at least
     <div class="video-caption">Pro Tools - 64 Sample Buffer - Minimize I/O Latency (Video)</div>
 {:/nomarkdown}
 
-# 256 sample buffer - Minimize Additional I/O Latency
+# 256 sample buffer
+
+* Reported Latency - N/A
+
+## 256 sample buffer - NO Minimize Additional I/O Latency
+
+{::nomarkdown}
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/DVD72/ProTools/ProTools256NoMinimum.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Pro Tools - 256 Sample Buffer - No Minimize I/O Latency (Video)</div>
+{:/nomarkdown}
+
+## 256 sample buffer - Minimize Additional I/O Latency
 
 {::nomarkdown}
     <video autoplay loop muted class="gifvid">
@@ -93,7 +91,21 @@ Reminder, don't trust dweebs on the internet. Do the tests yourself, or at least
     <div class="video-caption">Pro Tools - 256 Sample Buffer - Minimize I/O Latency (Video)</div>
 {:/nomarkdown}
 
-# 1024 sample buffer - Minimize Additional I/O Latency
+# 1024 sample buffer
+
+* Reported Latency - N/A
+
+## 1024 sample buffer - NO Minimize Additional I/O Latency
+
+{::nomarkdown}
+    <video autoplay loop muted class="gifvid">
+        <source src="/assets/DVD72/ProTools/ProTools1024NoMinimum.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+    <div class="video-caption">Pro Tools - 20489 Sample Buffer - No Minimize I/O Latency (Video)</div>
+{:/nomarkdown}
+
+## 1024 sample buffer - Minimize Additional I/O Latency
 
 {::nomarkdown}
     <video autoplay loop muted class="gifvid">
@@ -103,11 +115,13 @@ Reminder, don't trust dweebs on the internet. Do the tests yourself, or at least
     <div class="video-caption">Pro Tools - 1024 Sample Buffer - Minimize I/O Latency (Video)</div>
 {:/nomarkdown}
 
+
+
 # Data
 
 Here is a csv of all the data, including the config files used to plot it using [deltafinder](https://github.com/admiralbumblebee/deltafinder).
 
-[Pro Tools data](/assets/DVD72/ProTools/data.zip)
+[Pro Tools data](/assets/DVD72/Pro Tools/data.zip)
 
 # Conclusion
 

@@ -20,7 +20,7 @@ Now it's this article.
 {% assign lives = site.posts | where: "series", "ableton" | sort: 'date' %}
 <ul>
 {% for my_page in lives %} 
-    {% if page.url != my_page.url  %}
+    {% if page.url != my_page.url and my_page.layout != "reader" %}
         <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
     {% endif %}
 {% endfor %}
