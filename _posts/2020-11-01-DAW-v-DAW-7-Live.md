@@ -12,7 +12,7 @@ header-caption:
 series: latency
 ---
 
-First up in the latency/jitter testing is Live!
+Next up in the latency/jitter testing is Live!
 
 If you don't understand what this is, please [read the introduction post]({% post_url 2020-10-25-daw-v-daw-721 %}) (This article is being updated if/when changes are made!).
 
@@ -118,5 +118,5 @@ Here is a csv of all the data, including the config files used to plot it using 
 This post took:
 
 * 1 hour to capture signals and graph them.
-* 1 hours to verify results.
+* 1 hour to verify results.
 * 1 hour to write the article.
