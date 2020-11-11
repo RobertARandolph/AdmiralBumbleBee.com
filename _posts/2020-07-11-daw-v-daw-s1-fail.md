@@ -272,7 +272,7 @@ I hope that this can be viewed as what it is: an investigation into the function
 
 It is not an attack on Presonus. It is not an attack on its users.
 
-However, it is obvious that I've singled out Studio One 5 for this first installment of the series. Studio One has had this issue for over a decade. Studio One 5 is the latest release of all major DAWs. I feel these are points that make Studio One the most gregarious offender of products that demonstrate the behaviour.
+However, it is obvious that I've singled out Studio One 5 for this first installment of the series. Studio One has had this issue for over a decade. Studio One 5 is the latest release of all major DAWs. I feel these are points that make Studio One the most egregious offender of products that demonstrate the behaviour.
 
 Therefore I chose to use Studio One for the article where I describe the behaviour.
 
