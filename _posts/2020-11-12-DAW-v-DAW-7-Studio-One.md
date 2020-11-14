@@ -2,7 +2,7 @@
 layout: ['post', 'reader']
 title: DAW v DAW 7.2 - Studio One
 comments: true
-date:   2020-11-13_18:36:10 
+date:   2020-11-12_18:36:10 
 categories: music
 tags: ['Testing', 'DAW', 'Studio One']
 image:
@@ -294,5 +294,5 @@ Excellent result all-around. Thank you to the people at Presonus that listened.
 This post took:
 
 * 7 hours to mess with Studio Ones settings and hunch over my scope. Ouch, my back!
-* 1 hour to test.
-* 20 minutes to write the article.
+* 2 hours to test.
+* 3 hours to write the article.
