@@ -287,6 +287,8 @@ Here is a csv of all the data, including the config files used to plot it using 
 * Studio One had the most detailed and informative latency information.
     * It was also the most accurate on average.
 
+I ended up doing the Studio One tests multiple times to confirm findings.
+
 Excellent result all-around. Thank you to the people at Presonus that listened.
 
 # Meta
