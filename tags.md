@@ -7,6 +7,8 @@ permalink: /tags/
 <script>
 // handle year query string.
 window.addEventListener('load', function() {
+    // I'm editing this a year later, and I hate myself.
+    // Past self, you're not as funny as you think you are, but I know that won't stop you.
     sparnyounth2t098hto4y = new URLSearchParams(window.location.search);
     if (sparnyounth2t098hto4y.get('year') === "true") {
     toggle_avoid_collisions_with_other_libraries_so_I_do_this_because_Im_lazy();
@@ -63,6 +65,8 @@ to the `site_tags` variable. -->
         </li>
       {% endunless %}{% endfor %}
     </ul>
+    <ul>
+</ul>
     <div id="tags-list">
        <!-- Posts by Tag -->
        <div>
@@ -74,7 +78,12 @@ to the `site_tags` variable. -->
              {% if post.visible != 0 and post.visible != false %}
              <div>
                <span>
-                {{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a>
+               <span class="tag-post-date">
+                {{ post.date | date_to_string }} 
+               </span>
+                <span class="tag-post-content">
+                  <a href="{{ post.url }}">{{ post.title }}</a>
+                </span>
                </span>
              </div>
            {% endif %}
@@ -85,7 +94,20 @@ to the `site_tags` variable. -->
    </div>
 </div>
 
-<div id="by-year">
+<div id="by-year" style="display:none;">
+  <ul class="tags">
+  {% assign counter = 0 %}
+  {% for post in site.posts %}
+    {% assign thisyear = post.date | date: "%Y" %}
+    {% assign prevyear = post.previous.date | date: "%Y" %}
+    {% assign counter = counter | plus: 1 %}
+    {% if thisyear != prevyear %}
+      <li><a href="#{{ post.date | date:"%Y" }}">{{ thisyear }} ({{ counter }})</a></li>
+      {% assign counter = 0 %}
+    {% endif %}
+  {% endfor %}
+  </ul>
+
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
@@ -95,9 +117,12 @@ to the `site_tags` variable. -->
       {% if post.title != null %}
       {% if post.visible != 0 %}
         <div>
-             <span>
-             {{ post.date | date_to_string }} - <a href="{{ post.url }}">{{ post.title }}</a>
-         </span>
+        <span class="tag-post-date">
+         {{ post.date | date_to_string }} 
+        </span>
+        <span class="tag-post-content">
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </span>
      </div>
      {% endif %}
      {% endif %}

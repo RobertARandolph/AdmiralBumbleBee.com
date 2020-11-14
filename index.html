@@ -29,12 +29,14 @@ layout: default
               <div class="image-caption">{{ post.header-caption }}</div>
           </span>
           {% endif %}
+          <div class="post-content" itemprop="articleBody">
           {% if post.excerpt %}
           {{ post.excerpt }}
       {% endif %}
           {% if post.content contains site.excerpt_separator %}
             <a href="{{ post.url | prepend: site.baseurl }}">Read more →</a>
           {% endif %}
+          </div>
         </div>
       {% endif %}
     {% endfor %}

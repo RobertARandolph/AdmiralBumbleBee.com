@@ -2,13 +2,15 @@
 
 
   <div class="wrapper">
-    <div class="footer-col-left footer-col-3">
-      <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <div id="footer-links">
+    <div>
+      <p class="rss-subscribe"><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></p>
     </div>
-    <div class="footer-col-right footer-col-3">
       <div class="tags_footer">
-        <a href="/tags/">See more posts on the tags page!</a>
+        <a href="/tags/">More Articles!</a>
       </div>
+    </div>
+    <div>
       <p>{{ site.description }}</p>
     </div>
   </div>
