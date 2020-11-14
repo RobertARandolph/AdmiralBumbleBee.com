@@ -19,7 +19,7 @@ If you don't understand what this is, please [read the introduction post]({% pos
 {% assign latency = site.posts | where: "series", "latency" | sort: 'date' %}
 <ul>
 {% for my_page in latency %} 
-    {% if page.url != my_page.url  %}
+    {% if page.url != my_page.url and my_page.layout != "reader" %}}
         <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
     {% endif %}
 {% endfor %}
