@@ -2,7 +2,7 @@
 layout: ['post', 'reader']
 title: DAW v DAW 7.2 - Studio One
 comments: true
-date:   2020-11-12_18:36:10 
+date:   2020-11-13_18:36:10 
 categories: music
 tags: ['Testing', 'DAW', 'Studio One']
 image:
