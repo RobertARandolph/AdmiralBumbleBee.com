@@ -11,6 +11,8 @@ header: /assets/Studio One/Timing/S1Jitter.png
 header-caption: Live MIDI to Instrument Jitter
 ---
 
+**THIS HAS BEEN FIXED IN STUDIO ONE 5.1!!**
+
 [Studio One 5 is out!](https://www.presonus.com/press/press-releases/PreSonus-Studio-One-5) just came out!
 
 This would be an exciting day, if they managed to fix [one of the many **technical** issues](/tags/#DAW) with their product compared to the rest of the market, which they didn't.
