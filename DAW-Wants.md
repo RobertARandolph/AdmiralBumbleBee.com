@@ -2,13 +2,6 @@
 layout: ['post', 'reader']
 title: What I want in a DAW.
 comments: true
-date:   2020-11-21_15:14:45 
-categories: music
-tags: ['']
-image:
-description:
-header:
-header-caption:
 ---
 
 This is a page about the things that I expect from a DAW that I use to make my own personal music.
@@ -211,6 +204,21 @@ I'm a simple man, I record MIDI with a controller 99% of the time.
 * Assign tracks to output to the input of another track, or tracks.
 * Assign tracks to a hardware output or outputs.
 
+# Editing
+
+## Playhead control
+
+Integral to both editing and mixing for me.
+
+Move the playhead to the:
+
+* Next clip boundary.
+* Previous clip boundary.
+* Next transient.
+* Previous Transient.
+* Next n-value (tbd, I usually prefer zoom-based determination)
+* Previous n-value (tbd, I usually prefer zoom-based determination)
+* Specified Marker.
 
 ## Audio Editing
 
@@ -232,13 +240,8 @@ These are things which I won't tolerate more than a single key press (computer o
 * Stretch the:
   * Left boundary of the next clip to the playhead.
   * Right boundary of the previous clip to the playhead.
-* Move the playhead to the:
-  * Next clip boundary.
-  * Previous clip boundary.
-  * Next transient.
-  * Previous Transient.
-  * Next n-value (tbd, I usually prefer zoom-based determination)
-  * Previous n-value (tbd, I usually prefer zoom-based determination)
+* Adjust clip gain +1dB.
+* Adjust clip gain -1dB.
 * Zoom to:
   * Clip.
   * Everything in view.
@@ -257,6 +260,17 @@ And a few things I don't mind being slightly more complex:
 * Rectangle select to zoom.
 * Turn on/off an editing group associated with the current track.
 
+## MIDI Editing
+
+These are things which I won't tolerate more than a single key press (computer or MIDI-actuating):
+
+* Place note at playhead in the middle of current view.
+* Move selected note up 1 semitone.
+* Move selected note down 1 semitone.
+* Move selected note up 1 octave.
+* Move selected note down 1 octave.
+* Select notes intersecting playhead.
+* Split notes intersecting playhead.
 
 # Effects
 
@@ -264,12 +278,49 @@ These are the general effects that I expect to have, and the functionality that 
 
 I, like most people, enjoy having various flavours of these types of effects. I'll be focusing on a general-use product of each type that I'd be happy using if it was my only option.
 
+## All effects
+
+* Fast fade on bypass.
+
 ## EQ
+
+* At least 3 bell bands.
+* High pass
+  * Variable slope.
+* Low pass
+  * Variable slope.
+* Smoothed filter automation.
+* Type in filter values (level and frequency)
+* Logarithmic graphical view with:
+  * Spectrogram view.
+    * With matching piano graphic.
+  * Line graph.
+* Output level.
 
 ## Compressor
 
+* Variable attack/release shapes.
+  * Or common topology emulations.
+* If ratio is available, scaled with 1:1 at minimum value, 4:1 at 50% and 10:1 at 100%.
+* Input level.
+* Output level.
+
 ## Expander
+
+* Variable attack/release shapes
+  * Or common topology emulations.
+* Ratio.
+  * Scaled with 1:1 at minimum value, 4:1 at 50% and 10:1 at 100%.
+* Input level.
+* Output level.
 
 ## Reverb
 
+* Pre-delay is accurate to the apex of next stage of reflections.
+* Pre-delay in tempo.
+* Pre-delay in milliseconds.
+* Independent control of Early/Late Reflection parameters.
+
 ## Delay
+
+Undecided. I like complex delays, so I need to trim my preferences down before filling this section.
