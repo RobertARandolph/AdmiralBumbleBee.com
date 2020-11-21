@@ -9,6 +9,7 @@ image:
 description:
 header: /assets/DVD72/DVD72final.png
 header-caption: Saga over... for now?
+series: latency
 ---
 
 The DAW v DAW 7.2 series has been ongoing for a few weeks now and it's time to organize some data and draw some conclusions.
@@ -109,5 +110,5 @@ This post took:
 * 308.6 hours so far.
 * 9 hours to make the video.
 * 1 hour to write this article.
-* ~$450 to purchase software (Bitwig Update, Pro Tools update, Cubase Update)
+* ~$450 to purchase software (Bitwig Update, Pro Tools update)
 * A bald spot on my head.
