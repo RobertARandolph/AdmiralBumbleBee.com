@@ -14,13 +14,17 @@ These are **NOT** things that I use to rate topics in the [DAW Chart](/DAW-Chart
 
 **Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
 
+I would consider this doc 15% near a relatively stable state.
+
 # Requirements
 
 There are a number of things that I expect to be able to do with my DAW.
 
 This is a _brain dump_. I will be refining this over time, possibly with more brain dumps :)
 
-## A note on "Efficiency"
+I will be adjusting terminology over time to be more consistent. Until this doc is at about 50%, I wouldn't expect anything remotely coherent.
+
+## A note on Efficiency
 
 I'll be using the word "efficiently" a number of times in these descriptions, and it's important to explain what "efficiently" means here:
 
@@ -201,9 +205,11 @@ I'm a simple man, I record MIDI with a controller 99% of the time.
 
 # Editing
 
+Making changes to temporally delimited containers of data (clips/items/blah blah blah).
+
 ## Playhead control
 
-Integral to both editing and mixing for me.
+Integral to both editing and mixing, but an indispensable part of how I like editing systems to work.
 
 Move the playhead to the:
 
@@ -261,6 +267,29 @@ These are things which I won't tolerate more than a single key press (computer o
 * Move selected note down 1 octave.
 * Select notes intersecting playhead.
 * Split notes intersecting playhead.
+
+# Arrangement
+
+Making changes to large ad-hoc selections of things.
+
+Select:
+
+* A rectangular area (contiguous tracks, and a time selection including all items _and_ metadata [automation etc...]).
+  * Via Mouse.
+  * Via track and "between markers" selection.
+* Information matching logical selection, "If the note is a C is between bar 2 and 4 and is preceded by a D4"".
+
+Move selected tracks:
+
+* To become contiguous, but in the same sequential order.
+* To the end of the list efficiently.
+* To the start of the list efficiently.
+* To a cursor position.
+
+Move selected data:
+
+* Start of selection to playhead.
+* End of selection to playhead.
 
 # Workflow
 
