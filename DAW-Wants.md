@@ -1,14 +1,16 @@
 ---
-layout: ['post', 'reader']
+layout: post
 title: What I want in a DAW.
 comments: true
+date:   2020-11-19_21:05:53 
+visible: 0
 ---
 
 This is a page about the things that I expect from a DAW that I use to make my own personal music.
 
 These are **NOT** things that I use to rate topics in the [DAW Chart](/DAW-Chart.html).
 
-# How recently was this update
+# How recently was this updated
 
 **Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
 
@@ -40,7 +42,7 @@ Productivity is achieving the defined goal that I want to do "efficiently". What
 I will only say I wish something to happen "efficiently" if I expect to do the thing frequently.
   
 [^note]: I can press a note on my MIDI keyboard faster without looking than pressing a keyboard key. Likewise the same for a chord, which encodes more information than a single key, thereby it's more efficient. I have an 88-key weighted controller right in front of me in the same place for the last ~10 years.
-[^modifiers]: On QWERTY (which I don't use) Ex 1: Ctrl-Q - 1.6pts. Q is 1 point. Ctrl is 0.2, Z is 0.2, A is 0.2. Ex 2: Command-Shift-Y - 3.4pts. Y is 1 pt. Shift is 0.2pt, Alt is 0.2, distance between shift and alt is 0.2, z is 0.2, x is 0.2, F is 0.2, G or T is 0.2.
+[^modifiers]: On QWERTY (which I don't use) Ex 1: Ctrl-Q - 1.6pts. Q is 1 point. Ctrl is 0.2, Z is 0.2, A is 0.2. ------ Ex 2: Command-Shift-Y - 3.4pts. Y is 1 pt. Shift is 0.2pt, Alt is 0.2, distance between shift and alt is 0.2, z is 0.2, x is 0.2, F is 0.2, G or T is 0.2.
 [^context]: This is anytime that I need to stop and process "where" I am in the software. If pressing "Q" does something when the track is selected, but does something different when the track control panel is selected, then I need to (potentially stop and) recognize my current action context before pressing Q.
 
 # Memorable Shortcuts
@@ -102,27 +104,21 @@ A substitute for these features is all of these capabilities:
 
 Quick setup of a MIDI track/instrument gives me a click track with an effectable output, then I can select the appropriate pulse via importing a MIDI clip.
 
-## Guitar Recording
+## Audio Recording
 
-For guitar recording I expect to be able to:
-
-* Import a _track_ with pre-assigned effects.
-  * Easily browse these importable track assets.
-* Assign MIDI to effects parameters.
-* Search for an effect and add it to the "guitar track" efficiently.
-* Create & Assign a parallel audio path to a track (i.e. "Aux track") efficiently.
 * [Comping](#comping)
-* [Click Track](#click-track)
-
-## Drum Recording
-
-* Import a set of tracks efficiently with:
-  * Input assignments.
-  * Effects.
-  * Parallel routings (i.e. "Aux Tracks").
 * [Comping](#comping) where all actions to a _single_ track propagate to other tracks in a manner which retains their relative phase that existed before the change.
   * This means that any time-stretching actions are phase sensitive as well.
 * [Click Track](#click-track)
+* Import a _track_ with pre-assigned effects.
+  * Easily browse these importable track assets.
+* Import a **set** of tracks efficiently with:
+  * Input assignments.
+  * Effects.
+  * Parallel routings i.e. "Aux Tracks".
+* Assign MIDI to effects parameters.
+* Search for an effect and add it to the "guitar track" efficiently.
+* Create & Assign a parallel audio path to a track (i.e. "Aux track") efficiently.
 * Count-in functionality.
 * Remote recording actions:
   * Play.
@@ -179,7 +175,6 @@ I'm a simple man, I record MIDI with a controller 99% of the time.
 * Split channels of a MIDI stream (probably from a MIDI item) to other tracks.
 * Process MIDI streams in-flight. (MIDI FX/scripts)
 * Select MIDI notes via logical construction. i.e. "If the note is a C is between bar 2 and 4 and is preceded by a D4".
-* 
 
 ## Mixing
 
@@ -198,7 +193,7 @@ I'm a simple man, I record MIDI with a controller 99% of the time.
   * Move an effect from one track to another, removing it from the source and placing an identical effect (same settings) on the destination.
     * Same, but do not remove the effect from the source.
   * If grouped, control multiple identical FX's matching parameters with a single control efficiently. (Linked FX controls, or less efficiently: Macros)
-* Change the [pan law]({% post_url 2019-12-07-Daw-V-Daw-Pan-Curves url %})
+* Change the [pan law]({% post_url 2019-12-07-Daw-V-Daw-Pan-Curves %})
 * Increase the gain of a data encapsulate widget (Item/Region/Clip)
 * Efficiently create buses for audio data that combine the data fed into them _and_ assign what's fed into them.
 * Assign tracks to output to the input of another track, or tracks.
@@ -219,6 +214,13 @@ Move the playhead to the:
 * Next n-value (tbd, I usually prefer zoom-based determination)
 * Previous n-value (tbd, I usually prefer zoom-based determination)
 * Specified Marker.
+
+# Crossfade Editor
+
+* Left and Right side shapes
+  * With tension or bezier curves.
+  * Efficient toggle ripple on/off.
+* Apply crossfade to selected overlapping clips and launch crossfade editor efficiently.
 
 ## Audio Editing
 
@@ -242,21 +244,9 @@ These are things which I won't tolerate more than a single key press (computer o
   * Right boundary of the previous clip to the playhead.
 * Adjust clip gain +1dB.
 * Adjust clip gain -1dB.
-* Zoom to:
-  * Clip.
-  * Everything in view.
-  * Previous zoom level.
-  * Next zoom level.
-  * 4 Zoom levels.
 
 And a few things I don't mind being slightly more complex:
 
-* Search for track by name.
-  * Optionally select these tracks.
-  * Show routing children (tracks that route to this track).
-  * Show edit group children (things that will respond to edits together).
-* Search for clip by name.
-  * Optionally select these clips.
 * Rectangle select to zoom.
 * Turn on/off an editing group associated with the current track.
 
@@ -271,6 +261,39 @@ These are things which I won't tolerate more than a single key press (computer o
 * Move selected note down 1 octave.
 * Select notes intersecting playhead.
 * Split notes intersecting playhead.
+
+# Workflow
+
+Things that help me use the DAW.
+
+## Window Management
+
+* Efficiently recall a window setup.
+* Mnemonic shortcuts for closing left, bottom and right side panels if applicable.
+
+## Markers
+
+* Edit marker names efficiently
+* Re-order markers.
+  * Ensure that markers line up with the shortcuts that I expect to trigger them.
+
+## Search
+
+* Search for track by name.
+  * Optionally select these tracks.
+  * Show routing children (tracks that route to this track).
+  * Show edit group children (things that will respond to edits together).
+* Search for clip by name.
+  * Optionally select these clips.
+  
+## Zoom
+
+* Zoom to:
+  * Clip.
+  * Everything in view.
+  * Previous zoom level.
+  * Next zoom level.
+  * 4 Zoom levels.
 
 # Effects
 

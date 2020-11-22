@@ -7,6 +7,12 @@ categories: music
 tags: ['DAW', 'Reaper', 'Reaper Configuration']
 ---
 
+**THIS IS IN FLUX**
+
+See [this article for more information]({% post_url 2020-11-19-Starting-over-with-Reaper %}).
+
+I will retain old settings in an archived location that I will denote here when appropriate.
+
 {::nomarkdown}
   <img src="/assets/Reaper/Settings.png" alt="Changes, Changes">
   <div class="image-caption">Customization</div>
@@ -15,6 +21,8 @@ tags: ['DAW', 'Reaper', 'Reaper Configuration']
 I decided to split out my Reaper settings in to its own blog post. I will be keeping this up to date everytime I change something.
 
 I will also be adding my Radial Menu, Contextual Toolbars and anything else I see fit here. It will be labeled with the last update as well.
+
+**THIS IS IN FLUX**
 
 **Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
 
