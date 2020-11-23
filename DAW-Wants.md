@@ -8,19 +8,19 @@ visible: 0
 
 This is a page about the things that I expect from a DAW that I use to make my own personal music.
 
-These are **NOT** things that I use to rate topics in the [DAW Chart](/DAW-Chart.html).
+These are **NOT** things that I use to rate topics in the [DAW Feature Chart](/DAW-Chart.html). This is my own personal desires, which I attempt to separate from some level of objectivity when working on the DAW Feature Chart.
 
-# How recently was this updated
+# Last Update
 
 **Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
 
-I would consider this doc 15% near a relatively stable state.
+I would consider this doc at about 15% "complete".
 
 # Requirements
 
 There are a number of things that I expect to be able to do with my DAW.
 
-This is a _brain dump_. I will be refining this over time, possibly with more brain dumps :)
+This is currently a _brain dump_. I will be refining this over time, possibly with more brain dumps :)
 
 I will be adjusting terminology over time to be more consistent. Until this doc is at about 50%, I wouldn't expect anything remotely coherent.
 
@@ -48,6 +48,39 @@ I will only say I wish something to happen "efficiently" if I expect to do the t
 [^note]: I can press a note on my MIDI keyboard faster without looking than pressing a keyboard key. Likewise the same for a chord, which encodes more information than a single key, thereby it's more efficient. I have an 88-key weighted controller right in front of me in the same place for the last ~10 years.
 [^modifiers]: On QWERTY (which I don't use) Ex 1: Ctrl-Q - 1.6pts. Q is 1 point. Ctrl is 0.2, Z is 0.2, A is 0.2. ------ Ex 2: Command-Shift-Y - 3.4pts. Y is 1 pt. Shift is 0.2pt, Alt is 0.2, distance between shift and alt is 0.2, z is 0.2, x is 0.2, F is 0.2, G or T is 0.2.
 [^context]: This is anytime that I need to stop and process "where" I am in the software. If pressing "Q" does something when the track is selected, but does something different when the track control panel is selected, then I need to (potentially stop and) recognize my current action context before pressing Q.
+
+### Bias
+
+If you can't tell, I'm **HEAVILY** biased towards pressing a single button to do something. I'm also heavily biased against pausing to identify context. These happen to be related.
+
+Everytime you touch the mouse, you must do (in some form, even [with my mouse anchoring method]({% post_url 2016-12-30-Better-mouse-usage-through-anchoring %}) or a tablet in absolute positioning mode [both of which I use]) these things:
+
+* Identify the cursor location.
+* Identify the current state of the software that you want to interact with.
+* Evaluate if the state of the software matches what's necessary to interact with it in the manner you want.
+* Move the mouse.
+* Track the cursor location.
+* Move the mouse.
+* Track the cursor location.
+* Move the mouse.
+* Track the cursor location.
+  * Yes, this happens many times whether you realize it or not.
+    * If you pay attention, you'll notice that you overshoot your location much more than you realize!
+* Interact with the software.
+  * Probably move the mouse->track the mouse.
+* Check context to make sure nothing has changed.
+* Let go of the mouse and forget where the cursor is.
+
+These things happen fairly fast for most people, but they also take more time and brainpower than you think.
+
+My preferred alternative is software that doesn't change state until you interact with it, and there is a way to reset the software's to a known state. Generally this means using single-button presses that _do one thing_ or error. That is rare in software, so my second preference is that I can reset to a known state, and perform a series of idempotent actions.
+
+To phrase it differently: **I want to close my eyes, interact with my computer, and know exactly what happens.**
+
+I don't want to press a key and it does something different because I have the wrong window up, or wrong thing selected or the playhead is running or it's the wrong time of day or I ate the wrong breakfast...
+
+I want an interactive action do to the same thing _always_, or error if not possible.
+
 
 # Memorable Shortcuts
 
@@ -268,6 +301,8 @@ These are things which I won't tolerate more than a single key press (computer o
 * Select notes intersecting playhead.
 * Split notes intersecting playhead.
 
+**Note**: currently very sparse. Require more time to flesh this out.
+
 # Arrangement
 
 Making changes to large ad-hoc selections of things.
@@ -295,6 +330,31 @@ Move selected data:
 
 Things that help me use the DAW.
 
+## Context
+
+* A single command to deselect all _things_ and return focus to the main arrangement window.
+
+## Save
+
+* Automatically save without interrupting workflow, or during idle times.
+  * Keep autosaves in a separate directory with the project.
+* Optionally restore last state after a crash.
+* "Save Version".
+  * Save current state of project with ProjectName-Date. Continue project as-is.
+    * Alternatively, save project as-is and rename current project to Projectname-Dat.
+* Save a track's state efficiently.
+  * Recall a track's state efficiently.
+
+## Zoom
+
+* Zoom to:
+  * Clip.
+  * Everything in view.
+  * Previous zoom level.
+  * Next zoom level.
+  * 4 pre-defined zoom levels.
+  * Markers surrounding the cursor.
+
 ## Window Management
 
 * Efficiently recall a window setup.
@@ -305,6 +365,15 @@ Things that help me use the DAW.
 * Edit marker names efficiently
 * Re-order markers.
   * Ensure that markers line up with the shortcuts that I expect to trigger them.
+  
+## Selection
+
+* Save the current item selection efficiently.
+  * Recall the current item selection efficiently.
+* Save the current track selection efficiently.
+  * Recall the current track selection efficiently.
+* Save the current time selection efficiently.
+  * Recall the current time selection efficiently.
 
 ## Search
 
@@ -315,14 +384,6 @@ Things that help me use the DAW.
 * Search for clip by name.
   * Optionally select these clips.
   
-## Zoom
-
-* Zoom to:
-  * Clip.
-  * Everything in view.
-  * Previous zoom level.
-  * Next zoom level.
-  * 4 Zoom levels.
 
 # Effects
 
