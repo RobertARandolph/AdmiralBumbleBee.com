@@ -233,6 +233,10 @@ Here's the process:
   * **OFF** `Contents->Options when using one MIDI editor per project->Close editor when the active media item is delete in the arrange view` 
     * REAPER's menus really suck, don't they? Why isn't this in a searchable file or organized dialog?
 
+**EDIT**: It's been pointed out to me by the fine fellow at [REAPER blog](https://reaperblog.net) that this is all available in `Preferences->Editing Behavior->MIDI Editor`.  My oversight there!
+
+**EDIT**: It's also been pointed out in the comments that these can be accessed via the MIDI Editor window's menu _before_ you dock it. Alternatively these options are in the Actions List, however I _did_ look there before I knew exactly what I was looking for. Now that I know what I need, it would have been easy to find in the Action List, but the menu hierarchy _helped_ me in this case!
+
 _Now_ the screenset can be saved.
 
 When I originally set this up, it took me days to figure this out. I wrote some notes, and apparently my notes weren't great because it took me 2 hours to figure it out this time.
