@@ -52,7 +52,7 @@ Media assets are large-ish.
 
 My current plan is to distribute media assets for contributors via [Wasabi](https://wasabi.com). It takes me time to setup proper access controls for each user, and I'll need to work out how I want to broadcast changes.
 
-Given that each new user will likely take me 15-45minutes to setup, there is a one-time $15 fee to acquire the site's media assets. Please contact me (audioilabs@gmail.com) if you are interested.
+Given that each new user will likely take me 15-45minutes to setup, there is a one-time $15 fee to acquire the site's media assets. Please contact me (audiolabs@gmail.com) if you are interested.
 
 Media assets are also licensed under CC BY-NC-ND 4.0.
 
