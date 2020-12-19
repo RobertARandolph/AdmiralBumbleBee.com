@@ -538,6 +538,10 @@
     padding-top: 25px;
   }
 
+  h1, h2, h3, h4, h5 {
+      color: $text-color;
+  }
+
   h1 {
     font-size: 40px;
     font-weight: 600;

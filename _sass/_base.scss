@@ -20,22 +20,6 @@ figure {
   padding: 0;
 }
 
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-strong,
-.site-nav .page-link {
-  color: rgba(
-    0,
-    0,
-    0,
-    0.8
-  ); /* tint via opacity again, headings and strong elements want to be darker than standard text */
-}
-
 /**
  * Unreset this basic element
  */
