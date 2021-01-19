@@ -81,6 +81,19 @@ I don't want to press a key and it does something different because I have the w
 
 I want an interactive action do to the same thing _always_, or error if not possible.
 
+# Feedback
+
+I want my DAW to be pollable or event based. I want a way for an external process to ask the DAW about its current state, or to retrieve that state with a minimal API.
+
+I want to write programs to use my DAW. I want my DAW to be able to talk to me. I want to talk to my DAW. I want to draw new GUIs about my DAW's current state. I want other people to write things for me.
+
+# Input
+
+I want my DAW to have a minimal API to control it.
+
+Anything that can be done in the DAW should be easily done via a simple API.
+
+Given a complete feedback system and a complete control API, making custom interfaces for the DAW (_particularly_ for accessibility needs) becomes trivial. This is important to me.
 
 # Memorable Shortcuts
 

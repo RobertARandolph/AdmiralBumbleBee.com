@@ -28,7 +28,7 @@ The [Evans Torque Key](http://daddario.com/EvProductDetail.Page?ActiveID=3567&pr
 
 To use the wrench, you simply place the wrench on the tuning rod and turn while _only_ holding the black part.
 
-In the above drawing, the grey part is a solid piece. The black portion rotates on the grey shaft _mostly_ freely and only in one directly. Looking from the top of the drawing, the black portion will only turn clockwise.
+In the above drawing, the grey part is a solid piece. The black portion rotates on the grey shaft _mostly_ freely and only in one direction. Looking from the top of the drawing, the black portion will only turn clockwise.
 
 The red section is a screw going through the silver. The screw terminates in a hardened bushing. The blue part is a bearing that is fixed in to the black.
 
