@@ -3,6 +3,7 @@ layout: default
 ---
 
 <div class="home">
+  {% include vacation.html %}
   <div class="post-list">
     {% for i in (0..10) %}
     {% assign post = site.posts[i] %}

@@ -100,6 +100,47 @@
   }
 }
 
+.vacation {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 150px;
+    border: 2px dotted white;
+    padding: 0px 10px;
+    opacity: 0.8;
+    transform: rotate(30deg);
+    z-index: 1001; // Let's get over that side header, shall we?
+
+    @include media-query($on-palm) {
+        top: 100px;
+        padding: 0px 2px;
+        z-index: 2;
+    }
+
+    background-color: $brand-color;
+
+    .top {
+        @include media-query($on-palm) {
+            font-size: 20px;
+        }
+        text-align: center;
+        font-size: 24px; 
+        font-weight: 800;
+        color: $background-color;
+        margin-top: 3px;
+    }
+    .bottom {
+        @include media-query($on-palm) {
+            font-size: 12px;
+        }
+        text-align: center;
+        font-size: 12px; 
+        font-weight: 800;
+        color: $background-color;
+        margin-top: -13px;
+    }
+}
+
 .side-bar-box {
   width: $left-side-bar-width;
   position: absolute;
