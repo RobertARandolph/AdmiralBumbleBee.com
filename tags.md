@@ -21,7 +21,8 @@ window.addEventListener('load', function() {
            }
         if (toggle_avoid_collisions_with_other_libraries_so_I_do_this_because_Im_lazy.toggle_var_avoid_collisions_with_other_libraries_so_I_do_this_because_Im_lazy === 0) {
            e_sort = document.querySelector("#enable-sort"); 
-           e_sort.style.transform = "translate(82px, 0px)"; 
+           // why am I not calculating that value off the element? Welp, too lazy to fix it now
+           e_sort.style.transform = "translate(132px, 0px)"; 
            e_sort.classList.remove("sort-radius-left");
            e_sort.classList.add("sort-radius-right");
            document.querySelector("#by-tags").style.display = "none";
