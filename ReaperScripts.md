@@ -829,5 +829,3 @@ These scripts can take hundreds of hours of a person's free time. Many of them a
 If you have the spare money and you find a script enjoyable then please look to see if the author accepts donations.
 
 If not, then just send them a thanks. They'd love to know that their effort is appreciated.
-
-

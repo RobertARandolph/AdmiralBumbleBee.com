@@ -7,9 +7,9 @@ categories: music
 tags: ['DAW', 'Reaper', 'Reaper Configuration']
 ---
 
-**THIS IS IN FLUX**
+**ATTENTION**
 
-See [this article for more information]({% post_url 2020-11-19-Starting-over-with-Reaper %}).
+[Reaper Settings are now here](/ReaperSettings.html)
 
 I will retain old settings in an archived location that I will denote here when appropriate.
 
@@ -32,6 +32,12 @@ I will also be adding my Radial Menu, Contextual Toolbars and anything else I se
 {:.no_toc}
 * TOC
 {:toc}
+
+**ATTENTION**
+
+[Reaper Settings are now here](/ReaperSettings.html)
+
+I will retain old settings in an archived location that I will denote here when appropriate.
 
 # Action changes
 
@@ -573,9 +579,12 @@ I have the following effects on that track to further increase the audibility of
     * Boost (dB) - 0.0
     * Output Brickwall (dB) - -0.1
 
+**ATTENTION**
+
+[Reaper Settings are now here](/ReaperSettings.html)
+
+I will retain old settings in an archived location that I will denote here when appropriate.
+
 # Support me!
 
 This post takes a good bit of time to keep up to date, and often when I'm trying to be creative. If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating!</a>
-
-
-
