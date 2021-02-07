@@ -14,7 +14,7 @@ These are **NOT** things that I use to rate topics in the [DAW Feature Chart](/D
 
 **Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
 
-I would consider this doc at about 15% "complete".
+I would consider this doc at about 20% "complete".
 
 # Requirements
 
@@ -134,6 +134,12 @@ Utilizing the track content:
 * Render or "glue" the main track's content so that it appears to be a single contiguous part.
 * Revert or "un-glue" a part at any point in time. i.e. not relying on an undo stack, but a command that can return you to the state before "gluing".
 * Apply edits to the main track, and have all associated content follow temporally.
+
+Mood Killers:
+
+* "Comping" has a splitting or splicing effect on the item that contains the takes. (see REAPER's take system, gross)
+* Splitting an item does not split and properly assign takes.
+* Takes are the same colour while comping.
 
 ## Click Track
 
@@ -396,7 +402,13 @@ Things that help me use the DAW.
   * Show edit group children (things that will respond to edits together).
 * Search for clip by name.
   * Optionally select these clips.
-  
+
+## Routing
+
+* Display all inputs to this location.
+* Display all outputs of this location.
+* From any 'routing' UI, search for possible destinations.
+* From any 'routing' UI, search for possible inputs.
 
 # Effects
 
