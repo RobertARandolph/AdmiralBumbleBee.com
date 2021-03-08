@@ -350,13 +350,6 @@ pre {
   }
 }
 
-:target:before {
-  content: "";
-  display: block;
-  height: 65px;
-  margin: -65px 0 0;
-}
-
 .h1-style {
   margin-left: 0em;
 }
