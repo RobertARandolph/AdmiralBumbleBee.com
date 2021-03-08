@@ -1,0 +1,136 @@
+<script>
+      window.addEventListener('DOMContentLoaded', (event) =>
+      {
+          for (x=1;x<7;x++) {
+              var h1s = document.getElementsByTagName("H" + x);
+
+              // Wrap Hx tags with the appropriate divs for an 'outline' type presentation
+              for (i=0;i<h1s.length;i++) {
+                  var w = document.createElement('div');
+                  var el = h1s[i];
+                  w.className = "h" + x + "-container";
+                  w.id = el.id + "-container";
+                  el.classList.add("header-sticky-" + x)
+                  el.classList.add("header-sticky")
+                  var anchor = document.createElement("a")
+                  anchor.innerText = "⎘"
+                  anchor.href = "#" + el.id
+                  anchor.classList.add("copy-button")
+                  el.appendChild(anchor)
+                  var ns = el.nextSibling;
+                  
+                  el.parentNode.insertBefore(w, el);
+                  w.appendChild(el);
+                  
+                  while (ns != null && (ns.tagName != "H" + x) && (ns.className != "h" + x + "-container")) {
+                      ns2 = ns.nextSibling;
+                      w.appendChild(ns);
+                      ns = ns2;
+                  }}
+
+          }
+
+          var headers = document.querySelectorAll("h1, h2, h3, h4, h5, h6, h7")
+
+          for (i=0;i<headers.length;i++) {
+              el = headers[i];
+              el.style.zIndex = headers.length - i;
+          }
+      });
+
+  (function(document, history, location) {
+  var HISTORY_SUPPORT = !!(history && history.pushState);
+
+  var anchorScrolls = {
+    ANCHOR_REGEX: /^#[^ ]+$/,
+    OFFSET_HEIGHT_PX: 150,
+
+    /**
+     * Establish events, and fix initial scroll position if a hash is provided.
+     */
+    init: function() {
+      this.scrollToCurrent();
+      window.addEventListener('hashchange', this.scrollToCurrent.bind(this));
+      document.body.addEventListener('click', this.delegateAnchors.bind(this));
+    },
+
+    /**
+     * Return the offset amount to deduct from the normal scroll position.
+     * Modify as appropriate to allow for dynamic calculations
+     */
+    getFixedOffset: function(tag) {
+        switch (tag) {
+        case "H1":
+            return 55;
+        case "H2":
+            return 103;
+        case "H3":
+            return 145;
+        case "H4":
+            return 186;
+        }
+
+      return this.OFFSET_HEIGHT_PX;
+    },
+
+    /**
+     * If the provided href is an anchor which resolves to an element on the
+     * page, scroll to it.
+     * @param  {String} href
+     * @return {Boolean} - Was the href an anchor.
+     */
+    scrollIfAnchor: function(href, pushToHistory) {
+      var match, rect, anchorOffset;
+
+      if(!this.ANCHOR_REGEX.test(href)) {
+        return false;
+      }
+
+      match = document.getElementById(href.slice(1));
+      matchContainer = document.getElementById(href.slice(1) + "-container");
+
+      if(match) {
+        rect = matchContainer.getBoundingClientRect();
+        anchorOffset = window.pageYOffset + rect.top - this.getFixedOffset(match.nodeName);
+        console.log("Scrolling to a: " + match.nodeName);
+        console.log("Offset: " + this.getFixedOffset(match.nodeName));
+        console.log("Rect: " + rect.top);
+        window.scrollTo(window.pageXOffset, anchorOffset);
+
+        // Add the state to history as-per normal anchor links
+        if(HISTORY_SUPPORT && pushToHistory) {
+          history.pushState({}, document.title, location.pathname + href);
+        }
+      }
+
+      return !!match;
+    },
+
+    /**
+     * Attempt to scroll to the current location's hash.
+     */
+    scrollToCurrent: function() {
+      this.scrollIfAnchor(window.location.hash);
+    },
+
+    /**
+     * If the click event's target was an anchor, fix the scroll position.
+     */
+    delegateAnchors: function(e) {
+      var elem = e.target;
+
+      if(
+        elem.nodeName === 'A' &&
+        this.scrollIfAnchor(elem.getAttribute('href'), true)
+      ) {
+        e.preventDefault();
+      }
+    }
+  };
+
+  window.addEventListener(
+    'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
+  );
+})(window.document, window.history, window.location);
+
+</script>
