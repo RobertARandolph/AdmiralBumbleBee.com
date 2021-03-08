@@ -1059,3 +1059,18 @@ $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
 .h-invisible {
     display: none;
 }
+
+.copy-button {
+    margin-left: 10px;
+    opacity: 0;
+}
+
+
+.copy-button:hover {
+    text-decoration: none;
+    opacity:1;
+    -webkit-transition: opacity .10s ease-in-out .0s;
+    transition: opacity .10s ease-in-out .0s;
+    visibility: visible;
+}
+
