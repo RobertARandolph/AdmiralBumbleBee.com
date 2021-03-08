@@ -4,7 +4,7 @@ title: DAW v DAW 7.2 - DP
 comments: true
 date:   2020-11-09_05:12:25 
 categories: music
-tags: ['Testing', 'DAW', 'DP']
+tags: ['Testing', 'DAW', 'Digital Performer']
 image:
 description:
 header:
