@@ -2,15 +2,16 @@
  * Site header
  */
 .site-header {
-    position: sticky;
-    position: -webkit-sticky;
+    position: fixed;
     top: 0;
+    left: 0;
+    width: 100vw;
     background: $background-color;
     border-top: 2px solid $grey-color-dark;
     // box-shadow: 0px 2px 2px $grey-color-light;
     padding-top: 0px;
     padding-bottom: 3px;
-    height: 65px;
+    height: 50px;
     z-index: 1000;
 
     // Positioning context for the mobile navigation icon
@@ -18,7 +19,7 @@
 }
 
 .site-title {
-    font-size: 22px;
+    font-size: 26px;
     font-weight: 300;
     margin-bottom: -5px;
     margin-left: 1%;
@@ -141,6 +142,50 @@
     }
 }
 
+.sidebar-left {
+    width: $left-side-bar-width;
+    position: sticky;
+    position: webkit-sticky;
+    top: 65px;
+    float: left;
+    clear: both;
+    margin-left: 0;
+    padding: 5px;
+    padding-left: 15px;
+    margin-top: 10px;
+    overflow-y: auto;
+    height: 100vh;
+
+    .sidebar-link {
+        display: block;
+        font-size: 20px;
+        text-decoration: none;
+        color: $text-color;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .sidebar-link-top {
+        font-weight: 400;
+        font-size: 22px;
+    }
+
+    .sidebar-link-sub {
+        margin-left: 20px; 
+        position: relative;
+    }
+
+    .sidebar-link-sub:last-of-type {
+        margin-bottom: 12px;
+    }
+
+    @include media-query($on-palm) {
+        display: none;
+        visibility: hidden;
+        width: 0%;
+    }
+}
+
 .side-bar-box {
     width: $left-side-bar-width;
     position: absolute;
@@ -152,6 +197,14 @@
     border-radius: 5px;
     clear: both;
     margin-top: 10px;
+
+    .sidebar-link {
+        display: block;
+        font-size: 24px;
+        text-decoration: none;
+        color: $text-color;
+        
+    }
 
     @include media-query($on-palm) {
         display: none;
@@ -246,7 +299,7 @@
         background: linear-gradient(
             90deg,
             rgba(255, 255, 255, 0) 0%,
-            darken($grey-color-light, 10%) 30%,
+            darken($grey-color-light, 10%) 0%,
             darken($grey-color-light, 10%) 70%,
             rgba(255, 255, 255, 0) 100%
         );
@@ -256,7 +309,7 @@
         display: flex;
         position: sticky;
         position: -webkit-sticky;
-        top: 28px;
+        top: 30px;
         background: transparent;
         z-index: 1000;
         margin: auto;
@@ -266,7 +319,10 @@
         .underbar-link {
             color: $text-color;
             line-height: $base-line-height;
-            font-size: 14px;
+            font-size: 16px;
+            padding-top: 4px;
+            padding-bottom: 4px;
+            margin-top: 4px;
             margin-left: 10px;
             margin-right: 10px;
         }
@@ -282,10 +338,10 @@
     .page-link {
         color: $text-color;
         line-height: $base-line-height;
-        font-size: 20px;
-
+        font-size: 22px;
         margin-left: 10px;
         margin-right: 10px;
+        padding-bottom: 4px;
         font-size: 20px;
     }
 
@@ -507,24 +563,28 @@
     }
 }
 
-.post-meta {
-    font-size: $small-font-size;
-    color: $grey-color;
-    float: left;
-    clear: left;
+.post-info {
+    display: flex;
+    justify-content: space-between;
+
+    .post-meta {
+        font-size: $small-font-size;
+        color: $grey-color;
+    }
+
+    .post-versions {
+        font-size: $medium-font-size;
+        color: blue;
+    }
 }
 
-.post-versions {
-    font-size: $medium-font-size;
-    color: blue;
-    float: right;
-}
+
 
 .post-link {
     display: block;
     font-size: 24px;
-    float: left;
 }
+
 
 /**
  * Posts
@@ -551,8 +611,10 @@
 
 .post-header {
     margin-bottom: $spacing-unit;
-    height: 3.2em;
+    display: block;
 }
+
+
 
 .header-image a img {
     max-width: 850px !important;
@@ -581,13 +643,36 @@
 
     h1, h2, h3, h4, h5 {
         color: $text-color;
+        background-color: $background-color;
+    }
+
+    .header-sticky {
+        position: sticky;
+    }
+
+    .header-sticky-1 {
+        top: 55px;
+    }
+
+    .header-sticky-2 {
+        top: 103px;
+    }
+
+    .header-sticky-3 {
+        top: 145px;
+    }
+
+    .header-sticky-4 {
+        top: 186px;
     }
 
     h1 {
         font-size: 40px;
+        height: 40px;
         font-weight: 600;
         border-bottom: 3px solid rgb(0, 0, 0);
         padding-bottom: 5px;
+        background-color: $background-color;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -605,8 +690,10 @@
 
     h2 {
         font-size: 30px;
+        height: 35px;
         border-bottom: 2px solid rgb(200, 200, 200);
         padding-bottom: 5px;
+        background-color: $background-color;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -624,6 +711,7 @@
 
     h3 {
         font-size: 30px;
+        height: 35px;
         border-bottom: 1px solid rgb(200, 200, 200);
         padding-bottom: 5px;
 
@@ -641,7 +729,8 @@
     }
 
     h4 {
-        font-size: 40px;
+        font-size: 30px;
+        height: 35px;
         border-bottom: 1px solid rgb(200, 200, 200);
         padding-bottom: 5px;
 
@@ -677,9 +766,11 @@
     }
 }
 
-#tags-list h2 {
-    margin-top: 25px;
+#tags-list h1 {
+    margin-top: -55px;
+    padding-top: 55px;
     margin-bottom: 5px;
+    top: 0px !important;
 }
 
 .tags {
@@ -719,8 +810,9 @@
 }
 
 #tags-type {
+    z-index: 1400;
     position: fixed;
-    top: 78px;
+    top: 2px;
     right: 14%;
     border-radius: 5px;
     cursor: pointer;
@@ -803,7 +895,7 @@
 
 #chart-weight-modifiers {
     position: sticky;
-    top: 78px;
+    top: 104px;
     width: 100%;
     border-radius: 5px;
     cursor: pointer;

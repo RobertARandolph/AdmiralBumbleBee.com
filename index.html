@@ -9,19 +9,21 @@ layout: default
     {% assign post = site.posts[i] %}
       {% if post.visible != 0 and post.visible != false %}
      <div class="index-post">
-      <header class="post-header">
+      <div class="post-header">
           <h2>
             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
           </h2>
-          <span class="post-meta">{{ post.date | date: "%c" }}
+          <span class="post-info">
+            <span class="post-meta">{{ post.date | date: "%c" }}
+            </span>
+            <span class="post-versions">
+              <a href="/{{ post.categories}}/{{ post.date | date: '%Y/%m/%d' }}/{{ post.slug }}_reader.html">Reader</a>
+              {% if post.pdf %}
+              — <a href="/{{ post.categories}}/{{ post.date | date: '%Y/%m/%d' }}/{{ post.slug }}.pdf">PDF</a>
+              {% endif %}
+            </span>
           </span>
-          <span class="post-versions">
-            <a href="/{{ post.categories}}/{{ post.date | date: '%Y/%m/%d' }}/{{ post.slug }}_reader.html">Reader</a>
-            {% if post.pdf %}
-             — <a href="/{{ post.categories}}/{{ post.date | date: '%Y/%m/%d' }}/{{ post.slug }}.pdf">PDF</a>
-            {% endif %}
-          </span>
-      </header>
+      </div>
           {% if post.header %}
           <span class="header-image">
             <a href="{{ post.url | prepend: site.baseurl }}">

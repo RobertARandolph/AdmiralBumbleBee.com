@@ -1,47 +1,6 @@
 ---
 layout: default
 ---
-<script type="text/javascript">
-
-var prev_handler = window.onload;
-window.onload = func1;
-
-function func1 () {
-  if (prev_handler) {
-        prev_handler();
-  }
-	for (x=1;x<7;x++) {
-    var h1s = document.getElementsByTagName("H" + x);
-
-    // Wrap Hx tags with the appropriate divs for an 'outline' type presentation
-    for (i=0;i<h1s.length;i++) {
-      var w = document.createElement('div');
-      w.className = "h"  + x + "-style";
-      var el = h1s[i];
-      var ns = el.nextSibling;
-
-      el.parentNode.insertBefore(w, el);
-      w.appendChild(el);
-
-      while (ns != null && (ns.tagName != "H" + x) && (ns.className != "h" + x + "-style")) {
-        ns2 = ns.nextSibling;
-        w.appendChild(ns);
-        ns = ns2;
-      }
-
-
-    }
-  }
-
-  // Autoplay videos in document because firefox/chrome won't autoplay after dom manipulation
-  // This seems to have broken firefox?
-//  var gv = document.getElementsByClassName("gifvid");
-//
-//  for (i=0;i<gv.length;i++) {
-//    gv[i].play();
-//  }
-}
-</script>
 <article class="post">
 
   <div class="post-content">
@@ -49,3 +8,5 @@ function func1 () {
   </div>
 
 </article>
+
+  {% include header-format.html %}

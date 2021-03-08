@@ -3,42 +3,6 @@
 
 {% include head.html %}
 
-<script type="text/javascript">
-  window.onload = func1;
-
-  function func1() {
-    for (x = 1; x < 7; x++) {
-      var h1s = document.getElementsByTagName("H" + x);
-
-      // Wrap Hx tags with the appropriate divs for an 'outline' type presentation
-      for (i = 0; i < h1s.length; i++) {
-        var w = document.createElement('div');
-        w.className = "h" + x + "-style";
-        var el = h1s[i];
-        var ns = el.nextSibling;
-
-        el.parentNode.insertBefore(w, el);
-        w.appendChild(el);
-
-        while (ns != null && (ns.tagName != "H" + x) && (ns.className != "h" + x + "-style")) {
-          ns2 = ns.nextSibling;
-          w.appendChild(ns);
-          ns = ns2;
-        }
-
-
-      }
-    }
-
-    // Autoplay videos in document because firefox/chrome won't autoplay after dom manipulation
-    var gv = document.getElementsByClassName("gifvid");
-
-    for (i = 0; i < gv.length; i++) {
-      gv[i].play();
-    }
-  }
-</script>
-
 <body>
 
   {% include header.html %}
@@ -73,22 +37,27 @@
     }
   </script>
 
-  <div class="side-bar-box">
-    <iframe src="/recentposts.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar1"></iframe>
-  </div>
+  <!-- <div class="side-bar-box"> -->
+  <!--   <iframe src="/recentposts.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar1"></iframe> -->
+  <!-- </div> -->
 
-  <div class="side-bar-box2">
-    <iframe src="/categories.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar2"></iframe>
-  </div>
+  <!-- <div class="side-bar-box2"> -->
+  <!--   <iframe src="/categories.html" class="side-bar-iframe" frameborder="0" scrolling="no" id="sidebar2"></iframe> -->
+  <!-- </div> -->
+
+  {% include left-sidebar.html %}
 
   <div class="page-content">
 
     <div class="chartwrapper">
       <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
-        <header class="post-header">
-          <h1 class="post-title" itemprop="name headline">{{ page.title }}</h1>
-        </header>
+  <div class="post-header">
+          <h2>
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </h2>
+          </span>
+</div>
 
         <div class="post-content" itemprop="articleBody">
           {{ content }}
@@ -121,3 +90,5 @@
 </body>
 
 </html>
+
+  {% include header-format.html %}

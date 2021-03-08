@@ -147,16 +147,6 @@ If an add-on is considered in the rating, it will be noted. Click the rating to 
 
 I don't run a linux-based OS. If you are interested in information about Linux DAW options then please check out [this chart here](https://docs.google.com/spreadsheets/d/1n6MaGigGGTgFvoqBCMgt-GuSmy8nqAUfF8ryL4nJbS8/edit#gid=0). It does not have the _exact_ same purpose as my chart, but it may be useful to you anyway.
 
-<div id="chart-weight-modifiers">
-    <span id="zero-percent" class="mod-button">0%</span>
-    <span id="one-hundred-percent" class="mod-button">100%</span>
-    <span id="plus-ten" class="mod-button">+10%</span>
-    <span id="minus-ten" class="mod-button">-10%</span>
-    <span id="dc-function" class="mod-button">Function</span>
-    <span id="dc-opinion" class="mod-button">Opinion</span>
-    <span id="dc-meta" class="mod-button">Meta</span>
-    <span id="dc-help" class="mod-button"><a href="/DAW-Explain.html#setter-help">Help!</a></span>
-</div>
 
 # KEY
 
@@ -174,6 +164,18 @@ I don't run a linux-based OS. If you are interested in information about Linux D
 * [Mixbus](https://harrisonconsoles.com/site/mixbus32c.html)
 
 # The Chart
+
+<div id="chart-weight-modifiers">
+    <span id="zero-percent" class="mod-button">0%</span>
+    <span id="one-hundred-percent" class="mod-button">100%</span>
+    <span id="plus-ten" class="mod-button">+10%</span>
+    <span id="minus-ten" class="mod-button">-10%</span>
+    <span id="dc-function" class="mod-button">Function</span>
+    <span id="dc-opinion" class="mod-button">Opinion</span>
+    <span id="dc-meta" class="mod-button">Meta</span>
+    <span id="dc-help" class="mod-button"><a href="/DAW-Explain.html#setter-help">Help!</a></span>
+</div>
+
 <div class="admdc_box">
     <admdc section="Installation" weight="0" daws="Reaper,DP,Cubase,Waveform,S1,PT,Logic,FLStudio,Live,Bitwig,Mixbus" link="/DAW-Explain.html" meta="meta">
         <category name="Installation Options">

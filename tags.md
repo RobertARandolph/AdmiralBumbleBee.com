@@ -73,7 +73,7 @@ to the `site_tags` variable. -->
        <div>
          {% for item in (0..site.tags.size) %}{% unless forloop.last %}
            {% capture this_word %}{{ tag_words[item] }}{% endcapture %}
-           <h2 id="{{ this_word | cgi_escape }}">{{ this_word }}</h2>
+           <h1 id="{{ this_word | cgi_escape }}">{{ this_word }}</h1>
            {% for post in site.tags[this_word] reversed %}
            {% if post.title != null %}
              {% if post.visible != 0 and post.visible != false %}
