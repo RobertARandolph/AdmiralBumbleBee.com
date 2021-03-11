@@ -17,7 +17,8 @@ $gradient-dark:  rgb(150, 150, 150);
 
 $container-background: #f0b7b7;
 $link-shadow: rgba(233, 180, 180, 0.185);
-$sidebar-background:  #e9b0b0;
+$sidebar-background:  darken($background-color, 5%);
+$sidebar-sub:  darken($background-color, 9%);
 
 $h2-background-color: darken($container-background, 6%);
 $h3-background-color: darken($h2-background-color, 6%);

@@ -112,7 +112,7 @@ to the `site_tags` variable. -->
     {% for post in site.posts %}
       {% assign currentdate = post.date | date: "%Y" %}
       {% if currentdate != date %}
-        <h2 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h2>
+        <h1 id="y{{post.date | date: "%Y"}}">{{ currentdate }}</h1>
         {% assign date = currentdate %}
       {% endif %}
       {% if post.title != null %}

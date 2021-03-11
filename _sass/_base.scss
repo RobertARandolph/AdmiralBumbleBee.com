@@ -277,25 +277,35 @@ pre {
   overflow-x: auto;
 }
 
+#main-flex-container {
+    display: flex;
+    justify-content: flex-start;
+}
+
+/**
+ * Page content
+ */
+.page-content {
+    padding: 0px;
+    flex: 4;
+    max-width: 950px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
 /**
  * Wrapper
  */
 .wrapper {
-  margin-top: 55px;
-  max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-  max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-  margin-right: auto;
-  margin-left: $content-left-margin;
+  margin-top: 75px;
+  //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
+  //margin-right: auto;
+  //margin-left: $content-left-margin;
+  //margin-left: auto;
   padding-right: $spacing-unit;
   padding-left: $spacing-unit;
-
-  @include media-query($on-laptop) {
-    max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
-    max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
-    padding-right: $spacing-unit / 2;
-    padding-left: $spacing-unit / 2;
-    margin-left: $content-left-margin;
-  }
 
   @include media-query($on-palm) {
     max-width: 100%;

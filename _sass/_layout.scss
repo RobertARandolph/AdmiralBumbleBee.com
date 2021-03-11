@@ -6,7 +6,7 @@
     top: 0;
     left: 0;
     width: 100vw;
-    background: $background-color;
+    background-color: $sidebar-background;
     border-top: 2px solid $grey-color-dark;
     // box-shadow: 0px 2px 2px $grey-color-light;
     padding-top: 0px;
@@ -142,19 +142,50 @@
     }
 }
 
-.sidebar-left {
-    width: $left-side-bar-width;
+h1, h2, h3, h4 {
+    -webkit-transition: all 0.2s linear;
+    -moz-transition: all 0.2s linear;
+    -o-transition: all 0.2s linear;
+    transition: all 0.2s linear;
+}
+
+.is-pinned-1 {}
+
+
+.is-pinned-2 {
+    padding-left: 20px;
+}
+
+
+.is-pinned-3 {
+    padding-left: 40px;
+}
+.is-pinned-4 {
+    padding-left: 60px;
+}
+
+.sidebar-right {
+    flex: 1;
     position: sticky;
     position: webkit-sticky;
-    top: 65px;
-    float: left;
-    clear: both;
-    margin-left: 0;
+    max-width: 15em;
+}
+
+.sidebar-left {
+    //width: 200px;
+    flex: 1;
+    position: sticky;
+    position: webkit-sticky;
+    max-width: 10em;
+    top: 45px;
+    //float: left;
+    //clear: both;
+    //margin-left: 0;
     padding: 5px;
-    padding-left: 15px;
     margin-top: 10px;
     overflow-y: auto;
     height: 100vh;
+    background-color: $sidebar-background;
 
     .sidebar-link {
         display: block;
@@ -168,10 +199,13 @@
     .sidebar-link-top {
         font-weight: 400;
         font-size: 22px;
+        width: 90%;
+        background-color: $sidebar-sub;
+        padding-left: 0.5em;
     }
 
     .sidebar-link-sub {
-        margin-left: 20px; 
+        margin-left: 0.5em; 
         position: relative;
     }
 
@@ -523,12 +557,6 @@
     }
 }
 
-/**
- * Page content
- */
-.page-content {
-    padding: 0px;
-}
 
 .page-heading {
     font-size: 20px;
@@ -655,15 +683,15 @@
     }
 
     .header-sticky-2 {
-        top: 103px;
+        top: 113px;
     }
 
     .header-sticky-3 {
-        top: 145px;
+        top: 155px;
     }
 
     .header-sticky-4 {
-        top: 186px;
+        top: 196px;
     }
 
     h1 {
@@ -673,6 +701,7 @@
         border-bottom: 3px solid rgb(0, 0, 0);
         padding-bottom: 5px;
         background-color: $background-color;
+        padding-top: 10px;
 
         @include media-query($on-laptop) {
             font-size: 28px;
@@ -1074,3 +1103,6 @@ $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
     visibility: visible;
 }
 
+#search-submit {
+    width: 15em;
+}
