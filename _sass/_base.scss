@@ -45,7 +45,8 @@ body {
   font-kerning: normal;
   line-height: 31px;
   word-spacing: 0.26m;
-  letter-spacing: 0.003em;
+  // letter-spacing: 0.003em;
+  letter-spacing: 0.03em;
 }
 
 .site-header {
@@ -288,8 +289,9 @@ pre {
  * Page content
  */
 .page-content {
+    margin-top: 10px;
     padding: 0px;
-    flex: 0 2 950px;
+    flex: 0 2 1050px;
 }
 
 /**
@@ -435,9 +437,3 @@ td {
   border: 1px solid #000000;
 }
 
-h2 .post-link {
-  font-size: 45px;
-  line-height: 1;
-  padding-bottom: 0.3em;
-  margin-top: 0px;
-}

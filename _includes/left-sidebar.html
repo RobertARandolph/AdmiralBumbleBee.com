@@ -1,6 +1,13 @@
 <div class="sidebar-left">
   <div class="nav-section-site-title">
     <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }}</a>
+    <form method="get" id="search" action="http://duckduckgo.com/" target="new" >
+      <input type="hidden" name="sites" value="admiralbumblebee.com"/>
+      <input type="hidden" name="k8" value="#444444"/>
+      <input type="hidden" name="k9" value="#D51920"/>
+      <input type="hidden" name="kt" value="h"/>
+      <input type="text" name="q" maxlength="255" placeholder="SEARCH" id="search-submit" />
+    </form>
   </div>
 
   <div class="nav-section">
@@ -9,15 +16,7 @@
   </div>
 
   <div class="nav-section">
-    <a class="sidebar-link sidebar-link-top" href="/tags/">Articles</a>
-    <form method="get" id="search" action="http://duckduckgo.com/" target="new" class="sidebar-link sidebar-link-sub" >
-      <input type="hidden" name="sites" value="admiralbumblebee.com"/>
-      <input type="hidden" name="k8" value="#444444"/>
-      <input type="hidden" name="k9" value="#D51920"/>
-      <input type="hidden" name="kt" value="h"/>
-      <input type="text" name="q" maxlength="255" placeholder="Search AdmiralBumbleBee.com" id="search-submit" />
-    </form>
-    <a class="sidebar-link sidebar-link-sub" href="/tags/?year=true">Recent</a>
+    <a class="sidebar-link sidebar-link-top" href="/tags/?year=true">Articles</a>
     <a class="sidebar-link sidebar-link-sub" href="/tags/?year=false">Tags</a>
   </div>
 
@@ -25,24 +24,24 @@
     <a class="sidebar-link sidebar-link-top" href="">Lists</a>
     <a class="sidebar-link sidebar-link-sub" href="/FreeBees.html">FreeBees</a>
     <a class="sidebar-link sidebar-link-sub" href="/Favourites.html">Favourites</a>
-    <a class="sidebar-link sidebar-link-sub" href="/Harmonics.html">String Harmonics</a>
+    <a class="sidebar-link sidebar-link-sub" href="/Harmonics.html">Harmonics</a>
   </div>
 
   <div class="nav-section">
-    <a class="sidebar-link sidebar-link-top" href="/tags/?year=true#DAW">DAWs</a>
-    <a class="sidebar-link sidebar-link-sub" href="/DAW-Chart.html">Feature Chart</a>
+    <a class="sidebar-link sidebar-link-top" href="/tags/?year=true#DAW">DAW</a>
+    <a class="sidebar-link sidebar-link-sub" href="/DAW-Chart.html">Chart</a>
     <a class="sidebar-link sidebar-link-sub" href="/DAW-Wants.html">Wants</a>
   </div>
   
   <div class="nav-section">
     <a class="sidebar-link sidebar-link-top" href="/tags/?year=false#Reaper">REAPER</a>
-    <a class="sidebar-link sidebar-link-sub" href="/ReaperScripts.html">Script Showcase</a>
+    <a class="sidebar-link sidebar-link-sub" href="/ReaperScripts.html">Scripts</a>
     <a class="sidebar-link sidebar-link-sub" href="/ReaperSettings.html">Settings</a>
   </div>
 
   <div class="nav-section">
-    <a class="sidebar-link sidebar-link-top" href="https://twitter.com/admiralbee">Social Media</a>
-    <a class="sidebar-link sidebar-link-sub" href="https://www.youtube.com/admiralbumblebee">Youtube</a>
+    <a class="sidebar-link sidebar-link-top" href="https://twitter.com/admiralbee">Socials</a>
+    <a class="sidebar-link sidebar-link-sub" href="https://www.youtube.com/admiralbumblebee">YouTube</a>
     <a class="sidebar-link sidebar-link-sub" href="https://discord.gg/34cFzVn">Discord</a>
     <a class="sidebar-link sidebar-link-sub" href="feed://admiralbumblebee.com/feed.xml">RSS</a>
   </div>
@@ -50,9 +49,9 @@
   
   <div class="nav-section">
     <a class="sidebar-link sidebar-link-top" href="/about">About</a>
-    <a class="sidebar-link sidebar-link-sub" href="/DonateNow/">Help Us!</a>
+    <a class="sidebar-link sidebar-link-sub" href="/DonateNow/">Support</a>
     <a class="sidebar-link sidebar-link-sub" href="/Health.html">Health</a>
-    <a class="sidebar-link sidebar-link-sub" href="https://github.com/admiralbumblebee/AdmiralBumbleBee.com">Site Source</a>
+    <a class="sidebar-link sidebar-link-sub" href="https://github.com/admiralbumblebee/AdmiralBumbleBee.com">Source</a>
   </div>
 
   <div class="post-count" id="wisdom"></div>

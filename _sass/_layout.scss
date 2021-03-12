@@ -178,7 +178,7 @@ h1, h2, h3, h4 {
 
 
     #theme-color-boxes {
-        padding-left: 0.5em;
+        padding-left: 1.1em;
         display: inline-block;
         text-align: center;
         height: 20px;
@@ -206,6 +206,7 @@ h1, h2, h3, h4 {
         padding: 0px;
         margin: 0px;
         background-color: $sidebar-background;
+        padding-left: 20px;
     }
 
     .sidebar-link:hover {
@@ -213,15 +214,19 @@ h1, h2, h3, h4 {
     }
 
     .sidebar-link-top {
-        font-weight: 400;
+        font-weight: 300;
         font-size: 22px;
         background-color: $sidebar-sub;
-        padding-left: 0.5em;
+        text-transform: uppercase;
+        letter-spacing: 0.07em;
+        margin-bottom: 4px;
     }
 
     .sidebar-link-sub {
-        padding-left: 0.5em; 
         position: relative;
+        font-size: 18px !important;
+        letter-spacing: 0.07em;
+        margin-bottom: 0px;
     }
 
     .nav-section {
@@ -230,6 +235,7 @@ h1, h2, h3, h4 {
 
     .nav-section-site-title {
         text-align: center;
+        margin-top: 10px;
         margin-bottom: 20px;
 
         .site-title {
@@ -545,8 +551,8 @@ h1, h2, h3, h4 {
     margin-left: 0;
     margin-bottom: 2em;
     background-color: $container-background;
-    padding: 0 1em 1em 1em;
-    border: 1px solid #eee;
+    padding: 2em;
+    border: 1px solid #ddd;
     border-radius: 5px;
     list-style: none;
 
@@ -587,9 +593,16 @@ h1, h2, h3, h4 {
 
 
 
-.post-link {
+h2 .post-link {
     display: block;
-    font-size: 24px;
+    font-size: 36pt;
+    font-weight: 400;
+    line-height: 1;
+    line-spacing: 0.3pt;
+    padding-bottom: 0.3em;
+    margin-top: 0px;
+    border-bottom: 1px solid #ddd;
+    color: $text-color;
 }
 
 
@@ -1096,5 +1109,7 @@ $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
 }
 
 #search-submit {
-    width: 15em;
+    width: 13.1em;
+    font-size: 10pt;
 }
+
