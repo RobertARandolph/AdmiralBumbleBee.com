@@ -13,29 +13,14 @@
     padding-bottom: 3px;
     height: 50px;
     z-index: 1000;
+    display: none;
+
+    @include media-query($on-palm) {
+        display: none;
+    }
 
     // Positioning context for the mobile navigation icon
     //    position: relative;
-}
-
-.site-title {
-    font-size: 26px;
-    font-weight: 300;
-    margin-bottom: -5px;
-    margin-left: 1%;
-    margin-top: 5px;
-    padding-bottom: 0;
-    float: left;
-    color: $text-color;
-    background: transparent;
-
-    &,
-    &:visited {
-        color: $text-color;
-    }
-    @include media-query($on-palm) {
-        margin-left: 1%;
-    }
 }
 
 #feature-text {
@@ -70,28 +55,6 @@
 }
 */
 
-.post-count {
-    font-size: 10px;
-    margin-bottom: 0;
-    margin-left: 1%;
-    text-decoration: none;
-    color: $grey-color;
-    float: right;
-
-    @include media-query($on-palm) {
-        visibility: hidden;
-        width: 0%;
-        float: none;
-        display: none;
-    }
-}
-
-#wisdom {
-    line-height: 1.5em;
-    width: 10%;
-    height: 100%;
-    color: $grey-color-dark;
-}
 
 #title-count {
     float: left;
@@ -154,14 +117,23 @@ h1, h2, h3, h4 {
 
 .is-pinned-2 {
     padding-left: 20px;
+    @include media-query($on-palm) {
+        padding-left: 0px;
+    }
 }
 
 
 .is-pinned-3 {
     padding-left: 40px;
+    @include media-query($on-palm) {
+        padding-left: 0px;
+    }
 }
 .is-pinned-4 {
     padding-left: 60px;
+    @include media-query($on-palm) {
+        padding-left: 0px;
+    }
 }
 
 .sidebar-right {
@@ -169,23 +141,62 @@ h1, h2, h3, h4 {
     position: sticky;
     position: webkit-sticky;
     max-width: 15em;
+    display: none;
+
+    @include media-query($on-palm) {
+        display: none;
+    }
 }
 
 .sidebar-left {
     //width: 200px;
-    flex: 1;
+    flex: 0 0 10em;
     position: sticky;
     position: webkit-sticky;
-    max-width: 10em;
-    top: 45px;
+    // max-width: 10em;
+    top: 0px;
     //float: left;
     //clear: both;
     //margin-left: 0;
-    padding: 5px;
-    margin-top: 10px;
     overflow-y: auto;
+    overflow-x: hidden;
     height: 100vh;
     background-color: $sidebar-background;
+
+    @include media-query($on-palm) {
+        display: none;
+    }
+
+    #wisdom {
+        position: absolute;
+        bottom: 0;
+        color: $grey-color-dark;
+        padding: 5px;
+        font-size: 10pt;
+        line-height: 12pt;
+    }
+
+
+    #theme-color-boxes {
+        padding-left: 0.5em;
+        display: inline-block;
+        text-align: center;
+        height: 20px;
+        margin-top: 0.25em;
+    }
+
+    .theme-color-box {
+        border: 1px solid grey;
+        border-right: none;
+        display: inline-block;
+        margin: auto;
+        height: 20px;
+        width: 20px;
+    }
+
+    .theme-color-box:last-of-type {
+        border-right: 1px solid grey;
+    }
 
     .sidebar-link {
         display: block;
@@ -194,23 +205,53 @@ h1, h2, h3, h4 {
         color: $text-color;
         padding: 0px;
         margin: 0px;
+        background-color: $sidebar-background;
+    }
+
+    .sidebar-link:hover {
+        background-color: lighten($sidebar-background, 5%);
     }
 
     .sidebar-link-top {
         font-weight: 400;
         font-size: 22px;
-        width: 90%;
         background-color: $sidebar-sub;
         padding-left: 0.5em;
     }
 
     .sidebar-link-sub {
-        margin-left: 0.5em; 
+        padding-left: 0.5em; 
         position: relative;
     }
 
-    .sidebar-link-sub:last-of-type {
-        margin-bottom: 12px;
+    .nav-section {
+        margin-bottom: 20px;
+    }
+
+    .nav-section-site-title {
+        text-align: center;
+        margin-bottom: 20px;
+
+        .site-title {
+            font-size: 22px;
+            font-weight: 300;
+            // margin-bottom: -5px;
+            // margin-left: 1%;
+            // margin-top: 5px;
+            // padding-bottom: 0;
+            // float: left;
+            color: $text-color;
+            // background: transparent;
+
+            &,
+            &:visited {
+                color: $text-color;
+            }
+            @include media-query($on-palm) {
+                margin-left: 1%;
+            }
+        }
+
     }
 
     @include media-query($on-palm) {
@@ -326,44 +367,7 @@ h1, h2, h3, h4 {
     margin-top: 7px;
     padding-top: 3px;
     text-align: center;
-
-    #underbar-top {
-        display: block;
-        height: 2px;
-        background: linear-gradient(
-            90deg,
-            rgba(255, 255, 255, 0) 0%,
-            darken($grey-color-light, 10%) 0%,
-            darken($grey-color-light, 10%) 70%,
-            rgba(255, 255, 255, 0) 100%
-        );
-    }
-
-    #underbar {
-        display: flex;
-        position: sticky;
-        position: -webkit-sticky;
-        top: 30px;
-        background: transparent;
-        z-index: 1000;
-        margin: auto;
-        text-align: center;
-        justify-content: space-evenly;
-
-        .underbar-link {
-            color: $text-color;
-            line-height: $base-line-height;
-            font-size: 16px;
-            padding-top: 4px;
-            padding-bottom: 4px;
-            margin-top: 4px;
-            margin-left: 10px;
-            margin-right: 10px;
-        }
-        @include media-query($on-palm) {
-            display: none;
-        }
-    }
+    z-index: 1000000;
 
     .menu-icon {
         display: none;
@@ -379,21 +383,6 @@ h1, h2, h3, h4 {
         font-size: 20px;
     }
 
-    .hire-me {
-        border: 2px red solid;
-        border-radius: 5px;
-        padding: 3px 5px 3px;
-        text-decoration: none;
-    }
-
-    .hire-me {
-        &:hover {
-            color: white;
-            text-decoration: none;
-            background: red;
-        }
-    }
-
     .donate-mobile {
         display: none;
     }
@@ -407,7 +396,7 @@ h1, h2, h3, h4 {
     }
 
     @include media-query($on-palm) {
-        position: absolute;
+        position: fixed;
         top: 9px;
         right: $spacing-unit / 2;
         border-radius: 5px;
@@ -423,6 +412,8 @@ h1, h2, h3, h4 {
             display: block;
         }
         .menu-icon {
+            position: sticky;
+            top: 10px;
             display: block;
             float: right;
             width: 36px;
@@ -463,19 +454,6 @@ h1, h2, h3, h4 {
             }
         }
     }
-
-    #theme-color-boxes {
-        display: inline-block;
-        border: 1px solid grey;
-        text-align: center;
-        height: 20px;
-    }
-    .theme-color-box {
-        display: inline-block;
-        margin: auto;
-        height: 20px;
-        width: 20px;
-    }
     .current-theme {
         -webkit-box-shadow: inset 0px -4px 0px 0px lightgreen;
         -moz-box-shadow: inset 0px -4px 0px 0px ligntgreen;
@@ -490,6 +468,7 @@ h1, h2, h3, h4 {
     border-top: 1px solid $grey-color-light;
     padding: $spacing-unit 0;
 }
+
 
 #footer-links {
     display: flex;
@@ -645,7 +624,7 @@ h1, h2, h3, h4 {
 
 
 .header-image a img {
-    max-width: 850px !important;
+    // max-width: 850px !important;
     @include media-query($on-palm) {
         max-width: 100% !important;
     }
@@ -676,22 +655,37 @@ h1, h2, h3, h4 {
 
     .header-sticky {
         position: sticky;
+        @include media-query($on-palm) {
+            position: relative;
+        }
     }
 
     .header-sticky-1 {
-        top: 55px;
+        top: 0px;
+        @include media-query($on-palm) {
+            top: auto;
+        }
     }
 
     .header-sticky-2 {
-        top: 113px;
+        top: 58px;
+        @include media-query($on-palm) {
+            top: auto;
+        }
     }
 
     .header-sticky-3 {
-        top: 155px;
+        top: 100px;
+        @include media-query($on-palm) {
+            top: auto;
+        }
     }
 
     .header-sticky-4 {
-        top: 196px;
+        top: 141px;
+        @include media-query($on-palm) {
+            top: auto;
+        }
     }
 
     h1 {
@@ -703,8 +697,8 @@ h1, h2, h3, h4 {
         background-color: $background-color;
         padding-top: 10px;
 
-        @include media-query($on-laptop) {
-            font-size: 28px;
+        @include media-query($on-palm) {
+            height: auto;
         }
 
         code {
@@ -723,10 +717,10 @@ h1, h2, h3, h4 {
         border-bottom: 2px solid rgb(200, 200, 200);
         padding-bottom: 5px;
         background-color: $background-color;
-
-        @include media-query($on-laptop) {
-            font-size: 28px;
+        @include media-query($on-palm) {
+            height: auto;
         }
+
         code {
 
             font-size: inherit;
@@ -743,10 +737,10 @@ h1, h2, h3, h4 {
         height: 35px;
         border-bottom: 1px solid rgb(200, 200, 200);
         padding-bottom: 5px;
-
-        @include media-query($on-laptop) {
-            font-size: 22px;
+        @include media-query($on-palm) {
+            height: auto;
         }
+
         code {
             font-size: inherit;
             font-weight: inherit;
@@ -762,10 +756,10 @@ h1, h2, h3, h4 {
         height: 35px;
         border-bottom: 1px solid rgb(200, 200, 200);
         padding-bottom: 5px;
-
-        @include media-query($on-laptop) {
-            font-size: 15px;
+        @include media-query($on-palm) {
+            height: auto;
         }
+
         code {
             font-size: inherit;
             font-weight: inherit;
@@ -830,11 +824,9 @@ h1, h2, h3, h4 {
 }
 
 #copyright {
-    position: absolute;
-    color: white;
+    color: $brand-color;
     width: 100%;
     text-align: center;
-    background-color: #000000;
     padding: 5px 0 5px 0;
 }
 

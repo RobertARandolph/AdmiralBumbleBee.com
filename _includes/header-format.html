@@ -110,9 +110,10 @@
   window.addEventListener(
     'DOMContentLoaded', anchorScrolls.init.bind(anchorScrolls)
   );
-})(window.document, window.history, window.location);
+})//(window.document, window.history, window.location);
+// remove above line to use
 
-  window.addEventListener('DOMContentLoaded', (event) => {
+  window.addEventListener('load', (event) => {
       let curEls = []
 
       function observer_update (e) {
@@ -121,10 +122,12 @@
               let level = el.target.nodeName.substring(1);
 
               if (el.intersectionRatio < 1) {
-                  let rect = el.intersectionRect;
+                  //let rect = el.intersectionRect;
+                  let rect = el.target.getBoundingClientRect()
 
-                  if (rect.y > 0 && rect.y < (window.innerHeight / 2))
+                  if (rect.y < (window.innerHeight / 2)) {
                       el.target.classList.add("is-pinned-" + level);
+                  }
               } else {
                   el.target.classList.remove("is-pinned-" + level);
               }
@@ -138,12 +141,13 @@
       }
 
 
-      hOffsets = [0, 65, 113, 155]
+      hOffsets = [0, 0, 58, 100, 141]; // index 0 as 0, as an offset. We don't iterate over H0 :)
 
-      for (i=hOffsets.length-1;i>=0;i--) {
-          x = hOffsets[i]
+      for (i=1;i<hOffsets.length;i++) {
+          x = hOffsets[i];
 
-          rm = `-${x + 2}px 0px 0px 0px`
+          rm = `-${x + 1}px 0px 0px 0px`
+          console.log(`Updating H${i} with ${x + 1}`)
 
           let observer = new IntersectionObserver( 
               observer_update,

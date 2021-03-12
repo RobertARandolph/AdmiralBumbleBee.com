@@ -280,6 +280,8 @@ pre {
 #main-flex-container {
     display: flex;
     justify-content: flex-start;
+    position: absolute;
+    top: 0px;
 }
 
 /**
@@ -287,25 +289,21 @@ pre {
  */
 .page-content {
     padding: 0px;
-    flex: 4;
-    max-width: 950px;
-    margin-left: auto;
-    margin-right: auto;
+    flex: 0 2 950px;
 }
-
 
 /**
  * Wrapper
  */
 .wrapper {
-  margin-top: 75px;
+  margin-top: 10px;
   //max-width: -webkit-calc(#{$content-width} - (#{$spacing-unit} * 2));
   //max-width: calc(#{$content-width} - (#{$spacing-unit} * 2));
   //margin-right: auto;
   //margin-left: $content-left-margin;
   //margin-left: auto;
   padding-right: $spacing-unit;
-  padding-left: $spacing-unit;
+  padding-left: $spacing-unit * 4;
 
   @include media-query($on-palm) {
     max-width: 100%;
