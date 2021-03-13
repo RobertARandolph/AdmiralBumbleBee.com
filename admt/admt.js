@@ -4,7 +4,7 @@
 
 var admt = (function () {
 
-    var themes = [{ "name": 'main', "color": "#e8e3a0" },
+    var themes = [{ "name": 'yellow', "color": "#e8e3a0" },
     { "name": 'blue', "color": "#66b8d4"},
     { "name": 'red', "color": "#f57f7f"},
     { "name": 'dark', "color": "black" },
@@ -50,7 +50,7 @@ var admt = (function () {
         document.getElementsByName("theme_" + theme_name)[0].classList.add("current-theme");
 
         if (button)
-            button.innerHTML = show_name + " theme";
+            button.innerHTML = show_name;
     }
 
     var change_theme = function (theme_name) {
@@ -87,6 +87,11 @@ var admt = (function () {
         write_css: function () {
             var saved_theme = get_cookie("theme");
 
+            if (saved_theme == "main") {
+                saved_theme = "yellow" // main is yellow now.
+                set_cookie("theme", saved_theme, 1000)
+            }
+
             if (!saved_theme) {
                 saved_theme = default_theme;
                 set_cookie("theme", default_theme, 1000)
@@ -99,6 +104,11 @@ var admt = (function () {
 
         switch_theme: function () {
             var main_theme = get_cookie("theme");
+
+            if (main_theme == "main") {
+                main_theme = "yellow" // main is yellow now.
+                set_cookie("theme", main_theme, 1000)
+            }
 
             var current_index = themes.findIndex((x) => x.name == main_theme);
 
