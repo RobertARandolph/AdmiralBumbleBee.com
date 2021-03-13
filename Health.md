@@ -11,7 +11,7 @@ header:
 header-caption:
 ---
 
-It's time for another health update! The [last major update]({% post_url 2019-09-06-more-health %}) was about 1.5 years ago. I've since had more tests, further decline and plenty of excellent improvements in how to deal with it.
+It's time for another health update! The [last major update]({% post_url 2019-09-06-More-Health %}) was about 1.5 years ago. I've since had more tests, further decline and plenty of excellent improvements in how to deal with it.
 
 
 I will discuss the issues that I face in my daily life. I will be covering medications that I've tried and their effects. I'll be covering lifestyle changes that've helped. I've discuss things that have had a negative effect on my state.
@@ -60,7 +60,7 @@ All tests have come back negative thusfar.
 
 ## Symptoms
 
-I've [written about symptoms before]({% post_url 2019-09-06-more-health %}), and those have mostly remain unchanged or become more severe.
+I've written about symptoms before, and those have mostly remain unchanged or become more severe.
 
 This is a list of what I experience, not necessarily all of the potential symptoms.
 
@@ -115,13 +115,11 @@ These are a list of things that I've tried that have not worked, and those that 
 **NOT YET SUCCESSFUL**
 
 * Vegetarianism - No noticeable benefits. I am still currently vegetarian however.
-* 
 
 ### Pharmaceutical
 
-**SUCCESSFUL**
+Medications marked with an **X** did not work.
 
-Prescription:
 
 * [Lyrica](https://en.wikipedia.org/wiki/Pregabalin) - Reduces pain somewhat, helps a lot with vestibular issues.
   * [Neurontin](https://en.wikipedia.org/wiki/Gabapentin) - I switch between these two medications. It seems that one will lose effectiveness and switching to the other provides a renewed relief of symptoms.
@@ -130,27 +128,20 @@ Prescription:
 * [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Reduced frequency of migraines and [Cluster Headaches](https://en.wikipedia.org/wiki/Cluster_headache)
 * [Nurtec](https://en.wikipedia.org/wiki/Rimegepant) - The only migraine abortive that has worked consistently for me
 * [Maxalt](https://en.wikipedia.org/wiki/Rizatriptan) - Provides mild migraine relief.
+* **X** [Elavil](https://en.wikipedia.org/wiki/Amitriptyline) - Pronounced sleepiness. Mild pain relief.
+* **X** [Cymbalta](https://en.wikipedia.org/wiki/Duloxetine) - No relief. Moderate increase in sweating.
+* **X** [Savella](https://en.wikipedia.org/wiki/Milnacipran) - Fervent sweating.
+* **X** [Ultram](https://en.wikipedia.org/wiki/Tramadol) - No pain relief, increased compulsive behaviours. Abused this medication, withdrawal was hell.
+* **X** [Tylenol 3](https://en.wikipedia.org/wiki/Codeine/paracetamol) - No benefit, anxiety.
+* **X** [Tegretol](https://en.wikipedia.org/wiki/Carbamazepine) - No benefit, drowsiness.
 
 OTC:
 
 * [Acetyl L-Carnitine](https://en.wikipedia.org/wiki/Carnitine) - I cycled through this twice, and it has a significant effect the LFN related symptoms.
-
-**FAILED**
-
-Prescription:
-
-* [Elavil](https://en.wikipedia.org/wiki/Amitriptyline) - Pronounced sleepiness. Mild pain relief.
-* [Cymbalta](https://en.wikipedia.org/wiki/Duloxetine) - No relief. Moderate increase in sweating.
-* [Savella](https://en.wikipedia.org/wiki/Milnacipran) - Fervent sweating.
-* [Ultram](https://en.wikipedia.org/wiki/Tramadol) - No pain relief, increased compulsive behaviours. Abused this medication, withdrawal was hell.
-* [Tylenol 3](https://en.wikipedia.org/wiki/Codeine/paracetamol) - No benefit, anxiety.
-* [Tegretol](https://en.wikipedia.org/wiki/Carbamazepine) - No benefit, drowsiness.
-
-OTC:
-
-* [CoQ10](https://en.wikipedia.org/wiki/Coenzyme_Q10) - No benefit.
-* [Alpha Lipoic Acid](https://en.wikipedia.org/wiki/Lipoic_acid) - No observed benefit.
-* [PQQ](https://en.wikipedia.org/wiki/Pyrroloquinoline_quinone) - Increase in paresthesia. I tried on/off twice and it was not a subtle effect.
+* **X** [CoQ10](https://en.wikipedia.org/wiki/Coenzyme_Q10) - No benefit.
+* **X** [Alpha Lipoic Acid](https://en.wikipedia.org/wiki/Lipoic_acid) - No observed benefit.
+* **X** [PQQ](https://en.wikipedia.org/wiki/Pyrroloquinoline_quinone) - Increase in paresthesia. I tried on/off twice and it was not a subtle effect.
+* **X** [Curcumin](https://en.wikipedia.org/wiki/Curcumin) - Reliably increases sharp nerve pains.
 
 ### Lifestyle
 
@@ -162,7 +153,6 @@ OTC:
 * [Improving lighting](https://www.philips-hue.com/en-us) - I've increased the amount of light in the house, and made it possible to turn on lights before I reach my destination. Fewer falls as I can see where I'm going and be conscious of my movements. Lowering lights, and specifically using green lights, helps with migraines.
 * [Write clojure](https://clojure.org) or [other lisps](https://docs.hylang.org/en/stable/) only - I'm a sucker for experimenting writing apps with various esoteric, weird, old or hyped programming languages. I write less, but more reusable code, with Clojure and [clojure dialects](https://github.com/babashka/babashka) than anything else. I do miss spending hours fiddling with toy logic languages or writing forth on small AVR boards, but I gotta get stuff done.
   * Yes, I'm biased. No, your language isn't inferior (unless it's Rust or Haskell).
-* 
 
 #### Instruments
 
@@ -176,7 +166,8 @@ OTC:
 There are some things that I can't really "fix", so I've developed some habits or changed my environment to help deal with certain issues.
 
 * Grip cups with my pinky underneath - When I grip a cup I often let the cup sit on my extended pinky so that I have an extra level of sensation if my grip loosens.
-* 
+* Take large steps.
+* Run my hand along a wall, desk, etc... when I walk.
 
 # Cluster Headaches
 
@@ -325,6 +316,7 @@ At some point in my life I had a great deal of difficulty coping with migraines.
   * I've found that putting these on "in reverse" offers the most relief. Place it so the ice sits on the base of my skull, rather than on my forehead.
 * [3m Peltor 105 earmuffs](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-PELTOR-Optime-105-Earmuffs-H10A-Over-the-Head-10-EA-Case/?N=5002385+3294758533&rt=rud) - I wear these around the house when sound bothers me. Within the last few months I've started to wear them _before_ sounds bother me, and it seems that it reduces the likelihood that an aura will turn into a severe headache.
 * [Green Light](https://hms.harvard.edu/news/green-light-migraine-relief) - I discovered this on my own, and out of curiosity found that it appears to have been independently discovered elsewhere. It doesn't fix the problem, but I can tolerate slightly brighter green light than any other part of the spectrum.
+* [Costa del mar Fisch Sunglasses](https://www.costadelmar.com/en-us/sunglasses/FS-97963495707) - I wear these indoors, with lights off. It makes a tremendous difference.
 
 ### Diet
 
@@ -332,11 +324,11 @@ None.
 
 ### Pharmaceutical
 
-WIP
+Medications marked with an **X** did not work.
 
 **Preventatives**
 
-* [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not help with migraines.
+* **X** [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not help with migraines.
 * [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Only 2 doses (months) in. Undetermined
 * [Topamax](https://en.wikipedia.org/wiki/Topiramate) - Intolerable tingling on my scalp. Was unable to continue.
 
@@ -349,13 +341,17 @@ WIP
 
 **Abortives**
 
-* [Ubrelvy](https://en.wikipedia.org/wiki/Ubrogepant) - Did not work for me.
+* **X** [Ubrelvy](https://en.wikipedia.org/wiki/Ubrogepant)
 * [Nurtec](https://en.wikipedia.org/wiki/Rimegepant) - Does not abort the migraine quickly for me. It takes approximately 12 hours for it to kick in, despite "1 hour" being the advertised time to action. Has aborted status migrainous for me twice with no other intervention.
 * [Maxalt](https://en.wikipedia.org/wiki/Rizatriptan) - Reduces severity well. No other effect.
 
 **Other**
 
 * [Zofran](https://en.wikipedia.org/wiki/Ondansetron) - Kicks nausea in the ass.
+* Magnesium Citrate - This is the winner for me, despite other types of magnesium having superior biological qualities. Magnesium Citrate works the best to reduce migraine frequency for me.
+* Magnesium Chloride
+* Magnesium Aspartate
+* Chelated Magnesium
 
 TODO - list all the magnesium variants I've tried.
 
