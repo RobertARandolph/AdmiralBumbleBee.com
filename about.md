@@ -8,9 +8,7 @@ permalink: /about/
 
 Hey. My name is Robert Randolph.
 
-Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me-and-my-future %})
-
-**This is what I do with my free time:**
+# Free Time
 
 * Develop software in...
 	* [Clojure](https://clojure.org) and Java for desktop.
@@ -43,20 +41,26 @@ Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me
 	* ~~Nope... using VSCode again. Vim bindings don't seem to suck as much anymore, [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva) is pretty awesome. The 'out of the box' cross-language capabilities are just too good to ignore.~~
     * Nope. Emacs user. That's it, emacs for life. I'm done with it.
 
-* Tutorials!
-	* DAW tutorials
-    * Programming tutorials
-	* Mechanics and efficiency tutorials for music
-	* Electronics repair
-
 * Workshop
 	* I have a pretty nice workshop where I build all sorts of things that you'll see here.
+    
 * Cook
 	* I do a lot of the cooking in the house, and I quite enjoy it.
+    
+* Gardening
+  * Our property is covered in greenery, and we grow food all year long.
+  * I particularly enjoy plants that are dangerous in some manner. Toxic, skin irritants, stinging, etc...
   
-**You can find me at**
+# What I've done
 
-* [youtube](http://youtube.com/admiralbumblebee) - I'm updating this regularly now!
+* Design, manufacture and compete with ultra-high quality sport kites.
+* Industrial Automation consultation.
+* Macrophotography instrumentation design and manufacture.
+* Regional Manager of a national pizza chain.
+
+# Where I am
+
+* [youtube](http://youtube.com/admiralbumblebee)
 * [Freenode.net](https://freenode.net/) as AdmiralBumbleBee. I spend most of my time in #ardour, #lisp, #clojure and ##C
 	* I'm usually on other servers like thinstack, quakenet, rizon, efnet and more.
 * [AdmiralBumbleBee Discord](https://discord.gg/34cFzVn)
@@ -66,7 +70,6 @@ Maybe [read this post about me first?]({% post_url 2018-06-09-Lets-talk-about-me
   * [KVR Audio](http://www.kvraudio.com/forum/memberlist.php?mode=viewprofile&u=7328)
   * [Gearslutz](https://www.gearslutz.com/board/members/6666-robert-randolph/)
   * [Reaper](https://forum.cockos.com/member.php?u=115271)
-  * [Motu Nation](http://www.motunation.com/forum/memberlist.php?mode=viewprofile&u=56328) - Eh, I don't really use this much. There's 2 users that ruin the entire environment.
 * ~~Yeah, that's it pretty much. I don't do the social online thing much.~~
   * Ok, I'm working on making $$ from this site, but I still refuse to put ads. So I'm trying to figure out this social media thing now:
       * [Twitter](https://twitter.com/admiralbee)
