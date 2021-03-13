@@ -276,19 +276,92 @@ I think about these things in every place I go. I've become less shy about explo
 
 # Migraine
 
+I get migraines with aura, and [silent migraines](https://en.wikipedia.org/wiki/Acephalgic_migraine) relatively frequently. The highest density of occurrence is in the Spring, and they always sometime after noon (though, once a migraine has begun it can last for days).
+
 ## Cause
+
+Cause is unknown. I do not drink caffeine, and I've had migraines since I was 14. I have multiple immediate family members with severe migraines.
+
+I kept a detailed headache diary for 3 years, and discovered a few specific, consistent triggers:
+
+* Smells
+  * Lavender
+  * Tea tree oil (not tea tree _seed_ oil, which I use without issue)
+  * Papaya
+  * Rosemary oil
+  * Certain sanitizing sprays - I'm unsure which ingredient it is (definitely not ethanol), but the Covid situation has taught me that a migraine is a spray away.
+* Spring
+* [Robaxin](https://en.wikipedia.org/wiki/Methocarbamol)
+* [Tension Headache](https://en.wikipedia.org/wiki/Tension_headache) - Most people can relate to tension headaches. They happen, they are not pleasant. Tension headaches trigger migraines for me without exception.
+
+I advocate keeping a headache diary if you have headaches. Note everywhere you go, what you eat, what shampoos/detergents you use, the date, the clothes you wear, the medications you take, the drinks you drink, the people you see, etc... _everything_.
 
 ## Symptoms
 
+I get an aura 90% of the time, and about half those times I do not get headache pain. I'll separate these sections into aura and headache.
+
+### Aura
+
+Listed in order of frequency. Marked with a + only happen in migraines with headache.
+
+* [Photopsia](https://en.wikipedia.org/wiki/Photopsia) - This is my initial aura symptom most of the time. It looks like someone took a flash photograph behind me and I barely caught the edge of the flash in my peripheral vision.
+* [Photophobia](https://en.wikipedia.org/wiki/Photophobia) - This isn't the feeling of "oh, it's too bright out, I need to put on some sunglasses". It's like when you put your hands under a faucet and the water is too hot. The surprise, the pain, the instant desire to retreat.
+  * I've have a full opthamalogical workup. Eyes are fine.
+* [Scintillating scotoma](https://en.wikipedia.org/wiki/Scintillating_scotoma) - or as I call them "the wormies". Joseph and the technicolor [worm farm](https://en.wikipedia.org/wiki/Vermifilter). [Jem and the Holoworms](https://en.wikipedia.org/wiki/Jem_(TV_series)).
+* Nausea
+ [Hyperacusis](https://en.wikipedia.org/wiki/Hyperacusis) - This happens with all migraine _headaches_. I can determine fairly early if I will get a migraine _headache_ when certain sounds begin to sound unusually loud. I've recently begun to suspect that certain sounds can turn a silent migraine into a migraine headache.
+  * I'm not bothered by all sounds equally. Specifically crunching/crackling/crispy sound like my head is in a giant can, and it's being crushed while I'm inside.
+* +[Auditory Hallucinations](https://en.wikipedia.org/wiki/Auditory_hallucination) - With particularly sever migraines, I often believe I hear someone speaking in the distance, or someone whispering nearby.
+
+### Headache
+
 ## Impact
+
+At some point in my life I had a great deal of difficulty coping with migraines. Over time I've come up with a number of strategies that allow me to _at least_ get a 6-9 hour work day out of a migraine day.
 
 ## Mitigations
 
+* [The Headache Hat](https://theheadachehat.com) - I'm shilling here. This is **THE BEST** way to get ice on your head for a headache. There are 3 channels with plastic encased freezable liquid. It is comfortable. They last. It helps. I have 4 of them so I can cycle them in the freezer quickly.
+  * I've found that putting these on "in reverse" offers the most relief. Place it so the ice sits on the base of my skull, rather than on my forehead.
+* [3m Peltor 105 earmuffs](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-PELTOR-Optime-105-Earmuffs-H10A-Over-the-Head-10-EA-Case/?N=5002385+3294758533&rt=rud) - I wear these around the house when sound bothers me. Within the last few months I've started to wear them _before_ sounds bother me, and it seems that it reduces the likelihood that an aura will turn into a severe headache.
+* [Green Light](https://hms.harvard.edu/news/green-light-migraine-relief) - I discovered this on my own, and out of curiosity found that it appears to have been independently discovered elsewhere. It doesn't fix the problem, but I can tolerate slightly brighter green light than any other part of the spectrum.
+
 ### Diet
+
+None.
 
 ### Pharmaceutical
 
+WIP
+
+**Preventatives**
+
+* [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not help with migraines.
+* [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Only 2 doses (months) in. Undetermined
+* [Topamax](https://en.wikipedia.org/wiki/Topiramate) - Intolerable tingling on my scalp. Was unable to continue.
+
+**Painkillers**
+
+* [Toradol](https://en.wikipedia.org/wiki/Ketorolac) - Orally does not help. Injection helps _some_. As part of a migraine infusion, it helps significantly.
+  * [Sprix](https://www.sprix.com/patient/) - Intranasal Ketorolac. The first few times I tried it, it was a miracle. Relief within minutes. I've been unable to acquire it since.
+* [Butalbitol](https://en.wikipedia.org/wiki/Butalbital) - If I get a tension headache, this is the only medication I've found that prevents it from becoming a migraine. Migraine abortives have not helped, nor other painkillers.
+* [Midrin](https://en.wikipedia.org/wiki/Amidrine) - Midrin is a miracle drug for me, and has been discontinued. The newer version does not work nearly as well.
+
+**Abortives**
+
+* [Ubrelvy](https://en.wikipedia.org/wiki/Ubrogepant) - Did not work for me.
+* [Nurtec](https://en.wikipedia.org/wiki/Rimegepant) - Does not abort the migraine quickly for me. It takes approximately 12 hours for it to kick in, despite "1 hour" being the advertised time to action. Has aborted status migrainous for me twice with no other intervention.
+* [Maxalt](https://en.wikipedia.org/wiki/Rizatriptan) - Reduces severity well. No other effect.
+
+**Other**
+
+* [Zofran](https://en.wikipedia.org/wiki/Ondansetron) - Kicks nausea in the ass.
+
+TODO - list all the magnesium variants I've tried.
+
 ### Lifestyle
+
+Nothing except avoid known triggers.
 
 # Meta
 
