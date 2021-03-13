@@ -4,7 +4,7 @@ comments: true
 categories: music
 tags: ['Harmonics', 'String Harmonics']
 description: 
-layout: "dawchart"
+layout: default
 ---
 
 {% include harmonics.html %}

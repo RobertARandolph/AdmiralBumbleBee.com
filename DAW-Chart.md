@@ -6,7 +6,7 @@ categories: music
 tags: ['DAWChart']
 image:
 description:
-layout: "dawchart"
+layout: default
 ---
 
   <script type="text/javascript" src="/admdc/admdc.js?v={{ site.time | date:'%s' }}"> </script>
