@@ -5,11 +5,11 @@
 var admt = (function () {
 
     var themes = [{ "name": 'yellow', "color": "#e8e3a0" },
-    { "name": 'blue', "color": "#66b8d4"},
-    { "name": 'red', "color": "#f57f7f"},
-    { "name": 'green', "color": "green" },
-    { "name": 'dark', "color": "black" },
-    { "name": 'white', "color": "white" }];
+    { "name": 'blue', "color": "#967bc1"},
+    { "name": 'red', "color": "#d3a1a1"},
+    { "name": 'green', "color": "#326827" },
+    { "name": 'dark', "color": "#4a4a4a" },
+    { "name": 'white', "color": "#c2c2c2" }];
     var default_theme = "{{ site.main_theme }}";
 
     // cookie functions shamelessly stolen from https://www.w3schools.com/js/js_cookies.asp
