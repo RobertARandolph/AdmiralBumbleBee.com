@@ -150,7 +150,7 @@ h1, h2, h3, h4 {
 
 .sidebar-left {
     //width: 200px;
-    flex: 0 0 10em;
+    flex: 0 0 $left-sidebar-width;
     position: sticky;
     position: webkit-sticky;
     // max-width: 10em;
@@ -168,12 +168,13 @@ h1, h2, h3, h4 {
     }
 
     #wisdom {
-        position: absolute;
-        bottom: 0;
+        position: fixed;
+        bottom: 0px;
         color: $grey-color-dark;
         padding: 5px;
         font-size: 10pt;
         line-height: 12pt;
+        width: $left-sidebar-width;
     }
 
 
@@ -215,22 +216,21 @@ h1, h2, h3, h4 {
 
     .sidebar-link-top {
         font-weight: 300;
-        font-size: 22px;
+        font-size: 20px;
         background-color: $sidebar-sub;
-        text-transform: uppercase;
-        letter-spacing: 0.07em;
+        letter-spacing: 0.09em;
         margin-bottom: 4px;
     }
 
     .sidebar-link-sub {
         position: relative;
-        font-size: 18px !important;
-        letter-spacing: 0.07em;
+        font-size: 16px !important;
+        letter-spacing: 0.09em;
         margin-bottom: 0px;
     }
 
     .nav-section {
-        margin-bottom: 20px;
+        margin-bottom: 15px;
     }
 
     .nav-section-site-title {
@@ -239,7 +239,7 @@ h1, h2, h3, h4 {
         margin-bottom: 20px;
 
         .site-title {
-            font-size: 22px;
+            font-size: 20px;
             font-weight: 300;
             // margin-bottom: -5px;
             // margin-left: 1%;
@@ -556,6 +556,14 @@ h1, h2, h3, h4 {
     border-radius: 5px;
     list-style: none;
 
+    @include media-query($on-palm) {
+        padding: 0;
+        
+        ul {
+            list-style: inside;
+        }
+    }
+
     h2 {
         margin-top: 0;
     }
@@ -609,25 +617,6 @@ h2 .post-link {
 /**
  * Posts
  */
-
-.post {
-    margin-left: 0;
-    margin-bottom: 2em;
-    margin-top: 10px;
-    background-color: $container-background;
-    padding: 0 1em 1em 1em;
-    border: 1px solid #eee;
-    border-radius: 5px;
-    list-style: none;
-
-    @include media-query($on-palm) {
-        padding: 0;
-        
-        ul {
-            list-style: inside;
-        }
-    }
-}
 
 .post-header {
     margin-bottom: $spacing-unit;
@@ -922,9 +911,8 @@ h2 .post-link {
 
 #chart-weight-modifiers {
     position: sticky;
-    top: 104px;
+    top: 58px;
     width: 100%;
-    border-radius: 5px;
     cursor: pointer;
     padding: 0px;
     background: rgba(249, 248, 238, 0.9);
@@ -1102,7 +1090,6 @@ $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
 }
 
 #search-submit {
-    width: 13.1em;
     font-size: 10pt;
 }
 

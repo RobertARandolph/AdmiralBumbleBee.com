@@ -304,8 +304,8 @@ pre {
   //margin-right: auto;
   //margin-left: $content-left-margin;
   //margin-left: auto;
-  padding-right: $spacing-unit;
-  padding-left: $spacing-unit * 4;
+  padding-right: 8%;
+  padding-left: 8%;
 
   @include media-query($on-palm) {
     max-width: 100%;

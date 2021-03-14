@@ -22,9 +22,10 @@
 .dc_section {
 	float: left;
 	border: 1px solid black;
-	margin: 10px;
-	margin-left: 10px;
+    margin-bottom: 10px;
 }
+
+
 
 .section_title {
     position: relative;
