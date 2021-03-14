@@ -6,7 +6,7 @@ tags: ['DAWChart']
 categories: music
 tags: ['DAW', 'DAW Chart']
 description: How does the DAW Chart work and what is it?
-layout: "dawchart"
+layout: post
 ---
 
 # Contents

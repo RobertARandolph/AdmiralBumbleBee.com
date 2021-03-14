@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: post
 title: These are a few of my favourite things
 comments: true
 categories: music
