@@ -3,6 +3,7 @@ source "https://rubygems.org"
 gem "jekyll", "~> 4.0"
 gem 'liquid-c'
 gem 'sassc'
+gem 'jekyll-paginate'
 
 # gem "rails"
 

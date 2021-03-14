@@ -3,10 +3,8 @@ layout: default
 ---
 
 <div class="home">
-  {% include vacation.html %}
   <div class="post-list">
-    {% for i in (0..10) %}
-    {% assign post = site.posts[i] %}
+    {% for post in paginator.posts %}
       {% if post.visible != 0 and post.visible != false %}
      <div class="index-post">
       <div class="post-header">
@@ -44,6 +42,23 @@ layout: default
       {% endif %}
     {% endfor %}
       </div>
-
+<!-- Pagination links -->
+<div class="pagination">
+  {% if paginator.previous_page %}
+    <a href="{{ paginator.previous_page_path }}" class="previous">
+      Previous
+    </a>
+  {% else %}
+    <span class="previous">previous</span>
+  {% endif %}
+  <span class="page_number ">
+    Page: {{ paginator.page }} of {{ paginator.total_pages }}
+  </span>
+  {% if paginator.next_page %}
+    <a href="{{ paginator.next_page_path }}" class="next">next</a>
+  {% else %}
+    <span class="next ">Next</span>
+  {% endif %}
+</div>
 </div>
 

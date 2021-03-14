@@ -23,6 +23,8 @@ main_theme: yellow
 # Build settings
 markdown: kramdown
 
+paginate: 10
+
 kramdown:
   input:          GFM
   # https://github.com/jekyll/jekyll/pull/4090
@@ -48,3 +50,4 @@ plugins_dir: ./_plugins
 
 plugins: 
   - jekyll-last-modified-at
+  - jekyll-paginate
