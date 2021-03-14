@@ -6,6 +6,7 @@
 
 
 $text-color:       rgba(17, 17, 17, 0.7);
+$light-text-color: lighten($text-color, 20%);
 $background-color: darken(rgb(204, 169, 169), 5%); 
 $brand-color:      #2a7ae2;
 

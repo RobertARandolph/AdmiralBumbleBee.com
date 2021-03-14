@@ -179,24 +179,29 @@ h1, h2, h3, h4 {
 
 
     #theme-color-boxes {
-        padding-left: 1.1em;
-        display: inline-block;
-        text-align: center;
+        display: flex;
+        border: 1px solid grey;
+        margin-left: 1.1em;
+        padding: 0;
         height: 20px;
         margin-top: 0.25em;
+        margin-bottom: 20px;
     }
 
     .theme-color-box {
-        border: 1px solid grey;
+        // border: 1px solid grey;
         border-right: none;
-        display: inline-block;
-        margin: auto;
+        flex: 1;
         height: 20px;
         width: 20px;
     }
 
-    .theme-color-box:last-of-type {
-        border-right: 1px solid grey;
+    #theme-indicator {
+        font-size: 12px;
+        position: relative;
+        top: 8px; 
+        left: 5px;
+        color: $light-text-color;
     }
 
     .sidebar-link {
@@ -652,7 +657,7 @@ h2 .post-link {
 
     h1, h2, h3, h4, h5 {
         color: $text-color;
-        background-color: $background-color;
+        background-color: $container-color;
     }
 
     .header-sticky {

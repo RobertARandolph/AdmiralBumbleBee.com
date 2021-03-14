@@ -4,6 +4,7 @@
 @charset "utf-8";
 
 $text-color:       rgba(17, 17, 17, 0.7);
+$light-text-color: lighten($text-color, 50%);
 $background-color: rgb(197, 197, 240); 
 $brand-color:      #2a7ae2;
 

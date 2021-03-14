@@ -279,6 +279,7 @@ pre {
 }
 
 #main-flex-container {
+    background-color: $background-color;
     display: flex;
     justify-content: flex-start;
     position: absolute;
