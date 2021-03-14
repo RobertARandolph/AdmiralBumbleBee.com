@@ -657,7 +657,7 @@ h2 .post-link {
 
     h1, h2, h3, h4, h5 {
         color: $text-color;
-        background-color: $container-color;
+        background-color: $container-background;
     }
 
     .header-sticky {
@@ -701,7 +701,6 @@ h2 .post-link {
         font-weight: 600;
         border-bottom: 3px solid rgb(0, 0, 0);
         padding-bottom: 5px;
-        background-color: $background-color;
         padding-top: 10px;
 
         @include media-query($on-palm) {
@@ -723,7 +722,6 @@ h2 .post-link {
         height: 35px;
         border-bottom: 2px solid rgb(200, 200, 200);
         padding-bottom: 5px;
-        background-color: $background-color;
         @include media-query($on-palm) {
             height: auto;
         }
