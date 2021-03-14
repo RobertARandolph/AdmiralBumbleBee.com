@@ -6,6 +6,8 @@ categories: music
 description: My favorite things.
 ---
 
+**Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
+
 # What is this
 
 * This is **NOT** an overview of everything I use. It's just the stuff that I enjoy using (or is necessary, but the least terrible option).
