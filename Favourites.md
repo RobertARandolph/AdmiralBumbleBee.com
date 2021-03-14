@@ -33,9 +33,7 @@ I want to experience _design_.
 
 # Computing
 
-I currently use an [Apple iMac Pro](https://www.apple.com/imac-pro/) and a [2018 macbook pro](https://support.apple.com/kb/SP776?locale=en_US). I quite like both computers.
-
-My favourite computer I've ever owned, and still use, is my 11" 2018 iPad Pro with Apple Pencil. I bring it everywhere. I use it for nearly everything.
+I currently use an [Apple iMac Pro](https://www.apple.com/imac-pro/) and a [13" Macbook Air (M1)](https://support.apple.com/kb/SP825?locale=en_US). I quite like both computers. I'm _particularly_ fond of the macbook air.
 
 ## OS
 
@@ -139,9 +137,10 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 
 ### Guitars
 
-* 2007 Fender Custom Shop Jaguar bass - My absolute favourite instrument. If my house was going to be levelled and I could only grab one thing. This is it.
+* [Clement](https://www.clementbass.com) 34" 6-string.
 * MTD HD34 Custom Bass, [Avidore](https://www.wood-database.com/avodire/) - My baby.
 * MTD 534-34 - Incredible instrument
+* 1969 Fender Mustang factory color test.
 * Fender 1952 Time Machine NOS Telecaster with Seymor Duncan Custom Pickups (stacks)
 * Suhr Classic S.
 
@@ -159,13 +158,14 @@ I've never owned a condenser mic that I would call "My favourite". However, [the
 * [Rockslide Aged Nickel slide](https://www.therockslide.com/shop/aged-nickel-guitar-slide/)
 * [Blue Chip Jazz 80 Large](https://shop.bluechippick.net/products/Jazz80-LG.html) - You probably think I'm crazy right now. $50 for a pick!?!?!? **IS IT MADE OF GOLD???**. No, it's made of [Vespel](https://www.dupont.com/products/vespel-polyimide.html). The material alone for the pick is worth ~$10-$15, and it's difficult to work to the level of the Blue Chip products.
     * I have difficulty holding a pick due to health issues, and this material is practically magic. I'm able to keep it in my fingers, but it feels glassy smooth on the strings. I've tried 100s of picks and this _is it_ for me. Smooth on the strings, stays in my hand.
-* [Zookies 30deg](https://www.jimdunlop.com/product/z9002m30-7-10137-00717-8.do) - I now play guitar and bass exclusively with a 30deg zookies pick that's been ground to a Jazz III-like tip. Much easier on my hands/fingers.
 * [Dunlop Straplocks](https://www.jimdunlop.com/products/accessories/straplok) - I dislike any other strap locking system.
 
 ## Pedals
 
 * [Peterson Strobostom HD](https://www.petersontuners.com/products/strobostomphd/) - Best tuner that I've used by a mile.
 * [Keeley Time Machine Boost](http://www.robertkeeley.com/manuals/time_machine_boost.pdf) - Ahhhhhhhhhhhhh. If I only had one pedal, this would be it.
+* [Empress Compressor mkII](https://empresseffects.com/products/compressor-mkii) - The best pedal compressor I've encountered. I adore this pedal.
+* [Empress Bass Compressor](https://empresseffects.com/products/bass-compressor) - On guitar I prefer the bass compressor.
 * [Keeley Compressor Pro](https://robertkeeley.com/product/keeley-compressor-pro-namm-2015/) - The least intrusive compressor I've found for both guitar _and_ bass guitar.
 * [Dual Utter Stutter](https://www.youtube.com/watch?v=WXc1YhyajXM) - Custom feedback pedal. 1/1, just for me.
 
@@ -202,15 +202,11 @@ I prefer to reach for a channel strip before anything else.
 * [Limitless](https://dmgaudio.com/products_limitless.php) - The best. End of story.
 * [Elephant](https://www.voxengo.com/product/elephant/) - My "Grab and Go" for (I think?) 15+ years. It's always improving and staying on the cutting edge of Limiting capabilities.
 
-## Transient Processing
-
-* [Transgainer](https://www.voxengo.com/product/transgainer/)
-* [Transreckon](https://www.eareckon.com/en/products/transreckon-transient-shaper.html)
-
 ## Reverb
 
 * [Ocean Way Studios](https://www.uaudio.com/uad-plugins/reverbs/ocean-way-studios.html)
 * [EAReverb](https://www.eareckon.com/en/products/eareverb2-reverb-plug-in.html)
+* [Goodhertz Megaverb](https://goodhertz.co/megaverb/) - Megaverb makes reverb fun again.
 * [Valhalla Delay](https://valhalladsp.com/shop/delay/valhalladelay/) - It's not a "reverb", but it has quickly become one of my favorite reverb tools.
 
 ## Delay
@@ -270,6 +266,14 @@ I prefer to reach for a channel strip before anything else.
 * [Kuru Toga Roulette Pencil](https://www.amazon.com/Roulette-Model-Rotation-Mechanical-Pencil/dp/B00U6T8NX6/ref=sr_1_7?crid=E1K4SEM451LW&keywords=kuru+toga+mechanical+pencil&qid=1567870076&s=office-products&sprefix=kuru+t%2Coffice-products%2C159&sr=1-7) - Much better than the Pentel GraphGear series.
 * Variety of vintage Mechanical Pencils - I collect vintage mechanical pencils. I have too many that I like to list.
 
+## Every Day Carry
+
+* [Tom Bihn Synapse 25](https://www.tombihn.com/products/synapse-25?_pos=1&_sid=3cd5174bf&_ss=r&variant=31746987720767) - The best backpack I've ever owned. Period.
+* [Tom Bihn Daylight Briefcase](https://www.tombihn.com/products/daylight-briefcase?_pos=1&_sid=def98d580&_ss=r&variant=2048087588871) - I carry this with me everywhere, always. Outside of my house, it is my 3rd arm.
+* [Opinel No.8](https://www.opinel-usa.com/collections/opinel-beech-wood-handle/products/no-8-opinel-stainless-steel-blade) - I have _many_ fancy pocket knives, but my Opinel No.8 goes with me everywhere.
+* [Kaweco Brass Sport](https://www.jetpens.com/Kaweco-Brass-Sport-Fountain-Pen-Medium-Nib/pd/13985) with [Colorverse Cat Ink](https://www.jetpens.com/Colorverse-Cat-Ink-No.-22-Glistening-Series-30-ml-Bottle/pd/28758) and [a 1.5mm calligraphy nib](https://www.jetpens.com/Kaweco-Calligraphy-Fountain-Pen-Replacement-Nib-1.5-mm-Black-Body/pd/8731) - Always with me, in my bag.
+* [Mnemosyne N195A Notebook](https://www.jetpens.com/Maruman-Mnemosyne-N195A-Special-Memo-Notebook-A5-7-mm-Rule/pd/4585) - I write all my notes here. Anything that pops in my head while I'm out, it goes in the notebook.
+
 ## Other
 
 * [My Shop Apron]({% post_url 2017-05-28-The-Apron %}) - Made by my wife for me. Works brilliantly.
@@ -277,10 +281,6 @@ I prefer to reach for a channel strip before anything else.
 * [RabidModels Cyanoacrylate](https://www.ebay.com/str/rabidmodels) - Some of the best prices and value. I particularly like their "Flex" product.
 * [Veritas Honing Guide](http://www.veritastools.com/Products/Page.aspx?p=144) - Some tools need precise bevels, and this is the best honing jig on the market. I've tried them all. I hone by hand while "working" and finish my day with a precise bevel grind.
 * [GRR-Ripper](https://www.microjig.com/products/grr-ripper) - Two of these. Awesome. Easy to adjust to the work so that you can feel confident in the outcomes of the potential failures of a given operation. Better cut results through better work control as well.
-
-## Knives
-
-* [Opinel No.8](https://www.opinel-usa.com/collections/opinel-beech-wood-handle/products/no-8-opinel-stainless-steel-blade) - I have _many_ fancy pocket knives, but my Opinel No.8 goes with me everywhere.
 
 # Kitchen and Food
 
@@ -347,6 +347,5 @@ Only what I've been listening to in the last ~2 years, not an exhaustive list of
 # Software Development
 
 * [Clojure](https://clojure.org) - Clojure saved me from leaving the software development world entirely. I love working with it. I don't necessarily agree with every aspect of it, but I value that there is a clear thread of intention and architecture.
-* [Cider](https://github.com/clojure-emacs/cider) and [nRepl](https://nrepl.org/nrepl/0.6.0/index.html) - I actually don't like Cider _or_ nRepl as software. In fact, I rather despise nRepl. What I love is the push to develop better tooling and the passion behind the projects. I monetarily support these projects even though I do not enjoy using them.
 * [zsh](http://zsh.sourceforge.net) - Big fan of ZSH. Used to prefer fish, but I was constantly dealing with bash-incompatibilities.
 * [Fira Code](https://github.com/tonsky/FiraCode) - I've been using Fira Code for a while now, and it's only when I move away from it do I realize how much I rely on it. I prefer ligatures as well.
