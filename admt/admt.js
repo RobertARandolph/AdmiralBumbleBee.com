@@ -7,6 +7,7 @@ var admt = (function () {
     var themes = [{ "name": 'yellow', "color": "#e8e3a0" },
     { "name": 'blue', "color": "#66b8d4"},
     { "name": 'red', "color": "#f57f7f"},
+    { "name": 'green', "color": "green" },
     { "name": 'dark', "color": "black" },
     { "name": 'white', "color": "white" }];
     var default_theme = "{{ site.main_theme }}";
@@ -49,8 +50,14 @@ var admt = (function () {
 
         document.getElementsByName("theme_" + theme_name)[0].classList.add("current-theme");
 
-        if (button)
-            button.innerHTML = show_name;
+        // Change theme name...
+        // if (button)
+        //     button.innerHTML = show_name.toLowerCase();
+
+        var cb = document.getElementsByName("theme_" + theme_name)[0];
+        var indicator = document.getElementById("theme-indicator")
+
+        cb.appendChild(indicator)
     }
 
     var change_theme = function (theme_name) {
@@ -62,8 +69,8 @@ var admt = (function () {
         // Update the sidebar iFrame themes as well if possible. This should eventually be an array of items to update
 
         // This gives a 'object is null' error on page load because the stupid iframe isn't loaded. I'm not dealing with that shit. Let it error.
-        document.getElementById("sidebar1").contentWindow.document.getElementById("mainstyle").href = "{{ '/css/" + theme_name + ".css' | prepend: site.baseurl }}";
-        document.getElementById("sidebar2").contentWindow.document.getElementById("mainstyle").href = "{{ '/css/" + theme_name + ".css' | prepend: site.baseurl }}";
+        // document.getElementById("sidebar1").contentWindow.document.getElementById("mainstyle").href = "{{ '/css/" + theme_name + ".css' | prepend: site.baseurl }}";
+        // document.getElementById("sidebar2").contentWindow.document.getElementById("mainstyle").href = "{{ '/css/" + theme_name + ".css' | prepend: site.baseurl }}";
     }
 
     var fill_boxes = function () {
@@ -77,14 +84,27 @@ var admt = (function () {
             box.addEventListener("click", switch_to_theme);
             color_container.appendChild(box);
         }
+
+        var indicator = document.createElement("span");
+        indicator.id = "theme-indicator";
+        indicator.innerText = "▲"
+
+        color_container.childNodes[0].appendChild(indicator)
+        
+        set_main_box(themes.length, color_container);
     }
 
     var switch_to_theme = function (e) {
         change_theme(e.target.getAttribute("name").substr(6)); // remove "theme_" from name
     }
 
+    var set_main_box = function (i, e) {
+        e.style.width = i * 20 + "px"
+    }
+
     return {
         write_css: function () {
+
             var saved_theme = get_cookie("theme");
 
             if (saved_theme == "main") {
@@ -127,4 +147,4 @@ var admt = (function () {
     };
 })();
 
-window.addEventListener("DOMContentLoaded", admt.write_css);
+window.addEventListener("load", admt.write_css);
