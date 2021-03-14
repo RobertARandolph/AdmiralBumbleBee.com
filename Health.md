@@ -10,6 +10,8 @@ header:
 header-caption:
 ---
 
+**Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
+
 # What is this
 
 I will discuss the issues that I face in my daily life. I will be covering medications that I've tried and their effects. I'll be covering lifestyle changes that've helped.
@@ -56,7 +58,7 @@ I've been tested for nearly everything other the sun.
 * Vitamin deficiencies
 * Cancer-related causes
 * Vasculitic causes
-* Endocrine causes (thyroid is fine, I've undergone the fully battery of tests)
+* Endocrine causes (I've undergone the fully battery of tests, I have hypothyroidism which is treated successfully)
 
 All tests have come back negative thusfar.
 
@@ -74,7 +76,7 @@ This is a list of what I experience, not necessarily all of the potential sympto
   * [Bradypnia](https://en.wikipedia.org/wiki/Bradypnea) - ~10 breaths per minute
   * [Gastroparesis](https://en.wikipedia.org/wiki/Gastroparesis)
 * Small Fiber Neuropathy
-  * Vestibular Neuritis - Sudden **intense** bouts of vertigo. Feels like a giant grabbed me and threw me across the room, but I never hit the wall.
+  * Vestibular Neuritis - Sudden **intense** bouts of vertigo. Feels like a giant grabbed me and threw me across the room, but I never hit the wall. I believe this symptom is what triggered [Panic Disorder](#panic-disorder) to develop, and continues to trigger sudden panic attacks.
   * [Burning Mouth Syndrome](https://en.wikipedia.org/wiki/Burning_mouth_syndrome)
     * For me this is a dry sensation, like tissue paper is stuffed in my mouth, combined with a strong tingling.
   * [Dysesthesia](https://en.wikipedia.org/wiki/Dysesthesia)
@@ -86,7 +88,7 @@ This is a list of what I experience, not necessarily all of the potential sympto
 * Large Fiber Neuropathy
   * [Propioceptive dysfunction](https://en.wikipedia.org/wiki/Proprioception)
   * [Sensory Ataxia](https://en.wikipedia.org/wiki/Sensory_ataxia)
-  * [Muscle Twitching](https://en.wikipedia.org/wiki/Fasciculation) - Often intense, looks like there's [graboids](https://en.wikipedia.org/wiki/Tremors_(1990_film)) running around under my skin.
+  * [Muscle Twitching](https://en.wikipedia.org/wiki/Fasciculation) - Looks like there's [graboids](https://en.wikipedia.org/wiki/Tremors_(1990_film)) running around under my skin, or manifests as tremors.
   * [Foot Drop](https://en.wikipedia.org/wiki/Foot_drop) - recently led to a bad sprain which I've been recovering from for almost 4 months.
   * [Reduced Sensation](https://en.wikipedia.org/wiki/Hypoesthesia)
   * Weakness, primarily right side
@@ -116,8 +118,11 @@ These are a list of things that I've tried that have not worked, and those that 
 * Eliminating [Capsaicin](https://en.wikipedia.org/wiki/Capsaicin) - The tiniest amount of capsaicin triggers [Burning Mouth Syndrome](https://en.wikipedia.org/wiki/Burning_mouth_syndrome) for me. Remember, BMS isn't just "oh, the spicy is lasting a long time". It's a dry, tingling feeling across the _whole_ mouth.
 * [Ketogenic Diet](https://en.wikipedia.org/wiki/Ketogenic_diet) - There was a noted general reduction in symptoms while on a ketogenic diet.
   * Maintaining a ketogenic diet has been difficult as I'm extremely allergic to dairy products (anything with [casein](https://en.wikipedia.org/wiki/Casein)), and I'm mildly allergic to pork and chicken. Attempting a vegan ketogenic diet was untenable.
+* Sodium Increase - I am on a _very high_ sodium diet, and it has helped normalize my blood pressure where pharmaceutical treatments have been less successful.
 * Meal size reduction - Eating meals <400kcal 8-10 times a day reduced all gastro symptoms (for a short time) and appeared to reduce the severity of pain. I was unable to continue that as the medications I take appear to cause stomach discomfort after a few days if not eaten with a moderate amount of food.
   * My caloric maintenance is 3,200-3,600.
+* French fries - Hey, don't laugh. I don't know why, but _heavily_ salted french fries reduce these symptoms for 30-90 minutes after. No other food seems to do it. I didn't even like french fries that much until I discovered this.
+* 
 
 **NOT YET SUCCESSFUL**
 
@@ -135,9 +140,7 @@ Medications marked with an **X** did not work.
   * [Neurontin](https://en.wikipedia.org/wiki/Gabapentin) - I switch between these two medications. It seems that one will lose effectiveness and switching to the other provides a renewed relief of symptoms.
 * [Sectral](https://en.wikipedia.org/wiki/Acebutolol) - Manages orthostatic hypotension well.
 * [Synthroid](https://en.wikipedia.org/wiki/Levothyroxine) (Brand name only) - Generic causes stomach issues and headaches. Has worked well for managing hypothyroidism.
-* [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Reduced frequency of migraines and [Cluster Headaches](https://en.wikipedia.org/wiki/Cluster_headache)
-* [Nurtec](https://en.wikipedia.org/wiki/Rimegepant) - The only migraine abortive that has worked consistently for me
-* [Maxalt](https://en.wikipedia.org/wiki/Rizatriptan) - Provides mild migraine relief.
+* [Profivil](https://en.wikipedia.org/wiki/Modafinil) and [Nuvigil](https://en.wikipedia.org/wiki/Armodafinil) - Sleeping with chronic pain is difficult. I've been able to both increase the quality of my sleep and increase the quality of my waking cognition with either of these medications. No single medication has improved my life more than these.
 * **X** [Elavil](https://en.wikipedia.org/wiki/Amitriptyline) - Pronounced sleepiness. Mild pain relief.
 * **X** [Cymbalta](https://en.wikipedia.org/wiki/Duloxetine) - No relief. Moderate increase in sweating.
 * **X** [Savella](https://en.wikipedia.org/wiki/Milnacipran) - Fervent sweating.
@@ -149,10 +152,13 @@ OTC:
 
 * [Acetyl L-Carnitine](https://en.wikipedia.org/wiki/Carnitine) - I cycled through this twice, and it has a significant effect the LFN related symptoms.
 * [Liquorice](https://en.wikipedia.org/wiki/Liquorice) - increases my blood pressure and HR reliably. Difficult to use liquorice to maintain as the effect lasts an hour at most, and it's disgusting to me.
+* Water Kefir - It's magic. Homemade water kefir has provided one of the most drastic improvements in gastric symptoms of anything I've tried. It is labour intensive to make and maintain, so I no longer have it in the house.
+* [Kevita](https://www.kevita.com/products/sparkling-probiotic-drink/) - Kevita has been the most effective purchasable probiotic source for improving gastric symptoms. Most of them are disgusting though.
 * **X** [CoQ10](https://en.wikipedia.org/wiki/Coenzyme_Q10) - No benefit.
 * **X** [Alpha Lipoic Acid](https://en.wikipedia.org/wiki/Lipoic_acid) - No observed benefit.
 * **X** [PQQ](https://en.wikipedia.org/wiki/Pyrroloquinoline_quinone) - Increase in paresthesia. I tried on/off twice and it was not a subtle effect.
 * **X** [Curcumin](https://en.wikipedia.org/wiki/Curcumin) - Reliably increases sharp nerve pains.
+* **X** [Florastor](https://florastor.com) - I'm unsure if this helped. The first time taking it I had less symptoms, but ceasing for a while and repeating a course did not have the same results.
 
 ### Lifestyle
 
@@ -169,7 +175,7 @@ OTC:
 
 * [Classical Technique](https://en.wikipedia.org/wiki/Classical_guitar_technique) on all instruments - I now play with a hybridized classical technique on electric guitar and (primarily) electric bass.
   * The technique I use is similar to [Mathew Garrison's](https://www.youtube.com/watch?v=rW0Hoxo32FA).
-  * I use a [Football](https://en.wikipedia.org/wiki/Association_football) or [basketball](https://en.wikipedia.org/wiki/Basketball) for my left foot.
+  * I use a [Football](https://en.wikipedia.org/wiki/Association_football) or [basketball](https://en.wikipedia.org/wiki/Basketball) for my left foot. I do not yet understand why I dislike fixed footstools, but a ball works much better for me.
 * Stiffer strings - When I began to notice loss of sensation and coordination in my hands, my first thought was to switch to lower tension strings. Wrong choice. Lower tension strings mean less feedback, more movement and require more coordination to play in tune. I switched to higher tension strings and it increased my playing times and decreased the associated symptoms.
   * Higher tension strings require less movement for the same volume, provide more tactile feedback, bend less (play in tune despite pulling/pressing too much) and respond better to unintentional 'flailing'-like movements.
 * [BlueChip Picks](https://bluechippick.net) - These picks are simultaneously ultra-smooth gliding across the string, and easy to grip in the hand. I frequently dropped picks and have tried everything I can find. It seems that the primary issue is that the friction of rougher surfaced picks tends to 'grab' the pick out of my hand. I suspect that the reduction in vibration from the smooth and countoured surface allows me to play longer before numbness in my fingers settles in.
@@ -187,7 +193,7 @@ There are some things that I can't really "fix", so I've developed some habits o
 
 I've had moderate to severe Migraines with aura, and more often [silent migraines](https://en.wikipedia.org/wiki/Acephalgic_migraine) since I was 14. If I was writing this post in 2017, I would lament how annoying migraines are. They _are_ bothersome and sometimes they can be crippling. Migraines **suck**.
 
-In 2018 I had my first [cluster headache](https://en.wikipedia.org/wiki/Cluster_headache), or "Suicide Headache". Then I had another one. Then another one. Then another one. 
+In 2018 I had my first [cluster headache](https://en.wikipedia.org/wiki/Cluster_headache), or "Suicide Headache". Then I had another one. Then another one. Then another one...
 
 Before experiencing it, I'd been aware of the condition. I'd read medical texts, studies, blogs, etc... about migraines and frequently found discussions of cluster headaches. The stories were inconceivable. They are frequently described as one of the most painful things a human can experience. 
 
@@ -197,19 +203,23 @@ I was completely wrong, and at this point I am going to become the person that I
 
 ## The first one
 
-My first cluster headache was while driving over the [Gandy Bridge](https://en.wikipedia.org/wiki/Gandy_Bridge). I felt a strange sensation run up the back up my neck, through my brain and into my eye. The sensation bloomed around my eye socket from a dull pain, as if someone was pressing their elbow into my eye, then to a warm burn, then a _searing__ burn. The burning and pressure intensified rapidly. I felt a sensation as if the bridge was swinging and increasingly as if my vehicle was being thrown about by gusty winds. Vertigo.
+My first cluster headache was while driving over the [Gandy Bridge](https://en.wikipedia.org/wiki/Gandy_Bridge). I felt a strange sensation run up the back up my neck, through my brain and into my eye. The sensation bloomed around my eye socket from a dull pain, as if someone was pressing their elbow into my eye, then to a warm burn, then a _searing_ burn. The burning and pressure intensified rapidly. I felt a sensation as if the bridge was swinging and increasingly as if my vehicle was being thrown about by gusty winds. Vertigo.
 
-I can't say that my sense of time in that moment is accurate. It felt like the entire sequence took less than a minute. I pulled over on the bridge as fast as I could and immediately began vomiting. Time simply vanished. I do not recall having a sense of where I was or what I was doing. In restrospect, I'm terrified that I couldn't even think of calling emergency services.
+I can't say that my sense of time in that situation is accurate. It felt like the entire sequence took less than a minute. I pulled over on the bridge as fast as I could and immediately began vomiting. Time simply vanished. I do not recall having a sense of where I was or what I was doing. In restrospect, I'm terrified that I couldn't even think of calling emergency services.
 
 I do not know how long it lasted. As it subsided, I remember finding some eye drops that I keep in my bag because I couldn't see well. I looked in the mirror and saw that I clearly had been crying. My left eye was drooping and I couldn't fully open it. (This happens when I get "normal" migraines too!?).
 
-I drove home, somehow, and I don't remember doing so. I cleaned up at home, then had a second wave of vertigo and a fleeting, burning pain behind my eye. More vomiting. I cleaned myself up again.
+I don't understand how, but I drove home. I cleaned up, then had a second wave of vertigo and a fleeting, burning pain behind my eye. 
 
-My mother came over (unexpectedly, as mothers do) and noticed my drooping left eye. I explained what happened and she insisted on taking me to the hospital, to which I foolishly did not go. I make a rushed appointment with a (new) neurologist.
+More vomiting. I cleaned myself up again.
+
+My mother came over (unexpectedly, as mothers do) and noticed my drooping left eye. I explained what happened and she insisted on taking me to the hospital, to which I foolishly did not go. 
+
+For the next 2 days I was drained. I have competed in 'extreme' sporting events (cycling, back-to-back football games, all-day streetball, etc...) and I do not remember ever feeling so tired. Despite being tired, I was unable to sleep because I feared it would all happen again if I wasn't alert. I wasn't able to stop it before, why could I stop it again if I was alert? I don't know, but the thought persisted.
 
 I don't think that I can explain what it's like in a way that will make the reader empathize. The initial shooting pain I think is conceivable by most people. Maybe mild vertigo is something that you recall at some point. The pain that makes you tear up no matter how hard you try to hold it back perhaps?
 
-The headache itself, at its apex, consumes me. It is pure pain with waves of relent that only grant you enough consciousness to recognize the pain.
+The headache itself, at its apex, consumed me. It is pure pain with waves of relent that only grant you enough consciousness to recognize the pain.
 
 Perhaps it's a trite analogy, but that short moment after stubbing your toe when the world ceases to exists except for the realization of pain. That transient moment at the _very_ inception of that experience. The apogee of the initial moment. Extended it to 15 minutes, 30 minutes, an hour. Magnify it by whatever multiplier that you can dream up. Shove it in your head.
 
@@ -226,6 +236,8 @@ I've heard of traumas which are greater than anything I've experienced or seen w
 Since my first cluster headache, let alone the next few dozen, everything else is less than a 1. It's inconceivable for anything else to compare. 
 
 I don't bring this up to reinforce the pain level of these headaches, but because of how strange it is to me that I struggle with that question now. I didn't realize how subjective a 'pain scale' is, and how much it relies on prior experience.
+
+I'm not a humanitarian, and there are a few people on this world I would wish unending cluster headache pain to, but these experiences have lead me to question the value of a pain scale for anything other than emergency cognitive evaluation.
 
 ## Cause
 
@@ -252,11 +264,17 @@ The impact is acute. The headaches last at most 45 minutes for me.
 
 After an episode, I feel exhausted. My depth perception is usually poor (I assume because my left eye is half/fully shut for hours after).
 
-I have some sort of guilt that builds. I tend to force myself to engage some productive activity soon as I can.
+I develop a guilt, and a need to validate my existence. I tend to force myself to engage some productive activity soon as I can.
 
 ## Mitigations
 
 None.
+
+Incidentally, I was struck with a cluster headache in the shop once and it was one of the shortest I've experienced. When it subsided my eyes were burning. After a long and thorough rinse (which is typical post-cluster) I went back to the shop and concluded that I had splashed acetone that was in my hands, into my eyes.
+
+By no means would I _ever_ suggest acetone in your eyes, nor do I think that I would intentionally do it again, but I can't help think that something about that experience reduced the severity of that headache. Perhaps the introduction of an external pain source? Stimulation of something in/around the eye? Coincidence?
+
+**DO NOT PUT ACETONE IN YOUR EYES**
 
 ### Diet
 
@@ -309,14 +327,15 @@ I get an aura 90% of the time, and about half those times I do not get headache 
 
 Listed in order of frequency. Marked with a + only happen in migraines with headache.
 
-* [Photopsia](https://en.wikipedia.org/wiki/Photopsia) - This is my initial aura symptom most of the time. It looks like someone took a flash photograph behind me and I barely caught the edge of the flash in my peripheral vision.
+* [Ptosis](https://en.wikipedia.org/wiki/Ptosis_(eyelid)) - My left eye droops. I usually do not notice, but my wife and other people do.
+* [Photopsia](https://en.wikipedia.org/wiki/Photopsia) - This is the initial aura symptom most that I experience most of the time. It looks like someone took a flash photograph behind me and I barely caught the edge of the flash in my peripheral vision.
 * [Photophobia](https://en.wikipedia.org/wiki/Photophobia) - This isn't the feeling of "oh, it's too bright out, I need to put on some sunglasses". It's like when you put your hands under a faucet and the water is too hot. The surprise, the pain, the instant desire to retreat.
   * I've have a full opthamalogical workup. Eyes are fine.
 * [Scintillating scotoma](https://en.wikipedia.org/wiki/Scintillating_scotoma) - or as I call them "the wormies". Joseph and the technicolor [worm farm](https://en.wikipedia.org/wiki/Vermifilter). [Jem and the Holoworms](https://en.wikipedia.org/wiki/Jem_(TV_series)).
 * Nausea
  [Hyperacusis](https://en.wikipedia.org/wiki/Hyperacusis) - This happens with all migraine _headaches_. I can determine fairly early if I will get a migraine _headache_ when certain sounds begin to sound unusually loud. I've recently begun to suspect that certain sounds can turn a silent migraine into a migraine headache.
-  * I'm not bothered by all sounds equally. Specifically crunching/crackling/crispy sound like my head is in a giant can, and it's being crushed while I'm inside.
-* +[Auditory Hallucinations](https://en.wikipedia.org/wiki/Auditory_hallucination) - With particularly sever migraines, I often believe I hear someone speaking in the distance, or someone whispering nearby.
+  * I'm not bothered by all sounds equally. Specifically crunching/crackling/crispy sound like my head is in a giant can, and it's being crushed while I'm inside. The sound of a bag crunching sounds louder than a car crash.
+* +[Auditory Hallucinations](https://en.wikipedia.org/wiki/Auditory_hallucination) - With particularly severe migraines, I often believe I hear someone speaking in the distance, or someone whispering nearby.
 
 ### Headache
 
@@ -336,6 +355,7 @@ At some point in my life I had a great deal of difficulty coping with migraines.
   * I'll usually wear earplugs underneath them as well.
 * [Green Light](https://hms.harvard.edu/news/green-light-migraine-relief) - I discovered this on my own, and out of curiosity found that it appears to have been independently discovered elsewhere. It doesn't fix the problem, but I can tolerate slightly brighter green light than any other part of the spectrum.
 * [Costa del mar Fisch Sunglasses](https://www.costadelmar.com/en-us/sunglasses/FS-97963495707) - I wear these indoors, with lights off. It makes a tremendous difference.
+* French fries - Yep, french fries again. 15-30 minutes of mild relief.
 
 ### Diet
 
@@ -410,15 +430,24 @@ Approximately 1/3 of my panic attacks have occurred in the middle of the night. 
 * Near the beginning of panic attacks, I almost always need to urinate.
 * [Depersonalization](https://en.wikipedia.org/wiki/Depersonalization) - Longer panic attacks result in the feeling that I am observing myself exist. 
   * [Derealization](https://en.wikipedia.org/wiki/Derealization) is a common symptom during panic attacks, but I do not experience it.
+  
+Importantly there are some things that _don't_ happen when I have a panic attack, or are paradoxical:
+
+* My mental state is calm, and I'm able to reason clear as I normally can.
+* Heart rate does not raise, sometimes _lowers_. (According to my [Apple Watch](https://en.wikipedia.org/wiki/Apple_Watch))
 
 **Limited Symptom Attacks**
 
 I have what are called [Limited Symptom Attacks](https://en.wikipedia.org/wiki/Limited_symptom_attack) as well. Specifically a handful of symptoms:
 
 * Sharp vertigo spells
-* Sweating
+* Profuse sweating
 * Ringing ears
 * Urination
+* [Increased Motility](https://en.wikipedia.org/wiki/Motility)
+* Drop in heart rate.
+
+I've started calling these "autonomic attacks". They seem to be a swath of autonomic related dysfunctions that happen mildly, all at once.
 
 ## Impact
 
@@ -482,6 +511,7 @@ Unknown. I have had symptoms since I can remember. I was not made aware that the
 * Tuning - I can not handle an instrument which is not tuned in some regular fashion (not necessarily [12-tet](https://en.wikipedia.org/wiki/Equal_temperament)). I have to tune the instrument, or leave the area.
   * A funny/interesting exception is that I can leave my wife's guitar in an out-of-tune state. It doesn't bother me at all.
 * Organization - I will obsessively organize information to absurd degrees (well beyond what you see on this website). For any given spreadsheet, article or video, you can be certain that there's excessive notes that I had to distill to get to that point.
+* Scheduling - For a long period of time I would schedule _every_ aspect of my life. If the schedule deviated then I would become angry and rush to re-schedule everything. Since the neuropathies have begun affecting my life, it has become overwhelming to constantly reschedule self-imposed deadlines that I did not meet. I still schedule a lot of things, but the associated fear and anger has subsided a bit, and continues to subside.
   
 All of these symptoms come with a building fear that if I don't do it, some indistinct negative outcome will befall me. Sometimes it's a fierce fear that triggers an anxiety attack (but not a [panic attack](#panic-disorder)).
 
