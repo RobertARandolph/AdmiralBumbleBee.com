@@ -13,14 +13,7 @@ $sidebar-font-size:   12pt;
 $sidebar-font-weight: 400;
 
 $spacing-unit:     30px;
-$left-sidebar-width: 10em;
-
-$left-side-bar-width:    16%;
-$right-side-bar-width:   10%;
-// Width of the content area
-$content-width:  calc( 98% - (#{$left-side-bar-width} + #{$right-side-bar-width}) );
-//$content-left-margin:  calc(#{$left-side-bar-width} + 0.5% );
-$content-left-margin: 10%;
+$left-sidebar-width: 13em;
 
 $on-palm:          775px;
 $on-laptop:        1439px;
