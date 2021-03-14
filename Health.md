@@ -1,8 +1,7 @@
 ---
 layout: ['post', 'reader']
-title: Health Update
+title: Health
 comments: true
-date:   2021-03-06_13:11:02 
 categories: general
 tags: ['Health']
 image:
@@ -11,10 +10,15 @@ header:
 header-caption:
 ---
 
-It's time for another health update! The [last major update]({% post_url 2019-09-06-More-Health %}) was about 1.5 years ago. I've since had more tests, further decline and plenty of excellent improvements in how to deal with it.
+# What is this
 
+I will discuss the issues that I face in my daily life. I will be covering medications that I've tried and their effects. I'll be covering lifestyle changes that've helped.
 
-I will discuss the issues that I face in my daily life. I will be covering medications that I've tried and their effects. I'll be covering lifestyle changes that've helped. I've discuss things that have had a negative effect on my state.
+Everything listed here has been diagnosed in isolation by at least 2 conventional medical professionals.
+
+Like most people, there are some maladies that I believe I have or have had at some point. I only value self-diagnosis as a pathway to communicating with a trained professional. I have not listed anything here which is self-diagnosed or speculative.
+
+# Disclaimer
 
 If you are finding this article and are suffering from similar symptoms, please see your doctor. LISTEN to your doctor.
 
@@ -23,8 +27,6 @@ If you're under a doctor's care and are desperately looking for things that help
 These are my experiences, and my _experiences_ alone.
 
 Listen to your medical health professionals.
-
-<!--more-->
 
 # Contents
 {:.no_toc}
@@ -74,6 +76,7 @@ This is a list of what I experience, not necessarily all of the potential sympto
 * Small Fiber Neuropathy
   * Vestibular Neuritis - Sudden **intense** bouts of vertigo. Feels like a giant grabbed me and threw me across the room, but I never hit the wall.
   * [Burning Mouth Syndrome](https://en.wikipedia.org/wiki/Burning_mouth_syndrome)
+    * For me this is a dry sensation, like tissue paper is stuffed in my mouth, combined with a strong tingling.
   * [Dysesthesia](https://en.wikipedia.org/wiki/Dysesthesia)
      * [Paresthesia](https://en.wikipedia.org/wiki/Paresthesia)
      * Sensation of wetness, usually on hands or arms
@@ -100,7 +103,6 @@ Typing is difficult. I often miskey, place my hands incorrectly or do not press 
 * I can type for approximately 10-20 minutes before my fingers have lost all sensation of pressure.
 * I drop things frequently. I drop something that I believe I have firm hold of between 5-10 times a day.
 
-
 ## Mitigations
 
 These are a list of things that I've tried that have not worked, and those that have yet worked.
@@ -111,15 +113,23 @@ These are a list of things that I've tried that have not worked, and those that 
 
 * Eliminating [Allium](https://en.wikipedia.org/wiki/Allium) - I've learned that foods that increase digestive motility trigger symptoms. The most common of these are alliums. Garlic and onions are the most common. Avoiding alliums is more difficult than you might imagine, onion and garlic are in more things than you might imagine, and eliminating them leads to some fairly bland experiences.
   * [Asafoetida](https://en.wikipedia.org/wiki/Asafoetida) is an alternative that I have not yet used.
+* Eliminating [Capsaicin](https://en.wikipedia.org/wiki/Capsaicin) - The tiniest amount of capsaicin triggers [Burning Mouth Syndrome](https://en.wikipedia.org/wiki/Burning_mouth_syndrome) for me. Remember, BMS isn't just "oh, the spicy is lasting a long time". It's a dry, tingling feeling across the _whole_ mouth.
+* [Ketogenic Diet](https://en.wikipedia.org/wiki/Ketogenic_diet) - There was a noted general reduction in symptoms while on a ketogenic diet.
+  * Maintaining a ketogenic diet has been difficult as I'm extremely allergic to dairy products (anything with [casein](https://en.wikipedia.org/wiki/Casein)), and I'm mildly allergic to pork and chicken. Attempting a vegan ketogenic diet was untenable.
+* Meal size reduction - Eating meals <400kcal 8-10 times a day reduced all gastro symptoms (for a short time) and appeared to reduce the severity of pain. I was unable to continue that as the medications I take appear to cause stomach discomfort after a few days if not eaten with a moderate amount of food.
+  * My caloric maintenance is 3,200-3,600.
 
 **NOT YET SUCCESSFUL**
 
 * Vegetarianism - No noticeable benefits. I am still currently vegetarian however.
 
+**FAILED**
+
+* Copper reduction
+
 ### Pharmaceutical
 
 Medications marked with an **X** did not work.
-
 
 * [Lyrica](https://en.wikipedia.org/wiki/Pregabalin) - Reduces pain somewhat, helps a lot with vestibular issues.
   * [Neurontin](https://en.wikipedia.org/wiki/Gabapentin) - I switch between these two medications. It seems that one will lose effectiveness and switching to the other provides a renewed relief of symptoms.
@@ -138,6 +148,7 @@ Medications marked with an **X** did not work.
 OTC:
 
 * [Acetyl L-Carnitine](https://en.wikipedia.org/wiki/Carnitine) - I cycled through this twice, and it has a significant effect the LFN related symptoms.
+* [Liquorice](https://en.wikipedia.org/wiki/Liquorice) - increases my blood pressure and HR reliably. Difficult to use liquorice to maintain as the effect lasts an hour at most, and it's disgusting to me.
 * **X** [CoQ10](https://en.wikipedia.org/wiki/Coenzyme_Q10) - No benefit.
 * **X** [Alpha Lipoic Acid](https://en.wikipedia.org/wiki/Lipoic_acid) - No observed benefit.
 * **X** [PQQ](https://en.wikipedia.org/wiki/Pyrroloquinoline_quinone) - Increase in paresthesia. I tried on/off twice and it was not a subtle effect.
@@ -156,6 +167,9 @@ OTC:
 
 #### Instruments
 
+* [Classical Technique](https://en.wikipedia.org/wiki/Classical_guitar_technique) on all instruments - I now play with a hybridized classical technique on electric guitar and (primarily) electric bass.
+  * The technique I use is similar to [Mathew Garrison's](https://www.youtube.com/watch?v=rW0Hoxo32FA).
+  * I use a [Football](https://en.wikipedia.org/wiki/Association_football) or [basketball](https://en.wikipedia.org/wiki/Basketball) for my left foot.
 * Stiffer strings - When I began to notice loss of sensation and coordination in my hands, my first thought was to switch to lower tension strings. Wrong choice. Lower tension strings mean less feedback, more movement and require more coordination to play in tune. I switched to higher tension strings and it increased my playing times and decreased the associated symptoms.
   * Higher tension strings require less movement for the same volume, provide more tactile feedback, bend less (play in tune despite pulling/pressing too much) and respond better to unintentional 'flailing'-like movements.
 * [BlueChip Picks](https://bluechippick.net) - These picks are simultaneously ultra-smooth gliding across the string, and easy to grip in the hand. I frequently dropped picks and have tried everything I can find. It seems that the primary issue is that the friction of rougher surfaced picks tends to 'grab' the pick out of my hand. I suspect that the reduction in vibration from the smooth and countoured surface allows me to play longer before numbness in my fingers settles in.
@@ -306,6 +320,10 @@ Listed in order of frequency. Marked with a + only happen in migraines with head
 
 ### Headache
 
+* Pain around eyes
+* Pain above forehead
+* Occasionally intense pain from _any_ sound.
+
 ## Impact
 
 At some point in my life I had a great deal of difficulty coping with migraines. Over time I've come up with a number of strategies that allow me to _at least_ get a 6-9 hour work day out of a migraine day.
@@ -315,6 +333,7 @@ At some point in my life I had a great deal of difficulty coping with migraines.
 * [The Headache Hat](https://theheadachehat.com) - I'm shilling here. This is **THE BEST** way to get ice on your head for a headache. There are 3 channels with plastic encased freezable liquid. It is comfortable. They last. It helps. I have 4 of them so I can cycle them in the freezer quickly.
   * I've found that putting these on "in reverse" offers the most relief. Place it so the ice sits on the base of my skull, rather than on my forehead.
 * [3m Peltor 105 earmuffs](https://www.3m.com/3M/en_US/company-us/all-3m-products/~/3M-PELTOR-Optime-105-Earmuffs-H10A-Over-the-Head-10-EA-Case/?N=5002385+3294758533&rt=rud) - I wear these around the house when sound bothers me. Within the last few months I've started to wear them _before_ sounds bother me, and it seems that it reduces the likelihood that an aura will turn into a severe headache.
+  * I'll usually wear earplugs underneath them as well.
 * [Green Light](https://hms.harvard.edu/news/green-light-migraine-relief) - I discovered this on my own, and out of curiosity found that it appears to have been independently discovered elsewhere. It doesn't fix the problem, but I can tolerate slightly brighter green light than any other part of the spectrum.
 * [Costa del mar Fisch Sunglasses](https://www.costadelmar.com/en-us/sunglasses/FS-97963495707) - I wear these indoors, with lights off. It makes a tremendous difference.
 
@@ -353,15 +372,141 @@ Medications marked with an **X** did not work.
 * Magnesium Aspartate
 * Chelated Magnesium
 
-TODO - list all the magnesium variants I've tried.
-
 ### Lifestyle
 
 Nothing except avoid known triggers.
 
-# Meta
+# Panic Disorder
 
-This post took:
+A few years after the initial Neuropathy symptoms appeared, I developed [Panic Disorder](https://en.wikipedia.org/wiki/Panic_disorder). I've since learned to deal with it particularly well.
 
-* XX hours to do
-* YY hours to do
+Like most people with panic disorder, there's no anxiety. The attacks are not born out of stress, worry, fear of some negative outcome or similar psychological components.
+
+While having a panic attack, I have a number of physical symptoms but am able to communicate clearly and calmly. The panic attacks come without warning, and leave with no lasting effect except _complete_ exhaustion.
+
+## Cause
+
+There is no medically identified cause.
+
+Given that I'm aware of specific triggers, I believe that my panic attacks are directly related to the autonomic neuropathy.
+
+I can reliably trigger a panic attack within 1-3 hours by eating spicy food, food high in galactans or taking a moderately large dose of magnesium citrate _and_ potassium citrate.
+
+## Symptoms
+
+I've been told that it's rare to have panic attacks longer than 15 minutes. Mine have lasted up to 3 hours, and usually no less than an hour.
+
+Approximately 1/3 of my panic attacks have occurred in the middle of the night. I wake up in a panic attack.
+
+* [Vertigo](https://en.wikipedia.org/wiki/Vertigo) - Every panic attack for me starts with a **MASSIVE** crash of vertigo. I often scramble to grab something near me, my head swirls, I jump.
+* Jumping - Sometimes I'll jump up, or jerk to the side (always the left side) quickly.
+* Chest pain - Deep throbbing pain, right over the heart. Sometimes it's enough to make breathing difficult.
+* Desire to flee - I believe that I need to run, fast and far. I'm sure my wife could relate how many times I've said, "I feel like I need to run".
+* Sense of doom - It's exactly what it sounds like.
+* Near instant, profuse sweating.
+* Increased breathing rate.
+* Ringing in the ears.
+* Choking sensation - There is a combined sensation that I cannot swallow, and that I have something in my throat, despite being able to breathe without issue. During my first few dozen panic attacks this lead to frequent swallowing of air and burping.
+* Near the beginning of panic attacks, I almost always need to urinate.
+* [Depersonalization](https://en.wikipedia.org/wiki/Depersonalization) - Longer panic attacks result in the feeling that I am observing myself exist. 
+  * [Derealization](https://en.wikipedia.org/wiki/Derealization) is a common symptom during panic attacks, but I do not experience it.
+
+**Limited Symptom Attacks**
+
+I have what are called [Limited Symptom Attacks](https://en.wikipedia.org/wiki/Limited_symptom_attack) as well. Specifically a handful of symptoms:
+
+* Sharp vertigo spells
+* Sweating
+* Ringing ears
+* Urination
+
+## Impact
+
+For approximately 5 months after my first major panic attack, I rarely left the house. For a period of 2 months I developed complete [agoraphobia](https://en.wikipedia.org/wiki/Agoraphobia) and did not exit the home at all.
+
+I was able to reduce the agoraphobia symptoms over the course of a year while I developed and practiced strategies to deal with panic attacks if they should occur.
+
+## Mitigations
+
+### Diet
+
+* No spicy foods - that includes [piperine](https://en.wikipedia.org/wiki/Piperine) and [capsaicin](https://en.wikipedia.org/wiki/Capsaicin) in any amount.
+* [Reduce Galactans](https://en.wikipedia.org/wiki/Galactan)
+
+### Pharmaceutical
+
+Medications marked with an **X** did not work.
+
+* [Ativan](https://en.wikipedia.org/wiki/Lorazepam) - I take this _only_ when I feel precursor symptoms to a panic attack.
+  * Every other Benzo that I've tried has made the panic _worse_.
+* [Atarax](https://en.wikipedia.org/wiki/Hydroxyzine) - 25-50mg has been the best panic abortive that I have used.
+* [Sectral](https://en.wikipedia.org/wiki/Acebutolol) - I had already been taking Sectral for autonomic concerns, and it is not usually prescribed for panic or anxiety. I was advised to try increasing my dose and it reduced frequency of panic attacks.
+* **X** [Buspirone](https://en.wikipedia.org/wiki/Buspirone) - did nothing.
+* **X** [Lexapro](https://en.wikipedia.org/wiki/Escitalopram) - Mild reduction in severity, but not frequency of panic attacks. Caused impotence, a feeling of imbalance and somnolence.
+* **X** [Celexa](https://en.wikipedia.org/wiki/Citalopram) - Identical experience to Lexapro.
+* **X** [Klonopin](https://en.wikipedia.org/wiki/Clonazepam) - Increased all symptoms for me, short-term developed psychological symptoms during the attack.
+* This list is incomplete. I tried a number of SSRIs to no effect, and I do not have log of them.
+
+### Lifestyle
+
+The single best mitigation strategy I've developed is honesty. I've learned to express if/when I'm having a panic attack to anyone without embarrassment.
+
+Expressing what is happening to another person has allowed me to internalize the transient nature of the attack, and allow myself to ask for assistance when necessary. Knowing both that the attack _will end_ and that there is a sympathetic party reduces any mounting pyschological symptoms and helps me focus on waiting for the attack to subside.
+
+I practice breathing techniques of 2:1 exhale:inhale when I'm _not_ having a panic attack. During a panic attack, the exhalation focused breathing reduces the likelihood of hyperventilation which can prolong the panic attack and/or increase symptom severity. This practice was tremendously helpful.
+
+# Obsessive Compulsive Disorder
+
+I was diagnosed with [severe Obsessive-Compulsive Disorder](https://en.wikipedia.org/wiki/Obsessive–compulsive_disorder) in ~2015 after many years of having presenting symptoms.
+
+The severity of the disorder was diagnosed relative to my insistence/avoidance of specific situations.
+
+There can be a cascade of diagnosises from a single initial diagnosis. For instance, I've had difficult with [Obsessive Compulsive Disorder](#obsessive-compulsive-disorder) symptoms since I was young, and I developed a variety of ways to reduce their impact on my life or how to hide them. It wasn't until I developed [Panic Disorder](#panic-disorder) later in life that I saw a psychologist that quickly picked up on the OCD symptoms.
+
+## Cause
+
+Unknown. I have had symptoms since I can remember. I was not made aware that these were symptoms of OCD (let alone abnormal behaviours!) until I was in my 30s.
+
+## Symptoms
+
+* Intrusive thoughts about air vehicle disasters - Often I would develop a sudden and intense fear that some vehicle would fall from the sky and kill me unless I did some small task. Something as small as aligning a pen with the edge of the table.
+  * This is coupled with all other things listed, i.e. if I do not 'do that thing', then something will fall from the sky and kill me.
+* Pairs - I have to buy everything in pairs, or in what I decide is a "pair". These may not be identical items, but some attribute which I arbitrarily decide makes a pair.
+* Eating - **every** meal I prepare for myself includes an internal fight over whether it's enough food or not, with an intrusive theme of starvation. 
+  * I have managed to reframe this as a fear of being overweight, resulting in quick consistent weight loss. I have cycled between 160lbs and 325lbs _twice_ because of this in <10 years. My weight has varied a total of over 500lbs in that time period.
+* Alignment - I don't mind if things are generally unaligned or disorganized, but I will often fixate on a single item and _need_ to align it.
+  * Common example - About 75% of the time when I eat french fries, a fear builds with a need to align all of the french fries so they are colinear. If/when this happens, I can not eat the french fries until they are aligned. This often happens with the pens on my desk as well, and once they are aligned I can scatter them again.
+  * Sometimes I will remove all of the food from my plate/basket/wrapper and re-align so things are colinear or coplanar.
+* Touching - I do _not_ touch other people except my wife, or my brother. I can force myself to shake hands, and I will need to clean my hands immediately. I **DO NOT** like being touched by other people, in any circumstances. I become irrationally upset and feel dirty.
+  * I used to carry extra clothing with me in a backpack, or in a van, so I could change if someone touched me.
+* Tuning - I can not handle an instrument which is not tuned in some regular fashion (not necessarily [12-tet](https://en.wikipedia.org/wiki/Equal_temperament)). I have to tune the instrument, or leave the area.
+  * A funny/interesting exception is that I can leave my wife's guitar in an out-of-tune state. It doesn't bother me at all.
+* Organization - I will obsessively organize information to absurd degrees (well beyond what you see on this website). For any given spreadsheet, article or video, you can be certain that there's excessive notes that I had to distill to get to that point.
+  
+All of these symptoms come with a building fear that if I don't do it, some indistinct negative outcome will befall me. Sometimes it's a fierce fear that triggers an anxiety attack (but not a [panic attack](#panic-disorder)).
+
+## Impact
+
+I've learned to manage the OCD well. I came up with ways to deal with all outcomes, and when I was younger I somehow trained myself that if I leave the area then everything is fine.
+
+I do avoid situations where there might be touching (handshaking) or close proximity to others. I am not a shy person, but I actively avoid social situations because of the touching concern. My natural introverted state has been strengthened by that fear.
+
+## Mitigations
+
+Symptom Specific.
+
+### Diet
+
+None.
+
+### Pharmaceutical
+
+I have not taken any drugs _specifically_ for OCD, despite insistence from psychiatric health professionals.
+
+I feel that the symptoms of my OCD define me as a person at some level, and that reducing those symptoms or eliminating them will halve my value as a human.
+
+I still do not feel like the symptoms are intrusive enough that I can't come up with a solution to hide them or utilize them in a demi-productive manner.
+
+### Lifestyle
+
+None.
