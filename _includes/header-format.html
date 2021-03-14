@@ -155,8 +155,14 @@
                 rootMargin: rm}
           );
 
-          for (y of document.querySelectorAll("h" + i)) {
-              observer.observe(y);
+          let hs = document.querySelectorAll("h" + i)
+          if (i == 2)
+              var itr = 1
+          else
+              var itr = 0
+
+          for (y=itr;y < hs.length;y++) {
+              observer.observe(hs[y]);
           }
       }
   });
