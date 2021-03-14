@@ -12,6 +12,17 @@ body {
     }
 }
 
+.wrapper {
+    max-width: calc(calc( 98% - (16% + 10%)) - (30px * 2));
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.page-content {
+    padding: 0px;
+    flex: none;
+}
+
 ul li {
     padding-bottom: 10px;
 }
