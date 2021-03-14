@@ -122,7 +122,6 @@ These are a list of things that I've tried that have not worked, and those that 
 * Meal size reduction - Eating meals <400kcal 8-10 times a day reduced all gastro symptoms (for a short time) and appeared to reduce the severity of pain. I was unable to continue that as the medications I take appear to cause stomach discomfort after a few days if not eaten with a moderate amount of food.
   * My caloric maintenance is 3,200-3,600.
 * French fries - Hey, don't laugh. I don't know why, but _heavily_ salted french fries reduce these symptoms for 30-90 minutes after. No other food seems to do it. I didn't even like french fries that much until I discovered this.
-* 
 
 **NOT YET SUCCESSFUL**
 
@@ -355,6 +354,7 @@ At some point in my life I had a great deal of difficulty coping with migraines.
   * I'll usually wear earplugs underneath them as well.
 * [Green Light](https://hms.harvard.edu/news/green-light-migraine-relief) - I discovered this on my own, and out of curiosity found that it appears to have been independently discovered elsewhere. It doesn't fix the problem, but I can tolerate slightly brighter green light than any other part of the spectrum.
 * [Costa del mar Fisch Sunglasses](https://www.costadelmar.com/en-us/sunglasses/FS-97963495707) - I wear these indoors, with lights off. It makes a tremendous difference.
+* Spicy Foods - I can't do this anymore, but when I was younger, finding the **HOTTEST** of hot sauces and punishing myself with it would almost instantly cure the migraine. This 'treatment' brought its own host of issues though :)
 * French fries - Yep, french fries again. 15-30 minutes of mild relief.
 
 ### Diet
@@ -460,7 +460,12 @@ I was able to reduce the agoraphobia symptoms over the course of a year while I 
 ### Diet
 
 * No spicy foods - that includes [piperine](https://en.wikipedia.org/wiki/Piperine) and [capsaicin](https://en.wikipedia.org/wiki/Capsaicin) in any amount.
+* No [Alliums](https://en.wikipedia.org/wiki/Allium)
 * [Reduce Galactans](https://en.wikipedia.org/wiki/Galactan)
+
+Spicy foods and Alliums will trigger a panic attack reliably within an hour or so.
+
+These are the same things that trigger an increase in neuropathic symptoms for days after ingestion as well.
 
 ### Pharmaceutical
 
