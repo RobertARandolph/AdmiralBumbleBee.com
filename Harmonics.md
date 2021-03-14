@@ -11,6 +11,8 @@ layout: post
 
 **IT ONLY WORKS ON MOBILE IN LANDSCAPE**
 
+**Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
+
 # Contents
 {:.no_toc}
 * TOC

@@ -7,6 +7,8 @@ tags: ['Reaper', 'Reaper Tips']
 description: My REAPER settings, and why I chose them.
 ---
 
+**Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}
+
 # Contents
 {:.no_toc}
 * TOC
