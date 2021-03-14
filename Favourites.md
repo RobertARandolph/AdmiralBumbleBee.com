@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static-post
 title: These are a few of my favourite things
 comments: true
 categories: music

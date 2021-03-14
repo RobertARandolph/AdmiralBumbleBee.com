@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static-post
 title: What I want in a DAW.
 comments: true
 date:   2020-11-19_21:05:53 

@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static-post
 title: Reaper Script Showcase
 comments: true
 date: 2017-08-16_22:56:11 

@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: static-post
 title: Site Map
 description: Tags!
 permalink: /tags/

@@ -150,7 +150,7 @@ h1, h2, h3, h4 {
 
 .sidebar-left {
     //width: 200px;
-    flex: 0 0 $left-sidebar-width;
+    flex: 0 0 1;
     position: sticky;
     position: webkit-sticky;
     // max-width: 10em;
@@ -168,13 +168,12 @@ h1, h2, h3, h4 {
     }
 
     #wisdom {
-        position: fixed;
+        position: absolute;
         bottom: 0px;
         color: $grey-color-dark;
         padding: 5px;
         font-size: 10pt;
         line-height: 12pt;
-        width: $left-sidebar-width;
     }
 
 
@@ -239,12 +238,13 @@ h1, h2, h3, h4 {
     }
 
     .nav-section-site-title {
-        text-align: center;
         margin-top: 10px;
         margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 10px;
 
         .site-title {
-            font-size: 20px;
+            font-size: 11pt;
             font-weight: 300;
             // margin-bottom: -5px;
             // margin-left: 1%;
@@ -837,6 +837,7 @@ h2 .post-link {
         height: 30px;
         text-align: center;
         z-index: 10;
+        color: black;
         background-color: rgba(255,255,255,0.7);
     }
 
@@ -844,7 +845,7 @@ h2 .post-link {
         display: inline-block;
         padding: 3px 6px 3px 6px;
         margin-left: -3px;
-        color: $text-color;
+        color: black;
         width: 120px;
         height: 30px;
         text-align: center;
@@ -1039,5 +1040,7 @@ $h-colours: #ff001f, #ff0073, #ff00e3, #b500ff, #4100ff, #00b6ff, #00ffe7,
 
 #search-submit {
     font-size: 10pt;
+    width: $left-sidebar-width;
 }
+
 

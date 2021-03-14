@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static-post
 title: Free and decent plug-ins!
 comments: true
 date: 2018-09-25_11:56:11

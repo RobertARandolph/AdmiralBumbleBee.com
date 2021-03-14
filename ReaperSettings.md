@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: static-post
 title: My REAPER settings, and why.
 comments: true
 categories: music
