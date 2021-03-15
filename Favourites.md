@@ -50,11 +50,12 @@ I like macOS, and [Ubuntu](https://www.ubuntu.com) with [dwm](https://dwm.suckle
 * [Omnigraffle](https://www.omnigroup.com/omnigraffle) - mac only.
 * [Screenflow](https://www.telestream.net/screenflow/)
 * [Hype](https://tumult.com/hype/) - I use hype for all animations currently. I quite like this software.
-* [Resolve](https://www.blackmagicdesign.com/products/davinciresolve) - Let me be clear: I don't like Resolve. It's just the least bad video editing software that I know of.
+* [Final Cut Pro](https://www.apple.com/final-cut-pro/) - I resisted for a long time, but I use FCP now and I couldn't be happier.
 * [Panasonic G9](https://shop.panasonic.com/cameras-and-camcorders/cameras/lumix-interchangeable-lens-ilc-cameras/DC-G9KBODY.html) - Not my only camera, but definitely my favourite.
 
 # Productivity
 
+* [Talon](https://talonvoice.com) - This is how I primarily use my computer. Amazing software.
 * [Omnifocus](https://www.omnigroup.com/omnifocus) - I use omnifocus to organize nearly every aspect of my life. It is central to my ability to function as a human.
 * [Omnigraffle](https://www.omnigroup.com/omnigraffle) - I use omnigraffle to organize my ideas before I execute them.
 * **RETIRED**
@@ -70,7 +71,6 @@ I like macOS, and [Ubuntu](https://www.ubuntu.com) with [dwm](https://dwm.suckle
   * [Evil](https://github.com/emacs-evil/evil) - I prefer vim, Evil is better than vim.
   * [Ivy/Swiper/Counsel](https://github.com/abo-abo/swiper) - I use this hundreds of times a day. If I ever develop dementia, I'm sure I'll forget my wife before I forget how to use it.
   * [Dired Plus](https://www.emacswiki.org/emacs/DiredPlus) - The best file browser on ANY operating system.
-  * [CIDER](https://github.com/clojure-emacs/cider)
   * [Visual Regexp Steroids](https://github.com/benma/visual-regexp-steroids.el) - Python backend regex for Emacs. More sane syntax, and expressions as replacements.
   * [Org Mode](https://orgmode.org) - Spreadsheet, scheduling, timing, multi-language programming and more. I have 100s of org files on my system, most used weekly.
   * [Ace Windows](https://github.com/abo-abo/ace-window) - Keyboard based window navigation. I can get to any window I want with my eyes closed using a set of static keys.
