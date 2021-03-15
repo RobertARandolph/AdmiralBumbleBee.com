@@ -57,9 +57,11 @@ My brother and father came over (at 2am) to discuss with me and my wife if I sho
 
 I vividly remember lying on a gurney in the hallway and the nurse wanted to check my BP lying down then standing. My mother suggested they get a strong male nurse to stand nearby. BP was mildly low lying down. I stood up and... Next thing I remember I was at a BeeGees concert.
 
-Oh, wait. I passed out, but you could not convince me that I was not at a BeeGees concert for that minute I was out. I remember it vividly to this day.
+Oh, wait. I passed out, but you could not convince me that I was not at a BeeGees concert for that minute I was out. I remember it vividly to this day. Thankfully that nurse was there, as I was told that I ragdolled straight to the ground as I said "I'm going..."
 
 Cue doctors galore trying to figure out why my HR/BP were low, and why I suddenly developed [orthostatic hypotension](https://en.wikipedia.org/wiki/Orthostatic_hypotension). [Tilt-Table Test](https://en.wikipedia.org/wiki/Tilt_table_test) was positive. Other tests were negative (did not get a [QSART](https://en.wikipedia.org/wiki/Sudomotor) till a decade later!).
+
+I passed out _many_ times in that period. I injured myself doing so frequently.
 
 Over the next few year the autonomic symptoms worsened slowly and I began to notice other symptoms. I couldn't feel 'wet' anymore, anything wet simply felt cold. I started dropping cups of water. I would get these strange shooting pains. The 'spiciness' from mild hot sauce would last for _hours_. I had a [nerve conduction study](https://en.wikipedia.org/wiki/Nerve_conduction_study) and [EMG](https://en.wikipedia.org/wiki/Electromyography) which returned inconclusive (important later!). 3 years later I had _another_ inconclusive NCS/EMG which showed slightly worse results than previously, but not enough to make a definitive diagnosis. More and more symptoms until a [skin punch nerve biopsy](https://en.wikipedia.org/wiki/Skin_biopsy) returned positive for _severe_ small fiber neuropathy.
 
@@ -95,6 +97,7 @@ This is a list of what I experience, not necessarily all of the potential sympto
   * [Bradycardia](https://en.wikipedia.org/wiki/Bradycardia) - Resting HR in the upper 40s.
   * [Bradypnia](https://en.wikipedia.org/wiki/Bradypnea) - ~10 breaths per minute
   * [Gastroparesis](https://en.wikipedia.org/wiki/Gastroparesis)
+  * I do not know the name for this, but a few times a day I suddenly feel like I'm breathing in 'the wrong direction'. Inhaling when I should have been exhaling or vice versa. It's almost a choking feeling, but the corrective reaction is "Oh, I need to breathe _the other way_".
 * Small Fiber Neuropathy
   * Vestibular Neuritis - Sudden **intense** bouts of vertigo. Feels like a giant grabbed me and threw me across the room, but I never hit the wall. I believe this symptom is what triggered [Panic Disorder](#panic-disorder) to develop, and continues to trigger sudden panic attacks.
   * [Burning Mouth Syndrome](https://en.wikipedia.org/wiki/Burning_mouth_syndrome)
