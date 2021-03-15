@@ -1,0 +1,49 @@
+---
+layout: default
+comments: true
+---
+
+{% include vacation.html %}
+
+<article class="index-post" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <div>
+          <h2>
+            <a class="post-link" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+          </h2>
+</div>
+
+{% if page.header %}
+  <span class="header-image">
+  <a href="{{ page.url | prepend: site.baseurl }}">
+    <img src="{{ page.header }}" alt="{{ page.header-caption }}">
+  </a>
+    <div class="image-caption">{{ page.header-caption }}</div>
+  </span>
+  {% endif %}
+
+
+  <div class="post-content" itemprop="articleBody">
+    {{ content }}
+  </div>
+  
+
+</article>
+
+{% if page.comments %}
+	<div id="disqus_thread"></div>
+	<script>
+		(function() { // DON'T EDIT BELOW THIS LINE
+		var d = document, s = d.createElement('script');
+
+		s.src = '//admiralbumblebee.disqus.com/embed.js';
+
+		s.setAttribute('data-timestamp', +new Date());
+		(d.head || d.body).appendChild(s);
+		})();
+		</script>
+		<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
+{% endif %}
+
+
+  {% include header-format.html %}
