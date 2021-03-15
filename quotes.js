@@ -52,7 +52,7 @@ window.addEventListener(
             "My wife likes durian too much, it's a struggle for this dude.",
             "Some days the sun sneaks up on you real quick.",
             "Either you'll never be as good as you want to be, or you'll never be any good at all.",
-            "If you told me 25 years ago I'd be playing Ibanez and MTD, I'd hit you.",
+            "If you told me 25 years ago I'd be playing MTD, I'd hit you.",
             "Let's go Gwang-ju.",
             "You're damn right I got a gun on me. Y'all going to steal my gun too?",
             "I'm just a vacuum cleaner salesman with a psychology degree.",

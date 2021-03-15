@@ -23,7 +23,7 @@ main_theme: yellow
 # Build settings
 markdown: kramdown
 
-paginate: 10
+paginate: 20
 
 kramdown:
   input:          GFM
