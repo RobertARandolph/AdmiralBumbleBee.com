@@ -1,5 +1,5 @@
 ---
-layout: ['post', 'reader']
+layout: static-post
 title: Health
 comments: true
 categories: general
@@ -19,6 +19,8 @@ I will discuss the issues that I face in my daily life. I will be covering medic
 Everything listed here has been diagnosed in isolation by at least 2 conventional medical professionals.
 
 Like most people, there are some maladies that I believe I have or have had at some point. I only value self-diagnosis as a pathway to communicating with a trained professional. I have not listed anything here which is self-diagnosed or speculative.
+
+This page is always a work in progress. The initial publishing is missing a number of medications, mitigations, impacts and contains a wee bit too much stream of consciousness.
 
 # Disclaimer
 
@@ -47,6 +49,24 @@ I've had 3 positive tests for:
 
 Autonomic tests have also indicated progressive disease.
 
+## Story
+
+I woke up one night to use the restroom, did so successfully, came back to the bedroom and passed out flat on my face.
+
+My brother and father came over (at 2am) to discuss with me and my wife if I should go to the hospital, and it was decided that I should. Upon arriving they appeared to be convinced that I was drunk (disheveled, slurring) and my care was delayed. Eventually I made it into triage and after some chatting I was rushed for a CT.
+
+I vividly remember lying on a gurney in the hallway and the nurse wanted to check my BP lying down then standing. My mother suggested they get a strong male nurse to stand nearby. BP was mildly low lying down. I stood up and... Next thing I remember I was at a BeeGees concert.
+
+Oh, wait. I passed out, but you could not convince me that I was not at a BeeGees concert for that minute I was out. I remember it vividly to this day.
+
+Cue doctors galore trying to figure out why my HR/BP were low, and why I suddenly developed [orthostatic hypotension](https://en.wikipedia.org/wiki/Orthostatic_hypotension). [Tilt-Table Test](https://en.wikipedia.org/wiki/Tilt_table_test) was positive. Other tests were negative (did not get a [QSART](https://en.wikipedia.org/wiki/Sudomotor) till a decade later!).
+
+Over the next few year the autonomic symptoms worsened slowly and I began to notice other symptoms. I couldn't feel 'wet' anymore, anything wet simply felt cold. I started dropping cups of water. I would get these strange shooting pains. The 'spiciness' from mild hot sauce would last for _hours_. I had a [nerve conduction study](https://en.wikipedia.org/wiki/Nerve_conduction_study) and [EMG](https://en.wikipedia.org/wiki/Electromyography) which returned inconclusive (important later!). 3 years later I had _another_ inconclusive NCS/EMG which showed slightly worse results than previously, but not enough to make a definitive diagnosis. More and more symptoms until a [skin punch nerve biopsy](https://en.wikipedia.org/wiki/Skin_biopsy) returned positive for _severe_ small fiber neuropathy.
+
+Over the last 3 years I've started falling when walking. Tremors in my hands near the end of every day. Muscle twitches that look like small animals furtively engaging in sporting activities under my skin. Stuttering in common motions.
+
+A month before writing this post I had a positive [Nerve Conduction Study](https://en.wikipedia.org/wiki/Nerve_conduction_study) that showed moderate large fiber neuropathy.
+
 ## Cause
 
 I've been tested for nearly everything other the sun.
@@ -69,7 +89,7 @@ I've written about symptoms before, and those have mostly remain unchanged or be
 This is a list of what I experience, not necessarily all of the potential symptoms.
 
 * Autonomic Neuropathy
-  * General Hypotension - 85/50 on average
+  * General Hypotension - 85/50 on average. 100/60 on a good day.
   * [Orthostatic Hypotension](https://en.wikipedia.org/wiki/Orthostatic_hypotension)
   * Postprandial hypotension
   * [Bradycardia](https://en.wikipedia.org/wiki/Bradycardia) - Resting HR in the upper 40s.
@@ -85,6 +105,7 @@ This is a list of what I experience, not necessarily all of the potential sympto
      * Fleeting, _intense_ burning pain
   * [IBS](https://en.wikipedia.org/wiki/Irritable_bowel_syndrome)-like symptoms.
   * [Allodynia](https://en.wikipedia.org/wiki/Allodynia) - Specifically cold things feel painful rather than cold.
+  * Fiery nerve pain - The sensation of hot oil shooting through an artery. Sometimes quick, sometimes lasting for hours. Happens seemingly randomly, including when asleep.
 * Large Fiber Neuropathy
   * [Propioceptive dysfunction](https://en.wikipedia.org/wiki/Proprioception)
   * [Sensory Ataxia](https://en.wikipedia.org/wiki/Sensory_ataxia)
@@ -139,13 +160,22 @@ Medications marked with an **X** did not work.
   * [Neurontin](https://en.wikipedia.org/wiki/Gabapentin) - I switch between these two medications. It seems that one will lose effectiveness and switching to the other provides a renewed relief of symptoms.
 * [Sectral](https://en.wikipedia.org/wiki/Acebutolol) - Manages orthostatic hypotension well.
 * [Synthroid](https://en.wikipedia.org/wiki/Levothyroxine) (Brand name only) - Generic causes stomach issues and headaches. Has worked well for managing hypothyroidism.
-* [Profivil](https://en.wikipedia.org/wiki/Modafinil) and [Nuvigil](https://en.wikipedia.org/wiki/Armodafinil) - Sleeping with chronic pain is difficult. I've been able to both increase the quality of my sleep and increase the quality of my waking cognition with either of these medications. No single medication has improved my life more than these.
+* [Provigil](https://en.wikipedia.org/wiki/Modafinil) and [Nuvigil](https://en.wikipedia.org/wiki/Armodafinil) - Sleeping with chronic pain is difficult. I've been able to both increase the quality of my sleep and increase the quality of my waking cognition with either of these medications. No single medication has improved my life more than these.
+* [Metaxalone](https://en.wikipedia.org/wiki/Metaxalone) - Helps mildly when muscle twitching/tremors are bad. Prevents the cramps and soreness that happens after long-term muscle twitching bouts.
+* [Bentyl](https://en.wikipedia.org/wiki/Dicycloverine) - Seems to reduce _most_ symptoms, with no side effects. I can not take this with [CGRP medications](https://en.wikipedia.org/wiki/Calcitonin_gene-related_peptide_receptor_antagonist) as it complicates the side effect of constipation.
+* **X** [Celebrex](https://en.wikipedia.org/wiki/Celecoxib) - Stomach discomfort. No benefit.
+* **X** [Indometacin](https://en.wikipedia.org/wiki/Indometacin) - No benefit.
+* **X** [Low Dose Naltrexone](https://en.wikipedia.org/wiki/Low-dose_naltrexone) - Difficulty sleeping, no benefit.
+* **X** [Flexeril](https://en.wikipedia.org/wiki/Cyclobenzaprine) - No benefit. Excessive sleepiness.
 * **X** [Elavil](https://en.wikipedia.org/wiki/Amitriptyline) - Pronounced sleepiness. Mild pain relief.
 * **X** [Cymbalta](https://en.wikipedia.org/wiki/Duloxetine) - No relief. Moderate increase in sweating.
 * **X** [Savella](https://en.wikipedia.org/wiki/Milnacipran) - Fervent sweating.
 * **X** [Ultram](https://en.wikipedia.org/wiki/Tramadol) - No pain relief, increased compulsive behaviours. Abused this medication, withdrawal was hell.
 * **X** [Tylenol 3](https://en.wikipedia.org/wiki/Codeine/paracetamol) - No benefit, anxiety.
 * **X** [Tegretol](https://en.wikipedia.org/wiki/Carbamazepine) - No benefit, drowsiness.
+* **X** [Plaquenil](https://en.wikipedia.org/wiki/Hydroxychloroquine) - Taken with the thought that the neuropathy might be caused by an autoimmune condition. I took this for a year with no benefit, and no side effects.
+* **X** [Florinef](https://en.wikipedia.org/wiki/Fludrocortisone) - First medication tried for raising blood pressure and reducing orthostatic hypotension. Increased panic attack frequency, unsure why.
+* **X** [Proamitine](https://en.wikipedia.org/wiki/Midodrine) - Worked well for BP, but caused intense tingling in the scalp which was compounded by other medications being taken at the time.
 
 OTC:
 
@@ -162,7 +192,7 @@ OTC:
 ### Lifestyle
 
 * Sit/Stand Desk - Recommended by Dr, paradoxically has been a great benefit. Standing while working for even a few minutes at a time reduces pain in hands. Changes in posture seem to reduce severity of muscle twitches, even in muscles that aren't involved in the posture change.
-* Calligraphy - I've taken up calligraphy to help practice and retain fine motor control in my hands. It has been quite effective.
+* Calligraphy - I've taken up calligraphy to help practice and retain fine motor control in my hands. It has been effective thusfar, and it's enjoyable.
 * Note taking - I have switched my note taking from typing in [Orgmode](https://orgmode.org) to physically writing in a [notebook](https://www.jetpens.com/Maruman-Mnemosyne-N195A-Special-Memo-Notebook-A5-7-mm-Rule/pd/4585) with one of my favorite [pens](https://www.jetpens.com/TWSBI-Diamond-580-Smoke-Rose-Gold-Fountain-Pen-Medium-Nib/pd/29652) or [pencils](https://www.jetpens.com/Rotring-600-Lead-Holder-Drop-System-2-mm-Silver-Body/pd/8046). I retain use of my hands for much longer taking notes this way.
   * It has taken conscious practice handwriting, around 30-60 minutes a day, to develop and maintain habits that do not lead to increased tension or loss of sensation.
 * [Resistance band training](https://www.amazon.com/gp/product/B012ZWS9DA/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Almost any exercise leads to muscle twitching and weakness. I've found that resistance bands offer me the most workout time for the least post-workout symptoms. High reps, low resistance, slow movements.
@@ -282,7 +312,9 @@ None.
 ### Pharmaceutical
 
 * [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not work great for migraines. Excellent reduction in Cluster Headache frequency.
+  * Caused constipation
 * [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Only 2 doses (months) in. Undetermined
+  * Caused constipation
 
 ### Lifestyle
 
@@ -368,6 +400,7 @@ Medications marked with an **X** did not work.
 **Preventatives**
 
 * **X** [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not help with migraines.
+  * Caused constipation
 * [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Only 2 doses (months) in. Undetermined
 * [Topamax](https://en.wikipedia.org/wiki/Topiramate) - Intolerable tingling on my scalp. Was unable to continue.
 
@@ -475,7 +508,8 @@ Medications marked with an **X** did not work.
   * Every other Benzo that I've tried has made the panic _worse_.
 * [Atarax](https://en.wikipedia.org/wiki/Hydroxyzine) - 25-50mg has been the best panic abortive that I have used.
 * [Sectral](https://en.wikipedia.org/wiki/Acebutolol) - I had already been taking Sectral for autonomic concerns, and it is not usually prescribed for panic or anxiety. I was advised to try increasing my dose and it reduced frequency of panic attacks.
-* **X** [Buspirone](https://en.wikipedia.org/wiki/Buspirone) - did nothing.
+* **X** [Trazodone](https://en.wikipedia.org/wiki/Trazodone) - Made me feel like mud and nothing else.
+* **X** [Buspirone](https://en.wikipedia.org/wiki/Buspirone) - nothing.
 * **X** [Lexapro](https://en.wikipedia.org/wiki/Escitalopram) - Mild reduction in severity, but not frequency of panic attacks. Caused impotence, a feeling of imbalance and somnolence.
 * **X** [Celexa](https://en.wikipedia.org/wiki/Citalopram) - Identical experience to Lexapro.
 * **X** [Klonopin](https://en.wikipedia.org/wiki/Clonazepam) - Increased all symptoms for me, short-term developed psychological symptoms during the attack.
@@ -497,6 +531,8 @@ The severity of the disorder was diagnosed relative to my insistence/avoidance o
 
 There can be a cascade of diagnosises from a single initial diagnosis. For instance, I've had difficult with [Obsessive Compulsive Disorder](#obsessive-compulsive-disorder) symptoms since I was young, and I developed a variety of ways to reduce their impact on my life or how to hide them. It wasn't until I developed [Panic Disorder](#panic-disorder) later in life that I saw a psychologist that quickly picked up on the OCD symptoms.
 
+The OCD gets in my way constantly, and it prevents me from doing things that I might otherwise do. However, I've always been 'the weird kid' and have not suffered a hit to my self-esteem from it. This combination has lead me to not view myself as needing treatment for this disorder, and rejecting treatment for it. I have come to view some of these symptoms, sans the fear and anxiety they bring, as core to my identity.
+
 ## Cause
 
 Unknown. I have had symptoms since I can remember. I was not made aware that these were symptoms of OCD (let alone abnormal behaviours!) until I was in my 30s.
@@ -505,7 +541,8 @@ Unknown. I have had symptoms since I can remember. I was not made aware that the
 
 * Intrusive thoughts about air vehicle disasters - Often I would develop a sudden and intense fear that some vehicle would fall from the sky and kill me unless I did some small task. Something as small as aligning a pen with the edge of the table.
   * This is coupled with all other things listed, i.e. if I do not 'do that thing', then something will fall from the sky and kill me.
-* Pairs - I have to buy everything in pairs, or in what I decide is a "pair". These may not be identical items, but some attribute which I arbitrarily decide makes a pair.
+* Pairs - I have to do everything in pairs, or in what I decide is a "pair". These may not be identical, but some attribute which I arbitrarily decide makes a pair. I've become adept at finding the appropriate classification to make something 'a pair' to ease the associated negative psychological state that would arise from a single thing or action.
+  * This has lead to some _extreme_ overspending in a few cases where I've 'had' to get pairs of pairs of pairs, or spent a premium to acquire a pair of something.
 * Eating - **every** meal I prepare for myself includes an internal fight over whether it's enough food or not, with an intrusive theme of starvation. 
   * I have managed to reframe this as a fear of being overweight, resulting in quick consistent weight loss. I have cycled between 160lbs and 325lbs _twice_ because of this in <10 years. My weight has varied a total of over 500lbs in that time period.
 * Alignment - I don't mind if things are generally unaligned or disorganized, but I will often fixate on a single item and _need_ to align it.
@@ -513,10 +550,15 @@ Unknown. I have had symptoms since I can remember. I was not made aware that the
   * Sometimes I will remove all of the food from my plate/basket/wrapper and re-align so things are colinear or coplanar.
 * Touching - I do _not_ touch other people except my wife, or my brother. I can force myself to shake hands, and I will need to clean my hands immediately. I **DO NOT** like being touched by other people, in any circumstances. I become irrationally upset and feel dirty.
   * I used to carry extra clothing with me in a backpack, or in a van, so I could change if someone touched me.
+  * Refusing handshakes has lead to some awkward situations, and at least one lost job opportunity.
 * Tuning - I can not handle an instrument which is not tuned in some regular fashion (not necessarily [12-tet](https://en.wikipedia.org/wiki/Equal_temperament)). I have to tune the instrument, or leave the area.
   * A funny/interesting exception is that I can leave my wife's guitar in an out-of-tune state. It doesn't bother me at all.
 * Organization - I will obsessively organize information to absurd degrees (well beyond what you see on this website). For any given spreadsheet, article or video, you can be certain that there's excessive notes that I had to distill to get to that point.
-* Scheduling - For a long period of time I would schedule _every_ aspect of my life. If the schedule deviated then I would become angry and rush to re-schedule everything. Since the neuropathies have begun affecting my life, it has become overwhelming to constantly reschedule self-imposed deadlines that I did not meet. I still schedule a lot of things, but the associated fear and anger has subsided a bit, and continues to subside.
+  * Scheduling - For a long period of time I would schedule _every_ aspect of my life. If the schedule deviated then I would become angry and rush to re-schedule everything. Since the neuropathies have begun affecting my life, it has become overwhelming to constantly reschedule self-imposed deadlines that I did not meet. I still schedule a lot of things, but the associated fear and anger has subsided a bit, and continues to subside.
+* Re-reading - I get stuck in a loop reading things. If I don't feel that I understand _every_ word, I'll read it again. Sometimes I can not do anything but walk away as I can't force myself to the next sentence without feeling an overwhelming sense of dread.
+  * Clearly this is detrimental when the information that clarifies is just one sentence away.
+  * When I write, I look away from the screen or paper or I will get stuck in a loop from trying to read an incomplete sentence.
+    * A nice side effect of this is that I can write straight on an unlined surface :)
   
 All of these symptoms come with a building fear that if I don't do it, some indistinct negative outcome will befall me. Sometimes it's a fierce fear that triggers an anxiety attack (but not a [panic attack](#panic-disorder)).
 
@@ -528,7 +570,7 @@ I do avoid situations where there might be touching (handshaking) or close proxi
 
 ## Mitigations
 
-Symptom Specific.
+Symptom Specific. I just work around it. I don't think I've ever been embarrassed about any of these things, and I've become rather proud of a few of them.
 
 ### Diet
 
