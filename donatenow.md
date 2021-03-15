@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: static-post
 title: Help us!?
 permalink: /DonateNow/
 ---
