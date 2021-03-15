@@ -34,9 +34,32 @@ comments: true
   <div class="post-content" itemprop="articleBody">
     {{ content }}
   </div>
-  
+
 
 </article>
+
+<div class="pagination paginate-post" style="margin-bottom:50px;top: -20px;">
+  {% if page.previous.previous.url %}
+  <span class="previous">
+    <a href="{{ page.previous.previous.url }}" class="previous">
+      &laquo;&nbsp; {{page.previous.previous.title}}
+    </a>
+    </span>
+  {% else %}
+    <span class="previous">Nothing older</span>
+  {% endif %}
+  <span class="page_number">
+  </span>
+  {% if page.next.next.url %}
+    <span class="next">
+    <a href="{{ page.next.next.url }}" class="next">{{page.next.next.title}}&nbsp;&raquo;</a>
+    </span>
+  {% else %}
+    <span class="next ">
+      Nothing newer
+    </span>
+  {% endif %}
+</div>
 
 If you appreciate the information presented then <a href="/DonateNow/">please consider joining patreon or donating money/time</a>
 

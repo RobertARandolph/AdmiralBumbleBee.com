@@ -727,6 +727,15 @@ h2 .post-link {
     }
 }
 
+.paginate-post {
+    flex-wrap: wrap;
+    .previous,
+    .page_number,
+    .next {
+        width: 100%;
+    }
+}
+
 .pagination {
     display: flex;
     width: 100%;
@@ -745,6 +754,10 @@ h2 .post-link {
         @include media-query($on-palm) {
             font-size: 15px;
         }
+    }
+
+    .next {
+        text-align: right;
     }
 }
 

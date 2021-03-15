@@ -32,8 +32,10 @@ I wanted to add more "Site Features" (static pages that are constantly updated) 
     * Remove section hierarchy in posts
     * Add dynamic in-page breadcrumbs
       * On desktop as you scroll, the current header and sub-headers attache to the top of the screen to display your reading position in the outline.
+      * This breaks all of the [interviews pages](/tags/?year=false#Interviews). I'm aware. I don't have a fix yet.
   * Pagination is back.
     * I set it to paginate in 20... but it's only showing 10. I'm skeptical. Please let me know if it's broken :)
+  * Each post has a previous/next post button at the botton now.
   * Themes
     * New Theme Color - Dark Green!
     * Updated theme pickers with indicator
