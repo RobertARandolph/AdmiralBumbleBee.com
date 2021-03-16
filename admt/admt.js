@@ -147,4 +147,4 @@ var admt = (function () {
     };
 })();
 
-window.addEventListener("load", admt.write_css);
+window.addEventListener("DOMContentLoaded", admt.write_css);
