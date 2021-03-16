@@ -284,6 +284,7 @@ pre {
     justify-content: flex-start;
     position: absolute;
     top: 0px;
+    width: 100%;
 }
 
 /**
@@ -292,16 +293,17 @@ pre {
 .page-content {
     margin-top: 10px;
     padding: 0px;
-    flex: 0 2 1050px;
+    flex-basis: 100%;
 }
+
 
 /**
  * Wrapper
  */
 .wrapper {
+  max-width: 1050px;
   margin-top: 10px;
-  padding-right: 8%;
-  padding-left: 8%;
+  margin-left: 15%;
 
   @include media-query($on-palm) {
     max-width: 100%;
