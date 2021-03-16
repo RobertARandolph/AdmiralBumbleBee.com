@@ -4,10 +4,7 @@ title: Health
 comments: true
 categories: general
 tags: ['Health']
-image:
-description:
-header:
-header-caption:
+permalink: /health/
 ---
 
 **Last Updated** - {{ page.last_modified_at | date: '%Y %B %d' }}

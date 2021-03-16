@@ -46,7 +46,7 @@ I wanted to add more "Site Features" (static pages that are constantly updated) 
     * Fixed all sorts of weird stuff I missed
       * My wife found them, thank you.
 * New feature!
-  * [Health](/Health/) - I get a few e-mails a week about my health, so I thought I'd put up a full page about it. My hope is that this disclosure will help other people with similar problems navigate their options and know they are not alone.
+  * [Health](/health/) - I get a few e-mails a week about my health, so I thought I'd put up a full page about it. My hope is that this disclosure will help other people with similar problems navigate their options and know they are not alone.
 * Updated [About page](/about/)
 * Updated [Favourites](/Favourites.html) - specifically the [EDC section](/Favourites.html#every-day-carry) (and some other minor updates)
 * Added "Last Updated" to all static pages.
