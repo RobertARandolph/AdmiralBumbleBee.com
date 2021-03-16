@@ -304,6 +304,7 @@ pre {
   max-width: 1050px;
   margin-top: 10px;
   margin-left: 15%;
+  margin-right: 10%;
 
   @include media-query($on-palm) {
     max-width: 100%;
