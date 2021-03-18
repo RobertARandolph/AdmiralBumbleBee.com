@@ -12,8 +12,9 @@ Hey. My name is Robert Randolph.
 
 * Develop software in...
 	* [Clojure](https://clojure.org) and Java for desktop.
-	* C/asm for AVR and ARM microcontroller platforms
+	* C/asm for ~~PIC,~~ AVR and ARM microcontroller platforms
     * Javascript.
+    * ~~Java~~
 	* ~~[Common Lisp](https://common-lisp.net) for desktop and web.~~
 	* ~~Haskell for fun.~~
         * ~~I'm current playing with [Nim](https://nim-lang.org) for fun now.~~
@@ -40,23 +41,53 @@ Hey. My name is Robert Randolph.
 	* ~~Nope. As of February 2018 I'm back to using emacs and [Evil Mode](https://github.com/emacs-evil/evil). VS Code is awesome software, but the VIM layer is just not as good as I need. I also really miss things like [Ivy](https://github.com/abo-abo/swiper), [Key Chords](https://www.emacswiki.org/emacs/KeyChord) and having relative line numbers in normal mode, and absolute line numbers in insert mode. It's built in to my consciousness.~~
 	* ~~Nope... using VSCode again. Vim bindings don't seem to suck as much anymore, [Calva](https://marketplace.visualstudio.com/items?itemName=betterthantomorrow.calva) is pretty awesome. The 'out of the box' cross-language capabilities are just too good to ignore.~~
     * Nope. Emacs user. That's it, emacs for life. I'm done with it.
-
 * Workshop
 	* I have a pretty nice workshop where I build all sorts of things that you'll see here.
-    
 * Cook
 	* I do a lot of the cooking in the house, and I quite enjoy it.
-    
 * Gardening
   * Our property is covered in greenery, and we grow food all year long.
   * I particularly enjoy plants that are dangerous in some manner. Toxic, skin irritants, stinging, etc...
   
 # What I've done
 
-* Design, manufacture and compete with ultra-high quality sport kites.
+This is a partial list...
+
+* Session Musician
+  * Electric Bass
+  * Percussion (drum kit, keyed)
+* Recording Engineer
+* Mixing Engineer
+* Guest Lecturer and/or Keynote speaker
+  * Modern Synthesis Techniques
+  * SVF Filter Implementation (functional)
+  * Mix Troubleshooting
+  * Electric Bass Setup for Tonal Adjustment
+  * Anatomy and Ergonomics for Electric Bass
+  * Physical Sound Design through Equipment Selection (Percussion)
+  * Detecting and Correcting the Progression of Nerve Issues for Electric Bass
+  * Relearning to Play an Instrument after 20 years (Electric Bass)
+  * Sound Design from the Ground Up
+  * Affordance in GUI Design
+  * Learning to Write for Beginners
+* Audio Software Planning Consultation
+* Blackbox Analysis of Audio Software
+  * Video Presentations
+  * Longform Essary
+* Technical Writer
+* Clojure Developer
+* Video-based Education (self-written animation and render system)
+  * Database
+  * Programming Language
+* Java consultation
+  * Banking Backend
+  * Banking Communication Systems
+  * Form Design Application(s)
+* Optimization of applications on PIC and AVR platforms.
 * Industrial Automation consultation.
+* Design, manufacture and compete with ultra-high quality sport kites.
 * Macrophotography instrumentation design and manufacture.
-* Regional Manager of a national pizza chain.
+* Regional Manager of a national pizza chain. :)
 
 # Where I am
 
