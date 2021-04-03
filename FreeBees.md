@@ -179,11 +179,11 @@ These are plug-ins that you can acquire without needing to spend money.
 * VST
     * [Nova](https://www.tokyodawn.net/tdr-nova/) - This is both an equalizer and a dynamic equalizer. nova is a must-have for anybody, and the only reason you wouldn't have it is if you own the [gentleman's edition](https://www.tokyodawn.net/tdr-nova-ge/)
     * [Nova-67P](https://vladgsound.wordpress.com/plugins/nova67p/) - this is the precursor to Nova, and it’s an interesting alternative. I prefer to use Nova in this case.
-    * [SlickEQ](https://www.tokyodawn.net/tdr-vos-slickeq/) - it took me a while to warm up to this product, but I now use the [gentleman's addition](https://www.tokyodawn.net/tdr-vos-slickeq-ge/) as my secondary most used EQ. Get it.
+    * [SlickEQ](https://www.tokyodawn.net/tdr-vos-slickeq/) - it took me a while to warm up to this product, but I now use the [gentleman's edition](https://www.tokyodawn.net/tdr-vos-slickeq-ge/) as my secondary most used EQ. Get it.
     * [PTeq-x](https://www.kvraudio.com/product/pteq-x-by-ignite-amps) - _amazing_ sounding EQ. Must have.
     * [SonEQ](https://sonimus.com/products/soneq/) - My favorite free simple hardware-like EQ.
     * [Overtone GEQ](https://www.voxengo.com/product/overtonegeq/) - this is not _just_ a graphical equalizer, it had some nice harmonics to you whatever you do.
-    * [Luftikis](https://www.kvraudio.com/product/luftikus-by-lkjb) - german for “airhead”, it’s an apt name. Maag eq4 is the commercial equivalent, but Luftikis is a fine alternative.
+    * [Luftikus](https://www.kvraudio.com/product/luftikus-by-lkjb) - german for “airhead”, it’s an apt name. Maag eq4 is the commercial equivalent, but Luftikis is a fine alternative.
     * [sTilt](https://www.tb-software.com/TBProAudio/stilt.html) - this is what's called a tilt-shift filter. It equally reduces high and low end inversely proportional to each other.
     * [QRange](https://lkjbdsp.wordpress.com/qrange/) - Interesting linear phase equalizer having a bit of a laugh at [ThEQorange](https://www.maat.digital/theqorange/). However, it's still worth a try.
 
