@@ -18,7 +18,7 @@ I've been working for 2.5 weeks on a new post, and I thought I'd give an update 
 * My dev environment doesn't work again because of another refactoring commit. ~4 hours.
 * Audio Interface that I use for testing does not work
   * The device would stop playback on certain songs (!!)
-  * Turns out that 0dbFS at a specific frequency range would cause the device to attempt to reboot but fail.
+  * Turns out that multiple 0dbFS samples at a specific frequency range would cause the device to attempt to reboot but fail.
   * After 5 hours of tinkering - a bad diode.
 * My MCU that I use for latency testing doesn't turn on. I can't find the code that was on it.
   * Order new device and wait.
@@ -51,4 +51,4 @@ I'll get there. It's been rough.
 This post took:
 
 * 30 minutes to write.
-* ~44 hours of frustration.
+* ~47 hours of frustration.
