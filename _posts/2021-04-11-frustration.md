@@ -35,6 +35,8 @@ I've been working for 2.5 weeks on a new post, and I thought I'd give an update 
 * Broke my new leg braces. -10 to Stamina. Wait 3 days until they can be fixed.
 * Get sidetracked dreaming about a new comment system for the site. ~5 hours
 * Start writing an article about FLStudio to realize that I don't want to spend my time that way. ~5 hours.
+* Try to fix the headers on this site that are too long. ~2 hours.
+  * Not yet fixed. I don't have an idea that seems to work, let alone an implementation.
 
 
 This isn't twitter, but here I am: complaining.
@@ -48,4 +50,4 @@ I'll get there. It's been rough.
 This post took:
 
 * 30 minutes to write.
-* ~35 hours of frustration.
+* ~37 hours of frustration.
