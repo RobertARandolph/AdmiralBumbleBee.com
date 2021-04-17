@@ -84,7 +84,7 @@ I will only be forgiving issues with the GUI, these plug-ins must still sound as
 ## DAWs
 
 * [Ardour](http://ardour.org) - The premier libre audio software.
-* [Q-Tractor](https://qtractor.sourceforge.io) - I used Q-tractor for a few hours and found it to be a surprisingly complete DAW for genearl purpose work.
+* [Q-Tractor](https://qtractor.sourceforge.io) - I used Q-tractor for a few hours and found it to be a surprisingly complete DAW for general purpose work.
 * [Radium](http://users.notam02.no/~kjetism/radium/) - open source tracker with a lot of modern features, this is really cool software!
 
 ## Audio Software
