@@ -81,6 +81,7 @@ Both nearly identical behaviour.
 
 * [Mixbus 6.1]({% post_url 2020-11-08-DAW-v-DAW-7-Mixbus %}) - Exponentially increasing latency with buffer size. 
     * Also the longest latency at all buffer sizes in my tests.
+    * **IMPORTANT** - [Read an updated post]({% post_url 2021-03-27-4-posts-with-Mixbus-7 %}), with Mixbus 7 and repeated tests for Mixbus 6
 * [FLStudio 20.7]({% post_url 2020-11-03-DAW-v-DAW-7-FLStudio %}) performed the worst. High latency _and_ jitter.
 * [Studio One 5.1 ]({% post_url 2020-11-12-DAW-v-DAW-7-Studio-One %}) - Had a bit more latency than other products, but it also had the _most configurability_. This is important because buffering isn't _all about MIDI_.
 * If you care about live playback accuracy of MIDI Data, then [Reaper 6.1]({% post_url 2020-11-11-DAW-v-DAW-7-Reaper %}) and [Bitwig 3.2 ]({% post_url 2020-11-07-DAW-v-DAW-7-Bitwig %}) are your best choice as of the date of these tests.

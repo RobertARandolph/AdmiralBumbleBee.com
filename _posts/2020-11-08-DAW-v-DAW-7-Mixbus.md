@@ -16,6 +16,8 @@ Next up in the latency/jitter testing is Mixbus!
 
 If you don't understand what this is, please [read the introduction post]({% post_url 2020-10-25-daw-v-daw-721 %}) (This article is being updated if/when changes are made!).
 
+**IMPORTANT** - [Read an updated post]({% post_url 2021-03-27-4-posts-with-Mixbus-7 %}), with Mixbus 7 and repeated tests for Mixbus 6
+
 **Other parts in this series:**
 
 {% assign latency = site.posts | where: "series", "latency" | sort: 'date' %}
@@ -36,6 +38,8 @@ If you don't understand what this is, please [read the introduction post]({% pos
 {:toc}
 
 # Introduction
+
+**IMPORTANT** - [Read an updated post]({% post_url 2021-03-27-4-posts-with-Mixbus-7 %}), with Mixbus 7 and repeated tests for Mixbus 6
 
 [Read the introduction post]({% post_url 2020-10-25-daw-v-daw-721 %}). I have updated this post since it was originally published.
 
