@@ -43,6 +43,8 @@ For this round I used [MSoundFactory](https://www.meldaproduction.com/MSoundFact
 
 Previous tests were done with **Limiter On**, because that is the default state of Mixbus when you open a project. I have added additional testing without the limiter this round.
 
+**REMEMBER** - These numbers only mean something relative to each other _on my system_. Your audio device and system may have _different_ latency numbers. If you want to see how each DAW stacks up relative to each other, please check the other articles in this series for a _relative_ comparison.
+
 Reminder, don't trust dweebs on the internet. Do the tests yourself, or at least double check my [data](#data).
 
 # Results
