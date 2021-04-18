@@ -13,7 +13,7 @@ header-caption:
 
 [Mixbus 7 is out](https://www.gearslutz.com/board/new-product-alert/1347220-harrison-introduces-mixbus32c-version-7-tapex-quot-tracking-performing-experience-quot.html) and I'll be exploring the new feature(s) in the next 4 posts.
 
-Since Harrison claims that Mixbus 7 has lower latency, Let's start it off with [the elephant in the room]({% post_url 2020-11-08-DAW-v-DAW-7-Mixbus %}): Mixbus latency.
+I've heard that Mixbus 7 might have better latency, so let's start it off with [the elephant in the room]({% post_url 2020-11-08-DAW-v-DAW-7-Mixbus %}): Mixbus latency.
 
 **Other parts in this series:**
 
