@@ -9,6 +9,7 @@ image:
 description: Exploring Mixbus 7's Latency.
 header:
 header-caption:
+series: mb7
 ---
 
 [Mixbus 7 is out](https://www.gearslutz.com/board/new-product-alert/1347220-harrison-introduces-mixbus32c-version-7-tapex-quot-tracking-performing-experience-quot.html) and I'll be exploring the new feature(s) in the next 4 posts.
@@ -17,9 +18,9 @@ I've heard that Mixbus 7 might have better latency, so let's start it off with [
 
 **Other parts in this series:**
 
-{% assign latency = site.posts | where: "series", "latency" | sort: 'date' %}
+{% assign mb7 = site.posts | where: "series", "mb7" | sort: 'date' %}
 <ul>
-{% for my_page in latency %} 
+{% for my_page in mb7 %} 
     {% if page.url != my_page.url and my_page.layout != "reader" %}
         <li><a class="page-link" href="{{ my_page.url | prepend: site.baseurl }}">{{ my_page.title | split: '-' | last }}</a></li>
     {% endif %}
@@ -240,8 +241,6 @@ I did a quick test at 128 sample buffer.
 
 This appears to indicate that, on my test setup at least, the lowered latency only appears to be at the 64-sample buffer size.
 
-
-
 # Meta
 
 This post took:
@@ -250,3 +249,9 @@ This post took:
   * The tests were run, in full, 3 times. 
   * I spot checked multiple tests due to the slipping buffers.
 * 12 hours to write the post.
+
+# Disclaimer
+
+I chat with Mixbus and Ardour devs often. I was given a license for Mixbus 7 and 32c, however I purchased the product with my own money with intent to use it.
+
+If you feel these circumstances may have coloured the content, please leave a comment below.
