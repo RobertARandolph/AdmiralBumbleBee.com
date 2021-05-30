@@ -306,7 +306,7 @@ If the control was "Monitor Channel" then I wouldn't be as bothered, but I would
 
 This article has been more of an overview than a review, and that's intentional. These features are obviously useful to the audience that they're targeted at, and they are executed well.
 
-If you read this article and you think the existence of the TapeX workflow is ridiculous, then it probably is for you.
+If you read this article and you think the existence of the TapeX workflow is ridiculous, then it probably is ridiculous... for you.
 
 Despite half the content being the [complaints](#complaints) section, I think it's remarkable and well-done (minus the "[Input Monitoring](#input-monitoring-label)"). If there were physical buttons to press, then it would be a nearly ideal _recording_ environment for me. As far as digital solutions go, it's among the best I know of.
 
