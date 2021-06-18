@@ -165,7 +165,7 @@ It is worth trying slightly more or slightly less distance if you try the string
 
 Unlike other strings, you must deal with _both_ ends of PSD strings. You assemble the ball-end side yourself.
 
-If you are feeling particularly persnickety then I would suggest lightly sanding the small hole on the large code. The string will exit through that, and they can be a bit rough from the factory.
+If you are feeling particularly persnickety then I would suggest lightly sanding the small hole on the large end. The string will exit through that, and they can be a bit rough from the factory.
 
 ## Bending - Step 1
 
