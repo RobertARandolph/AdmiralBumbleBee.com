@@ -609,6 +609,7 @@ h2 .post-link {
     h1, h2, h3, h4, h5 {
         color: $text-color;
         background-color: $container-background;
+        max-width: 100%;
     }
 
     .header-sticky {
@@ -648,7 +649,7 @@ h2 .post-link {
 
     h1 {
         font-size: 40px;
-        height: 40px;
+        height: auto;
         font-weight: 600;
         border-bottom: 3px solid rgb(0, 0, 0);
         padding-bottom: 5px;
@@ -670,7 +671,7 @@ h2 .post-link {
 
     h2 {
         font-size: 30px;
-        height: 35px;
+        height: auto;
         border-bottom: 2px solid rgb(200, 200, 200);
         padding-bottom: 5px;
         @include media-query($on-palm) {
@@ -690,7 +691,7 @@ h2 .post-link {
 
     h3 {
         font-size: 30px;
-        height: 35px;
+        height: auto;
         border-bottom: 1px solid rgb(200, 200, 200);
         padding-bottom: 5px;
         @include media-query($on-palm) {
@@ -709,7 +710,7 @@ h2 .post-link {
 
     h4 {
         font-size: 30px;
-        height: 35px;
+        height: auto;
         border-bottom: 1px solid rgb(200, 200, 200);
         padding-bottom: 5px;
         @include media-query($on-palm) {

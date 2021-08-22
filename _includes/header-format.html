@@ -1,5 +1,5 @@
 <script>
-      window.addEventListener('DOMContentLoaded', (event) =>
+  window.addEventListener('DOMContentLoaded', (event) =>
       {
           for (x=1;x<7;x++) {
               var h1s = document.getElementsByTagName("H" + x);
@@ -39,11 +39,16 @@
               el = headers[i];
               el.style.zIndex = headers.length - i;
           }
+
+          
+
       });
+
 
   (function(document, history, location) {
   var HISTORY_SUPPORT = !!(history && history.pushState);
 
+  // This is all technically broken because the offsets assume _one line_ of a header.
   var anchorScrolls = {
     ANCHOR_REGEX: /^#[^ ]+$/,
     OFFSET_HEIGHT_PX: 150,
@@ -127,6 +132,7 @@
 
                   if (rect.y < (window.innerHeight / 2)) {
                       el.target.classList.add("is-pinned-" + level);
+                      el.target.style.height = el.target.scrollHeight;
                   }
               } else {
                   el.target.classList.remove("is-pinned-" + level);
@@ -141,30 +147,61 @@
       }
 
 
-      hOffsets = [0, 0, 58, 100, 141]; // index 0 as 0, as an offset. We don't iterate over H0 :)
+          for (i = 2; i < 5; i++) {
+          let hs = document.querySelectorAll(".post-content .header-sticky-" + i);
+              for (j = 0; j < hs.length; j++) {
+                  let e = hs[j];
+                  let tp = 0;
+                  if (i > 2) {
+                      // cycle through and accumulate the heights of the top level headers
 
-      for (i=1;i<hOffsets.length;i++) {
-          x = hOffsets[i];
+                      let itr = e;
+                      for (k = i; k < 5; k++) {
+                          hdr = itr.parentElement.parentElement.children[0];
+                          tp += hdr.scrollHeight + 1; // Get the first Hx element under the parent of the parent. This is the 'above' header element.
+                          itr = hdr;
+                      }
 
-          rm = `-${x + 1}px 0px 0px 0px`
-          console.log(`Updating H${i} with ${x + 1}`)
-
-          let observer = new IntersectionObserver( 
-              observer_update,
-              { threshold: 1,
-                rootMargin: rm}
-          );
-
-          let hs = document.querySelectorAll("h" + i)
-          if (i == 2)
-              var itr = 1
-          else
-              var itr = 0
-
-          for (y=itr;y < hs.length;y++) {
-              observer.observe(hs[y]);
+                  } else {
+                      tp = e.parentElement.parentElement.children[0].scrollHeight + 4; // Get the first Hx element under the parent of the parent. This is the 'above' header element.
+                  }
+                  e.style.top = tp - 4 + "px";
+                  //e.style.height = e.scrollHeight + "px";
+    
+                  let observer = new IntersectionObserver( 
+                      observer_update,
+                      { threshold: 1,
+                        rootMargin: (-2 - tp) + "px"}
+                  );
+             
+                  observer.observe(e);
+              }
           }
-      }
+
+  //     hOffsets = [0, 0, 58, 100, 141]; // index 0 as 0, as an offset. We don't iterate over H0 :)
+
+  //     for (i=1;i<hOffsets.length;i++) {
+  //         x = hOffsets[i];
+
+  //         rm = `-${x + 1}px 0px 0px 0px`
+  //         console.log(`Updating H${i} with ${x + 1}`)
+
+  //         let observer = new IntersectionObserver( 
+  //             observer_update,
+  //             { threshold: 1,
+  //               rootMargin: rm}
+  //         );
+
+  //         let hs = document.querySelectorAll("h" + i)
+  //         if (i == 2)
+  //             var itr = 1
+  //         else
+  //             var itr = 0
+
+  //         for (y=itr;y < hs.length;y++) {
+  //             observer.observe(hs[y]);
+  //         }
+  //     }
   });
 
 
