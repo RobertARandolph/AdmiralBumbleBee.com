@@ -16,7 +16,7 @@ Just a small update so my readers know why I haven't written much in the last 2 
 
 * Exhaustion - Working 8-10 hours a day writing software and documentation means that my physical ability to continue writing on my website is diminished.
   * I use speech to text most of the day, and after 7-10 hours I'm already mentally _and orally_ fatigued from the process. I need to switch my mental process to something else.
-  * Simply sitting in front of a computer all day is curtails my appetite for engaging with a computer screen in my off hours.
+  * Simply sitting in front of a computer all day curtails my appetite for engaging with a computer screen in my off hours.
 * Software - I was unable to build and deploy this site for 6 weeks because of a dependency issue with [Jekyll](https://jekyllrb.com) on my system. I spent nearly 30 hours trying to figure it out, including attempting to completely nuke ruby from my system. Demoralizing and vexing.
   * I **STILL** don't know what's wrong. I'm on a new computer that seems to work.
     * Not being able to properly write on the same system that I do most of my music/hobby work on makes it difficult to stay motivated to write new content.
