@@ -113,6 +113,7 @@ This is a list of what I experience, not necessarily all of the potential sympto
   * [Foot Drop](https://en.wikipedia.org/wiki/Foot_drop) - recently led to a bad sprain which I've been recovering from for almost 4 months.
   * [Reduced Sensation](https://en.wikipedia.org/wiki/Hypoesthesia)
   * Weakness, primarily right side
+  * August 2021 - I'm unsure what the symptom is called. My fingers sometimes move on their own when placed on a keyboard. I'll have a thought of typing a word, and I'll type a smattering of letters in that word (or letters adjacent to letters in the word). I'm unable to control it (yet?)
 
 ## Impact
 
@@ -120,10 +121,11 @@ This is a list of what I experience, not necessarily all of the potential sympto
 * I have had frequent falls. 1-5 a month.
 * I will soon be wearing hinged AFO braces.
 I currently can play drums for approximately 10 minutes before my hands become numb and I develop tremors.
-* My feet 'stutter'. When I attempt to press a pedal there is sometimes a short lag before my foot moves.
+* My feet 'stutter'. When I attempt to press a pedal there is sometimes a short lag before my foot moves. (reduced nerve conduction velocity is likely cause)
 I can play guitar or electric bass for about 20 minutes before my fingers become numb. Primarily on my plucking hand.
 Typing is difficult. I often miskey, place my hands incorrectly or do not press keys hard enough to actuate the switch.
 * I can type for approximately 10-20 minutes before my fingers have lost all sensation of pressure.
+  * August 2021 - I've been able to improve this by switching to linear, non-clicky keyboard switches with rubber o-rings. I've done exercises to increase key accuracy so that I don't press on the edges of the keys. I can type for about 2 hours now (!).
 * I drop things frequently. I drop something that I believe I have firm hold of between 5-10 times a day.
 
 ## Mitigations
@@ -191,6 +193,14 @@ OTC:
 
 ### Lifestyle
 
+{::nomarkdown}
+<img src="/assets/Health/Braces.jpg" alt="Hinged AFOs">
+<div class="image-caption">Hinged AFOs</div>
+{:/nomarkdown}
+
+* Hinged AFOs - I wear leg braces on each leg to walk. I have [Foot Drop](https://en.wikipedia.org/wiki/Foot_drop) in _both_ legs, and coordination issues (decreased nerve conduction velocity). These allow me to walk without constantly stumbling.
+* Cane - I walk with a cane to provide a balance point for when I stumble, which happens frequently (but less severely) even with the leg braces.
+* Speech to text - I use [Talon](https://talonvoice.com) for most computer interaction. My ability to type has slowly been reduced over time, Talon has been a boon to my productivity.
 * Sit/Stand Desk - Recommended by Dr, paradoxically has been a great benefit. Standing while working for even a few minutes at a time reduces pain in hands. Changes in posture seem to reduce severity of muscle twitches, even in muscles that aren't involved in the posture change.
 * Calligraphy - I've taken up calligraphy to help practice and retain fine motor control in my hands. It has been effective thusfar, and it's enjoyable.
 * Note taking - I have switched my note taking from typing in [Orgmode](https://orgmode.org) to physically writing in a [notebook](https://www.jetpens.com/Maruman-Mnemosyne-N195A-Special-Memo-Notebook-A5-7-mm-Rule/pd/4585) with one of my favorite [pens](https://www.jetpens.com/TWSBI-Diamond-580-Smoke-Rose-Gold-Fountain-Pen-Medium-Nib/pd/29652) or [pencils](https://www.jetpens.com/Rotring-600-Lead-Holder-Drop-System-2-mm-Silver-Body/pd/8046). I retain use of my hands for much longer taking notes this way.
@@ -313,8 +323,8 @@ None.
 
 * [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not work great for migraines. Excellent reduction in Cluster Headache frequency.
   * Caused constipation
-* [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Only 2 doses (months) in. Undetermined
-  * Caused constipation
+* **X** [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Unsuccessful. No reduction in migraines nor cluster headaches.
+  * Significant constipation
 
 ### Lifestyle
 
@@ -366,7 +376,7 @@ Listed in order of frequency. Marked with a + only happen in migraines with head
 * Nausea
  [Hyperacusis](https://en.wikipedia.org/wiki/Hyperacusis) - This happens with all migraine _headaches_. I can determine fairly early if I will get a migraine _headache_ when certain sounds begin to sound unusually loud. I've recently begun to suspect that certain sounds can turn a silent migraine into a migraine headache.
   * I'm not bothered by all sounds equally. Specifically crunching/crackling/crispy sound like my head is in a giant can, and it's being crushed while I'm inside. The sound of a bag crunching sounds louder than a car crash.
-* +[Auditory Hallucinations](https://en.wikipedia.org/wiki/Auditory_hallucination) - With particularly severe migraines, I often believe I hear someone speaking in the distance, or someone whispering nearby.
+* [Auditory Hallucinations](https://en.wikipedia.org/wiki/Auditory_hallucination) - With particularly severe migraines, I often believe I hear someone speaking in the distance, or someone whispering nearby.
 
 ### Headache
 
@@ -401,7 +411,8 @@ Medications marked with an **X** did not work.
 
 * **X** [Emgality](https://en.wikipedia.org/wiki/Galcanezumab) - Did not help with migraines.
   * Caused constipation
-* [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Only 2 doses (months) in. Undetermined
+* **X** [Aimovig](https://en.wikipedia.org/wiki/Erenumab) - Unsuccessful. No reduction in migraines nor cluster headaches.
+  * Significant constipation.
 * [Topamax](https://en.wikipedia.org/wiki/Topiramate) - Intolerable tingling on my scalp. Was unable to continue.
 
 **Painkillers**
@@ -416,6 +427,7 @@ Medications marked with an **X** did not work.
 * **X** [Ubrelvy](https://en.wikipedia.org/wiki/Ubrogepant)
 * [Nurtec](https://en.wikipedia.org/wiki/Rimegepant) - Does not abort the migraine quickly for me. It takes approximately 12 hours for it to kick in, despite "1 hour" being the advertised time to action. Has aborted status migrainous for me twice with no other intervention.
 * [Maxalt](https://en.wikipedia.org/wiki/Rizatriptan) - Reduces severity well. No other effect.
+* [Reyvow](https://en.wikipedia.org/wiki/Lasmiditan) - Kills the migraine. However it also puts me to sleep. It's sometimes worth the tradeoff since it works quickly. I generally rather have a mild migraine and some level of consciousness than no migraine and no consciousness. Reyvow only provides the latter.
 
 **Other**
 
