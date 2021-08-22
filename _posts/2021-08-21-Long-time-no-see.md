@@ -28,7 +28,7 @@ Just a small update so my readers know why I haven't written much in the last 2 
   
 I've been working through my thoughts to come up with an adaptation to these changes. It's a slow process, as I'm continually skeptical of each supposed epiphany, conclusion or burst of motivation.
 
-That said, I still have 2 more Mixbus posts to finish :) I will be updating the site features ([DAW Chart](DAW-Chart.html), [DAW Wants](DAW-Wants.html) and [FreeBees](FreeBees.html)) as time and pneumonia recovery permit.
+That said, I still have 2 more Mixbus posts to finish :) I will be updating the site features ([DAW Chart](/DAW-Chart.html), [DAW Wants](/DAW-Wants.html) and [FreeBees](/FreeBees.html)) as time and pneumonia recovery permit.
 
 Along with this post, I've _hopefully_ fixed the issue with the header system. Interviews should display correctly.
 
