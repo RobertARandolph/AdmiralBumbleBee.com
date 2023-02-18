@@ -1,9 +1,9 @@
 #!/bin/zsh
 
 # Builds the site and generates PDFs for articles
-./generate-pdfs
+#./generate-pdfs
 
 # upload the site to the server
 # Shell alias for the below command
 # "rsync -aP -e 'ssh -p 32000' /my/local/path/AdmiralBumbleBee.com/_site/ uesr@myserver.com:/var/www/admiralbumblebee.com/"
-uploarsync -aP -e 'ssh -p 32000' /Users/robertrandolph/Documents/AdmiralBumbleBee.com/_site/ bumbly@68.183.125.7:/var/www/admiralbumblebee.com/d
+rsync -aP -e 'ssh' /Users/robertrandolph/Documents/AdmiralBumbleBee.com/_site/ bumbly@104.248.230.128:/var/www/admiralbumblebee.com/admiralbumblebee.com/
